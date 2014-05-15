@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+
+use strict;
+use FindBin;
+use Data::Dumper;
+use Carp;
+use LINZ::BERN::Environment;
+use LINZ::BERN::CrdFile;
+
+my $env = new LINZ::BERN::Environment;
+
+if(0)
+{
+    print "Environment:\n";
+    print Dumper(\%ENV);
+}
+if(0)
+{
+    print "\n\nMenu parameters\n";
+    print Dumper($env->params);
+}
+
+my $crdfile=$env->param('CRDFILE',1);
+my $abbfile=$env->param('ABBREV',1);
+
+if( 1 )
+{
+    print "CRDFILE: $crdfile\n";
+    print "ABBREF: $abbfile\n";
+}
+
+print "Loading station codes from $crdfile\n";
+
+my $crds=new LINZ::BERN::CrdFile($crdfile);
+
+print "Writing abbreviations to $abbfile\n";
+
+$crds->writeAbbreviationFile($abbfile);

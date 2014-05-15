@@ -1,0 +1,28 @@
+Source: linz-bernese52-util
+Section: science
+Priority: optional
+Maintainer: Chris Crook <ccrook@linz.govt.nz>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: 
+
+Package: linz-bernese52-util
+Architecture: all
+Depends: ${misc:Depends},
+    linz-bernese52,
+    liblinz-geodetic-perl,
+    liblinz-gnss-perl,
+    liblinz-bern-perl
+Description: LINZ Bernese5.2 utilities GETDATA and CREATABB
+ LINZ Bernese5.2 utilities
+ .
+ This provides LINZ utilities for the Bernese5.2 software.  
+ . 
+ The major utility is GETDATA, which provides menu functions for 
+ downloading reference station data. This stores the data in the 
+ datapool and has support for offline downloading of files.  
+ The configuration of the data sources is in ${D}/getdata.conf.
+ .
+ Also provides CREATEABB, a simple utility for regenerating
+ the station abbreviations files with guaranteed unique codes.
+    

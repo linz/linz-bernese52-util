@@ -1,0 +1,584 @@
+#!/usr/bin/perl
+
+use strict;
+use Carp;
+
+use LINZ::BERN::Environment;
+use LINZ::BERN::CrdFile;
+use LINZ::GNSS;
+use LINZ::GNSS::DataRequest qw(UNAVAILABLE PENDING DELAYED COMPLETED);
+use LINZ::GNSS::FileCache;
+use LINZ::GNSS::Time;
+use LINZ::GNSS::RinexFile;
+use Data::Dumper;
+
+if(0)
+{
+    print "Environment:\n";
+    print Dumper(\%ENV);
+}
+
+LINZ::GNSS::LoadConfig();
+my $env = new LINZ::BERN::Environment;
+
+if(0)
+{
+    print "\n\nMenu parameters\n";
+    print Dumper($env->params);
+}
+
+my $date=seconds_datetime(time(),1);
+my $sessinfo=$env->param('SES_INFO');
+my $year=$env->param('YR4_INFO');
+my $user=$env->param('USER');
+my $title=$env->param('TITLE') || "Get reference data";
+
+print " ===============================================================================\n";
+print " LINZ Bernese Version 5.2 Utilities\n";
+print " -------------------------------------------------------------------------------\n";
+print " Program        : GETDATA\n";
+print " Purpose        : Download orbit and reference station data\n";
+print " Default session: $sessinfo year $year\n";
+print " Date           : $date\n";
+print " User name      : $user\n";
+print " ===============================================================================\n";
+print " \n";
+print " $title\n\n";
+
+my $cache=LINZ::GNSS::FileCache::Cache();
+my $target=LINZ::GNSS::DataCenter::GetCenter('bernese');
+my $wait_till=0;
+my $retry=0;
+my $queued = 0;
+my $failed = 0;
+
+#--------------------------------------------
+#  Get general parameters
+
+my $job = $env->param('CAMPAIGN');
+$job =~ s/.*(\/|\\)//;
+
+my ($start,$end)=$env->session_startend();
+
+my $lockfile=$env->param("LOCKFILE",1);
+$lockfile .= '.LCK' if $lockfile && $lockfile !~ '\.\w*$';
+my %dnldopt=(download=>1, queue=>0);
+
+$dnldopt{download}=$env->param('DNLDNOW');
+$dnldopt{queue}=$env->param('QUEUE');
+
+print "\n";
+print " Session start   : ",seconds_datetime($start),"\n";
+print " Session end     : ",seconds_datetime($end),"\n";
+print " Using lock file : ",bernfile($lockfile),"\n";
+
+print "\n";
+if( $dnldopt{download} )
+{
+    print " Data will be downloaded if it is not available\n";
+}
+else
+{
+    print " Data will not be downloaded but will used if already in the cache\n";
+}
+
+if( $dnldopt{queue}  )
+{
+    print " Unavailable data will be added to the file cache download queue\n";
+}
+
+#------------------------------------------------
+# Check whether the job is still locked
+
+
+if( $lockfile && -e $lockfile && (stat($lockfile)) > time() )
+{
+    my $lfn=$lockfile;
+    $lfn=~ s/.*[\\\/]//;
+    my $message="";
+    open( my $lf, $lockfile );
+    if( $lf )
+    {
+        $message .= join("",<$lf>);
+        close($lf);
+    }
+    $message.="Wait lock in $lfn has not expired\n";
+    berncroak($message);
+}
+
+unlink $lockfile if $lockfile;
+
+sub getData
+{
+    my ($description,$request,$target)=@_;
+    print "\n Fetching $description\n";
+    my $queued = $dnldopt{queue};
+
+    my ($status,$when,$files) = $cache->getData($request,$target,%dnldopt);
+
+    my $whenstr=seconds_datetime($when).' (local time)' if $when;
+
+    if( $status eq PENDING || $status eq DELAYED )
+    {
+        my $overdue='';
+        if( $status eq PENDING )
+        {
+            $wait_till = $when if $when > $wait_till;
+        }
+        else
+        {
+            $overdue=" overdue -";
+            $retry=$when if $when > $retry;
+        }
+        my $ready = $when < time();
+        if( $ready && $queued )
+        {
+            print "   Data$overdue queued for download\n";
+        }
+        elsif( $ready )
+        {
+            print "   Data$overdue should be ready for download\n";
+        }
+        elsif( $queued )
+        {
+            print "   Data$overdue queued for downloading: expected by $whenstr\n";
+        }
+        else
+        {
+            print "   Data$overdue expected by $whenstr\n";
+        }
+    }
+    elsif( $status eq COMPLETED )
+    {
+        print "   Data successfully retrieved\n";
+        my ($f0)=$files->[0];
+        if( $f0 )
+        {
+            printf "   File type: %s subtype: %s\n", $f0->type(),$f0->subtype();
+        }
+        foreach my $f (@$files)
+        {
+            my $filename = bernfile($f->path());
+            printf "   Installed $filename\n";
+        }
+    }
+    else
+    {
+        $status = UNAVAILABLE;
+        print "   This data is not available\n";
+    }
+    return ($status,$files);
+}
+
+# Version of croak that provides more Bernese like error message
+#
+sub _bernmsg
+{
+    my($fatal,$message,$errtype)=@_;
+    my $msgkey = $fatal ? '***' : '###';
+    $errtype ||= 'GETDATA';
+    my $prefix=' 'x(7+length($errtype));
+    $message=~ s/^\s*//;
+    $message=~ s/\s*$//;
+    $message =~ s/\n/"\n".$prefix/esg;
+    $message="\n\n $msgkey $errtype: $message\n\n";
+    print $message;
+    die($message) if $fatal;
+}
+
+sub berncroak { _bernmsg(1,@_); }
+sub bernwarn { _bernmsg(0,@_); }
+
+sub bernfile
+{
+    my ($filename)=@_;
+    $filename = substr($1,1) if $filename =~ /((?:[\\\/]\w\w\w)?[\\\/][^\\\/]*)$/;
+    return $filename;
+}
+
+my $stnlist;
+my $refstnlist;
+
+if( $env->param("LISTSTA") )
+{
+    $stnlist=LINZ::GNSS::DataCenter::AvailableStations();
+    $refstnlist=LINZ::GNSS::RefStation::GetRefStations();
+    my %rscodes=();
+    foreach my $rs (@$refstnlist)
+    {
+        $rscodes{$rs->code} = 1;
+    }
+    print "\n\n ==================================================\n";
+    print "\n REFERENCE STATIONS IN DATA CENTRES\n";
+    print "\n Stations marked with '*' have coordinate models defined and\n";
+    print "may be automatically selected\n\n";
+
+    my $nc=5;
+    my $nr=int((scalar(@$stnlist)-1)/$nc)+1;
+    foreach my $ir (0..$nr-1)
+    {
+        my $line="";
+        for my $ic (0..$nc)
+        {
+            my $code=$stnlist->[$ir+$ic*$nr];
+            next if ! $code;
+            my $flag=exists($rscodes{$code}) ? '*' : ' ';
+            $line .= "   $code$flag";
+        }  
+        print $line,"\n";
+    }
+    print "\n ==================================================\n\n";
+}
+
+if( $env->param('DNLDORB') )
+{
+    my $type = 'ORB';
+    my $subtype= $env->param('ORBTYP');
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status,$files) = getData("$subtype orbits",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
+if( $env->param('DNLDERP') )
+{
+    my $type = 'ERP';
+    my $subtype= $env->param('ERPTYP');
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status, $files) = getData("$subtype earth rotation parameters",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
+# Station handling
+
+# Download an explicit list of stations
+#
+if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
+{
+    print "\n\n ===============================================================================\n";
+    print " Downloading RINEX data for selected stations\n\n";
+
+    $stnlist ||= LINZ::GNSS::DataCenter::AvailableStations();
+    my %available=();
+    foreach my $code (@$stnlist) { $available{uc($code)} = 1; }
+
+    my $type='OBS';
+    my $subtype= $env->param('RSDTYPE');
+    my $codes=$env->param('REFSTNS');
+    berncroak("Reference station list can only contain 4 character codes\n")
+       if $codes !~ /^\s*\w{4}(?:\s+\w{4})*\s*$/;
+    $codes = uc($codes);
+    my @codelist = $codes =~ /(\w{4})/g;
+    foreach my $code (@codelist)
+    {
+        if( ! $available{$code} )
+        {
+            bernwarn("Cannot get data for station $code\nno data centre supports this mark\n");
+            $failed = 1;
+            next;
+        }
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
+        my ($status, $files) = getData("$subtype data for $code", $request,$target);
+        $failed = 1 if $status ne COMPLETED;
+    }
+}
+
+# Download data for stations in coordinate file based on flag
+
+if( $env->param("DNLDRS_F") )
+{
+    my $crdfile=$env->param('CRDFILE',1);
+    my $bcrdfile=bernfile($crdfile);
+    print "\n\n ===============================================================================\n";
+    print " Downloading RINEX data for stations in file $bcrdfile\n";
+    my $useflag = $env->param('IFFLAG');
+    my $flagval = $env->param('STAFLAG');
+    my %flags;
+    if( $useflag )
+    {
+        my %flags=map {uc(substr($_,0,1))=>1} split(' ',$flagval);
+        print " Only for stations with flag value ".join(', ',sort keys %flags)."\n";
+    }
+
+    $stnlist ||= LINZ::GNSS::DataCenter::AvailableStations();
+    my %available=();
+    foreach my $code (@$stnlist) { $available{uc($code)} = 1; }
+
+    berncroak("Input coordinate file not defined\n") if ! $crdfile;
+    berncroak("Input coordinate file $bcrdfile does not exist\n") if ! -e $crdfile;
+    my $cf=LINZ::BERN::CrdFile->new($crdfile);
+
+    my $dnldstns=[];
+    foreach my $stn ($cf->stations)
+    {
+        my $code=$stn->code;
+        if( $useflag )
+        {
+            my $flag=uc(substr($stn->flag,0,1));
+            next if ! $flags{$flag};
+        }
+
+        if( ! exists $available{$code} )
+        {
+            bernwarn("Cannot get data for station $code\nno data centre supports this mark\n");
+            $failed = 1;
+            next;
+        }
+        push(@$dnldstns,$code);
+    }
+
+    foreach my $code (@$dnldstns)
+    {
+        my $type='OBS';
+        my $subtype= $env->param('RSDTYPE');
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
+        my ($status, $files) = getData("$subtype data for $code",$request,$target);
+        $failed = 1 if $status ne COMPLETED;
+    }
+}
+
+# Automatically select the stations to download
+
+if( $env->param("DNLDRS_A") )
+{
+    my $crdfile=$env->param('CRDFILE',1);
+    my $bcrdfile=bernfile($crdfile);
+    my $basecode=$env->param('STACODE');
+    my $nrefstn=$env->param('NSTASEL');
+    my $mindata=($env->param('MINDATA') + 0)/100.0;
+    my $updcrd=$env->param('UPDTCRD');
+    my $updflag=$env->param('UPDTFLAG');
+    my $refstnfile=$env->param('RFSTFL',1);
+    my $maxdelayed=$env->param('MAXDLY',3);
+
+    print "\n\n ===============================================================================\n";
+    print " Downloading RINEX data for automatically selected reference stations\n\n";
+    print " Reference location based on       : $basecode\n";
+    print " Coordinates read from             : $bcrdfile\n";
+    print " Number of ref stations wanted     : $nrefstn\n";
+    print " Minimum ref station data coverage : $mindata%\n";
+    print " Maximum delayed ref stations      : $maxdelayed\n";
+    print " Update coordinate file            : $updcrd\n";
+    print " Flag for ref station coordinates  : $updflag\n";
+    print " Reference station list file       : ".bernfile($refstnfile)."\n\n";
+
+    $stnlist ||= LINZ::GNSS::DataCenter::AvailableStations();
+    my %available=();
+    foreach my $code (@$stnlist) { $available{uc($code)} = 1; }
+
+    $refstnlist ||= LINZ::GNSS::RefStation::GetRefStations();
+
+    berncroak("Input coordinate file not defined\n") if ! $crdfile;
+    berncroak("Input coordinate file $bcrdfile does not exist\n") if ! -e $crdfile;
+    my $cf=LINZ::BERN::CrdFile->new($crdfile);
+
+
+    my $xyz;
+    if( $basecode )
+    {
+        my $stn=$cf->station($basecode);
+        berncroak("Automatic selection reference station $basecode is not defined in the coordinate file\n")
+            if ! $stn;
+        my $sxyz=$stn->xyz;
+        $xyz=[$sxyz->[0],$sxyz->[1],$sxyz->[2]];
+    }
+    else
+    {
+        my @sxyz=(0.0,0.0,0.0);
+        my $nxyz=0;
+        foreach my $s ($cf->stations)
+        {
+            $sxyz[0] += $s->xyz->[0];
+            $sxyz[1] += $s->xyz->[1];
+            $sxyz[2] += $s->xyz->[2];
+            $nxyz++;
+        }
+        berncroak("Automatic reference station selection failed as no coordinates in coordinate file")
+            if ! $nxyz;
+
+        $xyz=[$sxyz[0]/$nxyz,$sxyz[1]/$nxyz,$sxyz[2]/$nxyz];
+        $basecode="mean coordinate of stations";
+    }
+
+    my $rankdata=LINZ::GNSS::RefStation::PrepareRankRefStations( 
+        $refstnlist,
+        $xyz, 
+        include=>\%available,
+        required_dates=>[$start,$end],
+        );
+
+    my $type='OBS';
+    my $subtype= $env->param('RSDTYPE');
+    my $needstns=$nrefstn;
+    my $used=0;
+    my $refstn;
+
+    print " Looking for $needstns reference stations for fixing ",$basecode,"\n";
+    print " Centred on (",$xyz->[0],',',$xyz->[1],',',$xyz->[2],")\n";
+
+    my @allfiles=();
+    my @refmarks;
+    my @downloaded=();
+    my $rfstatus=UNAVAILABLE;
+    my $ndelayed=0;
+
+    # Save retry as we may skip over delayed station data
+    my $saveretry=$retry;
+    eval
+    {
+        while( $needstns && ($refstn=LINZ::GNSS::RefStation::NextRankedRefStation($rankdata,$used)))
+        {
+            $used=0;
+            my $code=$refstn->code;
+            my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
+            my ($status, $files) = getData("data for $code",$request,$target);
+            # If data missing for this station then go on to the next
+            if( $status eq UNAVAILABLE)
+            {
+                bernwarn("Not using station $code\ndata is unavailable\n");
+                next;
+            }
+            # If delayed then check that not too many stations are delayed, and give up if so
+            if( $status eq DELAYED )
+            {
+                bernwarn("Not using station $code\ndata is delayed\n");
+                $ndelayed++;
+                if( $ndelayed >= $maxdelayed )
+                {
+                    bernwarn("Too much reference station data is delayed - retry later\n");
+                    $rfstatus=DELAYED;
+                    last;
+                }
+                next;
+            }
+            # If data is not yet due for this station, then abandon till it is available
+            if($status eq PENDING)
+            {
+                $rfstatus=PENDING;
+                last;
+            }
+            # Check the coverage of the files
+            my $totalobs=0;
+            my $interval=0;
+            my $name='';
+            foreach my $f (@$files)
+            {
+                push(@allfiles,$f->filepath);
+            }
+
+            foreach my $f (@$files)
+            {
+                my $rf=new LINZ::GNSS::RinexFile($f->filepath,session=>[$start,$end]);
+                $name=$rf->markname;
+                $totalobs += $rf->nobs;
+                $interval=$rf->interval;
+            }
+            if( $interval && $totalobs < (($end-$start)/$interval)*$mindata )
+            {
+                bernwarn("Not using station $code as too much data is missing\n".
+                   sprintf("Only have %.2lf%% of required data\n",($totalobs*$interval*100.0/($end-$start))));
+                next;
+            }
+            
+            print " Adding reference station $code: $name\n";
+            my $rxyz=$refstn->calc_xyz(($start+$end)/2);
+            print " Calculated ITRF08 coordinate as [".sprintf("%.3f %.3f %.3f",@$rxyz)."]\n";
+            my $offset=sqrt(($$xyz[0]-$$rxyz[0])**2+($$xyz[1]-$$rxyz[1])**2+($$xyz[2]-$$rxyz[2])**2);
+            printf " Offset %.2fkm\n",$offset/1000.0;
+            push(@downloaded,{name=>$name,xyz=>$rxyz});
+
+            # Record station as used so that 
+            $used=1;
+            $needstns--;
+        }
+
+        # Reset the retry time if data is not delayed
+        
+        $retry=$saveretry if $rfstatus ne DELAYED;
+
+        # If we got all the data we need then set the status and update coordiantes
+
+        if( $needstns <= 0 )
+        {
+            $rfstatus=COMPLETED;
+
+            if( $updcrd && @downloaded )
+            {
+                open(my $rfs,">>$refstnfile") if $refstnfile;
+                foreach my $ds (@downloaded)
+                {
+                    my $name=$ds->{name};
+                    my $xyz=$ds->{xyz};
+                    my $cstn=$cf->station($name);
+                    if( $cstn )
+                    {
+                        $cstn->xyz($xyz);
+                        $cstn->flag($updflag);
+                    }
+                    else
+                    {
+                        $cstn= new LINZ::BERN::CrdFile::Station($name,'',$xyz,$updflag);
+                        $cf->add($cstn);
+                    }
+                    if( $rfs )
+                    {
+                        print $rfs "$name\n";
+                    }
+                }
+                $cf->write();
+                close($rfs) if $rfs;;
+            }
+        }
+        else
+        {
+            if( $rfstatus eq UNAVAILABLE ) 
+            {
+                bernwarn("Cannot find $nrefstn reference stations to use\n");
+            }
+            $failed = 1;
+        }
+    };
+    if( $@ || $rfstatus ne COMPLETED )
+    {
+        my $err=$@;
+        unlink(@allfiles);
+        berncroak($err) if $err;
+        $failed=1;
+    }
+}
+
+if( $wait_till || $retry || $queued )
+{
+    my $message;
+    if( $wait_till )
+    {
+        $message="Not all the requested data is available yet.\nIt is expected by ".
+            seconds_datetime($wait_till,1)." (localtime)\n";
+    }
+    elsif( $retry )
+    {
+        $wait_till=$retry;
+        $message="Some requested data is overdue.\nRetrying at ".
+            seconds_datetime($wait_till,1)." (localtime)\n";
+    }
+    else
+    {
+        $message="The data has been queued for downloading\n";
+        $wait_till=time();
+    }
+    # If we have a lock file then assume that the PCF is managing failures
+    if( $lockfile && open(my $lf,">$lockfile") )
+    {
+        print $lf $title."\n\n" if $title ne '';
+        print $lf $message;
+        close($lf);
+        utime(time(),$wait_till,$lockfile);
+    }
+    else
+    {
+        berncroak($message);
+    }
+}
+elsif( $failed )
+{
+    berncroak("Some requested data is not available");
+}

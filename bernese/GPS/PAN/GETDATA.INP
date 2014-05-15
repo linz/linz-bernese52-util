@@ -1,0 +1,274 @@
+
+! Environment Variables
+! ---------------------
+ENVIRONMENT 5
+  "U" "/home/ccrook/BERN52/GPSUSER"
+  "T" "/home/ccrook/BERN52/GPSTEMP"
+  "X" "/opt/bern52/BERN52/GPS"
+  "P" "/home/ccrook/BERN52/GPSDATA/CAMPAIGN"
+  "USER" "ccrook"
+  ## widget = initmenu; pointer = ENVIR_LIST
+
+! SOME KEYWORDS FOR AUTOMATIC OUTPUT
+! ----------------------------------
+CAMPAIGN 1  "${P}/PNZPP277"
+  ## widget = initmenu; pointer = ACTIVE_CAMPAIGN
+
+SESSION_TABLE 1  "${P}/PNZPP277/STA/SESSIONS.SES"
+  ## widget = initmenu; pointer = SESSION_TABLE
+
+DESCR_SESSION_TABLE 1  "Session table"
+
+YR4_INFO 1  "2010"
+  ## widget = comment
+  # $Y+0
+
+SES_INFO 1  "100Y"
+  ## widget = comment
+  # $S+0
+
+USR_INFO 1  "${USER}"
+  ## widget = comment
+
+! Title line
+! ----------
+TITLE 1  "Test"
+  ## widget = lineedit
+
+MSG_TITLE 1  "Title line"
+
+! -------------------------------------------------------------------------
+! Download orbits
+! ------------------
+DNLDORB 1  "1"
+  ## widget = checkbox
+
+MSG_DNLDORB 1  "Download orbit files"
+
+ORBTYP 1  "FINAL"
+  ## widget=combobox; editable=false
+  ## cards = ULTRA ULTRA+ RAPID RAPID+ FINAL
+
+MSG_ORBTYP 1  "Orbit type, '+' = 'or better'"
+
+! -------------------------------------------------------------------------
+! Download earth rotation parameters
+! ------------------
+DNLDERP 1  "0"
+  ## widget = checkbox
+
+MSG_DNLDERP 1  "Download earth rotation parameters"
+
+ERPTYP 1  "FINAL"
+  ## widget=combobox; editable=false
+  ## cards = ULTRA ULTRA+ RAPID RAPID+ FINAL
+  # $(ERPTYP)
+
+MSG_ERPTYP 1  "Earth rotation parameter type, '+' = 'or better'"
+
+! -------------------------------------------------------------------------
+! Download reference station data
+! ------------------
+DNLDRS_0 1  "1"
+  ## widget = radiobutton; group=METHOD
+
+MSG_DNLDRS_0 1  "Don't download any station data"
+
+DNLDRS_C 1  "0"
+  ## widget = radiobutton; group=METHOD
+
+MSG_DNLDRS_C 1  "Download data for the specified stations"
+
+DNLDRS_F 1  "0"
+  ## widget = radiobutton; group=METHOD
+
+MSG_DNLDRS_F 1  "Download data for the stations included in a list of stations"
+
+DNLDRS_A 1  "0"
+  ## widget = radiobutton; group=METHOD
+
+MSG_DNLDRS_A 1  "Automatically select reference stations based on station coordinate"
+
+RSDTYPE 1  "DAILY"
+  ## widget=combobox; editable=false; cards = HOURLY HOURLY+ DAILY
+  ## activeif = DNLDRS_0 = 0
+
+MSG_RSDTYPE 1  "RINEX file selection"
+
+REFSTNS 1  "QQQQ"
+  ## widget = lineedit; activeif = DNLDRS_C = 1
+
+MSG_REFSTNS 1  "List of reference station codes (must be 4 characters codes)"
+
+CRDFILE 0
+  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1
+  ## activeif = DNLDRS_F = 1 OR DNLDRS_A = 1
+  # APR$S+0
+
+MSG_STNFILE 1  "Name of file containing a list of stations to load"
+
+IFFLAG 1  "0"
+  ## widget = checkbox
+
+MSG_IFFLAG 1  "If selected then only flagged stations will be downloaded"
+
+STAFLAG 0
+  ## widget = lineedit; activeif = DNLDRS_F = 1 AND IFFLAG = 1
+  # 
+
+MSG_STAFLAG 1  "Flag used to select stations to download"
+
+STACODE 1  "U001"
+  ## widget = lineedit; activeif = DNLDRS_A = 1
+  # $(USRMRK)
+
+MSG_STACODE 1  "Station for which coordinate used to select reference stations"
+
+NSTASEL 1  "3"
+  ## widget = spinbox; range = 1 10 1; activeif = DNLDRS_A = 1
+
+MSG_NSTASEL 1  "Number of reference stations to select"
+
+MINDATA 1  "90"
+  ## widget = spinbox; range = 5 100 5; activeif = DNLDRS_A = 1
+
+MSG_MINDATA 1  "Minimum percentage data for session in downloaded RINEX files"
+
+UPDTCRD 1  "1"
+  ## widget = checkbox; activeif = DNLDRS_A = 1
+
+MSG_UPDTCRD 1  "Update the coordinate file with the reference station coordinates at the session epoch"
+
+UPDTFLAG 1  "I"
+  ## widget = lineedit; check_strlen = 4
+  ## activeif = DNLDRS_A = 1 AND UPDTCRD = 1
+
+MSG_UPDTFLAG 1  "Flag to apply for updated coordinates"
+
+MSG_UPDTCRD 1  "Update the coordinate file with the reference station coordinates at the session epoch"
+
+RFSTFL 1  "${P}/PNZPP277/STA/REFSTN.FIX"
+  ## widget = lineedit; path = DIR_FIX; ext = EXT_FIX; maxfiles = 1
+  ## emptyallowed = true
+  # REFSTN
+
+DESCR_RFSTFL 1  "File listing reference stations downloaded"
+
+LISTSTA 1  "0"
+  ## widget = checkbox
+
+MSG_LISTSTA 1  "Include a list of potential reference stations in the output file"
+
+! When to download option
+!------------------------
+DNLDNOW 1  "1"
+  ## widget = checkbox
+
+MSG_DNLDNOW 1  "Try to download now if data not in the cache"
+
+QUEUE 1  "0"
+  ## widget = checkbox
+
+MSG_QUEUE 1  "Queue the data for downloading if not available or downloaded"
+
+! Wait/lock file
+LOCKFILE 0
+  ## widget = lineedit; path=DIR_OUT
+  # 
+
+MSG_LOCKFILE 1  "File used to register waiting required and lock until wait expired"
+
+! Program Output File
+! -------------------
+SYSODEF 1  "1"
+  ## widget = checkbox
+
+MSG_SYSODEF 1  "Program output"
+
+SYSOUT 1  "${P}/PNZPP277/OUT/GETDATA.L00"
+  ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
+  ## activeif = SYSODEF == 0; emptyallowed = false
+  # GETDATA
+
+DESCR_SYSOUT 1  "Program output"
+
+! Error Message File
+! ------------------
+ERRMRG 1  "0"
+  ## widget = checkbox
+
+MSG_ERRMRG 1  "Error message"
+
+SYSERR 1  "${U}/WORK/ERROR.MSG"
+  ## widget = lineedit; path = PTH_ERR; ext = EXT_ERR
+  ## activeif = ERRMRG == 0; emptyallowed = false
+  # ERROR
+
+DESCR_SYSERR 1  "Error message"
+
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# DOWNLOAD REFERENCE DATA - GENERAL OPTIONS                                    # 
+#                                                                              #
+# TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
+#                                                                              #
+#   Downloaded data is cached in the datapool.  The pool also maintains a      #
+#   queue of pending download jobs.  To download the data if it is not         #
+#   in the cache, and queue for later download if it is not available.         #
+#   (Queued jobs will only be downloaded if there is a queue manager           #
+#   job running.)                                                              #
+#                                                                              #
+#   > % <   Try to download now if not in datapool                             # DNLDNOW 
+#   > % <   Queue for download if not in datapool or downloaded                # QUEUE
+#                                                                              #
+# OUTPUT FILES                                                                 #
+#                                                                              #
+#   Lock/wait file          > %%%%%%%%%%%% <                                   # LOCKFILE
+#                                                                              #
+#   Program output          > % < use GETDATA.Lnn           or    > %%%%%%%% < # SYSODEF SYSOUT
+#   Error messages          > % < merged to program output  or    > %%%%%%%% < # ERRMRG SYSERR
+#                                                                              #
+# END_PANEL ####################################################################
+
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# DOWNLOAD ORBIT INFORMATION                                                   #
+#                                                                              #
+# ORBIT FILES                                                                  #
+#   Download orbits                           > % <                            # DNLDORB
+#   Orbit type (+ = or better if available)   > %%%%%%% <                      # ORBTYP
+#                                                                              #
+#   Download earth rotation parameters        > % <                            # DNLDERP
+#   ERP type (+ = or better if available)     > %%%%%%% <                      # ERPTYP
+#                                                                              #
+# END_PANEL ####################################################################
+
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# DOWNLOAD REFERENCE STATION DATA                                              #
+#                                                                              #
+#   Choice of stations to download                                             #
+#                                                                              #
+#   > % <   Don't download reference station observation data                  # DNLDRS_0
+#                                                                              #
+#   > % <   Download station observation data for specified stations           # DNLDRS_C
+#           > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <    # REFSTNS
+#                                                                              #
+#   > % <   Download station observation data for stations in coord file       # DNLDRS_F
+#             > * < Only stations with flag > %%%%%%%% <                       # IFFLAG STAFLAG
+#                                                                              #
+#   > % <   Automatically select reference stations based on existing coord    # DNLDRS_A
+#             Code of mark to base selection on > %%%%%%%% <                   # STACODE
+#             Number of marks to select         > %%%%%%%% <                   # NSTASEL
+#             Minimum percentage of data reqd   > %%%%%%%% <                   # MINDATA
+#             Add/update marks in coordfile     > % <                          # UPDTCRD
+#             Flag for updated coordinates      > %%%% <                       # UPDTFLAG
+#             Reference station list file       > %%%%%%%% <                   # RFSTFL
+#                                                                              #
+#   Station coordinate file    > %%%%%%%% <                                    # CRDFILE
+#                                                                              #
+#   RINEX data type             > %%%%%%% <                                    # RSDTYPE
+#                                                                              #
+#   Include a list of available reference stations in the output > * <         # LISTSTA
+#                                                                              #
+# END_PANEL ####################################################################

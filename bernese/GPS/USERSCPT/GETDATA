@@ -1,0 +1,64 @@
+package GETDATA;
+@ISA = ("RUNBPE");
+# ============================================================================
+#
+# Name    :  SATMARK
+#
+# Purpose :  Execute GETDATA
+#
+# PARAMs  :
+#            PARAM1  NEXTJOB
+#            PARAM2  Location to jump to if the lock file is created
+#            PARAM8  The name of the lock/wait file (overrides the value in
+#                    the input panel)
+#
+# Also will use PCF variables V_GDDNLD and V_GDQUEU if they are defined to update the
+# GETDATA variables DNLDNOW and QUEUE
+#
+# Author  :  Chris Crook
+# Created :  20 March 2014
+#
+# Changes :
+#
+# ============================================================================
+
+use strict;
+use lib $ENV{BPE};
+use bpe_util qw(prtMess prtErr prtGoto);
+
+sub run {
+  my $bpe = shift;
+
+  my ($dirout,$gddnld,$gdqueu,$garbage)=$bpe->getKeys('DIR_OUT','V_GDDNLD','V_GDQUEU');
+
+  my $lockext='.LCK';
+    
+  my $outname=$dirout;
+  $outname=~ s/[\/\\]+$//;
+  $outname=~ s/.*[\/\\]//;
+
+# Set the lockfile parameter in the input panel if required, and run GETDATA
+# -----------
+#
+  my $lockfilename=$bpe->{PARAM8};
+  my $lockfile = $lockfilename ? $dirout.$lockfilename.$lockext : '';
+
+  $bpe->putKey("$ENV{U}/PAN/GETDATA.INP","LOCKFILE",$lockfile) if $lockfilename;
+  $bpe->putKey("$ENV{U}/PAN/GETDATA.INP","DNLDNOW",$gddnld) if $gddnld ne '';
+  $bpe->putKey("$ENV{U}/PAN/GETDATA.INP","QUEUE",$gdqueu) if $gdqueu ne '';
+
+  my $PGMNAM = "GETDATA";
+  $bpe->RUN_PGMS($PGMNAM);
+
+  # If the lockfile exists then jump to the error location
+
+  if( $lockfile && -e $lockfile )
+  {
+      my $pid=$bpe->{PARAM2};
+      if( $pid =~ /^\d\d\d$/ )
+      {
+          prtMess($bpe,"Jumping to $pid as data not yet available.");
+          prtGoto($bpe,$pid);
+      }
+  }
+}

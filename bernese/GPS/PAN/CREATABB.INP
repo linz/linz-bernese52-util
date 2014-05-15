@@ -1,0 +1,94 @@
+
+! Environment Variables
+! ---------------------
+ENVIRONMENT 5
+  "U" "/home/ccrook/BERN52/GPSUSER"
+  "T" "/home/ccrook/BERN52/GPSTEMP"
+  "X" "/opt/bern52/BERN52/GPS"
+  "P" "/home/ccrook/BERN52/GPSDATA/CAMPAIGN"
+  "USER" "ccrook"
+  ## widget = initmenu; pointer = ENVIR_LIST
+
+! SOME KEYWORDS FOR AUTOMATIC OUTPUT
+! ----------------------------------
+CAMPAIGN 1  "${P}/PNZPP1"
+  ## widget = initmenu; pointer = ACTIVE_CAMPAIGN
+
+SESSION_TABLE 1  "${P}/PNZPP1/STA/SESSIONS.SES"
+  ## widget = initmenu; pointer = SESSION_TABLE
+
+DESCR_SESSION_TABLE 1  "Session table"
+
+YR4_INFO 1  "2013"
+  ## widget = comment
+  # $Y+0
+
+SES_INFO 1  "302Y"
+  ## widget = comment
+  # $S+0
+
+USR_INFO 1  "${USER}"
+  ## widget = comment
+
+ABBREV 1  "${P}/PNZPP1/STA/ABBREV.ABB"
+  ## widget = lineedit; path = DIR_ABB; ext = EXT_ABB; emptyallowed = false
+  # ABBREV
+
+DESCR_ABBREV 1  "Abbreviation table"
+
+! A priori coordinates
+! --------------------
+CRDFILE 1  "${P}/PNZPP1/STA/APR302Y.CRD"
+  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1
+  ## emptyallowed = false
+  # APR$S+0
+
+DESCR_CRDFILE 1  "Coordinate file"
+
+! Program Output File
+! -------------------
+SYSODEF 1  "1"
+  ## widget = checkbox
+
+MSG_SYSODEF 1  "Program output"
+
+SYSOUT 1  "${P}/PNZPP1/OUT/CREATABB.L02"
+  ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
+  ## activeif = SYSODEF == 0; emptyallowed = false
+  # PRETAB
+
+DESCR_SYSOUT 1  "Program output"
+
+! Error Message File
+! ------------------
+ERRMRG 1  "0"
+  ## widget = checkbox
+
+MSG_ERRMRG 1  "Error message"
+
+SYSERR 1  "${U}/WORK/ERROR.MSG"
+  ## widget = lineedit; path = PTH_ERR; ext = EXT_ERR
+  ## activeif = ERRMRG == 0; emptyallowed = false
+  # ERROR
+
+DESCR_SYSERR 1  "Error message"
+
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# CREATE STATION ABBREVIATION TABLE                                            #
+#                                                                              #
+# Input coordinate file     > %%%%%%%% <                                       # CRDFILE
+#                                                                              #
+# Output abbreviation file  > %%%%%%%% <                                       # ABBREV
+#                                                                              #
+#                                                                              #
+#                                                                              #
+#                                                                              #
+#                                                                              #
+#                                                                              #
+# OUTPUT FILES                                                                 #
+#                                                                              #
+#   Program output          > % < use CREATABB.Lnn          or    > %%%%%%%% < # SYSODEF SYSOUT
+#   Error messages          > % < merged to program output  or    > %%%%%%%% < # ERRMRG SYSERR
+#                                                                              #
+# END_PANEL ####################################################################
