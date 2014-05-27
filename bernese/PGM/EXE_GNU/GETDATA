@@ -158,7 +158,7 @@ sub getData
         }
         foreach my $f (@$files)
         {
-            my $filename = bernfile($f->path());
+            my $filename = bernfile($f->filepath());
             printf "   Installed $filename\n";
         }
     }
