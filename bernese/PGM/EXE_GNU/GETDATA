@@ -481,7 +481,7 @@ if( $env->param("DNLDRS_A") )
             
             print " Adding reference station $code: $name\n";
             my $rxyz=$refstn->calc_xyz(($start+$end)/2);
-            print " Calculated ITRF08 coordinate as [".sprintf("%.3f %.3f %.3f",@$rxyz)."]\n";
+            print " Calculated ITRF2008 coordinate as [".sprintf("%.3f %.3f %.3f",@$rxyz)."]\n";
             my $offset=sqrt(($$xyz[0]-$$rxyz[0])**2+($$xyz[1]-$$rxyz[1])**2+($$xyz[2]-$$rxyz[2])**2);
             printf " Offset %.2fkm\n",$offset/1000.0;
             push(@downloaded,{name=>$name,xyz=>$rxyz});
