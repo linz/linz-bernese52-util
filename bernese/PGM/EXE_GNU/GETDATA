@@ -4,6 +4,7 @@ use strict;
 use Carp;
 
 use LINZ::BERN::Environment;
+use LINZ::BERN::BernUtil;
 use LINZ::BERN::CrdFile;
 use LINZ::GNSS;
 use LINZ::GNSS::DataRequest qw(UNAVAILABLE PENDING DELAYED COMPLETED);
@@ -252,6 +253,10 @@ if( $env->param('DNLDERP') )
 
 # Download an explicit list of stations
 #
+# Keep a list of rinex files downloaded so we can check antennae etc if 
+# required.
+
+my @rnxfiles=();
 if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
 {
     print "\n\n ===============================================================================\n";
@@ -278,6 +283,10 @@ if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
         }
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
         my ($status, $files) = getData("$subtype data for $code", $request,$target);
+        foreach my $f (@$files)
+        {
+            push(@rnxfiles,$f->filepath);
+        }
         $failed = 1 if $status ne COMPLETED;
     }
 }
@@ -332,6 +341,10 @@ if( $env->param("DNLDRS_F") )
         my $subtype= $env->param('RSDTYPE');
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
         my ($status, $files) = getData("$subtype data for $code",$request,$target);
+        foreach my $f (@$files)
+        {
+            push(@rnxfiles,$f->filepath);
+        }
         $failed = 1 if $status ne COMPLETED;
     }
 }
@@ -415,7 +428,6 @@ if( $env->param("DNLDRS_A") )
     print " Looking for $needstns reference stations for fixing ",$basecode,"\n";
     print " Centred on (",$xyz->[0],',',$xyz->[1],',',$xyz->[2],")\n";
 
-    my @allfiles=();
     my @refmarks;
     my @downloaded=();
     my $rfstatus=UNAVAILABLE;
@@ -462,7 +474,7 @@ if( $env->param("DNLDRS_A") )
             my $name='';
             foreach my $f (@$files)
             {
-                push(@allfiles,$f->filepath);
+                push(@rnxfiles,$f->filepath);
             }
 
             foreach my $f (@$files)
@@ -540,9 +552,38 @@ if( $env->param("DNLDRS_A") )
     if( $@ || $rfstatus ne COMPLETED )
     {
         my $err=$@;
-        unlink(@allfiles);
+        unlink(@rnxfiles);
+        @rnxfiles=();
         berncroak($err) if $err;
         $failed=1;
+    }
+}
+
+if( @rnxfiles && $env->param("FIXRINEX") )
+{
+    foreach my $filepath (@rnxfiles)
+    {
+        my $filename=$filepath;
+        $filename =~ s/.*[\\\/]//;
+        eval
+        {
+            my $edits=LINZ::BERN::BernUtil::FixRinexAntRec($filepath);
+            if( %$edits )
+            {
+                foreach my $item (sort keys %$edits)
+                {
+                    my $from=$edits->{$item}->{from};
+                    my $to=$edits->{$item}->{to};
+                    bernwarn("File $filename: Updated $item, \"$from\"=>\"$to\"\n");
+                }
+            }
+        };
+        if( $@ )
+        {
+            my $errmess=$@;
+            berncroak("Cannot fix $filename receiver/antenna: $errmess\n");
+
+        }
     }
 }
 

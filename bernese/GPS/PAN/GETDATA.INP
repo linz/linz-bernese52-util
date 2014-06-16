@@ -95,7 +95,13 @@ RSDTYPE 1  "DAILY"
 
 MSG_RSDTYPE 1  "RINEX file selection"
 
-REFSTNS 1  "QQQQ"
+FIXRINEX 1 "1"
+  ## widget = checkbox
+  ## activeif = DNLDRS_F = 1 OR DNLDRS_A = 1 OR DNLDRS_C = 1
+
+MSG_FIXRINEX 1 "Replace invalid antenna/receivers in RINEX file with best guess valid values"
+
+REFSTNS 1  ""
   ## widget = lineedit; activeif = DNLDRS_C = 1
 
 MSG_REFSTNS 1  "List of reference station codes (must be 4 characters codes)"
@@ -265,9 +271,9 @@ DESCR_SYSERR 1  "Error message"
 #             Flag for updated coordinates      > %%%% <                       # UPDTFLAG
 #             Reference station list file       > %%%%%%%% <                   # RFSTFL
 #                                                                              #
-#   Station coordinate file    > %%%%%%%% <                                    # CRDFILE
-#                                                                              #
-#   RINEX data type             > %%%%%%% <                                    # RSDTYPE
+#   Station coordinate file              > %%%%%%%% <                          # CRDFILE
+#   RINEX data type                       > %%%%%%% <                          # RSDTYPE
+#   Fix invalid RINEX antenna/receive     > % <                                # FIXRINEX
 #                                                                              #
 #   Include a list of available reference stations in the output > * <         # LISTSTA
 #                                                                              #
