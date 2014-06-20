@@ -1,3 +1,9 @@
+linz-bernese52-util (1.1.0-1) precise; urgency=low
+
+  * Adding option to correct antennae/receivers in RINEX file
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 20 Jun 2014 15:53:53 +1200
+
 linz-bernese52-util (1.0.2-1) precise; urgency=low
 
   * Updating ITRF08 to ITRF2008
