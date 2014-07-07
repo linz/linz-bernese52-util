@@ -1,3 +1,9 @@
+linz-bernese52-util (1.2.0-1) precise; urgency=low
+
+  * Adding option to merge station RINEX files to a single session file
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Mon, 07 Jul 2014 14:51:50 +1200
+
 linz-bernese52-util (1.1.0-1) precise; urgency=low
 
   * Adding option to correct antennae/receivers in RINEX file
