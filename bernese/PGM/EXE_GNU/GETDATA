@@ -11,6 +11,7 @@ use LINZ::GNSS::DataRequest qw(UNAVAILABLE PENDING DELAYED COMPLETED);
 use LINZ::GNSS::FileCache;
 use LINZ::GNSS::Time;
 use LINZ::GNSS::RinexFile;
+use LINZ::GNSS::FileSpec;
 use Data::Dumper;
 
 if(0)
@@ -67,6 +68,8 @@ my %dnldopt=(download=>1, queue=>0);
 
 $dnldopt{download}=$env->param('DNLDNOW');
 $dnldopt{queue}=$env->param('QUEUE');
+
+my $mergernx=$env->param('MRGRINEX');
 
 print "\n";
 print " Session start   : ",seconds_datetime($start),"\n";
@@ -167,6 +170,61 @@ sub getData
     {
         $status = UNAVAILABLE;
         print "   This data is not available\n";
+    }
+    return ($status,$files);
+}
+
+
+sub getRinexData
+{
+    my ($description,$request,$target)=@_;
+    my ($status,$files) = getData($description,$request,$target);
+
+    if( ! $mergernx )
+    {
+        return ($status,$files);
+    }
+
+    # Merge RINEX files to a single obs file
+    if( $files && @$files )
+    {
+        my $session=[$request->start_epoch,$request->end_epoch];
+        my @rnxfiles=map {$_->filepath()} @$files;
+        my $dirname=$rnxfiles[0];
+        $dirname=~ s/[^\\\/]*$//;
+        my $sess=$sessinfo;
+        my $stn=$files->[0]->station;
+        my $yr=sprintf("%04d",$year);
+        $yr=substr($yr,2);
+        my $newfile=$files->[0]->station.$sess.'.'.$yr.'O';
+        eval
+        {
+            LINZ::GNSS::RinexFile::Merge(\@rnxfiles,"$dirname/$newfile",
+                session=>$session,remove=>1);
+            my $spec=LINZ::GNSS::FileSpec->new(
+                path=>$dirname,
+                filename=>$newfile,
+                type=>$files->[0]->type,
+                subtype=>$files->[0]->subtype,
+                compression=>$files->[0]->compression,
+                station=>$files->[0]->station,
+                timestamp=>$files->[0]->timestamp,
+            );
+            $files=[$spec];
+        };
+        if( $@ )
+        {
+            my ($msg) = $@;
+            foreach my $rf (@rnxfiles)
+            {
+                unlink($rf);
+            }
+            print "    Rinex files could not be merged to session rinex file\n";
+            print "    ($msg)\n";
+            return (UNAVAILABLE,[]);
+        };
+
+
     }
     return ($status,$files);
 }
@@ -282,7 +340,7 @@ if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
             next;
         }
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
-        my ($status, $files) = getData("$subtype data for $code", $request,$target);
+        my ($status, $files) = getRinexData("$subtype data for $code", $request,$target);
         foreach my $f (@$files)
         {
             push(@rnxfiles,$f->filepath);
@@ -340,7 +398,7 @@ if( $env->param("DNLDRS_F") )
         my $type='OBS';
         my $subtype= $env->param('RSDTYPE');
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
-        my ($status, $files) = getData("$subtype data for $code",$request,$target);
+        my ($status, $files) = getRinexData("$subtype data for $code",$request,$target);
         foreach my $f (@$files)
         {
             push(@rnxfiles,$f->filepath);
@@ -442,7 +500,7 @@ if( $env->param("DNLDRS_A") )
             $used=0;
             my $code=$refstn->code;
             my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
-            my ($status, $files) = getData("data for $code",$request,$target);
+            my ($status, $files) = getRinexData("data for $code",$request,$target);
             # If data missing for this station then go on to the next
             if( $status eq UNAVAILABLE)
             {

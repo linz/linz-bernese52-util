@@ -95,6 +95,12 @@ RSDTYPE 1  "DAILY"
 
 MSG_RSDTYPE 1  "RINEX file selection"
 
+MRGRINEX 1 "1"
+  ## widget = checkbox
+  ## activeif = DNLDRS_F = 1 OR DNLDRS_A = 1 OR DNLDRS_C = 1
+
+MSG_MRGRINEX 1 "Merge multiple RINEX files to make a single RINEX file for each station/session"
+
 FIXRINEX 1 "1"
   ## widget = checkbox
   ## activeif = DNLDRS_F = 1 OR DNLDRS_A = 1 OR DNLDRS_C = 1
@@ -271,8 +277,9 @@ DESCR_SYSERR 1  "Error message"
 #             Flag for updated coordinates      > %%%% <                       # UPDTFLAG
 #             Reference station list file       > %%%%%%%% <                   # RFSTFL
 #                                                                              #
-#   Station coordinate file              > %%%%%%%% <                          # CRDFILE
+#   Station coordinate file               > %%%%%%%% <                         # CRDFILE
 #   RINEX data type                       > %%%%%%% <                          # RSDTYPE
+#   Merge RINEX files to session file     > % <                                # MRGRINEX
 #   Fix invalid RINEX antenna/receive     > % <                                # FIXRINEX
 #                                                                              #
 #   Include a list of available reference stations in the output > * <         # LISTSTA
