@@ -302,6 +302,8 @@ if( $env->param('DNLDERP') )
 {
     my $type = 'ERP';
     my $subtype= $env->param('ERPTYP');
+    my $sessend=$end;
+    $end += 24*60*60 if $env->param('ERPBUFF');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
     my ($status, $files) = getData("$subtype earth rotation parameters",$request,$target);
     $failed = 1 if $status ne COMPLETED;

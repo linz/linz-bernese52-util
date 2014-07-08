@@ -66,6 +66,11 @@ ERPTYP 1  "FINAL"
 
 MSG_ERPTYP 1  "Earth rotation parameter type, '+' = 'or better'"
 
+ERPBUFF 1  "0"
+  ## widget = checkbox
+
+MSG_ERPBUFF 1  "Add 1 day buffer to end of session to select ERP files"
+
 ! -------------------------------------------------------------------------
 ! Download reference station data
 ! ------------------
@@ -252,6 +257,7 @@ DESCR_SYSERR 1  "Error message"
 #                                                                              #
 #   Download earth rotation parameters        > % <                            # DNLDERP
 #   ERP type (+ = or better if available)     > %%%%%%% <                      # ERPTYP
+#   Add 1 day to end of session for ERP files > % <                            # ERPBUFF
 #                                                                              #
 # END_PANEL ####################################################################
 
