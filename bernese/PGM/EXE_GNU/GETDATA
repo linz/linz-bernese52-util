@@ -258,6 +258,15 @@ sub bernfile
 my $stnlist;
 my $refstnlist;
 
+if( $env->param("LISTCFG") )
+{
+    $dsc=LINZ::GNSS::DataCenter::SourceDescriptions();
+    print "\n\n ==================================================\n";
+    print "\n DATA CENTRES USED TO RETRIEVE REFERENCE DATA \n\n";
+    print $dsc;
+    print "\n ==================================================\n\n";
+}
+
 if( $env->param("LISTSTA") )
 {
     $stnlist=LINZ::GNSS::DataCenter::AvailableStations();
@@ -359,8 +368,8 @@ if( $env->param("DNLDRS_F") )
     my $bcrdfile=bernfile($crdfile);
     print "\n\n ===============================================================================\n";
     print " Downloading RINEX data for stations in file $bcrdfile\n";
-    my $useflag = $env->param('IFFLAG');
     my $flagval = $env->param('STAFLAG');
+    my $useflag = $flagval =~ /\S/;
     my %flags;
     if( $useflag )
     {

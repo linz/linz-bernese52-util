@@ -124,13 +124,8 @@ CRDFILE 0
 
 MSG_STNFILE 1  "Name of file containing a list of stations to load"
 
-IFFLAG 1  "0"
-  ## widget = checkbox
-
-MSG_IFFLAG 1  "If selected then only flagged stations will be downloaded"
-
 STAFLAG 0
-  ## widget = lineedit; activeif = DNLDRS_F = 1 AND IFFLAG = 1
+  ## widget = lineedit; activeif = DNLDRS_F = 1
   # 
 
 MSG_STAFLAG 1  "Flag used to select stations to download"
@@ -170,6 +165,11 @@ RFSTFL 1  "${P}/PNZPP277/STA/REFSTN.FIX"
   # REFSTN
 
 DESCR_RFSTFL 1  "File listing reference stations downloaded"
+
+LISTCFG 1  "0"
+  ## widget = checkbox
+
+MSG_LISTCFG 1  "Include a description of the available data sources in the output file"
 
 LISTSTA 1  "0"
   ## widget = checkbox
@@ -225,7 +225,7 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GENERAL OPTIONS                                    # 
+# DOWNLOAD REFERENCE DATA - GETDATA 1: General Options                         # 
 #                                                                              #
 # TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
 #                                                                              #
@@ -235,10 +235,13 @@ DESCR_SYSERR 1  "Error message"
 #   (Queued jobs will only be downloaded if there is a queue manager           #
 #   job running.)                                                              #
 #                                                                              #
-#   > % <   Try to download now if not in datapool                             # DNLDNOW 
-#   > % <   Queue for download if not in datapool or downloaded                # QUEUE
+#   Try to download now if not in datapool                > % <                # DNLDNOW 
+#   Queue for download if not in datapool or downloaded   > % <                # QUEUE
 #                                                                              #
 # OUTPUT FILES                                                                 #
+#                                                                              #
+#   List the reference data sources configuration in the output  > * <         # LISTCFG
+#   Include a list of available reference stations in the output > * <         # LISTSTA
 #                                                                              #
 #   Lock/wait file          > %%%%%%%%%%%% <                                   # LOCKFILE
 #                                                                              #
@@ -249,7 +252,7 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD ORBIT INFORMATION                                                   #
+# DOWNLOAD REFERENCE DATA - GETDATA 2: Orbit/ERP data                          # 
 #                                                                              #
 # ORBIT FILES                                                                  #
 #   Download orbits                           > % <                            # DNLDORB
@@ -263,7 +266,7 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE STATION DATA                                              #
+# DOWNLOAD REFERENCE DATA - GETDATA 3: Reference station data                  # 
 #                                                                              #
 #   Choice of stations to download                                             #
 #                                                                              #
@@ -273,7 +276,7 @@ DESCR_SYSERR 1  "Error message"
 #           > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <    # REFSTNS
 #                                                                              #
 #   > % <   Download station observation data for stations in coord file       # DNLDRS_F
-#             > * < Only stations with flag > %%%%%%%% <                       # IFFLAG STAFLAG
+#             Only stations with flag > %%%%%%%%%%%%%% <                       # STAFLAG
 #                                                                              #
 #   > % <   Automatically select reference stations based on existing coord    # DNLDRS_A
 #             Code of mark to base selection on > %%%%%%%% <                   # STACODE
@@ -288,6 +291,5 @@ DESCR_SYSERR 1  "Error message"
 #   Merge RINEX files to session file     > % <                                # MRGRINEX
 #   Fix invalid RINEX antenna/receive     > % <                                # FIXRINEX
 #                                                                              #
-#   Include a list of available reference stations in the output > * <         # LISTSTA
 #                                                                              #
 # END_PANEL ####################################################################
