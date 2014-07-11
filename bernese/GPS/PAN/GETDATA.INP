@@ -59,13 +59,6 @@ DNLDERP 1  "0"
 
 MSG_DNLDERP 1  "Download earth rotation parameters"
 
-ERPTYP 1  "FINAL"
-  ## widget=combobox; editable=false
-  ## cards = ULTRA ULTRA+ RAPID RAPID+ FINAL
-  # $(ERPTYP)
-
-MSG_ERPTYP 1  "Earth rotation parameter type, '+' = 'or better'"
-
 ERPBUFF 1  "0"
   ## widget = checkbox
 
@@ -254,13 +247,9 @@ DESCR_SYSERR 1  "Error message"
 # BEGIN_PANEL NO_CONDITION #####################################################
 # DOWNLOAD REFERENCE DATA - GETDATA 2: Orbit/ERP data                          # 
 #                                                                              #
-# ORBIT FILES                                                                  #
-#   Download orbits                           > % <                            # DNLDORB
-#   Orbit type (+ = or better if available)   > %%%%%%% <                      # ORBTYP
-#                                                                              #
-#   Download earth rotation parameters        > % <                            # DNLDERP
-#   ERP type (+ = or better if available)     > %%%%%%% <                      # ERPTYP
-#   Add 1 day to end of session for ERP files > % <                            # ERPBUFF
+#   Orbit/ERP quality (+ = or better if available)   > %%%%%%% <               # ORBTYP
+#   Download orbits                                  > % <                     # DNLDORB
+#   Download earth rotation parameters               > % <                     # DNLDERP
 #                                                                              #
 # END_PANEL ####################################################################
 

@@ -113,34 +113,19 @@ Orbit and earth rotation parameters support three data subtypes - FINAL, RAPID a
 type at least as good as ULTRA or RAPID respectively at the time the script is run.
 </p>
 
+<a name="ORBTYP" default="FINAL"></a>
+<p><b>Orbit/ERP quality (+ = or better if available)</b>
+Specifies the data subtype for orbits and ERP data.
+</p>
+
 <a name="DNLDORB" default="1"></a>
 <p><b>Download orbits</b>
 If this option is selected then orbit data will be downloaded.
 </p>
 
-<a name="ORBTYP" default="FINAL"></a>
-<p><b>Orbit type (+ = or better if available)</b>
-Specifies the data subtype for orbits.
-</p>
-
 <a name="DNLDERP" default="0"></a>
 <p><b>Download earth rotation parameters</b>
 If this option is selected then earth rotation parameters be downloaded.
-</p>
-
-<a name="ERPTYP" default="FINAL"></a>
-<p><b>ERP type (+ = or better if available)</b>
-Specifies the data subtype for earth rotation parameters.
-</p>
-
-<a name="ERPBUFF" default="0"></a>
-<p><b>Add 1 day to end of session for ERP files</b>
-The Bernese ORBGEN program can require ERP data beyond the end of the last day of the current 
-session.  This can happen when a custom session is defined which does not start at midnight on a 
-UTC day.  Earth rotation parameters are generally supplied as weekly files 
-(at least for the final version) so often there is sufficient data for ORBGEN.  However if the 
-session is on the last day of the week then there may not be.  Selecting this options ensures that
-there are parameters for at least a day beyond the end of the session.
 </p>
 
 <p><hr /></p>

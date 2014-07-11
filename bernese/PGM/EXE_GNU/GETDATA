@@ -260,7 +260,7 @@ my $refstnlist;
 
 if( $env->param("LISTCFG") )
 {
-    $dsc=LINZ::GNSS::DataCenter::SourceDescriptions();
+    my $dsc=LINZ::GNSS::DataCenter::SourceDescriptions();
     print "\n\n ==================================================\n";
     print "\n DATA CENTRES USED TO RETRIEVE REFERENCE DATA \n\n";
     print $dsc;
@@ -298,24 +298,42 @@ if( $env->param("LISTSTA") )
     print "\n ==================================================\n\n";
 }
 
-if( $env->param('DNLDORB') )
+if( $env->param('DNLDORB') || $env->param('DNLDERP') )
 {
-    my $type = 'ORB';
+    my @downloaded=();
     my $subtype= $env->param('ORBTYP');
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
-    my ($status,$files) = getData("$subtype orbits",$request,$target);
-    $failed = 1 if $status ne COMPLETED;
-}
+    my $orbfailed=0;
 
-if( $env->param('DNLDERP') )
-{
-    my $type = 'ERP';
-    my $subtype= $env->param('ERPTYP');
-    my $sessend=$end;
-    $end += 24*60*60 if $env->param('ERPBUFF');
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
-    my ($status, $files) = getData("$subtype earth rotation parameters",$request,$target);
-    $failed = 1 if $status ne COMPLETED;
+    if( $env->param('DNLDORB') )
+    {
+        my $type = 'ORB';
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+        my ($status,$files) = getData("$subtype orbits",$request,$target);
+        # Ensure orbit and ERP data are the same type
+        if( $files )
+        {
+            $subtype=$files->[0]->subtype if @$files;
+            push(@downloaded,@$files);
+        }
+        $orbfailed = 1 if $status ne COMPLETED;
+    }
+    if( $env->param('DNLDERP') && ! $orbfailed )
+    {
+        my $type = 'ERP';
+        my $sessend=$end;
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+        my ($status, $files) = getData("$subtype earth rotation parameters",$request,$target);
+        $orbfailed = 1 if $status ne COMPLETED;
+    };
+    if( $orbfailed )
+    {
+        # Ensure orbit/ERP download is all or nothing
+        $failed=1;
+        foreach my $f (@downloaded)
+        {
+            unlink($f->filepath);
+        }
+    }
 }
 
 # Station handling
