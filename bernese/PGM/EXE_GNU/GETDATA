@@ -362,12 +362,12 @@ if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
     my @codelist = $codes =~ /(\w{4})/g;
     foreach my $code (@codelist)
     {
-        if( ! $available{$code} )
-        {
-            bernwarn("Cannot get data for station $code\nno data centre supports this mark\n");
-            $failed = 1;
-            next;
-        }
+#        if( ! $available{$code} )
+#        {
+#            bernwarn("Cannot get data for station $code\nno data centre supports this mark\n");
+#            $failed = 1;
+#            next;
+#        }
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
         my ($status, $files) = getRinexData("$subtype data for $code", $request,$target);
         foreach my $f (@$files)
@@ -413,12 +413,12 @@ if( $env->param("DNLDRS_F") )
             next if ! $flags{$flag};
         }
 
-        if( ! exists $available{$code} )
-        {
-            bernwarn("Cannot get data for station $code\nno data centre supports this mark\n");
-            $failed = 1;
-            next;
-        }
+#        if( ! exists $available{$code} )
+#        {
+#            bernwarn("Cannot get data for station $code\nno data centre supports this mark\n");
+#            $failed = 1;
+#            next;
+#        }
         push(@$dnldstns,$code);
     }
 
