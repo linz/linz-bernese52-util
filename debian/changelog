@@ -1,3 +1,9 @@
+linz-bernese52-util (1.4.2-1) precise; urgency=low
+
+  * Removing check that prevents wildcard stations being loaded
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 29 Jul 2014 12:01:30 +1200
+
 linz-bernese52-util (1.4.1-1) precise; urgency=low
 
   * Fixing up get data - removing pointless option
