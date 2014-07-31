@@ -1,3 +1,9 @@
+linz-bernese52-util (1.5.0-1) precise; urgency=low
+
+  * Adding atmosphere products
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 01 Aug 2014 09:36:24 +1200
+
 linz-bernese52-util (1.4.2-1) precise; urgency=low
 
   * Removing check that prevents wildcard stations being loaded
