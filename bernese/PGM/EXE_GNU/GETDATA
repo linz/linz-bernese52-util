@@ -336,6 +336,82 @@ if( $env->param('DNLDORB') || $env->param('DNLDERP') )
     }
 }
 
+# Atmospheric models/maps
+
+if( $env->param('DNLDTRP') )
+{
+    my $type = 'TRP';
+    my $subtype = 'FINAL';
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status,$files) = getData("Bernese tropospheric models (TRP)",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
+if( $env->param('DNLDION') )
+{
+    my $type = 'ION';
+    my $subtype = 'FINAL';
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status,$files) = getData("Bernese ionospheric models (ION)",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
+#if( $env->param('DNLDINX') )
+#{
+#    my $type = 'INX';
+#    my $subtype = 'FINAL';
+#    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+#    my ($status,$files) = getData("Bernese ionospheric maps (INX)",$request,$target);
+#    $failed = 1 if $status ne COMPLETED;
+#}
+
+if( $env->param('DNLDVMF') )
+{
+    my $type = 'VMF';
+    my $subtype = 'VMF';
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status,$files) = getData("Vienna mapping functions",$request,$target);
+    if($status ne COMPLETED)
+    {
+        $failed = 1 
+    }
+    else
+    {
+        if( $env->param("MERGEVMF") && $env->param('VMFFILE',1) )
+        {
+            my $vmffile=$env->param('VMFFILE',1);
+            my $tmpfile=$vmffile.'.tmp';
+            my $bmffile=bernfile($vmffile);
+            open(my $vf, ">$tmpfile");
+            if( ! $vf )
+            {
+                berncroak("Cannot create VMF file $bmffile\n");
+            }
+            else
+            {
+                foreach my $f (@$files)
+                {
+                    if( open(my $sf, "<".$f->filepath) )
+                    {
+                        foreach my $line (<$sf>)
+                        {
+                            print $vf $line;
+                        }
+                        close($sf);
+                    }
+                    else
+                    {
+                        berncroak("Cannot open downloaded VMF file ".bernfile($f->filepath)."\n");
+                    }
+                }
+                close($vf);
+                rename($tmpfile,$vmffile);
+                print "   VMF files merged to $bmffile\n";
+            }   
+        }
+    }
+}
+
 # Station handling
 
 # Download an explicit list of stations

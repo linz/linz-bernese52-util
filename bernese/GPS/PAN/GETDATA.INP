@@ -40,7 +40,7 @@ MSG_TITLE 1  "Title line"
 ! -------------------------------------------------------------------------
 ! Download orbits
 ! ------------------
-DNLDORB 1  "1"
+DNLDORB 1  "0"
   ## widget = checkbox
 
 MSG_DNLDORB 1  "Download orbit files"
@@ -54,15 +54,47 @@ MSG_ORBTYP 1  "Orbit type, '+' = 'or better'"
 ! -------------------------------------------------------------------------
 ! Download earth rotation parameters
 ! ------------------
+
 DNLDERP 1  "0"
   ## widget = checkbox
 
 MSG_DNLDERP 1  "Download earth rotation parameters"
 
-ERPBUFF 1  "0"
+! -------------------------------------------------------------------------
+! Download Bernese atmospheric files
+! ------------------
+
+DNLDTRP 1  "0"
   ## widget = checkbox
 
-MSG_ERPBUFF 1  "Add 1 day buffer to end of session to select ERP files"
+MSG_DNLDTRP 1  "Download Bernese troposheric models"
+
+DNLDION 1  "0"
+  ## widget = checkbox
+
+MSG_DNLDION 1  "Download Bernese ionospheric models"
+
+! -------------------------------------------------------------------------
+! Download VMF files
+! ------------------
+
+DNLDVMF 1  "0"
+  ## widget = checkbox
+
+MSG_DNLDVMF 1  "Download Vienna mapping functions"
+
+MERGEVMF 1  "0"
+  ## widget = checkbox
+  ## activeif = DNLDVMF = 1
+
+MSG_MERGEVMF 1  "Merge downloaded VMF files into a single file"
+
+VMFFILE 0
+  ## widget = lineedit; path = DIR_GRD; ext = EXT_GRD
+  ## activeif = DNLDVMF = 1 AND MERGEVMF = 1
+  # VMF$S+0
+
+MSG_VMFFILE 1  "Name of combined VMF files
 
 ! -------------------------------------------------------------------------
 ! Download reference station data
@@ -115,7 +147,7 @@ CRDFILE 0
   ## activeif = DNLDRS_F = 1 OR DNLDRS_A = 1
   # APR$S+0
 
-MSG_STNFILE 1  "Name of file containing a list of stations to load"
+MSG_CRDFILE 1  "Name of station file containing a list of stations to load/updated"
 
 STAFLAG 0
   ## widget = lineedit; activeif = DNLDRS_F = 1
@@ -123,9 +155,8 @@ STAFLAG 0
 
 MSG_STAFLAG 1  "Flag used to select stations to download"
 
-STACODE 1  "U001"
+STACODE 1  ""
   ## widget = lineedit; activeif = DNLDRS_A = 1
-  # $(USRMRK)
 
 MSG_STACODE 1  "Station for which coordinate used to select reference stations"
 
@@ -253,9 +284,21 @@ DESCR_SYSERR 1  "Error message"
 #                                                                              #
 # END_PANEL ####################################################################
 
+# BEGIN_PANEL NO_CONDITION #####################################################
+# DOWNLOAD REFERENCE DATA - GETDATA 3: Bernese atmospheric files and VMF       #
+#                                                                              #
+#   Download tropospheric models (.TRP)              > % <                     # DNLDTRP
+#   Download ionospheric models (.ION)               > % <                     # DNLDION
+#                                                                              #
+#   Download Vienna mapping function files           > % <                     # DNLDVMF
+#       Merge VMF files to a single file             > % <                     # MERGEVMF
+#       Name of merged VMF file                      > %%%%%%%% <              # VMFFILE
+#                                                                              #
+# END_PANEL ####################################################################
+
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GETDATA 3: Reference station data                  # 
+# DOWNLOAD REFERENCE DATA - GETDATA 4: Reference station data                  # 
 #                                                                              #
 #   Choice of stations to download                                             #
 #                                                                              #
