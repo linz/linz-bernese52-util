@@ -74,6 +74,19 @@ DNLDION 1  "0"
 
 MSG_DNLDION 1  "Download Bernese ionospheric models"
 
+MERGEION 1  "0"
+  ## widget = checkbox
+  ## activeif = DNLDION = 1
+
+MSG_MERGEION 1  "Merge downloaded ionospheric files into a single file"
+
+IONFILE 0
+  ## widget = lineedit; path = DIR_ION; ext = EXT_ION
+  ## activeif = DNLDION = 1 AND MERGEION = 1
+  # ION$S+0
+
+MSG_IONFILE 1  "Name of combined ION files
+
 ! -------------------------------------------------------------------------
 ! Download VMF files
 ! ------------------
@@ -95,6 +108,21 @@ VMFFILE 0
   # VMF$S+0
 
 MSG_VMFFILE 1  "Name of combined VMF files
+
+! -------------------------------------------------------------------------
+! Download CODE monthly DCB files
+! ------------------
+
+DNLDP1C1 1  "0"
+  ## widget = checkbox
+
+MSG_DNLDP1C1 1  "Download CODE monthly P1C1 DCB files"
+
+DNLDP1P2 1  "0"
+  ## widget = checkbox
+
+MSG_DNLDP1P2 1  "Download CODE P1P2 DCB files"
+
 
 ! -------------------------------------------------------------------------
 ! Download reference station data
@@ -276,11 +304,15 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GETDATA 2: Orbit/ERP data                          # 
+# DOWNLOAD REFERENCE DATA - GETDATA 2: Orbit/ERP/DCB data                      # 
 #                                                                              #
 #   Orbit/ERP quality (+ = or better if available)   > %%%%%%% <               # ORBTYP
 #   Download orbits                                  > % <                     # DNLDORB
 #   Download earth rotation parameters               > % <                     # DNLDERP
+#                                                                              #
+#   CODE DCB products                                                          #
+#      Download monthly P1-C1 biases                 > % <                     # DNLDP1C1
+#      Download monthly P1-P2 biases                 > % <                     # DNLDP1P2
 #                                                                              #
 # END_PANEL ####################################################################
 
@@ -288,7 +320,10 @@ DESCR_SYSERR 1  "Error message"
 # DOWNLOAD REFERENCE DATA - GETDATA 3: Bernese atmospheric files and VMF       #
 #                                                                              #
 #   Download tropospheric models (.TRP)              > % <                     # DNLDTRP
+#                                                                              #
 #   Download ionospheric models (.ION)               > % <                     # DNLDION
+#       Merge ION files to a single file             > % <                     # MERGEION
+#       Name of merged ION file                      > %%%%%%%% <              # IONFILE
 #                                                                              #
 #   Download Vienna mapping function files           > % <                     # DNLDVMF
 #       Merge VMF files to a single file             > % <                     # MERGEVMF

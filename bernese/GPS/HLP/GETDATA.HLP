@@ -105,12 +105,17 @@ written.
 
 
 <p><hr /></p>
-<p><b>GETDATA 2: Orbit/ERP Data</b></p>
+<p><b>GETDATA 2: Orbit/ERP/DCB Data</b></p>
 
 <p>
 Orbit and earth rotation parameters support three data subtypes - FINAL, RAPID and ULTRA
 (ultra-rapid).  The script also supports ULTRA+, and RAPID+, which request the best available 
 type at least as good as ULTRA or RAPID respectively at the time the script is run.
+</p>
+
+<p>
+Also this panel allows downloading of the CODE montly DCB files.  The biases available are 
+P1C1 (GPS only) and P1P2 (GPS and GLONASS).
 </p>
 
 <a name="ORBTYP" default="FINAL"></a>
@@ -126,6 +131,16 @@ If this option is selected then orbit data will be downloaded.
 <a name="DNLDERP" default="0"></a>
 <p><b>Download earth rotation parameters</b>
 If this option is selected then earth rotation parameters be downloaded.
+</p>
+
+<a name="DNLDP1C1" default="0"></a>
+<p><b>Download monthly P1-C1 biases</b>
+If this option is selected then monthly P1-C1 biases will be downloaded
+</p>
+
+<a name="DNLDP1P2" default="0"></a>
+<p><b>Download monthly P1-P2 biases</b>
+If this option is selected then monthly P1-P2 biases will be downloaded
 </p>
 
 <p><hr /></p>
@@ -153,6 +168,16 @@ If this option is selected then Bernese troposphere models will be downloaded`
 <a name="DNLDION" default="0"></a>
 <p><b>Download ionospheric models (.ION)</b>
 If this option is selected then Bernese ionspheric models will be downloaded
+</p>
+
+<a name="MERGEION" default="0"></a>
+<p><b>Merge ION files to a single file</b>
+If this option is selected then the downloaded ionospheric files will be combined to a single file
+</p>
+
+<a name="IONFILE" default=""></a>
+<p><b>Name of merged ION file</b>
+If the ionospheric files are to be merged then this specifies the name of the file to create.
 </p>
 
 <a name="DNLDVMF" default="0"></a>

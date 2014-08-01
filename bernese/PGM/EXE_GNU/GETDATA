@@ -79,7 +79,7 @@ print " Using lock file : ",bernfile($lockfile),"\n";
 print "\n";
 if( $dnldopt{download} )
 {
-    print " Data will be downloaded if it is not available\n";
+    print " Data will be downloaded if it is not available in the datapool cache\n";
 }
 else
 {
@@ -229,6 +229,41 @@ sub getRinexData
     return ($status,$files);
 }
 
+
+sub mergeFiles
+{
+    my ($files,$mergefile,$type) = @_;
+
+    my $tmpfile=$mergefile.'.tmp';
+    my $bfile=bernfile($mergefile);
+    open(my $vf, ">$tmpfile");
+    if( ! $vf )
+    {
+        berncroak("Cannot create $type file $bfile\n");
+    }
+    else
+    {
+        foreach my $f (@$files)
+        {
+            if( open(my $sf, "<".$f->filepath) )
+            {
+                foreach my $line (<$sf>)
+                {
+                    print $vf $line;
+                }
+                close($sf);
+            }
+            else
+            {
+                berncroak("Cannot open downloaded $type file ".bernfile($f->filepath)."\n");
+            }
+        }
+        close($vf);
+        rename($tmpfile,$mergefile);
+        print "   $type files merged to $bfile\n";
+    }   
+}
+
 # Version of croak that provides more Bernese like error message
 #
 sub _bernmsg
@@ -353,7 +388,15 @@ if( $env->param('DNLDION') )
     my $subtype = 'FINAL';
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
     my ($status,$files) = getData("Bernese ionospheric models (ION)",$request,$target);
-    $failed = 1 if $status ne COMPLETED;
+    if($status ne COMPLETED)
+    {
+        $failed = 1 
+    }
+    elsif( $env->param("MERGEION") && $env->param('IONFILE',1) )
+    {
+        my $ionfile=$env->param('IONFILE',1);
+        mergeFiles($files,$ionfile,'ION');
+    }
 }
 
 #if( $env->param('DNLDINX') )
@@ -375,41 +418,31 @@ if( $env->param('DNLDVMF') )
     {
         $failed = 1 
     }
-    else
+    elsif( $env->param("MERGEVMF") && $env->param('VMFFILE',1) )
     {
-        if( $env->param("MERGEVMF") && $env->param('VMFFILE',1) )
-        {
-            my $vmffile=$env->param('VMFFILE',1);
-            my $tmpfile=$vmffile.'.tmp';
-            my $bmffile=bernfile($vmffile);
-            open(my $vf, ">$tmpfile");
-            if( ! $vf )
-            {
-                berncroak("Cannot create VMF file $bmffile\n");
-            }
-            else
-            {
-                foreach my $f (@$files)
-                {
-                    if( open(my $sf, "<".$f->filepath) )
-                    {
-                        foreach my $line (<$sf>)
-                        {
-                            print $vf $line;
-                        }
-                        close($sf);
-                    }
-                    else
-                    {
-                        berncroak("Cannot open downloaded VMF file ".bernfile($f->filepath)."\n");
-                    }
-                }
-                close($vf);
-                rename($tmpfile,$vmffile);
-                print "   VMF files merged to $bmffile\n";
-            }   
-        }
+        my $vmffile=$env->param('VMFFILE',1);
+        mergeFiles($files,$vmffile,'VMF');
     }
+}
+
+# Code DCB products
+
+if( $env->param('DNLDP1C1') )
+{
+    my $type = 'P1C1';
+    my $subtype = 'FINAL';
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status,$files) = getData("CODE bernese P1C1 DCB files",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
+if( $env->param('DNLDP1P2') )
+{
+    my $type = 'P1P2';
+    my $subtype = 'FINAL';
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status,$files) = getData("CODE bernese P1P2 DCB files",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
 }
 
 # Station handling
