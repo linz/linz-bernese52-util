@@ -1,3 +1,9 @@
+linz-bernese52-util (1.6.0-1) precise; urgency=low
+
+  * Added DCB files and combination of ionosphere files
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 01 Aug 2014 14:36:59 +1200
+
 linz-bernese52-util (1.5.0-1) precise; urgency=low
 
   * Adding atmosphere products
