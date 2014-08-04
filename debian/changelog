@@ -1,6 +1,8 @@
 linz-bernese52-util (1.7.0-1) precise; urgency=low
 
   * Tolerating some missing stations in RINEX download
+  * Tidying up error messages and RINEX download handling
+  * Updating help information
 
  -- Chris Crook <ccrook@linz.govt.nz>  Mon, 04 Aug 2014 18:21:32 +1200
 
