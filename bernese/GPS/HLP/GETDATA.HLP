@@ -250,8 +250,9 @@ specified then all stations are used.
 Automatically select reference stations based on station coordinate using the PositioNZ-PP
 reference station selection algorithm.  Note that candidate stations must both be available in a
 data centre, and must have a station prediction model that can be used to calculate the coordinate
-of the mark at the epoch of the current campaign.  (Station prediction models are stored in 
-the datapool at a location defined by the configuration file).
+of the mark at the epoch of the current campaign.  Station prediction models are stored in 
+the datapool at a location defined by the getdata configuration file.  The configuration file also
+defines the weighting scheme used for the station selection algorithm.
 </p><p>
 This option uses the following parameters
 </p>
@@ -309,7 +310,9 @@ be read, and to which reference station coordinates may be written.
 <p><b>Maximum number of missing stations</b>
 Specifies the maximum number of missing stations that will be tolerated before the script fails.
 This is for use in PCF downloads where it is possible that a few stations may be offline on a given
-day but the PCF should proceed anyway.
+day but the PCF should proceed anyway.  This option only applies for downloading lists of stations and 
+stations in coordinate files.  The automatic station selection routine will skip unavailable stations 
+until it retrieves the required number of stations.
 </p>
 
 <a name="RSDTYPE" default="DAILY"></a>
