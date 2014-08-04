@@ -452,6 +452,9 @@ if( $env->param('DNLDP1P2') )
 # Keep a list of rinex files downloaded so we can check antennae etc if 
 # required.
 
+my $maxmissing=($env->param("MAXMSSTN")+0) || 0;
+my @missing=();
+
 my @rnxfiles=();
 if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
 {
@@ -469,21 +472,17 @@ if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
        if $codes !~ /^\s*\w{4}(?:\s+\w{4})*\s*$/;
     $codes = uc($codes);
     my @codelist = $codes =~ /(\w{4})/g;
+
     foreach my $code (@codelist)
     {
-#        if( ! $available{$code} )
-#        {
-#            bernwarn("Cannot get data for station $code\nno data centre supports this mark\n");
-#            $failed = 1;
-#            next;
-#        }
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
         my ($status, $files) = getRinexData("$subtype data for $code", $request,$target);
         foreach my $f (@$files)
         {
             push(@rnxfiles,$f->filepath);
         }
-        $failed = 1 if $status ne COMPLETED;
+        push(@missing,$code) if $status ne COMPLETED;
+        last if scalar(@missing) > $maxmissing;
     }
 }
 
@@ -541,7 +540,28 @@ if( $env->param("DNLDRS_F") )
         {
             push(@rnxfiles,$f->filepath);
         }
-        $failed = 1 if $status ne COMPLETED;
+        push(@missing,$code) if $status ne COMPLETED;
+        last if scalar(@missing) > $maxmissing;
+    }
+}
+
+# If couldn't download required stations then report and set failed status (or if not
+# too many then just warn...
+
+if( @missing )
+{ 
+    my $nmissing=scalar(@missing);
+    if($nmissing <= $maxmissing )
+    {
+        bernwarn("Rinex data not available for $nmissing stations\n");
+        while( @missing )
+        {
+            print "        ",join(" ",splice(@missing,0,8)),"\n";
+        }
+    }
+    else
+    {
+        berncroak("Rinex data not available for at least $nmissing stations\n");
     }
 }
 

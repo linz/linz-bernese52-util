@@ -177,6 +177,11 @@ CRDFILE 0
 
 MSG_CRDFILE 1  "Name of station file containing a list of stations to load/updated"
 
+MAXMSSTN 1 "0"
+  ## widget = spinbox; range = 0 100 1; activeif = DNLDRS_F = 1 OR DNLDRS_C = 1
+
+MSG_MAXMSSTN 1 "Maximum acceptable number of missing stations (specific station or coordinate file downloads)"
+
 STAFLAG 0
   ## widget = lineedit; activeif = DNLDRS_F = 1
   # 
@@ -354,6 +359,7 @@ DESCR_SYSERR 1  "Error message"
 #             Reference station list file       > %%%%%%%% <                   # RFSTFL
 #                                                                              #
 #   Station coordinate file               > %%%%%%%% <                         # CRDFILE
+#   Maximum number of missing stations    > %%%% <                             # MAXMSSTN
 #   RINEX data type                       > %%%%%%% <                          # RSDTYPE
 #   Merge RINEX files to session file     > % <                                # MRGRINEX
 #   Fix invalid RINEX antenna/receive     > % <                                # FIXRINEX

@@ -305,6 +305,13 @@ Defines the name of the station coordinate file from which station codes and coo
 be read, and to which reference station coordinates may be written.
 </p>
 
+<a name="MAXMSSTN" default="0"></a>
+<p><b>Maximum number of missing stations</b>
+Specifies the maximum number of missing stations that will be tolerated before the script fails.
+This is for use in PCF downloads where it is possible that a few stations may be offline on a given
+day but the PCF should proceed anyway.
+</p>
+
 <a name="RSDTYPE" default="DAILY"></a>
 <p><b>RINEX data type</b>
 This option is used to select DAILY or HOURLY files.  Also HOURLY+ can be used to select DAILY files
