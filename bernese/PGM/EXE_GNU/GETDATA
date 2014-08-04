@@ -561,7 +561,7 @@ if( @missing )
     }
     else
     {
-        berncroak("Rinex data not available for at least $nmissing stations\n");
+        berncroak("Rinex data not available for $nmissing or more stations\n");
     }
 }
 
