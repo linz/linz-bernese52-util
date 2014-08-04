@@ -452,8 +452,7 @@ if( $env->param('DNLDP1P2') )
 # Keep a list of rinex files downloaded so we can check antennae etc if 
 # required.
 
-my $maxmissing=($env->param("MAXMSSTN")+0) || 0;
-my @missing=();
+my @dnldstns=();
 
 my @rnxfiles=();
 if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
@@ -465,25 +464,12 @@ if( $env->param("DNLDRS_C") && $env->param('REFSTNS') !~ /^\s*$/ )
     my %available=();
     foreach my $code (@$stnlist) { $available{uc($code)} = 1; }
 
-    my $type='OBS';
-    my $subtype= $env->param('RSDTYPE');
     my $codes=$env->param('REFSTNS');
     berncroak("Reference station list can only contain 4 character codes\n")
        if $codes !~ /^\s*\w{4}(?:\s+\w{4})*\s*$/;
     $codes = uc($codes);
     my @codelist = $codes =~ /(\w{4})/g;
-
-    foreach my $code (@codelist)
-    {
-        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end,$code);
-        my ($status, $files) = getRinexData("$subtype data for $code", $request,$target);
-        foreach my $f (@$files)
-        {
-            push(@rnxfiles,$f->filepath);
-        }
-        push(@missing,$code) if $status ne COMPLETED;
-        last if scalar(@missing) > $maxmissing;
-    }
+    push(@dnldstns,@codelist);
 }
 
 # Download data for stations in coordinate file based on flag
@@ -511,7 +497,6 @@ if( $env->param("DNLDRS_F") )
     berncroak("Input coordinate file $bcrdfile does not exist\n") if ! -e $crdfile;
     my $cf=LINZ::BERN::CrdFile->new($crdfile);
 
-    my $dnldstns=[];
     foreach my $stn ($cf->stations)
     {
         my $code=$stn->code;
@@ -527,10 +512,20 @@ if( $env->param("DNLDRS_F") )
 #            $failed = 1;
 #            next;
 #        }
-        push(@$dnldstns,$code);
+        push(@dnldstns,$code);
     }
+}
 
-    foreach my $code (@$dnldstns)
+# Try and download selected stations for list or coordinate station selections
+# 
+# Stops if more than tolerable number of stations missing.
+
+if( @dnldstns )
+{
+    my $maxmissing=($env->param("MAXMSSTN")+0) || 0;
+    my @missing=();
+
+    foreach my $code (@dnldstns)
     {
         my $type='OBS';
         my $subtype= $env->param('RSDTYPE');
@@ -543,29 +538,33 @@ if( $env->param("DNLDRS_F") )
         push(@missing,$code) if $status ne COMPLETED;
         last if scalar(@missing) > $maxmissing;
     }
-}
 
-# If couldn't download required stations then report and set failed status (or if not
-# too many then just warn...
-
-if( @missing )
-{ 
-    my $nmissing=scalar(@missing);
-    if($nmissing <= $maxmissing )
-    {
-        bernwarn("Rinex data not available for $nmissing stations\n");
-        while( @missing )
+    if( @missing )
+    { 
+        my $nmissing=scalar(@missing);
+        if($nmissing <= $maxmissing )
         {
-            print "        ",join(" ",splice(@missing,0,8)),"\n";
+            bernwarn("Rinex data not available for $nmissing stations\n");
+            while( @missing )
+            {
+                print "        ",join(" ",splice(@missing,0,8)),"\n";
+            }
         }
-    }
-    else
-    {
-        berncroak("Rinex data not available for $nmissing or more stations\n");
+        else
+        {
+            bernwarn("Rinex data not available for $nmissing or more stations\n");
+            $failed=1;
+        }
     }
 }
 
 # Automatically select the stations to download
+# Stations are selected one by one as choice of next station to download depends on which have 
+# been successfully downloaded so far.  
+#
+# If not successful then all downloaded files are deleted to ensure they do not confuse subsequent
+# station selection (mainly for PositioNZ-PP, where script station selection is based on already present
+# RINEX files, which should be just the user's file.
 
 if( $env->param("DNLDRS_A") )
 {
@@ -803,39 +802,42 @@ if( @rnxfiles && $env->param("FIXRINEX") )
     }
 }
 
-if( $wait_till || $retry || $queued )
+if( $failed )
 {
-    my $message;
-    if( $wait_till )
+    if( $wait_till || $retry || $queued )
     {
-        $message="Not all the requested data is available yet.\nIt is expected by ".
-            seconds_datetime($wait_till,1)." (localtime)\n";
-    }
-    elsif( $retry )
-    {
-        $wait_till=$retry;
-        $message="Some requested data is overdue.\nRetrying at ".
-            seconds_datetime($wait_till,1)." (localtime)\n";
+        my $message;
+        if( $wait_till )
+        {
+            $message="Not all the requested data is available yet.\nIt is expected by ".
+                seconds_datetime($wait_till,1)." (localtime)\n";
+        }
+        elsif( $retry )
+        {
+            $wait_till=$retry;
+            $message="Some requested data is overdue.\nRetrying at ".
+                seconds_datetime($wait_till,1)." (localtime)\n";
+        }
+        else
+        {
+            $message="The data has been queued for downloading\n";
+            $wait_till=time();
+        }
+        # If we have a lock file then assume that the PCF is managing failures
+        if( $lockfile && open(my $lf,">$lockfile") )
+        {
+            print $lf $title."\n\n" if $title ne '';
+            print $lf $message;
+            close($lf);
+            utime(time(),$wait_till,$lockfile);
+        }
+        else
+        {
+            berncroak($message);
+        }
     }
     else
     {
-        $message="The data has been queued for downloading\n";
-        $wait_till=time();
+        berncroak("Some requested data is not available");
     }
-    # If we have a lock file then assume that the PCF is managing failures
-    if( $lockfile && open(my $lf,">$lockfile") )
-    {
-        print $lf $title."\n\n" if $title ne '';
-        print $lf $message;
-        close($lf);
-        utime(time(),$wait_till,$lockfile);
-    }
-    else
-    {
-        berncroak($message);
-    }
-}
-elsif( $failed )
-{
-    berncroak("Some requested data is not available");
 }
