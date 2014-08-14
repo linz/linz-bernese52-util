@@ -371,6 +371,17 @@ if( $env->param('DNLDORB') || $env->param('DNLDERP') )
     }
 }
 
+# Clock files
+
+if( $env->param('DNLDCLK') )
+{
+    my $type = 'CLK';
+    my $subtype= $env->param('ORBTYP');
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my ($status,$files) = getData("Satellite 5 minute clock files (CLK)",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
 # Atmospheric models/maps
 
 if( $env->param('DNLDTRP') )

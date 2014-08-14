@@ -61,6 +61,15 @@ DNLDERP 1  "0"
 MSG_DNLDERP 1  "Download earth rotation parameters"
 
 ! -------------------------------------------------------------------------
+! Download clock files
+! ------------------
+
+DNLDCLK 1  "0"
+  ## widget = checkbox
+
+MSG_DNLDCLK 1  "Download earth rotation parameters"
+
+! -------------------------------------------------------------------------
 ! Download Bernese atmospheric files
 ! ------------------
 
@@ -314,6 +323,8 @@ DESCR_SYSERR 1  "Error message"
 #   Orbit/ERP quality (+ = or better if available)   > %%%%%%% <               # ORBTYP
 #   Download orbits                                  > % <                     # DNLDORB
 #   Download earth rotation parameters               > % <                     # DNLDERP
+#   Download satellite 5 minute clock files          > % <                     # DNLDCLK
+#   (clock files only available in RAPID and FINAL)                            #
 #                                                                              #
 #   CODE DCB products                                                          #
 #      Download monthly P1-C1 biases                 > % <                     # DNLDP1C1

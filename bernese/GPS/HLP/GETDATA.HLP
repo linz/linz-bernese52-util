@@ -133,6 +133,14 @@ If this option is selected then orbit data will be downloaded.
 If this option is selected then earth rotation parameters be downloaded.
 </p>
 
+<a name="DNLDCLK" default="0"></a>
+<p><b>Download 5 minute satellite clock files</b>
+If this option is selected then 5 minute satellite and IGS station 
+clock files will be downloaded. (Note that the orbit files contain 
+15 minute satellite clock data).  The clock files are only available
+as RAPID and FINAL products.
+</p>
+
 <a name="DNLDP1C1" default="0"></a>
 <p><b>Download monthly P1-C1 biases</b>
 If this option is selected then monthly P1-C1 biases will be downloaded
