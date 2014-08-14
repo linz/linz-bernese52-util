@@ -1,3 +1,9 @@
+linz-bernese52-util (1.7.1-1) precise; urgency=low
+
+  * Adding clock files data type
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 15 Aug 2014 11:09:12 +1200
+
 linz-bernese52-util (1.7.0-1) precise; urgency=low
 
   * Tolerating some missing stations in RINEX download
