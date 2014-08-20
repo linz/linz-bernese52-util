@@ -789,6 +789,7 @@ if( @rnxfiles && $env->param("FIXRINEX") )
 {
     foreach my $filepath (@rnxfiles)
     {
+        next if ! -f $filepath;
         my $filename=$filepath;
         $filename =~ s/.*[\\\/]//;
         eval
