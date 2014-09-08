@@ -712,6 +712,11 @@ if( $env->param("DNLDRS_A") )
             }
             if( $interval && $totalobs < (($end-$start)/$interval)*$mindata )
             {
+                # Remove unusable files...
+                foreach my $f (@$files)
+                {
+                    unlink($f->filepath);
+                }
                 bernwarn("Not using station $code as too much data is missing\n".
                    sprintf("Only have %.2lf%% of required data\n",($totalobs*$interval*100.0/($end-$start))));
                 next;
