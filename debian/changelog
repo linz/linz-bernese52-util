@@ -1,3 +1,9 @@
+linz-bernese52-util (1.8.0-1) trusty; urgency=medium
+
+  * Adding MAXDLY parameter to user interface
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 23 Sep 2014 11:53:53 +1200
+
 linz-bernese52-util (1.7.3-1) trusty; urgency=medium
 
   * Fixing bug whereby rejected reference data RINEX files are left in RAW directory
