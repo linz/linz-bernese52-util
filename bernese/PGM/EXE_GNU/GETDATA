@@ -587,7 +587,7 @@ if( $env->param("DNLDRS_A") )
     my $updcrd=$env->param('UPDTCRD');
     my $updflag=$env->param('UPDTFLAG');
     my $refstnfile=$env->param('RFSTFL',1);
-    my $maxdelayed=$env->param('MAXDLY',3);
+    my $maxdelayed=$env->param('MAXDLY') || 3;
 
     print "\n\n ===============================================================================\n";
     print " Downloading RINEX data for automatically selected reference stations\n\n";

@@ -191,6 +191,11 @@ MAXMSSTN 1 "0"
 
 MSG_MAXMSSTN 1 "Maximum acceptable number of missing stations (specific station or coordinate file downloads)"
 
+MAXDLY 1 "3"
+  ## widget = spinbox; range = 0 100 1; activeif = DNLDRS_F = 1 OR DNLDRS_C = 1
+
+MSG_MAXDLY 1 "Maximum number of delayed stations that will be tolerated before giving up"
+
 STAFLAG 0
   ## widget = lineedit; activeif = DNLDRS_F = 1
   # 
@@ -365,6 +370,7 @@ DESCR_SYSERR 1  "Error message"
 #             Code of mark to base selection on > %%%%%%%% <                   # STACODE
 #             Number of marks to select         > %%%%%%%% <                   # NSTASEL
 #             Minimum percentage of data reqd   > %%%%%%%% <                   # MINDATA
+#             Maximum no delayed stations       > %%%% <                       # MAXDLY
 #             Add/update marks in coordfile     > % <                          # UPDTCRD
 #             Flag for updated coordinates      > %%%% <                       # UPDTFLAG
 #             Reference station list file       > %%%%%%%% <                   # RFSTFL

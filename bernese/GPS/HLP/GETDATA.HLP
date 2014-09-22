@@ -286,6 +286,14 @@ This option sets the minimum coverage required - if the data cannot provide this
 reference station will not bu used..
 </li>
 
+<a name="MAXDLY" default="3"></a>
+<li><b>Maximum no delayed stations</b>
+Stations which are not available for download are considered delayed rather than unavailable 
+for a configurable period after they are due. By default the script will fail in with a wait 
+status for these stations, but it can ignore a certain number before assuming that there is a 
+systematic problem and stopping. This setting specifies that number.
+</li>
+
 <a name="UPDTCRD" default="1"></a>
 <li><b>Add/update marks in coordfile</b>
 Use this option to update the coordinate file to include the reference stations. The coordinates 
