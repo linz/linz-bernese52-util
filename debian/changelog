@@ -1,3 +1,9 @@
+linz-bernese52-util (1.8.1-1) trusty; urgency=medium
+
+  * Adding more info to missing data errors
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Mon, 20 Oct 2014 08:27:06 +1300
+
 linz-bernese52-util (1.8.0-1) trusty; urgency=medium
 
   * Adding MAXDLY parameter to user interface
