@@ -53,6 +53,7 @@ my $wait_till=0;
 my $retry=0;
 my $queued = 0;
 my $failed = 0;
+my $unavailable={};
 
 #--------------------------------------------
 #  Get general parameters
@@ -112,6 +113,29 @@ if( $lockfile && -e $lockfile && (stat($lockfile)) > time() )
 
 unlink $lockfile if $lockfile;
 
+sub countUnavailable
+{
+    my ($request,$count)=@_;
+    my $type=$request->type;
+    # $type .= ':'.$request->subtype if $request->subtype;
+    $count ||= 1;
+    $unavailable->{$type} += $count;
+}
+
+sub listUnavailable
+{
+    my $list='';
+    foreach my $type ( sort keys %$unavailable)
+    {
+        my $count=$unavailable->{$type};
+        if( $count > 0 )
+        {
+            $list .= ', '.$type.'('.$count.')';
+        }
+    }
+    return substr($list,2);
+}
+
 sub getData
 {
     my ($description,$request,$target)=@_;
@@ -122,6 +146,10 @@ sub getData
 
     my $whenstr=seconds_datetime($when).' (local time)' if $when;
 
+    if( $status ne COMPLETED )
+    {
+        countUnavailable($request);
+    }
     if( $status eq PENDING || $status eq DELAYED )
     {
         my $overdue='';
@@ -673,6 +701,7 @@ if( $env->param("DNLDRS_A") )
             if( $status eq UNAVAILABLE)
             {
                 bernwarn("Not using station $code\ndata is unavailable\n");
+                countUnavailable($request,-1);
                 next;
             }
             # If delayed then check that not too many stations are delayed, and give up if so
@@ -686,6 +715,7 @@ if( $env->param("DNLDRS_A") )
                     $rfstatus=DELAYED;
                     last;
                 }
+                countUnavailable($request,-1);
                 next;
             }
             # If data is not yet due for this station, then abandon till it is available
@@ -738,7 +768,7 @@ if( $env->param("DNLDRS_A") )
         
         $retry=$saveretry if $rfstatus ne DELAYED;
 
-        # If we got all the data we need then set the status and update coordiantes
+        # If we got all the data we need then set the status and update coordinates
 
         if( $needstns <= 0 )
         {
@@ -821,19 +851,21 @@ if( @rnxfiles && $env->param("FIXRINEX") )
 
 if( $failed )
 {
+    my $missingList=listUnavailable();
+    $missingList=' (missing '.$missingList.')' if $missingList;
     if( $wait_till || $retry || $queued )
     {
         my $message;
         if( $wait_till )
         {
-            $message="Not all the requested data is available yet.\nIt is expected by ".
-                seconds_datetime($wait_till,1)." (localtime)\n";
+            $message="Not all the requested data is available yet$missingList.\n".
+                "It is expected by ".seconds_datetime($wait_till,1)." (localtime)\n";
         }
         elsif( $retry )
         {
             $wait_till=$retry;
-            $message="Some requested data is overdue.\nRetrying at ".
-                seconds_datetime($wait_till,1)." (localtime)\n";
+            $message="Some requested data is overdue$missingList.\n".
+                "Retrying at ".  seconds_datetime($wait_till,1)." (localtime)\n";
         }
         else
         {
@@ -855,6 +887,6 @@ if( $failed )
     }
     else
     {
-        berncroak("Some requested data is not available");
+        berncroak("Some requested data$missingList is not available");
     }
 }
