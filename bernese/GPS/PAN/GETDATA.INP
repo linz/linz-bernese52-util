@@ -70,6 +70,14 @@ DNLDCLK 1  "0"
 MSG_DNLDCLK 1  "Download earth rotation parameters"
 
 ! -------------------------------------------------------------------------
+! Plus/minus session range in orbits
+! ------------------
+ORBPLUSM 1  "0"
+  ## widget = checkbox
+
+MSG_ORBPLUSM 1  "Include +/- session range in orbit products"
+
+! -------------------------------------------------------------------------
 ! Download Bernese atmospheric files
 ! ------------------
 
@@ -132,6 +140,13 @@ DNLDP1P2 1  "0"
 
 MSG_DNLDP1P2 1  "Download CODE P1P2 DCB files"
 
+! -------------------------------------------------------------------------
+! Plus/minus session range in atmosphere products
+! ------------------
+ATMPLUSM 1  "0"
+  ## widget = checkbox
+
+MSG_ATMPLUSM 1  "Include +/- session range in atmosphere products"
 
 ! -------------------------------------------------------------------------
 ! Download reference station data
@@ -335,6 +350,8 @@ DESCR_SYSERR 1  "Error message"
 #      Download monthly P1-C1 biases                 > % <                     # DNLDP1C1
 #      Download monthly P1-P2 biases                 > % <                     # DNLDP1P2
 #                                                                              #
+#   Include +/- session range in orbit products      > % <                     # ORBPLUSM
+#                                                                              #
 # END_PANEL ####################################################################
 
 # BEGIN_PANEL NO_CONDITION #####################################################
@@ -349,6 +366,8 @@ DESCR_SYSERR 1  "Error message"
 #   Download Vienna mapping function files           > % <                     # DNLDVMF
 #       Merge VMF files to a single file             > % <                     # MERGEVMF
 #       Name of merged VMF file                      > %%%%%%%% <              # VMFFILE
+#                                                                              #
+#   Include +/- session range in atmosphere products > % <                     # ATMPLUSM
 #                                                                              #
 # END_PANEL ####################################################################
 

@@ -9,19 +9,19 @@ use LINZ::BERN::CrdFile;
 use LINZ::GNSS;
 use LINZ::GNSS::DataRequest qw(UNAVAILABLE PENDING DELAYED COMPLETED);
 use LINZ::GNSS::FileCache;
-use LINZ::GNSS::Time;
+use LINZ::GNSS::Time qw/$SECS_PER_DAY seconds_datetime/;
 use LINZ::GNSS::RinexFile;
 use LINZ::GNSS::FileSpec;
 use Data::Dumper;
+
+LINZ::GNSS::LoadConfig();
+my $env = new LINZ::BERN::Environment;
 
 if(0)
 {
     print "Environment:\n";
     print Dumper(\%ENV);
 }
-
-LINZ::GNSS::LoadConfig();
-my $env = new LINZ::BERN::Environment;
 
 if(0)
 {
@@ -292,6 +292,14 @@ sub mergeFiles
     }   
 }
 
+# Get the plus/minus range for the session - currently not handled properly as should
+# retrieve from MENU_VAR.INP
+
+sub getSessionPlusMinus
+{
+    return (-1.0,1.0);
+}
+
 # Version of croak that provides more Bernese like error message
 #
 sub _bernmsg
@@ -361,6 +369,16 @@ if( $env->param("LISTSTA") )
     print "\n ==================================================\n\n";
 }
 
+my $orbstart=$start;
+my $orbend=$end;
+
+if( $env->param('ORBPLUSM') )
+{
+    my ($minus,$plus)=getSessionPlusMinus();
+    $orbstart += $minus*$SECS_PER_DAY;
+    $orbend += $plus*$SECS_PER_DAY;
+}
+
 if( $env->param('DNLDORB') || $env->param('DNLDERP') )
 {
     my @downloaded=();
@@ -370,7 +388,7 @@ if( $env->param('DNLDORB') || $env->param('DNLDERP') )
     if( $env->param('DNLDORB') )
     {
         my $type = 'ORB';
-        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
         my ($status,$files) = getData("$subtype orbits",$request,$target);
         # Ensure orbit and ERP data are the same type
         if( $files )
@@ -384,7 +402,7 @@ if( $env->param('DNLDORB') || $env->param('DNLDERP') )
     {
         my $type = 'ERP';
         my $sessend=$end;
-        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
         my ($status, $files) = getData("$subtype earth rotation parameters",$request,$target);
         $orbfailed = 1 if $status ne COMPLETED;
     };
@@ -405,9 +423,41 @@ if( $env->param('DNLDCLK') )
 {
     my $type = 'CLK';
     my $subtype= $env->param('ORBTYP');
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
     my ($status,$files) = getData("Satellite 5 minute clock files (CLK)",$request,$target);
     $failed = 1 if $status ne COMPLETED;
+}
+
+# Code DCB products
+
+if( $env->param('DNLDP1C1') )
+{
+    my $type = 'P1C1';
+    my $subtype = 'FINAL';
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
+    my ($status,$files) = getData("CODE bernese P1C1 DCB files",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
+if( $env->param('DNLDP1P2') )
+{
+    my $type = 'P1P2';
+    my $subtype = 'FINAL';
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
+    my ($status,$files) = getData("CODE bernese P1P2 DCB files",$request,$target);
+    $failed = 1 if $status ne COMPLETED;
+}
+
+#########################
+
+my $atmstart=$start;
+my $atmend=$end;
+
+if( $env->param('ATMPLUSM') )
+{
+    my ($minus,$plus)=getSessionPlusMinus();
+    $atmstart += $minus*$SECS_PER_DAY;
+    $atmend += $plus*$SECS_PER_DAY;
 }
 
 # Atmospheric models/maps
@@ -416,7 +466,7 @@ if( $env->param('DNLDTRP') )
 {
     my $type = 'TRP';
     my $subtype = 'FINAL';
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
     my ($status,$files) = getData("Bernese tropospheric models (TRP)",$request,$target);
     $failed = 1 if $status ne COMPLETED;
 }
@@ -425,7 +475,7 @@ if( $env->param('DNLDION') )
 {
     my $type = 'ION';
     my $subtype = 'FINAL';
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
     my ($status,$files) = getData("Bernese ionospheric models (ION)",$request,$target);
     if($status ne COMPLETED)
     {
@@ -451,7 +501,7 @@ if( $env->param('DNLDVMF') )
 {
     my $type = 'VMF';
     my $subtype = 'VMF';
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
+    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
     my ($status,$files) = getData("Vienna mapping functions",$request,$target);
     if($status ne COMPLETED)
     {
@@ -462,26 +512,6 @@ if( $env->param('DNLDVMF') )
         my $vmffile=$env->param('VMFFILE',1);
         mergeFiles($files,$vmffile,'VMF');
     }
-}
-
-# Code DCB products
-
-if( $env->param('DNLDP1C1') )
-{
-    my $type = 'P1C1';
-    my $subtype = 'FINAL';
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
-    my ($status,$files) = getData("CODE bernese P1C1 DCB files",$request,$target);
-    $failed = 1 if $status ne COMPLETED;
-}
-
-if( $env->param('DNLDP1P2') )
-{
-    my $type = 'P1P2';
-    my $subtype = 'FINAL';
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
-    my ($status,$files) = getData("CODE bernese P1P2 DCB files",$request,$target);
-    $failed = 1 if $status ne COMPLETED;
 }
 
 # Station handling
