@@ -202,7 +202,7 @@ CRDFILE 0
 MSG_CRDFILE 1  "Name of station file containing a list of stations to load/updated"
 
 MAXMSSTN 1 "0"
-  ## widget = spinbox; range = 0 100 1; activeif = DNLDRS_F = 1 OR DNLDRS_C = 1
+  ## widget = spinbox; range = -100 100 1; activeif = DNLDRS_F = 1 OR DNLDRS_C = 1
 
 MSG_MAXMSSTN 1 "Maximum acceptable number of missing stations (specific station or coordinate file downloads)"
 

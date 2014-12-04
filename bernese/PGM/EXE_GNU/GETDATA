@@ -592,6 +592,11 @@ if( $env->param("DNLDRS_F") )
 if( @dnldstns )
 {
     my $maxmissing=($env->param("MAXMSSTN")+0) || 0;
+    if( $maxmissing < 0 )
+    {
+        $maxmissing=scalar(@dnldstns)-$maxmissing;
+        $maxmissing=0 if $maxmissing < 0;
+    }
     my @missing=();
 
     foreach my $code (@dnldstns)
