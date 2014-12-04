@@ -1,3 +1,9 @@
+linz-bernese52-util (1.10.0-1) trusty; urgency=medium
+
+  * Better handling of missing stations - adding minimum stations required option
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Thu, 04 Dec 2014 13:09:54 +1300
+
 linz-bernese52-util (1.9.0-1) trusty; urgency=medium
 
   * Adding option for loading range of orbit/atmosphere parameters
