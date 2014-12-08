@@ -1,3 +1,13 @@
+linz-bernese52-util (1.11.0-1) trusty; urgency=medium
+
+  * Moving PNZATX from positionzpp script to utilities, so available for other PCFs
+  * Tidying up input panels
+  * Adding script to set up for using PNZATX
+  * Updating PNZATX to remove ATX file after its been used
+  * Added handling of reference script directory for packaged PCF scripts
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 09 Dec 2014 12:30:46 +1300
+
 linz-bernese52-util (1.10.0-1) trusty; urgency=medium
 
   * Better handling of missing stations - adding minimum stations required option
