@@ -12,4 +12,6 @@ all:
 install: all
 	mkdir -p ${DESTDIR}/opt/bernese52
 	cp -r bernese/* ${DESTDIR}/opt/bernese52
+	mkdir -p ${DESTDIR}/usr/bin
+	cp bin/* ${DESTDIR}/usr/bin
 

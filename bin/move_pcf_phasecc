@@ -1,0 +1,117 @@
+#!/usr/bin/perl
+#
+#  Script to support the PNZATX Bernese user script. Processes all input panels used by a PCF to move the 
+#  PHASECC file (eg PCV_COD.I08) from DIR_GEN to DIR_STA.  This is to allow the PCF to use a version updated
+#  by ATX2PCV, which adds data for missing antenna/radome combinations.
+
+use LINZ::BERN::PcfFile;
+
+@ARGV==1 || die <<EOD;
+
+move_pcf_phasecc
+
+Moves PHASECC file from DIR_GEN to DIR_STA in all panels used by a PCF to 
+support the PNZATX script.  
+
+Requires the name of a PCF as input.
+
+EOD
+
+# Find the user directory
+
+my $U=$ENV{U};
+
+if( ! $U || ! -d $U)
+{
+    if( -d 'PCF' && (-d 'SCRIPT' || -d 'USERSCPT') && -d 'OPT' )
+    {
+        print "Using current directory as GPSUSER\n";
+        $U=".";
+    }
+    else
+    {
+        my $userdir=$ENV{HOME}.'/BERN52/GPSUSER';
+        if( -d  $userdir )
+        {
+            print "Using $userdir as GPSUSER\n";
+            $U=$userdir;
+        }
+    }
+    if( ! -d $U )
+    {
+        print "Cannot find Bernese user directory\n";
+        exit();
+    }
+    $ENV{U} = $U;
+}
+
+my $pcf=LINZ::BERN::PcfFile->new($ARGV[0]);
+my %panels=();
+my $optsdir=$pcf->{optdir};
+foreach my $pid ($pcf->pids())
+{
+    my $optdir=$pid->{optdir};
+    foreach my $prog (@{$pid->{programs}})
+    {
+        my $panel=$optsdir.'/'.$optdir.'/'.$prog.'.INP';
+        if( -e $panel )
+        {
+            $panels{$panel}=1;
+        }
+        else
+        {
+            print "Missing panel file $panel\n";
+        }
+    }
+}
+
+my @panels=sort keys %panels;
+
+foreach my $panel (@panels)
+{
+    print $panel,"\n";
+    my $newfile=$panel.'.new';
+    open($newf,">$newfile") || die "Cannot create updated panel $newfile\n";
+    open($oldf,"<$panel") || die "Cannot read panel file $panel\n";
+    my $updated=0;
+    while(my $line=<$oldf>)
+    {
+        if( $line =~ /^PHASECC\s+1/ )
+        {
+            $line .= <$oldf>;
+            if( $line =~ /path\s*\=\s*PTH_GEN/ )
+            {
+                $line=~ s/(path\s*\=\s*)PTH_GEN/$1DIR_STA/;
+                $updated=1;
+            }
+            elsif( $line =~ /path\s*\=\s*DIR_STA/ )
+            {
+                print "PHASECC already moved in $panel\n";
+            }
+            else
+            {
+                print "Check PHASECC location in $panel - not updated\n";
+            }
+        }
+        elsif( $updated && $line=~ /^(\#.*\%\%\%\%\s*\<\s)(\s+)(\#\s+PHASECC\s+)/ )
+        {
+            my ($prefix,$space,$suffix)=($1,$2,$3);
+            $space=substr('Moved to STA'.$space,0,length($space));
+            $line=$prefix.$space.$suffix;
+        }
+        print $newf $line;
+    }
+    close($oldf);
+    close($newf);
+    if( $updated )
+    {
+        rename($panel,$panel.'.bck') || die "Cannot rename $panel to .bck\n";
+        rename($newfile,$panel) || die "Cannot rename $newfile to .INP\n";
+        print "$panel updated\n";
+    }
+    else
+    {
+        unlink($newfile);
+    }
+}
+
