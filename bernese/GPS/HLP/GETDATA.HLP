@@ -204,7 +204,7 @@ If the VMF files are to be merged then this specifies the name of the file to cr
 </p>
 
 <p><hr /></p>
-<p><b>GETDATA 4: Reference Station Data</b></p>
+<p><b>GETDATA 4: Reference Station RINEX files</b></p>
 
 <p>Reference station RINEX data can be downloaded.  There are two &quot;data quality&quot; subtypes,
 DAILY and HOURLY.  DAILY data are preferred by the script.
@@ -221,18 +221,18 @@ There are three different methods for selecting stations to download:
 </p>
 <ul>
 <li>
-<b>Download station observation data for specified stations</b>
+<b>Download data for specified stations</b>
 This is the simplest option - the required station four character codes are specified and 
 these stations will be downloaded.  Many stations can be requested at the same time - the 
 codes must be separated by spaces (eg &quot;MAST WELL&quot;).
 </li>
 <li>
-<b>Download station observation data for stations in coord file</b>
+<b>Download data for stations in coord file</b>
 Data will be retrieved for all the stations in the specified coordinate file, 
 or just for the stations with a specified flag value.  
 </li>
 <li>
-<b>Automatically select reference stations based on existing coords</b>
+<b>Automatically select reference stations based on existing coord</b>
 This is the most complex option.  It implements the PositioNZ-PP reference station selection 
 algorithm.  This uses a reference coordinate from the coordinate file, and based on that
 selects the reference stations to use.  The selection is based on a combination of distance and 
@@ -348,11 +348,12 @@ the campaign session - this may apply even if only one file is downloaded for a 
 </p>
 
 <a name="FIXRINEX" default="1"></a>
-<p><b>Fix invalid RINEX antenna/receive</b>
+<p><b>Fix invalid RINEX antenna/receiver</b>
 Replace invalid antenna/receivers in RINEX file with best guess valid values.  This ensures that
 the antenna and receiver names in the file match valid values in the Bernese antenna and receiver 
 files.  The list of valid names is restricted to only include antennae calibrated for dual
 frequency GPS data, and receivers capable of receiving dual frequency GPS data.
 </p>
+
 </body>
 </html>

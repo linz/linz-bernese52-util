@@ -373,16 +373,14 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GETDATA 4: Reference station data                  # 
+# DOWNLOAD REFERENCE DATA - GETDATA 4: Reference station RINEX files           # 
 #                                                                              #
-#   Choice of stations to download                                             #
+#   > % <   Don't download reference station data                              # DNLDRS_0
 #                                                                              #
-#   > % <   Don't download reference station observation data                  # DNLDRS_0
-#                                                                              #
-#   > % <   Download station observation data for specified stations           # DNLDRS_C
+#   > % <   Download data for specified stations                               # DNLDRS_C
 #           > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <    # REFSTNS
 #                                                                              #
-#   > % <   Download station observation data for stations in coord file       # DNLDRS_F
+#   > % <   Download data for stations in coord file (below)                   # DNLDRS_F
 #             Only stations with flag > %%%%%%%%%%%%%% <                       # STAFLAG
 #                                                                              #
 #   > % <   Automatically select reference stations based on existing coord    # DNLDRS_A
@@ -390,7 +388,7 @@ DESCR_SYSERR 1  "Error message"
 #             Number of marks to select         > %%%%%%%% <                   # NSTASEL
 #             Minimum percentage of data reqd   > %%%%%%%% <                   # MINDATA
 #             Maximum no delayed stations       > %%%% <                       # MAXDLY
-#             Add/update marks in coordfile     > % <                          # UPDTCRD
+#             Add/update marks in coord file    > % <                          # UPDTCRD
 #             Flag for updated coordinates      > %%%% <                       # UPDTFLAG
 #             Reference station list file       > %%%%%%%% <                   # RFSTFL
 #                                                                              #
@@ -398,7 +396,6 @@ DESCR_SYSERR 1  "Error message"
 #   Maximum number of missing stations    > %%%% <                             # MAXMSSTN
 #   RINEX data type                       > %%%%%%% <                          # RSDTYPE
 #   Merge RINEX files to session file     > % <                                # MRGRINEX
-#   Fix invalid RINEX antenna/receive     > % <                                # FIXRINEX
-#                                                                              #
+#   Fix invalid RINEX antenna/receiver    > % <                                # FIXRINEX
 #                                                                              #
 # END_PANEL ####################################################################
