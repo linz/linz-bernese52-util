@@ -1,0 +1,99 @@
+package ATX2PCV;
+@ISA = ("RUNBPE");
+# ============================================================================
+#
+# Name    :  ATX2PCV
+#
+# Purpose :  Execute ATX2PCV
+#            Update phase eccenter file in $X/GEN if required
+#
+# PARAMs  :
+#
+# Author  :  R. Dach
+# Created :  11-Aug-2011
+#
+# Changes :  Modified to use a campaign directory for the PCV file.  This is done
+#            so that the file created by ATX2PCV can be used without installing
+#            into the system GEN folder. 
+#
+#            The script first copies the ATX and .I08 PCV files from the GEN directory
+#            to the target campaign directory.  It then runs ATX2PCV to create the new
+#            file, and finally overwrites the campaign .I08 file with the new version.
+#
+#            To use this the input panels for the PCF must be altered, as the PHASECC
+#            variable is located in DIR_GEN in all input panels.  This is really 
+#            inconvenient as it cannot be easily relocated!  So to make this work, the
+#            panel files themselves must be edited.  The lines
+#
+#             PHASECC 1  "${X}/GEN/PCV.I08"
+#             ## widget = selwin; path = PTH_GEN; ext = EXT_ANY; maxfiles = 1
+#             # PCV.I08
+#
+#             must be replaced with one listing a campaign directory instead of a 
+#             system directory, eg DIR_STA
+#
+#             PHASECC 1  "${X}/GEN/PCV.I08"
+#             ## widget = selwin; path = PTH_STA; ext = EXT_ANY; maxfiles = 1
+#             # PCV.I08
+#
+#             This script must be called before any of the scripts using the file, as
+#             it copies the GEN versions into the system directory
+#
+# ============================================================================
+use strict;
+
+use File::Copy;
+use File::Compare;
+use lib "$ENV{BPE}";
+use bpe_util qw(prtMess prtErr);
+
+sub run {
+  my $bpe = shift;
+
+  my ($dirGen) = $bpe->getKeys( 'PTH_GEN' );
+
+  $bpe->inpOutMenu("","$ENV{U}/PAN/ATX2PCV.INP","$ENV{U}/INP/ATX2PCV.INP","ATX2PCV");
+
+  my $atx = $bpe->getKey("$ENV{U}/INP/ATX2PCV.INP","PHASEXT");
+  my $pcvold = $bpe->getKey("$ENV{U}/INP/ATX2PCV.INP","PHASECC");
+  my $pcvnew = $bpe->getKey("$ENV{U}/INP/ATX2PCV.INP","PHASRSG");
+  prtMess($bpe,"Using base antenna file : $atx");
+  prtMess($bpe,"Using bernese PCV       : $pcvold");
+  prtMess($bpe,"Creating bernese PCV    : $pcvnew");
+
+  unlink($pcvnew);
+  foreach my $f ($atx,$pcvold)
+  {
+      if( ! -e $f )
+      {
+         $f =~ /^(?:(.*)[\\\/])?(.*)$/;
+         my( $path, $filename ) = ($1,$2);
+         my $genfile=$dirGen.'/'.$filename;
+         if( ! -e  $genfile )
+         {
+             prtErr($bpe,"File $filename not available in $path or $dirGen");
+             die "File $filename not available";
+         }
+         prtMess($bpe,"Installing $filename from $dirGen" );
+         copy($genfile,$f);
+      }
+  }
+
+# Run program
+# -----------
+    my $PGMNAM = "ATX2PCV";
+    $bpe->RUN_PGMS($PGMNAM);
+
+# Update the reference PCV file
+# --------------------------------------
+
+    if( -e $pcvnew )
+    {
+       prtMess($bpe,"Updating $pcvold with $pcvnew");
+       copy($pcvnew,$pcvold) if -e $pcvnew;
+    }
+    else
+    {
+       prtMess($bpe,"Updated PCV $pcvnew not created");
+    }
+}
