@@ -4,6 +4,7 @@
 #  PHASECC file (eg PCV_COD.I08) from DIR_GEN to DIR_STA.  This is to allow the PCF to use a version updated
 #  by ATX2PCV, which adds data for missing antenna/radome combinations.
 
+use strict;
 use LINZ::BERN::PcfFile;
 
 @ARGV==1 || die <<EOD;
@@ -45,7 +46,9 @@ if( ! $U || ! -d $U)
     $ENV{U} = $U;
 }
 
-my $pcf=LINZ::BERN::PcfFile->new($ARGV[0]);
+my $refscriptdir=$ENV{X} ? "$ENV{X}/USERSCPT" : "";
+
+my $pcf=LINZ::BERN::PcfFile->new($ARGV[0],$refscriptdir);
 my %panels=();
 my $optsdir=$pcf->{optdir};
 foreach my $pid ($pcf->pids())
@@ -71,8 +74,8 @@ foreach my $panel (@panels)
 {
     print $panel,"\n";
     my $newfile=$panel.'.new';
-    open($newf,">$newfile") || die "Cannot create updated panel $newfile\n";
-    open($oldf,"<$panel") || die "Cannot read panel file $panel\n";
+    open(my $newf,">$newfile") || die "Cannot create updated panel $newfile\n";
+    open(my $oldf,"<$panel") || die "Cannot read panel file $panel\n";
     my $updated=0;
     while(my $line=<$oldf>)
     {
