@@ -36,6 +36,9 @@ package ATX2PCV;
 #             ## widget = selwin; path = PTH_STA; ext = EXT_ANY; maxfiles = 1
 #             # PCV.I08
 #
+#             The perl script move_pcf_phasecc can be used to apply this change to all
+#             PCF input panels.
+#
 #             This script must be called before any of the scripts using the file, as
 #             it copies the GEN versions into the system directory
 #
@@ -62,10 +65,12 @@ sub run {
   prtMess($bpe,"Creating bernese PCV    : $pcvnew");
 
   unlink($pcvnew);
+  my $unlinkatx=0;
   foreach my $f ($atx,$pcvold)
   {
       if( ! -e $f )
       {
+         my $isatx=$f eq $atx;
          $f =~ /^(?:(.*)[\\\/])?(.*)$/;
          my( $path, $filename ) = ($1,$2);
          my $genfile=$dirGen.'/'.$filename;
@@ -76,6 +81,7 @@ sub run {
          }
          prtMess($bpe,"Installing $filename from $dirGen" );
          copy($genfile,$f);
+         $unlinkatx=1 if $isatx;
       }
   }
 
@@ -96,4 +102,8 @@ sub run {
     {
        prtMess($bpe,"Updated PCV $pcvnew not created");
     }
+
+    # Remove the ATX file ...
+   
+    unlink($atx) if $unlinkatx;
 }
