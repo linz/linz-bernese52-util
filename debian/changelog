@@ -1,3 +1,9 @@
+linz-bernese52-util (1.11.1-1) trusty; urgency=medium
+
+  * Clearing redundant new files
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 09 Dec 2014 14:25:37 +1300
+
 linz-bernese52-util (1.11.0-1) trusty; urgency=medium
 
   * Moving PNZATX from positionzpp script to utilities, so available for other PCFs
