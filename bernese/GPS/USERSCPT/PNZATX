@@ -96,7 +96,8 @@ sub run {
     if( -e $pcvnew )
     {
        prtMess($bpe,"Updating $pcvold with $pcvnew");
-       copy($pcvnew,$pcvold) if -e $pcvnew;
+       unlink($pcvold);
+       move($pcvnew,$pcvold);
     }
     else
     {
