@@ -1,0 +1,105 @@
+<html>
+<body>
+<center>
+<b>CREATE OCEAN LOADING FILE</b>
+<p>Program: MAKEBLQ</p>
+</center>
+
+<hr width="100%">
+<p><b>GENERAL DESCRIPTION</b></p>
+<p>
+The MAKEBLQ program compiles a BLQ ocean loading file for the stations 
+in a coordinate file.  
+It uses two input files from the datapool.  
+<p>
+<ul>
+<li>
+Template file: A file of specific stations that have already been computed.  
+This file also serves as the template for the file that is created (the
+header from this file is used).  Stations with names/codes matching this
+file will use the coefficients in this file provided their coordinates
+are sufficiently close to those used in the file.
+</li>
+<li>
+Grid file: A file of gridded ocean loading coefficients.  
+The grid does not need to be complete, but all the points in the file need to 
+be on a regular latitude and longitude grid.  These values are used to 
+interpolate the coefficients for stations which
+are not found in the template file.  A station will be interpolated 
+if coefficients are defined for the four corners of the grid cell in which
+it lies.
+</li>
+</ul>
+
+<p><hr /></p>
+<p><b>CREATE OCEAN LOADING FILE</b></p>
+
+<a name="TITLE" default="Test"></a>
+<p><b>Title</b>
+The title to be used on program output.
+</p>
+
+<a name="BLQSRC" default=""></a>
+<p><b>Template/station source ocean loading file</b>
+The name of the template file used to provide the header for the output
+BLQ file, and from which pre-calculated stations may be loaded.  The file
+must be located in the datapool directory.
+</p>
+
+<a name="BLQGRD" default=""></a>
+<p><b>Ocean loading grid file</b>
+The name of the file of gridded ocean loading coefficients. This file must 
+be located in the datapool directory.
+</p>
+
+<a name="CRDFILE" default=""></a>
+<p><b>Input coordinate file</b>
+The coordinate file containing the stations at which ocean loading values are
+to be calculated.
+</p>
+
+<a name="CRDTOL" default="100.0"></a>
+<p><b>Position tolerance for matched stations</b>
+Specifies the maximum horizontal offset between a station in the 
+coordinate file and a proposed matching station in the template file.
+If the difference is greater than this the station in the template file
+will be assumed to refer to another mark and the coefficients will not 
+be used.
+</p>
+
+<a name="BLQTRGT" default="0"></a>
+<p><b>Output ocean loading file</b>
+The name of the ocean loading BLQ file to create.  This file will be located
+in the campaign STA directory.
+</p>
+
+<a name="SYSODEF" default="1"></a>
+<a name="SYSOUT"  default="CRDMERGE"></a>
+<p><b>GENERAL OUTPUT FILES</b>
+<p><b>Program output:</b>
+You can choose to have the program output written to a separate file for each
+program run (checkbox marked), or specify a common name for all program runs.
+<br>
+If you mark the checkbox, the filename will correspond to the program name
+with an extension containing a counter (Lnn), which is automatically
+incremented for each program run. If the counter reaches the maximum value, it
+is automatically reset, and existing files will be overwritten.
+The maximum value can be set in
+<b>Menu &gt; Configure &gt; Program Names</b>, option "Maximum program output
+file number".
+<br>
+If the checkbox is unmarked, you have to specify a name for the program
+output file. This allows to characterize the program run, e.g., by using the
+day and year (<tt>$YD+0</tt>) in the filename.
+</p>
+
+<a name="ERRMRG" default="0"></a>
+<a name="SYSERR" default="ERROR"></a>
+<p><b>Error messages:</b>
+You can choose to have error messages written into the program's output
+file (see above), or specify a separate file to which error messages are
+written.
+</p>
+
+</body>
+</html>

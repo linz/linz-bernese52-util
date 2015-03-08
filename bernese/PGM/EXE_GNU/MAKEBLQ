@@ -1,0 +1,124 @@
+#!/usr/bin/perl
+
+use strict;
+use LINZ::BERN::Environment;
+use LINZ::BERN::CrdFile;
+use LINZ::GNSS::BLQFile;
+use LINZ::Geodetic::Ellipsoid qw/GRS80/;
+use LINZ::GNSS::Time qw/$SECS_PER_DAY seconds_datetime/;
+
+my $env = new LINZ::BERN::Environment;
+
+if(0)
+{
+    print "Environment:\n";
+    print Dumper(\%ENV);
+}
+if(0)
+{
+    print "\n\nMenu parameters\n";
+    print Dumper($env->params);
+}
+
+my $date=seconds_datetime(time(),1);
+my $sessinfo=$env->param('SES_INFO');
+my $year=$env->param('YR4_INFO');
+my $user=$env->param('USER');
+my $title=$env->param('TITLE') || "Retrieve or calculate ocean loading coefficients";
+
+my $blqsrc=$env->param('BLQSRC',1);
+my $blqgrd=$env->param('BLQGRD',1);
+my $crdfile=$env->param('CRDFILE',1);
+my $blqout=$env->param('BLQTRGT',1);
+my $crdtol=$env->param('CRDTOL')+0.0 || 100.0;
+
+print " ===============================================================================\n";
+print " LINZ Bernese Version 5.2 Utilities\n";
+print " -------------------------------------------------------------------------------\n";
+print " Program        : MAKEBLQ\n";
+print " Purpose        : Create ocean loading file\n";
+print " Default session: $sessinfo year $year\n";
+print " Date           : $date\n";
+print " User name      : $user\n";
+print " ===============================================================================\n";
+print " \n";
+print " $title\n\n";
+print " Template/source loading file: $blqsrc\n";
+print " Grid loading file:            $blqgrd\n";
+print " Station coordinate file:      ".$env->bernfile($crdfile)."\n";
+print " Output station loading file:  ".$env->bernfile($blqout)."\n";
+printf " Matching station coord tolerance : %.1f metres\n",$crdtol;
+
+my $blqt;
+eval
+{
+    my $blqs=new LINZ::GNSS::BLQFile($blqsrc);
+    my $blqg;
+    my $crdf=new LINZ::BERN::CrdFile($crdfile);
+    open( $blqt, ">$blqout" ) || die "Cannot create target BLQ file $blqout\n";
+    $blqs->copyHeader($blqt);
+    my $nfail=0;
+    foreach my $stn ($crdf->stations())
+    {
+        my $code=$stn->code;
+        my $name=$stn->name;
+        my $xyz=$stn->xyz;
+        my $llh = GRS80->geodetic($xyz);
+        
+        print "\nProcessing station $code\n";
+        my $blq=$blqs->loadingForCode( $name, 1 );
+        if( ! $blq ) 
+        {
+            $blq=$blqs->loadingForCode( $code, 1 );
+        }
+        if( $blq ) 
+        {
+            my $dlon = $llh->[1]-$blq->lon;
+            my $dlat = $llh->[0]-$blq->lat;
+            my $coslat=cos($blq->lat * (atan2(1,1)/45.0));
+            $dlon -= 360 while $dlon > 180.0;
+            $dlon += 360 while $dlon < -180.0;
+            my $offset=sqrt($dlon*$dlon*$coslat*$coslat+$dlat*$dlat)*1000000.0;
+            if( $offset > $crdtol )
+            {
+                $offset=sprintf("%.0f",$offset);
+                $env->warn("Station $name in source BLQ file offset $offset metres from coordinate file - ignored");
+                undef($blq);
+            }
+        }
+        if( $blq )
+        {
+            print "Using existing loading model for $name\n";
+            $blq->setCode($name);
+        }
+        else
+        {
+            if( ! $blqg )
+            {
+                $blqg=new LINZ::GNSS::BLQFile($blqgrd);
+            }
+            eval
+            {
+                print "Calculating loading for $name from grid\n";
+                $blq=$blqg->calcLoadingFromGrid( $code, $llh->[1], $llh->[0] );
+            };
+            if( $@ )
+            {
+                my $msg=$@;
+                $msg =~ s/\n.*//g;
+                $env->warn("Cannot calculate loading for $name: $msg\n");
+            }
+        }
+        if( $blq )
+        {
+            $blqs->writeBlqData( $blqt, $blq );
+        }
+    }
+    $blqs->writeEndData($blqt);
+    close($blqt);
+};
+if( $@ )
+{
+    my $error=$@;
+    $env->fail($error);
+}

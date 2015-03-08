@@ -12,7 +12,6 @@ use LINZ::GNSS::FileCache;
 use LINZ::GNSS::Time qw/$SECS_PER_DAY seconds_datetime/;
 use LINZ::GNSS::RinexFile;
 use LINZ::GNSS::FileSpec;
-use Data::Dumper;
 
 LINZ::GNSS::LoadConfig();
 my $env = new LINZ::BERN::Environment;
