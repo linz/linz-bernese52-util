@@ -1,3 +1,10 @@
+linz-bernese52-util (1.13.0-1) trusty; urgency=medium
+
+  * Adding support for rapid DCB and ION products
+  * Tidying up input panel
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 31 Mar 2015 13:28:22 +1300
+
 linz-bernese52-util (1.12.0-1) trusty; urgency=medium
 
   * Adding MAKEBLQ program
