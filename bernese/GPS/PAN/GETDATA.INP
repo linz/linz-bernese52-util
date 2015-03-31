@@ -91,6 +91,12 @@ DNLDION 1  "0"
 
 MSG_DNLDION 1  "Download Bernese ionospheric models"
 
+IONTYP 1  "FINAL"
+  ## widget=combobox; editable=false
+  ## cards = PREDICT PREDICT+ RAPID RAPID+ FINAL
+
+MSG_IONTYP 1  "Ionosphere model quality, '+' = 'or better'"
+
 MERGEION 1  "0"
   ## widget = checkbox
   ## activeif = DNLDION = 1
@@ -129,6 +135,12 @@ MSG_VMFFILE 1  "Name of combined VMF files
 ! -------------------------------------------------------------------------
 ! Download CODE monthly DCB files
 ! ------------------
+
+DCBTYP 1  "FINAL"
+  ## widget=combobox; editable=false
+  ## cards = RAPID RAPID+ FINAL
+
+MSG_DCBTYP 1  "DCB product quality, '+' = 'or better'"
 
 DNLDP1C1 1  "0"
   ## widget = checkbox
@@ -347,6 +359,7 @@ DESCR_SYSERR 1  "Error message"
 #   (clock files only available in RAPID and FINAL)                            #
 #                                                                              #
 #   CODE DCB products                                                          #
+#      DCB product quality                           > %%%%%%% <               # DCBTYP
 #      Download monthly P1-C1 biases                 > % <                     # DNLDP1C1
 #      Download monthly P1-P2 biases                 > % <                     # DNLDP1P2
 #                                                                              #
@@ -360,6 +373,7 @@ DESCR_SYSERR 1  "Error message"
 #   Download tropospheric models (.TRP)              > % <                     # DNLDTRP
 #                                                                              #
 #   Download ionospheric models (.ION)               > % <                     # DNLDION
+#       Ionosphere model quality                     > %%%%%%%% <              # IONTYP
 #       Merge ION files to a single file             > % <                     # MERGEION
 #       Name of merged ION file                      > %%%%%%%% <              # IONFILE
 #                                                                              #

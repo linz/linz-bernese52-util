@@ -432,7 +432,7 @@ if( $env->param('DNLDCLK') )
 if( $env->param('DNLDP1C1') )
 {
     my $type = 'P1C1';
-    my $subtype = 'FINAL';
+    my $subtype= $env->param('DCBTYP');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
     my ($status,$files) = getData("CODE bernese P1C1 DCB files",$request,$target);
     $failed = 1 if $status ne COMPLETED;
@@ -441,7 +441,7 @@ if( $env->param('DNLDP1C1') )
 if( $env->param('DNLDP1P2') )
 {
     my $type = 'P1P2';
-    my $subtype = 'FINAL';
+    my $subtype= $env->param('DCBTYP');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
     my ($status,$files) = getData("CODE bernese P1P2 DCB files",$request,$target);
     $failed = 1 if $status ne COMPLETED;
@@ -472,18 +472,25 @@ if( $env->param('DNLDTRP') )
 
 if( $env->param('DNLDION') )
 {
-    my $type = 'ION';
-    my $subtype = 'FINAL';
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
-    my ($status,$files) = getData("Bernese ionospheric models (ION)",$request,$target);
-    if($status ne COMPLETED)
+    if( $env->param("MERGEION") && ! $env->param('IONFILE',1) )
     {
-        $failed = 1 
+        bernwarn("Bernese ionspheric models not downloaded as no merge file name specified");
     }
-    elsif( $env->param("MERGEION") && $env->param('IONFILE',1) )
+    else
     {
-        my $ionfile=$env->param('IONFILE',1);
-        mergeFiles($files,$ionfile,'ION');
+        my $type = 'ION';
+        my $subtype= $env->param('IONTYP');
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
+        my ($status,$files) = getData("Bernese ionospheric models (ION)",$request,$target);
+        if($status ne COMPLETED)
+        {
+            $failed = 1 
+        }
+        elsif( $env->param("MERGEION") )
+        {
+            my $ionfile=$env->param('IONFILE',1);
+            mergeFiles($files,$ionfile,'ION');
+        }
     }
 }
 
