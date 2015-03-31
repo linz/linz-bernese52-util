@@ -21,11 +21,9 @@ DESCR_SESSION_TABLE 1  "Session table"
 
 YR4_INFO 1  "2010"
   ## widget = comment
-  # $Y+0
 
-SES_INFO 1  "100Y"
+SES_INFO 1  "$S+0"
   ## widget = comment
-  # $S+0
 
 USR_INFO 1  "${USER}"
   ## widget = comment
@@ -130,7 +128,7 @@ VMFFILE 0
   ## activeif = DNLDVMF = 1 AND MERGEVMF = 1
   # VMF$S+0
 
-MSG_VMFFILE 1  "Name of combined VMF files
+MSG_VMFFILE 1  "Name of combined VMF files"
 
 ! -------------------------------------------------------------------------
 ! Download CODE monthly DCB files
@@ -206,10 +204,9 @@ REFSTNS 1  ""
 
 MSG_REFSTNS 1  "List of reference station codes (must be 4 characters codes)"
 
-CRDFILE 0
+CRDFILE 1  "APR$S+0"
   ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1
   ## activeif = DNLDRS_F = 1 OR DNLDRS_A = 1
-  # APR$S+0
 
 MSG_CRDFILE 1  "Name of station file containing a list of stations to load/updated"
 
@@ -225,7 +222,6 @@ MSG_MAXDLY 1 "Maximum number of delayed stations that will be tolerated before g
 
 STAFLAG 0
   ## widget = lineedit; activeif = DNLDRS_F = 1
-  # 
 
 MSG_STAFLAG 1  "Flag used to select stations to download"
 
@@ -257,10 +253,9 @@ MSG_UPDTFLAG 1  "Flag to apply for updated coordinates"
 
 MSG_UPDTCRD 1  "Update the coordinate file with the reference station coordinates at the session epoch"
 
-RFSTFL 1  "${P}/PNZPP277/STA/REFSTN.FIX"
+RFSTFL 1  "REFSTN"
   ## widget = lineedit; path = DIR_FIX; ext = EXT_FIX; maxfiles = 1
   ## emptyallowed = true
-  # REFSTN
 
 DESCR_RFSTFL 1  "File listing reference stations downloaded"
 
@@ -289,7 +284,6 @@ MSG_QUEUE 1  "Queue the data for downloading if not available or downloaded"
 ! Wait/lock file
 LOCKFILE 0
   ## widget = lineedit; path=DIR_OUT
-  # 
 
 MSG_LOCKFILE 1  "File used to register waiting required and lock until wait expired"
 
@@ -300,10 +294,9 @@ SYSODEF 1  "1"
 
 MSG_SYSODEF 1  "Program output"
 
-SYSOUT 1  "${P}/PNZPP277/OUT/GETDATA.L00"
+SYSOUT 1  "GETDATA"
   ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
   ## activeif = SYSODEF == 0; emptyallowed = false
-  # GETDATA
 
 DESCR_SYSOUT 1  "Program output"
 
@@ -314,10 +307,9 @@ ERRMRG 1  "0"
 
 MSG_ERRMRG 1  "Error message"
 
-SYSERR 1  "${U}/WORK/ERROR.MSG"
+SYSERR 1  "ERROR"
   ## widget = lineedit; path = PTH_ERR; ext = EXT_ERR
   ## activeif = ERRMRG == 0; emptyallowed = false
-  # ERROR
 
 DESCR_SYSERR 1  "Error message"
 
@@ -366,6 +358,7 @@ DESCR_SYSERR 1  "Error message"
 #   Include +/- session range in orbit products      > % <                     # ORBPLUSM
 #                                                                              #
 # END_PANEL ####################################################################
+
 
 # BEGIN_PANEL NO_CONDITION #####################################################
 # DOWNLOAD REFERENCE DATA - GETDATA 3: Bernese atmospheric files and VMF       #
