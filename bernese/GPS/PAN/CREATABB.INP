@@ -19,9 +19,8 @@ SESSION_TABLE 1  "${P}/PNZPP1/STA/SESSIONS.SES"
 
 DESCR_SESSION_TABLE 1  "Session table"
 
-YR4_INFO 1  "2013"
+YR4_INFO 1  "$Y+0"
   ## widget = comment
-  # $Y+0
 
 SES_INFO 1  "302Y"
   ## widget = comment

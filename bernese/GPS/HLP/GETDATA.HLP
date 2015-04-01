@@ -141,6 +141,16 @@ clock files will be downloaded. (Note that the orbit files contain
 as RAPID and FINAL products.
 </p>
 
+<a name="DCBTYP" default="FINAL"></a>
+<p><b>DCB product quality</b>
+Select the quality of bias files to download.  Options are FINAL and RAPID.
+The RAPID options is the CODE 30 day running average product.  This product 
+is not named according to the date on the Bernese FTP site so the same file may be retrieved
+for several different days and the file that is downloaded for a given day will
+differ depending on when it is downloaded.
+It is given a day specific name when it is downloaded.
+</p>
+
 <a name="DNLDP1C1" default="0"></a>
 <p><b>Download monthly P1-C1 biases</b>
 If this option is selected then monthly P1-C1 biases will be downloaded
@@ -149,6 +159,49 @@ If this option is selected then monthly P1-C1 biases will be downloaded
 <a name="DNLDP1P2" default="0"></a>
 <p><b>Download monthly P1-P2 biases</b>
 If this option is selected then monthly P1-P2 biases will be downloaded
+</p>
+
+<a name="ORBPLUSM" default="0"></a>
+<p><b>Include +/- session range in orbit products</b>
+If this option is selected then the session range is extended when downloading
+orbit information to ensure that all files that will be required are downloaded.
+</p>
+
+<a name="ORBNAM"></a>
+<a name="ERPNAM"></a>
+<a name="CLKNAM"></a>
+<a name="P1C1NAM"></a>
+<a name="P1P2NAM"></a>
+<p><b>Alternative names for downloaded files</b></p>
+<p>The GETDATA script uses specific filenames when files are downloaded based upon the session date
+and product type and quality.  Sometimes it is desirable to use alernative names for these files,
+for example in a PCF that is required to run if either RAPID or FINAL orbits are downloaded. 
+The script allows alternative names to be supplied for these products.  However care is required to
+ensure that the names remain unique.  For example a script cannot run on ULTRA or RAPID orbits, as
+the ULTRA filenames require an hour in the filename to be unique.
+</p>
+<p>The names specified are templates that are used to construct the downloaded file names. These use
+a slightly different means of defining names than Bernese (as otherwise Bernese would substitute them
+before the GETDATA script).  The following values can be inserted into a filename template between 
+square brackets.
+</p>
+
+<ul>
+<li><i>[ssss]</i> 4 character station code (lower case)</li>
+<li><i>[yy]</i> Year (two digits)</li>
+<li><i>[ddd]</i> Day of Year (DOY)</li>
+<li><i>[dddh]</i> DOY + hourly session character indicating the hourly session A - X (00-23)</li>
+<li><i>[yyyy]</i> Year (four digits)</li>
+<li><i>[wwww]</i> GPS Week</li>
+<li><i>[ww]</i> 2-digit week of year(00-51)</li>
+<li><i>[wwww]</i> GPS Week</li>
+<li><i>[d]</i> Day of week (0 = Sunday)</li>
+<li><i>[hh]</i> The UTC hour for which the orbit product was created</li>
+<li><i>[h]</i> Hour as a letter a-x</li>
+</ul>
+
+<p>This strings are case insensitive except that the [ssss] and [h] options will be substituted
+with a case corresponding to the letter in the template (ie [H] will be replaced by A-Z)
 </p>
 
 <p><hr /></p>

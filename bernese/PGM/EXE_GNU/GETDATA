@@ -387,6 +387,7 @@ if( $env->param('DNLDORB') || $env->param('DNLDERP') )
     if( $env->param('DNLDORB') )
     {
         my $type = 'ORB';
+        $target->setFilename($type,$subtype,$env->param('ORBNAM')) if $env->param('ORBNAM');
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
         my ($status,$files) = getData("$subtype orbits",$request,$target);
         # Ensure orbit and ERP data are the same type
@@ -401,6 +402,7 @@ if( $env->param('DNLDORB') || $env->param('DNLDERP') )
     {
         my $type = 'ERP';
         my $sessend=$end;
+        $target->setFilename($type,$subtype,$env->param('ERPNAM')) if $env->param('ERPNAM');
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
         my ($status, $files) = getData("$subtype earth rotation parameters",$request,$target);
         $orbfailed = 1 if $status ne COMPLETED;
@@ -422,8 +424,9 @@ if( $env->param('DNLDCLK') )
 {
     my $type = 'CLK';
     my $subtype= $env->param('ORBTYP');
+    $target->setFilename($type,$subtype,$env->param('CLKNAM')) if $env->param('CLKNAM');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
-    my ($status,$files) = getData("Satellite 5 minute clock files (CLK)",$request,$target);
+    my ($status,$files) = getData("$subtype Satellite 5 minute clock files (CLK)",$request,$target);
     $failed = 1 if $status ne COMPLETED;
 }
 
@@ -433,8 +436,9 @@ if( $env->param('DNLDP1C1') )
 {
     my $type = 'P1C1';
     my $subtype= $env->param('DCBTYP');
+    $target->setFilename($type,$subtype,$env->param('P1C1NAM')) if $env->param('P1C1NAM');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
-    my ($status,$files) = getData("CODE bernese P1C1 DCB files",$request,$target);
+    my ($status,$files) = getData("$subtype CODE bernese P1C1 DCB files",$request,$target);
     $failed = 1 if $status ne COMPLETED;
 }
 
@@ -442,8 +446,9 @@ if( $env->param('DNLDP1P2') )
 {
     my $type = 'P1P2';
     my $subtype= $env->param('DCBTYP');
+    $target->setFilename($type,$subtype,$env->param('P1P2NAM')) if $env->param('P1P2NAM');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
-    my ($status,$files) = getData("CODE bernese P1P2 DCB files",$request,$target);
+    my ($status,$files) = getData("$subtype CODE bernese P1P2 DCB files",$request,$target);
     $failed = 1 if $status ne COMPLETED;
 }
 
@@ -465,8 +470,9 @@ if( $env->param('DNLDTRP') )
 {
     my $type = 'TRP';
     my $subtype = 'FINAL';
+    $target->setFilename($type,$subtype,$env->param('TRPNAM')) if $env->param('TRPNAM');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
-    my ($status,$files) = getData("Bernese tropospheric models (TRP)",$request,$target);
+    my ($status,$files) = getData("$subtype Bernese tropospheric models (TRP)",$request,$target);
     $failed = 1 if $status ne COMPLETED;
 }
 
@@ -480,8 +486,9 @@ if( $env->param('DNLDION') )
     {
         my $type = 'ION';
         my $subtype= $env->param('IONTYP');
+        $target->setFilename($type,$subtype,$env->param('IONNAM')) if $env->param('IONNAM');
         my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
-        my ($status,$files) = getData("Bernese ionospheric models (ION)",$request,$target);
+        my ($status,$files) = getData("$subtype Bernese ionospheric models (ION)",$request,$target);
         if($status ne COMPLETED)
         {
             $failed = 1 
