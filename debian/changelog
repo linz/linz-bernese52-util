@@ -1,3 +1,9 @@
+linz-bernese52-util (1.14.0-1) trusty; urgency=medium
+
+  * Updating scripts to allow alternative names for downloaded files
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Wed, 01 Apr 2015 15:00:26 +1300
+
 linz-bernese52-util (1.13.0-1) trusty; urgency=medium
 
   * Adding support for rapid DCB and ION products
