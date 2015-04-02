@@ -204,6 +204,12 @@ square brackets.
 with a case corresponding to the letter in the template (ie [H] will be replaced by A-Z)
 </p>
 
+<p>Alternatively the filename can reference a different product quality.  For example if it is &quot;FINAL&quot;
+then the FINAL version of the filename will be used even if a RAPID product is downloaded. Note that this will
+only be applied if the two products have the same data frequency (eg daily products can only be renamed to other
+daily products).
+</p>
+
 <p><hr /></p>
 <p><b>GETDATA 3: Bernese atmospheric files and VMF</b></p>
 
