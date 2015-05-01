@@ -1,3 +1,9 @@
+linz-bernese52-util (1.14.1-1) trusty; urgency=medium
+
+  * Updating help documentation
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 01 May 2015 14:38:07 +1200
+
 linz-bernese52-util (1.14.0-1) trusty; urgency=medium
 
   * Updating scripts to allow alternative names for downloaded files
