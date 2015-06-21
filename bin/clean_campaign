@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ -d STA -a -f 'STA/SESSIONS.SES' ] ; then
+   cp STA/SESSIONS.SES .
+   for b in ATM BPE GRD OBS ORB ORX OUT RAW SOL STA; do
+      rm -f */*
+   done
+   cp SESSIONS.SES STA/
+else
+   echo "STA or STA/SESSIONS.SES missing"
+   echo "This command should be run in a Bernese campaign directory"
+fi

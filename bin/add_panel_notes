@@ -1,0 +1,113 @@
+#!/usr/bin/perl
+
+use strict;
+use Carp;
+use Getopt::Std;
+use File::Find;
+
+my $syntax=<<EOD;
+
+add_panel_notes [-m] file/dir ...
+
+Updates a Bernese panel file (.INP) adding a Notes field to the bottom of
+each panel.  This does not affect the running of any programs, it just provides
+a place to write notes about any settings in the panel.  
+If the panel already has an Notes field (variable name PANEL_NOTE_###) 
+then it will be left unaltered.
+
+The command can take a list of input files or directories.  
+Named files will be updated if they have panels without notes.  
+Any files .INP files within named directories (or subdirectories of them)
+will be updated.  
+By default MENUxxx.INP files will not be selected in directories ... these
+can be included by adding the -m parameter.
+
+EOD
+
+sub addPanelNotes
+{
+    my( $inpfile ) = @_;
+    open(my $inpf, "<$inpfile" ) || croak("Cannot open panel file $inpfile\n");
+    my @lines=<$inpf>;
+    close($inpf);
+    my @panels = grep( $lines[$_]=~/^\#\s+BEGIN_PANEL\s+.*\#/, 0..$#lines);
+    my @neednotes = ();
+    my %notes=();
+    foreach my $p0 (@panels)
+    {
+        push(@neednotes,$p0);
+        for( my $p1=$p0; $p1 <= $#lines && $lines[$p1] !~ /^\#\s+END_PANEL\s+\#/; $p1++ )
+        {
+            if( $lines[$p1] =~ /\#\s+(PANEL_NOTE_\d+)\s*$/ )
+            {
+                $notes{$1}=1;
+                pop(@neednotes);
+                last;
+            }
+        }
+    }
+    return if ! @neednotes;
+    print "Adding ".scalar(@neednotes)." panel notes to $inpfile\n";
+    my @newnotes=();
+    foreach my $p0 (@neednotes)
+    {
+        my $noteid=0;
+        my $notevar='';
+        while(1)
+        {
+            $noteid++;
+            $notevar=sprintf('PANEL_NOTE_%03d',$noteid);
+            last if ! exists($notes{$notevar});
+        }
+        $notes{$notevar}=1;
+        push(@newnotes,$notevar);
+        my $p1=$p0;
+        $p1++ until $p1 > $#lines || $lines[$p1] =~ /^\#\s+END_PANEL\s+\#/;
+        my $pantxt="# Notes > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% < # $notevar\n";
+        if( $lines[$p1-1] !~ /^\#\s+\#\s*$/ )
+        {
+            $pantxt="#                                                                              #\n".$pantxt;
+        }
+        $lines[$p1]=$pantxt.$lines[$p1];
+    }
+    my $vartxt='';
+    foreach my $notevar (@newnotes)
+    {
+        $vartxt .= "\n$notevar 1 \"\"\n  ## widget = lineedit; multilineallowed = true\n";
+        $vartxt .= "\nMSG_$notevar 1 \"User notes on panel settings\"\n";
+    }
+    $lines[$panels[0]]=$vartxt."\n".$lines[$panels[0]];
+
+    my $bckfile=$inpfile;
+    $bckfile=~s/(.INP)?$/.bck/;
+    rename($inpfile,$bckfile);
+    open(my $outf,">$inpfile") || croak("Cannot open output file $inpfile\n");
+    print $outf @lines;
+    close($outf);
+}
+
+getopts('m',my %opts);
+die $syntax if ! @ARGV;
+
+my $usemenu = $opts{m};
+foreach my $inpfile (@ARGV)
+{
+    if( -d $inpfile )
+    {
+        find({ wanted=>sub { 
+                    return if $_ !~ /\.INP$/;
+                    return if ! $usemenu && $_ =~ /(^|[\/\\])MENU\w+\.INP$/;
+                    addPanelNotes($_);
+                },
+               no_chdir=>1 }, 
+               $inpfile );
+    }
+    else
+    {
+        addPanelNotes($inpfile);
+    }
+}
+
+
+
+

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -d BPE ] ; then
+    err_script=`grep 'Script finished  ERROR' BPE/RUN_PNZ.OUT | head -1 | awk '{print ($4)}'`
+    more BPE/*${err_script}.LOG
+else
+    echo "Must run this script in a BERN campaign directory"
+fi
