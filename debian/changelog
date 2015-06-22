@@ -1,3 +1,13 @@
+linz-bernese52-util (1.15.0-1) trusty; urgency=medium
+
+  * Adding pcf_error script
+  * Updating Makefile with datapool directory
+  * Adding more information to GETDATA output - warnings about not renaming, output of proxy info
+  * Adding Bernese utility scripts
+  * Shifting pcf_error
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Mon, 22 Jun 2015 13:49:09 +1200
+
 linz-bernese52-util (1.14.1-1) trusty; urgency=medium
 
   * Updating help documentation
