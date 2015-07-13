@@ -1,0 +1,97 @@
+<html>
+<body>
+<center>
+<b>EXTRACT COORDINATES FROM SINEX FILE TO CRD FILE</b>
+<p>Program: SNX2CRD</p>
+</center>
+
+<hr width="100%">
+<p><b>GENERAL DESCRIPTION</b></p>
+<p>
+The SNX2CRD program extracts coordinates from a SINEX file to update an 
+existing .CRD file, or create a new one.  New stations and updated stations
+can be flagged.  The program can skip stations where the coordinate difference
+between the existing and new coordinate is greater than a tolerance.
+</p>
+
+<p><b>SNX2CRD: UPDATE OR CREATE A .CRD FILE FROM SINEX COORDINATES</b></p>
+
+<a name="TITLE" default="Test"></a>
+<p><b>Title</b>
+The title to be used on program output.
+</p>
+
+<a name="SINEX" default=""></a>
+<p><b>Input SINEX file</b>
+The name of the SINEX file from which coordinates will be read.
+</p>
+
+<a name="CRDIN" default=""></a>
+<p><b>Input coordinate file</b>
+The name of the coordinate file to be updated.  If this is blank then a new
+coordinate file will be created.  Otherwise the contents of this file will be 
+updated and written to the output file.
+</p>
+
+<a name="UPDATE" default=""></a>
+<p><b>Update coordinates only</b>
+If this is selected then existing coordinates will be updated, but no new station
+will be added.
+</p>
+
+<a name="MAXDIFF" default="100.0"></a>
+<p><b>Maximum coordinate change</b>
+Specifies the maximum coordinate offset between the existing coordinate and the
+new coordinate file from the SINEX file.  If the change is larger than this the 
+coordinate will be updated.  If this is zero then coordinates will be updated
+regardless of the coordinate offset.
+be used.
+</p>
+
+<a name="FLGUPDT" default="0"></a>
+<p><b>Flag for updated stations</b>
+If this is not blank then updated stations will be given this flag in the output
+CRD file.
+</p>
+
+<a name="FLGNEW" default="0"></a>
+<p><b>Flag for new stations</b>
+Flag that will be given to new stations in the CRD file.
+</p>
+
+<a name="CRDOUT" default="0"></a>
+<p><b>Output coordinate file</b>
+Name of the output coordinate file that will be generated.  This can be the same
+as the input file.
+</p>
+
+<a name="SYSODEF" default="1"></a>
+<a name="SYSOUT"  default="CRDMERGE"></a>
+<p><b>GENERAL OUTPUT FILES</b>
+<p><b>Program output:</b>
+You can choose to have the program output written to a separate file for each
+program run (checkbox marked), or specify a common name for all program runs.
+<br>
+If you mark the checkbox, the filename will correspond to the program name
+with an extension containing a counter (Lnn), which is automatically
+incremented for each program run. If the counter reaches the maximum value, it
+is automatically reset, and existing files will be overwritten.
+The maximum value can be set in
+<b>Menu &gt; Configure &gt; Program Names</b>, option "Maximum program output
+file number".
+<br>
+If the checkbox is unmarked, you have to specify a name for the program
+output file. This allows to characterize the program run, e.g., by using the
+day and year (<tt>$YD+0</tt>) in the filename.
+</p>
+
+<a name="ERRMRG" default="0"></a>
+<a name="SYSERR" default="ERROR"></a>
+<p><b>Error messages:</b>
+You can choose to have error messages written into the program's output
+file (see above), or specify a separate file to which error messages are
+written.
+</p>
+
+</body>
+</html>

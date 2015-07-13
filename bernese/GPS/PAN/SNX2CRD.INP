@@ -1,0 +1,140 @@
+
+! Environment Variables
+! ---------------------
+ENVIRONMENT 5
+  "U" "/home/ccrook/BERN52/GPSUSER"
+  "T" "/home/ccrook/BERN52/GPSTEMP"
+  "X" "/opt/bern52/BERN52/GPS"
+  "P" "/home/ccrook/BERN52/GPSDATA/CAMPAIGN"
+  "USER" "ccrook"
+  ## widget = initmenu; pointer = ENVIR_LIST
+
+! SOME KEYWORDS FOR AUTOMATIC OUTPUT
+! ----------------------------------
+CAMPAIGN 1  "${P}/PNZPP1"
+  ## widget = initmenu; pointer = ACTIVE_CAMPAIGN
+
+SESSION_TABLE 1  "${P}/PNZPP1/STA/SESSIONS.SES"
+  ## widget = initmenu; pointer = SESSION_TABLE
+
+DESCR_SESSION_TABLE 1  "Session table"
+
+YR4_INFO 1  "$Y+0"
+  ## widget = comment
+
+SES_INFO 1  "302Y"
+  ## widget = comment
+  # $S+0
+
+USR_INFO 1  "${USER}"
+  ## widget = comment
+
+
+! Title line
+! ----------
+
+TITLE 1  "Test"
+  ## widget = lineedit
+
+MSG_TITLE 1  "Title line"
+
+! Input SINEX file
+! ----------
+
+SINEX 0
+  ## widget = lineedit; path = DIR_SNX; ext = EXT_SNX; emptyallowed = false
+
+DESCR_SINEX 1  "SINEX file containing coordinates"
+
+! Input coordinate file
+! --------------------
+
+CRDIN 1  ""
+  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1
+
+DESCR_CRDIN 1  "Coordinate file"
+
+UPDATE 1  ""
+  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1
+  ## activeif = CRDIN != ""
+
+DESCR_UPDATE 1  "Update existing coordinates but do not create new stations"
+
+MAXDIFF 1  "0.0"
+  ## widget = lineedit; emptyallowed = true; check_type = real
+  ## check_min = 0.0; activeif = CRDIN != ""
+
+DESCR_MAXDIFF 1  "Maximum permitted coordinate change"
+
+! Flags for stations in .CRD file
+
+FLGNEW 1 ""
+   ## widget = lineedit; emptyallowed = true; check_strlen = 4
+
+DESCR_FLGNEW 1  "Flag given to new stations"
+
+FLGUPDT 1 ""
+   ## widget = lineedit; emptyallowed = true; check_strlen = 4
+
+DESCR_FLGUPDT 1  "Flag given to updated stations - blank to leave unchanged"
+
+! Output coordinate file
+! --------------------
+
+CRDOUT 1  ""
+  ## widget = lineedit; path = DIR_CRD; ext = EXT_CRD; 
+
+DESCR_CRDOUT 1  "Output coordinate file"
+
+! Program Output File
+! -------------------
+SYSODEF 1  "1"
+  ## widget = checkbox
+
+MSG_SYSODEF 1  "Program output"
+
+SYSOUT 1  ""
+  ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
+  ## activeif = SYSODEF == 0; emptyallowed = false
+  # SNX2CRD
+
+DESCR_SYSOUT 1  "Program output"
+
+! Error Message File
+! ------------------
+ERRMRG 1  "0"
+  ## widget = checkbox
+
+MSG_ERRMRG 1  "Error message"
+
+SYSERR 1  ""
+  ## widget = lineedit; path = PTH_ERR; ext = EXT_ERR
+  ## activeif = ERRMRG == 0; emptyallowed = false
+  # ERROR
+
+DESCR_SYSERR 1  "Error message"
+
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# SNX2CRD: UPDATE OR CREATE A .CRD FILE FROM SINEX COORDINATES                 #
+#                                                                              #
+# TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
+#                                                                              #
+# Input SINEX file            > %%%%%%%% <                                     # SINEX
+#                                                                              #
+# Input coordinate file       > %%%%%%%% <  (optional)                         # CRDFIN
+#   Update coordinates only   > % <                                            # UPDATE
+#   Maximum coordinate change > %%%%%%%%                                       # MAXDIFF
+#                                                                              #
+# Flag for updated stations   > %%%% <      (blank to leave unchanged)         # FLGUPDT
+# Flag for new stations       > %%%% <                                         # FLGNEW
+#                                                                              #
+# Output coordinate file      > %%%%%%%% <                                     # CRDOUT
+#                                                                              #
+#                                                                              #
+# OUTPUT FILES                                                                 #
+#                                                                              #
+#   Program output          > % < use CREATABB.Lnn          or    > %%%%%%%% < # SYSODEF SYSOUT
+#   Error messages          > % < merged to program output  or    > %%%%%%%% < # ERRMRG SYSERR
+#                                                                              #
+# END_PANEL ####################################################################

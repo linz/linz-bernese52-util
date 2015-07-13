@@ -1,0 +1,27 @@
+package GETDATA;
+@ISA = ("RUNBPE");
+# ============================================================================
+#
+# Name    :  SATMARK
+#
+# Purpose :  Execute GETDATA
+#
+# PARAMs  :
+#
+# Author  :  Chris Crook
+# Created :  20 March 2014
+#
+# Changes :
+#
+# ============================================================================
+use strict;
+
+sub run {
+  my $bpe = shift;
+
+# Run program
+# -----------
+  my $PGMNAM = "SNX2CRD";
+  $bpe->RUN_PGMS($PGMNAM);
+
+}

@@ -1,0 +1,80 @@
+#!/usr/bin/perl
+
+use strict;
+use FindBin;
+use Data::Dumper;
+use Carp;
+use LINZ::BERN::Environment;
+use LINZ::BERN::CrdFile;
+use File::Which;
+
+my $env = new LINZ::BERN::Environment;
+
+# Script to run the sinex2crd program installed with the LINZ::BERN perl package
+
+if(0)
+{
+    print "Environment:\n";
+    print Dumper(\%ENV);
+}
+if(0)
+{
+    print "\n\nMenu parameters\n";
+    print Dumper($env->params);
+}
+
+my $title=$env->param('TITLE');
+my $sinex=$env->param('SINEX',1);
+my $crdin=$env->param('CRDIN',1);
+my $crdout=$env->param('CRDOUT',1);
+my $flgnew=$env->param('FLGNEW');
+my $flgupd=$env->param('FLGUPDT');
+my $updateonly=$env->param('UPDATE');
+my $maxdiff=$env->param('MAXDIFF')+0;
+
+
+print " ===============================================================================\n";
+print " LINZ Bernese Version 5.2 Utilities\n";
+print " -------------------------------------------------------------------------------\n";
+print " Program        : SNX2CRD\n";
+print " Purpose        : Extract coordinates from a SINEX file\n";
+print " Default session: $sessinfo year $year\n";
+print " Date           : $date\n";
+print " User name      : $user\n";
+print " ===============================================================================\n";
+print " \n";
+print " $title\n\n";
+
+
+my $snx2crd=which('sinex2crd');
+if( ! $snx2crd )
+{
+    $env->fail("Cannot find sinex2crd program");
+}
+
+if( ! -f $sinex )
+{
+    $env->fail("Cannot find SINEX file $sinex");
+}
+
+if( $crdin ne '' && ! -f $crdin )
+{
+    $env->fail("Cannot find input .CRD file $crdin");
+}
+
+my @command=($snx2crd,'-v');
+push(@command,'-u') if $updateonly;
+push(@command,'-f',$flgupd) if $flgupd ne '';
+push(@command,'-n',$flgnew) if $flgnew ne '';
+push(@command,'-m',$maxdiff) if $maxdiff > 0.0;
+push(@command,'-o') if $crdin eq '';
+push(@command,$sinex);
+push(@command,$crdin) if @crdin;
+push(@command,$crdout);
+system(@command);
+
+if( ! -f $crdout || -M $crdout <= 0 )
+{
+    $env->fail("Failed to update output .CRD file $crdout");
+}
+
