@@ -33,7 +33,7 @@ USR_INFO 1  "${USER}"
 ! Title line
 ! ----------
 
-TITLE 1  "Test"
+TITLE 1  "Update coordinates from SINEX file"
   ## widget = lineedit
 
 MSG_TITLE 1  "Title line"
@@ -41,8 +41,8 @@ MSG_TITLE 1  "Title line"
 ! Input SINEX file
 ! ----------
 
-SINEX 0
-  ## widget = lineedit; path = DIR_SNX; ext = EXT_SNX; emptyallowed = false
+SINEX 1 "IGS$YP$W+0"
+  ## widget = selwin; path = DIR_SNX; ext = EXT_SNX; emptyallowed = false
 
 DESCR_SINEX 1  "SINEX file containing coordinates"
 
@@ -50,19 +50,18 @@ DESCR_SINEX 1  "SINEX file containing coordinates"
 ! --------------------
 
 CRDIN 1  ""
-  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1
+  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1; emptyallowed = true
 
 DESCR_CRDIN 1  "Coordinate file"
 
-UPDATE 1  ""
-  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1
-  ## activeif = CRDIN != ""
+UPDATE 1  "1"
+  ## widget = checkbox; activeif = CRDIN /= ""
 
 DESCR_UPDATE 1  "Update existing coordinates but do not create new stations"
 
 MAXDIFF 1  "0.0"
   ## widget = lineedit; emptyallowed = true; check_type = real
-  ## check_min = 0.0; activeif = CRDIN != ""
+  ## check_min = 0.0; activeif = CRDIN /= ""
 
 DESCR_MAXDIFF 1  "Maximum permitted coordinate change"
 
@@ -74,7 +73,7 @@ FLGNEW 1 ""
 DESCR_FLGNEW 1  "Flag given to new stations"
 
 FLGUPDT 1 ""
-   ## widget = lineedit; emptyallowed = true; check_strlen = 4
+   ## widget = lineedit; emptyallowed = true; check_strlen = 4; activeif = CRDIN /= ""
 
 DESCR_FLGUPDT 1  "Flag given to updated stations - blank to leave unchanged"
 
@@ -116,20 +115,20 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# SNX2CRD: UPDATE OR CREATE A .CRD FILE FROM SINEX COORDINATES                 #
+# SNX2CRD: UPDATE OR CREATE CRD FILE FROM SINEX COORDINATES                    #
 #                                                                              #
 # TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
 #                                                                              #
-# Input SINEX file            > %%%%%%%% <                                     # SINEX
+# Input SINEX file                             > %%%%%%%%%%%% <                # SINEX
 #                                                                              #
-# Input coordinate file       > %%%%%%%% <  (optional)                         # CRDFIN
-#   Update coordinates only   > % <                                            # UPDATE
-#   Maximum coordinate change > %%%%%%%%                                       # MAXDIFF
+# Input coordinate file                        > %%%%%%%%%%%% <  (optional)    # CRDIN
+#   Update coordinates only  (no new stations) > % <                           # UPDATE
+#   Maximum coordinate change (0=no limit)     > %%%%%%%% <                    # MAXDIFF
 #                                                                              #
-# Flag for updated stations   > %%%% <      (blank to leave unchanged)         # FLGUPDT
-# Flag for new stations       > %%%% <                                         # FLGNEW
+# Flag for updated stations (blank=unchanged)  > %%%% <                        # FLGUPDT
+# Flag for new stations                        > %%%% <                        # FLGNEW
 #                                                                              #
-# Output coordinate file      > %%%%%%%% <                                     # CRDOUT
+# Output coordinate file (blank=input file)    > %%%%%%%%%%%% <                # CRDOUT
 #                                                                              #
 #                                                                              #
 # OUTPUT FILES                                                                 #

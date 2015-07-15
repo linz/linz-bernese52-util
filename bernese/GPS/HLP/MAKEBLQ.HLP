@@ -11,7 +11,7 @@
 The MAKEBLQ program compiles a BLQ ocean loading file for the stations 
 in a coordinate file.  
 It uses two input files from the datapool.  
-<p>
+</p>
 <ul>
 <li>
 Template file: A file of specific stations that have already been computed.  
@@ -31,7 +31,7 @@ it lies.
 </li>
 </ul>
 
-<p><hr /></p>
+<hr />
 <p><b>CREATE OCEAN LOADING FILE</b></p>
 
 <a name="TITLE" default="Test"></a>

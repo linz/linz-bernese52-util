@@ -7,6 +7,7 @@ use Carp;
 use LINZ::BERN::Environment;
 use LINZ::BERN::CrdFile;
 use File::Which;
+use LINZ::GNSS::Time qw/seconds_datetime/;
 
 my $env = new LINZ::BERN::Environment;
 
@@ -23,7 +24,6 @@ if(0)
     print Dumper($env->params);
 }
 
-my $title=$env->param('TITLE');
 my $sinex=$env->param('SINEX',1);
 my $crdin=$env->param('CRDIN',1);
 my $crdout=$env->param('CRDOUT',1);
@@ -32,6 +32,13 @@ my $flgupd=$env->param('FLGUPDT');
 my $updateonly=$env->param('UPDATE');
 my $maxdiff=$env->param('MAXDIFF')+0;
 
+my $date=seconds_datetime(time(),1);
+my $sessinfo=$env->param('SES_INFO');
+my $year=$env->param('YR4_INFO');
+my $user=$env->param('USER');
+my $title=$env->param('TITLE');
+
+$crdout=$crdin if $crdout eq '';
 
 print " ===============================================================================\n";
 print " LINZ Bernese Version 5.2 Utilities\n";
@@ -62,6 +69,11 @@ if( $crdin ne '' && ! -f $crdin )
     $env->fail("Cannot find input .CRD file $crdin");
 }
 
+if( $crdout eq '' )
+{
+    $env->fail("Output coordinate file not defined");
+}
+
 my @command=($snx2crd,'-v');
 push(@command,'-u') if $updateonly;
 push(@command,'-f',$flgupd) if $flgupd ne '';
@@ -69,12 +81,21 @@ push(@command,'-n',$flgnew) if $flgnew ne '';
 push(@command,'-m',$maxdiff) if $maxdiff > 0.0;
 push(@command,'-o') if $crdin eq '';
 push(@command,$sinex);
-push(@command,$crdin) if @crdin;
+push(@command,$crdin) if $crdin;
 push(@command,$crdout);
-system(@command);
-
-if( ! -f $crdout || -M $crdout <= 0 )
+# print " Running command ",join(' ',@command),"\n";
+system(@command); 
+if( $? == -1 )
+{
+    $env->fail("Failed to run sinex2crd: $!");
+}
+if( $? & 127 )
+{
+    $env->warn("Error encountered running sinex2crd");
+}
+if( ! -f $crdout || -M $crdout > 0 )
 {
     $env->fail("Failed to update output .CRD file $crdout");
 }
+print " Coordinate file updated\n";
 

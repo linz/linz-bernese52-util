@@ -14,7 +14,7 @@ can be flagged.  The program can skip stations where the coordinate difference
 between the existing and new coordinate is greater than a tolerance.
 </p>
 
-<p><b>SNX2CRD: UPDATE OR CREATE A .CRD FILE FROM SINEX COORDINATES</b></p>
+<p><b>SNX2CRD: UPDATE OR CREATE CRD FILE FROM SINEX COORDINATES</b></p>
 
 <a name="TITLE" default="Test"></a>
 <p><b>Title</b>

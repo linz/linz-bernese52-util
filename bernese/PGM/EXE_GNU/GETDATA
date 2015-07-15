@@ -547,8 +547,9 @@ if( $env->param('DNLDIGSC') )
 {
     my $type = 'IGSC';
     my $subtype= $env->param('IGSCTYP');
+    my $rename=$env->param('IGSCNAM');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$start,$end);
-    my ($status,$files) = getData("IGS combined solution SINEX",$request,$target);
+    my ($status,$files) = getData("IGS combined solution SINEX",$request,$target,$rename);
     $failed = 1 if $status ne COMPLETED;
 }
 # Station handling

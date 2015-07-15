@@ -54,7 +54,7 @@ MSG_SYSODEF 1  "Program output"
 SYSOUT 1  "${P}/PNZPP1/OUT/CREATABB.L02"
   ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
   ## activeif = SYSODEF == 0; emptyallowed = false
-  # PRETAB
+  # CREATABB
 
 DESCR_SYSOUT 1  "Program output"
 

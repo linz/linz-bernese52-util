@@ -199,15 +199,20 @@ MSG_ATMPLUSM 1  "Include +/- session range in atmosphere products"
 ! ------------------
 
 DNLDIGSC 1  "0"
-  ## widget = radiobutton; group=METHOD
+  ## widget = checkbox; 
 
 MSG_DNLDIGSC 1  "Automatically select reference stations based on station coordinate"
 
 IGSCTYP 1  "WEEKLY"
   ## widget=combobox; editable=false; cards = WEEKLY DAILY DAILY+
-  ## activeif = DNLDIGSC = 0
+  ## activeif = DNLDIGSC = 1
 
 MSG_RSDTYPE 1  "RINEX file selection"
+
+IGSCNAM 0
+  ## widget=lineedit; check_strlen=24
+
+MSG_IGSCNAM 1 "Name for downloaded IGS solution file"
 
 ! -------------------------------------------------------------------------
 ! Download reference station data
@@ -415,11 +420,7 @@ DESCR_SYSERR 1  "Error message"
 #     Name for P1C1 bias files     > %%%%%%%%%%%%%%%%%%%%%%%% <                # P1C1NAM
 #     Name for P1P2 bias files     > %%%%%%%%%%%%%%%%%%%%%%%% <                # P1P2NAM
 #                                                                              #
-#  Download IGS combined solution SINEX file         > % <                     # DNLDIGSC
-#  IGS combined solution type                        > %%%%%%% <               # IGSCTYP
-#                                                                              #
 # END_PANEL ####################################################################
-
 
 # BEGIN_PANEL NO_CONDITION #####################################################
 # DOWNLOAD REFERENCE DATA - GETDATA 3: Bernese atmospheric files and VMF       #
@@ -439,9 +440,18 @@ DESCR_SYSERR 1  "Error message"
 #                                                                              #
 # END_PANEL ####################################################################
 
+# BEGIN_PANEL NO_CONDITION #####################################################
+# DOWNLOAD REFERENCE DATA - GETDATA 4: IGS SINEX solution files                #
+#                                                                              #
+#  Download IGS combined solution SINEX file         > % <                     # DNLDIGSC
+#  IGS combined solution type                        > %%%%%%% <               # IGSCTYP
+#                                                                              #
+#     Name for solution files       > %%%%%%%%%%%%%%%%%%%%%%%% <               # IGSCNAM
+#                                                                              #
+# END_PANEL ####################################################################
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GETDATA 4: Reference station RINEX files           # 
+# DOWNLOAD REFERENCE DATA - GETDATA 5: Reference station RINEX files           # 
 #                                                                              #
 #   > % <   Don't download reference station data                              # DNLDRS_0
 #                                                                              #

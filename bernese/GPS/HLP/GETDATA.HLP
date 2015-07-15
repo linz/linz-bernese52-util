@@ -33,7 +33,7 @@ Each file type also has prioritized subtypes.  For example orbits may be FINAL, 
 The getdata scripts also support queuing data for later downloads, though at present this 
 is not implemented completely.  
 </p>
-<p><hr /></p>
+<hr />
 <p><b>GETDATA 1: General Options</b></p>
 
 <a name="TITLE" default="Test"></a>
@@ -104,7 +104,7 @@ written.
 </p>
 
 
-<p><hr /></p>
+<hr />
 <p><b>GETDATA 2: Orbit/ERP/DCB Data</b></p>
 
 <p>
@@ -210,7 +210,7 @@ only be applied if the two products have the same data frequency (eg daily produ
 daily products).
 </p>
 
-<p><hr /></p>
+<hr />
 <p><b>GETDATA 3: Bernese atmospheric files and VMF</b></p>
 
 <p>
@@ -262,8 +262,33 @@ If this option is selected then the downloaded VMF files will be combined to a s
 If the VMF files are to be merged then this specifies the name of the file to create.
 </p>
 
-<p><hr /></p>
-<p><b>GETDATA 4: Reference Station RINEX files</b></p>
+<hr />/p>
+<p><b>GETDATA 4: IGS SINEX solution files</b></p>
+
+<p>Downlod the IGS daily or weekly combined solution SINEX files. 
+</p>
+
+<a name="DNLDIGSC" default="0"></a>
+<p><b>Download IGS combined solution SINEX file</b>
+If this option is selected then the solution file will be downloaded
+</p>
+
+<a name="IGSCTYP" default="0"></a>
+<p><b>IGS combined solution type</b>
+Selects the preferred solution type, either WEEKLY, DAILY, or DAILY+.  The DAILY+
+option will download WEEKLY if it is available, otherwise it will try to download
+a DAILY solution.
+</p>
+
+<a name="IGSCNAM" default="0"></a>
+<p><b>Name for solution file</b>
+Allows the solution file to be renamed when it is downloaded.  The main purpose for this
+is to use the same name for daily solutions as for weekly when using the DAILY+ option. 
+This simplifies using the files in PCF files.
+</p>
+
+<hr />/p>
+<p><b>GETDATA 5: Reference Station RINEX files</b></p>
 
 <p>Reference station RINEX data can be downloaded.  There are two &quot;data quality&quot; subtypes,
 DAILY and HOURLY.  DAILY data are preferred by the script.
@@ -326,46 +351,53 @@ This option uses the following parameters
 
 <ul>
 
+<li>
 <a name="STACODE" default="U001"></a>
-<li><b>Code of mark to base selection on</b>
+<b>Code of mark to base selection on</b>
 Define station whose coordinate is used to select reference stations.  The coordinate
 is taken from the coordinate file (defined below).  If no coordinate is defined then 
 the centroid of all the coordinates in the coordinate file is used.
 </li>
 
+<li>
 <a name="NSTASEL" default="3"></a>
-<li><b>Number of marks to select</b>
+<b>Number of marks to select</b>
 Specifies the number of reference stations required.
 </li>
 
+<li>
 <a name="MINDATA" default="90"></a>
-<li><b>Minimum percentage of data reqd</b>
+<b>Minimum percentage of data reqd</b>
 The downloaded RINEX data is tested to ensure that there is not missing data during the session. 
 This option sets the minimum coverage required - if the data cannot provide this then the 
 reference station will not bu used..
 </li>
 
+<li>
 <a name="MAXDLY" default="3"></a>
-<li><b>Maximum no delayed stations</b>
+<b>Maximum no delayed stations</b>
 Stations which are not available for download are considered delayed rather than unavailable 
 for a configurable period after they are due. By default the script will fail in with a wait 
 status for these stations, but it can ignore a certain number before assuming that there is a 
 systematic problem and stopping. This setting specifies that number.
 </li>
 
+<li>
 <a name="UPDTCRD" default="1"></a>
-<li><b>Add/update marks in coordfile</b>
+<b>Add/update marks in coordfile</b>
 Use this option to update the coordinate file to include the reference stations. The coordinates 
 are determined from the station coordinate prediction models at the epoch of the campaign (ie the middle of the session).
 </li>
 
+<li>
 <a name="UPDTFLAG" default="I"></a>
-<li><b>Flag for updated coordinates</b>
+<b>Flag for updated coordinates</b>
 If the coordinates are updated then this defines a flag that will be used for the new coordinates.
 </li>
 
+<li>
 <a name="RFSTFL" default="${P}/PNZPP277/STA/REFSTN.FIX"></a>
-<li><b>Reference station list file</b>
+<b>Reference station list file</b>
 The program can write a file containing a list of the reference stations that have been selected.
 This is mainly for use in PCFs to select these files for further processing (eg for constraining
 in a final solution).  
