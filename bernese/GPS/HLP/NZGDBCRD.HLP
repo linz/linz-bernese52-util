@@ -1,29 +1,23 @@
 <html>
 <body>
 <center>
-<b>EXTRACT COORDINATES FROM SINEX FILE TO CRD FILE</b>
-<p>Program: SNX2CRD</p>
+<b>UPDATE STATION COORDINATES FROM NZ GEODETIC DATABASE</b>
+<p>Program: NZGDBCRD</p>
 </center>
 
 <hr width="100%">
 <p><b>GENERAL DESCRIPTION</b></p>
 <p>
-The SNX2CRD program extracts coordinates from a SINEX file to update an 
-existing .CRD file, or create a new one.  New stations and updated stations
-can be flagged.  The program can skip stations where the coordinate difference
-between the existing and new coordinate is greater than a tolerance.
+The NZGDBCRD program updates coordinates from the LINZ geodetic database.  
+The official NZGD2000 coordinates are downloaded from the online geodetic
+database and converted to ITRF2008 coordinates at the current session epoch.
 </p>
 
-<p><b>SNX2CRD: UPDATE OR CREATE CRD FILE FROM SINEX COORDINATES</b></p>
+<p><b>NZGDBCRD: UPDATE COORDINATES FROM THE NZ GEODETIC DATABASE</b></p>
 
 <a name="TITLE" default="Test"></a>
 <p><b>Title</b>
 The title to be used on program output.
-</p>
-
-<a name="SINEX" default=""></a>
-<p><b>Input SINEX file</b>
-The name of the SINEX file from which coordinates will be read.
 </p>
 
 <a name="CRDIN" default=""></a>
@@ -34,18 +28,34 @@ updated and written to the output file.
 </p>
 
 <a name="UPDATE" default=""></a>
-<p><b>Update coordinates only</b>
-If this is selected then existing coordinates will be updated, but no new station
-will be added.
+<p><b>Update existing coordinates</b>
+If this is selected then all marks in the input coordinate file will be updated
+base on the geodetic database coordinates.
 </p>
 
 <a name="MAXDIFF" default="100.0"></a>
 <p><b>Maximum coordinate change</b>
 Specifies the maximum coordinate offset between the existing coordinate and the
-new coordinate file from the SINEX file.  If the change is larger than this the 
-coordinate will not be updated.  If this is zero then coordinates will be updated
-regardless of the coordinate offset.
-be used.
+new coordinate from the geodetic database .  If the change is larger than this the 
+coordinate will not be updated and a warning will be written.  
+If this is zero then coordinates will be updated regardless of the 
+coordinate offset.
+</p>
+
+<a name="ADDCOD" default=""></a>
+<p><b>Add codes</b>
+A list of geodetic codes of stations to add or update.
+</p>
+
+<a name="RXOFILE" default=""></a>
+<p><b>Add codes in RINEX observation file</b>
+If rinex files are selected then the stations in the RINEX files will be added to
+the coordinate file (if they are in the geodetic database).
+</p>
+
+<a name="RXOCOD" default="0"></a>
+<p><b>Gather station codes from</b>
+Specifies how the station code will be extracted from the RINEX file.  
 </p>
 
 <a name="FLGUPDT" default="0"></a>
@@ -56,7 +66,8 @@ CRD file.
 
 <a name="FLGNEW" default="0"></a>
 <p><b>Flag for new stations</b>
-Flag that will be given to new stations in the CRD file.
+If this is not blank then new stations will be given this flag in the output
+CRD file.
 </p>
 
 <a name="CRDOUT" default="0"></a>
@@ -67,6 +78,7 @@ as the input file.
 
 <a name="SYSODEF" default="1"></a>
 <a name="SYSOUT"  default="CRDMERGE"></a>
+
 <p><b>GENERAL OUTPUT FILES</b>
 <p><b>Program output:</b>
 You can choose to have the program output written to a separate file for each

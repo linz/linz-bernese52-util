@@ -1,0 +1,145 @@
+#!/usr/bin/perl
+
+use strict;
+use FindBin;
+use Data::Dumper;
+use Carp;
+use LINZ::BERN::Environment;
+use LINZ::BERN::CrdFile;
+use File::Which;
+use LINZ::GNSS::Time qw/seconds_datetime seconds_yearday/;
+use LINZ::Geodetic::CoordSys;
+use LINZ::GDB;
+
+my $env = new LINZ::BERN::Environment;
+
+# Script to run the sinex2crd program installed with the LINZ::BERN perl package
+
+if(0)
+{
+    print "Environment:\n";
+    print Dumper(\%ENV);
+}
+if(0)
+{
+    print "\n\nMenu parameters\n";
+    print Dumper($env->params);
+}
+
+my $crdin=$env->param('CRDIN',1);
+my $crdout=$env->param('CRDOUT',1);
+my $update=$env->param('UPDATE');
+my $flgupd=$env->param('FLGUPDT');
+my $flgnew=$env->param('FLGNEW');
+my $addcod=$env->param('ADDCOD');
+my $rxfiles=$env->param('RXOFILE',1);
+my $rxcodsrc=$env->param('RXOCOD');
+my $maxdiff=$env->param('MAXDIFF')+0;
+
+my $date=seconds_datetime(time(),1);
+my $sessinfo=$env->param('SES_INFO');
+my $year=$env->param('YR4_INFO');
+my $user=$env->param('USER');
+my $title=$env->param('TITLE');
+
+$crdout=$crdin if $crdout eq '';
+
+print " ===============================================================================\n";
+print " LINZ Bernese Version 5.2 Utilities\n";
+print " -------------------------------------------------------------------------------\n";
+print " Program        : NZGDBCRD\n";
+print " Purpose        : Update coordinates from the LINZ geodetic database\n";
+print " Default session: $sessinfo year $year\n";
+print " Date           : $date\n";
+print " User name      : $user\n";
+print " ===============================================================================\n";
+print " \n";
+print " $title\n\n";
+
+my $gdb2crd=which('gdb2berncrd');
+if( ! $gdb2crd )
+{
+    # $env->fail("Cannot find gdb2berncrd program");
+}
+
+if( $crdin ne '' && ! -f $crdin )
+{
+    $env->fail("Cannot find input .CRD file $crdin");
+}
+
+$crdout = $crdin if $crdout eq '';
+
+if( $crdout eq '' )
+{
+    $env->fail("Output coordinate file not defined");
+}
+
+my @codes=();
+foreach my $code (split(' ',$addcod))
+{
+    if( $code =~ /^\w{4}$/ )
+    {
+        push(@codes,uc($code));
+    }
+    else
+    {
+        $env->warn("$code is not a valid geodetic code - ignored");
+    }
+}
+
+if( $rxfiles )
+{
+    foreach my $rxfile (@$rxfiles)
+    {
+        if( $rxcodsrc eq 'FILE_NAME' )
+        {
+            push(@codes,uc($1)) if $rxfile =~ /[\/\\](\w{4})[^\/\\]*$/;
+        }
+        else
+        {
+            require LINZ::GNSS::RinexFile;
+            my $rxo=LINZ::GNSS::RinexFile->new($rxfile,skip_obs=>1);
+            my $name = $rxcodsrc eq 'MARKER_NAME' ? $rxo->markname : $rxo->marknumber;
+            push(@codes,uc($1)) if $name =~ /^\s*(\w{4})(?:\s|$)/;
+        }
+    }
+}
+
+my ($start,$end)=$env->session_startend();
+my ($syear,$sday)=seconds_yearday(($start+$end)/2.0);
+my $yearday=sprintf("%04d-%03d",$syear,$sday);
+
+my @command=($gdb2crd,'-V');
+push(@command,'-i',$crdin) if $crdin && $crdin ne $crdout;
+push(@command,'-o') if $crdin ne $crdout;
+push(@command,'-u') if $update;
+push(@command,'-f',$flgupd) if $flgupd ne '';
+push(@command,'-n',$flgnew) if $flgnew ne '';
+push(@command,'-m',$maxdiff) if $maxdiff > 0.0;
+push(@command,$crdout);
+push(@command,$yearday);
+push(@command,@codes);
+
+my $proxy='';
+foreach my $envvar (keys %ENV)
+{
+    $proxy .= "     $envvar=$ENV{$envvar}\n" if $envvar =~ /tp_proxy/i;
+}
+print "\n Proxy settings:\n$proxy\n" if $proxy;
+
+#print " Running command ",join(' ',@command),"\n";
+system(@command); 
+if( $? == -1 )
+{
+    $env->fail("Failed to run sinex2crd: $!");
+}
+if( $? & 127 )
+{
+    $env->warn("Error encountered running sinex2crd");
+}
+if( ! -f $crdout || -M $crdout > 0 )
+{
+    $env->fail("Failed to update output .CRD file $crdout");
+}
+print " Coordinate file updated\n";
+

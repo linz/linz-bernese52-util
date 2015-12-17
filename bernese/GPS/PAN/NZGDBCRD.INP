@@ -33,18 +33,10 @@ USR_INFO 1  "${USER}"
 ! Title line
 ! ----------
 
-TITLE 1  "Update coordinates from SINEX file"
+TITLE 1  "Update coordinates from NZ geodetic database"
   ## widget = lineedit
 
 MSG_TITLE 1  "Title line"
-
-! Input SINEX file
-! ----------
-
-SINEX 1 "IGS$YP$W+0"
-  ## widget = selwin; path = DIR_SNX; ext = EXT_SNX; emptyallowed = false
-
-DESCR_SINEX 1  "SINEX file containing coordinates"
 
 ! Input coordinate file
 ! --------------------
@@ -57,7 +49,7 @@ DESCR_CRDIN 1  "Coordinate file"
 UPDATE 1  "1"
   ## widget = checkbox; activeif = CRDIN /= ""
 
-DESCR_UPDATE 1  "Update existing coordinates but do not create new stations"
+DESCR_UPDATE 1  "Update existing coordinates"
 
 MAXDIFF 1  "0.0"
   ## widget = lineedit; emptyallowed = true; check_type = real
@@ -65,17 +57,37 @@ MAXDIFF 1  "0.0"
 
 DESCR_MAXDIFF 1  "Maximum permitted coordinate change"
 
+ADDCOD 1  ""
+  ## widget = lineedit
+
+MSG_ADDCOD 1  "List of geodetic codes to add to the file"
+
 ! Flags for stations in .CRD file
 
-FLGNEW 1 ""
-   ## widget = lineedit; emptyallowed = true; check_strlen = 4
+! Additional stations from RINEX files ...
 
-DESCR_FLGNEW 1  "Flag given to new stations"
+RXOFILE     1  "????$S+0"
+  ## widget = selwin; path = DIR_RXO; ext = EXT_RXO; maxfiles = 999; emptyallowed = true
+
+RXOFILE_TXT_COL_1 1  "RINEX files"
+
+MSG_RXOFILE 1  "RINEX observation files with codes to add"
+
+RXOCOD     1  "FILE_NAME"
+  ## widget = combobox; editable = false
+  ## cards = MARKER_NAME MARKER_NUMBER FILE_NAME
+
+MSG_RXOCOD 1  "How to get codes from RINEX file"
 
 FLGUPDT 1 ""
    ## widget = lineedit; emptyallowed = true; check_strlen = 4; activeif = CRDIN /= ""
 
 DESCR_FLGUPDT 1  "Flag given to updated stations - blank to leave unchanged"
+
+FLGNEW 1 ""
+   ## widget = lineedit; emptyallowed = true; check_strlen = 4
+
+DESCR_FLGNEW 1  "Flag given to new stations"
 
 ! Output coordinate file
 ! --------------------
@@ -95,7 +107,7 @@ MSG_SYSODEF 1  "Program output"
 SYSOUT 1  ""
   ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
   ## activeif = SYSODEF == 0; emptyallowed = false
-  # SNX2CRD
+  # NZGDBCRD
 
 DESCR_SYSOUT 1  "Program output"
 
@@ -115,25 +127,27 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# SNX2CRD: UPDATE OR CREATE CRD FILE FROM SINEX COORDINATES                    #
+# NZGDBCRD: UPDATE COORDINATES FILE FROM NZ GDB DATABASE                       #
 #                                                                              #
 # TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
 #                                                                              #
-# Input SINEX file                             > %%%%%%%%%%%% <                # SINEX
-#                                                                              #
 # Input coordinate file                        > %%%%%%%%%%%% <  (optional)    # CRDIN
-#   Update coordinates only  (no new stations) > % <                           # UPDATE
+#   Update existing coordinates                > % <                           # UPDATE
 #   Maximum coordinate change (0=no limit)     > %%%%%%%% <                    # MAXDIFF
+#                                                                              #
+# Add codes  > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # ADDCOD
+#                                                                              #
+# Add codes in RINEX observation files         > %%%%%%%% <                    # RXOFILE
+#   Gather station codes from                  > %%%%%%%%%%%%%% <              # RXOCOD
 #                                                                              #
 # Flag for updated stations (blank=unchanged)  > %%%% <                        # FLGUPDT
 # Flag for new stations                        > %%%% <                        # FLGNEW
 #                                                                              #
 # Output coordinate file (blank=input file)    > %%%%%%%%%%%% <                # CRDOUT
 #                                                                              #
-#                                                                              #
 # OUTPUT FILES                                                                 #
 #                                                                              #
-#   Program output          > % < use SNX2CRD.Lnn           or    > %%%%%%%% < # SYSODEF SYSOUT
+#   Program output          > % < use NZGDBCRD.Lnn          or    > %%%%%%%% < # SYSODEF SYSOUT
 #   Error messages          > % < merged to program output  or    > %%%%%%%% < # ERRMRG SYSERR
 #                                                                              #
 # END_PANEL ####################################################################
