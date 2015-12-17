@@ -1,3 +1,9 @@
+linz-bernese52-util (1.18.0-1) trusty; urgency=medium
+
+  * Adding NZGDBCRD utility
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 18 Dec 2015 11:18:04 +1300
+
 linz-bernese52-util (1.17.0-1) trusty; urgency=medium
 
   * Adding SNX2CRD program
