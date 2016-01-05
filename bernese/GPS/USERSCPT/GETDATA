@@ -2,7 +2,7 @@ package GETDATA;
 @ISA = ("RUNBPE");
 # ============================================================================
 #
-# Name    :  SATMARK
+# Name    :  GETDATA
 #
 # Purpose :  Execute GETDATA
 #

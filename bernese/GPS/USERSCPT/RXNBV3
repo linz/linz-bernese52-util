@@ -1,10 +1,10 @@
-package NZGDBCRD;
+package RXNBV3;
 @ISA = ("RUNBPE");
 # ============================================================================
 #
-# Name    :  NZGDBCRD
+# Name    :  RXNBV3
 #
-# Purpose :  Execute NZGDBCRD
+# Purpose :  Execute RXNBV3
 #
 # PARAMs  :
 #
@@ -21,7 +21,7 @@ sub run {
 
 # Run program
 # -----------
-  my $PGMNAM = "NZGDBCRD";
+  my $PGMNAM = "RXNBV3";
   $bpe->RUN_PGMS($PGMNAM);
 
 }

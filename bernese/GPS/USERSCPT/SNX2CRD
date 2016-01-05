@@ -1,10 +1,10 @@
-package GETDATA;
+package SNX2CRD;
 @ISA = ("RUNBPE");
 # ============================================================================
 #
-# Name    :  SATMARK
+# Name    :  SNX2CRD
 #
-# Purpose :  Execute GETDATA
+# Purpose :  Execute SNX2CRD
 #
 # PARAMs  :
 #

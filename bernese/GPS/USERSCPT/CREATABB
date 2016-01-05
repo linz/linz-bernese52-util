@@ -1,10 +1,10 @@
-package GETDATA;
+package CREATABB;
 @ISA = ("RUNBPE");
 # ============================================================================
 #
-# Name    :  SATMARK
+# Name    :  CREATABB
 #
-# Purpose :  Execute GETDATA
+# Purpose :  Execute CREATABB
 #
 # PARAMs  :
 #
