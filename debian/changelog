@@ -1,3 +1,9 @@
+linz-bernese52-util (1.18.1-1) trusty; urgency=medium
+
+  * Adding option for downloading broadcast orbits (ie nav files).
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 05 Jan 2016 13:33:44 +1300
+
 linz-bernese52-util (1.18.0-1) trusty; urgency=medium
 
   * Adding NZGDBCRD utility
