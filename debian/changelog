@@ -1,3 +1,9 @@
+linz-bernese52-util (1.18.2-1) trusty; urgency=medium
+
+  * Fixing up copy/paste errors and adding script missing from Bernese distribution
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 05 Jan 2016 13:51:28 +1300
+
 linz-bernese52-util (1.18.1-1) trusty; urgency=medium
 
   * Adding option for downloading broadcast orbits (ie nav files).
