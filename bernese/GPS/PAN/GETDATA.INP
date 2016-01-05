@@ -45,7 +45,7 @@ MSG_DNLDORB 1  "Download orbit files"
 
 ORBTYP 1  "FINAL"
   ## widget=combobox; editable=false
-  ## cards = ULTRA ULTRA+ RAPID RAPID+ FINAL
+  ## cards = BROADCAST ULTRA ULTRA+ RAPID RAPID+ FINAL
 
 MSG_ORBTYP 1  "Orbit type, '+' = 'or better'"
 
