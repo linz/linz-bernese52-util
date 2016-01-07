@@ -1,3 +1,9 @@
+linz-bernese52-util (1.19.0-1) trusty; urgency=medium
+
+  * Adding maintenance of datapool site log mirrors
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 08 Jan 2016 06:50:12 +1300
+
 linz-bernese52-util (1.18.2-1) trusty; urgency=medium
 
   * Fixing up copy/paste errors and adding script missing from Bernese distribution
