@@ -1,0 +1,101 @@
+#!/usr/bin/gnss_ftp_mirror -v
+# Example configuration file:
+#
+# Note all configuration item values can contain references to other configuration
+# item values as {xxxxx}, where xxx is the other item.  But note special values
+# for date components and file names that should not be used.
+
+# Organisation directory for sitelogs
+
+orgdir=igs
+
+# RemoteUri is the the base of the remote directory
+
+RemoteUri=ftp://garner.ucsd.edu/pub/docs
+
+RemoteUser=anonymous
+
+RemotePassword=positionz@linz.govt.nz
+
+TimeOut 30
+
+# Delay in seconds added after each successful download to be polite to server
+
+DownloadWait 1
+
+# If a download fails the script will try to reconnect to the server
+# The following options control the reconnection 
+
+MaxReconnectionTries 5
+
+# Time delay in seconds between reconnection attempts
+
+ReconnectionWait 5
+
+# Auto reconnect after specified number of downloads
+
+MaxDownloadsPerConnection 100
+
+# Maximum runtime in minutes - once this time has expired the job will finish
+
+MaxRunTime 120
+
+# RemotePath is the path to the files to download.
+#
+# Can include {yyyy},{yy},{mmmm}, {mmm},{mm},{ddd},{dd} which will map to 
+# the corresponding date strings (mmm is 3 letter month name, mmmm is the 
+# full month name). Will also accept Mmm, MMM, Mmmm, MMMM for different 
+# capitalisation.
+
+# Also can accept {code} or {CODE} for upper or lower case four character
+# codes which will match a valid code. Use {Code} for a case insensitive
+# code match.
+# 
+# These will be replaced with values corresponding to the maximum number
+# of days before the current date to process.  Can also include ? for any
+# character, and * for any set of characters.
+
+RemoteDir=station_logs
+
+# RemoteFileRe.  Remote file names are matched against this regular expression.
+# Files that match are candidates for downloading.  
+# This can include any of the time and code components, eg {ddd}. Also it
+# can include regular expression # capture groups (?<xxx>...) to capture 
+# fields that can be used in the target path.  
+
+RemoteFileRe={code}*.log
+
+# Target directory.  This can be based absolute, or relative to the location
+# of the configuration file (defined as ~).  Can include time components
+# as for RemovePath.  Can also include {filename} to use the source filename.
+
+TargetPath={ENV:D}/sitelogs/{orgdir}/{filename}
+
+# Marker file.  By default the script checks for the existence of the target 
+# file.  If it exists and is of the correct size it is downloaded again.  The 
+# script can instead use a marker file into which the downloaded size is written.
+# This allows the downloaded file to be removed or otherwise changed without 
+# being reprocessed.
+
+#MarkerPath=~/{yyyy}/{ddd}/{filename}.downloaded
+
+# Processing script. Command to run once a file has been downloaded.  The script
+# is run in the target directory.  The command can include parameters, and can
+# include the replacement strings for filename, code, etc.
+#
+# If PostDownloadCommandChDir evaluates to true then the script changes to the 
+# download directory to execute the command.
+
+#PostDownloadCommand process_downloaded_file.sh {filename}
+PostDownloadCommandChDir 1
+
+# Codes to download.  Use Codes * (or omit codes altogether), to download
+# all available codes.
+
+Codes *
+
+# Number of days before current date to start and end download
+# Set the same if the download is insensitive to date...
+
+StartAge 1
+EndAge 1
