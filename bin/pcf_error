@@ -1,8 +1,24 @@
 #!/bin/sh
 
+BPEF='*'
+if [ "$1" != "" ]; then
+    BPEF=$1
+fi
+
 if [ -d BPE ] ; then
-    err_script=`grep 'Script finished  ERROR' BPE/RUN_PNZ.OUT | head -1 | awk '{print ($4)}'`
-    more BPE/*${err_script}.LOG
+    if [ `ls BPE/${BPEF}.OUT | wc -l` -ne 1 ] ; then
+        echo "Cannot find unique output file (BPE/${BPEF}.OUT).  Options are:"
+        ls BPE/${BPEF}.OUT
+        echo "Rerun using the name of an output file as a parameter"
+        exit
+    fi
+    BPEF=`ls BPE/${BPEF}.OUT`
+    ERR=`grep 'Script finished  ERROR' ${BPEF} | head -1 | awk '{print ($4)}'`
+    if [ "${ERR}" = "" ] ; then
+        echo "PCF finished successfully"
+    else
+        more BPE/*${ERR}.LOG
+    fi
 else
     echo "Must run this script in a BERN campaign directory"
 fi
