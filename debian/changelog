@@ -1,3 +1,9 @@
+linz-bernese52-util (1.19.1-1) trusty; urgency=medium
+
+  * Making pcf_error a bit more useful
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 12 Jan 2016 13:28:37 +1300
+
 linz-bernese52-util (1.19.0-1) trusty; urgency=medium
 
   * Adding maintenance of datapool site log mirrors
