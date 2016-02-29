@@ -54,6 +54,17 @@ CRDIN 1  ""
 
 DESCR_CRDIN 1  "Coordinate file"
 
+CRDEPOCH 1  "SESSION"
+  ## widget = combobox; editable=false; activeif = CRDIN /= ""
+  ## cards = SESSION CRD_FILE SINEX
+
+DESCR_CRDEPOCH 1  "Epoch for updated coordinates"
+
+EXTRPLT 1  "1"
+  ## widget = checkbox; 
+
+DESCR_EXTRPLT 1  "Select to extrapolate between and beyond SINEX solution epochs"
+
 UPDATE 1  "1"
   ## widget = checkbox; activeif = CRDIN /= ""
 
@@ -127,6 +138,8 @@ DESCR_SYSERR 1  "Error message"
 #                                                                              #
 # Flag for updated stations (blank=unchanged)  > %%%% <                        # FLGUPDT
 # Flag for new stations                        > %%%% <                        # FLGNEW
+# Epoch of calculated coordinates              > %%%%%%%%%%%% <                # CRDEPOCH
+# Extrapolate solution dates                   > % <                           # EXTRPLT
 #                                                                              #
 # Output coordinate file (blank=input file)    > %%%%%%%%%%%% <                # CRDOUT
 #                                                                              #

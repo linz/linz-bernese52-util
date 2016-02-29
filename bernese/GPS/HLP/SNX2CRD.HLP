@@ -59,6 +59,19 @@ CRD file.
 Flag that will be given to new stations in the CRD file.
 </p>
 
+<a name="CRDEPOCH" default="SESSION"></a>
+<p><b>Epoch for calculated coordinates</b>
+Specify the epoch at which coordinates are calculated from the SINEX file.  Options
+are SESSION, to use the session epoch, or CRD_FILE, to use the input coordinate 
+file epoch
+</p>
+
+<a name="EXTRPLT" default="1"></a>
+<p><b>Extrapolate solution dates</b>
+If selected then the SINEX coordinate solutions may be extrapolated beyond
+the epochs for which they are defined to calculate solutions.
+</p>
+
 <a name="CRDOUT" default="0"></a>
 <p><b>Output coordinate file</b>
 Name of the output coordinate file that will be generated.  This can be the same

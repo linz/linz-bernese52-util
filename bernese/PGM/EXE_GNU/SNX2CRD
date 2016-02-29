@@ -30,7 +30,19 @@ my $crdout=$env->param('CRDOUT',1);
 my $flgnew=$env->param('FLGNEW');
 my $flgupd=$env->param('FLGUPDT');
 my $updateonly=$env->param('UPDATE');
+my $extrapolate=$env->param('EXTRPLT') ? 3 : 0;
 my $maxdiff=$env->param('MAXDIFF')+0;
+my ($start,$end)=$env->session_startend();
+my $epoch=seconds_datetime(($start+$end)/2.0);
+my $epochtype=$env->param('CRDEPOCH');
+if( $crdin && $epochtype eq 'CRD_FILE')
+{
+    $epoch='crd'
+}
+elsif( $epochtype eq 'SINEX' )
+{
+    $epoch='sinex'
+}
 
 my $date=seconds_datetime(time(),1);
 my $sessinfo=$env->param('SES_INFO');
@@ -78,7 +90,9 @@ my @command=($snx2crd,'-v');
 push(@command,'-u') if $updateonly;
 push(@command,'-f',$flgupd) if $flgupd ne '';
 push(@command,'-n',$flgnew) if $flgnew ne '';
+push(@command,'-e',$epoch) if $epoch;
 push(@command,'-m',$maxdiff) if $maxdiff > 0.0;
+push(@command,'-x',$extrapolate);
 push(@command,'-o') if $crdin eq '';
 push(@command,$sinex);
 push(@command,$crdin) if $crdin;
