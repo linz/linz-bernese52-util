@@ -1,3 +1,9 @@
+linz-bernese52-util (1.21.0-1) trusty; urgency=medium
+
+  * Adding a bit more info to pcf_error
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 01 Mar 2016 19:08:45 +1300
+
 linz-bernese52-util (1.20.0-1) trusty; urgency=medium
 
   * Updating SNX2CRD to provide options on solution date
