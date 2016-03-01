@@ -13,10 +13,12 @@ if [ -d BPE ] ; then
         exit
     fi
     BPEF=`ls BPE/${BPEF}.OUT`
+    ERRLINE=`grep 'Script finished  ERROR' ${BPEF} | head -1`
     ERR=`grep 'Script finished  ERROR' ${BPEF} | head -1 | awk '{print ($4)}'`
     if [ "${ERR}" = "" ] ; then
         echo "PCF finished successfully"
     else
+        echo "Error: ${ERRLINE}"
         more BPE/*${ERR}.LOG
     fi
 else
