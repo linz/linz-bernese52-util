@@ -25,7 +25,7 @@ foreach my $line (<$f>)
         my $cfield=$1;
         my @types=split(/\//,$2);
         my $type=shift @types;
-        my @subtypes=LINZ::GNSS::FileTypeList->getSubTypes($type);
+        my @subtypes=LINZ::GNSS::FileTypeList->getSubTypes($type,1);
         foreach $type (@types)
         {
             my %match=();
