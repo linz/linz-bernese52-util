@@ -1,3 +1,9 @@
+linz-bernese52-util (1.22.1-1) trusty; urgency=medium
+
+  * Minor text update to force overwriting users GETDATA.INP
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Wed, 23 Mar 2016 08:24:59 +1300
+
 linz-bernese52-util (1.22.0-1) trusty; urgency=medium
 
   * Adding ability to update data types based on getdata.conf
