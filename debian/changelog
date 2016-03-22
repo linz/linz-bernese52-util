@@ -1,3 +1,9 @@
+linz-bernese52-util (1.22.0-1) trusty; urgency=medium
+
+  * Adding ability to update data types based on getdata.conf
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Wed, 23 Mar 2016 08:05:55 +1300
+
 linz-bernese52-util (1.21.0-1) trusty; urgency=medium
 
   * Adding a bit more info to pcf_error
