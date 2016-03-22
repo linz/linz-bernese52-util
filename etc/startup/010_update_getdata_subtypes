@@ -1,0 +1,65 @@
+#!/usr/bin/perl
+#
+use LINZ::GNSS::FileTypeList;
+use LINZ::BERN::BernUtil;
+use LINZ::GNSS;
+
+# Load configuration
+
+LINZ::BERN::BernUtil::SetBerneseEnv();
+LINZ::GNSS::LoadConfig();
+
+my $inp=$ENV{U}.'/PAN/GETDATA.INP';
+
+open( my $f, "<$inp") || die "Cannot open $inp\n";
+
+my $field='';
+my %cards=();
+
+my @newinp=();
+my $updated=0;
+foreach my $line (<$f>)
+{
+    if( $line =~ /^\s*\!\*cards\s+(\w+)\s+([\w\/]+)\s*$/ )
+    {
+        my $cfield=$1;
+        my @types=split(/\//,$2);
+        my $type=shift @types;
+        my @subtypes=LINZ::GNSS::FileTypeList->getSubTypes($type);
+        foreach $type (@types)
+        {
+            my %match=();
+            foreach my $st (LINZ::GNSS::FileTypeList->getSubTypes($type,1))
+            {
+                $match{$st}=1;
+            }
+            @subtypes=grep {$match{$_}} @subtypes;
+        }
+        $cards{$cfield}=join(' ',@subtypes);
+    }
+    if( $line =~ /^\s*(\w+)\s/ )
+    {
+        $field=$1;
+    }
+    if( $line =~ /^(\s+\#\#(?:.*\;)?\s+cards\s*=\s*)(\S[^\;]*\S)(\;.*|\s*)\n$/ )
+    {
+        my ($prefix,$subtypes,$suffix) = ($1,$2,$3);
+        if( exists($cards{$field}) && $cards{$field} ne $subtypes )
+        {
+            $updated=1;
+            $line=$prefix.$cards{$field}.$suffix."\n";
+        }
+    }
+    push(@newinp,$line);
+}
+
+close($f);
+
+if( $updated )
+{
+    rename($inp,$inp.'.bak') || die "Cannot update $inp\n";;
+    open($f,">$inp") || die "Cannot update $inp\n";;
+    print $f @newinp;
+    close($f);
+    print "$inp data types updated\n";
+}

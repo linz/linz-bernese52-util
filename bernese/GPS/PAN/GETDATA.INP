@@ -1,4 +1,12 @@
 
+! Used by 010_update_getdata_subtypes
+!
+!*cards RSDTYPE OBS
+!*cards IONTYP ION
+!*cards ORBTYP ORB
+!*cards DCBTYP P1C1/P1P2
+!*cards IGSCTYP IGSC
+
 ! Environment Variables
 ! ---------------------
 ENVIRONMENT 5
