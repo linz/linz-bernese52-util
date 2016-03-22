@@ -383,7 +383,7 @@ DESCR_SYSERR 1  "Error message"
 #                                                                              #
 # TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
 #                                                                              #
-#   Downloaded data is cached in the datapool.  The pool also maintains a      #
+#   Downloaded data is cached in the datapool.  The cache maintains a          #
 #   queue of pending download jobs.  To download the data if it is not         #
 #   in the cache, and queue for later download if it is not available.         #
 #   (Queued jobs will only be downloaded if there is a queue manager           #
@@ -403,7 +403,6 @@ DESCR_SYSERR 1  "Error message"
 #   Error messages          > % < merged to program output  or    > %%%%%%%% < # ERRMRG SYSERR
 #                                                                              #
 # END_PANEL ####################################################################
-
 
 # BEGIN_PANEL NO_CONDITION #####################################################
 # DOWNLOAD REFERENCE DATA - GETDATA 2: Orbit/ERP/DCB data                      # 
