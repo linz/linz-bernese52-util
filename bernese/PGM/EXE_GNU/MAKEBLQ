@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!nusr/bin/perl
 
 use strict;
 use LINZ::BERN::Environment;
@@ -45,8 +45,8 @@ print " \n";
 print " $title\n\n";
 print " Template/source loading file: $blqsrc\n";
 print " Grid loading file:            $blqgrd\n";
-print " Station coordinate file:      ".$env->bernfile($crdfile)."\n";
-print " Output station loading file:  ".$env->bernfile($blqout)."\n";
+print " Station coordinate file:      ".$crdfile."\n";
+print " Output station loading file:  ".$blqout."\n";
 printf " Matching station coord tolerance : %.1f metres\n",$crdtol;
 
 my $blqt;
