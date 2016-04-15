@@ -1,3 +1,9 @@
+linz-bernese52-util (1.22.3-1) trusty; urgency=medium
+
+  * Fixing odd error - no idea how it got there!
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 15 Apr 2016 15:11:10 +1200
+
 linz-bernese52-util (1.22.2-1) trusty; urgency=medium
 
   * Adding missing + subtypes
