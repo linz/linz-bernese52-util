@@ -1,3 +1,9 @@
+linz-bernese52-util (1.23.0-1) trusty; urgency=medium
+
+  * Adding initial sitelogs to avoid huge initial load
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Thu, 28 Apr 2016 14:15:35 +1200
+
 linz-bernese52-util (1.22.4-1) trusty; urgency=medium
 
   * Fixing editing bug on MAKEBLQ
