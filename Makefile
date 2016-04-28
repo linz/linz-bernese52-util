@@ -17,5 +17,5 @@ install: all
 	mkdir -p ${DESTDIR}/usr/bin
 	cp bin/* ${DESTDIR}/usr/bin
 	mkdir -p ${DESTDIR}/var/lib/bernese52/datapool/
-	cp datapool/* ${DESTDIR}/var/lib/bernese52/datapool/
+	cp -r datapool/* ${DESTDIR}/var/lib/bernese52/datapool/
 
