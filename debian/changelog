@@ -1,3 +1,9 @@
+linz-bernese52-util (1.23.1-1) trusty; urgency=medium
+
+  * Preserving date in copy
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Thu, 28 Apr 2016 16:21:36 +1200
+
 linz-bernese52-util (1.23.0-1) trusty; urgency=medium
 
   * Adding initial sitelogs to avoid huge initial load
