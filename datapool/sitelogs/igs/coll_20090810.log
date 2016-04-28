@@ -1,0 +1,278 @@
+     International GPS Service
+     COLL Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Michael Moore 
+     Date Prepared            : 2009-08-10
+     Report Type              : New 
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Collie
+     Four Character ID        : COLL
+     Monument Inscription     : 
+     IERS DOMES Number        : 59992M001 
+     CDP Number               : Not Available
+     Monument Description     : 
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2009-01-12 
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+2.   Site Location Information
+
+     City or Town             : Perth 
+     State or Province        : Western Australia 
+     Country                  : Australia
+     Tectonic Plate           : Australian
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2364746.7230
+       Y coordinate (m)       :  4784599.7314
+       Z coordinate (m)       : -3480977.1184
+       Latitude (N is +)      : -331723.01293 
+       Longitude (E is +)     : +1161801.74099
+       Elevation (m,ellips.)  : 207.9667
+     Additional Information   : Perth Net 
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : TRIMBLE NETR5 
+     Satellite System         : GPS+GLO
+     Serial Number            : 4816K55278 
+     Firmware Version         : 4.00 
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2009-01-12T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : TRM55971.00     NONE 
+     Serial Number            : 30975474 
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 (deg) 
+     Antenna Radome Type      : NONE 
+     Radome Serial Number     : 
+     Antenna Cable Type       : CNT-400 50 Ohm
+     Antenna Cable Length     : 80 m
+     Date Installed           : 2009-01-12T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2009-01-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : 
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Perth Net 
+     Preferred Abbreviation   : PNET
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    :
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : Michael Moore
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Michael.Moore@ga.gov.au 
+     Secondary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Ryan.Ruddick@ga.gov.au
+     Additional Information   : (multiple lines)
+
+13.  More Information
+
+     Primary Data Center      : GA (ftp.ga.gov.au)
+     Secondary Data Center    : PerthNet 
+     URL for More Information : http://gpsnetworkperth.com.au
+       Hardcopy on File
+       Site Map               : http://gpsnetworkperth.com.au
+       Site Diagram           : N
+       Horizon Mask           : N
+       Monument Description   : N
+       Site Pictures          : N
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+
+Please insert here the character graphics corresponding to the
+antenna type. Check, complete or change if necessary the antenna
+dimensions.
+
+TRM55971.00
+
+    / ----------------------+--------------------- \   
+   +                        +                       +  
+    \ -------------------------------------------- /   
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=BAM
+
+   <--                   0.3396                  -->

@@ -1,0 +1,409 @@
+     ESBC Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Casper Jepsen
+     Date Prepared            : 2015-06-23
+     Report Type              : UPDATE
+     Update                   : 
+      Previous Site Log       : esbc_20140618.log
+      Modified/Added Sections : 3.5, 3.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Esbjerg EUC
+     Four Character ID        : ESBC
+     Monument Inscription     : None
+     IERS DOMES Number        : 10118M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 4 m
+       Monument Foundation    : CONCRETE PAD
+       Foundation Depth       : 10 m (piles) 
+     Marker Description       : BRASS 
+     Date Installed           : 2005-02-10
+     Geologic Characteristic  : GRAVEL/SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : The reference marker is on top of the piller located
+                              : 0.2160 m under the antenne.The mount disc is embedded 
+			      : on the top of a concrete pillar.
+			      : The pillar consist of an 1)inner solid concrete
+			      : pillar (500 mm diameter) electrically heated 
+			      : to prevent thermal expansion 2)100 mm
+			      : insulation material 3)outer wooden construction
+			      : carrying a conical concrete top.
+			      : 4) a wooden protective surface.
+			      : Inner and outer parts of the pillar are only 
+			      : connected via the foundation. And in the top with
+			      : an elastic joint.
+
+2.   Site Location Information
+
+     City or Town             : Esbjerg
+     State or Province        : Jutland
+     Country                  : Denmark
+     Tectonic Plate           : Eurasian
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3582104.9927
+       Y coordinate (m)       : 532589.9611
+       Z coordinate (m)       : 5232754.9972
+       Latitude (N is +)      : 55 29 36.83 sx
+       Longitude (E is +)     :  8 27 24.57 sx
+       Elevation (m,ellips.)  : 59.5 m
+     Additional Information   : Above coordinates originate from a 7 day
+                              : solution at epoch 04-Nov-2005.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR2200348006
+     Firmware Version         : CN00/EC00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-02-10T15:00Z
+     Date Removed             : 2005-08-11T08:20Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : PRODUCTION05
+     Firmware Version         : CQ00/EC00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-08-11T08:28Z
+     Date Removed             : 2006-01-05T14:20Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR 2200529001
+     Firmware Version         : CQ00/EC00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-01-05T14:25Z
+     Date Removed             : 2012-10-04T12:07Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 355516
+     Firmware Version         : 8.51/3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2012-10-04T12:07Z
+     Date Removed             : 2014-06-18T11:58Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 355516
+     Firmware Version         : 8.71
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2014-06-18T11:58Z
+     Date Removed             : 2015-06-23T12:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 355516
+     Firmware Version         : 9.20
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2015-06-23T12:45Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945E_M    SCIS
+     Serial Number            : CR5200327016
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : 0.216 m
+     Marker->ARP North Ecc(m) : 0.000 m
+     Marker->ARP East Ecc(m)  : 0.000 m
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew FSJ2-50 
+     Antenna Cable Length     : 70 m
+     Date Installed           : 2005-02-10T15:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 135-08-935
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       d Northing (m)         :  47.015(m)
+       d Easting (m)          : -14.101(m)
+       d MSL (m)              :  -7.245(m)
+     Accuracy (mm)            : 1(mm)
+     Survey method            : TRILATERATION/TRIANGULATION
+     Date Measured            : 2007-10-17(CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+6.1  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : National Survey and Cadastre, Denmark
+     Preferred Abbreviation   : KMS
+     Mailing Address          : Rentemestervej 8
+                              : DK-2400 Copenhagen NV
+     Primary Contact
+       Contact Name           : Casper Jepsen
+       Telephone (primary)    : +45 72545281
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : caj@kms.dk
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency 
+
+     Agency                   : National Survey and Cadastre, Denmark
+     Preferred Abbreviation   : KMS
+     Mailing Address          : Rentemestervej 8
+                              : DK-2400 Copenhagen NV
+     Primary Contact
+       Contact Name           : Casper Jepsen
+       Telephone (primary)    : +45 72545281
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : caj@kms.dk
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      :
+     Secondary Data Center    :
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH701945E_M
+
+                         +-------+
+                       /     +     \                        <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.3794                      -->
+

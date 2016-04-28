@@ -1,0 +1,466 @@
+     TIBB Site Information Form (site log)
+     BARD Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ingrid Johanson
+     Date Prepared            : 2013-05-30
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tibb_20120607.log
+      Modified/Added Sections : 3.13       
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Tiburon Peninsula - BARD Station
+     Four Character ID        : TIBB
+     Monument Inscription     : 
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : 
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1994-06-16T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : BARD - Bay Area Regional Deformation
+                              : Array.  Monument drilled and cemented
+                              : into massive reinforced concrete wall.
+                              : Threaded 5/8" rod cemented about 0.8m
+                              : deep into rock with stainless steel
+                              : collar at surface. Antenna threads onto
+                              : rod in reproducible manner.  Mark is
+                              : reference mark on SCIGN antenna adaptor.
+
+2.   Site Location Information
+
+     City or Town             : Tiburon, Marin County
+     State or Province        : California
+     Country                  : USA
+     Tectonic Plate           : Pacific-North America plate boundary
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2704026.6584
+       Y coordinate (m)       : -4253050.1906
+       Z coordinate (m)       : 3895879.4014
+       Latitude (N is +)      : +375327.24
+       Longitude (E is +)     : -1222651.36
+       Elevation (m,ellips.)  : -21.1770
+     Additional Information   : On grounds of Romberg-Tiburon Environmental
+                              : Center of California State University at
+                              : San Francisco.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 700724B01827
+     Firmware Version         : 1C01
+     Elevation Cutoff Setting : 
+     Date Installed           : 1994-06-18T00:00Z
+     Date Removed             : 1996-01-16T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 700570C04693
+     Firmware Version         : 1E00
+     Elevation Cutoff Setting : 
+     Date Installed           : 1996-01-18T00:00Z
+     Date Removed             : 1996-02-20T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 700724B01827
+     Firmware Version         : 1E82
+     Elevation Cutoff Setting : 
+     Date Installed           : 1996-02-20T19:28Z
+     Date Removed             : 1996-02-25T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 700570C04693
+     Firmware Version         : 1E00
+     Elevation Cutoff Setting : 
+     Date Installed           : 1996-02-25T20:21Z
+     Date Removed             : 1996-05-30T16:13Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP01390
+     Firmware Version         : 1E86
+     Elevation Cutoff Setting : 
+     Date Installed           : 1996-05-31T00:00Z
+     Date Removed             : 1999-01-12T20:45Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP01390
+     Firmware Version         : 1F60
+     Elevation Cutoff Setting : 
+     Date Installed           : 1999-01-12T20:58Z
+     Date Removed             : 1999-06-08T20:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP01390
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 
+     Date Installed           : 1999-06-08T23:36Z
+     Date Removed             : 2006-04-20T19:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520014806
+     Firmware Version         : 
+     Elevation Cutoff Setting : 
+     Date Installed           : 2006-04-20T19:00Z
+     Date Removed             : 2011-10-03T20:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00952
+     Firmware Version         : 3.5 Jul,15,2011 p2
+     Elevation Cutoff Setting : 
+     Date Installed           : 2011-10-03T20:30Z
+     Date Removed             : 2011-11-01T20:42Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00916
+     Firmware Version         : 3.5 Jul,15,2011 p2
+     Elevation Cutoff Setting : 
+     Date Installed           : 2011-11-01T20:42Z
+     Date Removed             : 2011-11-22T19:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : During this time period various beta and 
+                              : test versions of the firmware were installed.
+
+3.11 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00916
+     Firmware Version         : 3.5 Nov,18,2011 p3b3 pre3
+     Elevation Cutoff Setting : 
+     Date Installed           : 2011-11-22T19:00Z
+     Date Removed             : 2012-06-05T00:16Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.12 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00916
+     Firmware Version         : 3.6 Feb,28,2012 p1
+     Elevation Cutoff Setting : 
+     Date Installed           : 2012-06-05T00:16Z
+     Date Removed             : 2013-05-30T17:52Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.13 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00916
+     Firmware Version         : 4.0 Dec,21,2012 p1
+     Elevation Cutoff Setting : 
+     Date Installed           : 2013-05-30T17:52Z
+     Date Removed             : 
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700228D      ENCL
+     Serial Number            : 700228D2104
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : -0.015
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0
+     Antenna Radome Type      : ENCL
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1994-06-18T00:00Z
+     Date Removed             : 1999-09-29T19:53Z
+     Additional Information   : Radome is Plexiglass skylight enclosure
+                              : Original Antenna Reference Point was listed
+                              : as "Bottom of tripod mount collar."
+
+4.2  Antenna Type             : ASH701945B_M    SCIT
+     Serial Number            : CR519992107
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00209
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1999-09-30T18:12Z
+     Date Removed             : 
+     Additional Information   : SCIGN Adaptor 0133
+                              : Antenna height measure relative to adaptor
+                              : reference mark.  This is a different mark
+                              : than in section 4.1.
+                              : Base of SCIGN adaptor is 114.0 mm (4.62 in)
+                              : above top of flat washer.
+                              : Radome is SCIGN Tall 00209
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1999-06-14/
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Berkeley Seismological Laboratory
+     Preferred Abbreviation   : BSL
+     Mailing Address          : University of California
+                              : 215 McCone Hall
+                              : Berkeley CA 94720-4760
+     Primary Contact
+       Contact Name           : Ingrid Johanson
+       Telephone (primary)    : 510.642.3977       
+       Telephone (secondary)  : 
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkeley.edu
+     Secondary Contact
+       Contact Name           : Doug Neuhauser
+       Telephone (primary)    : 510.642.3977
+       Telephone (secondary)  : 510.642.0931
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkley.edu
+     Additional Information   : http://www.seismo.berkeley.edu/bard
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      : NCEDC http://www.ncedc.org
+     Secondary Data Center    : 
+     URL for More Information : http://www.seismo.berkeley.edu/bard
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           :
+       Monument Description   : 
+       Site Pictures          :
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+               Ashtech: GEODETIC L1/L2
+
+                           ^
+                 +-------------------+           
+  +--+ +-------+-----------+-----------+--------+ +--+ <--0.064 TGP=L1=L2   
++-+--+ +------------+-------------+-------------+ +--+-+ <-- 0.060 BGP
+                    |-------------|
+                    |-------------|
+                    |-------------|
+                    |-------------|
+                    +------x------+                  <--  0.000  ARP
+
+                    <--  0.080  -->
+      <--                0.2636                -->
+<--                      0.286                       -->
+
+
+        Ashtech w/Dorne-Margolin Choke Ring 
+
+                         -----
+                     /     +     \                        <-- 0.128  L2
+                    |      +      |                       <-- 0.110  L1
+  +--------------------------------------------------+    <-- 0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038  BCR
++-------------------+-------------+--------------------+  <-- 0.035  BGP
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.000  m ARP
+
+<--                      0.381                       -->
+
+     NOTE: Dimensions and Offsets Presumed to be same
+           as for TurboRogue DM-T (tests pending)
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+

@@ -1,0 +1,357 @@
+     MILP Site Information Form (site log)
+     USGS Continuously Operating Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Karen J Wendt
+     Date Prepared            : 2012-02-03
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : (n.n,n.n,...)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Milpitas - Starbird Property
+     Four Character ID        : MILP
+     Monument Inscription     : 
+     IERS DOMES Number        : (A9)
+     CDP Number               : (A4)
+     Monument Description     : DEEP DRILLED BRACED
+       Height of the Monument :  (m)
+       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
+       Foundation Depth       :  (m)
+     Marker Description       : NONE
+     Date Installed           : 2010-08-20T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Milpitas
+     State or Province        : California
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2674286.42
+       Y coordinate (m)       : -4307461.98
+       Z coordinate (m)       : 3857278.28
+       Latitude (N is +)      : +372656.508
+       Longitude (E is +)     : -1215002.652
+       Elevation (m,ellips.)  : 334.7
+     Additional Information   : 
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4927175135
+     Firmware Version         : 1.2-5
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-08-20T00:00Z
+     Date Removed             : 2011-05-26T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00912
+     Firmware Version         : 3.5 Jun,29,2011 p2b3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-05-26T00:00Z
+     Date Removed             : 2011-08-30T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00980
+     Firmware Version         : 3.5 Jun,29,2011 p2b3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-08-30T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     SCIT
+     Serial Number            : CR519991788
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) :
+     Marker->ARP East Ecc(m)  :
+     Alignment from True N    :
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2010-08-20T00:00Z
+     Date Removed             : 2011-06-15T00:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TPSCR.G3        SCIT
+     Serial Number            : 383-1723
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) :
+     Marker->ARP East Ecc(m)  :
+     Alignment from True N    :
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 2037
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2011-06-15T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy (% rel h)     : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Height Diff to Ant     : 
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : U.S. Geological Survey
+     Preferred Abbreviation   : USGS
+     Mailing Address          : 345 Middlefield Road
+                              : Menlo Park CA MS977  94025
+     Primary Contact
+       Contact Name           : Chris Guillemot
+       Telephone (primary)    : 650-329-5630
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : cguillemot@usgs.gov
+     Secondary Contact
+       Contact Name           : Jerry Svarc
+       Telephone (primary)    : 650-329-4815
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : jsvarc@usgs.gov
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   :
+     Preferred Abbreviation   :
+     Mailing Address          :
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : NCEDC http://www.ncedc.org
+     Secondary Data Center    : 
+     URL for More Information : http://earthquake.wr.usgs.gov/monitoring/gps/SFBayArea/
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM29659.00
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+TPSCR.G3
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1015  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

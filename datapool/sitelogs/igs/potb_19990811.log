@@ -1,0 +1,140 @@
+     POTB Site Information Form
+     International GPS Service for Geodynamics
+
+
+0.   Form
+
+0.1  Prepared by (full name)  : Ray Baxter
+     Date Prepared            : 1999-08-11
+     Report Type              : Update
+     Prepared Using           : GNU Emacs
+
+0.2  Prepared by (full name)  : Cedric de La Beaujardiere
+     Date Prepared            : 2005-02-25
+     Report Type              : UPDATE
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Potrero Hills
+     Four Character ID        : POTB
+     Monument Inscription     : None
+     IERS DOMES Number        : None
+     CDP Number               : None
+     Date Installed           : 1998-12-10T21:09Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 50-200 cm
+       Notes                  : Threaded 5/8" rod cemented about 0.5 m deep 
+                                into massive concrete missile bunker.
+                                The reference is a virtual point in the 
+                                center of the rod in the plane of the top of
+                                a washer expoxied between two nuts.
+     Additional Information   : Bay Area Regional Deformation Array
+                              :PERMANENTLY DISMANTLED on 2005-02-15T03:00Z
+
+
+2.   Site Location Information
+
+     City or Town             : Rural, near Fairfield
+     State or Province        : California
+     Country                  : USA
+     Tectonic Plate           : Pacific-North America plate boundary
+     Approximate Position
+       X coordinate (m)       : -2654637.8128  
+       Y coordinate (m)       : -4258988.9341   
+       Z coordinate (m)       :  3923161.0270
+       Latitude (deg)         :  38.2026 N
+       Longitude (deg)        : 121.9354 W
+       Elevation (m)          :  29.6260
+     Additional Information   : None
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Serial Number            : 02274
+     Firmware Version         : 1F60
+     Date Installed           : 1998-12-10T21:09Z
+     Date Removed             : 1999-08-03T19:58Z
+     Additional Information   : None
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Serial Number            : 02274
+     Firmware Version         : CC00
+     Date Installed           : 1999-08-03T20:10Z
+     Date Removed             : 2005-02-05T01:28:45Z
+     Additional Information   : PERMANENTLY DISMANTLED on 2005-02-15T03:00Z
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : ASH700936C_M    NONE
+     Serial Number            : 12377
+     Antenna Height (m)       : 0.0409
+     Antenna Reference Point  : BPA
+     Degree Offset from North : 0
+     Antenna Radome Type      : None
+     Date Installed           : 1998-12-10T21:09Z
+     Date Removed             : 1999-08-03T19:58Z
+     Additional Information   : None
+
+4.2  Antenna Type             : ASH700936C_M    SCIS
+     Serial Number            : 12377
+     Antenna Height (m)       : 0.0409
+     Antenna Reference Point  : BPA
+     Degree Offset from North : 0
+     Antenna Radome Type      : SCIGN short Radome (00410)
+     Date Installed           : 1999-08-03T20:10Z
+     Date Removed             : 2005-02-05T01:28:45Z
+     Additional Information   : PERMANENTLY DISMANTLED on 2005-02-15T03:00Z
+
+
+5.   Local Site Ties - None to date
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              : 
+       Effective Dates        : 
+       Notes                  : None
+
+7.   Collocation Information - None
+
+8.   Meteorological Instrumentation - None
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Berkeley Seismological Laboratory
+     Mailing Address          : University of California
+                                Berkeley CA 94720-4760
+     Primary Contact
+       Contact Name           : Cedric de La Beaujardiere
+       Telephone (primary)    : 510.642.0073
+       Telephone (secondary)  : 
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkeley.edu
+     Secondary Contact
+       Contact Name           : Doug Neuhauser
+       Telephone (primary)    : 510.642.3977
+       Telephone (secondary)  : 510.642.0931
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkley.edu
+     Additional Information   : None
+
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : Same as above
+
+11.  More Information
+
+     URL for More Information : http://www.quake.geo.berkeley.edu/bard
+     Hardcopy on File
+       Site Map               : No
+       Site Diagram           : No
+       Horizon Mask           : No
+       Monument Description   : No
+       Site Pictures          : No
+     Additional Information   : No

@@ -1,0 +1,267 @@
+     pre2 Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : James C Berra
+     Date Prepared            : 2008-05-30
+     Report Type              : NEW
+     
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : South Africa NGA colocated
+     Four Character ID        : pre2
+     Monument Inscription     : NIMA GEODESY & GEOPHYSICS DEPARTMENT NIMA 85412
+     IERS DOMES Number        : 30310S001
+     CDP Number               : n/a
+     Monument Description     : None
+       Height of the Monument : (m)
+       Monument Foundation    : BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Foundation Depth       : (m)
+     Marker Description       : 
+     Date Installed           : 2004-03-22
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Pretoria
+     State or Province        : 
+     Country                  : South Africa
+     Tectonic Plate           : African
+     Approximate Position (ITRF)
+       X coordinate (m)       : 5066232.133
+       Y coordinate (m)       : 2719226.969
+       Z coordinate (m)       : -2754392.735
+       Latitude (N is +)      : -254446.85
+       Longitude (E is +)     : +0281326.53
+     Elevation (m,ellips.)    : 1416.4
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 1909
+     Firmware Version         : 1Y07-1DY4
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2004-03-22
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver 2
+
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936B_M    SNOW
+     Serial Number            : 12272
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-01-01
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : UNK
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : Cesium /Rcvr2
+       Input Frequency        : (if external)
+       Effective Dates        : 2004-03-22
+       Notes                  : HP 5071A (SN-US43451951)
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : PTU307
+       Manufacturer           : VASALA
+       Serial Number          : D0550026
+       Data Sampling Interval : 900 sec
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : PTU307
+       Manufacturer           : VASALA
+       Serial Number          : D0550026
+       Data Sampling Interval : 900 sec
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : PTU307
+       Manufacturer           : VASALA
+       Serial Number          : D0550026
+       Data Sampling Interval : 900 sec
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : UNK
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : National Geospatial-Intelligence Agency
+     Preferred Abbreviation   : NGA
+     Mailing Address          : 3838 Vogel Rd., Arnold, MO 63010-6238
+     Primary Contact
+       Contact Name           : Randall E. Taylor
+       Telephone (primary)    : (314) 676-1223
+       Telephone (secondary)  : (314) 676-9140
+       Fax                    : (314) 676-3174
+       E-mail                 : Randall.E.Taylor@nga.mil
+     Secondary Contact
+       Contact Name           : James C Berra
+       Telephone (primary)    : (314) 676-9140
+       Telephone (secondary)  : 
+       Fax                    : (314) 676-3174
+       E-mail                 : James.C.Berra@nga.mil
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   :     
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : SIO
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH700936B_M
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+

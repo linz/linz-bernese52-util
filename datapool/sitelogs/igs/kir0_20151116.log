@@ -1,0 +1,657 @@
+
+     KIR0 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Anders Frisk
+     Date Prepared            : 2015-11-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : kir0_20150302.log
+      Modified/Added Sections : 3.21, 3.22
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Kiruna
+     Four Character ID        : KIR0
+     Monument Inscription     : Kiruna SWEPOS 1993
+     IERS DOMES Number        : 10422M001
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1993-08-01T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Swedish permanent GPS Network (SWEPOS)
+                              : The same monument and antenna has been used for
+                              : the IGEX/IGLOS-site KR0G up to 2003-08-19.
+
+
+2.   Site Location Information
+
+     City or Town             : Kiruna
+     State or Province        : 
+     Country                  : Sweden
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2248123.5038
+       Y coordinate (m)       : 865686.5326
+       Z coordinate (m)       : 5886425.5943
+       Latitude (N is +)      : +675239.26
+       Longitude (E is +)     : +0210336.84
+       Elevation (m,ellips.)  : 497.9
+     Additional Information   : SWEREF 99 (Swedish realisation of ETRS89).
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : T-217
+     Firmware Version         : 2.8
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 1993-08-01T00:00Z
+     Date Removed             : 1993-08-01T00:01Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 833
+     Firmware Version         : 8M
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 1993-08-01T00:01Z
+     Date Removed             : 1993-10-13T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 833
+     Firmware Version         : 8M
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1993-10-13T00:00Z
+     Date Removed             : 1994-05-27T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.4  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 833
+     Firmware Version         : 1C00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1994-05-27T00:00Z
+     Date Removed             : 1994-07-25T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Firmware upgrade
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 833
+     Firmware Version         : 1D00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1994-07-25T00:00Z
+     Date Removed             : 1995-11-02T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Firmware upgrade
+
+3.6  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 833
+     Firmware Version         : 1F00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1995-11-02T00:00Z
+     Date Removed             : 1996-10-30T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Firmware upgrade
+
+3.7  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 833
+     Firmware Version         : 1G00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1996-10-30T00:00Z
+     Date Removed             : 1997-04-23T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Firmware upgrade.
+                              : Removal date (i.e. change of elevation cut off
+                              : setting, is somewhat uncertain.
+
+3.8  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 833
+     Firmware Version         : 1G00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-04-23T00:00Z
+     Date Removed             : 1997-12-04T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Installation date (i.e. change of elevation cut
+                              : off setting, is somewhat uncertain.
+
+3.9  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 828
+     Firmware Version         : 1G00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-12-04T00:00Z
+     Date Removed             : 1997-12-23T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.10 Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 243
+     Firmware Version         : 1G00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-12-23T00:00Z
+     Date Removed             : 1999-02-02T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.11 Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 843
+     Firmware Version         : CB00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-02-02T00:00Z
+     Date Removed             : 1999-06-12T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.12 Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 843
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-06-12T00:00Z
+     Date Removed             : 2001-08-27T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Firmware upgrade 1999-06-12.
+                              : CLOCK STEERING set to N 2000-12-06 11:40
+
+3.13 Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 407
+     Firmware Version         : UFB5
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-08-27T08:29Z
+     Date Removed             : 2003-08-19T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Full serial number: ZR20010407.
+
+3.14 Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AEC6LFY4HKW
+     Firmware Version         : 2.2 Apr,05,2002 p2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-08-19T00:00Z
+     Date Removed             : 2004-07-21T12:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.15 Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AEC6LFY4HKW
+     Firmware Version         : 2.3 Apr,28,2004 p4
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-07-21T12:00Z
+     Date Removed             : 2007-11-13T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.16 Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AEC6LFY4HKW
+     Firmware Version         : 2.6.0 Apr,18,2007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-11-13T00:00Z
+     Date Removed             : 2007-12-14T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.17 Receiver Type            : JPS EGGDT
+     Satellite System         : GPS+GLO
+     Serial Number            : 8POGQ1TVLKW
+     Firmware Version         : 2.6.0 Apr,18,2007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-12-14T00:00Z
+     Date Removed             : 2008-05-06T17:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.18 Receiver Type            : JPS EGGDT
+     Satellite System         : GPS+GLO
+     Serial Number            : 8POGQ1TVLKW
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-05-06T17:15Z
+     Date Removed             : 2013-08-05T10:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Firmware upgrade
+
+3.19 Receiver Type            : JPS EGGDT
+     Satellite System         : GPS+GLO
+     Serial Number            : 8Q5Z6E2J668
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-08-05T10:00Z
+     Date Removed             : 2014-01-14T17:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.20 Receiver Type            : JPS EGGDT
+     Satellite System         : GPS+GLO
+     Serial Number            : 8Q5Z6E2J668
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-01-14T17:00Z
+     Date Removed             : 2015-03-02T15:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.21 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00439
+     Firmware Version         : 3.5.6 Aug,14,2014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-03-02T15:00Z
+     Date Removed             : 2015-11-16T16:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.22 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00439
+     Firmware Version         : 3.5.12 Nov,12,2015
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-11-16T16:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        DUTD
+     Serial Number            : 247
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DUTD
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214 / U
+     Antenna Cable Length     : 12 m
+     Date Installed           : 1993-08-01T00:00Z
+     Date Removed             : 1995-03-13T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 247
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214 / U
+     Antenna Cable Length     : 12 m
+     Date Installed           : 1995-03-13T00:00Z
+     Date Removed             : 1995-07-10T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 247
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214 / U
+     Antenna Cable Length     : 12 m
+     Date Installed           : 1995-07-10T00:00Z
+     Date Removed             : 1996-07-30T00:00Z
+     Additional Information   : 
+
+4.4  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 247
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214 / U
+     Antenna Cable Length     : 12 m
+     Date Installed           : 1996-07-30T00:00Z
+     Date Removed             : 1996-10-30T00:00Z
+     Additional Information   : 
+
+4.5  Antenna Type             : AOAD/M_T        OSOD
+     Serial Number            : 247
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : OSOD
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214 / U
+     Antenna Cable Length     : 12 m
+     Date Installed           : 1996-10-30T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1991-07-01/1996-08-08
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 1996-08-08/2003-08-19
+       Notes                  : CLOCK STEERING set to N 2000-12-06 11:40
+
+6.3  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-08-19/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GRAVITY MEASUREMENTS
+       Status                 : MOBILE
+       Effective Dates        : 1995-09-09/1995-09-11
+       Notes                  : 
+
+7.2  Instrumentation Type     : GPS/GLONASS
+       Status                 : PERMANENT
+       Effective Dates        : 1998-09-01/2003-08-19
+       Notes                  : IGLOS site KR0G utilized the same pillar and
+                              : antenna as KIR0.
+
+7.3  Instrumentation Type     : GPS/GLONASS
+       Status                 : PERMANENT
+       Effective Dates        : 2011-08-12/CCYY-MM-DD
+       Notes                  : EPN station KIR8 10422M002.
+                              : KIR8 is also included in the IGS MGEX project.
+
+7.4  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2003-07-06/2003-07-07
+       Notes                  : 
+
+7.5  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2004-06-15/2004-06-16
+       Notes                  : 
+
+7.6  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2005-08-31/2005-09-01
+       Notes                  : 
+
+7.7  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2006-09-06/2006-09-07
+       Notes                  : 
+
+7.8  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2007-06-18/2007-06-19
+       Notes                  : 
+
+7.9  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2007-08-13/2007-08-15
+       Notes                  : Observation performed by Lantmateriet.
+
+7.10 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2008-08-26/2008-08-28
+       Notes                  : Observation performed by Lantmateriet.
+
+7.11 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2010-08-09/2010-08-11
+       Notes                  : Observation performed by Lantmateriet.
+
+7.12 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2012-08-14/2012-08-16
+       Notes                  : Observation performed by Lantmateriet.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : DOME HEATING
+       Effective Dates        : 2003-03-26/CCYY-MM-DD
+       Additional Information : A fan system for removal of snow on the dome is
+                              : installed for test purposes. The fan heats the
+                              : air under the dome, and the dome is also
+                              : insulated with a material called Armaflex.
+                              : These measures may cause multipath.
+                              : Comment 2014-01-14: The fan was only operational
+                              : during a short period after the installation,
+                              : but the equipment still remains.
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2012-07-05/2012-07-05
+     Event                    : The radome was removed 07:10-10:37 UTC  for
+                              : local tie/stability measurements
+
+10.2 Date                     : 2013-08-15/CCYY-MM-DD
+     Event                    : Antenna splitter replaced.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Lantmateriet, the Swedish mapping, cadastral and
+                              : land registration authority
+     Preferred Abbreviation   : LMV
+     Mailing Address          : S-80182 Gavle
+                              : Sweden
+     Primary Contact
+       Contact Name           : SWEPOS Control Centre
+       Telephone (primary)    : +46 26 633753
+       Telephone (secondary)  : 
+       Fax                    : +46 26 610676
+       E-mail                 : swepos@lm.se
+     Secondary Contact
+       Contact Name           : Jan Johansson
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : +46 31 7725590
+       E-mail                 : jmj@oso.chalmers.se
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : 
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+AOAD/M_T
+Dorne Margolin with chokerings (TurboRogue)
+                      +---------+
+                     /     +     \                        <--  0.1280 L2
+                    |      +      |                       <--  0.1100 L1
+  +-----------------+-------------+------------------+    <--  0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.0380
++-------------------+-------------+--------------------+  <--  0.0350 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000 BPA=ARP
+
+<--                      0.3810                      -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+

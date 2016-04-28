@@ -1,0 +1,450 @@
+     MAD2 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : David Maggert
+     Date Prepared            : 2013-01-31
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : mad2_20120302.log
+      Modified/Added Sections : 0, 5.1, 10.3, 10.4, 10.5, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Madrid Deep Space Tracking Station
+     Four Character ID        : MAD2
+     Monument Inscription     : None
+     IERS DOMES Number        : 13407S012
+     CDP Number               : 115
+     Monument Description     : 2 Brass brackets
+       Height of the Monument : 0.203 m
+       Monument Foundation    : Roof mounted
+       Foundation Depth       : 5.15 m
+     Marker Description       : DIVOT
+     Date Installed           : 1989-01-01
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : The subsurface is composed of granite and thin
+                              : layers of sandy soil. Solid granite bedrock
+                              : occurs at depths of three to nine meters.
+                              : Varying layers of soft granite and fractured
+                              : granite occur between surface material and
+                              : bedrock. The area is undergoing a phase of
+                              : active erosion.
+                              : Geological information from 'NASA Space Geodesy
+                              : Program Memorandum 4482' p277.
+
+
+2.   Site Location Information
+
+     City or Town             : Robledo
+     State or Province        : 
+     Country                  : Spain
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4849202.3989
+       Y coordinate (m)       : -360328.9943
+       Z coordinate (m)       : 4114913.1884
+       Latitude (N is +)      : +402544.98
+       Longitude (E is +)     : -0041458.77
+       Elevation (m,ellips.)  :   829.5
+     Additional Information   : Site is located on JPL's Madrid Tracking
+                              : station which is south of Madrid, Spain near
+                              : Robledo
+                              : Antenna is shared with site MADR
+                              : The reference frame is ITRF2000.
+                              : The epoch is January 1, 2004.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : R249
+     Firmware Version         : 3.2
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1997-10-30
+     Date Removed             : 1998-06-16T08:50Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : R202
+     Firmware Version         : 0.0
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1998-06-16T08:50Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : R202
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-08-24T09:24Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : R202
+     Firmware Version         : 0.0
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-11-19T14:00Z
+     Date Removed             : 2004-11-29T22:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT920041504
+     Firmware Version         : 1L01-1D04
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2004-11-29T22:50Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 404-B
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0254
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1996-09-25
+     Date Removed             : 2003-09-10
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 4046
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0254
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2003-09-10
+     Date Removed             : 2003-10-29
+     Additional Information   : model number 7490575
+
+4.3  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 404-B
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0254
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2003-10-29
+     Date Removed             : 2003-11-11T13:30Z
+     Additional Information   : model number 7490575
+
+4.4  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 451-U
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0254
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2003-11-11T13:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : model number 7490582-2
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : MADR 1665
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : 1565
+     Tied Marker DOMES Number : 13407S010
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -134.1934
+       dy (m)                 : 159.6660
+       dz (m)                 : 164.3200
+     Accuracy (mm)            : (mm)
+     Survey method            : Unknown
+     Date Measured            : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : clock steering disabled
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1  Radio Interferences    : Wi-Fi antenna system (2.4GHz)
+       Observed Degradations  : None
+       Effective Dates        : 2011-11-01/2012-02-07
+       Additional Information : located around 45 degrees north and
+                              : near enough to produce multipath effects.
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : Safety Metallic Roof Handrail
+       Effective Dates        : 2011-02-01/2012-02-21
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1  Date                    : 2003-09-10/2003-10-30
+     Event                    : failed antenna splitter and subsequent
+                              : troubleshooting efforts resulted in
+                              : loss of data during this period.
+
+10.2  Date                    : 2003-11-11/CCYY-MM-DD
+     Event                    : continued intermittent tracking until
+                              : this date, both antenna and splitter
+                              : were replaced. splitter is now AC
+                              : powered, rather than depending on the
+                              : DC output from either receiver.
+                              : GPS Networking, Inc. P/N -
+                              : NH1ALDCBS1x2-N/15/110
+
+10.3  Date                    : 2012-02-03/2012-02-03
+     Event                    : Transitioned from .soc to .ash data types.  For
+                              : soc data typed used soc2rnx to do the
+                              : conversion to RINEX data.  For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX.
+
+10.4  Date                    : 2012-02-08/CCYY-MM-DD
+     Event                    : Wi-Fi antenna located at Building 300 roof
+                              : has been disconnected and removed on
+                              : 2012-02-08T14:30 HS Madrid,Spain time.
+                              : This is in response to finding the source
+                              : of Madrid GPS signal multipath.
+
+10.5  Date                    : 2012-02-21/CCYY-MM-DD
+     Event                    : Part of the handrail nearest to GPS antenna
+                              : was removed. This appears to have solved
+                              : the Madrid GPS multipath degradation problem.
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena CA, 91109
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+AOA/M_T
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000 BPA=ARP
+
+
+   ARP: Antenna Reference Point           BPA: Bottom of Preamplifier
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+

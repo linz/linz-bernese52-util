@@ -1,0 +1,164 @@
+     MOLA Site Information Form
+     Bay Area Regional Deformation Array
+
+
+0.   Form
+
+0.1  Prepared by (full name)  : Mark Murray
+     Date Prepared            : 15-MAY-1995
+     Report Type              : NEW
+
+0.2  Prepared by (full name)  : Mark Murray
+     Date		      : 24-APR-2000
+     Report type	      : UPDATE
+
+0.3  Prepared by (full name)  : Mark Murray
+     Date		      : 15-JUN-2000
+     Report type	      : UPDATE
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Point Molate
+     Four Character ID        : MOLA
+     Monument Inscription     :
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Date Installed           : 06-OCT-1993
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Notes                  : 
+     Additional Information   : BARD - Bay Area Regional Deformation Array
+
+
+2.   Site Location Information
+
+     City or Town             : Richmond
+     State or Province        : California
+     Country                  : USA
+     Tectonic Plate           : North America/Pacific
+     Approximate Position
+       X coordinate (m)       : -2699935.2398
+       Y coordinate (m)       : -4251149.2789
+       Z coordinate (m)       : 3900756.8661
+       Latitude (deg)         : 37.9466 N
+       Longitude (deg)        : 122.4199 W
+       Elevation (m)          : -20.312
+     Additional Information   : Site near Point Molate.
+     
+
+3.   GPS Receiver
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Serial Number            : 3325A03376
+     Firmware Version         : Nav 5.67 Sig 1.26
+     Date Installed           : 06-OCT-1993
+     Date Removed             : 05-FEB-1994
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4000SSE
+     Serial Number            : 3325A03376
+     Firmware Version         : Nav 6.01 Sig 2.07
+     Date Installed           : 08-JUN-1994
+     Date Removed             : 13-SEP-1995
+     Additional Information   : Firmware upgrade
+
+3.3  Receiver Type            : TRIMBLE 4000SSE
+     Serial Number            : 3325A03376
+     Firmware Version         : Nav 7.05 Sig 3.03
+     Date Installed           : 17-SEP-1995
+     Date Removed             : 
+     Additional Information   : Firmware upgrade
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : TRM22020.00+GP  ENCL
+     Serial Number            : 0080049776
+     Antenna Height (m)       : 0.000
+     Antenna Reference Point  : BPA
+     Degree Offset from North : 0
+     Antenna Radome Type      : ENCL
+     Date Installed           : 06-OCT-1993
+     Date Removed             : 07-JUN-1994
+     Additional Information   : Fiberglass enclosure of entire receiver
+     				and antenna setup
+
+4.2  Antenna Type             : TRM22020.00+GP  ENCL
+     Serial Number            : 0080049776
+     Antenna Height (m)       : 0.000
+     Antenna Reference Point  : BPA
+     Degree Offset from North : 0
+     Antenna Radome Type      : ENCL
+     Date Installed           : 08-JUN-1994
+     Date Removed             : 
+     Additional Information   : No change to antenna itself. Fiberglass 
+                                enclosure of entire receiver and antenna 
+                                setup modified to include conical plastic
+				dome over antenna
+
+5.   Local Site Ties
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              :
+       Effective Dates        : 
+       Notes                  : 
+
+7.   Collocation Information
+
+8.   Meteorological Instrumentation
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Berkeley Seismological Laboratory 
+     Mailing Address          : University of California  
+                                202 McCone Hall
+                                Berkeley CA 94720-4760
+     Primary Contact
+       Contact Name           : Mark Murray
+       Telephone (primary)    : 510.642.3977
+       Telephone (secondary)  : 510.643.3980
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkeley.edu
+     Secondary Contact
+       Contact Name           : Doug Neuhauser
+       Telephone (primary)    : 510.642.3977
+       Telephone (secondary)  : 510.642.0931
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkley.edu
+     Additional Information   : None
+
+
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : Trimble Navigation, Inc.
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : Brian Frohring
+       Telephone (primary)    : (408) 481-2073
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+11.  More Information
+
+     URL for More Information : http://quake.geo.berkeley.edu/bard
+     Additional Information   : Trimble Navigation, Inc. test site in 
+     				collaboration with BARD
+				
+     Antenna Graphics with Dimensions
+
+     http://www.grdl.noaa.gov/GRD/GPS/Projects/ANTCAL

@@ -1,0 +1,741 @@
+     KLOP Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Rudi Stoeger
+     Date Prepared            : 2016-01-08
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : klop_20151019.log
+      Modified/Added Sections : 0, 3.28
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Kloppenheim
+     Four Character ID        : KLOP
+     Monument Inscription     : LS12
+     IERS DOMES Number        : 14214M002
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 1.20 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1.0 m
+     Marker Description       : SURVEY MARKER BOLT
+     Date Installed           : 1997-03-19T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : The antenna is installed on
+                              : the EUREF-pillar in Kloppenheim,
+                              : EUREF No. 0034
+
+
+2.   Site Location Information
+
+     City or Town             : Kloppenheim / Frankfurt
+     State or Province        : Hessen
+     Country                  : Germany
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4041875.7320
+       Y coordinate (m)       : 620655.0620
+       Z coordinate (m)       : 4878636.6110
+       Latitude (N is +)      : +501311.20
+       Longitude (E is +)     : +0084347.80
+       Elevation (m,ellips.)  :   222.4
+     Additional Information   : ETRS89, REALIZATION DREF91
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3503A09375
+     Firmware Version         : 7.12
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1997-03-19T00:00Z
+     Date Removed             : 1999-06-08T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3503A09375
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-06-08T00:00Z
+     Date Removed             : 2004-10-28T09:15Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4345228742
+     Firmware Version         : NAV 0.70 / BOOT 1.16
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-10-28T09:15Z
+     Date Removed             : 2004-12-02T07:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4345228742
+     Firmware Version         : NAV 1.11 / BOOT 1.16
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-12-02T07:00Z
+     Date Removed             : 2005-05-17T05:30Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4345228742
+     Firmware Version         : NAV 1.12 / BOOT 1.12
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-05-17T05:30Z
+     Date Removed             : 2005-06-30T05:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4345228742
+     Firmware Version         : NAV 1.13 / BOOT 1.12
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-06-30T05:00Z
+     Date Removed             : 2006-04-05T08:45Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4345228742
+     Firmware Version         : NAV 1.15 / BOOT 1.12
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-04-05T08:45Z
+     Date Removed             : 2006-07-28T07:20Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4345228742
+     Firmware Version         : NAV 1.15 / BOOT 1.12
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-07-28T07:20Z
+     Date Removed             : 2007-04-26T12:44Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 3.30 / BOOT 3.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-04-26T12:45Z
+     Date Removed             : 2007-09-14T06:59Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 3.50 / BOOT 3.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-09-14T07:00Z
+     Date Removed             : 2009-01-14T13:59Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 3.64 / BOOT 3.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-01-14T14:00Z
+     Date Removed             : 2009-03-25T05:19Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.12 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 3.80 / BOOT 3.56
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-03-25T05:20Z
+     Date Removed             : 2009-06-08T04:26Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.13 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.03 / BOOT 3.56
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-06-08T04:27Z
+     Date Removed             : 2010-04-06T05:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.14 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.14 / BOOT 3.56
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-04-06T05:01Z
+     Date Removed             : 2010-06-28T04:59Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.15 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.15 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-06-28T05:00Z
+     Date Removed             : 2010-09-21T04:14Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.16 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.17 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-09-21T04:15Z
+     Date Removed             : 2010-12-28T07:19Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.17 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.19 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-12-28T07:20Z
+     Date Removed             : 2011-03-10T05:14Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.18 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.22 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-03-10T05:15Z
+     Date Removed             : 2011-05-19T09:21Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.19 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.41 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-05-19T09:22Z
+     Date Removed             : 2011-10-21T08:38Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.20 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.43 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-10-21T08:39Z
+     Date Removed             : 2012-05-14T08:59Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.21 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.48 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-05-14T09:17Z
+     Date Removed             : 2013-04-29T06:31Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.22 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02949
+     Firmware Version         : NAV 4.70 / BOOT 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-04-29T06:37Z
+     Date Removed             : 2013-12-11T07:28Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.23 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 5329K44399
+     Firmware Version         : Nav 4.81 / Boot 4.29
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-12-11T07:48Z
+     Date Removed             : 2014-03-04T06:02Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.24 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 5329K44399
+     Firmware Version         : Nav 4.85 / Boot 4.29
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-03-04T06:05Z
+     Date Removed             : 2015-05-05T05:07Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.25 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 5329K44399
+     Firmware Version         : Nav 5.01 / Boot 4.93
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-05-05T05:08Z
+     Date Removed             : 2015-06-22T04:03Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.26 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5329K44399
+     Firmware Version         : Nav 4.85 / Boot 4.93
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-06-22T04:13Z
+     Date Removed             : 2015-08-10T05:31Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.27 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5329K44399
+     Firmware Version         : Nav 5.03 / Boot 5.02
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-08-10T05:43Z
+     Date Removed             : 2015-10-19T06:35Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.28 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5329K44399
+     Firmware Version         : Nav 5.1 / Boot 5.02
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-10-19T06:39Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM22020.00+GP  DOME
+     Serial Number            : 0220010373
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0720
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1997-03-19T00:00Z
+     Date Removed             : 2001-05-08T09:45Z
+     Additional Information   : TRIMBLE 24490-00 Prod
+                              : An incorrect Marker-> ARP Up Ecc
+                              : antenna height 000.0640 instead
+                              : of true 000.0720 was given.
+                              : Corrected on July 2, 2007.
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220174214
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0690
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-05-08T09:45Z
+     Date Removed             : 2002-07-02T08:09Z
+     Additional Information   : 000.0610
+                              : An incorrect Marker-> ARP Up Ecc
+                              : antenna height 000.0610 instead
+                              : of true 000.0690 was given.
+                              : Corrected on July 2, 2007.
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220181795
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0690
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2002-07-02T09:55Z
+     Date Removed             : 2007-06-27T10:59Z
+     Additional Information   : Antenna calibrated absolute
+                              : by Geo++ GmbH Garbsen 2002-06-17.
+                              : An incorrect Marker-> ARP Up Ecc
+                              : antenna height 000.0610 instead
+                              : of true 000.0690 was given.
+                              : Corrected on July 2, 2007.
+
+4.4  Antenna Type             : TRM55971.00     TZGD
+     Serial Number            : 30260441
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0660
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TZGD
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-06-27T11:00Z
+     Date Removed             : 2013-06-28T09:00Z
+     Additional Information   : (multiple lines)
+
+4.5  Antenna Type             : TRM57971.00     TZGD
+     Serial Number            : 1441043065
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0660
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TZGD
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2013-06-28T10:10Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1997-03-19/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MP410-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 
+       Data Sampling Interval : 900 s
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : -2.8 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1997-03-19/CCYY-MM-DD
+       Notes                  : Humidity Sensor is
+                              : 2.8 m above the antenna
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : APS 9215
+       Manufacturer           : L-TEC LEIBENGUTH
+       Serial Number          : 
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1997-03-19/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MP410-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.3 deg C
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : -2.8 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1997-03-19/CCYY-MM-DD
+       Notes                  : Temperature Sensor is
+                              : is 2.8 m above the antenna
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Hessisches Landesamt fuer
+                              : Bodenmanagement und Geoinformation
+                              : Geodaetischer Raumbezug
+     Preferred Abbreviation   : HLBG
+     Mailing Address          : Schaperstrasse 16
+                              : D-65195 Wiesbaden
+                              : Germany
+     Primary Contact
+       Contact Name           : Michael Walker
+       Telephone (primary)    : ++49-611-5355561
+       Telephone (secondary)  : ++49-160-7410161
+       Fax                    : ++49-611-327605060
+       E-mail                 : michael.walker@hvbg.hessen.de
+     Secondary Contact
+       Contact Name           : Bernd Padberg
+       Telephone (primary)    : ++49-611-5355465
+       Telephone (secondary)  : ++49-160-7410147
+       Fax                    : ++49-611-327605060
+       E-mail                 : bernd.padberg@hvbg.hessen.de
+     Additional Information   : Theodor Mueller
+                              : Phone primary ++49-611-5355472
+                              : theodor.mueller@hvbg.hessen.de
+                              : Darcy Boettner
+                              : Phone primary ++49-611-5355475
+                              : Phone secondary ++49-175-1862636
+                              : Fax ++49-611-5355309
+                              : darcy.boettner@hvbg.hessen.de
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+                              : Sackenrieder Strasse 25
+                              : D-93444 Bad Koetzting, Germany
+     Primary Contact
+       Contact Name           : Dr. Reiner Dassing
+       Telephone (primary)    : ++49-9941-603112
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : reiner.dassing@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Additional Information   : Klaus Roettcher
+                              : ++49-9941-603115
+                              : klaus.roettcher@bkg.bund.de
+                              : Rudolf Stoeger
+                              : ++49-9941-603117
+                              : rudolf.stoeger@bkg.bund.de
+
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : www.bkg.bund.de, www.fs.wettzell.de
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM22020.00+GP
+>From 1997-03-19 until 2001-05-08
+with TRIMBLE 24490-00 Prod Assy Ext Dome
+
+
+                       ----+----                          <-- 0.0751 L1
+                    /      +      \                       <-- 0.0692 L2
+++----------------+-----------------+-----------------++  <-- 0.0591 TGP
+++---------------+-------------------+----------------++  <-- 0.0556 BGP
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <-- 0.0 ARP=BPA
+
+ <--                     0.467                      -->           NOTCHES
+<--                      0.483                       -->          EDGE
+
+
+TRM29659.00
+>From 2001-05-08 until 2007-06-27
+
+                         -----
+                     /     +     \                        <-- 0.128 L2
+                    |      +      |                       <-- 0.110 L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+TRM55971.00
+>From 2007-06-27
+ Until 2013-06-28
+
+    / ----------------------+--------------------- \   <-- 0.0850 L1
+   +                        +                       +  <-- 0.0701 L2
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <-- 0.0 ARP=BAM
+
+   <--                   0.3396                  -->
+
+
+TRM57971.00
+>From 2013-06-28
+
+    / ----------------------+--------------------- \   <-- 0.0850 L1
+   +                        +                       +  <-- 0.0701 L2
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <-- 0.0 ARP=BAM
+
+   <--                   0.3396                  -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+TOP: Top of Pole                       BAM: Bottom of antenna mount

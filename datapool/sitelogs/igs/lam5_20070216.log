@@ -1,0 +1,305 @@
+     LAM5 Site Information Form
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Pawel Wielgosz
+     Date Prepared            : 2007-02-16
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Lamkowko
+     Four Character ID        : LAM5
+     Monument Inscription     : LAM5    
+     IERS DOMES Number        :
+     CDP Number               : (A4)
+     Monument Description     : PILLAR/CONCRETE
+       Height of the Monument : 1.500
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 2.600
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1992-03-31
+     Geologic Characteristic  : SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 0 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : BKG's Ntrip Broadcaster
+
+
+2.   Site Location Information
+
+     City or Town             : Olsztyn
+     State or Province        : Warmia and Mazury
+     Country                  : Poland
+     Tectonic Plate           : Eurasian Plate
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3524621.37
+       Y coordinate (m)       : 1329775.47
+       Z coordinate (m)       : 5129771.16
+       Latitude (N is +)      : +535328.05
+       Longitude (E is +)     : +0204014.08
+       Elevation (m,ellips.)  : 00197.7
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP01572
+     Firmware Version         : 6J00
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2001-05-15T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines) 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AERAT2775_42    NONE
+     Serial Number            : 6278   
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 40 m
+     Date Installed           : 2001-05-15T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : AeroAntenna Geodetic L1/L2
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : LAMA
+     Tied Marker Usage        : CONTROL, IGS&EPN ref. station
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : 12209M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -98.290
+       dy (m)                 : -81.945
+       dz (m)                 : +75.120
+     Accuracy (mm)            : 1
+     Survey method            : GPS CAMPAIGN/TRIANGULATION
+     Date Measured            : 2000-06-16
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : 2001-05-15/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : none
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : none
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : none
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : none
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DDThh:mmZ)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : UNIVERSITY OF WARMIA AND MAZURY IN OLSZTYN
+     Preferred Abbreviation   : UWM
+     Mailing Address          : INSTITUTE OF GEODESY
+                              : 1 Oczapowski Street
+                              : 10-957 OLSZTYN
+                              : POLAND
+     Primary Contact
+       Contact Name           : Lubomir W. Baran
+       Telephone (primary)    : +48 895233279
+       Telephone (secondary)  : 
+       Fax                    : +48 895234768 
+       E-mail                 : baran@uwm.edu.pl
+     Secondary Contact        :
+       Contact Name           : Jacek Kapcia
+       Telephone (primary)    : +48 895141684
+       Telephone (secondary)  : 
+       Fax                    : +48 895141685
+       E-mail                 : lamk@uwm.edu.pl
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : 
+     Secondary Data Center    : 
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : 
+       Monument Description   : (Y or URL)
+       Site Pictures          : 
+     Additional Information   : http://www.ngs.noaa.gov/cgi-bin/
+                                query_cal_antennas.prl?Model=
+                                AER&Antenna=AERAT2775_42
+     Antenna Graphics with Dimensions
+
+AERAT2775_42
+                     _____________
+                    /      +      \                       <--  0.0672 L2 
+                +---       +       ---+                   <--  0.0656 L1
+--------------------------------------------------------  
+|                                                      |
+|                                                      |
++------------------------+---+-------------------------+ 
+                         +---+                            <--  0.0000 BPA=ARP
+
+<--                      0.1778                      -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   BPA: Bottom of Preamplifier
+
+

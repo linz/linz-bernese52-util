@@ -1,0 +1,434 @@
+     International GPS Service
+     KSTU Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Markus Ramatschi and Andrey M. Aleshechkin 
+     Date Prepared            : 2003-06-12
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : kstu_20010214.log
+      Modified/Added Sections : 1, 3.4, 4.1, 4.2, 4.3, 4.4, 11
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Kransnoyarsk
+     Four Character ID        : kstu
+     Monument Inscription     : Pillar on bedrock
+     IERS DOMES Number        : 12349M002
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 1.2m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : (m)
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1996-10-22
+     Geologic Characteristic  : CLAY and SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+2.   Site Location Information
+
+     City or Town             : Krasnoyarsk
+     State or Province        : Krasnoyarsk region
+     Country                  : Russia
+     Tectonic Plate           : Eurasian
+     Approximate Position (ITRF)
+       X coordinate (m)       : -174281.68
+       Y coordinate (m)       : 3571333.04
+       Z coordinate (m)       : 5264196.05
+       Latitude (N is +)      : +555924.00
+       Longitude (E is +)     : +0924724.00
+       Elevation (m,ellips.)  : 210
+     Additional Information   : (multiple lines)
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : 269
+     Firmware Version         : 3.2
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1996-10-22
+     Date Removed             : 1998-07-24
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : 280
+     Firmware Version         : 3.2
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1998-07-25
+     Date Removed             : 1999-11-22
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : 
+
+3.3  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : 278
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-01-14
+     Date Removed             : 2000-08-02
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : 
+
+3.4  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : 291-U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 4.0
+     Date Installed           : 2001-01-26
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : AOAD/M_T
+     Serial Number            : 302
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.046
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1996-10-22
+     Date Removed             : 1999-04-23T04:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T
+     Serial Number            : 333
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.046
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-04-23T05:00Z
+     Date Removed             : 1999-11-22
+     Additional Information   : 
+
+4.3  Antenna Type             : AOAD/M_T
+     Serial Number            : 362
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.046
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-01-14
+     Date Removed             : 2000-08-02
+     Additional Information   : 
+
+4.4  Antenna Type             : AOAD/M_T
+     Serial Number            : 302-U
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.046
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2001-01-26
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : (1998-03-22/1999-11-04)
+       Notes                  : Data recording will be continued after
+
+7.2  Instrumentation Type     : GLONASS
+       Status                 : MOBILE
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.1  Humidity Sensor Model  : not available
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy (% rel h)     : 
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : not available
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Height Diff to Ant     : 
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : not available
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : not available
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : 
+       Height Diff to Ant     : 
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : 
+
+8.5.x  Other Instrumentation  : 
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Krasnoyarsk State Technical University
+     Preferred Abbreviation   : KSTU
+     Mailing Address          : Krasnoyarsk-74, Kirensky 26, 660074
+     Primary Contact
+       Contact Name           : Assist. Prof. Andrey M. Aleshechkin 
+       Telephone (primary)    : (007) 3912 497170
+
+       Telephone (secondary)  : 
+       Fax                    : (007) 3912 497170
+       E-mail                 : alesh@rtf.kgtu.runnet.su
+     Secondary Contact
+       Contact Name           : Prof Vladimir I. Kokorin
+       Telephone (primary)    : (007) 3912 49 71 71
+       Telephone (secondary)  : (007) 3912 49 74 72
+       Fax                    : (007) 3912 43 06 92
+       E-mail                 : chmyh@ns.kgtu.runnet.ru
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : GFZ Potsdam
+     Preferred Abbreviation   : GFZ
+     Mailing Address          : Telgrafenberg A17 D-14473 Potsdam - Germany
+     Primary Contact
+       Contact Name           : Dr. Markus Ramatschi
+       Telephone (primary)    : +49-331-288-1746
+       Telephone (secondary)  : 
+       Fax                    : +49-331-288-1747
+       E-mail                 : maram@gfz-potsdam.de
+     Secondary Contact
+       Contact Name           : Thomas Nischan
+       Telephone (primary)    : +49-331-288-1756
+       Telephone (secondary)  : 
+       Fax                    : +49-331-288-1111
+       E-mail                 : nisn@gfz-potsdam.de
+     Additional Information   : (multiple lines)
+
+13.  More Information
+
+     URL for More Information : www.gfz-potsdam.de/pb1/igs/igs_stat/kstu.htm
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+
+
+             TurboRogue: DORNE MARGOLIN T
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+
+                    |      +      |                       <--  0.110  L1
+
+  +--------------------------------------------------+    <--  0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000 ARP
+
+
+   ARP: Antenna Reference Point
+   BCR: Bottom of Chokering
+   TCR: Top of Chokering
+   L1 : L1 Phase Center
+   L2 : L2 Phase Center
+
+
+
+

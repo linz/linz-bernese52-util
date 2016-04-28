@@ -1,0 +1,418 @@
+
+     BJFS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Qu Feng
+     Date Prepared            : 2016-03-26
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : bjfs_20151126.log
+      Modified/Added Sections : 3.5
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Beijing Fangshan / China
+     Four Character ID        : BJFS
+     Monument Inscription     : Pillar 2
+     IERS DOMES Number        : 21601M001
+     CDP Number               : 
+     Monument Description     : Steel Mark on Concrete Pillar
+       Height of the Monument : 0.3 m
+       Monument Foundation    : Concrete
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1995-09-20T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 11-50 cm
+       Fault zones nearby     : No
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Fangshan
+     State or Province        : Beijing
+     Country                  : China
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2148743.808
+       Y coordinate (m)       : 4426641.281
+       Z coordinate (m)       : 4044655.993
+       Latitude (N is +)      : +393631.05
+       Longitude (E is +)     : +1155332.86
+       Elevation (m,ellips.)  : 87.413
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP3332
+     Firmware Version         : CD00-1D02
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1995-09-20T00:00Z
+     Date Removed             : 2010-05-13T00:00Z
+     Temperature Stabiliz.    : 2.0
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4922K35365
+     Firmware Version         : 4.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-05-22T00:00Z
+     Date Removed             : 2010-08-06T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4922K35365
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-08-06T00:00Z
+     Date Removed             : 2015-11-26T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5413K48204
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-11-26T00:00Z
+     Date Removed             : 2016-03-26T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4922K35365
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2016-03-26T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936B_M    SNOW
+     Serial Number            : 1126
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0460
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 700936(1)
+     Antenna Cable Type       : RG-8
+     Antenna Cable Length     : 45 m
+     Date Installed           : 1995-09-20T00:00Z
+     Date Removed             : 2010-05-13T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM59800.00     SCIS
+     Serial Number            : 4921353141
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0465
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-05-22T00:00Z
+     Date Removed             : 2015-11-26T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM59900.00     SCIS
+     Serial Number            : 5317361110
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0465
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2015-11-26T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Beijing SLR
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7249
+     Tied Marker DOMES Number : 21601S004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -16.517
+       dy (m)                 : 118.317
+       dz (m)                 : -146.279
+     Accuracy (mm)            : 3.0 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2003-06-20T07:11Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2015-11-26/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR Beijing 7249
+       Status                 : PERMANENT
+       Effective Dates        : 1994-01-01/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : Humidity Temperature Transmitter HMP 230
+       Manufacturer           : VAISALA
+       Serial Number          : P2240005
+       Data Sampling Interval : 900 sec
+       Accuracy (% rel h)     : 1.0
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.3 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-09-20/2010-05-13
+       Notes                  : 
+
+8.1.2  Humidity Sensor Model  : WUSH-PTU
+       Manufacturer           : 
+       Serial Number          : PQY9.008
+       Data Sampling Interval : 30 sec
+       Accuracy (% rel h)     : 1.0
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.3 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2010-05-22/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : WUSH-PTU
+       Manufacturer           : 
+       Serial Number          : PQY9.008
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -5.7 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2010-05-22/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : WUSH-PTU
+       Manufacturer           : 
+       Serial Number          : PQY9.008
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.3 m
+       Calibration date       : 
+       Effective Dates        : 2010-05-22/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Chinese Academy of Surveying & Mapping
+     Preferred Abbreviation   : CASM
+     Mailing Address          : 16 Beitaiping Rd.
+                              : 100039 Beijing, China
+     Primary Contact
+       Contact Name           : Qu Feng
+       Telephone (primary)    : 86-10-88217725
+       Telephone (secondary)  : 86-10-61311374
+       Fax                    : 86-10-88217725
+       E-mail                 : qufeng@casm.ac.cn
+     Secondary Contact
+       Contact Name           : Li Qian
+       Telephone (primary)    : 86-10-61311374
+       Telephone (secondary)  : 86-10-88217725
+       Fax                    : 86-10-88217725
+       E-mail                 : liqian@casm.ac.cn
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : China Geo-informatics Center
+     Preferred Abbreviation   : NGCC
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : Wu Junli
+       Telephone (primary)    : 86-10-68730901
+       Telephone (secondary)  : 86-10-68460691
+       Fax                    : 86-10-68424101
+       E-mail                 : jlwu@nsdi.gov.cn
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : NGCC
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TRM59800.80
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+

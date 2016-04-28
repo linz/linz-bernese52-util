@@ -1,0 +1,459 @@
+     BSCN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : RGP Team
+     Date Prepared            : 2016-02-23
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : bscn_20150717.log
+      Modified/Added Sections : 0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9,
+                              : 3.10, 3.11, 3.12, 3.13, 3.14
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Besan?on
+     Four Character ID        : BSCN
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 10028M007
+     CDP Number               : NONE
+     Monument Description     : INOX TRIANGULAR PLATE ON TOP OF AN INOX MAST
+       Height of the Monument : 2.5 m
+       Monument Foundation    : CONCRETE WALL
+       Foundation Depth       : (m)
+     Marker Description       : TOP AND CENTRE OF THE INOX TRIANGULAR PLATE
+     Date Installed           : 2001-10-16T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Antenna is sited on a 2.5 meters mast attached
+                              : to the west wall of the observatory laboratory
+                              : building observatory laboratory.
+
+
+2.   Site Location Information
+
+     City or Town             : Besan?on
+     State or Province        : Doubs (25)
+     Country                  : France
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4314139.0
+       Y coordinate (m)       : 452626.0
+       Z coordinate (m)       : 4660703.0
+       Latitude (N is +)      : +471448.77
+       Longitude (E is +)     : +0055921.78
+       Elevation (m,ellips.)  :   359.5
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA RS500
+     Satellite System         : GPS
+     Serial Number            : 80042
+     Firmware Version         : 1.39
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-10-16
+     Date Removed             : 2007-03-26
+     Temperature Stabiliz.    : none
+     Additional Information   : Receiver failure
+
+3.2  Receiver Type            : LEICA RS500
+     Satellite System         : GPS
+     Serial Number            : 80049
+     Firmware Version         : 5.00/1.39
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2007-03-26
+     Date Removed             : 2009-01-14
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 462575
+     Firmware Version         : 5.62
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2009-01-14
+     Date Removed             : 2009-05-11
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 462575
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2009-05-11
+     Date Removed             : 2010-10-13T11:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 462575
+     Firmware Version         : 8.01
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2010-10-13T11:00Z
+     Date Removed             : 2011-03-23T09:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 462575
+     Firmware Version         : 8.10
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-03-23T09:00Z
+     Date Removed             : 2011-06-14T07:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 462575
+     Firmware Version         : 8.20
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-06-14T07:00Z
+     Date Removed             : 2012-11-12T01:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1830189
+     Firmware Version         : 2.62
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-11-12T01:00Z
+     Date Removed             : 2013-06-06T12:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1830189
+     Firmware Version         : 3.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-06-06T12:00Z
+     Date Removed             : 2013-10-11T08:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1830189
+     Firmware Version         : 3.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-10-11T08:00Z
+     Date Removed             : 2014-02-20T09:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1830189
+     Firmware Version         : 3.03
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-02-20T09:00Z
+     Date Removed             : 2014-09-19T12:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.12 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 1830189
+     Firmware Version         : 3.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-09-19T12:00Z
+     Date Removed             : 2014-11-06T10:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.13 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 1830189
+     Firmware Version         : 3.11
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-11-06T10:00Z
+     Date Removed             : 2015-07-17T15:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.14 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 1830189
+     Firmware Version         : 3.11
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-17T15:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : pseudorange smoothing disabled
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 635
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : LEICA type no 10632390
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-10-16
+     Date Removed             : 2009-01-14
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : LEIAT504GG      LEIS
+     Serial Number            : 735
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : LEICA type no 10632390
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2009-01-14
+     Date Removed             : 2012-11-12T01:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 1441023017
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LEICA type no 10632390
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2012-11-12T01:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2001-10-17/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : TIME
+       Status                 : PERMANENT
+       Effective Dates        : 2001-10-16/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : METAL ROOF
+       Effective Dates        : 2001-10-16/CCYY-MM-DD
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : TREES
+       Effective Dates        : 2001-10-16/CCYY-MM-DD
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Observatoire de Besan?on
+     Preferred Abbreviation   : NONE
+     Mailing Address          : Universit? de Franche-Comt?
+                              : Observatoire de Besan?on
+                              : Laboratoire Temps-Fr?quence-Chronom?trie
+                              : 41 bis Avenue de l'Observatoire
+                              : BP 1615 - 25010 BESANCON CEDEX FRANCE
+     Primary Contact
+       Contact Name           : Fran?ois Meyer
+       Telephone (primary)    : 00 33 (0)3 81 66 69 27
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)3 81 66 69 44
+       E-mail                 : fmeyer@obs-besancon.fr
+     Secondary Contact
+       Contact Name           : Nicolas Gautherot
+       Telephone (primary)    : 00 33 (0)3 81 66 69 10
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)3 81 66 69 44
+       E-mail                 : nicolas.gautherot@obs-besancon.fr
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Institut National de l'Information Geographique
+                              : et Forestiere
+     Preferred Abbreviation   : IGN-SGN
+     Mailing Address          : 73 avenue de Paris
+                              : 94165 Saint-Mand? CEDEX France
+     Primary Contact
+       Contact Name           : RGP Team
+       Telephone (primary)    : 00 33 (0)1 43 98 83 39
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 43 98 84 50
+       E-mail                 : rgpadmin@ign.fr
+     Secondary Contact
+       Contact Name           : Thierry Duquesnoy
+       Telephone (primary)    : 0033(0)143988327
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 43 98 84 50
+       E-mail                 : thierry.duquesnoy@ign.fr
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : IGNE
+     Secondary Data Center    : BKG
+     URL for More Information : http://rgp.ign.fr/Sites/bscn.htm
+     Hardcopy on File
+       Site Map               : http://rgp.ign.fr/Sites/bscn.htm
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : http://rgp.ign.fr/Sites/bscn.htm
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM57971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----+-----/                        <--  0.0000  BAM=ARP

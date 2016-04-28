@@ -1,0 +1,450 @@
+
+     RAMO Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Einat Salmon (Survey of Israel)
+     Date Prepared            : 2015-10-26
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ramo_20150414.log
+      Modified/Added Sections : 3.10
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Mitzpe Ramon
+     Four Character ID        : RAMO
+     Monument Inscription     : 
+     IERS DOMES Number        : 20703S001
+     CDP Number               : 
+     Monument Description     : BRASS NAIL
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1998-06-10T14:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Mitzpe Ramon
+     State or Province        : Israel
+     Country                  : Israel
+     Tectonic Plate           : AFRICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4514719.1
+       Y coordinate (m)       : 3133506.0
+       Z coordinate (m)       : 3228042.6
+       Latitude (N is +)      : +303552.08
+       Longitude (E is +)     : +0344547.16
+       Elevation (m,ellips.)  : 893.1
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03223
+     Firmware Version         : 1F50-1D02
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1998-06-10T00:00Z
+     Date Removed             : 1999-08-23T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03539
+     Firmware Version         : CD00-1D02
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-08-23T00:00Z
+     Date Removed             : 1999-09-23T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03223
+     Firmware Version         : CD00-1D02
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-09-23T00:00Z
+     Date Removed             : 2003-02-16T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03223
+     Firmware Version         : CD00-1D02
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-02-16T00:00Z
+     Date Removed             : 2007-02-16T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA RS500
+     Satellite System         : GPS
+     Serial Number            : 82241
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-02-16T00:00Z
+     Date Removed             : 2011-05-04T11:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00686
+     Firmware Version         : 3.2.5
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-05-04T12:00Z
+     Date Removed             : 2013-04-09T08:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00686
+     Firmware Version         : 3.4.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-04-09T08:00Z
+     Date Removed             : 2014-06-23T08:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 00686
+     Firmware Version         : 3.6.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-06-23T08:00Z
+     Date Removed             : 2015-01-26T14:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 00686
+     Firmware Version         : 3.6.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-01-26T14:00Z
+     Date Removed             : 2015-04-12T11:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.10 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00686
+     Firmware Version         : 3.6.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-04-12T11:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936D_M    SNOW
+     Serial Number            : CR15925
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1998-06-10T00:00Z
+     Date Removed             : 2000-07-17T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : ASH701945B_M    SNOW
+     Serial Number            : CR519992901
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2000-07-17T00:00Z
+     Date Removed             : 2004-03-15T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : ASH701945B_M    SNOW
+     Serial Number            : CR20014604
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0030
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2004-03-18T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : RAMO
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : GPS
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1998-06-10/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MET3
+       Manufacturer           : Parosicientific
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-07-18/CCYY-MM-DD
+       Notes                  : Serial number is 57382
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : MET3
+       Manufacturer           : Parosicientific
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-07-18/CCYY-MM-DD
+       Notes                  : Serial number is 57382
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MET3
+       Manufacturer           : Parosicientific
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 0.5 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 0 m
+       Calibration date       : 
+       Effective Dates        : 2000-07-18/CCYY-MM-DD
+       Notes                  : Serial number is 57382
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Survey of Israel
+     Preferred Abbreviation   : SOI
+     Mailing Address          : 1 Lincoln St.
+                              : Tel-Aviv, 65220
+                              : Israel
+     Primary Contact
+       Contact Name           : Moshe Rozenbloom
+       Telephone (primary)    : +972-3-623-1975
+       Telephone (secondary)  : +972-56221437
+       Fax                    : 1815
+       E-mail                 : rozenblm@mapi.gov.il
+     Secondary Contact
+       Contact Name           : Hagi Ronen
+       Telephone (primary)    : +972-3-623-1911
+       Telephone (secondary)  : +972-506225471
+       Fax                    : +972-3-6231815
+       E-mail                 : sade_mapi@int.gov.il
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : GSM Navigation&survey
+     Preferred Abbreviation   : GSM
+     Mailing Address          : 19 Hadror St
+                              : Ramat-Hasharon
+                              : Israel
+     Primary Contact
+       Contact Name           : Shmuel Grossman
+       Telephone (primary)    : +972-3-547-4022
+       Telephone (secondary)  : +972-505267903
+       Fax                    : +972-3-547-4021
+       E-mail                 : gsmsam@netvision.net.il
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : IGN
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
++-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0 BPA=ARP
+

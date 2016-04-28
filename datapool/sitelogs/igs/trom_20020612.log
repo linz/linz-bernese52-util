@@ -1,0 +1,518 @@
+     TROM Site Information Form
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Svein Rekkedal
+     Date Prepared            : 2002-06-12
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : trom9911.log
+      Modified/Added Sections : 1, 2, 3.1, 3.2, 3.3, 3.4, 4.1, 4.2,
+                              : 4.3, 4.4, 5.1, 5.2, 11, 12, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Tromsoe
+     Four Character ID        : TROM
+     Monument Inscription     : None
+     IERS DOMES Number        : 10302M003
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 3
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 0
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1990-01-01
+     Geologic Characteristic  : NOT WELL KNOWN
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+                              : Due to the lack of geologic knowledge, a
+                              : new GPS Monument has been made, TRO1.
+                              : Sedimentary bedrock.
+
+
+2.   Site Location Information
+
+     City or Town             : Tromsoe
+     State or Province        : 
+     Country                  : Norway
+     Tectonic Plate           : Eurasian
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2102940
+       Y coordinate (m)       : 721569
+       Z coordinate (m)       : 5958192
+       Latitude (N is +)      : +693949.90
+       Longitude (E is +)     : +0185617.95
+       Elevation (m,ellips.)  : 00132.0
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8
+     Satellite System         : GPS
+     Serial Number            : R107/011/026
+     Firmware Version         : Conan Release 4 4/12/94
+     Elevation Cutoff Setting : 4
+     Date Installed           : 1990-01-01
+     Date Removed             : 1997-01-01
+     Temperature Stabiliz.    : none
+     Additional Information   : Receiver repaired between Jan 97 and Jan 98
+                              : exact dates in Jan 1990, Jan 1997 not known
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 115
+     Firmware Version         : TurboRogue GPS Receiver Host Software
+     Elevation Cutoff Setting : 4
+     Date Installed           : 1997-07-15
+     Date Removed             : 1998-01-05
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8
+     Satellite System         : GPS
+     Serial Number            : R107/011/026
+     Firmware Version         : Conan Release 4 4/12/94
+     Elevation Cutoff Setting : 4
+     Date Installed           : 1998-01-05
+     Date Removed             : 1998-12-23
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 131
+     Firmware Version         : TurboRogue GPS Receiver Host Software
+     Elevation Cutoff Setting : 4
+     Date Installed           : 1998-12-23T11:11Z
+     Date Removed             : 1999-08-18T10:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 2019
+     Firmware Version         : 3.3.32.2
+     Elevation Cutoff Setting : 1.0
+     Date Installed           : 1999-08-18T10:20Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_B        NONE
+     Serial Number            : R107
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 002.4734
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1990-01-01
+     Date Removed             : 1997-01-01
+     Additional Information   : Antenna was repaired between Jan-97 and Jan-98
+                              : exact dates in Jan 1990, Jan 1997 not known
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : T103
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 002.3686
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1997-07-15
+     Date Removed             : 1998-01-05
+     Additional Information   : 
+
+4.3  Antenna Type             : AOAD/M_B        NONE
+     Serial Number            : R107
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 002.4750
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-01-05
+     Date Removed             : 1998-12-22
+     Additional Information   : 
+
+4.4  Antenna Type             : AOAD/M_B        NONE
+     Serial Number            : 114
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 002.4750
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-12-22
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : VLBI
+     Tied Marker Usage        : VLBI/LOCAL CONTROL/FOOTPRINT
+     Tied Marker CDP Number   : 7602
+     Tied Marker DOMES Number : 10302M002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -36.2865
+       dy (m)                 : +33.1166
+       dz (m)                 : +9.2222
+     Accuracy (mm)            : 1
+     Survey method            : TRILATERATION/TRIANGULATION
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : measured 1989, 1990, 1997
+
+5.2  Tied Marker Name         : PRARE
+     Tied Marker Usage        : Prare observations
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -6.476
+       dy (m)                 : +44.272
+       dz (m)                 : +3.039
+     Accuracy (mm)            : 15
+     Survey method            : TRILATERATION/TRIANGULATION
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 1993, 1997
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 
+       Effective Dates        : 1993-01-01/CCYY-MM-DD
+       Notes                  : FRK, No. 1
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : PRARE
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : 1995-11-01/1997-05-01
+       Notes                  : exact dates in Nov 1995, May 1997 not known.
+                              : Removed.       
+
+7.2  Instrumentation Type     : SATREF
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : 1995-07-01/CCYY-MM-DD
+       Notes                  : This system samples every second and is used
+                              : for DGPS.
+                              : Active.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Nordlysobservatoriet
+     Preferred Abbreviation   : NO
+     Mailing Address          : Universitetet i Tromsoe
+                              : 9037 TROMSOE
+                              : NORWAY
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geodetic Institute
+                              : Norwegian Mapping Authority
+     Preferred Abbreviation   : Kartverket
+     Mailing Address          : N-3500 Honefoss
+                              : Norway
+     Primary Contact
+       Contact Name           : RUNE I. HANSSEN
+       Telephone (primary)    : +47-321 18 249
+       Telephone (secondary)  : 
+       Fax                    : +47-321 18 101
+       E-mail                 : rune.hanssen@statkart.no
+     Secondary Contact
+       Contact Name           : Svein Rekkedal
+       Telephone (primary)    : +47 321 18 346
+       Telephone (secondary)  : 
+       Fax                    : +47 321 18 101
+       E-mail                 : svein.rekkedal@statkart.no
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : 
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+AOAD/M_B  (Allen Osborne Design)
+
+                         -----
+                     /     +     \                        <-- 0.096 L2
+                    |      +      |                       <-- 0.078 L1
+  +-----------------+-------------+------------------+    <-- 0.070 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  +-----------------+------x------+------------------+    <-- 0.000 ARP
+                    |             |
+                    +-------------+                       <-- -0.011
+                          ||  ||
+
+  <--                    0.351                     -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+AOAD/M_T
+
+                         -----
+                     /     +     \                        <-- 0.128 L2
+                    |      +      |                       <-- 0.110 L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.000 ARP
+
+<--                      0.381                       -->
+
+
+MONUMENT DESCRIPTIONS
+
+Marked on Site Sketch as:     Description:
+
+I                             National Triangulation Station O06T0142 -
+                              brass bolt with scribed cross on top of 
+                              concrete astro pillar - pillar is inside
+                              a hut with removable roof.
+
+(TROM)                        Brass bolt set in bedrock under antenna
+10302M003                     pillar, accessible for centering, bolt 
+                              has a center punch mark WHICH IS 
+                              ECCENTRIC ON THE TOP OF THE BOLT.
+
+VLBI                          Brass bolt with center punch mark set in
+10302M002                     circular concrete pedestal on mobile VLBI
+                              foundations. Pedestal is covered by a cast
+                              iron cover approximately 50 cm diameter.
+
+PRARE                         Centre of top plate to PRARE antenna pillar
+                              (constructed of reinforced concrete) inside
+                              radome.
+
+C1                            Witness Mark #1 - Brass bolt with center punch
+                              mark set in bedrock.
+
+C2                            Witness Mark #2 - Brass bolt with center punch
+                              mark set in bedrock.
+
+C3                            Witness Mark #3 - Brass bolt with center punch
+                              mark set in bedrock.
+
+C4                            Witness Mark #4 - Brass bolt with center punch
+                              mark set in bedrock.
+
+C5                            Witness Mark #5 - Brass bolt with center punch
+                              mark set in bedrock.
+
+10302M006                     Steel tower fixed to a reinforced concrete
+(TRO1)                        block blasted into solid bedrock. The point 
+                              is defined as the top center of the hole in 
+                              the horizontal top plate, through which a 
+                              special machined 5/8 UNC screw can be put 
+                              to fix an antenna or other geodetic 
+                              instrument.
+
+SATREF                        Steel tower fixed to a reinforced concrete
+                              block blasted into solid bedrock. The point 
+                              is defined by a brass bolt with center punch 
+                              mark set in center of the concrete block.
+
+Sketch of Tromsoe site:
+
+                                      ____________
+N    C4 o                            |            |
+^                                C5 o|            |
+|           10302M003                |            |
+|         (TROM) x                   |      VLBI  |
+|                                    |         x 10302M002         o C1
+                                     |____     ___|
+                                          |   |  o C2
+                            10302M006     |   |  o
+                            _________x (TRO1) |
+                        ___|         |    |   |
+                       |             |        |
+                PRARE  | x           |        |
+                       |___          |    |   |
+                           |_________|    |   |
+         C3 o                 SATREF x    |   |
+                                          |   |
+                                          |   |
+
+                                  o

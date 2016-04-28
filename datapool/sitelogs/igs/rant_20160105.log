@@ -1,0 +1,413 @@
+     RANT Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Matthias Groeschel
+     Date Prepared            : 2016-01-05
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : rant_20150518.log
+      Modified/Added Sections : 0, 3.1
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Rantum / Island Sylt
+     Four Character ID        : RANT
+     Monument Inscription     : 
+     IERS DOMES Number        : 10914M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : 1.3 m
+       Monument Foundation    : Steelpipe with heat protection
+       Foundation Depth       : (m)
+     Marker Description       : SURVEY MARKER BOLT ON THE STEEL MAST
+     Date Installed           : 2014-05-11
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Survey Marker Bolt on a pillar.
+                              : Antenna mounted with a special screw
+                              : adapter on a rivet thread of a circular
+                              : tube of steel, mounted on a concrete foundation
+                              : placed on the ground at the station
+                              : of the Wasser- und Schifffahrtsamt
+                              : Toenning, branch Rantum/Sylt.
+
+
+2.   Site Location Information
+
+     City or Town             : Rantum / Island Sylt
+     State or Province        : Schleswig-Holstein
+     Country                  : Germany
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3645376.755
+       Y coordinate (m)       : 531201.705
+       Z coordinate (m)       : 5189296.705
+       Latitude (N is +)      : +544837.97
+       Longitude (E is +)     : +0081726.81
+       Elevation (m,ellips.)  :    46.8
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 01584
+     Firmware Version         : 3.5.5 MAR,03,2014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-05-09T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Board Id
+                              : 013Q3O2YY9H5P3A3L1JCLJSUDR
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 725552
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : AIRCOM+
+     Antenna Cable Length     : 5 m
+     Date Installed           : 2014-05-09T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna calibrated absolute
+                              : by Geo++ GmbH, Garbsen 2013-01-17.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2005-07-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : WXTPTU
+       Manufacturer           : Vaisala
+       Serial Number          : J0130011
+       Data Sampling Interval : 10 s
+       Accuracy (% rel h)     : 3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 0.3 m
+       Calibration date       : 2013-01-10
+       Effective Dates        : 2014-05-09/CCYY-MM-DD
+       Notes                  : Vaisala WXT520 (heated) SN: J0240001
+                              : Humidity Sensor is 1 m under the antenna
+                              : capacitive thin film polymer HUMICAP 180 sensor
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : WXTPTU
+       Manufacturer           : Vaisala
+       Serial Number          : J0130011
+       Data Sampling Interval : 10 s
+       Accuracy               : 1 hPa
+       Height Diff to Ant     : 0.44 m
+       Calibration date       : 2013-01-10
+       Effective Dates        : 2014-05-09/CCYY-MM-DD
+       Notes                  : Vaisala WXT520 (heated) SN: J0240001
+                              : Pressure Sensor is 1 m under the antenna
+                              : capacitive silicon BAROCAP sensor
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : WXTPTU
+       Manufacturer           : Vaisala
+       Serial Number          : J0130011
+       Data Sampling Interval : 10 s
+       Accuracy               : 0.3 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.3 m
+       Calibration date       : 2013-01-10
+       Effective Dates        : 2014-05-09/CCYY-MM-DD
+       Notes                  : Vaisala WXT520 (heated) SN: J0240001
+                              : Temperature Sensor is 1 m under the antenna
+                              : capacitive ceramic THERMOCAP sensor
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : Wind Azimut
+                              : Wind Sensor Model WXT520  (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J0240001
+                              : Data Sampling Interval 10 sec
+                              : Accuracy 3 deg
+                              : Height Diff to Ant 0.4 m
+                              : Test date 2013-01-10
+                              : Effective Dates 2014-05-09/CCYY-MM-DD
+                              : Notes Wind Sensor is 1 m under the antenna
+                              : Notes ultrasonic WINDCAP sensor
+
+8.5.2  Other Instrumentation  : Wind Speed
+                              : Wind Sensor Model WXT520 (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J0240001
+                              : Data Sampling Interval 10 sec
+                              : Accuracy
+                              : measurement values 0..35 m/s  0.3 m/s or 3%
+                              : measurement values 36..60 m/s  5%
+                              : Height Diff to Ant 0.4 m
+                              : Test date 2013-01-10
+                              : Effective Dates 2014-05-09/CCYY-MM-DD
+                              : Notes Wind Sensor is 1 m under the antenna
+                              : Notes ultrasonic WINDCAP sensor
+
+8.5.3  Other Instrumentation  : Rain Increment
+                              : Rain Sensor Model WXT520 (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J0240001
+                              : Data Sampling Interval 10 sec
+                              : Accuracy 5 %
+                              : Height Diff to Ant 0.4 m
+                              : Test date 2013-01-10
+                              : Effective Dates 2014-05-09/CCYY-MM-DD
+                              : Notes Rain Sensor is 1 m under the antenna
+                              : Notes piezoelectrical RAINCAP sensor
+
+8.5.4  Other Instrumentation  : Hail Indicator
+                              : Hail Sensor Model WXT520 (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J0240001
+                              : Data Sampling Interval 10 sec
+                              : Accuracy 5 %
+                              : Height Diff to Ant 0.4 m
+                              : Test date 2013-01-10
+                              : Effective Dates 2014-05-09/CCYY-MM-DD
+                              : Notes Hail Sensor is 1 m under the antenna
+                              : Notes piezoelectrical RAINCAP sensor
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Department of Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Department of Geodaesie
+                              : Richard Strauss Allee 11
+                              : D 60598 Frankfurt / M.
+                              : Germany
+     Primary Contact
+       Contact Name           : Peter Franke
+       Telephone (primary)    : (0049)-69-6333-279
+       Telephone (secondary)  : (0049)-69-6333-1
+       Fax                    : (0049)-69-6333-425
+       E-mail                 : peter.franke@bkg.bund.de
+     Secondary Contact
+       Contact Name           : see 12.
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Department of Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Branch Leipzig
+                              : Karl Rothe Str. 10-14
+                              : D 04105 Leipzig
+                              : Germany
+     Primary Contact
+       Contact Name           : Matthias Groeschel
+       Telephone (primary)    : (0049)-341-5634-432
+       Telephone (secondary)  : (0049)-341-5634-0
+       Fax                    : (0049)-341-5634-415
+       E-mail                 : matthias.groeschel@bkg.bund.de
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : www.bkg.bund.de
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : Y
+     Additional Information   : Data center Bundesamt fuer
+                              : Kartographie und
+                              : Geodaesie
+                              : Department of Geodaesie
+                              : Referat G2
+                              : Richard Strauss Allee 11
+                              : D 60598 Frankfurt / M.
+                              : Germany
+                              : http://igs.bkg.bund.de
+     Antenna Graphics with Dimensions
+
+LEIAR25.R3/LEIAR25.R4
+
+                         +-------+                        <-- 0.1995
+                        /         \
+                  +---+-------------+---+                 <-- 0.1606  TCR
+                  |                     |
+               |---------------------------|
+            |---------------------------------|
+         |---------------------------------------|
+      +---------------------------------------------+
+      |                                             |
+      |                                             |
+    +-+---------------------------------------------+-+
+    +-----------------+-------------+-----------------+   <-- 0.0320  BCR
+                      |             |
+                      |             |
+                      +------x------+                     <-- 0.0000  BPA=ARP
+
+    <--                    0.3802                   -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+TOP: Top of Pole

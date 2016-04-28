@@ -1,0 +1,579 @@
+
+     EBRE Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : David Gomez
+     Date Prepared            : 2015-11-27
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ebre_20150729.log
+      Modified/Added Sections : 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Ebre
+     Four Character ID        : EBRE
+     Monument Inscription     : 
+     IERS DOMES Number        : 13410M001
+     CDP Number               : 
+     Monument Description     : REINFORCED CONCRETE PILLAR
+       Height of the Monument : 4.2 m
+       Monument Foundation    : REINFORCED CONCRETE BLOCK AND DRILLED STEEL RODS
+       Foundation Depth       : 2 m
+     Marker Description       : stainless steel plate with 5/8' thread
+     Date Installed           : 1992-03-23T00:00Z
+     Geologic Characteristic  : CALCAREOUS CRUST AND CONGLOMERATE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Quaternary terrace, Pleistocene age.
+                              : dedicated surge protections
+                              : provided with VSAT Star Network (real-time
+                              : data flow).
+                              : The monument foundation has two parts. One is a
+                              : reinforced concrete block (1 m) and the other
+                              : are drilled steel rods (1 m).
+
+
+2.   Site Location Information
+
+     City or Town             : Roquetes
+     State or Province        : Tarragona
+     Country                  : Spain
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4833520
+       Y coordinate (m)       : 41536
+       Z coordinate (m)       : 4147461
+       Latitude (N is +)      : +404915.24
+       Longitude (E is +)     : +0002932.64
+       Elevation (m,ellips.)  : 107.9
+     Additional Information   : the site is placed in an astronomic
+                              : observatory, Observatori de l'Ebre
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 3312A02805
+     Firmware Version         : 6.01
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1994-05-23T00:00Z
+     Date Removed             : 1997-04-15T10:00Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 17999
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-04-15T10:13Z
+     Date Removed             : 2005-11-16T13:00Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 41644
+     Firmware Version         : 1.13
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-11-16T13:00Z
+     Date Removed             : 2008-05-26T14:00Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257134
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-05-26T15:00Z
+     Date Removed             : 2010-07-13T15:00Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257134
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-07-13T15:00Z
+     Date Removed             : 2013-07-19T13:00Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : Set tracking of unhealthy satellite
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257134
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-07-19T13:00Z
+     Date Removed             : 2014-09-08T07:47Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : Set tracking of unhealthy satellite
+
+3.7  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257134
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-09-08T07:47Z
+     Date Removed             : 2014-12-09T12:44Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : Set tracking of unhealthy satellite
+                              : Disabled the Everest Multipath Reduction
+                              : technology
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5201K41189
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-12-09T13:16Z
+     Date Removed             : 2015-06-25T08:02Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : Set tracking of unhealthy satellite
+                              : Disabled the Everest Multipath Reduction
+                              : technology
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5201K41189
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-06-25T08:02Z
+     Date Removed             : 2015-07-09T07:00Z
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : Set tracking of unhealthy satellite
+                              : Disabled the Everest Multipath Reduction
+                              : technology
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5201K41189
+     Firmware Version         : 5.03
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-09T07:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 22.0 +/- 2.0
+     Additional Information   : Set tracking of unhealthy satellite
+                              : Disabled the Everest Multipath Reduction
+                              : technology
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 00080026539
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0540
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG58
+     Antenna Cable Length     : 15 m
+     Date Installed           : 1994-02-04T00:00Z
+     Date Removed             : 1995-02-28T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : MPLL1/L2_SURV   NONE
+     Serial Number            : 90LL12300
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0540
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG58
+     Antenna Cable Length     : 15 m
+     Date Installed           : 1995-02-28T10:57Z
+     Date Removed             : 1997-04-15T10:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220071796
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 12 m
+     Date Installed           : 1997-04-15T10:13Z
+     Date Removed             : 2013-07-05T08:40Z
+     Additional Information   : EMP Protector-Surge Arrestor installed
+                              : between RG214 antenna cable and 1.5m pigtail
+                              : antenna cable
+                              : model: Huber Suhner 3402.17.K with capsule
+                              : 73 Z-0-0-48
+
+4.4  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220071796
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR400 + RG13
+     Antenna Cable Length     : 11.5 m
+     Date Installed           : 2013-07-05T10:20Z
+     Date Removed             : 2014-12-09T12:44Z
+     Additional Information   : EMP Protector-Surge Arrestor installed
+                              : between LMR400 antenna cable and 1.5m pigtail
+                              : antenna cable (RG13)
+                              : model: Huber Suhner 3402.17.K with capsule
+                              : 73 Z-0-0-48
+                              : The lenght of LMR400 cable is 10m (aprox) and
+                              : the lenght of RG13 cable is 1.5m (aprox)
+
+4.5  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 1440925503
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0770
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR400 + RG13
+     Antenna Cable Length     : 11.5 m
+     Date Installed           : 2014-12-09T13:14Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : EMP Protector-Surge Arrestor installed
+                              : between LMR400 antenna cable and 1.5m pigtail
+                              : antenna cable (RG13)
+                              : model: Huber Suhner 3402.17.K with capsule
+                              : 73 Z-0-0-48
+                              : The lenght of LMR400 cable is 10m (aprox) and
+                              : the lenght of RG13 cable is 1.5m (aprox)
+                              : SECO (2072-33) antenna mount
+                              : Individual absolute calibration is available in
+                              : ftp://geofons.icc.cat/calibracions_antenes/
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1994-05-23/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS/GLONASS/PRARE/SLR/VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1994-05-23/CCYY-MM-DD
+       Notes                  : digital ionosphere sounder DIGISONDE DGS-256
+                              : (Univ. Lowell, USA).
+                              : sets of seismographs for the 3 components
+                              : (NS, EW, vertical), and for short and long
+                              : period, WWSS-BENIOFF, STS-2+QUANTERRA
+                              : Q680-LV.
+                              : automatic magnetic stations ARGO (BGS),
+                              : Di-flux (ELSEC810+ZEISS010B),protons
+                              : magnetometer (ELSEC820).
+                              : equatorial telescope for sun observation,
+                              : 15cm ZEISS.
+                              : complete INM meteorological station.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Institut Cartografic i Geologic de Catalunya
+     Preferred Abbreviation   : ICGC
+     Mailing Address          : Parc de Montjuic, E-08038 Barcelona
+     Primary Contact
+       Contact Name           : David Gomez
+       Telephone (primary)    : 34-93-567 15 00
+       Telephone (secondary)  : 
+       Fax                    : 34-93-567 15 67
+       E-mail                 : david.gomez@icgc.cat
+     Secondary Contact
+       Contact Name           : Joel Grau
+       Telephone (primary)    : 34-93-567 15 00
+       Telephone (secondary)  : 
+       Fax                    : 34-93-567 15 67
+       E-mail                 : joel.grau@icgc.cat
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : http://www.icc.cat/eng/Home-ICC/Geodesy
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : other data available (i.e. hourly 1Hz) at
+                              : anonymous ftp://geofons.icc.cat/
+     Antenna Graphics with Dimensions
+
+ANTENNA CONFIGURATION ON SITE SINCE 2014-12-09:
+TRM57971.00
+
+
+   / --------------------------------------------- \   <--  0.06673  L1
+  +                                                 +  <--  0.05769  L2
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----+-----/             <--  0.0000  BAM
+    <--                 0.3396                  ->  Notches
+                     +===========+                           <--+
+                     |           |                              |
+                     |    Mount  |                             0.077 m
+                     |     +-+   |                              |
+Monument =>          +====|x|====+                           <--+  ARP
+Ref. Point +-----+---------|--------+-------+
+           |           Steel plate          |
+           |                                |
+           |                                |
+           |        Concrete pillar         |
+           |                                |
+           |                                |
+           |                                |
+
+
+
+   ARP: Antenna Reference Point
+
+ANTENNA CONFIGURATION ON SITE SINCE 15-APR-97:
+TRM29659.00
+
+
+       <--                      0.381                       -->
+                                -----
+                            /     +     \                       <-- 0.128 L2
+                           |      +      |                      <-- 0.110 L1
+         +--------------------------------------------------+   <-- 0.102 TCR
+         |                                                  |
+         |                                                  |
+         |                                                  |
+         |                                                  |
+       +-+--------------------------------------------------+-+ <-- 0.038
+       +-------------------+-------------+--------------------+ <-- 0.035 BCR
+                           |             |
+                           |             |
+                           |             |
+Monument  >      +---------+-----|x|-----+--------+             <-- 0.000 BPA
+Ref. Point +-----+--------|-----------------------+-------+
+           |              Steel plate                     |
+           |                                              |
+           |                                              |
+           |               Concrete pillar                |
+           |                                              |
+           |                                              |
+           |                                              |
+
+
+OTHER ANTENNA
+Micro Pulse L1/L2
+
+                                    ---
+                                /    +    \             <-----------+ 0.087 L2
+                               |     +     |            <---------+ | 0.072 L1
+              +----------------------------------------------+    | |
+              |                                              |    | |
+              |                                              |    | |
+              |                                              |    | |
+              |                                              |    | |
+ARP=BPA  -->  -----------------+----| |----+------------------ <-+--+
+                               |           |                     |
+                               |   Mount   |                     |
+                               |           |                    0.054 m
+                               |    +-+    |
+ Monument ->        +----------+----| |----+---------+         <-+
+ Ref. Point   +-----+--------|-----------------------+-------+
+              |              Steel plate                     |
+              |                                              |
+              |                                              |
+              |               Concrete pillar                |
+              |                                              |
+              |                                              |
+              |                                              |
+
+
+Type:  TRIMBLE 4000ST L1/L2 GEOD
+
+                       ----+----                          <--  0.070 L1
+                    /      +      \                       <--  0.068 L2
+++----------------+-----------------+-----------------++  <--  0.063
+++----------------+-----------------+-----------------++ TGP
+++---------------+-------------------+----------------++  <--  0.060
+++---------------+-------------------+----------------++ BGP
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <--  0.0 ARP=BPA
+
+                    <--  0.140  --> BPA
+                 <--     0.155     --> TPA
+<--                      0.467                      --> NOTCHES
+<--                      0.483                       --> EDGE
+
+
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+

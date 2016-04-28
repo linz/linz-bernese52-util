@@ -1,0 +1,392 @@
+     BLUF Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt 
+
+0.   Form
+
+     Prepared by (full name)  : Elisabetta D'Anastasio
+     Date Prepared            : 2016-01-28
+     Report Type              : DYNAMIC
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Bluff
+     Four Character ID        : BLUF
+     Monument Inscription     : none
+     IERS DOMES Number        : 50234M001
+     CDP Number               : none
+     Monument Description     : pillar
+       Height of the Monument : 1.265
+       Monument Foundation    : reinforced concrete
+       Foundation Depth       : 2.0
+     Marker Description       : Forced Centering
+     Date Installed           : 2004-03-05T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Bluff
+     State or Province        : Southland
+     Country                  : New Zealand
+     Tectonic Plate           : Pacific
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4300030.5
+       Y coordinate (m)       : 891112.9
+       Z coordinate (m)       : -4610274.9
+       Latitude (N is +)      : -463506.23
+       Longitude (E is +)     : +1681731.51
+       Elevation (m,ellips.)  : 124.6
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4356263016
+     Firmware Version         : 1.0-2
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2004-03-11T00:00Z
+     Date Removed             : 2004-11-01T02:28Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4351230312
+     Firmware Version         : 1.0-3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2004-11-01T02:29Z
+     Date Removed             : 2005-11-06T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4429236339
+     Firmware Version         : 1.0-3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2005-11-06T00:00Z
+     Date Removed             : 2006-03-10T10:02Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.4  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4429236339
+     Firmware Version         : 1.1-3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2006-03-10T10:02Z
+     Date Removed             : 2006-04-03T13:57Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.5  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4429236339
+     Firmware Version         : 1.1-5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2006-04-03T13:57Z
+     Date Removed             : 2006-10-18T22:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4351230281
+     Firmware Version         : 1.1-5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2006-10-18T23:00Z
+     Date Removed             : 2008-01-01T04:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.7  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4435237672
+     Firmware Version         : 1.2-0
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2008-01-01T04:30Z
+     Date Removed             : 2010-11-25T04:42Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5018K67247
+     Firmware Version         : 4.17A
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2010-11-25T05:05Z
+     Date Removed             : 2012-04-03T21:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5018K67247
+     Firmware Version         : 4.46
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-04-03T22:00Z
+     Date Removed             : 2015-08-23T15:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5018K67247
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-08-23T15:25Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 12589847
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0550  
+     Marker->ARP North Ecc(m) : 0.0000  
+     Marker->ARP East Ecc(m)  : 0.0000  
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     :
+     Date Installed           : 2004-03-11T00:00Z
+     Date Removed             : 2010-11-25T04:42Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 1441031250
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0550  
+     Marker->ARP North Ecc(m) : 0.0000  
+     Marker->ARP East Ecc(m)  : 0.0000  
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     :
+     Date Installed           : 2010-11-25T05:05Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : GNS Science
+     Preferred Abbreviation   : GNS
+     Mailing Address          : 1 Fairway Drive, Avalon 5010,
+                              : PO Box 30-368, Lower Hutt
+                              : New Zealand
+     Primary Contact
+       Contact Name           : GeoNet reception
+       Telephone (primary)    : +64 4 570 1444
+       Telephone (secondary)  : 
+       Fax                    : +64 4 570 4676
+       E-mail                 : info@geonet.org.nz
+     Secondary Contact
+       Contact Name           : Elisabetta D'Anastasio
+       Telephone (primary)    : +64 4 570 4744
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : e.danastasio@gns.cri.nz
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Land Information New Zealand
+     Preferred Abbreviation   : LINZ
+     Mailing Address          : 155 The Terrace, PO Box 5501, Wellington 6145
+                              : New Zealand
+     Primary Contact
+       Contact Name           : LINZ Reception
+       Telephone (primary)    : +64 4 460 0110
+       Telephone (secondary)  : 
+       Fax                    : +64 4 472 2244
+       E-mail                 : positionz@linz.govt.nz
+     Secondary Contact
+       Contact Name           : Paula Gentle
+       Telephone (primary)    : +64 4 460 2757
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : pgentle@linz.govt.nz
+     Additional Information   : CGPS site is part of the LINZ PositioNZ Network
+                              : http://www.linz.govt.nz/positionz
+
+13.  More Information
+
+     Primary Data Center      : ftp.geonet.org.nz
+     Secondary Data Center    :
+     URL for More Information : www.geonet.org.nz
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : additional information and pictures could be
+                              : found at http://magma.geonet.org.nz/delta/app
+                              : then search for CGPS mark BLUF
+     Antenna Graphics with Dimensions
+
+
+TRM41249.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----x-----/                        <--  0.0000  BAM=ARP
+                                                                       RXC=NRP
+  <--                    0.3396                   -->                  Notches
+
+TRM57971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----x-----/                        <--  0.0000  BAM=ARP
+                                                                       RXC=NRP
+  <--                    0.3396                   -->                  Notches

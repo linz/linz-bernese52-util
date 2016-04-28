@@ -1,0 +1,372 @@
+     VLNS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Eimuntas Parseliunas
+     Date Prepared            : 2015-09-25
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : vlns_20150730.log
+      Modified/Added Sections : 3.4, 3.5, 3.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Vilnius
+     Four Character ID        : VLNS
+     Monument Inscription     : 
+     IERS DOMES Number        : 10801M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR/BRASS
+       Height of the Monument : 2.82 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 2.50 m
+     Marker Description       : HOLE
+     Date Installed           : 1997-09-16
+     Geologic Characteristic  : SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : Monument type - The GPS reference mark consists
+                              : of steel plate with a forced centering hole
+                              : embedded on top of a 3.0 metre high concrete
+                              : pier, 30 cm in diameter. The concrete pier is
+                              : anchored to ground by concrete block 1.5 m
+                              : in size to a depth of 2.5 m.
+
+
+2.   Site Location Information
+
+     City or Town             : Vilnius
+     State or Province        : 
+     Country                  : Lithuania
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3343600.974
+       Y coordinate (m)       : 1580417.579
+       Z coordinate (m)       : 5179337.091
+       Latitude (N is +)      : +543911.30
+       Longitude (E is +)     : +0251755.19
+       Elevation (m,ellips.)  :   240.8
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 04927
+     Firmware Version         : 1F00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-09-16
+     Date Removed             : 1999-05-19
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 04927
+     Firmware Version         : 1K00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-05-19
+     Date Removed             : 1999-10-25
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP01088
+     Firmware Version         : 6J00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-09-18T10:00Z
+     Date Removed             : 2013-09-25T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 496804
+     Firmware Version         : V 8.10
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-10-01T00:00Z
+     Date Removed             : 2015-07-21T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 496804
+     Firmware Version         : V 8.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-21T12:00Z
+     Date Removed             : 2015-07-29T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 496804
+     Firmware Version         : V 9.20
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-29T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936A_M    NONE
+     Serial Number            : 0477
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0730
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ANDREW heliax LDF2-50A
+     Antenna Cable Length     : 20 m
+     Date Installed           : 1997-09-16T11:00Z
+     Date Removed             : 2013-09-25T10:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : LEIAR25.R4      NONE
+     Serial Number            : 725555
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0730
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : SEMIRIGID RG218
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2013-10-01T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2002-09-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 2002-09-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geodetic Institute of Vilnius TU
+     Preferred Abbreviation   : VGTU GI
+     Mailing Address          : Sauletekio al.11
+                              : LT-10223 Vilnius
+                              : LITHUANIA
+     Primary Contact
+       Contact Name           : Eimuntas Parseliunas
+       Telephone (primary)    : +370 5 2744705
+       Telephone (secondary)  : +370 5 2744703
+       Fax                    : +370 5 2744705
+       E-mail                 : eimis@vgtu.lt
+     Secondary Contact
+       Contact Name           : Petras Petroskevicius
+       Telephone (primary)    : +370 5 2744705
+       Telephone (secondary)  : +370 5 2744703
+       Fax                    : +370 5 2744705
+       E-mail                 : petras.petroskevicius@vgtu.lt
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+LEIAR25.R4
+
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+  <--                    0.3802                   -->
+
+
+   +-----------------------x--------------------------+   <-- 0.073 XYZ
+   |                     |   |                        |
+   +--------------------------------------------------+
+
+ARP: Antenna Reference Point           XYZ: GPS marker center

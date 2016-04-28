@@ -1,0 +1,325 @@
+     LILY Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ted Zhou  
+     Date Prepared            : 2015-06-15 
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : lily_20150305.log
+      Modified/Added Sections : 3.2,3.3,11,12,13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Lilydale 
+     Four Character ID        : LILY
+     Monument Inscription     : 
+     IERS DOMES Number        : AUM000426
+     CDP Number               : (A4)
+     Monument Description     : 316 GRADE STAINLESS STEEL MAST
+       Height of the Monument : 1.2 (m)
+       Monument Foundation    : BRICK WALL 
+       Foundation Depth       : 0.5 (m)
+     Marker Description       : 250 mm dia Stainless steel plate with 
+                              : centred 5/8" threaded spigot
+     Date Installed           : 2014-11-20T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : The GPS antenna is located on top of
+                              : a stainless steel mast that is approximately
+                              : 2.6 metres long, of which 1.2 metres protrudes
+                              : above the top of the brick parapet wall
+                              : that it has been secured to, near the corner.  
+
+
+2.   Site Location Information
+
+     City or Town             : Lilydale 
+     State or Province        : Tasmania
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4037356.408 
+       Y coordinate (m)       : 2600427.544 
+       Z coordinate (m)       : -4183584.340 
+       Latitude (N is +)      : -411505.81762 
+       Longitude (E is +)     : +1471253.11161 
+       Elevation (m,ellips.)  : 170.155  
+     Additional Information   : The GPS antenna is located at the south-
+                              : west corner of the Lilydale District
+                              : School Science and Arts
+                              : building, 1947 Main Road Lilydale, Tasmania. 
+                              : It is part of the AuScope GPS in Schools 
+                              : project.
+                              
+                        
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR9 
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5145K79608
+     Firmware Version         : 4.85 
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2015-02-13T00:00Z
+     Date Removed             : 2015-03-23T00:00Z 
+     Temperature Stabiliz.    : NONE 
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE NETR9 
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5145K79608
+     Firmware Version         : 4.93 
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2015-03-23T00:00Z
+     Date Removed             : 2015-06-15T00:00Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE NETR9 
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5145K79608
+     Firmware Version         : 5.01 
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2015-06-15T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none 
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 5421355007 
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0030
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 (deg)
+     Antenna Radome Type      : NONE 
+     Radome Serial Number     :  
+     Antenna Cable Type       : LMR400
+     Antenna Cable Length     : 30 (m)
+     Date Installed           : 2015-02-26T00:00Z 
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 2mm plus two 0.5mm shims used to ensure
+                              : correct antenna orientation
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2015-02-26/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  :  
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : METAL ROOF
+       Effective Dates        : (2014-11-20)
+       Additional Information : Apex of Hip and Valley rood approximately
+                              : 14 metres south-east of antenna mast is 
+                              : approximately same elevation as ARP. 
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : TAS Department Primary Industries, Parks, 
+                              : Water and Environment
+     Preferred Abbreviation   : DPIPWE
+     Mailing Address          : GPO Box 44
+                              : Hobart  TAS  7001
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Scott Strong
+       Telephone (primary)    : +61 3 6165 4175
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : scott.strong@dpipwe.tas.gov.au
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : http://www.dpipwe.tas.gov.au
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : Nicholas Brown
+       Telephone (primary)    : +61 2 6249 9831
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Additional Information   :
+
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : RDSI 
+     URL for More Information : http://www.ga.gov.au
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   :
+     Antenna Graphics with Dimensions
+
+     
+TRM59800.00
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+

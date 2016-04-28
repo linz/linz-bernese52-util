@@ -1,0 +1,501 @@
+     WOST Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Michael Schmidt
+     Date Prepared            : 2012-01-16
+     Report Type              : UPDATE 
+     If Update:               :
+     Previous Site Log        : wost_20110915.log
+     Modified/Added Sections  : 2009-04-03: - 3.3 and 4.3;
+                              :             - corrected antenna diagram A;
+                              : 2009/10/20: - 3.4 - new firmware;
+                              : 2010-07-22: Added 3.5: firmware upgrade;
+                              : 2011-09-13: - 3.6 - New receiver + firmware;
+                              : 2011-09-15: - 4.4 - new cable;
+                              : 2012-01-16: - cleaned up antenna diagrams; 
+                              :               (removed L1, L2 phase centre
+                              :               offsets and clarified
+                              :               ARP location;
+
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Woss    
+     Four Character ID        : WOST
+     Monument Inscription     : M057003
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : TECH 2000 GPS Mast      
+       Height of the Monument : n/a  
+       Monument Foundation    : chains attached to hilti bolts into concrete pad
+       Foundation Depth       : ~0.3m visible above ground, unknown below ground surface. 
+                              : (approx thickness of concrete pad).
+     Marker Description       : stainless steel marker pin           
+     Date Installed           : 2005-01-26T00:00Z
+     Geologic Characteristic  : CONCRETE, on hardpan/gravel till
+       Bedrock Type           : covered by gravel
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : Cascadia Subduction Zone
+         Distance/activity    : 
+     Additional Information   : This station is part of the Western Canada
+                              : Deformation Array (WCDA) and is currently operating
+		              : as a temporary site under the ETS campaign study
+                              : *******************************************
+                              : The GPS reference mark consists of a
+                              : stainless steel marker pin imbedded into a concrete
+                              : pad to a depth of 1". The antenna mast is attached to
+                              : the same concrete pad by three chain lengths attached
+                              : to climbing rings attached to stainless steel bolts 
+                              : inserted 1" into the pad.
+                              : The antenna mast is: 1.6574 metres high.
+                              : The antenna is directly fastened to the mast.
+                              : 
+                              : Note the construction for the installation (now 
+                              : completed) of a fire hydrant, located approx 3' to
+                              : north of the antenna mast, over the period of Aug 24
+                              : to Sept 8, 2008.
+
+
+2.   Site Location Information
+
+     City or Town             : Woss
+     State or Province        : British Columbia
+     Country                  : Canada
+     Tectonic Plate           : North America
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2438741.92
+       Y coordinate (m)       : -3283175.04
+       Z coordinate (m)       :  4878044.07
+       Latitude (N is +)      : +50.212357
+       Longitude (E is +)     : -126.604955 
+       Elevation (m,ellips.)  : +137.293
+     Additional Information   : 
+                               
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-X113
+     Satellite System         : GPS
+     Serial Number            : LP01190   
+     Firmware Version         : CC00-1D02          
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2005-01-26T00:00Z
+     Date Removed             : 2005-05-16T23:09:00
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ASCHTECH Z-X113                            
+     Satellite System         : GPS 
+     Serial Number            : LP01190
+     Firmware Version         : CC00-1D02
+     Elevation Cutoff Setting : 5    
+     Date Installed           : 2006-03-07T00:40:00
+     Date Removed             : 2009-03-20T00:00:00
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.3  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 460419
+     Firmware Version         : 6.0
+     Elevation Cutoff Setting : 5.0
+     Date Installed           : 2009-03-25T21:43Z
+     Date Removed             : 2009-10-20T20:40Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.4  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 460419
+     Firmware Version         : 7.53
+     Elevation Cutoff Setting : 5.0
+     Date Installed           : 2009-10-20T20:41Z
+     Date Removed             : 2010-06-01T20:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.5  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 460419
+     Firmware Version         : 7.80
+     Elevation Cutoff Setting : 5.0
+     Date Installed           : 2010-06-01T20:25Z
+     Date Removed             : 2011-09-13T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.6  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 460416
+     Firmware Version         : 8.10
+     Elevation Cutoff Setting : 5.0
+     Date Installed           : 2011-09-13T00:00Z
+     Date Removed             : 
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945B_M 
+     Serial Number            : CR719992301          
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.6564
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0   
+     Antenna Radome Type      : n/a  
+     Radome Serial Number     : n/a 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 60m
+     Date Installed           : 2005-01-26T00:00Z
+     Date Removed             : 2005-16-23T09:00Z
+     Additional Information   : mast serial number #0061
+                              : ref. Antenna Diagram 'A' below
+
+4.2  Antenna Type             : ASH701945B_M
+     Serial Number            : CR719992301
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.6563
+     Marker->ARP North  (m)   : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    : 0
+     Antenna Radome Type      : n/a
+     Radome Serial Number     : n/a
+     Antenna Cable Type       : RG214  
+     Antenna Cable Length     : 60m
+     Date Installed           : 2006-03-07T00:40Z
+     Date Removed             : 2009-03-25T21:00Z
+     Additional Information   : mast serial number #0061
+                              : ref. Antenna Diagram 'A' below
+
+4.3  Antenna Type             : LEIAT504
+     Serial Number            : 770
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.6563
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : n/a
+     Radome Serial Number     : n/a
+     Antenna Cable Type       : RG214  
+     Antenna Cable Length     : 60m
+     Date Installed           : 2009-03-25T21:43Z
+     Date Removed             : 2011-09-13T00:00Z
+     Additional Information   : ref. Antenna Diagram 'A' below
+
+4.4  Antenna Type             : LEIAT504
+     Serial Number            : 770
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.6563
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : n/a
+     Radome Serial Number     : n/a
+     Antenna Cable Type       : Andrews FSJ4-50B
+     Antenna Cable Length     : 65m
+     Date Installed           : 2011-09-13T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : ref. Antenna Diagram 'A' below
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2005-01-26T00:00Z
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geological Survey of Canada
+     Preferred Abbreviation   : GSC
+     Mailing Address          : P.O. Box 6000
+                              : 9860 West Saanich Rd.
+                              : Sidney, B.C.
+                              : Canada V8L 4B2
+     Primary Contact
+       Contact Name           : Michael Schmidt
+       Telephone (primary)    : 250-363-6760
+       Telephone (secondary)  : 250-363-6500
+       Fax                    : 250-363-6565
+       E-mail                 : MSchmidt@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Herb Dragert
+       Telephone (primary)    : 250-363-6447
+       Telephone (secondary)  : 250-363-6500
+       Fax                    : 250-363-6565
+       E-mail                 : HDragert@nrcan.gc.ca
+
+     Additional Information   : site contact with Western Forest
+                              : Products is Hugh Bomford, tel:
+			      : 250-281-2480
+                              : hbomford@westernforest.com
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://wcda.pgc.nrcan.gc.ca
+     Secondary Data Center    : none
+     URL for More Information : http://gsc.nrcan.gc.ca/geodyn/wcda/index_e.php
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : Hardcopy Information available from
+                              : www site or site contact
+
+
+     Antenna Graphics with Dimensions:
+
+
+Antenna Diagram A
+*****************
+
+                            (not to scale)
+
+                               -----                           
+                                                               
+                           /     +     \                       
+                          |      +      |                      
+          +-----------------------------------------------+    
+          |                                               |    
+          |                                               |    
+          |                                               |    
+          |                                               |    
+       +-+------------------------------------------------+-+  
+       +-------------------+-------------+------------------+  
+                           |             |           
+                           |             |           
+                           +------X------+   <----------------  0.000 BPA=ARP
+                                *   *           
+                                *   *               
+                                *   *                             
+                                *   *                            
+                                *   *
+                                *   * STAINLESS
+                                *   * STEEL
+                                *   * MAST    
+                                *   *           
+                                *   *
+                                ~~~~~               
+                                *   *                             
+                                *   *                            
+                                *   *
+                                *   *           
+                                *   *               
+                                *   *                             
+                                *   *                            
+                                *   *
+                                -----
+                                  |
+                                  #
+                                  
+
+                     # ...  Monument Reference Point
+                     X ...  Antenna Reference Point (ARP)
+

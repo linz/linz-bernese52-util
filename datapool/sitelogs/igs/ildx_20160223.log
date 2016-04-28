@@ -1,0 +1,384 @@
+     ILDX Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Equipe RGP
+     Date Prepared            : 2016-02-23
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ildx_20150731.log
+      Modified/Added Sections : 3.1, 3.2, 3.3, 3.4, 3.5, 3.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Ile d'Aix
+     Four Character ID        : ILDX
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 19724M001
+     CDP Number               : NONE
+     Monument Description     : INOX TRIANGULAR PLATE ON TOP OF A WALL
+       Height of the Monument : 0.3 m
+       Monument Foundation    : STONE WALL
+       Foundation Depth       : (m)
+     Marker Description       : TOP AND CENTRE OF THE INOX TRIANGULAR PLATE
+     Date Installed           : 2012-02-07T12:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Ile d'Aix
+     State or Province        : Charente-Maritime (17)
+     Country                  : France
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4436671.275
+       Y coordinate (m)       : -91138.374
+       Z coordinate (m)       : 4566018.864
+       Latitude (N is +)      : +460033.96
+       Longitude (E is +)     : -0011036.50
+       Elevation (m,ellips.)  :    59.7
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5046K71738
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-02-07T12:00Z
+     Date Removed             : 2012-05-24T06:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5046K71738
+     Firmware Version         : 4.60
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-05-24T06:00Z
+     Date Removed             : 2013-02-08T14:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5046K71738
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-02-08T14:00Z
+     Date Removed             : 2013-05-15T14:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5046K71738
+     Firmware Version         : 4.80
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-05-15T14:00Z
+     Date Removed             : 2013-07-08T09:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5046K71738
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-07-08T09:00Z
+     Date Removed             : 2014-03-26T13:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5046K71738
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-03-26T13:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 1441127339
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2012-02-07T12:00Z
+     Date Removed             : 2013-02-20T12:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 1441127339
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.1350
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2013-02-20T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2012-02-07/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : Tide Gauge - Radar type
+       Status                 : PERMANENT
+       Effective Dates        : 2010-04-27/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : VAISALA
+       Serial Number          : B1030002
+       Data Sampling Interval : 600 s
+       Accuracy (% rel h)     : 2
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2006-03-08
+       Effective Dates        : 2012-02-07/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU200
+       Manufacturer           : VAISALA
+       Serial Number          : B1030005
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2006-03-14
+       Effective Dates        : 2012-02-07/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : VAISALA
+       Serial Number          : B1030002
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.2 deg C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2006-03-08
+       Effective Dates        : 2012-02-07/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : UMR 6250 LIENSs, CNRS - Universite de La
+                              : Rochelle
+     Preferred Abbreviation   : LIENSS
+     Mailing Address          : Institut du Littoral et de l'Environnement
+                              : 2 rue Olympe de Gouges 17000 LA ROCHELLE
+     Primary Contact
+       Contact Name           : Guy WOPPELMANN
+       Telephone (primary)    : (33) 5 46 45 86 13
+       Telephone (secondary)  : (33) 5 46 45 82 74
+       Fax                    : (33) 5 46 45 82 49
+       E-mail                 : gwoppelm@univ-lr.fr
+     Secondary Contact
+       Contact Name           : Etienne POIRIER
+       Telephone (primary)    : (33) 5 46 45 83 94
+       Telephone (secondary)  : (33) 5 46 45 82 74
+       Fax                    : (33) 5 46 45 82 49
+       E-mail                 : etienne.poirier@univ-lr.fr
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : IGN
+     Preferred Abbreviation   : IGN
+     Mailing Address          : 73, avenue de Paris
+                              : 94160 SAINT-MANDE, FRANCE
+     Primary Contact
+       Contact Name           : RGP Team
+       Telephone (primary)    : 00 33 (0)1 43 98 83 39
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 43 98 84 50
+       E-mail                 : rgpadmin@ign.fr
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : IGNE
+     Secondary Data Center    : BKG
+     URL for More Information : http://rgp.ign.fr
+     Hardcopy on File
+       Site Map               : http://rgp.ign.fr
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM57971.00
+
+    / ----------------------+--------------------- \
+   +                        +                       +
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                <--  0.0000 ARP=BAM
+
+   <--                   0.3396                  -->

@@ -1,0 +1,392 @@
+     GGTN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ted Zhou
+     Date Prepared            : 2016-01-12
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ggtn_20150626.log 
+      Modified/Added Sections : 3.2,3.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Georgetown AuScope
+     Four Character ID        : GGTN
+     Monument Inscription     : 
+     IERS DOMES Number        : 59920M001
+     CDP Number               : NONE 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.5 (m)
+       Monument Foundation    : REINFORCED CONCRETE BLOCK
+       Foundation Depth       : 1.5 (m)
+     Marker Description       : STAINLESS STEEL SPIGOT
+     Date Installed           : 2012-07-28T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : Monument is a Steel Plate fixed to the top of
+                              : a concrete pillar. State Permanent Survey Mark
+                              : No. 753344 in Survey Control Database
+
+
+2.   Site Location Information
+
+     City or Town             : Georgetown
+     State or Province        : Queensland
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (GDA94)
+       X coordinate (m)       : -4872082.4906
+       Y coordinate (m)       : 3599807.8386
+       Z coordinate (m)       : -1990679.8294
+       Latitude (N is +)      : -181821.49828
+       Longitude (E is +)     : +1433226.26024
+       Elevation (m,ellips.)  : 367.231
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+QZSS
+     Serial Number            : 5048K71935
+     Firmware Version         : 4.80
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2013-06-13T00:00Z
+     Date Removed             : 2015-06-26T00:00Z  
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+QZSS
+     Serial Number            : 5048K71935
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2015-06-26T00:00Z
+     Date Removed             : 2016-01-12T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+BDS+QZSS
+     Serial Number            : 5048K71935
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2016-01-12T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 5116354139
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 (deg)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : SML400
+     Antenna Cable Length     : 25M
+     Date Installed           : 2013-06-13T00:00Z
+     Date Removed             : 2014-08-11T05:52Z
+     Additional Information   : 2 x 0.5m SML200 tails installed
+                              : one at the antenna and one at the receiver
+
+4.2  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 5338354828
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0050
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 (deg)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : SML400
+     Antenna Cable Length     : 25M
+     Date Installed           : 2014-08-11T07:03Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 2 x 0.5m SML200 tails installed
+                              : one at the antenna and one at the receiver
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2013-06-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 60192619  
+       Data Sampling Interval : 30 (sec)
+       Accuracy (% rel h)     : 2.00 (% rel h)
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : +0.440 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2013-06-13/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 118039 
+       Data Sampling Interval : 30 (sec)
+       Accuracy               : 0.08 (hPa)
+       Height Diff to Ant     : +0.440 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2013-06-13/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 60192619 
+       Data Sampling Interval : 30 (sec)
+       Accuracy               : 0.50 (deg C)
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 0.440 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2013-06-13/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : QLD Department of Natural Resources and Mines
+     Preferred Abbreviation   : DNRM
+     Mailing Address          : GPO Box 2454
+                              : Brisbane  QLD  4001
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Garry Cislowski
+       Telephone (primary)    : +61 7 3896 3030
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : gary.cislowski@dnrm.qld.gov.au
+     Secondary Contact
+       Contact Name           : Darren Burns
+       Telephone (primary)    : +61 7 3896 3349
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : darren.burns@dnrm.qld.gov.au
+     Additional Information   : http://www.dnrm.qld.gov.au
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : Nicholas Brown
+       Telephone (primary)    : +61 2 6249 9831
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Additional Information   :
+
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : RDSI 
+     URL for More Information : http://www.ga.gov.au
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   :
+     Antenna Graphics with Dimensions
+
+TRM59800.00
+
+                                 -----
+                             /           \
+                            |             |
+          +-------------------------------------------------+     <--  0.1020  TCR
+          |                                                 |
+          |                                                 |
+          |                                                 |
+          |                                                 |
+        +-+-------------------------------------------------+-+   <--  0.0381
+        +-------------------+-------------+-------------------+   <--  0.0350  BCR
+                            |             |
+                           =|             |
+                            +------x------+                       <--  0.0000  BPA=ARP
+
+        <--                      0.3810                     -->
+
+

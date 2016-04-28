@@ -1,0 +1,450 @@
+
+     WLSN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : David Maggert
+     Date Prepared            : 2015-11-19
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : wlsn_20140707.log
+      Modified/Added Sections : 3.12, 3.13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Mt. Wilson
+     Four Character ID        : WLSN
+     Monument Inscription     : 4028-s
+     IERS DOMES Number        : 40400M101
+     CDP Number               : 
+     Monument Description     : rock-pin/metal-tripod
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1994-07-18T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : SCIGN - Southern California Integrated GPS 
+                              : Network
+
+
+2.   Site Location Information
+
+     City or Town             : Mt. Wilson
+     State or Province        : California
+     Country                  : United States
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2483640.9494
+       Y coordinate (m)       : -4660072.8425
+       Z coordinate (m)       : 3568172.1952
+       Latitude (N is +)      : +341334.04
+       Longitude (E is +)     : -1180321.29
+       Elevation (m,ellips.)  : 1705.26
+     Additional Information   : Located at Mt. Wilson Observatory
+                              : Los Angeles County.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : R-137
+     Firmware Version         : 2.8.32.1
+     Elevation Cutoff Setting : 
+     Date Installed           : 1994-07-15T00:00Z
+     Date Removed             : 1994-11-04T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : R-137
+     Firmware Version         : 3.0 1994/10/10 17:01:54
+     Elevation Cutoff Setting : 
+     Date Installed           : 1994-11-04T00:00Z
+     Date Removed             : 1995-03-07T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : R-137
+     Firmware Version         : 3.2 link 03/02/95
+     Elevation Cutoff Setting : 
+     Date Installed           : 1995-03-07T00:00Z
+     Date Removed             : 1995-03-19T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : R-141
+     Firmware Version         : 3.2 link 03/09/95
+     Elevation Cutoff Setting : 
+     Date Installed           : 1995-03-19T00:00Z
+     Date Removed             : 1999-01-06T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03089
+     Firmware Version         : CB00
+     Elevation Cutoff Setting : 
+     Date Installed           : 1999-01-06T00:00Z
+     Date Removed             : 1999-07-12T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03089
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 
+     Date Installed           : 1999-07-12T00:00Z
+     Date Removed             : 2000-07-20T10:43Z
+     Temperature Stabiliz.    : 
+     Additional Information   : GPS week rollover-compliant
+
+3.7  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03089
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2000-07-20T10:43Z
+     Date Removed             : 2001-05-21T16:33Z
+     Temperature Stabiliz.    : 
+     Additional Information   : GPS week rollover-compliant
+
+3.8  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03089
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2001-05-21T16:33Z
+     Date Removed             : 2011-04-29T20:51Z
+     Temperature Stabiliz.    : 
+     Additional Information   : GPS week rollover-compliant
+
+3.9  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00995
+     Firmware Version         : 3.5 May,06,2010
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-04-29T20:51Z
+     Date Removed             : 2012-05-01T21:45Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-00995
+     Firmware Version         : 3.6 Feb,28,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-05-01T21:55Z
+     Date Removed             : 2013-01-24T00:02Z
+     Temperature Stabiliz.    : 
+     Additional Information   : firmware upgrade
+
+3.11 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-01069
+     Firmware Version         : 3.6 Feb,28,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-01-24T00:08Z
+     Date Removed             : 2013-06-05T17:42Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.12 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-01069
+     Firmware Version         : 4.0 Dec,21,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-06-05T18:35Z
+     Date Removed             : 2015-11-18T22:51Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.13 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-01069
+     Firmware Version         : 4.5 Dec,29,2014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-11-18T22:56Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 416
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0610
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1994-07-15T00:00Z
+     Date Removed             : 2011-04-29T20:51Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TPSCR.G3        NONE
+     Serial Number            : 383-1875
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0740
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2011-04-29T20:51Z
+     Date Removed             : 2011-06-07T16:39Z
+     Additional Information   : New antenna did not slide onto mount properly
+                              : causing a shift of 13mm higher than before. 
+                              : The antenna was also unable to be leveled.
+
+4.3  Antenna Type             : TPSCR.G3        NONE
+     Serial Number            : 383-1875
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0610
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2011-06-07T17:34Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Top base plate machined to fit the Topcon
+                              : antenna so that antenna height is the same as
+                              : the original antenna.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1994-07-18/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : USGS
+     Preferred Abbreviation   : USGS
+     Mailing Address          : USGS Pasadena Field Office
+                              : 525 South Wilson Avenue
+                              : Pasadena, CA. 91107
+     Primary Contact
+       Contact Name           : Ken Hudnut
+       Telephone (primary)    : 626-583-7232
+       Telephone (secondary)  : 
+       Fax                    : 626-583-7827
+       E-mail                 : hudnut@usgs.gov
+     Secondary Contact
+       Contact Name           : Dan Determan
+       Telephone (primary)    : 626-583-6729
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : ddeterman@usgs.gov
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : http://www.unavco.org
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TPSCR.G3
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1015  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+
+
+
+
+
+
+

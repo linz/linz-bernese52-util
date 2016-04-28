@@ -1,0 +1,386 @@
+
+     MATG Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Giuseppe Colucci
+     Date Prepared            : 2016-04-08
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : matg_20150806.log
+      Modified/Added Sections : 3.5, 3.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : MateraG
+     Four Character ID        : MATG
+     Monument Inscription     : Stable pillar on the roof (Marker ex-prare)
+     IERS DOMES Number        : 12734M010
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.58 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2012-01-30T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Matera
+     State or Province        : BASILICATA
+     Country                  : Italy
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4641953.0352
+       Y coordinate (m)       : 1393063.5468
+       Z coordinate (m)       : 4133279.5888
+       Latitude (N is +)      : +403856.50
+       Longitude (E is +)     : +0164216.75
+       Elevation (m,ellips.)  : 537.0
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495169
+     Firmware Version         : 8.50/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-01-30T14:00Z
+     Date Removed             : 2012-02-16T16:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Galileo logging instaleld and activated
+
+3.2  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495169
+     Firmware Version         : 8.50/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-02-16T16:00Z
+     Date Removed             : 2012-04-12T11:21Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Set receiver to track 'L2C and L2P(Y)'
+                              : instead of 'L2P(Y)' only
+                              : 'L5' tracking was already set and remained
+                              : unchanged
+
+3.3  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495169
+     Firmware Version         : 8.51/6.110
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-04-12T11:21Z
+     Date Removed             : 2012-12-14T11:15Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Changed firmware
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495169
+     Firmware Version         : 8.51/6.111
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-12-14T11:15Z
+     Date Removed             : 2014-05-16T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Changed ME firmware
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 495169
+     Firmware Version         : 8.71/6.112
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-05-17T00:00Z
+     Date Removed             : 2016-04-08T11:45Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Changed firmware
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495169
+     Firmware Version         : 8.71/6.112
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-04-08T11:45Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : Disabled Galileo + SBAS tracking
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAR25         NONE
+     Serial Number            : 9300006
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : H1000
+     Antenna Cable Length     : 40 m
+     Date Installed           : 2012-01-30T14:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna on former prare pillar
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2012-01-30/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR-SAO
+       Status                 : PERMANENT
+       Effective Dates        : 1993-09-01/2000-12-10
+       Notes                  : 
+
+7.2  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1990-05-01/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMD70Y
+       Manufacturer           : VAISALA
+       Serial Number          : 
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : 0.0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-07-18/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : DPI 141
+       Manufacturer           : DRUCK
+       Serial Number          : 
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.25 hPa
+       Height Diff to Ant     : -0.5 m
+       Calibration date       : 2002-07-18
+       Effective Dates        : 2002-07-18/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMD70Y - PT 1000 IEC 751 class B
+       Manufacturer           : VAISALA
+       Serial Number          : 
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 0.0 m
+       Calibration date       : 
+       Effective Dates        : 2002-07-18/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : e-geos S.p.A. - una Società ASI/Telespazio
+     Preferred Abbreviation   : asi_egeos
+     Mailing Address          : P.O.BOX OPEN - 75100 Matera, ITALY
+     Primary Contact
+       Contact Name           : G. Colucci
+       Telephone (primary)    : ++39.0835.377574
+       Telephone (secondary)  : 
+       Fax                    : ++39.0835.334951
+       E-mail                 : giuseppe.colucci@e-geos.it
+     Secondary Contact
+       Contact Name           : R. Faccia, F. Ambrico
+       Telephone (primary)    : ++39.0835.377541
+       Telephone (secondary)  : 
+       Fax                    : ++39.0835.334951
+       E-mail                 : gpsgeo@hp835.mt.asi.it
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Agenzia Spaziale Italiana
+     Preferred Abbreviation   : ASI
+     Mailing Address          : P.O.BOX OPEN - 75100 Matera, ITALY
+     Primary Contact
+       Contact Name           : Dott. Giuseppe Bianco
+       Telephone (primary)    : ++39.0835.377509
+       Telephone (secondary)  : 
+       Fax                    : ++39.0835.339005
+       E-mail                 : giuseppe.bianco@asi.it
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : ASI
+     Secondary Data Center    : BKG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAR25
+
+                       +-------+                          <--  0.1995
+                      /         \
+                    +-           -+
+                |---+-------------+---|                   <--  0.1456  TCR
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+  <--                    0.3802                   -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+BPA: Bottom of Preamplifier            BCR: Bottom of Chokering
+

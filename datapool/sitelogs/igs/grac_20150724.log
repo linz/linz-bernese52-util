@@ -1,0 +1,693 @@
+
+     GRAC Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Equipe RGP
+     Date Prepared            : 2015-07-24
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : grac_20150311.log
+      Modified/Added Sections : 3.17, 3.18
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : GRASSE
+     Four Character ID        : GRAC
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 10002M010
+     CDP Number               : NONE
+     Monument Description     : CONCRETE PILLAR WITH BRASS ADAPTATOR
+       Height of the Monument : 
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : BASE AND CENTRE OF BRASS ADAPTATOR
+     Date Installed           : 1998-11-27T10:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Caussols
+     State or Province        : Alpes-Maritimes
+     Country                  : France
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4581708.63
+       Y coordinate (m)       : 556132.23
+       Z coordinate (m)       : 4389340.93
+       Latitude (N is +)      : +434516.15
+       Longitude (E is +)     : +0065514.74
+       Elevation (m,ellips.)  : 1319.8
+     Additional Information   : Observatory located at Caussols, on plateau
+                              : de Calern, 10 Km NW of Grasse.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH GG24C
+     Satellite System         : GPS+GLO
+     Serial Number            : S/N M00684-24-016
+     Firmware Version         : FWGF00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1998-11-27T10:00Z
+     Date Removed             : 2000-04-01T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : MIRA 24 receiver on loan from MARTEC
+
+3.2  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX00115
+     Firmware Version         : 0065-ZT16
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2000-04-01T00:00Z
+     Date Removed             : 2000-11-01T10:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX00115
+     Firmware Version         : 0065
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-08-07T00:00Z
+     Date Removed             : 2010-08-10T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 5020K67484
+     Firmware Version         : 4.15
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2010-08-10T12:00Z
+     Date Removed             : 2011-01-03T10:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 5020K67484
+     Firmware Version         : 4.19
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-01-03T10:00Z
+     Date Removed             : 2011-03-24T06:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 5020K67484
+     Firmware Version         : 4.22
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-03-24T06:00Z
+     Date Removed             : 2011-08-29T06:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 5020K67484
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-08-29T06:00Z
+     Date Removed             : 2011-10-19T11:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5117K75257
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-10-19T11:00Z
+     Date Removed             : 2012-03-02T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5117K75257
+     Firmware Version         : 4.60
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-03-02T00:00Z
+     Date Removed             : 2012-05-31T07:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5117K75257
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-05-31T07:00Z
+     Date Removed             : 2013-05-15T15:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5117K75257
+     Firmware Version         : 4.80
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-05-15T15:00Z
+     Date Removed             : 2013-07-30T15:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.12 Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO+BDS+SBAS
+     Serial Number            : 5021K67563
+     Firmware Version         : 4.48
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-07-30T15:00Z
+     Date Removed             : 2013-10-15T10:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.13 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5117K75257
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-10-15T10:00Z
+     Date Removed             : 2014-03-26T12:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.14 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5117K75257
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-03-26T12:00Z
+     Date Removed             : 2014-08-01T14:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.15 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1831110
+     Firmware Version         : 3.03
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-08-01T14:00Z
+     Date Removed             : 2014-09-03T11:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.16 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 1831110
+     Firmware Version         : 3.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-09-03T11:00Z
+     Date Removed             : 2014-11-06T14:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.17 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 1831110
+     Firmware Version         : 3.11
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-11-06T14:00Z
+     Date Removed             : 2015-07-17T15:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.18 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 1831110
+     Firmware Version         : 3.11
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-17T15:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : pseudorange smoothing disabled
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701023.A     NONE
+     Serial Number            : GB15393
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1998-11-27T10:00Z
+     Date Removed             : 2000-04-01T00:00Z
+     Additional Information   : Previous name : 701023(B) L1
+                              : nged for compatibility with IGS
+
+4.2  Antenna Type             : ASH701073.3     NONE
+     Serial Number            : CRG1998380106
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0500
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2000-04-01T00:00Z
+     Date Removed             : 2000-11-01T10:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : ASH701073.3     NONE
+     Serial Number            : CRG1998380106
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0500
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-08-07T16:00Z
+     Date Removed             : 2002-10-02T08:00Z
+     Additional Information   : 
+
+4.4  Antenna Type             : ASH700936F_C    NONE
+     Serial Number            : CR1998390128
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0586
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2002-10-03T09:00Z
+     Date Removed             : 2010-08-10T00:00Z
+     Additional Information   : 
+
+4.5  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 1441004164
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0500
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-08-10T12:00Z
+     Date Removed             : 2013-07-30T15:00Z
+     Additional Information   : 
+
+4.6  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 5112118086
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0500
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2013-07-30T15:00Z
+     Date Removed             : 2015-03-10T13:00Z
+     Additional Information   : 
+
+4.7  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 5000113989
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0500
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2015-03-10T13:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : IGS Station (GRAS)
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   : none
+     Tied Marker DOMES Number : 10002M006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -17.4488
+       dy (m)                 : -17.8019
+       dz (m)                 : 19.5219
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1999-10-10T10:00Z
+     Additional Information   : 
+
+5.2  Tied Marker Name         : IGS Station (GRAS)
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   : none
+     Tied Marker DOMES Number : 10002M006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -17.4480
+       dy (m)                 : -17.8027
+       dz (m)                 : 19.5206
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2013-07-31T12:00Z
+     Additional Information   : 
+
+5.3  Tied Marker Name         : Mobile Laser Station (GRAF)
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7829
+     Tied Marker DOMES Number : 10002S017
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -15.8920
+       dy (m)                 : 26.8284
+       dz (m)                 : 16.4373
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2013-07-31T12:00Z
+     Additional Information   : 
+
+5.4  Tied Marker Name         : Laser MeO Station (GRSM)
+     Tied Marker Usage        : SRP
+     Tied Marker CDP Number   : 7845
+     Tied Marker DOMES Number : 10002S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -16.2789
+       dy (m)                 : 63.5414
+       dz (m)                 : 13.8994
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2013-07-31T12:00Z
+     Additional Information   : 
+
+5.5  Tied Marker Name         : DORIS Station (GR4B)
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 10002S019
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -27.1703
+       dy (m)                 : 34.0879
+       dz (m)                 : 29.5842
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2013-07-31T12:00Z
+     Additional Information   : 
+
+5.6  Tied Marker Name         : Repère VLBI (VLBI)
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 10002M003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -10.8090
+       dy (m)                 : -6.7212
+       dz (m)                 : 10.2840
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2013-07-31T12:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2000-04-01/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1980-09-01/CCYY-MM-DD
+       Notes                  : 
+
+7.2  Instrumentation Type     : VLBI
+       Status                 : MOBILE
+       Effective Dates        : 1995-02-17/CCYY-MM-DD
+       Notes                  : 
+
+7.3  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1995-02-10/CCYY-MM-DD
+       Notes                  : 
+
+7.4  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 2008-09-11/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Observatoire de Calern - Service Lasersat
+     Preferred Abbreviation   : OCA
+     Mailing Address          : Observatoire de la Cote d'Azur
+                              : Avenue Nicolas Copernic
+                              : 06100 GRASSE - France
+     Primary Contact
+       Contact Name           : Jocelyn PARIS
+       Telephone (primary)    : 00 33 (0)4 93 40 54 28
+       Telephone (secondary)  : 00 33 (0)4 93 40 54 54
+       Fax                    : 
+       E-mail                 : Jocelyn.Paris@obs-azur.fr
+     Secondary Contact
+       Contact Name           : Clement COURDE
+       Telephone (primary)    : 00 33 (0)4 93 40 54 12
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Clement.Courde@oca.eu
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Institut National de l'Information
+                              : Geographique et Forestiere
+     Preferred Abbreviation   : IGN
+     Mailing Address          : SGN department
+                              : 73 avenue de Paris
+                              : 94165 Saint-Mandé CEDEX France
+     Primary Contact
+       Contact Name           : Equipe RGP
+       Telephone (primary)    : 00 33 (0)1 43 98 83 39
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 43 98 84 50
+       E-mail                 : rgpadmin@ign.fr
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : IGN
+     Secondary Data Center    : BKG
+     URL for More Information : http://rgp.ign.fr
+     Hardcopy on File
+       Site Map               : http://rgp.ign.fr
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : http://rgp.ign.fr
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+---
+     L2 Phase Center =>         /    +    \             <----------  0.128
+     L1 Phase Center =>        |     +     |            <----------  0.110
+              +----------------------------------------------+
+              |                                              |
+              |                                              |
+              |                                              |
+              |                                              |
+             ==================================================<---  0.035 BCR
+                               |           |
+                               |           |
+                               |-----------|     <-----------------   0.0000
+                                  | +-+ |
+Bottom of Pre Amplifier  =>|---+====| |====+----|<-----------------  -0.0086
+(BPA)                      |      |     |       |
+ Fixed adaptator ------->  |      |     |---------|
+                           |      |_____|---------|
+                           |      |     |       |
+10002M010 --->|------------|------|-|-|-|-------|------------| <--- -0.0586
+              |----------------------------------------------|
+              |                                              |
+              |                                              |
+              |               Concrete pillar                |
+              |                                              |
+              |                                              |
+              |                                              |
+
+ BPA: Bottom of Pre Amplifier          BCR : Bottom of Choke ring
+ L1 : L1 Phase Center                   L2 : L2 Phase Center
+
+
+
+ TRM55971.00
+
+             <--                   0.3396                  -->
+Notches
+             / ----------------------+--------------------- \
+            +                        +                       +
+             \ -------------------------------------------- /
+                             \               /
+                              \             /
+                               \-----+-----/                    <--  0.0000
+ARP=BAM
+                                  | +-+ |
+Bottom of Pre Amplifier  =>|---+====| |====+----|<-----------------  -0.0086
+(BPA)                      |      |     |       |
+ Fixed adaptator ------->  |      |     |---------|
+                           |      |_____|---------|
+                           |      |     |       |
+10002M010 --->|------------|------|-|-|-|-------|------------| <--- -0.0586
+              |----------------------------------------------|
+              |                                              |
+              |                                              |
+              |               Concrete pillar                |
+              |                                              |
+              |                                              |
+              |                                              |
+
+ BPA: Bottom of Pre Amplifier          BCR : Bottom of Choke ring
+ L1 : L1 Phase Center                   L2 : L2 Phase Center
+

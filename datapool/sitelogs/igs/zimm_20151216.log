@@ -1,0 +1,543 @@
+
+     ZIMM Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Elmar Brockmann (Federal Office of Topography)
+     Date Prepared            : 2015-12-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : zimm_20150811.log
+      Modified/Added Sections : 3.10, 3.11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Zimmerwald L+T 88
+     Four Character ID        : ZIMM
+     Monument Inscription     : 
+     IERS DOMES Number        : 14001M004
+     CDP Number               : 
+     Monument Description     : STEEL MAST
+       Height of the Monument : 9.2 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1.5 m
+     Marker Description       : LV95 steeled marker
+     Date Installed           : 1988-03-01T00:00Z
+     Geologic Characteristic  : CONGLOMERATE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : Morraine
+
+
+2.   Site Location Information
+
+     City or Town             : Zimmerwald
+     State or Province        : 
+     Country                  : Switzerland
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4331297.3
+       Y coordinate (m)       : 567555.6
+       Z coordinate (m)       : 4633133.7
+       Latitude (N is +)      : +465237.56
+       Longitude (E is +)     : +0072755.08
+       Elevation (m,ellips.)  : 956.7
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 3310A02691
+     Firmware Version         : 6.12
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1993-05-01T00:00Z
+     Date Removed             : 1997-08-06T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3310A02691
+     Firmware Version         : 7.25
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-08-06T00:00Z
+     Date Removed             : 1999-08-16T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3310A02691
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-08-16T00:00Z
+     Date Removed             : 2003-08-12T14:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 20224769
+     Firmware Version         : Nav  1.30 / Boot  1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-08-12T14:00Z
+     Date Removed             : 2006-02-22T08:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4526253099
+     Firmware Version         : Nav  1.15 / Boot  1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-02-22T14:00Z
+     Date Removed             : 2008-04-01T14:10Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Antenna cable shortened to 40
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4526253099
+     Firmware Version         : Nav  1.20
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-04-01T14:10Z
+     Date Removed             : 2014-05-07T07:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Options L2C and L2-Y-code activated
+
+3.7  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4526253099
+     Firmware Version         : 1.32
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-05-07T07:20Z
+     Date Removed             : 2015-04-27T07:15Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS
+     Serial Number            : 5429R49141
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-04-27T07:15Z
+     Date Removed             : 2015-06-19T06:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : GPS L5 tracking switched from Q+I to Q
+                              : (bug in current firmware)
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS
+     Serial Number            : 5429R49141
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-06-19T06:30Z
+     Date Removed             : 2015-08-11T08:45Z
+     Temperature Stabiliz.    : 
+     Additional Information   : GPS L5 tracking switched from Q to Q+I
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS
+     Serial Number            : 5429R49141
+     Firmware Version         : 5.03
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-08-11T08:45Z
+     Date Removed             : 2015-12-16T09:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS
+     Serial Number            : 5429R49141
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-12-16T09:20Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 3311A67905
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : SUCOFEED
+     Antenna Cable Length     : 50 m
+     Date Installed           : 1993-05-01T00:00Z
+     Date Removed             : 1998-11-06T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 99390
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : SUCOFEED
+     Antenna Cable Length     : 50 m
+     Date Installed           : 1998-11-06T00:00Z
+     Date Removed             : 1999-07-02T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 99390
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : SUCOFEED
+     Antenna Cable Length     : 50 m
+     Date Installed           : 1999-07-02T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : pre-amplifier changed on 2011-12-13
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Laser (7810)
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7810
+     Tied Marker DOMES Number : 14001S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -13.680
+       dy (m)                 : -6.012
+       dz (m)                 : 6.242
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1990-01-25T00:00Z
+     Additional Information   : The old laser system (14001S001) was removed
+                              : end of April 1995. The new telescope is
+                              : within a few millimeters in the same place,
+                              : its horizontal axis is about 25 cm higher.
+                              : Differential coordinates from the GPS
+                              : monument to the reference and other
+                              : monuments. The components are parallel to
+                              : the XYZ-axes of the global geocentric
+                              : reference system ITRF (WGS-84).
+
+5.2  Tied Marker Name         : ZIMLAT
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7810
+     Tied Marker DOMES Number : 14001S007
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -13.506
+       dy (m)                 : -5.986
+       dz (m)                 : 6.420
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1996-04-04T00:00Z
+     Additional Information   : 
+
+5.3  Tied Marker Name         : ZIMLAT
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7810
+     Tied Marker DOMES Number : 14001S007
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -13.5078
+       dy (m)                 : -5.9878
+       dz (m)                 : 6.4225
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2014-11-14T00:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1993-05-01/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1976-01-01/CCYY-MM-DD
+       Notes                  : New telescope since 1996 (see 5.2)
+                              : exact date in 1976 not known
+
+7.2  Instrumentation Type     : Earth tide gravimeter
+       Status                 : PERMANENT
+       Effective Dates        : 1995-01-01/CCYY-MM-DD
+       Notes                  : Swiss Federal Institute of Technology
+                              : Geodesy and Geodynamics Lab (GGL)
+                              : ETH-H D3D94nggerberg
+                              : CH-8093 Zurich
+                              : exact date in 1995 not known
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : Hygromer C94 MP409A
+       Manufacturer           : unknown
+       Serial Number          : 
+       Data Sampling Interval : 1800 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : -0.3 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-01-01/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PAROSCIENTIFIC 740-16B
+       Manufacturer           : unkwnon
+       Serial Number          : 
+       Data Sampling Interval : 1800 sec
+       Accuracy               : < 0.3 hPa
+       Height Diff to Ant     : 7 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-01-01/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : Rotronic PT100  MP409A
+       Manufacturer           : unknown
+       Serial Number          : 
+       Data Sampling Interval : 1800 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : 
+       Height Diff to Ant     : -0.3 m
+       Calibration date       : 
+       Effective Dates        : 1999-01-01/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : ASMUWARA
+       Manufacturer           : Univ. of Berne, Inst. of Applied Physics
+       Serial Number          : 
+       Distance to Antenna    : 18 m
+       Height Diff to Ant     : 3 m
+       Calibration date       : 
+       Effective Dates        : 2006-11-01/CCYY-MM-DD
+       Notes                  : 
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Swiss Federal Office of Topography
+     Preferred Abbreviation   : swisstopo
+     Mailing Address          : Seftigenstrasse 264, CH-3084 Wabern
+     Primary Contact
+       Contact Name           : Elmar Brockmann
+       Telephone (primary)    : +41 58 469 02 56
+       Telephone (secondary)  : +41 58 469 01 11
+       Fax                    : +41 58 469 04 59
+       E-mail                 : elmar.brockmann@swisstopo.ch
+     Secondary Contact
+       Contact Name           : Daniel Ineichen
+       Telephone (primary)    : +41 58 469 01 51
+       Telephone (secondary)  : +41 58 469 02 11
+       Fax                    : +41 58 469 04 59
+       E-mail                 : daniel.ineichen@swisstopo.ch
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : http://www.swisstopo.ch
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : No obstruction above 0 degrees
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TRM14532.00     NONE
+
+                       ----+----                          <-- 0.070 L1
+                    /      +      \                       <-- 0.068 L2
+++----------------+-----------------+-----------------++  <-- 0.063 TGP
+++---------------+-------------------+----------------++  <-- 0.060 BGP
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <-- 0.0 ARP=BPA
+
+                    <--  0.140  -->                               BPA
+                 <--     0.155     -->                            TPA
+ <--                     0.467                      --> NOTCHES
+<--                      0.483                       -->          EDGE
+
+
+
+TRM29659.00     NONE
+
+                         -----
+                     /     +     \                        <-- 0.128 L2
+                    |      +      |                       <-- 0.110 L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.0 ARP=BPA
+
+  <--                    0.381                     -->
+<--                      0.391                       -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+

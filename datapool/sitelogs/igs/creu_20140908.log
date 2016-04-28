@@ -1,0 +1,517 @@
+     CREU Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : David Gomez
+     Date Prepared            : 2014-09-08
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : creu_20140523.log
+      Modified/Added Sections : 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9,
+                              : 3.10
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Cap de Creus
+     Four Character ID        : CREU
+     Monument Inscription     : 
+     IERS DOMES Number        : 13432M001
+     CDP Number               : (A4)
+     Monument Description     : REINFORCED CONCRETE PILLAR
+       Height of the Monument : 3 m
+       Monument Foundation    : REINFORCED CONCRETE BLOCK AND DRILLED STEEL RODS
+       Foundation Depth       : 1.5 m
+     Marker Description       : stainless steel plate with 5/8' thread
+     Date Installed           : 1996-08-01
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : equipment in a lighthouse facility with 48
+                              : hours power autonomy, general power surge
+                              : protections, GPS dedicated surge protections
+                              : and UPS.
+                              : provided with VSAT Star Network (real-time
+                              : data flow)
+                              : The monument foundation has two parts. One is a
+                              : reinforced concrete block (0.5 m) and the other
+                              : are drilled steel rods (1 m).
+
+
+2.   Site Location Information
+
+     City or Town             : Cadaques
+     State or Province        : Girona
+     Country                  : Spain
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4715420
+       Y coordinate (m)       : 273177
+       Z coordinate (m)       : 4271946
+       Latitude (N is +)      : +421907.68
+       Longitude (E is +)     : +0031856.16
+       Elevation (m,ellips.)  :   133.4
+     Additional Information   : the site is placed in a lighthouse
+                              : 25 meters away from the light-tower
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3651A17936
+     Firmware Version         : 7.24
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-06-18
+     Date Removed             : 1999-06-14
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3651A17936
+     Firmware Version         : 7.28
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-06-14
+     Date Removed             : 1999-07-07
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3651A17936
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-07-07T12:17Z
+     Date Removed             : 2001-04-04T14:06Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3651A17936
+     Firmware Version         : 7.19B/3.04A
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2001-04-04T15:00Z
+     Date Removed             : 2002-03-11T13:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3651A17936
+     Firmware Version         : 7.32 / 3.08
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-03-11T14:30Z
+     Date Removed             : 2005-09-06T16:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241644
+     Firmware Version         : 1.13
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-09-06T16:00Z
+     Date Removed             : 2005-09-27T12:34Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257121
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-09-27T12:42Z
+     Date Removed             : 2010-07-13T12:42Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257121
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-07-13T12:42Z
+     Date Removed             : 2013-07-19T13:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Set tracking of unhealthy satellite
+
+3.9  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257121
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-07-19T13:00Z
+     Date Removed             : 2014-09-08T07:46Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Set tracking of unhealthy satellite
+
+3.10 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4536257121
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-09-08T07:46Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : Set tracking of unhealthy satellite
+                              : Disabled the Everest Multipath Reduction
+                              : technology
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     DOME
+     Serial Number            : 0220080352
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0540
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214/U Trimble P/N 14551-00
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1997-06-18
+     Date Removed             : 2003-06-03T12:00Z
+     Additional Information   : DOME is clear spherical
+                              : EMP Protector-Surge Arrestor installed
+                              : between RG214 antenna cable and 2m pigtail
+                              : antenna cable
+                              : model: Huber Suhner 3402.17.K with capsule
+                              : 73 Z-0-0-48
+                              : broken radome is removed on 2003-06-03
+
+4.2  Antenna Type             : TRM29659.00     DOME
+     Serial Number            : 0220080352
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0540
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214/U Trimble P/N 14551-00
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2003-06-03T12:00Z
+     Date Removed             : 2003-07-31T13:14Z
+     Additional Information   : DOME is clear spherical
+                              : EMP Protector-Surge Arrestor installed
+                              : between RG214 antenna cable and 2m pigtail
+                              : antenna cable
+                              : model: Huber Suhner 3402.17.K with capsule
+                              : 73 Z-0-0-48
+                              : identical new DOME replaced the old broken
+                              : one on 2003-06-03T12:00Z
+
+4.3  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 12422774
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0540
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214/U Trimble P/N 14551-00
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2003-07-31T13:14Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : EMP Protector-Surge Arrestor installed
+                              : between RG214 antenna cable and 2m pigtail
+                              : antenna cable
+                              : model: Huber Suhner 3402.17.K with capsule
+                              : 73 Z-0-0-48
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1999-07-07/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : DIGIQUARTZ MET3 MEASUREMENT SYSTEM
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy (% rel h)     : 2
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-03-05/2000-03-05
+       Notes                  : instrumentation 8.1, 8.2 and 8.3 integrated
+                              : in a single unit
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : DIGIQUARTZ MET3 MEASUREMENT SYSTEM
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy               : (hPa)
+       Height Diff to Ant     : 2.177 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-03-05/CCYY-MM-DD
+       Notes                  : instrumentation 8.1, 8.2 and 8.3 integrated
+                              : in a single unit
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : DIGIQUARTZ MET3 MEASUREMENT SYSTEM
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.5 deg C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-03-05/2000-03-05
+       Notes                  : instrumentation 8.1, 8.2 and 8.3
+                              : integrated in a single unit
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Institut Cartografic i Geologic de Catalunya
+     Preferred Abbreviation   : ICGC
+     Mailing Address          : Parc de Montjuic, E-08038 Barcelona
+     Primary Contact
+       Contact Name           : David Gomez
+       Telephone (primary)    : 34-93-567 15 00
+       Telephone (secondary)  : 
+       Fax                    : 34-93-567 15 67
+       E-mail                 : david.gomez@icgc.cat
+     Secondary Contact
+       Contact Name           : Joel Grau
+       Telephone (primary)    : 34-93-567 15 00
+       Telephone (secondary)  : 
+       Fax                    : 34-93-567 15 67
+       E-mail                 : joel.grau@icgc.cat
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : http://www.icc.cat/eng/Home-ICC/Geodesy
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : other data available (i.e. hourly 1Hz) at
+                              : anonymous ftp://geofons.icc.cat/
+     Antenna Graphics with Dimensions
+
+ANTENNA CONFIGURATION ON SITE SINCE 31-JUL-03:
+TRM41249.00
+
+         <--                   0.3396                  -->
+          / ----------------------+--------------------- \   <-- 0.0714 L1
+         +                        +                       +  <-- 0.0682 L2
+          \ -------------------------------------------- /
+                          \               /
+                           \             /
+                           +\===========/+                  <--+< 0.0 ARP=BAM
+                           |             |                     |
+                           |    Mount    |                    0.054 m
+                           |     +-+     |                     |
+Monument =>      +---------+=====|x|=====+--------+         <--+
+Ref. Point +-----+--------|-----------------------+-------+
+           |              Steel plate                     |
+           |                                              |
+           |                                              |
+           |               Concrete pillar                |
+           |                                              |
+           |                                              |
+           |                                              |
+
+
+OTHER ANTENNA
+TRM29659.00
+
+
+       <--                      0.381                       -->
+                                -----
+                            /     +     \                       <-- 0.128 L2
+                           |      +      |                      <-- 0.110 L1
+         +--------------------------------------------------+   <-- 0.102 TCR
+         |                                                  |
+         |                                                  |
+         |                                                  |
+         |                                                  |
+       +-+--------------------------------------------------+-+ <-- 0.038
+       +-------------------+-------------+--------------------+ <-- 0.035 BCR
+                           |             |
+                          =|             |
+                           +=============+                  <--+<-- 0.000 BPA
+                           |             |                     |
+                           |    Mount    |                    0.054 m
+                           |     +-+     |                     |
+Monument =>      +---------+=====|x|=====+--------+         <--+
+Ref. Point +-----+--------|-----------------------+-------+
+           |              Steel plate                     |
+           |                                              |
+           |                                              |
+           |               Concrete pillar                |
+           |                                              |
+           |                                              |
+           |                                              |
+
+
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+TOP: Top of Pole

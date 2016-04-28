@@ -1,0 +1,502 @@
+     OSLS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Aasmund Steen Skjaeveland
+     Date Prepared            : 2016-03-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : osls_20160229.log
+      Modified/Added Sections : 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : OSLO
+     Four Character ID        : OSLS
+     Monument Inscription     : STATENS KARTVERK
+     IERS DOMES Number        : 10307M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : 5.5 m
+       Monument Foundation    : STEEL RODS
+       Foundation Depth       : 0.5 m
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1995-01-01
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Day of year not known
+
+
+2.   Site Location Information
+
+     City or Town             : Oslo
+     State or Province        : BUSKERUD / ROEYKEN
+     Country                  : Norway
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3169982.155
+       Y coordinate (m)       : 579956.601
+       Z coordinate (m)       : 5485936.469
+       Latitude (N is +)      : +594413.20
+       Longitude (E is +)     : +0102204.80
+       Elevation (m,ellips.)  :   221.0
+     Additional Information   : Local name is : MUSERUDAASEN
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3511A10120
+     Firmware Version         : 7.03
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1995-10-05
+     Date Removed             : 1998-06-05T20:31Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3511A10120
+     Firmware Version         : 7.28
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1998-06-05T23:15Z
+     Date Removed             : 2000-05-16T13:15Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE MS750
+     Satellite System         : GPS
+     Serial Number            : 220195993
+     Firmware Version         : 1.20
+     Elevation Cutoff Setting : 7 deg
+     Date Installed           : 2000-05-16T14:30Z
+     Date Removed             : 2009-03-10T15:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS
+     Serial Number            : 4843K33397
+     Firmware Version         : 3.80
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-03-10T15:32Z
+     Date Removed             : 2009-08-31T17:50Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS
+     Serial Number            : 4843K33397
+     Firmware Version         : 4.03
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-08-31T17:57Z
+     Date Removed             : 2011-03-28T16:32Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS
+     Serial Number            : 4843K33397
+     Firmware Version         : 4.22
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-03-28T16:53Z
+     Date Removed             : 2013-12-03T17:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4843K33397
+     Firmware Version         : 4.87
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-12-03T17:00Z
+     Date Removed             : 2015-04-21T08:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5420R48529
+     Firmware Version         : 4.93
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-04-21T08:00Z
+     Date Removed             : 2015-06-18T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5420R48529
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-06-18T11:00Z
+     Date Removed             : 2016-01-20T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5420R48529
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-01-20T12:00Z
+     Date Removed             : 2016-02-29T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5420R48529
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-02-29T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM23903.00     DOME
+     Serial Number            : 0220013551
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   5.0240
+     Marker->ARP North Ecc(m) :   0.0120
+     Marker->ARP East Ecc(m)  :   0.0120
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1995-10-05
+     Date Removed             : 1997-10-13
+     Additional Information   : The antenna TR GEOD L1/L2 GP is not the
+                              : right name of this antenna.
+                              : Antenna radome Type :
+                              : 45 degree angel roof made
+
+4.2  Antenna Type             : TRM29659.00     DOME
+     Serial Number            : 0220098652
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   5.0240
+     Marker->ARP North Ecc(m) :   0.0120
+     Marker->ARP East Ecc(m)  :   0.0120
+     Alignment from True N    : 180 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1997-10-13
+     Date Removed             : 1998-06-05T20:31Z
+     Additional Information   : Degree Offset from North : 180?
+                              : Antenna Radome Type
+                              : 45 degree angel roof made of
+                              : glass fiber
+                              : Removed 22-JAN-1998 10:10 UT
+                              : Date Installed:13-OCT-1997 12:45 UT
+                              : Date Removed : 05-JUN-1998 20:31 UT
+                              : Antenna contact pointed towards South
+                              : 13-OCT-1997 to 22-JAN-1998 10:10 UT,
+                              : the antenna was equipped with the
+                              : radome as in 4.1.
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220098652
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   5.4960
+     Marker->ARP North Ecc(m) :   0.0170
+     Marker->ARP East Ecc(m)  :   0.0130
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-06-05T21:45Z
+     Date Removed             : 2007-04-23T14:05Z
+     Additional Information   : Antenna contact points towards North
+
+4.4  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 23534383
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   5.4960
+     Marker->ARP North Ecc(m) :   0.0170
+     Marker->ARP East Ecc(m)  :   0.0130
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2007-04-23T14:35Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna contact points towards North
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : ARP of TRIMBLE permanent L1/L2
+     Tied Marker Usage        : LOCAL CONTROL/FOOTPRINT
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.478
+       dy (m)                 : 0.466
+       dz (m)                 : 4.345
+     Accuracy (mm)            : 1
+     Survey method            : TRIANGULATION)
+     Date Measured            : 1995-10-05
+     Additional Information   : Differential coordinates from the GPS
+                              : monument (Marker with Domes No.) to the
+                              : ARP.
+                              : The components are parallel to the XYZ-axes
+                              : of the global geocentric reference system
+                              : ITRF (WGS-84).
+
+5.2  Tied Marker Name         : BPA of TRM29659.00
+     Tied Marker Usage        : LOCAL CONTROL/FOOTPRINT
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.478
+       dy (m)                 : 0.466
+       dz (m)                 : 4.345
+     Accuracy (mm)            : 1
+     Survey method            : TRIANGULATION
+     Date Measured            : 1995-10-05
+     Additional Information   : Differential coordinates from the GPS
+                              : monument (Marker with Domes No.) to the
+                              : ARP.
+                              : The components are parallel to the XYZ-axes
+                              : of the global geocentric reference system
+                              : ITRF (WGS-84).
+
+5.3  Tied Marker Name         : BPA of TRM29659.00
+     Tied Marker Usage        : LOCAL CONTROL/FOOTPRINT
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.708
+       dy (m)                 : 0.508
+       dz (m)                 : 4.755
+     Accuracy (mm)            : 2
+     Survey method            : TRIANGULATION
+     Date Measured            : 1998-06-05
+     Additional Information   : Differential coordinates from the GPS
+                              : monument (Marker with Domes No.) to the
+                              : ARP.
+                              : The components are parallel to the XYZ-axes
+                              : of the global geocentric reference system
+                              : ITRF (WGS-84).
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1995-10-05/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : TREES/MAST
+       Effective Dates        : 1995-01-01/CCYY-MM-DD
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geodetic Institute,
+                              : Norwegian Mapping Authority
+     Preferred Abbreviation   : Kartverket
+     Mailing Address          : Postboks 600 Sentrum
+                              : NO-3507 Honefoss
+     Primary Contact
+       Contact Name           : Satref Control Centre
+       Telephone (primary)    : +47 32 11 82 69
+       Telephone (secondary)  : 
+       Fax                    : +47 32 11 81 01
+       E-mail                 : satref@kartverket.no
+     Secondary Contact
+       Contact Name           : Aasmund Steen Skjaeveland
+       Telephone (primary)    : +47 32 11 84 52
+       Telephone (secondary)  : 
+       Fax                    : +47 32 11 81 01
+       E-mail                 : asmund.skjaeveland@kartverket.no
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM29659.00
+
+                           -----
+                       /     +     \                        <--  0.128  L2
+                      |      +      |                       <--  0.110  L1
+    +--------------------------------------------------+    <--  0.102  TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.038
+  +-------------------+-------------+--------------------+  <--  0.035  BCR
+                      |             |
+                     =|             |
+                      +------x------+                       <--  0.000  ARP

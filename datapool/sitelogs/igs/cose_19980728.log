@@ -1,0 +1,165 @@
+     COSE Site Information Form
+     International GPS Service for Geodynamics
+
+0.   Form
+
+     Prepared by (full name)  :Reali Claudio
+     Date Prepared                : 29 July 1998
+     Report Type                  : NEW
+     Prepared Using               :
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                     : Cosenza
+     Four Character ID        : COSE
+     Monument Inscription     : Stable pillar on the roof
+     IERS DOMES Number        : (XXXXXXXXX)
+     CDP Number                : (XXXX)
+     Date Installed		: 1998
+     Geologic Characteristic  : CONGLOMERATE
+       Bedrock Type              :  METAMORPHIC
+       Bedrock Condition      : FRESH
+       Fracture Spacing         : 
+       Notes                  : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town              : PIANO LAGO
+     State or Province        : COSENZA
+     Country                      : ITALY
+     Tectonic Plate            :  Calabrian Arc (Europe)
+     Approximate Position
+       X coordinate (m)       : (m)  4750532.080
+       Y coordinate (m)       : (m)  1390089.729
+       Z coordinate (m)       : (m)  4010089.328
+       Latitude (deg)         :  39 12’ 05” .125842 N
+       Longitude (deg)        :  16 18’37”.474403 E
+       Elevation (m)          : (m) 662.746
+     Additional Information   : (multiple lines)
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : Trimble 4000SSI
+     Serial Number            : 18001
+     Firmware Version         : 7.22
+     Date Installed             : 04 May 1998 
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type               : CHOKE RING TRIMBLE
+     Serial Number                : 77654
+     Antenna Height (m)       : (m) 0.0
+     Antenna Reference Point  : Bottom of the antenna
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed              : 04 May 1998 
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+
+5.   Local Site Ties
+
+5.x  Monument Name            :
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Date Measured            : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              :
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (DORIS/GLONASS/PRARE/SLR/VLBI)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+
+
+
+9.   On-Site, Point of Contact Agency Information
+
+      Agency                        : Consiglio Nazionale Delle Ricerche-IRPI 
+      Mailing Address          : Via Verdi, 248 - 87030 Rende (CS) -Italy
+      Contact Name              : Salvatore Gabriele
+      Telephone (primary)    : ++39 984 839131
+      Telephone (secondary)  :
+      Fax			  : ++39 984 837382
+      E-mail                 	  : gabriele@gndci.cs.cnr.it
+
+      Contact Name               : Claudio Reali
+      Telephone (primary)     : ++39 984 839131
+      Telephone (secondary)  : ++39 368 3417987
+      Fax                    	   : ++39 984 837382 
+      E-mail                 	   : Reali@irpi.cs.cnr.it
+
+
+10.  Responsible Agency (if different from 9.)
+
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Map                 :  
+       Site Diagram           :
+       Horizon Mask          :
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     (insert text graphic)
+
+
+
+
+
+Trimble: DORNE MARGOLIN TRIM
+
+                         -----
+                     /     +     \                      <--  0.128  L2
+                    |      +      |                     <--  0.110  L1
+  +--------------------------------------------------+  <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+- <--  0.038
++-------------------+-------------+--------------------+<--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                     <--  0.000  ARP
+
+<--                      0.381                       -->
+
+
+
+ARP = Antenna Reference Point
+
+
+

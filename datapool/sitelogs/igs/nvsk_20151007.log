@@ -1,0 +1,370 @@
+
+     NVSK Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Vladimir Timofeev, Dmitriy Ardyukov
+     Date Prepared            : 2015-10-07
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nvsk_20141024.log
+      Modified/Added Sections : 3.1, 3.2
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Novosibirsk
+     Four Character ID        : NVSK
+     Monument Inscription     : Seismological and tidal gravity station
+     IERS DOMES Number        : 12319M001
+     CDP Number               : none
+     Monument Description     : STEEL TUBE
+       Height of the Monument : 6.1 m
+       Monument Foundation    : WALL, thickness 0.8
+       Foundation Depth       : 1.0 m
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2000-06-30T00:00Z
+     Geologic Characteristic  : SAND AND SANDSTONE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : Seismical and tidal gravity station established
+                              : 1976 year.
+                              : Special 3-inches metal tube (4.5 meters) was
+                              : installed on the wall(width 0.8 meters),
+                              : east wall of one floor seismology station
+                              : building. Forced centered GPS antenna on
+                              : the top of tube, height from the ground 6.1 m.
+
+
+2.   Site Location Information
+
+     City or Town             : Novosibirsk
+     State or Province        : 
+     Country                  : Russian Federation
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 433604.1534
+       Y coordinate (m)       : 3655557.7470
+       Z coordinate (m)       : 5191288.0377
+       Latitude (N is +)      : +545026.16
+       Longitude (E is +)     : +0831407.80
+       Elevation (m,ellips.)  : 123.6429
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 0220180873
+     Firmware Version         : 1.20
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2000-06-30T00:00Z
+     Date Removed             : 2001-07-01T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Firmware version from 29-AUG-1999 field
+                              : configuration
+
+3.2  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 0220180873
+     Firmware Version         : NP 1.30 / SP 0.00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2001-07-01T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM33429.00+GP  NONE
+     Serial Number            : 0220179989
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 6.1546
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : none
+     Antenna Cable Type       : TRIMBLE 14553-00
+     Antenna Cable Length     : 10 m
+     Date Installed           : 2000-06-30T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Forced centered antenna
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2000-06-30/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : Thermo-hygrometer
+       Manufacturer           : Oregon Scientific, Ltd
+       Serial Number          : NONE
+       Data Sampling Interval : 600 sec
+       Accuracy (% rel h)     : 1
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 2.25 m
+       Calibration date       : 2010-12-25
+       Effective Dates        : 2010-12-25/CCYY-MM-DD
+       Notes                  : The sensor STR918 is incorporated in the WMR918
+                              : meteorological station
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : capacity sensor developed in Belgium Royal
+       Manufacturer           : M.Van Ruymbeke
+       Serial Number          : NONE
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.01 hPa
+       Height Diff to Ant     : 5 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-03-06/2000-07-06
+       Notes                  : first channel
+
+8.2.2  Pressure Sensor Model  : Baro-thermo-hygrometer
+       Manufacturer           : Oregon Scientific, Ltd
+       Serial Number          : NONE
+       Data Sampling Interval : 600 sec
+       Accuracy               : 1 hPa
+       Height Diff to Ant     : 2.25 m
+       Calibration date       : 2010-12-25
+       Effective Dates        : 2010-12-25/CCYY-MM-DD
+       Notes                  : The sensor BTHR918N is incorporated in the
+                              : WMR918
+                              : meteorological station
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : resistence bridge in digital MDAS system
+       Manufacturer           : NONE
+       Serial Number          : NONE
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.01 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 5 m
+       Calibration date       : 
+       Effective Dates        : 2000-03-06/2000-07-06
+       Notes                  : second channel
+
+8.3.2  Temp. Sensor Model     : Thermo-hygrometer
+       Manufacturer           : Oregon Scientific, Ltd
+       Serial Number          : NONE
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 2.25 m
+       Calibration date       : 2010-12-25
+       Effective Dates        : 2010-12-25/CCYY-MM-DD
+       Notes                  : The sensor STR918 is incorporated in the WMR918
+                              : meteorological station
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Trofimuk Institute of Petroleum Geology and
+                              : Geophysics
+                              : Siberian Branch of Russian Academy of Sciences
+     Preferred Abbreviation   : IPGG SB RAS
+     Mailing Address          : Pr.Akad.Koptyuga, 3, Novosibirsk-90, 630090,
+                              : Russia
+     Primary Contact
+       Contact Name           : Vladimir Timofeev
+       Telephone (primary)    : +7-383-2-35-64-42
+       Telephone (secondary)  : +7-383-2-30-25-91
+       Fax                    : +7-383-2-33-34-32
+       E-mail                 : TimofeevVY@ipgg.nsc.ru
+     Secondary Contact
+       Contact Name           : Dmitriy Ardyukov
+       Telephone (primary)    : +7-383-2-35-64-42
+       Telephone (secondary)  : +7-383-2-30-25-91
+       Fax                    : +7-383-2-33-34-32
+       E-mail                 : ArdyukovDG@ipgg.nsc.ru
+     Additional Information   : All troubles please send to Dmitry Ardyukov
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Trofimuk Institute of Petroleum Geology and
+                              : Geophysics Siberian Branch Russian Academy of
+                              : Science
+     Preferred Abbreviation   : IPGG SB RAS
+     Mailing Address          : 630090, Russian Federation, Novosibirsk, pr. ak.
+                              : Koptyuga, 3
+     Primary Contact
+       Contact Name           : Ardyukov Dmitriy
+       Telephone (primary)    : +7-913-925-0390
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : ardyukovdg@ipgg.sbras.ru
+     Secondary Contact
+       Contact Name           : Timofeev Vladimir
+       Telephone (primary)    : +7-383-335-64-42
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : timofeevvy@ipgg.sbras.ru
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : SIO
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+        Trimble:   L1/L2 microcentered, Compact Geodetic, Model TRM33429.00+GP
+                                          [m] 
+
+
+                        ----+----                          <--  0.0740  L1
+                     /      +      \                       <--  0.0703  L2
+++----------------+-----------------+-----------------++  <--  0.0591  TGP
+++---------------+-------------------+----------------++  <--  0.0556  BGP
+                  |                   |
+                   |                 |
+                    |               |
+                     +------x------+                       <--  0.000  ARP=BPA
+
+  <--                     0.4668                     -->        INNER EDGE
+<--                      0.4826                      -->       OUTER EDGE
+
+   ARP: Antenna Reference Point
+   L1,L2 : L1,L2 Phase Center                   
+   TGP: Top Ground Plain     
+   BGP: Bottom Ground Plain
+
+
+

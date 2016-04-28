@@ -1,0 +1,447 @@
+     OROS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Ambrus Kenyeres
+     Date Prepared            : 2015-10-07
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : oros_20150629.log
+      Modified/Added Sections : 3.10, 3.11, 4.4, 4.5
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Oroshaza
+     Four Character ID        : OROS
+     Monument Inscription     : forced centered marker tied to an unused chimney
+     IERS DOMES Number        : 11207M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL ROD
+       Height of the Monument : 2 m
+       Monument Foundation    : ROOF/CHIMNEY
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2001-09-20
+     Geologic Characteristic  : SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Oroshaza
+     State or Province        : Bekes
+     Country                  : Hungary
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4110967.5
+       Y coordinate (m)       : 1551025.7
+       Z coordinate (m)       : 4607983.3
+       Latitude (N is +)      : +463317.64
+       Longitude (E is +)     : +0204015.24
+       Elevation (m,ellips.)  :   134.4
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 1607
+     Firmware Version         : 7.19
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2001-09-20
+     Date Removed             : 2004-10-13
+     Temperature Stabiliz.    : 22.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 1607
+     Firmware Version         : 7.19
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-10-13
+     Date Removed             : 2007-06-08
+     Temperature Stabiliz.    : 22.0 +/- 3.0
+     Additional Information   : the receiver remained the same, only the TRS
+                              : reference station SW was replaced by GPSBase
+
+3.3  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 458291
+     Firmware Version         : 5.10/2.125
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-06-08
+     Date Removed             : 2008-03-14T12:00Z
+     Temperature Stabiliz.    : 22.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 458291
+     Firmware Version         : 5.62/2.125
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-03-14T12:00Z
+     Date Removed             : 2010-12-14T10:10Z
+     Temperature Stabiliz.    : 22.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 456761
+     Firmware Version         : 8.00/4.007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-12-14T12:10Z
+     Date Removed             : 2011-03-31T07:50Z
+     Temperature Stabiliz.    : 22.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 456761
+     Firmware Version         : 8.10/4.007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-03-31T08:00Z
+     Date Removed             : 2011-06-02T08:10Z
+     Temperature Stabiliz.    : 22.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 456761
+     Firmware Version         : 8.20/4.007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-06-02T08:25Z
+     Date Removed             : 2012-01-09T10:11Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 456761
+     Firmware Version         : 8.50/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-01-09T10:32Z
+     Date Removed             : 2012-04-18T08:43Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 456761
+     Firmware Version         : 8.51/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-04-18T08:51Z
+     Date Removed             : 2015-06-29T09:28Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 456761
+     Firmware Version         : 9.20/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-06-29T10:15Z
+     Date Removed             : 2015-10-06T09:30Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 353058
+     Firmware Version         : 8.71/3.822
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-10-06T10:40Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.10     NONE
+     Serial Number            : 64348
+     Antenna Reference Point  : TOP
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-09-20
+     Date Removed             : 2002-04-16
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TRM14532.10     NONE
+     Serial Number            : 64765
+     Antenna Reference Point  : TOP
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2002-04-16
+     Date Removed             : 2007-06-08
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 103003
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-06-08
+     Date Removed             : 2010-12-14T10:10Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : LEIAR25.R3      LEIT
+     Serial Number            : 10190015
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-12-14T11:10Z
+     Date Removed             : 2015-10-06T09:30Z
+     Additional Information   : (multiple lines)
+
+4.5  Antenna Type             : LEIAT504GG      LEIS
+     Serial Number            : 200200
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2015-10-06T10:40Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2001-09-20/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : FOMI Satellite Geodetic Observatory
+     Preferred Abbreviation   : FOMI SGO
+     Mailing Address          : H-1592 Budapest
+                              : P.O.Box 585, Hungary
+     Primary Contact
+       Contact Name           : Dr Ambrus Kenyeres
+       Telephone (primary)    : +36-27 374 980
+       Telephone (secondary)  : +36-27 374 844/145
+       Fax                    : +36-27 374 982
+       E-mail                 : kenyeres@sgo.fomi.hu
+     Secondary Contact
+       Contact Name           : Istvan Galambos
+       Telephone (primary)    : +36-27 374 980
+       Telephone (secondary)  : +36-27 374 844/119
+       Fax                    : +36-27 374 982
+       E-mail                 : galambos@gnssnet.hu
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+LEIAT504
+LEIAT504GG
+
+                         +-------+                          <-- 0.1393
+                       /     +
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.1012 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.0 BPA=ARP

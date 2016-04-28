@@ -1,0 +1,705 @@
+
+     FLIN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Stuart Elson
+     Date Prepared            : 2015-07-06
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : flin_20140227.log
+      Modified/Added Sections : 4.5, 4.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : FLIN CACS-GSD
+     Four Character ID        : FLIN
+     Monument Inscription     : 965000
+     IERS DOMES Number        : 40135M001
+     CDP Number               : 
+     Monument Description     : CONCRETE PIER, 50.8cm DIAMETER
+       Height of the Monument : 1.50 m
+       Monument Foundation    : INVAR and STEEL RODS
+       Foundation Depth       : 3.00 m
+     Marker Description       : UNAVCO type antenna spike mount on Invar Rod
+     Date Installed           : 1996-06-05T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : IGNEOUS/METAMORPHIC
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 51-200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : The bottom 1m of the invar rod is grouted in
+                              : bedrock at a depth of 2-3m. The rod passes
+                              : through a foam sleeve inside a 3.8cm ABS pipe
+                              : to the top of the concrete pier. The top of
+                              : the invar rod is laterally stabilized by a
+                              : bronze plate at the top of the concrete pier.
+                              : A UNAVCO type antenna spike mount is used to
+                              : level and orient the antenna. Polypropelene
+                              : fibres are used instead of steel reinforcement
+                              : rods; a special superplasiticized fly ash
+                              : concrete mix has been used.  The pier
+                              : construction was designed to minimize effects
+                              : of temperature on monument stability,
+                              : especially in the vertical.
+
+
+2.   Site Location Information
+
+     City or Town             : CFS FLIN FLON
+     State or Province        : SK
+     Country                  : Canada
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -766174.46
+       Y coordinate (m)       : -3611375.32
+       Z coordinate (m)       : 5184056.22
+       Latitude (N is +)      : +544332.16
+       Longitude (E is +)     : -1015840.80
+       Elevation (m,ellips.)  : 320.00
+     Additional Information   : FLIN is a continuously tracking GNSS station 
+                              : and is part of the Canadian Active Control
+                              : System (CACS). The station is located
+                              : in the vicinity of Flin Flon, Manitoba.
+                              :  From Jun 1996 to Dec 2010, Flin was operated
+                              : by the Geological Survey of Canada as part of
+                              : the Western Canada Deformation Array (WCDA)
+                              : for monitoring crustal deformation on the
+                              : West Coast. The Geodetic Survey of Canada now
+                              : operates the site.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 381
+     Firmware Version         : 3.2.32.1 LK 95/06/29
+     Elevation Cutoff Setting : 
+     Date Installed           : 1996-06-05T00:00Z
+     Date Removed             : 1997-01-07T20:03Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 194 UNAVCO NO. 8870
+     Firmware Version         : 3.2 LK 95/03/09
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-01-07T20:03Z
+     Date Removed             : 1997-12-09T22:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 386 UNAVCO 9549
+     Firmware Version         : 3.2 LK 95/03/09
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-12-09T22:20Z
+     Date Removed             : 1998-09-23T15:12Z
+     Temperature Stabiliz.    : 
+     Additional Information   : receiver failed 
+
+3.4  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 292
+     Firmware Version         : 3.2 LK 95/03/09
+     Elevation Cutoff Setting : 
+     Date Installed           : 1998-09-23T15:12Z
+     Date Removed             : 1998-12-10T22:48Z
+     Temperature Stabiliz.    : 
+     Additional Information   : receiver exchanged 
+
+3.5  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 386 UNAVCO 9549
+     Firmware Version         : 3.2 LK 95/03/09
+     Elevation Cutoff Setting : 
+     Date Installed           : 1998-12-10T23:01Z
+     Date Removed             : 1999-05-26T21:15Z
+     Temperature Stabiliz.    : 
+     Additional Information   : new receiver installed 
+
+3.6  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 386 UNAVCO 9549
+     Firmware Version         : 3.2.32.8 LK 98/12/28
+     Elevation Cutoff Setting : 
+     Date Installed           : 1999-05-26T21:15Z
+     Date Removed             : 2001-01-13T18:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : new firmware installed 
+
+3.7  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1115
+     Firmware Version         : 3.3.32.4 LK 00/06/02
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-01-13T18:20Z
+     Date Removed             : 2009-05-13T11:47Z
+     Temperature Stabiliz.    : 
+     Additional Information   : new receiver/firmware installed 
+
+3.8  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 460414
+     Firmware Version         : 7.5
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-05-13T14:14Z
+     Date Removed             : 2010-12-21T12:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : new receiver/firmware installed 
+
+3.9  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 401-01951
+     Firmware Version         : 3.4p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-12-21T13:00Z
+     Date Removed             : 2014-02-24T18:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-02355
+     Firmware Version         : 3.6 Dec,04,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-02-24T19:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 96277
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1500
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ANDREWS FSJ4-50B
+     Antenna Cable Length     : 80.00 m
+     Date Installed           : 1996-06-05T00:00Z
+     Date Removed             : 1997-01-07T20:03Z
+     Additional Information   : Modified UNAVCO mount. RF skirt placed 
+                              : around base of antenna s.t. top of pier
+                              : covered.
+                              : ref. Antenna Diagram "A" below
+                              : degrees offset from North refers to "True
+                              : North"
+                              : Antenna p/n 7490582-B
+
+4.2  Antenna Type             : AOAD/M_T        EMRA
+     Serial Number            : 231
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1500
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 180.0 deg
+     Antenna Radome Type      : EMRA
+     Radome Serial Number     : 
+     Antenna Cable Type       : ANDREWS FSJ4-50B
+     Antenna Cable Length     : 80.00 m
+     Date Installed           : 1997-01-07T20:03Z
+     Date Removed             : 1999-09-21T19:10Z
+     Additional Information   : Acrylic dome placed over top of antenna / 
+                              : choke ring;
+                              : ref. Antenna Diagram "B" below
+                              : degrees offset from North refers to "True
+                              : North"
+                              : Antenna p/n 7490400-2
+
+4.3  Antenna Type             : AOAD/M_T        SCIS
+     Serial Number            : 231
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1500
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 180.0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 25
+     Antenna Cable Type       : ANDREWS FSJ4-50B
+     Antenna Cable Length     : 80.00 m
+     Date Installed           : 1999-09-21T20:53Z
+     Date Removed             : 2009-05-13T11:47Z
+     Additional Information   : Acrylic dome placed over top of antenna / 
+                              : choke ring;
+                              : ref. Antenna Diagram "B" below
+                              : degrees offset from North refers to "True
+                              : North"
+                              : Antenna p/n 7490400-2
+
+4.4  Antenna Type             : AOAD/M_T        SCIS
+     Serial Number            : 231
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1500
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 180.0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 25
+     Antenna Cable Type       : ANDREWS FSJ4-50B
+     Antenna Cable Length     : 80.00 m
+     Date Installed           : 2009-05-13T14:14Z
+     Date Removed             : 2010-12-21T12:59Z
+     Additional Information   : antenna splitter installed: 
+                              : - p/n LDCBS1X2 (GPS Networking);
+                              : - s/n 3540;
+                              : ref. Antenna Diagram "C" below
+                              : degrees offset from North refers to "True
+                              : North"
+                              : Antenna p/n 7490400-2
+
+4.5  Antenna Type             : NOV750.R4       NONE
+     Serial Number            : 9470003
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1500
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ANDREWS FSJ4-50B
+     Antenna Cable Length     : 80.00 m
+     Date Installed           : 2010-12-21T13:00Z
+     Date Removed             : 2015-07-06T16:00Z
+     Additional Information   : RF skirt and radome removed. Installed a 
+                              : radio frequency absorbing ecosorb foam
+                              : model ANW-77 on top of contrete pier and
+                              : seperated from it by a 5cm thick styrofoam.
+                              : NOV750.R4 degree offset is 0.0 from True
+                              : North since installation.
+
+4.6  Antenna Type             : NOV750.R4       NOVS
+     Serial Number            : 9470003
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1500
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : NOVS
+     Radome Serial Number     : 
+     Antenna Cable Type       : ANDREWS FSJ4-50B
+     Antenna Cable Length     : 80.00 m
+     Date Installed           : 2015-07-06T16:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Installed NOVS Radome. 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1996-06-05/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 1995-10-01/CCYY-MM-DD
+       Notes                  : Contact GSC for more information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NRCan/GEODETIC SURVEY OF CANADA
+     Preferred Abbreviation   : NRCan
+     Mailing Address          : 615 Booth Street, Ottawa,Ontario
+                              : Canada, K1A 0E9
+     Primary Contact
+       Contact Name           : Mark Caissy
+       Telephone (primary)    : 613-995-4024
+       Telephone (secondary)  : 250-363-6500
+       Fax                    : 613-995-3215
+       E-mail                 : caissy@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Stuart Elson
+       Telephone (primary)    : 613-992-1997
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : Stuart.Elson@NRCan-RNCan.gc.ca
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : NRCan
+     URL for More Information : http://www.geod.nrcan.gc.ca/index_e.php
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+
+
+
+
+Antenna Diagram A
+*****************
+
+           TURBOROGUE: AOAD/M_T (Allen Osborne Design)
+                              (not to scale)
+
+                                   -----
+                               /     +     \
+                              |      +      |
+             +-----------------------------------------------+<- 0.102 TCR
+             |                                               |
+             |                                               |
+             |                                               |
+             |                                               |
+         +-+------------------------------------------------+-+ <- 0.038
+         +-------------------+-------------+------------------+ <- 0.035 BCR
+  |======FLANGE=======       |             |       =======RING=======|
+|                            |             |                           |
+|                            +------X------+     <----- 0.000 BPA=ARP  |
+ |                                *   *          |                    |
+ |                                *   *          |                    |
+  |                           *****   *****      |                  |< metal
+  |                                * *         15cm                 |screen
+   |                               * *           |                  |RF
+   |                               * *           |                  |skirt
+    [===============================#==============================] TOP OF
+    [                                                              ]CONCRETE
+    [                                                              ]PIER
+    [                                                              ]
+
+
+Antenna Diagram B
+*****************
+
+           TURBOROGUE: AOAD/M_T (Allen Osborne Design)
+                                  (not to scale)
+
+                              .       .
+                      .                       .
+                .                                   .
+            .                                           .<- ACRYLIC DOME
+        .                       -----                      . (EMRA)
+      .                     /     +     \                    .
+    .                      |      +      |                     .
+   .      +-----------------------------------------------+     <- 0.102 TCR
+  .       |                                               |      .
+  .       |                                               |      .
+  .       |                                               |      .
+  .       |                                               |      .
+  .    +-+------------------------------------------------+-+    .<- 0.038
+...    +-------------------+-------------+------------------+  <-- 0.035 BCR
+|======FLANGE=======       |             |       =======RING=======|
+ |                         |             |                        |
+ |                         +------X------+   <------ 0.000 BPA=ARP|
+ |                              *   *          |                  |
+ |                              *   *          |                  |
+  |                         *****   *****      |                 |
+  |                              * *         15cm                |< metal
+   |                             * *           |                |  screen
+   |                             * *           |                | (RF skirt)
+   [==============================#=============================] TOP OF
+   [                                                            ] CONCRETE
+   [                                                            ] PIER
+   [                                                            ]
+
+
+                     # ...  Monument Reference Point
+                    ARP ... Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+Antenna Diagram C
+*****************
+
+           TURBOROGUE: AOAD/M_T (Allen Osborne Design)
+                                  (not to scale)
+
+
+                              .  .  .
+                         .                .
+                     .                        .
+                  .                              .
+               .                                    .
+             .                                        .
+           .                                            .
+         . <--  DOME (SCIS)                                .
+       .                                                    .
+      .                                                      .
+     .                                                        .
+     .                                                        .
+     .                                                        .
+     .                         -----                          .
+     .                                                        .
+     .                     /     +     \                      .
+     .                    |      +      |                     .
+     .    +-----------------------------------------------+   .<- 0.102 TCR
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     . +-+------------------------------------------------+-+ .<- 0.038
+     . +-------------------+-------------+------------------+ .<- 0.035 BCR
+     |                     |             |                    |
+     |                     |             |                    |
+     |                     +------X------+   <----- 0.000 BPA=ARP
+    |                           *   *          |               |
+   |                            *   *          |                |
+   |                        *****   *****      |                |
+   |                             * *         15cm               |< metal
+   |                             * *           |                |  screen
+   |                             * *           |                | (RF skirt)
+   [==============================#=============================] TOP OF
+   [                                                            ] CONCRETE
+   [                                                            ] PIER
+   [                                                            ]
+                     # ...  Monument Reference Point
+                    ARP ... Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+
+
+Type:  NOV750.R4
+
+                                     +-------+                         <--  0.1995
+                                    /         \
+                              +---+-------------+---+                  <--  0.1599  TCR
+                              |                     |
+                           |---------------------------|
+                        |---------------------------------|
+                     |---------------------------------------|
+                  +---------------------------------------------+
+                  |                                             |
+                  |                                             |
+                +-+---------------------------------------------+-+
+                +-----------------+-------------+-----------------+    <--  0.0320  BCR
+                <--               |    0.3802   |               -->
+                                  |             |
+                                  |             |
+                                  +------x------+                      <--  0.0000  BPA=ARP
+                                       *   *    |
+        +----------------------------  *   *  --|-------------------------+ <-- RF
+        |         |                *****   *****|                         |
+        |        11cm                   * *    15cm                       |
+        |<--      |                    0.6100   |                     --> |
+        |---------|-----------------------------|-------------------------|
+        +-[==============================#==============================]-+ TOP OF
+          [<--                         0.5080                        -->]   CONCRETE
+          [                                                             ]   PIER
+          [                                                             ]
+          |                                                             |
+          +-------------------------------------------------------------+
+
+
+
+
+   ARP: Antenna Reference Point           MRP: Monument Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   RF : Radio Frequency ecosorb foam ANW-77
+
+
+Type:  NOV750.R4  NOVS
+
+
+                                         .
+                                  .             .
+                              .                     .
+                          . <--  DOME (NOVS)            .
+                       .                                   .
+                     .                                       .
+                   .                 +-------+                 .       <--  0.1995
+                 .                  /         \                  .
+                .             +---+-------------+---+             .    <--  0.1599  TCR
+               .              |                     |              .
+              .            |---------------------------|            .
+              .         |---------------------------------|         .
+              .      |---------------------------------------|      .
+              .   +---------------------------------------------+   .
+              .   |                                             |   .
+              .   |                                             |   .
+              . +-+---------------------------------------------+-+ .
+              . +-----------------+-------------+-----------------+ .  <--  0.0320  BCR
+                <--               |    0.3802   |               -->
+                                  |             |
+                                  |             |
+                                  +------x------+                      <--  0.0000  BPA=ARP
+                                       *   *    |
+        +----------------------------  *   *  --|-------------------------+ <-- RF
+        |         |                *****   *****|                         |
+        |        11cm                   * *    15cm                       |
+        |<--      |                    0.6100   |                     --> |
+        |---------|-----------------------------|-------------------------|
+        +-[==============================#==============================]-+ TOP OF
+          [<--                         0.5080                        -->]   CONCRETE
+          [                                                             ]   PIER
+          [                                                             ]
+          |                                                             |
+          +-------------------------------------------------------------+
+
+
+
+
+   ARP: Antenna Reference Point           MRP: Monument Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   RF : Radio Frequency ecosorb foam ANW-77
+

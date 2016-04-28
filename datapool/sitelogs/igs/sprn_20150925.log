@@ -1,0 +1,506 @@
+     SPRN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Andras Fabian
+     Date Prepared            : 2015-09-25
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : sprn_20150921.log
+      Modified/Added Sections : 3.9, 3.10, 4.2, 4.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Sopron
+     Four Character ID        : SPRN
+     Monument Inscription     : Central reference marker
+     IERS DOMES Number        : 11227M001
+     CDP Number               : none
+     Monument Description     : Small pillar
+       Height of the Monument : 0.15 m
+       Monument Foundation    : Roof
+       Foundation Depth       : 15 m
+     Marker Description       : Aluminium bush
+     Date Installed           : 1993-06-02
+     Geologic Characteristic  : shallow clay sediment
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : great fracture of the Sopron Mountain
+         Distance/activity    : 5 km SE, not active
+     Additional Information   : The Sopron Mountain (crystalline schist) is the
+                              : most eastern part of the Eastern Alps and it is
+                              : an inland mountain.
+
+
+2.   Site Location Information
+
+     City or Town             : Sopron
+     State or Province        : Gyor-Moson-Sopron County
+     Country                  : Hungary
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4123048.377
+       Y coordinate (m)       : 1227806.157
+       Z coordinate (m)       : 4693474.060
+       Latitude (N is +)      : +474101.12
+       Longitude (E is +)     : +0163458.98
+       Elevation (m,ellips.)  :   279.0
+     Additional Information   : none
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 463374
+     Firmware Version         : 5.10/2.125
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-11-01T12:00Z
+     Date Removed             : 2008-03-14T12:00Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : none
+
+3.2  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 463374
+     Firmware Version         : 5.62/2.125
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-03-14T12:00Z
+     Date Removed             : 2011-05-17T08:00Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : none
+
+3.3  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 460907
+     Firmware Version         : 8.10/4.007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-05-17T09:00Z
+     Date Removed             : 2011-06-02T07:00Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : none
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 460907
+     Firmware Version         : 8.20/4.007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-06-02T07:30Z
+     Date Removed             : 2012-01-09T09:00Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 460907
+     Firmware Version         : 8.50/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-01-09T09:22Z
+     Date Removed             : 2012-04-18T06:00Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 460907
+     Firmware Version         : 8.51/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-04-18T06:08Z
+     Date Removed             : 2012-07-27T06:00Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 463374
+     Firmware Version         : 8.51/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-07-27T06:15Z
+     Date Removed             : 2015-06-30T09:30Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 463374
+     Firmware Version         : 9.20/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-06-30T10:30Z
+     Date Removed             : 2015-09-21T11:05Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 463374
+     Firmware Version         : 9.20/6.110
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-21T11:07Z
+     Date Removed             : 2015-09-24T09:30Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 353076
+     Firmware Version         : 8.71/3.822
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-24T11:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 103434
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.3650
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : none
+     Antenna Cable Type       : none
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2006-11-01T12:00Z
+     Date Removed             : 2011-05-17T08:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : LEIAR25.R3      LEIT
+     Serial Number            : 09040011
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.3650
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 5 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : none
+     Antenna Cable Type       : none
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2011-05-17T09:00Z
+     Date Removed             : 2015-09-24T09:30Z
+     Additional Information   : none
+
+4.3  Antenna Type             : LEIAT504GG      LEIS
+     Serial Number            : 200202
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.3650
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : none
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2015-09-24T11:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2006-11-01/CCYY-MM-DD
+       Notes                  : none
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : Lightning detector
+       Status                 : PERMANENT
+       Effective Dates        : 2006-05-07/CCYY-MM-DD
+       Notes                  : 9.00 m from GPS antenna
+
+7.2  Instrumentation Type     : Extensometer
+       Status                 : PERMANENT
+       Effective Dates        : 1991-01-03/CCYY-MM-DD
+       Notes                  : within 2 km
+
+7.3  Instrumentation Type     : Seismometer
+       Status                 : PERMANENT
+       Effective Dates        : 1964-01-01/CCYY-MM-DD
+       Notes                  : within 2 km
+
+7.4  Instrumentation Type     : Digital ionosonde
+       Status                 : PERMANENT
+       Effective Dates        : 2007-03-26/CCYY-MM-DD
+       Notes                  : within 12 km
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : BHS-03R
+       Manufacturer           : Boreas
+       Serial Number          : 
+       Data Sampling Interval : 60 s
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 0.0 m
+       Calibration date       : 
+       Effective Dates        : 2006-11-01/CCYY-MM-DD
+       Notes                  : Combined temp. and humidity sensor
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : BPS-03
+       Manufacturer           : Boreas
+       Serial Number          : 
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.3 hPa
+       Height Diff to Ant     : 0.0 m
+       Calibration date       : 
+       Effective Dates        : 2010-12-09/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : BHS-03R
+       Manufacturer           : Boreas
+       Serial Number          : 
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.2 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 0.00 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2006-11-01/CCYY-MM-DD
+       Notes                  : Combined temp. and humidity sensor
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : FOMI Satellite Geodetic Observatory
+     Preferred Abbreviation   : FOMI SGO
+     Mailing Address          : H-1592 Budapest, P.O.Box 585, Hungary
+     Primary Contact
+       Contact Name           : István Galambos
+       Telephone (primary)    : +36-27-200-809
+       Telephone (secondary)  : +36-30-867-2569
+       Fax                    : +36 27 200 933
+       E-mail                 : galambos.istvan@gnssnet.hu
+     Secondary Contact
+       Contact Name           : András Fábián
+       Telephone (primary)    : +36-27-200-810
+       Telephone (secondary)  : +36-30-867-2570
+       Fax                    : +36 27 200 933
+       E-mail                 : fabian.andras@gnssnet.hu
+     Additional Information   : The data flow is provided by the
+                              : Operational Center of National
+                              : Active GNSS Network (FOMI SGO)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geodetic and Geophysical
+                              : Research Institute
+     Preferred Abbreviation   : GGRI
+     Mailing Address          : Csatkai u. 6-8, 9400 Sopron, Hungary
+     Primary Contact
+       Contact Name           : Laszlo Banyai
+       Telephone (primary)    : +36 99 508357
+       Telephone (secondary)  : +36 99 317835
+       Fax                    : +36 99 508355
+       E-mail                 : banyai@ggki.hu
+     Secondary Contact
+       Contact Name           : Attila Gyimothy
+       Telephone (primary)    : +36 99 508340
+       Telephone (secondary)  : +36 20 3737469
+       Fax                    : +36 99 508355
+       E-mail                 : gyimothy@ggki.hu
+     Additional Information   : The GGRI is responsible for the maintenance of
+                              : the station and for the facts given in the
+                              : commitment letter.
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : http://www.gpsnet.hu
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : see below
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+LEIAT504 L1/L2 Dorne Margolin antenna with chokering
+(designed after DORNE MARGOLIN T)
+
+                        +-------+                         <-- 0.1393
+                      /     +                            <-- 0.1282 L2
+                     |      +      |                      <-- 0.1093 L1
+   +-----------------+-------------+------------------+   <-- 0.1020 TCR
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+ +-+--------------------------------------------------+-+ <-- 0.0380 BCR
+ +-------------------+-------------+--------------------+
+                     |             |
+                     |             |
+                     +------x------+         <-- 0.0000 BPA=ARP
+
+                  -->     0.3794     <--
+
+
+Monument description
+
+                        ---------
+                 /
+            /
+        /                                              -- LEIS radome
+      /
+    /                   +-------+
+   |                  /     +                        |
+  |                  |      +      |                   |
+ | +-----------------+-------------+------------------+ |
+   |                                                  | |
+ | |                                                  | |
+ | |                                                  | |
+ | |                                                  | |
+ +-+--------------------------------------------------+-+
+ +-------------------+-------------+--------------------+
+                     |             |
+                     |             |
+                     +------x------+                        <-- ARP
+                           | |
+                           | |
+                           | |
+                           | |
+                           | |
+                           | |                  --- exchangeable
+                           | |                      aluminium rod
+                           | |                      (0.365 m)
+                           | |
+                           | |
+                           | |
+                           | |
+ +------------------------- x -------------------------+ <-- Benchmark
+ |                         | |  Aluminium bush         |     reference
+ |                         ---                         |     point
+ |                        small                        |
+ |                    concrete pillar                  |
+_|_____________________________________________________|__   roof of

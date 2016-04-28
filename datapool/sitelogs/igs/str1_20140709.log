@@ -1,0 +1,801 @@
+     STR1 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ted Zhou
+     Date Prepared            : 2014-07-09
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : str1_20120117.log
+      Modified/Added Sections : 3.15,3.16
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Stromlo
+     Four Character ID        : STR1
+     Monument Inscription     : AU052
+     IERS DOMES Number        : 50119M002
+     CDP Number               : (A4) 
+     Monument Description     : PILLAR
+       Height of the Monument : 3.0 (m)
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 2.5 (m)
+     Marker Description       : STAINLESS STEEL THREADED SPIGOT
+     Date Installed           : 1998-06-15T00:00Z
+     Geologic Characteristic  : BEDROCK 
+       Bedrock Type           : IGNEOUS 
+       Bedrock Condition      : FRESH 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : The intersection of the vertical axis of a 
+                              :  5/8" Whitworth threaded steel stub, with the
+                              :  horizontal plane coinciding with the top of 
+                              :  the mounting plate to which the steel stub is
+                              :  attached.  This mounting is on top of the
+                              :  north calibration pillar at the Stromlo
+                              :  satellite Laser Ranging station, and is 183mm
+                              :  vertically above a similar mounting which
+                              :  is used for the Laser calibration target.
+                              :  This mounting for the calibration target is 
+                              :  known as AU046.
+
+2.   Site Location Information
+
+     City or Town             : Canberra
+     State or Province        : Australian Capital Territory
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4467102.3061
+       Y coordinate (m)       : +2683039.5303
+       Z coordinate (m)       : -3666949.9820
+       Latitude (N is +)      : -351855.93953
+       Longitude (E is +)     : +1490039.17982
+       Elevation (m,ellips.)  : 800.032
+     Additional Information   : The GPS is located near GA's
+                              :   Stromlo SLR facility
+                              
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : AOA ICS-4000Z
+     Satellite System         : GPS
+     Serial Number            : C129
+     Firmware Version         : 3.2.33.1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 1998-06-15T00:00Z
+     Date Removed             : 1999-08-23T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : AOA ICS-4000Z
+     Satellite System         : GPS
+     Serial Number            : C129
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0
+     Date Installed           : 1999-08-23T00:00Z
+     Date Removed             : 1999-11-19T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : AOA ICS-4000Z ACT
+     Satellite System         : GPS
+     Serial Number            : C119U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 1999-11-19T00:00Z
+     Date Removed             : 2000-02-16T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : AOA ICS-4000Z ACT
+     Satellite System         : GPS
+     Serial Number            : C128U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2000-02-23T00:00Z
+     Date Removed             : 2000-08-28T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : C102U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2000-08-28T00:00Z
+     Date Removed             : 2003-01-18T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200825001
+     Firmware Version         : 
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-11-07T00:00Z
+     Date Removed             : 2004-10-21T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200340001
+     Firmware Version         : ZC00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2004-10-21T00:00Z
+     Date Removed             : 2006-04-29T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 462888
+     Firmware Version         : 4.00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-04-30T00:00Z
+     Date Removed             : 2008-10-21T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Suspected date for Rx change
+
+3.9  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 6.00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-10-21T00:00Z
+     Date Removed             : 2009-06-02T01:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-06-02T01:00Z
+     Date Removed             : 2010-05-05T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : The tracking was changed from C2 or P2, to P2
+                              :  only at 2009-07-30T00:00Z
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 7.50 / 3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-05-05T00:00Z
+     Date Removed             : 2010-08-06T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : ME upgrade due to GLONASS tracking problems.
+
+3.12 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 8.00/3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-08-06T00:00Z
+     Date Removed             : 2010-10-19T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.13 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 8.01/3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-10-19T00:00Z
+     Date Removed             : 2011-08-18T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.14 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 8.20/3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-08-18T00:00Z
+     Date Removed             : 2012-01-17T00:00Z  
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.15 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 8.50/3.019
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2012-01-17T00:00Z
+     Date Removed             : 2014-07-09T00:00Z 
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.16 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355807
+     Firmware Version         : 8.71/3.822
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2014-07-09T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 11757
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0025
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : DOME
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-06-15T00:00Z
+     Date Removed             : 1998-09-25
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : ASH701073.1     DOME
+     Serial Number            : CRG 0103
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0025
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : DOME
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-09-25
+     Date Removed             : 1999-01-19T02:00Z
+     Additional Information   :
+
+4.3  Antenna Type             : ASH701073.1     NONE
+     Serial Number            : CRG 0103
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0025
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-01-19T02:01Z
+     Date Removed             : 1999-06-23T02:07Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 282
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-06-23T03:00Z
+     Date Removed             : 2003-01-18T00:00Z
+     Additional Information   : (multiple lines)
+
+4.5  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR620023911
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0040
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LDF4-50hm
+     Antenna Cable Length     : 85m
+     Date Installed           : 2003-11-07T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   :
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   :
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : SLR IVP
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 38.715
+       dy (m)                 : -4.987
+       dz (m)                 : -57.561
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 1999-06-01
+     Additional Information   : Intersection of the azimuth axis and
+
+5.2  Tied Marker Name         : AU045
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 27.946
+       dy (m)                 : -27.623
+       dz (m)                 : -58.302
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 1999-06-01
+     Additional Information   : Stromlo SLR fundamental survey pillar
+
+5.3  Tied Marker Name         : DORIS (MSOB)
+     Tied Marker Usage        : DORIS Beacon
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 34.250
+       dy (m)                 : -9.375
+       dz (m)                 : -54.188
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 1999-06-01
+     Additional Information   : Intersection of the vertical axis of
+
+5.4  Tied Marker Name         : SLR IVP 7825
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119S003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 38.0537
+       dy (m)                 : -4.5839
+       dz (m)                 : -58.1077
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 2003-12-11
+     Additional Information   : Intersection of the azimuth and elevation
+     
+5.5  Tied Marker Name         : AU045
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 27.9473
+       dy (m)                 : -27.6230
+       dz (m)                 : -58.3010
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 2003-12-11
+     Additional Information   : Stromlo SLR fundamental survey pillar
+
+5.6  Tied Marker Name         : DORIS (MSOB)
+     Tied Marker Usage        : DORIS Beacon
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119S004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 31.3612
+       dy (m)                 : -11.1773
+       dz (m)                 : -54.6972
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 2003-12-11
+     Additional Information   : Centre of DORIS beacon at reference line
+
+5.7  Tied Marker Name         : SLR IVP 7825
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119S003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 38.0510
+       dy (m)                 : -4.5848
+       dz (m)                 : -58.1089
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 2006-08-16
+     Additional Information   : Intersection of the azimuth and elevation
+
+5.8  Tied Marker Name         : AU045
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : 50119M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 27.9470
+       dy (m)                 : -27.6233
+       dz (m)                 : -58.3010
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 2006-08-16
+     Additional Information   : Stromlo SLR fundamental survey pillar
+
+5.9  Tied Marker Name         : DORIS (MSOB)
+     Tied Marker Usage        : DORIS Beacon
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : 50119S004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 31.3661
+       dy (m)                 : -11.1796
+       dz (m)                 : -54.6956
+     Accuracy (mm)            : 1 (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 2006-08-16
+     Additional Information   : Centre of DORIS beacon at reference line
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1998-06-15/1999-06-04
+       Notes                  : (multiple lines)
+
+6.2  Standard Type            : CESIUM
+       Input Frequency        : 5MHz
+       Effective Dates        : 1999-06-04/2001-08-16
+       Notes                  : Agilent Technologies
+                                model: AGILENT 5071A 
+                                s/n  : 
+
+6.3  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2001-08-16/2001-10-03
+       Notes                  : (multiple lines)
+
+6.4  Standard Type            : CESIUM
+       Input Frequency        : 5MHz
+       Effective Dates        : 2001-10-03/2002-02-20
+       Notes                  : Agilent Technologies
+                                model: AGILENT 5071A 
+                                s/n  : 
+
+6.5  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2002-02-20/2002-09-19
+       Notes                  : (multiple lines)
+
+6.6  Standard Type            : CESIUM
+       Input Frequency        : 5MHz
+       Effective Dates        : 2002-09-19/2003-01-18
+       Notes                  : Agilent Technologies
+                                model: AGILENT 5071A 
+                                s/n  : 
+
+6.7  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-01-18/2004-02-26
+       Notes                  : (multiple lines)
+
+6.8  Standard Type            : CESIUM
+       Input Frequency        : 10MHz
+       Effective Dates        : 2004-02-26/2006-04-29
+       Notes                  : Symmetricom
+                                model: CS4000 CFS 24STD, PERF. P/N 14645-106
+                                s/n  : 0404007172
+
+6.9  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2006-04-29/2007-07-25
+       Notes                  : (multiple lines)
+
+6.10 Standard Type            : CESIUM
+       Input Frequency        : 10MHz
+       Effective Dates        : 2007-07-25/2008-10-20
+       Notes                  : Symmetricom
+                                model: CS4000 CFS 24STD, PERF. P/N 14645-106
+                                s/n  : 0404007172
+
+6.11 Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2008-10-20/2009-09-28
+       Notes                  : (multiple lines)
+
+6.12 Standard Type            : CESIUM
+       Input Frequency        : 10MHz
+       Effective Dates        : 2009-09-28/2010-03-11
+       Notes                  : Symmetricom
+                                model: CS4000 CFS 24STD, PERF. P/N 14645-106
+                                s/n  : 0404007172
+
+6.13 Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 5Mhz
+       Effective Dates        : 2010-03-11/2012-01-17
+       Notes                  : 
+
+6.14 Standard Type            : CESIUM
+       Input Frequency        : 10 Mhz
+       Effective Dates        : 2012-01-17/(CCYY-MM-DD)
+       Notes                  : Symetricon 5071A S/N: US49352693
+
+6.x  Standard Type            :
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : Stromlo SLR
+       Status                 : PERMANENT
+       Effective Dates        : 2004-12-01
+       Notes                  : (multiple lines)
+
+7.2  Instrumentation Type     : Stromlo DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1998-10-20
+       Notes                  : (multiple lines)
+
+7.3  Instrumentation Type     : GPS/GLONASS
+       Status                 : PERMANENT
+       Effective Dates        : 1998-06-15
+       Notes                  : STR2            
+
+7.4  Instrumentation Type     : GPS/GLONASS/GALILEO
+       Status                 : PERMANENT
+       Effective Dates        : 2010-09-15
+       Notes                  : STR3            
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45DX
+       Manufacturer           : Vaisala
+       Serial Number          : W0440027
+       Data Sampling Interval : 60 sec
+       Accuracy               : 2.00
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 3.50 m
+       Calibration date       : 2008-01-12
+       Effective Dates        : 2009-09-28/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PMT16A
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.07
+       Height Diff to Ant     : 3.50 m
+       Calibration date       : 2008-04-10
+       Effective Dates        : 2009-09-28/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45DX
+       Manufacturer           : Vaisala
+       Serial Number          : W0440027
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.30
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 3.50 m
+       Calibration date       : 2008-01-12
+       Effective Dates        : 2009-09-28/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2004-12-23
+     Event                    : EARTHQUAKE
+                              : MAG 8.10 APPRX DIST: 2061 km DEPTH: 10 km
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geoscience Australia 
+     Preferred Abbreviation   : GA
+     Mailing Address          : Geoscience Australia
+     Primary Contact
+       Contact Name           : Ryan Ruddick  
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : +61 2 6249 9929
+       E-mail                 : ryan.ruddick@ga.gov.au
+     Secondary Contact
+       Contact Name           : Bob Twilley
+       Telephone (primary)    : +61 2 6249 9066
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : +61 2 6249 9929
+       E-mail                 : bob.twilley@ga.gov.au
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia 
+     Preferred Abbreviation   : GA
+     Mailing Address          : Geoscience Australia
+     Primary Contact
+       Contact Name           : Ryan Ruddick  
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : +61 2 6249 9929
+       E-mail                 : ryan.ruddick@ga.gov.au
+     Secondary Contact
+       Contact Name           : Bob Twilley
+       Telephone (primary)    : +61 2 6249 9066
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : +61 2 6249 9929
+       E-mail                 : bob.twilley@ga.gov.au
+     Additional Information   : (multiple lines)
+
+13.  More Information
+     Primary Data Center      : GA (ftp.ga.gov.au)
+     Secondary Data Center    : CDDIS 
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+             TurboRogue: DORNE MARGOLIN T
+
+                         -----
+                     /     +     \                        <-- 0.128  L2
+                    |      +      |                       <-- 0.110  L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.000  ARP
+
+<--                      0.381                       -->
+
+
+   ARP: Antenna Reference Point   BPA: Bottom of Preamplifier 1A
+
+
+ASH701073.1
+
+                         +-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <--  0.1020 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0380
+  +-------------------+-------------+--------------------+  <--  0.0350 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                        ?                         -->
+
+
+                       ASH701945C_M
+
+                         +-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.3794                      -->
+
+   ARP: Antenna Reference Point  BPA: Bottom of Preamplifier

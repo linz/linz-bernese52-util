@@ -1,0 +1,385 @@
+     PMTL Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+ 
+ 
+0.   Form
+ 
+     Prepared by (full name)  : Francine Coloma
+     Date Prepared            : 2015-07-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : pmtl_20110830.log
+      Modified/Added Sections : 1, 2, 3.2, 3.3
+
+  
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : PMTL RACS-APM
+     Four Character ID        : PMTL
+     Monument Inscription     : M0722900
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : Steel I-Beam
+       Height of the Monument : 0.00 m
+       Monument Foundation    : 
+       Foundation Depth       : 0.00 m
+     Marker Description       : Metal Bracket
+     Date Installed           : 2007-10-17T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     :
+         Distance/activity    :
+     Additional Information   : Station located on roof of grain pillar #4 at
+                              : Port de Montreal. Antenna mounted onto a metal
+                              : bracket bolted to a steel I-Beam.
+
+
+2.   Site Location Information
+
+     City or Town             : Montreal
+     State or Province        : Quebec
+     Country                  : Canada
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1269053.05
+       Y coordinate (m)       : -4289864.78
+       Z coordinate (m)       : 4530952.27
+       Latitude (N is +)      : +453325.49
+       Longitude (E is +)     : -0733113.51
+       Elevation (m,ellips.)  : 54.10  
+     Additional Information   : PMTL is a continuously tracking GNSS station 
+                              : and is part of
+                              : the Canadian Active Control System (CACS).
+                              : The station is located
+                              : at Port de Montreal on top of grain terminal
+                              : (silo #4), Montreal, Quebec.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA SR530
+     Satellite System         : GPS
+     Serial Number            : 130399
+     Firmware Version         : 5.00/1.39
+     Elevation Cutoff Setting : 5 (deg)
+     Date Installed           : 2007-10-17T00:00Z
+     Date Removed             : 2011-08-17T14:26Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+
+3.2  Receiver Type            : LEICA GR10
+     Satellite System         : GPS+GLO
+     Serial Number            : 1700489
+     Firmware Version         : 1.10/4.007
+     Elevation Cutoff Setting : 10 (deg)
+     Date Installed           : 2011-08-18T15:23Z
+     Date Removed             : 2014-11-05T23:30Z  
+     Temperature Stabiliz.    : (none or tolerance in degrees C) 
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : LEICA GR10
+     Satellite System         : GPS+GLO
+     Serial Number            : 1700489
+     Firmware Version         : 2.62/6.113 
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2014-11-05T23:30Z 
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C) 
+     Additional Information   : (multiple lines)
+
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting :  (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 102985
+     Antenna Reference Point  : ARP
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0.0 (deg)
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR-400
+     Antenna Cable Length     : 80.00 (m)
+     Date Installed           : 2007-10-17T00:00Z
+     Date Removed             : 2011-08-09T17:59Z
+     Additional Information   : 
+
+
+4.2  Antenna Type             : LEIAR10         NONE
+     Serial Number            : 14090050
+     Antenna Reference Point  : ARP
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0.0 (deg)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR-400
+     Antenna Cable Length     : 80.00 (m)
+     Date Installed           : 2011-08-09T18:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    :  (deg)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     :  (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+
+5.   Surveyed Local Ties
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :  
+       dy (m)                 :  
+       dz (m)                 :  
+     Accuracy (mm)            :  
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2007-10-17
+       Notes                  : 
+
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :  (sec) 
+       Accuracy (% rel h)     : (% rel h) (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     :  (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :  (sec)
+       Accuracy               :  (hPa)
+       Aspiration             : 
+       Height Diff to Ant     : (CCYY-MM-DD) (m)
+       Calibration date       : (CCYY-MM-DD/CCYY-MM-DD)
+       Effective Dates        : 
+       Notes                  : 
+
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :  (sec)
+       Accuracy               :  (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     :  (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : 
+
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x   Date                   : (CCYY-MM-DD/CCYY-MM-DD)
+       Event                  : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : MONTREAL PORT AUTHORITY
+     Preferred Abbreviation   : MPA
+     Mailing Address          :  
+     Primary Contact
+       Contact Name           : Frederic Pelletier
+       Telephone (primary)    : 1-514-496-0831
+       Telephone (secondary)  : 
+       Fax                    : 1-514-496-1885
+       E-mail                 : pelletierf@port-montreal.com
+     Secondary Contact
+       Contact Name           : Luc Dumontier
+       Telephone (primary)    : 1-514-283-6945
+       Telephone (secondary)  : 
+       Fax                    : 1-514-496-1885
+       E-mail                 : dumontierl@port-montreal.com
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          :
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   :
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : MPA
+     URL for More Information : http://www.port-montreal.com
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   :
+
+     Antenna Graphics with Dimensions
+
+
+
+
+
+
+
+    LEIAR10
+
+                        .  ^  .                           <--  0.1362
+                    .             .
+               .                       .
+           .                               .
+        .                                     .
+      /                                         \
+     |                                           |
+     |                                           |        <--  0.0362  Notch
+     +-----____                         ____-----+
+               -----____       ____-\ \-
+                        +--x--+      \_\                  <--  0.0000  BAM=ARP
+
+     <--                 0.2400                -->
+
+
+
+
+
+    LEIAT504        LEIS
+                             (not to scale)
+
+
+                              .  .  .
+                         .                .
+                     .                        .
+                  .                              .
+               .                                    .
+             .                                        .
+           .                                            .
+         . <--  DOME (LEIS)                                .
+       .                                                    .
+      .                                                      .
+     .                                                        .
+     .                                                        .
+     .                                                        .
+     .                       +-------+                        .<- 0.1393
+     .                     /           \                      .
+     .                    |             |                     .
+     .    +-----------------------------------------------+   .<- 0.1012 TCR
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     . +-+------------------------------------------------+-+ .<- 0.0378
+     . +-------------------+-------------+------------------+ .<- 0.0345 BCR
+     | .                   |             |                  . |
+     | .                   |             |                  . |
+     | .                   +------X------+ <----- 0.000 ARP . |
+       <--                      0.3794                    -->
+
+                     X ...  Antenna Reference Point (ARP)
+
+
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+

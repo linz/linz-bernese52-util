@@ -1,0 +1,290 @@
+      PLUZ Site Information Form (site log)
+      International GPS Service
+      See Instructions at:
+        ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Maria-Jesus Garcia 
+     Date Prepared            : 2004-12-03
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Puerto de la Luz (Las Palmas GC)
+     Four Character ID        : PLUZ
+     Monument Inscription     : 
+     IERS DOMES Number        : 31308M001
+     CDP Number               : 
+     Monument Description     : Stainless steel mast on a concrete block
+       Height of the Monument : 0.389 meters 
+       Monument Foundation    : Roof of the tide gauge building
+       Foundation Depth       : 
+     Marker Description       : Stainless steel mast with a centering 5/8" BSW
+     Date Installed           : 2003-10-29
+     Geologic Characteristic  : Basaltic
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   :
+
+
+2.   Site Location Information
+
+     City or Town             : Las Palmas de Gran Canaria
+     State or Province        : Canary Island 
+     Country                  : Spain
+     Tectonic Plate           : African 
+     Approximate Position (ITRF)
+       X coordinate (m)       : 5425838.71
+       Y coordinate (m)       : -1495300.42 
+       Z coordinate (m)       : 2990876.80
+       Latitude (N is +)      : +280800.00
+       Longitude (E is +)     : -152500.00 
+       Elevation (m,ellips.)  : 
+     Additional Information   :
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 5700 CORS (57011-00)
+     Satellite System         : GPS
+     Serial Number            : 0220298317
+     Firmware Version         : Nav 1.23 Sig 0.00
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2003-10-29
+     Date Removed             : 
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00
+     Serial Number            : 02200294321
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0540
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :  
+     Antenna Cable Type       : RG214/U    
+     Antenna Cable Length     : 30 meters
+     Date Installed           : 2003-10-29
+     Date Removed             :
+     Additional Information   :
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 
+     Additional Information   : 
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : 
+       Input Frequency        :
+       Effective Dates        : 
+       Notes                  : 
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : TIDE GAUGE
+       Status                 : PERMANENT
+       Effective Dates        : 1992-ongoing
+       Notes                  : Few interruptions in the time series.
+                              : Monthly and annual mean values sent
+                              : to PSMSL. Floating type tide gauge with 
+                              : digital output.
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : No
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : 
+       Accuracy (% rel h)     : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : 
+       Accuracy               : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : 
+       Accuracy               : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        :  
+       Notes                  : 
+
+8.5.x Other Instrumentation   : 
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : 
+       Observed Degradations  : 
+       Effective Dates        : 
+       Additional Information : 
+
+9.2.x Multipath Sources       : 
+       Effective Dates        : 
+       Additional Information : 
+
+9.3.x Signal Obstructions     : 
+       Effective Dates        : 
+       Additional Information : 
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : 
+     Event                    : 
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Español de Oceanografia
+     Preferred Abbreviation   : IEO
+     Mailing Address          : Corazon de Maria 8
+                              : 28002 Madrid
+                            
+     Primary Contact
+       Contact Name           : Maria-Jesus Garcia
+       Telephone (primary)    : 34 91 3473612
+       Telephone (secondary)  : 
+       Fax                    : 34 91 4135597
+       E-mail                 : mjesus.garcia@md.ieo.es
+     Secondary Contact
+       Contact Name           : Joaquin Molinero
+       Telephone (primary)    : 34 91 3473616
+       Telephone (secondary)  :
+       Fax                    : 34 91 4135597
+       E-mail                 : joaquin.mol@md.ieo.es
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+                              : 
+                              : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+                              
+
+
+13.  More Information
+
+     Primary Data Center      : ESEAS
+     Secondary Data Center    : TIGA DC (ftp://ftp.sonel.org/pub/gps/data)
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions:  will be send later
+       
+
+
+
+     Trimble: TRM29659.00
+
+
+       <--                      0.381                       -->
+                                -----
+                            /     +     \                       <-- 0.128 L2
+                           |      +      |                      <-- 0.110 L1
+         +--------------------------------------------------+   <-- 0.102 TCR
+         |                                                  |
+         |                                                  |
+         |                                                  |
+         |                                                  |
+       +-+--------------------------------------------------+-+ <-- 0.038
+       +-------------------+-------------+--------------------+ <-- 0.035 BCR
+                           |             |
+                           |             |
+                           +=============+                  <--+<-- 0.000 BPA
+                           |             |                     |
+                           |    Mount    |                    0.054 m
+                           |====-+-+-====|                  <--|
+                                |   |                          |
+                                |   |                          |
+                                |   |    steel mast           0.189 m 
+                                |   |                          |
+                                |   |                          |
+                 +----------+===|   |===+----------+           |
+                 |  aluminium   |   |    plate     |           |
+                 +----| |-------|---|-------| |----+           |
+                      | |                   | |                |
+                      | |                   | |                |
+          +-----------| |---------+---------| |---------+   <--+
+          |                                             |      |
+          |                Concrete Block               |   0.200 m
+          |                                             |      |
+          |                                             |      |
+       ---+---------------------------------------------+-- <--+
+                      ROOF OF TIDE GAUGE BUILDING              |
+                                                            3.304 m
+                                                               |
+                                   TGBM inside the building <--+
+

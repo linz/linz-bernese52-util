@@ -1,0 +1,331 @@
+     R301 Site Information Form
+     MECOPW Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Francine Coloma
+     Date Prepared            : 2015-10-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : r301_20150930.log
+      Modified/Added Sections : 11
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : CRAWFORD
+     Four Character ID        : R301
+     Monument Inscription     :
+     IERS DOMES Number        : (A9)
+     CDP Number               : (A4)
+     Monument Description     : REINFORCED CONCRETE PILLAR W/STEEL MAST
+       Height of the Monument : 2.44 m
+       Monument Foundation    : REINFORCED CONCRETE
+       Foundation Depth       : 2.70 m
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2008-09-04T00:00Z
+     Geologic Characteristic  : CONGLOMERATE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : YES - Black Canyon of the Gunnison (?) (see Map)
+         Distance/activity    : 10+ miles southwest/no known activity
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Crawford
+     State or Province        : Colorado
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1507714.526
+       Y coordinate (m)       : -4755525.201
+       Z coordinate (m)       : 3963883.643
+       Latitude (N is +)      : +383923.76
+       Longitude (E is +)     : -1073527.41
+       Elevation (m,ellips.)  : 2024.1
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              :  1631.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4740K10760
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-12-18
+     Date Removed             : 2009-12-09
+     Temperature Stabiliz.    : none
+     Additional Information   : Site operator installed a new main board
+                              : in the receiver. This receiver was not replaced.
+
+3.2  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4740K10760
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-12-09
+     Date Removed             : 2015-09-30T13:00Z 
+     Temperature Stabiliz.    : none
+     Additional Information   : Receiver change 
+
+3.3  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4811K54286 
+     Firmware Version         : 4.70 
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-09-30T13:00Z 
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30520306
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0.0000
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : TRM LMR400
+     Antenna Cable Length     : 30.48 m
+     Date Installed           : 2008-12-18
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2008-12-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS/GLONASS
+       Status                 : PERMANENT
+       Effective Dates        : 2008-12-18/CCYY-MM-DD
+       Notes                  :
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interference      : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : METAL ROOF
+       Effective Dates        : 2008-12-18/2023-12-18
+       Additional Information : Maintenance Barn with Metal Roof westerly of
+                              : antenna 43.7 meters, peak of roof at
+                              : approximate 04 degrees vertical from antenna.
+
+9.2.2 Multipath Sources       : Power line
+       Effective Dates        : 2008-12-18/2023-12-18
+       Additional Information : Power line easterly of antenna 23.0 meters and
+                              : at approximate 01 degrees vertical from antenna.
+
+9.2.3 Multipath Sources       : Truck Sand Bed Rack
+       Effective Dates        : 2008-12-18/2023-12-18
+       Additional Information : Rack westerly of antenna 22.6 meters, top of
+                              : rack at approximate 06 degrees vertical from
+                              : antenna.
+
+9.2.4 Multipath Sources       : Security Fence
+       Effective Dates        : 2008-12-18/2023-12-18
+       Additional Information : Security fence south of antenna 3.15 meters and
+                              : at approximate 00 degrees vertical from antenna
+                              : to top of fence and east of antenna 22.5 meters
+                              : and at approximate -01 degrees vertical from
+                              : antenna to top of fence.
+
+9.3.1 Signal Obstructions     : TREE
+       Effective Dates        : 2008-12-18/2023-12-18
+       Additional Information : Slow growing cedar tree northerly (N 20 degrees
+                              : E) of antenna 8.4 meters, top of tree at
+                              : approximate 15 degrees vertical from antenna.
+
+9.3.2 Signal Obstructions     : Mountains
+       Effective Dates        : 2008-12-18/2023-12-18
+       Additional Information : Mountain range to north, peaks at 05 degrees
+                              : vertical; east, peaks at 06 degrees vertical;
+                              : south, peaks at 03 degrees vertical; west,
+                              : peaks at 04 degrees vertical.
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Colorado Department of Transportation,
+                              : Region 3, Right of Way/Survey
+     Preferred Abbreviation   : CDOT R3
+     Mailing Address          : 222 South 6th Street
+                              : Grand Junction, Colorado 81501
+     Primary Contact
+       Contact Name           : Les Doehling
+       Telephone (primary)    : 970-683-6234
+       Telephone (secondary)  : 970-216-1561
+       Fax                    : 970-683-6249
+       E-mail                 : leslie.doehling@dot.state.co.us
+     Secondary Contact
+       Contact Name           : Jon Kobylarz 
+       Telephone (primary)    : 970-683-6236
+       Telephone (secondary)  : 970-812-7770
+       Fax                    : 970-683-6249
+       E-mail                 : jonathan.kobylarz@state.co.us 
+     Additional Information   : Monument located at CDOT Crawford maintenance
+                              : site, 80088 Hwy 92, Crawford, Co 81415
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Mesa County Dept Pub Work
+     Preferred Abbreviation   : MECOPW
+     Mailing Address          : 750 Main St.
+                              : Grand Junction, Colorado 81501
+     Primary Contact
+       Contact Name           : Frank Kochevar
+       Telephone (primary)    : 970-244-1826
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : frank.kochevar@mesacounty.us
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : Y
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     ftp://igscb.jpl.nasa.gov/pub/station/general/antenna.gra

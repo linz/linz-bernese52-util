@@ -1,0 +1,340 @@
+     International GPS Service
+     PPER Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mike Craymer
+     Date Prepared            : 2012-10-03
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : pper_20090105.log
+      Modified/Added Sections : 4.1, 4.2, 4.3, 13
+
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Pointe-au-Pere
+     Four Character ID        : PPER
+     Monument Inscription     : 9929000
+     IERS DOMES Number        : 40189M001
+     CDP Number               : N/A
+     Monument Description     : Concrete pillar
+       Height of the Monument : 1.3 m
+       Monument Foundation    : Bedrock ??
+       Foundation Depth       : ?.? m
+     Marker Description       : Steel bolt on brass plate
+     Date Installed           : 199?
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : Sandstone
+       Bedrock Condition      : N/A
+       Fracture Spacing       : N/A
+       Fault zones nearby     : No
+         Distance/activity    : 
+     Additional Information   : The GPS reference mark consists of a brass
+                              : plate with a forced centering stainless steel
+                              : bolt set in the top of a 0.5 m diameter 1.3 m
+                              : high concrete pillar anchored in bedrock.
+
+
+2.   Site Location Information
+
+     City or Town             : Rimouski
+     State or Province        : Quebec
+     Country                  : Canada
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       :   1553434.60
+       Y coordinate (m)       :  -3937464.22
+       Z coordinate (m)       :   4755122.39
+       Latitude (N is +)      :  +483100.625
+       Longitude (E is +)     : -0682809.998
+       Elevation (m,ellips.)  :       -20.21
+     Additional Information   : 
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4644124582
+     Firmware Version         : 1.1-5  13 Jan 2006
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-04-27T16:29Z
+     Date Removed             : 2009-01-05T15:15Z
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4642124335
+     Firmware Version         : 1.1-5  13 Jan 2006
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-01-05T15:16Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.  GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 4624A17016
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : ~65 m
+     Date Installed           : 2007-04-27T16:29Z
+     Date Removed             : 2007-12-04T19:07Z
+     Additional Information   : Antenna damaged during maintenance.
+                              : 2012-06-26: Added "NONE" to antenna type.
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 4624A17018
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 68.5 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : ~65 m
+     Date Installed           : 2007-12-04T19:35Z
+     Date Removed             : 2012-10-03T17:25Z
+     Additional Information   : 2012-06-26: Added "NONE" to antenna type.
+                              : 2012-09-23: Stopped tracking L2
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 4624A17033
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 28.5 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : ~65 m
+     Date Installed           : 2012-10-03T17:25Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.  Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2007-04-27/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : Orginal Pointe-au-Pere (Father's Point)
+                                tide gauge nearby
+
+8.5.x  Other Instrumentation  : 
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Natural Resources Canada
+     Preferred Abbreviation   : NRCan/GSD
+     Mailing Address          : 615 Booth Street
+                              : Ottawa, ON, K1A 0E9, Canada
+     Primary Contact
+       Contact Name           : Mike Craymer
+       Telephone (primary)    : 613-947-1829
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : craymer@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Mike Piraszewski
+       Telephone (primary)    : 613-947-0967
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : mpirasze@nrcan.gc.ca
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : NRCan/GSD
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     TRM29659.00
+
+                         -----
+                     /     +     \                        <--  0.1280 L2
+                    |      +      |                       <--  0.1100 L1
+  +-------------------------------------------------+     <--  0.1020 TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350 BCR
+<--                 |    0.3810   |                 -->
+                   =|             |
++-------------------+=====| |=====+-------------------+   <-- 0.0000 BPA=ARP=MRP
+|                                                     |
+|                   Concrete pillar                   |
+|                                                     |
+
+ARP: Antenna Reference Point           MRP: Monument Reference Point
+L1 : Nominal L1 Phase Center           L2 : Nominal L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+BPA: Bottom of Preamplifier

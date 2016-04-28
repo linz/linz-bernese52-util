@@ -1,0 +1,401 @@
+     UPAD Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : PROF.ALESSANDRO CAPORALI
+     Date Prepared            : 2012-01-09
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : upad_20060321.log
+      Modified/Added Sections : 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : University of Padova, Main Building
+     Four Character ID        : UPAD
+     Monument Inscription     :
+     IERS DOMES Number        : 12750M002
+     CDP Number               : (A4)
+     Monument Description     : MAST
+       Height of the Monument : 1.862
+       Monument Foundation    : ROOF
+       Foundation Depth       : 10
+     Marker Description       : NAIL
+     Date Installed           : 1997-12-23
+     Geologic Characteristic  : GRAVEL
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : New antenna replaces the previous
+                              : on the same spot.
+                              : No horizontal shift.
+                              : Possible change in the vertical (mm level)
+                              : due to different phase centres.
+                              : On December 28, 1994, a new location for the
+                              : antenna was adopted. This change was dictated
+                              : by probable high multipath environment which
+                              : existed in the configuration described in the
+                              : LOGFILE UPAD0694.log. The new site is nearly
+                              : five meters away from the 0694 location and
+                              : seems much better (replaces 12750M001)
+
+
+2.   Site Location Information
+
+     City or Town             : Padova
+     State or Province        :
+     Country                  : Italy
+     Tectonic Plate           : ADRIATIC-AFRICAN PLATE
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4389531.28
+       Y coordinate (m)       : 923253.65
+       Z coordinate (m)       : 4519256.35
+       Latitude (N is +)      : +452424.12
+       Longitude (E is +)     : +0115240.44
+       Elevation (m,ellips.)  : 00084.0
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 3247A01926
+     Firmware Version         : 7.22
+     Elevation Cutoff Setting : 15
+     Date Installed           : 1997-01-12
+     Date Removed             : 1997-12-22T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 19459
+     Firmware Version         : 7.25 / 3.07
+     Elevation Cutoff Setting : 15
+     Date Installed           : 1997-12-23T00:00Z
+     Date Removed             : 1999-06-22T12:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 19459
+     Firmware Version         : 7.25 / 3.07
+     Elevation Cutoff Setting : 15
+     Date Installed           : 1999-06-22T13:00Z
+     Date Removed             : 2001-11-21
+     Temperature Stabiliz.    : none
+     Additional Information   : new firmware is expected to be compiant
+                              : with GPS week 1024 rollover and Y2K
+
+3.4  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 19459
+     Firmware Version         : 7.25 / 3.07
+     Elevation Cutoff Setting : 15
+     Date Installed           : 2001-11-21T00:01Z
+     Date Removed             : 2001-11-21T12:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : consistency in time with item 4.5
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 3241A64735
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 001.9620
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30
+     Date Installed           : 1994-12-01
+     Date Removed             : 1997-12-22T23:59Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 88300
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 001.9620
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30
+     Date Installed           : 1997-12-23T00:00Z
+     Date Removed             : 1998-08-13T00:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 88300
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 001.9621
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30
+     Date Installed           : 1998-08-13T00:01Z
+     Date Removed             : 1999-05-28T07:59Z
+     Additional Information   : the 0.1 mm correction in the antenna height is
+                              : introduced for consistence with the header of
+                              : the RINEX files. No physical change is implied
+                              : in the antenna mount.
+
+4.4  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 88300
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 001.9621
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30
+     Date Installed           : 1999-05-28T08:00Z
+     Date Removed             : 1999-09-28T23:59Z
+     Additional Information   : THE ID OF THE ANTENNA TYPE CONFORMS
+                              : TO RCVR_ANT.TAB FILE
+                              : AS SPECIFIED IN IGSMAIL#2281.
+                              : NO PHYSICAL CHANGE IS OTHERWISE IMPLIED
+                              : IN THE LOCATION OF THE ANTENNA
+
+4.5  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 88300
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 001.9621
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30
+     Date Installed           : 1999-09-29T00:00Z
+     Date Removed             : 2001-11-21T12:00Z
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2001-11-21/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : UNIVERSITY OF PADOVA
+                              : DEPT. OF GEOSCIENCES
+     Preferred Abbreviation   : UNIPD
+     Mailing Address          : VIA GRADENIGO 6, 35131 PADOVA, ITALY
+     Primary Contact
+       Contact Name           : PROF. A. CAPORALI
+       Telephone (primary)    : ++39-49-8279122
+       Telephone (secondary)  :
+       Fax                    : ++39-49-8279111
+       E-mail                 : alessandro.caporali@unipd.it
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : ASI
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : X
+       Site Diagram           : X
+       Horizon Mask           : NO OBSTRUCTION ABOVE 0 DEGREES
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM29659.00
+Trimble L1/L2 Dorne Margolin element with chokerings
+Model 29659.00
+
+                       +-------+
+                     /     +     \                        <-- 0.1280 L2
+                    |      +      |                       <-- 0.1100 L1
+  +--------------------------------------------------+    <-- 0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.0380
++-------------------+-------------+--------------------+  <-- 0.0350 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.3810                      -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center

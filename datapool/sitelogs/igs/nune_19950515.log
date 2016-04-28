@@ -1,0 +1,134 @@
+**********************************
+     SITE INFORMATION FORM
+**********************************
+
+
+0. Form
+
+        Prepared by (full name): Mark Murray
+        Date                   : 95/05/15
+        Report type            : NEW
+          (NEW or UPDATE)
+ 
+1. Site Identification of the GPS monument
+
+        Site Name              : Nunes - BARD Station
+        4 char ID              : NUNE
+        Monument Inscription   : 
+        IERS DOMES Number      : 
+        CDP Number             : 
+        Date                   : 93/10/06
+        Additional information : BARD - Bay Area Regional Deformation Array
+
+2. Site Location
+
+        City                   : Sobrante, California
+        Country                : USA
+        Tectonic Plate         : North America/Pacific
+        Additional information : Nunes Ranch, Castra Ranch Road
+
+3. GPS Receiver
+
+A)      Type                   : Trimble 4000SSE
+        Serial Number          : 3373
+        Firmware Version       : Nav 5.67 Sig 1.26
+        Date                   : 93/10/06 
+
+B)      Type                   : Trimble 4000SSE
+        Serial Number          : 3373
+        Firmware Version       : Nav 6.1 Sig 2.7
+        Date                   : before 95/02/01
+
+4. GPS Antenna
+
+A)      Type                   : Trimble 4000ST L1/L2 GEOD
+        Serial Number          : 49771
+        Date                   : 93/10/06
+
+        Vertical Antenna Height: 0.000
+        Antenna Reference Point: BPA
+        Date                   : 93/10/06
+
+5. Local Site Ties - None to date
+        
+6. Frequency standard
+
+        H-maser /   /   Cesium /   /    Quartz /   /     Internal / X /
+        Other (specify)        :
+        Date                   : 
+
+        (Mark with 'X')
+
+7. Collocation
+
+        SLR    /   /    VLBI  /  /     DORIS  /  /     PRARE    /  /  
+
+        Other GEOPHYSICAL Instrumentation (specify) :
+
+        Other (specify)        :
+
+        (Mark with 'P' for permanent, 'M' for mobile collocation)
+
+8. On-site, Point of Contact Agency Information 
+
+        Agency                 : U.S. Geological Survey
+        Contact                : Nancy King
+        Address                : 345 Middlefield Road, MS 977
+                                 Menlo Park, CA 94025
+        Telephone              : (415) 329-4832
+        E-mail                 : nking@isdmnl.wr.usgs.gov
+        Fax                    : (415) 329-5163
+
+9. Responsible Operations Agency 
+   (if different from item 8)
+
+        Agency                 : Trimble Navigation, Inc.
+                                
+        Contact                : Brian Frohring
+        Address                :
+                                
+        Telephone              : (408) 481-2073
+        E-mail                 : brian_frohring@trimble.com
+        Fax                    :
+
+
+10. Please insert here the character graphics corresponding to the 
+antenna type. Check, complete or change if necessary the antenna 
+dimensions.
+
+
+               Trimble: 4000ST L1/L2 GEOD
+
+                       ----+----                          <--  0.070  L1
+                    /      +      \                       <--  0.068  L2
+++----------------+-----------------+-----------------++  <--  0.063  TGP
+++---------------+-------------------+----------------++  <--  0.060  BGP
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <--  0.000  ARP=BPA
+
+                    <--  0.140  -->                                   BPA
+                 <--     0.155     -->                                TPA
+ <--                     0.467                      -->               NOTCHES
+<--                      0.483                       -->              EDGE
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+
+
+11. Hard copy information
+
+    The next items should be compiled and sent to the Central Bureau 
+(see original IGS Station Information Report, or contact the CB for 
+forms).
+
+    Please mark 'X' if on file or date expected to be available.
+
+        Site Map               :
+        Site Diagram           :
+        Horizon Mask           :
+        Monument description   :
+        Site pictures          :

@@ -1,0 +1,356 @@
+     BISK Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Zdenek Fucik, Zdenek Kaplan
+     Date Prepared            : 2015-07-31
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : bisk_20121108.log
+      Modified/Added Sections : 3.2, 11, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : BISKUPSKA KUPA
+     Four Character ID        : BISK
+     Monument Inscription     : CONCRETE PILLAR
+     IERS DOMES Number        : 11520M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR ON A TOP OF STONE TOWER
+       Height of the Monument : 19.3 m
+       Monument Foundation    : STONE WALL
+       Foundation Depth       : (m)
+     Marker Description       : BRASS PLATE WITH SCREW
+     Date Installed           : 2001-09-06T12:00Z
+     Geologic Characteristic  : METAMORPHIC
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : STONE TOWER SITED ON BEDROCK
+
+
+2.   Site Location Information
+
+     City or Town             : Zlate Hory
+     State or Province        : Olomouc District
+     Country                  : Czech Republic
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3898946.1
+       Y coordinate (m)       : 1223993.2
+       Z coordinate (m)       : 4881826.4
+       Latitude (N is +)      : +501524.20
+       Longitude (E is +)     : +0172542.96
+       Elevation (m,ellips.)  :   950.9
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX 4200112203
+     Firmware Version         : ZT16 0065
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-09-06T12:00Z
+     Date Removed             : 2012-11-07T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : P87XQA14C8W
+     Firmware Version         : 3.6 Feb,28,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-11-07T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701946.2     SNOW
+     Serial Number            : N/A
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0350
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : Orig. Ashtech suppl., BELDEN 8214 BRAID RG-8TYPE
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-09-06T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2001-09-06/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : H982
+       Manufacturer           : ANEMO
+       Serial Number          : TH902165
+       Data Sampling Interval : 30 s
+       Accuracy (% rel h)     : 1.0
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2002-08-19
+       Effective Dates        : 2005-01-01/CCYY-MM-DD
+       Notes                  : Integrated temp.& hum. module
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : DMP331
+       Manufacturer           : BDSENSORS
+       Serial Number          : 0093199
+       Data Sampling Interval : 30 s
+       Accuracy               : 5.0 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2004-12-20
+       Effective Dates        : 2005-01-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : T97
+       Manufacturer           : ANEMO
+       Serial Number          : TH902165
+       Data Sampling Interval : 30 s
+       Accuracy               : 0.2 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2002-08-19
+       Effective Dates        : 2005-01-01/CCYY-MM-DD
+       Notes                  : Integrated temp.& hum. module
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Academy of Science of the Czech Republic
+                              : Institute of Rock Structure and Mechanics
+                              : Department of Geofactors
+     Preferred Abbreviation   : IRSM AS CR
+     Mailing Address          : Institute of Rock Structure and Mechanics
+                              : V Holesovickach 41, CZ-182 09 Praha 8
+                              : Czech Rep.
+     Primary Contact
+       Contact Name           : Zdenek Fucik
+       Telephone (primary)    : +420 266 009 362
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : fucik@irsm.cas.cz
+     Secondary Contact
+       Contact Name           : Zdenek Kaplan
+       Telephone (primary)    : +420 266 009 298
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : kaplan@irsm.cas.cz
+     Additional Information   : Third Contact
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : N/A
+     Hardcopy on File
+       Site Map               : N/A
+       Site Diagram           : N/A
+       Horizon Mask           : N/A
+       Monument Description   : N/A
+       Site Pictures          : N/A
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH701946.2
+
+
+                           +---+                            <--  0.1400
+                         /       \
+                       /     +     \                        <--  0.1284 L2
+                      |      +      |                       <--  0.1098 L1
+    +-------------------------------------------------+     <--  0.1010 TCR
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+  +-+-------------------------------------------------+-+   <--  0.0380
+  +-------------------+-------------+-------------------+   <--  0.0350 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.380                      -->
+
+    Monument =>    +------------------+        <---   0.80
+                   |       0.30       |
+                   | Concrete Pillar  |
+                   |                  |
+                   |                  |
+                   |                  |
+                   |                  |
+                   |                  |
+                   |                  |
+                   |                  |
+                   |                  |
+                   |                  |
+  Platform of the  |                  |
+  tower   =>    ---+                  +---     <---   0.00
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   BPA: Bottom of Preamplifier

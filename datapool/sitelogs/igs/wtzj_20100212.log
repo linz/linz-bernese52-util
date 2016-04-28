@@ -1,0 +1,930 @@
+     International GPS Service
+     WTZJ Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Rudolf Stoeger
+                              : Peter Franke
+                              : Matthias Groeschel
+     Date Prepared            : 2010-02-12
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : wtzj_20091217.log
+      Modified/Added Sections : 1, 5.10, 7.32, 7.33, 7.34, 7.35
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Wettzell / Germany
+     Four Character ID        : WTZJ
+     Monument Inscription     : Pillar 1203
+     IERS DOMES Number        : 14201M012
+     CDP Number               :
+     Monument Description     : STEEL PLATE ON CONCRETE SURVEY TOWER
+       Height of the Monument : 0.8
+       Monument Foundation    : SCREW ANCHORED TO CONCRETE SURVEY TOWER
+       Foundation Depth       :
+     Marker Description       :
+     Date Installed           : 2001-07-03T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : Cordirit-Silimanit-Gneiss
+       Bedrock Condition      : Weathered
+       Fracture Spacing       : 50-200 cm and over 200 cm
+       Fault zones nearby     : NO
+         Distance/activity    :
+       Additional Information : The antenna is 7.5 m above
+                              : the ground.
+                              : On the same pillar 1203,
+                              : DOMES No. 14201M012, also
+                              : a 3SNAV R101 GPS+GLONASS Receiver,
+                              : Four Character ID WTZG, was
+                              : observing from 14-OCT-1998 until
+                              : 04-SEP-1999.
+                              : In addition and parallel a
+                              : LEICA GRX1200GGPRO GPS+GLONASS Receiver,
+                              : Four Character ID WTZR, IGS
+                              : Reference Frame Station, on
+                              : pillar 1202, Domes No. 14201M010,
+                              : an ASHTECH Z-XII3T Metronome GPS
+                              : Receiver, Four character ID WTZA,
+                              : on pillar 1204, Domes No. 14201M013,
+                              : a TPS E_GGD GPS+GLONASS Receiver,
+                              : Four character ID WTZZ, on pillar
+                              : 1205, Domes No. 14201M014, a 
+                              : TPS NETG3 GPS+GLONASS Receiver,
+                              : Four character ID WTZL, on
+                              : pillar 1206, DOMES No. 14201M022
+                              : and a SEPT POLARX2, Four Character
+                              : ID WTZS, DOMES No. 14201M015
+                              : are observing.
+                              : Prior we observed here in the
+                              : Geodetical Observatory Wettzell with a
+                              : TI-4100, a MiniMac 2816 AT, a
+                              : Rogue SNR-800, our # 1200, Four Character
+                              : ID WETT, Domes No. 14201M009,
+                              : the 3SNAV R101 GPS+GLONASS
+                              : Receiver, Four character ID WTZG,
+                              : on pillar 1203, Domes No.
+                              : 14201M012, and a TRIMBLE 4000 SSI,
+                              : Four character ID WTZT.
+                              : Further informations and effective
+                              : dates see sections 5 and 7.
+
+
+
+2.   Site Location Information
+
+     City or Town             : Bad Koetzting
+     State or Province        : Bavaria
+     Country                  : Germany
+     Tectonic Plate           : Eurasian
+     Approximate Position
+       X coordinate (m)       : 4075580.0194
+       Y coordinate (m)       : 931855.2287
+       Z coordinate (m)       : 4801568.1824
+       Latitude (N is +)      : +490839.12
+       Longitude (E is +)     : +0125244.15
+       Elevation (m,ellips.)  : 00665.9
+     Additional Information   :
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : MT312211422
+     Firmware Version         : EURO_3/2.1 JAN,03
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2001-07-03T12:00Z
+     Date Removed             : 2002-10-09T12:00Z
+     Tempearture Stabiliz.    : 2.0
+     Additional Information   :
+
+3.2  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : MT312211422
+     Firmware Version         : EURO_3/2.2p2
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2002-10-09T12:00Z
+     Date Removed             : 2003-11-24T14:00Z
+     Tempearture Stabiliz.    : 2.0
+     Additional Information   :
+
+3.3  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : MT312211422
+     Firmware Version         : EURO_3/2.3p3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-11-24T14:00Z
+     Date Removed             : 2004-05-14T12:00Z
+     Tempearture Stabiliz.    : 2.0
+     Additional Information   :
+
+3.4  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : MT312211422
+     Firmware Version         : Euro_3/2.3p4
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2004-05-14T12:00Z
+     Date Removed             : 2007-10-30T11:30Z
+     Tempearture Stabiliz.    : 2.0
+     Additional Information   : Additional Number
+                              : LE 2808 on the
+                              : type level
+
+3.5  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : MT312211422
+     Firmware Version         : 2.6.0 OCT,24,2007 O
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2007-10-30T11:30Z
+     Date Removed             : 2008-01-24T08:44Z
+     Tempearture Stabiliz.    : 2.0
+     Additional Information   : Additional Number
+                              : LE 2808 on the
+                              : type level
+
+3.6  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : MT312211422
+     Firmware Version         : 2.6.1 JAN,10,2008
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-01-24T08:45Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Tempearture Stabiliz.    : 2.0
+     Additional Information   : Additional Number
+                              : LE 2808 on the
+                              : type level
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220180414
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0760
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30
+     Date Installed           : 2001-07-03T12:00Z
+     Date Removed             : 2002-04-11T09:30Z
+     Additional Information   :
+
+4.2  Antenna Type             : JPSREGANT_SD_E  NONE
+     Serial Number            : RA0295
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0740
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30
+     Date Installed           : 2002-04-11T09:30Z
+     Date Removed             : 2005-08-02T09:00Z
+     Additional Information   :
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220175208
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0740
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30
+     Date Installed           : 2005-08-02T09:00Z
+     Date Removed             : 2009-12-16T11:59Z
+     Additional Information   : Antenna calibrated absolute
+                              : by GEO++ GmbH Garbsen,
+                              : 2000-10-31.
+
+4.4  Antenna Type             : LEIAR25         NONE
+     Serial Number            : 08430008
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0740
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30
+     Date Installed           : 2009-12-16T12:00Z
+     Date Removed             : 2009-12-17T07:35Z
+     Additional Information   : Antenna calibrated absolute
+                              : by GEO++ GmbH Garbsen,
+                              : 2008-11-20 together with
+                              : radome LEIT.
+                              : The radome LEIT is not installed.
+
+4.5  Antenna Type             : LEIAR25         LEIT
+     Serial Number            : 08430008
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0740
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     :
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30
+     Date Installed           : 2009-12-17T07:35Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Antenna calibrated absolute
+                              : by GEO++ GmbH Garbsen,
+                              : 2008-11-20 together with
+                              : radome LEIT.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.  Surveyed Local Ties
+
+5.1  Tied Marker Name         : VLBI Ref Point
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7224
+     Tied Marker DOMES Number : 14201S004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -40.1314
+       dy (m)                 : -119.9655
+       dz (m)                 : +61.1925
+     Accuracy (mm)            : 1.3
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.2  Tied Marker Name         : SLR WLRS
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 8834
+     Tied Marker DOMES Number : 14201S018
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -3.1580
+       dy (m)                 : -69.7708
+       dz (m)                 : +15.3895
+     Accuracy (mm)            : 0.6
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.3  Tied Marker Name         : TIGO VLBI
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 759324012
+     Tied Marker DOMES Number : 14201S100
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -8.2314
+       dy (m)                 : -100.3115
+       dz (m)                 : +15.1224
+     Accuracy (mm)            : 0.9
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.4  Tied Marker Name         : TIGO SLR
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 75947901
+     Tied Marker DOMES Number : 14201M200
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : +15.0227
+       dy (m)                 : -122.2774
+       dz (m)                 : -0.6106
+     Accuracy (mm)            : 1.5
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.5  Tied Marker Name         : 1200 ROGUE SNR-800 = WETT
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 14201M009
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -1.4392
+       dy (m)                 : -2.5501
+       dz (m)                 : +1.8658
+     Accuracy (mm)            : 1
+     Survey method            : TRIANGULATION
+     Date Measured            : 1995-02-13T15:00Z
+     Additional Information   :
+
+5.6  Tied Marker Name         : 1202 LEICA GRX1200GGPRO = WTZR
+     Tied Marker Usage        : GPS+GLONASS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 14201M010
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : +0.6658
+       dy (m)                 : -1.5691
+       dz (m)                 : -0.1282
+     Accuracy (mm)            : 0.4
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   : IGS Reference Frame Station
+
+5.7  Tied Marker Name         : 1201 TRIMBLE 4000SSI = WTZT
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 14201M011
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -2.4054
+       dy (m)                 : +0.0527
+       dz (m)                 : +2.0291
+     Accuracy (mm)            : 0.4
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.8  Tied Marker Name         : 1204 ASHTECH Z-XII3T = WTZA
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 14201M013
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -1.5250
+       dy (m)                 : -2.5706
+       dz (m)                 : +1.7634
+     Accuracy (mm)            : 0.4
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.9  Tied Marker Name         : 1205 TPS E_GGD = WTZZ
+     Tied Marker Usage        : GPS+GLONASS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 14201M014
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -0.4575
+       dy (m)                 : -2.2556
+       dz (m)                 : +0.7776
+     Accuracy (mm)            : 0.4
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.10 Tied Marker Name         : 1206 TPS NETG3 = WTZL
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 14201M022
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -1.9769
+       dy (m)                 : -1.2622
+       dz (m)                 : +1.8975
+     Accuracy (mm)            : 0.4
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-10-01T10:00Z
+     Additional Information   :
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : 2001-07-03/CCYY-MM-DD
+       Notes                  :
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR WLRS 8834
+       Status                 : PERMANENT
+       Effective Dates        : 1988-01-01/CCYY-MM-DD
+       Notes                  :
+
+7.2  Instrumentation Type     : SLR 7834
+       Status                 : PERMANENT
+       Effective Dates        : 1977-01-01/1991-12-31
+       Notes                  :
+
+7.3  Instrumentation Type     : SLR MTLRS 1
+       Status                 : MOBILE
+       Effective Dates        : 1984-01-01/1997-12-31
+       Notes                  :
+
+7.4  Instrumentation Type     : VLBI 7224
+       Status                 : PERMANENT
+       Effective Dates        : 1983-01-01/CCYY-MM-DD
+       Notes                  :
+
+7.5  Instrumentation Type     : LLR WLRS
+       Status                 : PERMANENT
+       Effective Dates        : 1991-01-01/CCYY-MM-DD
+       Notes                  :
+
+7.6  Instrumentation Type     : TIGO VLBI
+       Status                 : PERMANENT / MOBIL
+       Effective Dates        : 1997-01-01/2001-12-01
+       Notes                  : TIGO Transportable Integrated Geodetic
+                              : Observatory
+
+7.7  Instrumentation Type     : TIGO SLR
+       Status                 : PERMANENT / MOBIL
+       Effective Dates        : 1997-01-01/2001-12-01
+       Notes                  : TIGO Transportable Integrated Geodetic
+                              : Observatory
+
+7.8  Instrumentation Type     : PRARE
+       Status                 : PERMANENT
+       Effective Dates        : 1994-01-01/CCYY-MM-DD
+       Notes                  :
+
+7.9  Instrumentation Type     : Super Conducting Gravimeter
+       Status                 : PERMANENT
+       Effective Dates        : 1989-01-01/CCYY-MM-DD
+       Notes                  :
+
+7.10  Instrumentation Type    : Very Broad Band Seismograph
+       Status                 : PERMANENT
+       Effective Dates        : 1991-01-01/CCYY-MM-DD
+       Notes                  :
+
+7.11  Instrumentation Type    : Transit NNSS-DMA Doppler
+       Status                 : PERMANENT
+       Effective Dates        : 1984-01-01/1993-12-31
+       Notes                  :
+
+7.12  Instrumentation Type    : TI-4100 GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1987-11-12/1989-07-27
+       Notes                  : CIGNET GPS Station
+
+7.13  Instrumentation Type    : MiniMac 2816 AT GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1989-05-23/1991-07-23
+       Notes                  : CIGNET GPS Station
+
+7.14  Instrumentation Type    : ROGUE SNR-800 GPS WETT # 1200
+       Status                 : PERMANENT
+       Effective Dates        : 1991-07-23/1997-02-02
+       Notes                  : CIGNET / CORE / IGS Station
+
+7.15 Instrumentation Type     : TRIMBLE 4000SSI WTZT # 1201
+       Status                 : PERMANENT
+       Effective Dates        : 1997-02-06/2005-05-17
+       Notes                  :
+
+7.16 Instrumentation Type     : ROGUE SNR-8000 GPS WTZR # 1202
+       Status                 : PERMANENT
+       Effective Dates        : 1995-02-09/1999-06-17
+       Notes                  : IGS Referece Frame Station
+
+7.17 Instrumentation Type     : AOA SNR-8000 ACT GPS WTZR # 1202
+       Status                 : PERMANENT
+       Effective Dates        : 1999-06-17/2005-05-04
+       Notes                  : IGS Reference Frame Station
+
+7.18 Instrumentation Type     : TPS E_GGD GPS+GLONASS WTZR # 1202
+       Status                 : PERMANENT
+       Effective Dates        : 2005-05-04/2007-05-29
+       Notes                  : IGS Reference Frame Station
+
+7.19 Instrumentation Type     : TPS NETG3 GPS+GLONASS WTZR # 1202
+       Status                 : PERMANENT
+       Effective Dates        : 2007-05-29/2008-01-25
+       Notes                  : IGS Reference Frame Station
+
+7.20 Instrumentation Type     : LEICA GRX1200GGPRO GPS+GLONASS WTZR # 1202
+       Status                 : PERMANENT
+       Effective Dates        : 2008-01-25/CCYY-MM-DD
+       Notes                  : IGS Reference Frame Station
+
+7.21 Instrumentation Type     : 3SNAV R101 OLD GPS+GLONASS WTZG # 1203
+       Status                 : PERMANENT
+       Effective Dates        : 1998-10-14/1999-09-04
+       Notes                  :
+
+7.22 Instrumentation Type     : ASHTECH Z-XII3 GPS WTZA # 1204
+       Status                 : PERMANENT
+       Effective Dates        : 1997-11-25/2001-11-08
+       Notes                  :
+
+7.23 Instrumentation Type     : ASHTECH Z-XII3T GPS WTZA # 1204
+       Status                 : PERMANENT
+       Effective Dates        : 2001-11-08/CCYY-MM-DD
+       Notes                  :
+
+7.24 Instrumentation Type     : ASHTECH Z-18 GPS+GLONASS WTZZ #1205
+       Status                 : PERMANENT
+       Effective Dates        : 1999-02-01/2003-06-10
+       Notes                  :
+
+7.25 Instrumentation Type     : JPS LEGACY GPS+GLONASS WTZZ #1205
+       Status                 : PERMANENT
+       Effective Dates        : 2003-06-10/2003-11-06
+       Notes                  :
+
+7.26 Instrumentation Type     : JPS E_GGD GPS+GLONASS WTZZ #1205
+       Status                 : PERMANENT
+       Effective Dates        : 2003-11-06/2005-05-04
+       Notes                  :
+
+7.27 Instrumentation Type     : TPS E_GGD GPS+GLONASS WTZZ #1205
+       Status                 : PERMANENT
+       Effective Dates        : 2005-05-04/CCYY-MM-DD
+       Notes                  :
+
+7.28 Instrumentation Type     : LEICA GRX1200PRO GPS WTZL #1206
+       Status                 : PERMANENT
+       Effective Dates        : 2004-03-23/2007-09-05
+       Notes                  :
+
+7.29 Instrumentation Type     : LEICA GRX1200GGPRO GPS+GLONASS WTZL #1206
+       Status                 : PERMANENT
+       Effective Dates        : 2007-09-05/2008-01-28
+       Notes                  :
+
+7.30 Instrumentation Type     : TPS NETG3 GPS+GLONASS WTZL #1206
+       Status                 : PERMANENT
+       Effective Dates        : 2008-01-28/CCYY-MM-DD
+       Notes                  :
+
+7.31 Instrumentation Type     : SEPT POLARX2 GPS WTZS
+       Status                 : PERMANENT
+       Effective Dates        : 2005-07-27/CCYY-MM-DD
+       Notes
+
+7.32 Instrumentation Type     : ASHTECH Z-XII3 GPS WT21 #21
+       Status                 : PERMANENT
+       Effective Dates        : 2003-10-14/2009-05-12
+       Notes                  :
+
+7.33 Instrumentation Type     : JPS LEGACY GPS+GLONASS WT21 #21
+       Status                 : PERMANENT
+       Effective Dates        : 2009-05-12/2009-05-25
+       Notes                  :
+
+7.34 Instrumentation Type     : TPS NETG3 GPS+GLONASS WT21 #21
+       Status                 : PERMANENT
+       Effective Dates        : 2009-05-25/CCYY-MM-DD
+       Notes                  :
+
+7.35 Instrumentation Type     : Ringlaser Gyroscope
+       Status                 : PERMANENT
+       Effective Dates        : 2001-09-01/CCYY-MM-DD
+       Notes                  :
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : 809
+       Manufacturer           : Lamprecht, Goettingen
+       Serial Number          :
+       Data Sampling Interval : 900
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : PERNIX element
+       Height Diff to Ant     : 0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-07-03/2002-05-28
+       Notes                  : Kindly use the humidity data
+                              : from the WTZR GPS Permanent
+                              : Tracking Station
+
+8.1.2  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W5040013
+       Data Sampling Interval : 900
+       Accuracy (% rel h)     : 1.0
+       Aspiration             : HUMICAP 180 CAPACITIVY THIN FILM POLYMER
+       Height Diff to Ant     : -0.5
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-05-28/CCYY-MM-DD
+       Notes                  : New Humidity Sensor for WTZJ
+                              : is 0.5 m above the antenna
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : DIGIQUARTZ MODEL 740
+       Manufacturer           : Parascientific Inc.
+       Serial Number          :
+       Data Sampling Interval : 900
+       Accuracy               : 0.1
+       Height Diff to Ant     : 10.5
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-07-03/2002-05-28
+       Notes                  : Kindly use the pressure data
+                              : from the WTZR GPS Permanent
+                              : Tracking Station. This pressure
+                              : Sensor is 10.5 m below the
+                              : antenna.
+
+8.2.2  Pressure Sensor Model  : PTU200CAA1AB
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W5110013
+       Data Sampling Interval : 900
+       Accuracy               : 0.1
+       Height Diff to Ant     : -0.5
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-05-28/CCYY-MM-DD
+       Notes                  : New Pressure Sensor for WTZJ
+                              : is 0.5 m above the antenna
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : 809
+       Manufacturer           : Lamprecht, Goettingen
+       Serial Number          :
+       Data Sampling Interval : 900
+       Accuracy               : 0.3
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-07-03/2002-05-28
+       Notes                  : Kindly use the temperature data
+                              : from the WTZR GPS Permanent
+                              : Tracking Station.
+
+8.3.2  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W5040013
+       Data Sampling Interval : 900
+       Accuracy               : 0.2
+       Aspiration             : RESISTIVE PLATINUM PROBE
+       Height Diff to Ant     : -0.5
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-05-28/CCYY-MM-DD
+       Notes                  : New Temperature Sensor for
+                              : WTZJ is 0.5 m above the antenna
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : CTGR129502
+       Manufacturer           : Captec, Bern / ETH, Zuerich
+       Serial Number          :
+       Distance to Antenna    : 27
+       Height Diff to Ant     : 1
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1997-04-01/CCYY-MM-DD
+       Notes                  :
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+                              : Sackenrieder Strasse 25
+                              : D-93444 Bad Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Dr. Reiner Dassing
+       Telephone (primary)    : ++49-9941-603112
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : reiner.dassing@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Additional Information   : Klaus Roettcher
+                              : ++49-9941-603115
+                              : klaus.roettcher@bkg.bund.de
+                              : Rudi Stoeger
+                              : ++49-9941-603117
+                              : rudolf.stoeger@bkg.bund.de
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Department Leizig
+                              : Karl-Rothe-Strasse 10-14
+                              : D-04105 Leipzig
+                              : Germany
+     Primary Contact
+       Contact Name           : Matthias Groeschel
+       Telephone (primary)    : ++49-341-5643-432
+       Telephone (secondary)  : ++49-341-5643-0
+       Fax                    : ++49-341-5643-415
+       E-mail                 : matthias.groeschel@leipzig.bkg.bund.de
+     Secondary Contact
+       Contact Name           : Peter Franke (in Frankfurt)
+       Telephone (primary)    : ++49-69-6333-279
+       Telephone (secondary)  : ++49-69-6333-1
+       Fax                    : ++49-69-6333-425
+       E-mail                 : peter.franke@bkg.bund.de
+     Additional Information   :
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : CDDIS
+     URL for More Information : www.bkg.bund.de.de  www.fs.wettzell.de
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+
+     Antenna Graphics with Dimensions
+
+
+
+TRM29659.00
+>From 2001-07-03 until 2002-04-11
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+JPSREGANT_SD_E
+>From 2002-04-11 until 2005-08-02
+
+                +-------------------------+ <--------------Plastic Housing for
+               /    -------------------    \               Antenna/Choke Ring
+              /    /         +         \    \                <-- 0.1196 L2
+   +---------+     |         +         |     +---------+     <-- 0.1060 L1
+  | +-------------------------------------------------+ |    <-- 0.xxxx TCR
+ /  |                                                 |  \
+|   |                                                 |   |
+|   |                                                 |   |
+|   |                                                 |   |
+ \+-----------------------------------------------------+/
+ |+-----------------------------------------------------+|   <-- 0.xxxx BCR
+  \______________  |                   |  ______________/
+                 \ |                   | /
+                  \+---------x---------+/                    <-- 0.0000 BPA=ARP
+
+
+
+
+TRM29659.00
+>From 2005-08-02 until 2009-12-16
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+LEIAR25
+>From 2009-12-16
+
+                         +-------+                          <-- 0.1995
+                       /     +     \
+                      |      +      |
+                  |---+-------------+----|		    <-- 0.1614 TCR
+              |------------------------------|
+          |--------------------------------------|
+      |----------------------------------------------|
+    +--------------------------------------------------+
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.0320 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.0000 BPA=ARP
+
+  <--                      0.3802                      -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+All dimensions are in meters.
+
+
+
+

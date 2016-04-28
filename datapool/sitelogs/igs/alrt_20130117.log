@@ -1,0 +1,473 @@
+     International GPS Service
+     ALRT Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mike Craymer
+     Date Prepared            : 2013-01-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : alrt_20120626.log
+      Modified/Added Sections : 10.9, 10.23
+
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Alert
+     Four Character ID        : ALRT
+     Monument Inscription     : M029001
+     IERS DOMES Number        : 40162M001
+     CDP Number               : N/A
+     Monument Description     : Galvanized steel pipe
+       Height of the Monument : 2 m
+       Monument Foundation    : Permafrost and shale
+       Foundation Depth       : 6 m
+     Marker Description       : Brass plate with steel centering bolt
+     Date Installed           : 2002-07-15
+     Geologic Characteristic  : 
+       Bedrock Type           : Shale
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : No
+         Distance/activity    : (multiple lines)
+     Additional Information   : The GPS reference mark consists of a brass 
+                              : plate with a forced centering stainless steel 
+                              : bolt cemented on top of a 12.7cm diameter, 8m 
+                              : long galvanized steel pipe, set in shale and 
+                              : permafrost to a depth of 6m. A slurry was 
+                              : poured into the pipe to ground level and 
+                              : insulation added to a 0.3m from the top. 
+                              : Cement was used to top off the remaining part 
+                              : for setting the brass plate. A 25cm diameter 
+                              : culvert was placed around the pipe and filed
+                              : with sand, and a 0.8m high, 3m square berme
+                              : built around it.
+
+
+2.   Site Location Information
+
+     City or Town             : Alert (Ellesmere Island)
+     State or Province        : Nunavut
+     Country                  : Canada
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       :   388042.75
+       Y coordinate (m)       :  -740382.40
+       Z coordinate (m)       :  6302001.85
+       Latitude (N is +)      :  +822939.46
+       Longitude (E is +)     : -0622025.66
+       Elevation (m,ellips.)  :       78.11
+     Additional Information   : Located at Canada Forces Station Alert. Receiver
+                              : is located in the Canadian Hydrographic Service
+                              : tide gauge building.
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520021002
+     Firmware Version         : CJ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-07-16
+     Date Removed             : 2005-08-12T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520021002
+     Firmware Version         : CK00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2005-08-12T02:02Z
+     Date Removed             : 2009-07-28T19:33Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Power supply failed 2009-07-28
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520021005
+     Firmware Version         : CK00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-08-20T18:24Z
+     Date Removed             : 2009-09-09T20:28Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Temporary replacement
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520021002
+     Firmware Version         : CK00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-09-09T20:55Z
+     Date Removed             : 2011-05-20T15:45Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Original receiver with new power supply.
+                              : Tracking less than 50% of available satellites
+                              : began 2010 D361. Tracking problems initially
+                              : appeared October 2010.
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200511006
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-05-20T15:51Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.  GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945D_M    NONE
+     Serial Number            : CR520020903
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR-240 coaxial cable, Times Microwave System
+                              : 68999
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2002-07-16
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 2012-06-26: Corrected antenna type from
+                              : ASH701945C_M to ASH701945D_M.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.  Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : Internal
+       Input Frequency        : 
+       Effective Dates        : 2002-07-16/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : Tide gauge
+
+8.5.x  Other Instrumentation  : 
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2006-01-06T14:40Z/2006-01-06T14:50Z
+     Event                    : Removed hard packed snow from antenna
+                              : choke rings
+
+10.2 Date                     : 2006-01-15T16:33Z/2006-01-15T16:39Z
+     Event                    : Removed hard packed snow from antenna
+                              : choke rings
+
+10.3 Date                     : 2006-02-20T19:55Z/2006-02-20T20:00Z
+     Event                    : Removed light dry snow from antenna
+                              : choke rings
+
+10.4 Date                     : 2006-03-09T19:34Z/2006-03-09T19:40Z
+     Event                    : Removed light dry snow from antenna
+                              : choke rings
+
+10.5 Date                     : 2006-03-22T19:00Z/2006-03-22T19:01Z
+     Event                    : Removed light dry snow from antenna
+                              : choke rings
+
+10.6 Date                     : 2006-12-18T18:30Z/2006-12-18T18:44Z
+     Event                    : Removed hard packed snow from antenna
+                              : choke rings
+
+10.7 Date                     : 2007-02-02T18:25Z/2007-02-02T18:35Z
+     Event                    : Removed hard packed snow from antenna
+                              : choke rings
+
+10.8 Date                     : 2007-04-25T11:57Z/2007-04-25T11:58Z
+     Event                    : Removed hard packed snow from antenna
+                              : choke rings
+
+10.9 Date                     : 2007-10-23T15:59Z/2007-10-23T16:04Z
+     Event                    : Removed snow from antenna choke rings
+                              : (2013-01-17: corrected start time)
+
+10.10 Date                    : 2008-03-26T15:00Z
+      Event                   : Removed snow from antenna
+
+10.11 Date                    : 2008-09-22T11:42Z/2008-09-22T11:45Z
+      Event                   : Removed snow from antenna
+
+10.12 Date                    : 2008-09-24T11:31Z/2008-09-24T11:34Z
+      Event                   : Removed snow from antenna
+
+10.13 Date                    : 2008-10-09T11:41Z/2008-10-09T11:43Z
+      Event                   : Removed snow from antenna
+
+10.14 Date                    : 2008-11-07T11:21Z/2008-11-07T11:23Z
+      Event                   : Removed 5 cm of snow from antenna choke
+                              : rings and 1 cm from antenna dome
+
+10.15 Date                    : 2008-11-10T11:27Z/2008-11-10T11:29Z
+      Event                   : Removed 5 cm of snow from antenna choke
+                              : rings and <1 cm from antenna dome
+
+10.16 Date                    : 2008-11-19T11:24Z/2008-11-19T11:26Z
+      Event                   : Removed 4 cm of snow from antenna choke
+                              : rings
+
+10.17 Date                    : 2008-12-05
+      Event                   : Removed small amount of snow from
+                              : antenna dome
+
+10.18 Date                    : 2008-12-17T10:50Z/2008-12-17T10:52Z
+      Event                   : Removed 2 cm of snow from antenna choke
+                              : rings and 3 mm from antenna dome
+
+10.19 Date                    : 2009-02-17T15:10Z
+      Event                   : Removed 2 cm snow/frost from antenna choke
+                              : rings and 5 mm from antenna dome
+
+10.20 Date                    : 2009-02-24T15:30Z
+      Event                   : Removed 1.5 cm of snow from antenna choke
+                              : rings and light snow from antenna dome
+
+10.21 Date                    : 2009-10-15T06:30Z
+      Event                   : Removed 1.5 cm of snow from antenna choke
+                              : rings and 1 cm of ice from the antenna dome
+
+10.22 Date                    : 2009-10-18T18:14Z
+      Event                   : Removed 1.5 cm of snow from antenna choke
+                              : rings and dome
+
+10.23 Date                    : 2009-10-28T15:41Z
+      Event                   : Removed 3 cm of snow from antenna choke rings
+                              : and 2 mm of snow and frost from dome
+
+10.24 Date                    : 2010-01-11T11:30Z
+      Event                   : Removed 2 cm of snow and ice from antenna
+                              : choke rings and dome
+
+10.25 Date                    : 2010-01-25T11:30Z
+      Event                   : Removed 2 mm of snow from antenna dome
+
+10.26 Date                    : 2010-01-28T14:20Z
+      Event                   : Removed 3 mm of snow from antenna choke rings
+                              : and 2 mm of snow from center dome
+
+10.27 Date                    : 2010-02-08T11:18Z
+      Event                   : Removed 4 mm of snow from antenna choke rings
+                              : and trace amount from center dome
+
+10.28 Date                    : 2010-09-06T11:23Z
+      Event                   : Removed 4 cm of snow from antenna choke rings
+
+10.29 Date                    : 2010-09-15T10:55Z
+      Event                   : Removed 3 cm of snow from antenna choke rings
+
+10.30 Date                    : 2011-03-16T23:30Z
+      Event                   : Removed 3 cm of snow from antenna choke rings
+
+10.31 Date                    : 2011-04-28T23:22Z
+      Event                   : Removed 1 cm of snow from antenna choke rings
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Natural Resources Canada
+     Preferred Abbreviation   : NRCan/GSD
+     Mailing Address          : 615 Booth Street
+                              : Ottawa, ON, K1A 0E9, Canada
+     Primary Contact
+       Contact Name           : Mike Craymer
+       Telephone (primary)    : 613-947-1829
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : craymer@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Mike Piraszewski
+       Telephone (primary)    : 613-947-0967
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : mpirasze@nrcan.gc.ca
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : NRCan/GSD
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+     ASH701945D_M
+
+                       +-------+
+                     /     +     \                        <--  0.2280 L2
+                    |      +      |                       <--  0.2100 L1
+  +-----------------+-------------+-----------------+     <--  0.2006 TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.1376
++-------------------+-------------+-------------------+   <--  0.1346 BCR
+<--                 |    0.3794   |                 -->
+                    |     +-+     |
+                    +=====| |=====+                       <--  0.1000 BPA=ARP
+                    |             |
+                    |  Aluminium  |
+                    |    Mount    |
+                    |             |
+                    |     +-+     |
++-------------------+=====| |=====+------------------+   <--  0.0000 BPA=ARP=MRP
+|                                                    |
+|                   Concrete pillar                  |
+|                                                    |
+
+ARP: Antenna Reference Point           MRP: Monument Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+BPA: Bottom of Preamplifier

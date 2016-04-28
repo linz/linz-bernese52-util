@@ -1,0 +1,352 @@
+
+      BTHL Site Information Form
+      Sumatran GPS Array (SuGAr)
+0.    Form
+
+      Prepared by (full name) : John E. Galetzka
+      Date Prepared           : 2005-08-16
+      Report Type             : DYNAMIC
+
+
+1.    Site Identification of the GNSS Monument
+
+      Site Name               : Botohilithano
+      Four Character ID       : BTHL
+      Monument Inscription    : 
+      IERS DOMES Number       : 
+      CDP Number              : 
+      Monument Description    : Shallow drilled braced monument; antenna adapter s/n 646.
+        Height of the Monument: ~1.2 m
+        Monument Foundation   : (STEEL RODS/CONCRETE BLOCK/ROOF/..)
+        Foundation Depth      : (m)
+      Marker Description      : Shallow drilled braced monument, one vertical 
+                              : leg and three diagonal legs, inserted and epoxied with Hilti
+                              : RE-500 into ~1.3 m x 1.5" diameter drilled holes in weathered
+                              : sedimentary rock; installed by crew of Mentawai Indah, Imam
+                              : Suprihanto, Bambang Widoyoko, Dudi Prayudi and John Galetzka
+                              :in 1.5 days.
+      Date Installed          : 2005-08-15
+      Geologic Characteristic : Bedrock
+        Bedrock Type          : Sedimentary
+        Bedrock Condition     : Weathered
+        Fracture Spacing      : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+      Fault Zones Nearby      : (YES/NO/Name of the zone)
+      Distance/activity       : (multiple lines)
+      Additional Information  : 
+ 
+
+2.    Site Location Information
+
+      City or Town            : Botohilithano
+      State or Province       : North Sumatra
+      Country                 : Republic of Indonesia
+      Tectonic Plate          : Indian/Eurasian
+      Approximate Position (ITRF)
+       X coordinate (m)       : -855727.424
+       Y coordinate (m)       : 6320241.822
+       Z coordinate (m)       : 62937.841
+       Latitude (N is +)      : 0.5692
+       Longitude (E is +)     : 97.7107
+       Elevation (m,ellips.)  : 85
+      Additional Information  : (multiple lines)
+
+
+3.    GNSS Receiver Information
+
+3.1   Receiver Type           : ASHTECH MICROZ
+      Satellite System        : GPS
+      Serial Number           : UC2200404007
+      Firmware Version        : CQ00
+      Elevation Cutoff Setting: 0
+      Date Installed          : 2005-08-15
+      Date Removed            : (CCYY-MM-DDThh:mmZ)
+      Temperature Stabiliz.   : (none or tolerance in degrees C)
+      Additional Information  : 120 second sample rate; 24 hour session programming; ACeS satellite
+                              : telemetry.
+
+3.x   Receiver Type           : (A20 from rcvr_ant.tab;see instructions)
+      Satellite System        : (GPS/GLONASS/GPS+GLONASS)
+      Serial Number           : (A5)
+      Firmware Version        : (A11)
+      Elevation Cutoff Setting: (deg)
+      Date Installed          : (CCYY-MM-DDThh:mmZ)
+      Date Removed            : (CCYY-MM-DDThh:mmZ)
+      Temperature Stabiliz.   : (none or tolerance in degrees C)
+      Additional Information  : (multiple lines)
+
+
+4.    GPS Antenna Information
+
+4.1   Antenna Type            : ASH701945B_M
+      Serial Number           : CR5200342002
+      Antenna Reference Point : BPA
+      Marker->ARP Up Ecc.(m)  : 0.0083
+      Marker->ARP North Ecc(m): (F8.4)
+      Marker->ARP East Ecc.(m): (F8.4)
+      Alignment from True N   : 0
+      Antenna Radome Type     : SCIT
+      Radome Serial Number    : 709
+      Antenna Cable Type      : RG-58
+      Antenna Cable Length    : 10
+      Date Installed          : 2005-08-15
+      Date Removed            : (CCYY-MM-DDThh:mmZ)
+      Additional Information  : Antenna aligned to magnetic north.
+
+4.x   Antenna Type            : (A20 from rcvr_ant.tab; see instructions)
+      Serial Number           : (A*, but note the first A5 is used in SINEX)
+      Antenna Reference Point : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+      Marker->ARP Up Ecc.(m)  : (F8.4)
+      Marker->ARP North Ecc(m): (F8.4)
+      Marker->ARP East Ecc.(m): (F8.4)
+      Alignment from True N   : (deg; + is clockwise/east)
+      Antenna Radome Type     : (A4 from rcvr_ant.tab; see instructions)
+      Radome Serial Number    : 
+      Antenna Cable Type      : (vendor & type number)
+      Antenna Cable Length    : (m)
+      Date Installed          : (CCYY-MM-DDThh:mmZ)
+      Date Removed            : (CCYY-MM-DDThh:mmZ)
+      Additional Information  : (multiple lines)
+
+
+5.    Surveyed Local Ties
+
+5.1   Tied Marker Name        : 
+      Tied Marker Usage       : 
+      Tied Marker CDP Number  : (A4)
+      Tied Marker DOMES Number: (A9)
+      Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+      Accuracy (mm)           : (mm)
+      Survey Method           : (GPS/TRILATERALIZATION/TRIANGULATION/..)
+      Date Measured           : (CCYY-MM-DDThh:mmZ)
+      Additional Information  : (multiple lines)
+
+5.x   Tied Marker Name        : 
+      Tied Marker Usage       : 
+      Tied Marker CDP Number  : (A4)
+      Tied Marker DOMES Number: (A9)
+      Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+      Accuracy (mm)           : (mm)
+      Survey Method           : (GPS/TRILATERALIZATION/TRIANGULATION/..)
+      Date Measured           : (CCYY-MM-DDThh:mmZ)
+      Additional Information  : (multiple lines)
+
+
+6.    Frequency Standard
+
+6.1   Standard Type           : (INTERNAL or EXTERNAL H-MASER/CESIUM/..)
+      Input Frequency         : (if external)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+6.x   Standard Type           : (INTERNAL or EXTERNAL H-MASER/CESIUM/..)
+      Input Frequency         : (if external)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+7.    Collocation Information
+
+7.x   Instrumentation Type    : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/..)
+      Status                  : (PERMANENT/MOBILE)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.    Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy (% rel h)      : (% rel h)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/..)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.1.x Humidity Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy (% rel h)      : (% rel h)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/..)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.2.1 Pressure Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (hPa)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (hPa)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.3.1 Temp. Sensor Model      :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (deg C)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/..)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (deg C)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/..)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.4.1 Water Vapor Radiometer  :
+      Manufacturer            : 
+      Serial Number           : 
+      Distance to Antenna     : (m)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+      Manufacturer            : 
+      Serial Number           : 
+      Distance to Antenna     : (m)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.5.1 Other Instrumenation    : (multiple lines)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+
+8.5.x Other Instrumenation    : (multiple lines)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+
+
+9.    Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/..)
+      Observed Degradations   : (SN RATIO/DATA GAPS/..)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/..)
+      Observed Degradations   : (SN RATIO/DATA GAPS/..)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/..)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/..)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+
+9.3.1 Signal Obstructions     :
+      Effective Dates         : 
+      Additional Information  : 
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/..)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.1  Date                    : (CCYY-MM-DDThh:mmZ)
+      Event                   : (TREE CLEARING/CONSTRUCTION/..)
+
+10.x  Date                    : (CCYY-MM-DDThh:mmZ)
+      Event                   : (TREE CLEARING/CONSTRUCTION/..)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+      Agency                  : California Institute of Technology
+      Preferred Abbreviation  : Caltech
+      Mailing Address         : Pasadena, CA 91125
+      Primary Contact         
+       Contact Name           : Kerry Sieh
+       Telephone (primary)    : 626-395-6115
+       Telephone (secondary)  : 
+       Fax                    : 626-395-1740
+       E-mail                 : sieh@gps.caltech.edu
+      Secondary Contact       
+       Contact Name           : John Galetzka
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : galetzka@gps.caltech.edu
+      Additional Information  : 
+
+
+12.   Responsible Agency (if different from 11.)
+
+      Agency                  : Lembaga Ilmu Pengetahuan Indonesia (Indonesian Institute
+                              : of Sciences)
+      Preferred Abbreviation  : LIPI
+      Mailing Address         : GD 70, Komplek LIPI-Bandung, Jl. Cisim - Sangkuriang,
+                              : 21/154 D, Bandung, Indonesia
+      Primary Contact         
+       Contact Name           : Bambang Widoyoko
+       Telephone (primary)    : 62-22-2503654
+       Telephone (secondary)  : 
+       Fax                    : 62-22-2504593
+       E-mail                 : bambang.suwargadi@geotek.lipi.go.id 
+      Secondary Contact       
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+      Additional Information  : (multiple lines)
+
+
+13.   More Information
+
+      URL For More Information: 
+      Hardcopy on File        
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+      Additional Information  : (multiple lines)
+      Antenna Graphics with Dimensions
+                              
+      (insert text graphic from antenna.gra)
+
+

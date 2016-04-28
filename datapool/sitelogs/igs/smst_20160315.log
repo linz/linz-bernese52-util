@@ -1,0 +1,334 @@
+
+     SMST Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Kazuyoshi OICHI
+     Date Prepared            : 2016-03-15
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : smst_20120911.log
+      Modified/Added Sections : 0, 3.1, 3.2, 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Shimosato Hydrographic Observatory
+     Four Character ID        : SMST
+     Monument Inscription     : 
+     IERS DOMES Number        : 21726M001
+     CDP Number               : 
+     Monument Description     : STONE MARKER
+       Height of the Monument : 
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : CHISELLED CROSS
+     Date Installed           : 2004-04-01T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Nachi Katsuura-cho
+     State or Province        : Wakayama
+     Country                  : Japan
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3822373.395
+       Y coordinate (m)       : 3699359.882
+       Z coordinate (m)       : 3507585.789
+       Latitude (N is +)      : +333440.279
+       Longitude (E is +)     : +1355613.039
+       Elevation (m,ellips.)  : 97.536
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            : 0220311439
+     Firmware Version         : 1.24
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 2004-04-01T00:00Z
+     Date Removed             : 2016-02-16T00:13Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS
+     Serial Number            : 5427R49080
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 2016-02-16T00:14Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM41249.00     TZGD
+     Serial Number            : 12475410
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 1.866
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 
+     Antenna Radome Type      : TZGD
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2004-04-01T00:00Z
+     Date Removed             : 2012-03-16T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM41249.00     DOME
+     Serial Number            : 12475410
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 1.955
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2012-03-16T06:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Simosato SLR IAR fixed
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7838
+     Tied Marker DOMES Number : 21726S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -14.960
+       dy (m)                 : 3.684
+       dz (m)                 : -12.672
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL NONE
+       Input Frequency        : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1990-07-01/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Shimosato Hydrographic Observatory (SHO),
+                              : Japan Coast Guard
+     Preferred Abbreviation   : SHO
+     Mailing Address          : 1981, Shimosato, Nachi Katsuura-cho, Higashi
+                              : Muro-gun, Wakayama 649-5142, Japan
+     Primary Contact
+       Contact Name           : Hiroko FUKURA
+       Telephone (primary)    : +81 735 58 0084
+       Telephone (secondary)  : 
+       Fax                    : +81 735 58 1535
+       E-mail                 : eisei@jodc.go.jp
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Hydrographic and Oceanographic Department,
+                              : Japan Coast Guard
+     Preferred Abbreviation   : HOD, JCG
+     Mailing Address          : Geodesy and Geophysics Office,
+                              : Hydrographic Surveys Division,
+                              : Hydrographic and Oceanographic Department
+                              : MLIT Aomi Building, 2-5-18, Aomi, Koto-ku,
+                              : Tokyo 135-0064, Japan
+     Primary Contact
+       Contact Name           : Kazuyoshi OICHI
+       Telephone (primary)    : +81 3 5500 7147
+       Telephone (secondary)  : 
+       Fax                    : +81 3 5500 7148
+       E-mail                 : eisei@jodc.go.jp
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : GSI
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+     (insert text graphic)
+
+TRM41249.00
+
+    / ----------------------+--------------------- \   
+   +                        +                       +  
+    \ -------------------------------------------- /   
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=BAM
+
+   <--                   0.3396                  -->
+
+
+

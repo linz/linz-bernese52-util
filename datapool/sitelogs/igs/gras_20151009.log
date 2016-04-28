@@ -1,0 +1,523 @@
+
+     GRAS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Jean-Paul Cardaliaguet
+     Date Prepared            : 2015-10-09
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : gras_20150623.log
+      Modified/Added Sections : 2, 3.14, 3.15, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Observatoire de Calern - OCA
+     Four Character ID        : GRAS
+     Monument Inscription     : none
+     IERS DOMES Number        : 10002M006
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1995-02-10T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : (multiple lines)
+                              : Monument is a concrete pillar on bedrock
+                              : with forced centering plate.
+
+
+2.   Site Location Information
+
+     City or Town             : Caussols
+     State or Province        : Alpes-Maritimes
+     Country                  : France
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4581690.8115
+       Y coordinate (m)       : 556114.9720
+       Z coordinate (m)       : 4389360.8798
+       Latitude (N is +)      : +434517.05
+       Longitude (E is +)     : +0065514.07
+       Elevation (m,ellips.)  : 1319.3
+     Additional Information   : coordinates ITRF2008 epoch 2012.0
+                              : Observatory located at Caussols, on plateau
+                              : de Calern, 10 Km NW of Grasse.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 146
+     Firmware Version         : V2.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1995-02-22T00:00Z
+     Date Removed             : 1996-05-07T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : 242
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1996-10-03T00:00Z
+     Date Removed             : 2003-04-22T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 26990
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-04-23T00:00Z
+     Date Removed             : 2004-01-26T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 26990
+     Firmware Version         : 7.19A
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-01-26T00:00Z
+     Date Removed             : 2004-10-20T11:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 04030
+     Firmware Version         : CN00-1A01
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-10-21T09:00Z
+     Date Removed             : 2007-05-03T07:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 08024
+     Firmware Version         : CN00-1A01
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-05-03T08:00Z
+     Date Removed             : 2007-05-14T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 48002
+     Firmware Version         : CN00-1A01
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-05-14T09:37Z
+     Date Removed             : 2007-09-03T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 48002
+     Firmware Version         : CN00-1A01
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2007-09-03T00:00Z
+     Date Removed             : 2010-05-19T12:00Z
+     Temperature Stabiliz.    : 18.0 +/-
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 64043
+     Firmware Version         : 4.03
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2010-05-19T13:00Z
+     Date Removed             : 2010-10-13T12:00Z
+     Temperature Stabiliz.    : 18.0 +/-
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 64043
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2010-10-13T12:18Z
+     Date Removed             : 2014-06-12T12:31Z
+     Temperature Stabiliz.    : 18.0 +/-
+     Additional Information   : upgrade firmware version
+                              : Set l2-cs signal off : use only l2-usuel signal
+
+3.11 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 4942K64043
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-06-12T14:28Z
+     Date Removed             : 2014-06-17T06:15Z
+     Temperature Stabiliz.    : 18.0 +/-
+     Additional Information   : 
+
+3.12 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 4942K64043
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-06-17T06:20Z
+     Date Removed             : 2014-06-20T14:05Z
+     Temperature Stabiliz.    : 18.0 +/-
+     Additional Information   : 
+
+3.13 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 4942K64043
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-06-20T14:30Z
+     Date Removed             : 2015-06-23T07:10Z
+     Temperature Stabiliz.    : 21.0 +/- 3.0
+     Additional Information   : 
+
+3.14 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 4942K64043
+     Firmware Version         : 4.87
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-06-23T07:20Z
+     Date Removed             : 2015-10-08T14:22Z
+     Temperature Stabiliz.    : 21.0 +/- 3.0
+     Additional Information   : 
+
+3.15 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 4942K64043
+     Firmware Version         : 4.87
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-10-08T14:22Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 21.0 +/- 3.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 469
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0350
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 60 m
+     Date Installed           : 1995-02-22T00:00Z
+     Date Removed             : 1996-05-07T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 219
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0350
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 60 m
+     Date Installed           : 1996-10-03T00:00Z
+     Date Removed             : 2003-04-22T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220256858
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0350
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TRIMBLE
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2003-04-23T00:00Z
+     Date Removed             : 2004-10-20T11:00Z
+     Additional Information   : Cable with line amplifier at 30m
+
+4.4  Antenna Type             : ASH701945E_M    NONE
+     Serial Number            : CR520024222
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0350
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2004-10-21T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Cable with line amplifier at 30m
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : SLR
+     Tied Marker Usage        : not known
+     Tied Marker CDP Number   : 7835
+     Tied Marker DOMES Number : 10002S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 0.632
+       dy (m)                 : 44.858
+       dz (m)                 : -1.199
+     Accuracy (mm)            : 2 mm
+     Survey method            : not known
+     Date Measured            : 1995-02-17T00:00Z
+     Additional Information   : 
+
+5.2  Tied Marker Name         : Mobile VLBI marker
+     Tied Marker Usage        : not known
+     Tied Marker CDP Number   : 7605
+     Tied Marker DOMES Number : 10002M003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 0.639
+       dy (m)                 : 11.081
+       dz (m)                 : -9.235
+     Accuracy (mm)            : 1 mm
+     Survey method            : not known
+     Date Measured            : 1995-02-17T00:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1996-10-03/2003-04-23
+       Notes                  : 
+
+6.2  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-04-23/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1995-02-17/CCYY-MM-DD
+       Notes                  : 
+
+7.2  Instrumentation Type     : VLBI
+       Status                 : MOBILE
+       Effective Dates        : 1995-02-17/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Observatoire de la cote d'Azur
+     Preferred Abbreviation   : OCA
+     Mailing Address          : Observatoire de la Cote d'Azur
+                              : Avenue Nicolas Copernic
+                              : 06130 GRASSE - France
+     Primary Contact
+       Contact Name           : Maurice LAPLANCHE
+       Telephone (primary)    : (33) 4 93 40 54 20
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : maurice.laplanche@obs-azur.fr
+     Secondary Contact
+       Contact Name           : Francis PIERRON
+       Telephone (primary)    : (33) 4 93 40 54 20
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Francis.Pierron@obs-azur.fr
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Centre National d'Etudes Spatiales
+     Preferred Abbreviation   : CNES
+     Mailing Address          : CNES - DCT/OP/EM
+                              : 18, avenue Edouard Belin
+                              : 31401 TOULOUSE CEDEX 09 - France
+     Primary Contact
+       Contact Name           : Jean-Paul Cardaliaguet
+       Telephone (primary)    : (33) 5 61 27 31 98
+       Telephone (secondary)  : 
+       Fax                    : (33) 5 61 28 15 36
+       E-mail                 : jean-paul.cardaliaguet@cnes.fr
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : IGN
+     Secondary Data Center    : BKG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : X
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : X
+     Additional Information   : Real time RTCM
+                              : send to IGN CASTER ON Mount Point GRAS1
+     Antenna Graphics with Dimensions
+
++-------+
+                       /     +                             <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.3794                      -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+

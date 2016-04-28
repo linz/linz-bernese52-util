@@ -1,0 +1,551 @@
+     SVTL Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Iskander Gayazov
+     Date Prepared            : 2014-04-15
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : svtl_20090710.log
+      Modified/Added Sections : 3.1, 3.3, 3.6, 3.7, 4.2, 4.3, 4.4, 5.1, 7.3,
+                              : 8.1.1, 8.2.1, 8.3.1, 11, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Svetloe
+     Four Character ID        : SVTL
+     Monument Inscription     : 101
+     IERS DOMES Number        : 12350M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 1.2 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : CENTERING BOLT IN STAILESS PLATE
+     Date Installed           : 1994-11-10
+     Geologic Characteristic  : SAND
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Stainless plate on the concrete pillar on
+                              : flat roof of 2-story laboratory building;
+                              : mark 101
+
+
+2.   Site Location Information
+
+     City or Town             : Svetloe
+     State or Province        : Leningrad region
+     Country                  : Russian Federation
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2730156
+       Y coordinate (m)       : 1562365
+       Z coordinate (m)       : 5529989
+       Latitude (N is +)      : +603158.30
+       Longitude (E is +)     : +0294651.14
+       Elevation (m,ellips.)  :    77.1
+     Additional Information   : ITRF2000, epoch 1997.0
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SST
+     Satellite System         : GPS
+     Serial Number            : 618
+     Firmware Version         : 4.81 / 4.20
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1996-03-14T00:00Z
+     Date Removed             : 1997-05-20T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Replaced by Trimble 4000SSE for
+                              : EUVN/BSL'97 campaign
+
+3.2  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 2205
+     Firmware Version         : 5.53 / 1.20
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1997-05-21T00:00Z
+     Date Removed             : 1997-05-30T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Connected to the same antenna as 4000SST
+
+3.3  Receiver Type            : TRIMBLE 4000SST
+     Satellite System         : GPS
+     Serial Number            : 618
+     Firmware Version         : 4.81 / 4.20
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1997-05-30T00:00Z
+     Date Removed             : 2004-12-01T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Restored after EUVN/BSL'97 campaign;
+
+3.4  Receiver Type            : LEICA SR520
+     Satellite System         : GPS
+     Serial Number            : 20522
+     Firmware Version         : 4.20/1.44
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-12-01T12:00Z
+     Date Removed             : 2008-10-23T09:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : Q8R1RWGDCE8
+     Firmware Version         : 3.3 May,05,2008 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-10-23T10:00Z
+     Date Removed             : 2009-07-07T06:55Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : Q8R1RWGDCE8
+     Firmware Version         : 3.4 May,13,2009
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2009-07-07T06:55Z
+     Date Removed             : 2014-04-03T08:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00179
+     Firmware Version         : 3.2.7 May,16,2011
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-04-03T08:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 102163
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0085
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1996-03-14T00:00Z
+     Date Removed             : 2004-12-01T12:00Z
+     Additional Information   : Degree Offset from North : < 5
+                              : Date is the one of beginning of
+                              : continuous observations
+
+4.2  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 102163
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0285
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : +- 5 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2004-12-01T12:00Z
+     Date Removed             : 2008-10-23T09:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : TPSCR.G3        TPSH
+     Serial Number            : 383-0424
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0285
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : +- 5 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : Topcon
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2008-10-23T10:00Z
+     Date Removed             : 2009-03-11T07:30Z
+     Additional Information   : Antenna removed at 07:30 UTC
+                              : for local geodetic surveying
+
+4.4  Antenna Type             : TPSCR.G3        TPSH
+     Serial Number            : 383-0424
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0285
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : +- 5 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : Topcon
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2009-03-12T16:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna reinstalled at 16:00 UTC
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : SVT3
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : 12350M003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -0.9444
+       dy (m)                 : -1.0210
+       dz (m)                 : -0.3565
+     Accuracy (mm)            : 1
+     Survey method            : TRIANGULATION/LEVELING/DIRECT DIST. MEAS.
+     Date Measured            : 1995-01-01T00:00Z
+     Additional Information   : Exact date in 1995-1997 not known
+                              : Bronze mark on flat roof of 2-story
+                              : laboratory building;
+                              : measured with conventional techniques
+                              : was used for GPS observations during GIG'91,
+                              : BSL'93, DOSE'93, DOSE'94 campaigns;
+                              : mark 103
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1996-01-01/2008-10-23
+       Notes                  : H-maser available
+                              : exact date in 1996 not known
+
+6.2  Standard Type            : EXTERNAL H-MASER CH1-80
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-10-23/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI RADIO TELESCOPE RTF-32
+       Status                 : PERMANENT
+       Effective Dates        : 1997-01-01/CCYY-MM-DD
+       Notes                  : regular participation in the IVS since Mar 2003
+                              : Exact date in 1997 not known
+
+7.2  Instrumentation Type     : GLONASS
+       Status                 : PERMANENT
+       Effective Dates        : 1992-01-01/CCYY-MM-DD
+       Notes                  : Code only
+                              : Exact date in 1992 not known
+
+7.3  Instrumentation Type     : GPS/GLONASS JPS Legacy
+       Status                 : MOBILE
+       Effective Dates        : 1999-01-03/1999-02-08
+       Notes                  : Was installed and operated in cooperation
+                              : with CNIIGAIK, Moscow for IGEX'98 campaign
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : ATSAT-3M
+       Manufacturer           : NPO 'Typhoon', Obninsk, Russia
+       Serial Number          : 0017
+       Data Sampling Interval : 600 s
+       Accuracy (% rel h)     : 5
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : -2 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-01-01/2008-03-27
+       Notes                  : Data Frequency : on request (1 sec - ...)
+                              : Exact date in 2000 not known
+
+8.1.2  Humidity Sensor Model  : HUMICAP
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : C4820021
+       Data Sampling Interval : 600 s
+       Accuracy (% rel h)     : 3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1 m
+       Calibration date       : 2007-12-28
+       Effective Dates        : 2008-04-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : ATSAT-3M
+       Manufacturer           : NPO 'Typhoon', Obninsk, Russia
+       Serial Number          : 0017
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.7 hPa
+       Height Diff to Ant     : -5 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-01-01/2008-03-27
+       Notes                  : Data Frequency on request.
+                              : 1 sec - ...
+                              : Exact date in 2000 not known.
+
+8.2.2  Pressure Sensor Model  : BAROCAP
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : C4820021
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 1 m
+       Calibration date       : 2007-12-28
+       Effective Dates        : 2008-04-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : ATSAT-3M
+       Manufacturer           : NPO 'Typhoon', Obninsk, Russia
+       Serial Number          : 0017
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.5 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -2 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-01-01/2008-03-27
+       Notes                  : Exact date in 2000 not known.
+
+8.3.2  Temp. Sensor Model     : THERMOCAP
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : C4820021
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.3 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1 m
+       Calibration date       : 2007-12-28
+       Effective Dates        : 2008-04-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : VLBI ANTENNA
+       Effective Dates        : 1995-01-01/CCYY-MM-DD
+       Additional Information : Exact date in 1995 not known
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Institute of Applied Astronomy RAS
+     Preferred Abbreviation   : IAA
+     Mailing Address          : nab. Kutuzova 10, St.Petersburg 191187, Russia
+     Primary Contact
+       Contact Name           : Iskander Gayazov (in St.Petersburg)
+       Telephone (primary)    : +7-(812)-275-11-18
+       Telephone (secondary)  : +7-(812)-275-10-24
+       Fax                    : +7-(812)-275-11-19
+       E-mail                 : gayazov@ipa.nw.ru
+     Secondary Contact
+       Contact Name           : Vladimir Sharkov
+       Telephone (primary)    : +7-(812)-275-11-18
+       Telephone (secondary)  : +7-(812)-275-10-24
+       Fax                    : +7-(812)-275-11-19
+       E-mail                 : gpsuser@ipa.nw.ru
+     Additional Information   : Ismail Rahimov (at Svetloe observatory)
+                              : Phone +7-(812)-312-54-19
+                              : Fax   +7-(812)-275-11-19
+                              : E-mail iar@osvtl.spb.ru
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : OLG
+     URL for More Information : www.ipa.nw.ru
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TPSCR.G3
+
+                         +-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.1015 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.000  BPA=ARP
+
+                      <--  0.238  -->
+  <--                      0.380                      -->
+
+===============================================================================
+
+Antenna height one finds in the SVTL files (0.0285 m) is the height of ARP
+above mark. The installation of antenna looks as so:
+
+
+       ===================================================
+        |                                               |
+        |                Antenna TPSCR.G3               |
+        |                       _                       |
+        |                     /   \                     |
+        |                    |     |                    |
+  40.0  |____________________|     |____________________|  ARP
+                      |                   |
+                      |          /------------------------ mark reference point
+  11.5                |       / ~ \       |
+                      |      |     |      | <------------- thread adapter
+                      |      |     |      |
+   0     ------------------------------------------------
+                                                           stainless plate
+ -12     ------------------------------------------------
+                                                          \
+                                                           \
+                                                            \
+                                                              concrete pillar
+                                                            /
+                                                           /
+                                                          /
+ ~-1200  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  roof
+
+ height, mm
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

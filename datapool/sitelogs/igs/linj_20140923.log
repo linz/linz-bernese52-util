@@ -1,0 +1,418 @@
+     LINJ Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Susan Jeffries
+     Date Prepared            : 2014-09-23
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : linj_20140707.log
+      Modified/Added Sections : (n.n,n.n,...)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Lancaster Injection Well
+     Four Character ID        : LINJ
+     Monument Inscription     : 
+     IERS DOMES Number        : 49814M001
+     CDP Number               : 
+     Monument Description     : Wyatt/Agnew drilled-braced
+       Height of the Monument :  (m)
+       Monument Foundation    : (STEEL RODS/CONCRETE BLOCK/ROOF/etc)
+       Foundation Depth       :  (m)
+     Marker Description       : Top of a drilled divot in the vertical leg of
+                              : the monument
+     Date Installed           : 1996-03-01T00:00Z
+     Geologic Characteristic  : Alluvial, aeolian and playa lake deposits
+       Bedrock Type           : NA
+       Bedrock Condition      : NA
+       Fracture Spacing       : NA
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : SCIGN - Southern California Integrated GPS
+                              : Network. Five-legged drilled braced monument, a
+                              : USGS WRD/SCIGN collaboration.
+
+
+2.   Site Location Information
+
+     City or Town             : Lancaster
+     State or Province        : California
+     Country                  : USA
+     Tectonic Plate           : North America
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2477128.9562
+       Y coordinate (m)       : -4631620.4894
+       Z coordinate (m)       : 3607500.1991
+       Latitude (N is +)      : +343943.28
+       Longitude (E is +)     : -1180821.13
+       Elevation (m,ellips.)  : 721.2153
+     Additional Information   : Los Angeles County. Reference frame used is
+                              : (ITRF2000). Coordinate system used is (WGS84).
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03064
+     Firmware Version         : 1F50
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1998-02-03T00:00Z
+     Date Removed             : 1999-07-09T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Installed to monitor deformation during
+                              : ground-water injection
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03185
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-07-09T00:00Z
+     Date Removed             : 2003-07-18T00:14Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Receiver swap and firmware upgrade.
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03032
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2003-07-18T00:14Z
+     Date Removed             : 2008-03-19T22:54Z
+     Temperature Stabiliz.    : none
+     Additional Information   : This receiver used to be at CAT1 but it should
+                              : be fine.
+
+3.4  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02910
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-03-19T22:54Z
+     Date Removed             : 2010-04-27T22:55Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02806
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-04-27T23:00Z
+     Date Removed             : 2012-01-12T20:58Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-01107
+     Firmware Version         : 3.5 Aug,24,2011 p3b2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-01-12T21:06Z
+     Date Removed             : 2012-05-11T17:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-01107
+     Firmware Version         : 3.6 Feb28,2012p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-05-11T18:07Z
+     Date Removed             : 2013-05-30T16:26Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-01107
+     Firmware Version         : 4.0 Dec,21,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-05-30T16:53Z
+     Date Removed             : 2013-11-06T21:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 5251K40961
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-11-06T21:30Z
+     Date Removed             : 2014-09-23T19:02Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 5251K40961
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-09-23T19:07Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936E_C    NONE
+     Serial Number            : CR14666
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.114
+     Marker->ARP North Ecc(m) :
+     Marker->ARP East Ecc(m)  :
+     Alignment from True N    : Perhaps up to several degrees deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-02-03T00:00Z
+     Date Removed             : 1999-07-12T00:00Z
+     Additional Information   :  
+
+4.2  Antenna Type             : ASH701945B_M    SCIS
+     Serial Number            : CR519991745
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.114
+     Marker->ARP North Ecc(m) :
+     Marker->ARP East Ecc(m)  :
+     Alignment from True N    : Perhaps up to several degrees deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-07-12T00:00Z
+     Date Removed             : 2012-11-01T21:57Z
+     Additional Information   :  
+
+4.3  Antenna Type             : TPSCR.G3        SCIT
+     Serial Number            : 383-1859
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.114
+     Marker->ARP North Ecc(m) :
+     Marker->ARP East Ecc(m)  :
+     Alignment from True N    :  deg
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : none
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2012-11-01T22:09Z
+     Date Removed             : 2013-11-06T21:10Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 500011553515
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.07
+     Marker->ARP North Ecc(m) :
+     Marker->ARP East Ecc(m)  :
+     Alignment from True N    :  deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2013-11-06T21:20Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : 1998-02-03/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : USGS
+     Preferred Abbreviation   : USGS
+     Mailing Address          : Pasadena Field Office, 525 S Wilson Ave
+                              : Pasadena, CA  91107
+     Primary Contact
+       Contact Name           : Ken Hudnut
+       Telephone (primary)    : 626-583-7232
+       Telephone (secondary)  :
+       Fax                    : 626-583-7827
+       E-mail                 : hudnut@usgs.gov
+     Secondary Contact
+       Contact Name           : Dan Determan
+       Telephone (primary)    : 626-583-6729
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : ddeterman@usgs.gov
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   :
+     Preferred Abbreviation   : (A10)
+     Mailing Address          :
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : UNAVCO Boulder Facility Archive
+     Secondary Data Center    : 
+     URL for More Information : http://www.unavco.org
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM55971.00
+TRM57971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----+-----/                        <--  0.0000  BAM=ARP
+
+  <--                    0.3396                   -->                  Notches

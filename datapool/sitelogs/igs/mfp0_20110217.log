@@ -1,0 +1,526 @@
+     MFP0 Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : David Maggert
+     Date Prepared            : 2011-02-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : mfp0_20100519.log
+      Modified/Added Sections : 3.9, 3.10 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Marshall Field Pillar Zero
+     Four Character ID        : MFP0
+     Monument Inscription     : N/A
+     IERS DOMES Number        : N/A
+     CDP Number               : 
+     Monument Description     : Shallow Foundation Concrete Pillar
+       Height of the Monument : 1.524 m
+       Monument Foundation    : Rebar reinforced concrete pillar
+       Foundation Depth       : 3 m
+     Marker Description       : SCIGN Mount mark
+     Date Installed           : 2007-03-16T00:00Z
+     Geologic Characteristic  : CLAY/CONGLOMERATE
+       Bedrock Type           : N/A
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Boulder
+     State or Province        : Colorado
+     Country                  : USA
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1283644.1904
+       Y coordinate (m)       : -4726415.6988
+       Z coordinate (m)       : 4074807.6219
+       Latitude (N is +)      : +395658.5996 N
+       Longitude (E is +)     : -1051139.9012 W
+       Elevation (m,ellips.)  : 1728.0000 m
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4644124564
+     Firmware Version         : 1.1-5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-03-16T00:00Z
+     Date Removed             : 2008-01-24T23:58Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 15 second logging rate
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR2200716012
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-01-24T23:59Z
+     Date Removed             : 2008-04-15T21:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 15 second logging rate
+
+3.3  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 401-01462
+     Firmware Version         : 3.2 Dec 20,2007
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-04-15T00:00Z
+     Date Removed             : 2008-04-21T22:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 401-01458
+     Firmware Version         : 3.2 Dec 20,2007
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-04-22T00:00Z
+     Date Removed             : 2008-06-02T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 401-01462
+     Firmware Version         : 3.3p1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-06-03T00:20Z
+     Date Removed             : 2008-07-20T22:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 401-01458
+     Firmware Version         : 3_3p4
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-07-21T00:00Z
+     Date Removed             : 2008-10-16T17:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 401-01462
+     Firmware Version         : 3.3p5
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-10-16T17:31Z
+     Date Removed             : 2009-03-04T19:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.8  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 401-01458
+     Firmware Version         : 3.3p7 (3.4 Feb 25,09b3)
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-03-04T19:15Z
+     Date Removed             : 2010-05-19T20:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.9  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 401-01462
+     Firmware Version         : 3.4p2 (Dec 12,2009)
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-05-19T20:38Z
+     Date Removed             : 2010-11-07T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.10 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4723133155
+     Firmware Version         : 1.1-5
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-02-15T23:11Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM41249.00
+     Serial Number            : 60177723
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.059862 m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : N/A
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2007-03-16T00:00Z
+     Date Removed             : 2008-01-24T23:58Z
+     Additional Information   : brass cup and adapter was on scign mount
+
+4.2  Antenna Type             : ASH701945E_M
+     Serial Number            : CR6200548004
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083 m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : N/A
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2008-01-24T23:58Z
+     Date Removed             : 2008-02-01T20:30Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : ASH701945E_M
+     Serial Number            : CR6200548023
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083 m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : N/A
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2008-02-01T20:30Z
+     Date Removed             : 2008-02-08T21:30Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : ASH701945E_M
+     Serial Number            : CR6200548029
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083 m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : N/A
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2008-02-08T21:30Z
+     Date Removed             : 2008-02-15T22:30Z
+     Additional Information   : (multiple lines)
+
+4.5  Antenna Type             : ASH701945E_M
+     Serial Number            : CR6200548028
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083 m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : N/A
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2008-02-16T00:00Z
+     Date Removed             : 2008-02-22T22:00Z
+     Additional Information   : (multiple lines)
+
+4.6  Antenna Type             : ASH701945E_M
+     Serial Number            : CR6200548004
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083 m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : N/A
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2008-02-23T00:00Z
+     Date Removed             : 2008-04-15T21:00Z
+     Additional Information   : (multiple lines)
+
+4.7  Antenna Type             : TPSG3_A1
+     Serial Number            : 403-0385
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.059862 m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2008-04-16T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : 
+     Date Measured            : 
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2007-03-15/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : (2004-02-22/CCYY-MM-DD)
+       Notes                  : P041 roughly 15 m to South
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : N/A
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : N/A
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : N/A
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : N/A
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : N/A
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : Potential cable hazard due to wildlife
+       Effective Dates        : 2007-12-15/CCYY-MM-DD
+       Additional Information : Prarie dogs dig holes, eat cables
+
+9.3.x Signal Obstructions     : RODENTS CHEW THROUGH CABLES, DIG HOLES
+       Effective Dates        : 2007-12-16/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : JPL
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  :
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : UNAVCO
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : Victoria Andreatta
+       Telephone (primary)    : 303-381-7458
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : andreatta@unavco.org
+     Additional Information   : (multiple lines)
+     Secondary Contact
+       Contact Name           : Network Engineer	
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : support@unavco.org
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      :
+     Secondary Data Center    :
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH701945B_M
+ASH701945C_M
+ASH701945D_M
+ASH701945E_M
+ASH701945G_M
+                         +-------+
+                       /     +     \                        
+                      |      +      |                       
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.3794                      -->
+

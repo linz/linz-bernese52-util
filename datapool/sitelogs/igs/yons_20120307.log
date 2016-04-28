@@ -1,0 +1,389 @@
+     YONS Site Information Form
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Heui Young Park
+     Date Prepared            : 2012-03-07
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : YONGSAN
+     Four Character ID        : YONS
+     Monument Inscription     : SEOUL GNSS STATION
+     IERS DOMES Number        : 23906M001
+     CDP Number               : NONE
+     Monument Description     : PILLAR
+       Height of the Monument : 2(m)
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1(m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2010-11-01T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : SEOUL
+     State or Province        : 
+     Country                  : Korea
+     Tectonic Plate           : Eurasian
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3047506.741
+       Y coordinate (m)       : +4043980.580  
+       Z coordinate (m)       : +3865243.010
+       Latitude (N is +)      : +373228.04 
+       Longitude (E is +)     : +1270004.84
+       Elevation (m,ellips.)  : 96.849
+     Additional Information   : 
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5016K66897
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : (5 deg)
+     Date Installed           : 2010-11-01T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : TRM59800.00     SCIS
+     Serial Number            : 5007353
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.000
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2010-11-01T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Radome is Half Sphere
+
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+     
+5.  Surveyed Local Ties
+
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+
+6.   Frequency Standard
+
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+
+7.   Collocation Information
+
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+
+8.   Meteorological Instrumentation
+
+
+8.1.1  Humidity Sensor Model  : WXT 520
+       Manufacturer           : VAISALA
+       Serial Number          : 
+       Data Sampling Interval : 15 (min)
+       Accuracy (% rel h)     : ( 2 (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 2 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2010-11-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.2.1  Pressure Sensor Model  : WXT 520
+       Manufacturer           : VAISALA
+       Serial Number          : 
+       Data Sampling Interval : 60 (sec)
+       Accuracy               : 0.1 (mbar)
+       Height Diff to Ant     : 2 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2010-11-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.3.1  Temp. Sensor Model     : WXT 520
+       Manufacturer           : VAISALA
+       Serial Number          : 
+       Data Sampling Interval : 15 (min)
+       Accuracy               : 0.5 (deg C)
+       Aspiration             : (UNSPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 2 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2010-11-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.4.1  Water Vapor Radiometer : NONE
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.5.1  Other Instrumentation  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Seoul Metropolitan Government
+     Preferred Abbreviation   : SMG
+     Mailing Address          : 15, Ducksugung-Kil, Jung-gu, Seoul 100-739,
+                              : Korea
+     Primary Contact
+       Contact Name           : Heui-Young Park
+       Telephone (primary)    : +82-2-3707-8058
+       Telephone (secondary)  : 
+       Fax                    : +82-42-861-5610
+       E-mail                 : park2002@seoul.go.kr
+     Secondary Contact
+       Contact Name           : Gun-Suk Cha
+       Telephone (primary)    : +82-2-6361-3947
+       Telephone (secondary)  : 
+       Fax                    : +82-42-861-5610
+       E-mail                 : cgs2298@seoul.go.kr
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : KASI
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : NONE
+       Horizon Mask           : NONE
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+
+
+              Trimble: TRIM59800.00
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  ARP
+
+<--                      0.381                       -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+               ********  Monument description  ********
+
+                                  ---
+                                 /   \
+                               +---------+
+                              |         |
+                               +=========+
+                                 |   |
+                                 +-x-+ <---------------- ARP = Marker
+           Stainless Steel Rod -> | |           250mm
+              (r = 25mm)   +------| |------+ <---------- Top of pillar
+                             |    | |    |
+                             |    | |    |
+                             |  =======  |
+                             |           |
+                          ~ stainless steel~
+                             ~   Pillar  ~
+                             |    (2m)   |
+                             |           |
+                             |           |
+                             |           |
+            ~~~~ Surface ~~~~|           |~~~~ Surface ~~~~
+                             |           |
+            +----------------|-----------|----------------+
+            |                                             |
+            |                                             |
+            ~             Ferro-concrete Base             ~
+            ~               (2m x 2m x 1m)                ~
+            |                                             |
+            |                                             |
+            +-----|---|-----|---|-----|---|-----|---|-----+
+                  |   |     |   |     |   |     |   |
+                  |   |     |   |     |   |     |   |
+                  |   |     |   |     |   |     |   |
+

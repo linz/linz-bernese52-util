@@ -1,0 +1,457 @@
+     International GPS Service
+     TIXI Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Grigory Steblov
+     Date Prepared            : 2010-11-07
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tixi_20060531.log
+      Modified/Added Sections : 3.3 3.4 4.3 4.4 11 12 13
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Seismic Station Tixi
+     Four Character ID        : TIXI
+     Monument Inscription     : 
+     IERS DOMES Number        : 12360M001
+     CDP Number               : (A4)
+     Monument Description     : STAINLESS STEEL ROD
+       Height of the Monument : (m)
+       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1998-10-08
+     Geologic Characteristic  : Verkhoyansk fold-and-thrust belt
+       Bedrock Type           : Thick siltstone series
+       Bedrock Condition      : Jointed
+       Fracture Spacing       : Over 200 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Tixi is about 100 km to the east of the
+                              : margin of Siberian platform.
+                              : This station is part of NEDA
+                              : Deformation Array created and run by
+                              : RUSEG
+                              : by GPS Technology. NEDA operational control
+                              : is provided by RDAAC
+                              : Acquisition/Analysis Center (Moscow). RDAAC
+                              : is also IGS Operational Center for NEDA.
+                              : RUSEG is a collaborative project of Lamont-
+                              : Doherty Earth Observatory and Russian Academy
+                              : of Sciences supported through the IRIS
+                              : Consortium.
+                              : 
+                              : The GPS reference mark consists of
+                              : 5/8-11" diameter, vertical rod of the
+                              : stainless steel.
+                              : The rod is glued into the flat top of the 2-m
+                              : high rectangular construction made of reinforced
+                              : concrete on the roof of the apartments
+                              : building. The 20-cm thick roof is also made
+                              : of reinforced concrete.
+                              : Seismic station computer room is in this
+                              : building. The GPS receiver is located in that
+                              : room and it is connected to antenna with
+                              : a 30-m cable protected with a metal conduit.
+                              : The 4-floors building has 30-cm thick brick
+                              : walls without cracks. It is supported by
+                              : 90 stilts driven into the permafrost to
+                              : a depth of 10 m, about 8 m below the depth
+                              : of maximum melting in summer.
+                              : Vertical datum
+                              : of the rod.
+                              : The antenna is attached to the rod with
+                              : UNAVCO compact leveling mount. The antenna
+                              : and the choke-ring assembly are protected
+                              : with the JPL hemispherical radome.
+
+2.   Site Location Information
+
+     City or Town             : Tixi
+     State or Province        : Yakutia - Sakha Republic
+     Country                  : Russian Federation
+     Tectonic Plate           : Eurasia - North America plate boundary
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1264872.963
+       Y coordinate (m)       : 1569455.814
+       Z coordinate (m)       : 6031003.388
+       Latitude (N is +)      : +713804.11
+       Longitude (E is +)     : +1285159.09
+       Elevation (m,ellips.)  : 46.9847
+     Additional Information   : GAMIT Solution ITRF96. Epoch 1998.775
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : T123
+     Firmware Version         : 3.2 95/03/08
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1998-10-08
+     Date Removed             : 1999-03-30
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : LP01745
+     Firmware Version         : NAV CC00 CH 1D02
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-03-30
+     Date Removed             : 2005-12-22T23:59Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Model 700845-10D (Z-12 CGRS).
+     
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : LP020003240
+     Firmware Version         : NAV CD00 CH 1D02
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2005-12-23T09:25Z
+     Date Removed             : 2010-10-20
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Model 700845-10F (Z-12 CGRS). 
+
+3.4  Receiver Type            : JPS EGGDT
+     Satellite System         : GPS+GLO
+     Serial Number            : 8RLTBTENFGG
+     Firmware Version         : 2.7.0 Mar,31,2008
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2010-10-20T17:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines) 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : ASH700936D_M    UNAV
+     Serial Number            : 13083
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0792
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 0
+     Antenna Radome Type      : UNAV
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-10-08
+     Date Removed             : 2002-03-14
+     Additional Information   : Antenna Diagram below
+                              : clear spherical radome
+
+4.2  Antenna Type             : ASH700936D_M    NONE
+     Serial Number            : 13083
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0792
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2002-03-14
+     Date Removed             : 2002-10-14
+     Additional Information   : Unauthorized radome removal was discovered
+                              : about 14-MAR-2002. Precise date is unknown.
+
+4.3  Antenna Type             : ASH700936D_M    SCIS
+     Serial Number            : 13083
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0792
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2002-10-14
+     Date Removed             : 2010-10-20
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : TPSCR3_GGD      NONE
+     Serial Number            : 00263
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0792
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2010-10-20T17:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : The receiver is connected to the antenna via 
+                              : the splitter. 
+                              : The 2nd input of the splitter is connected with
+                              : the receiver of station TIXG. 
+                              : The splitter provides power to the antenna 
+                              : independently of either TIXI or TIXG receivers.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.1  Tied Marker Name         : TIX0
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -702.787
+       dy (m)                 : 5883.730
+       dz (m)                 : -1685.430
+     Accuracy (mm)            : 1 mm
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : 1998-10-14
+     Additional Information   : GAMIT solution of simultaneous GPS
+                              : observations (baseline mode in sestbl.).
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  :
+
+8.   Meteorological Instrumentation
+
+
+8.1.1  Humidity Sensor Model  : Polymer Capacitance Element
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : 
+       Data Sampling Interval : 300 s.
+       Accuracy (% rel h)     : +-2% rel h
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2004-08-18/CCYY-MM-DD
+       Notes                  : The sensor is incorporated in the MET3
+                              : Meteorological System
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Digiquartz (R) Barometric Pressure Transducer
+       Manufacturer           : Paroscientific, Inc.Paroscientific, Inc.
+       Serial Number          : 
+       Data Sampling Interval : 300 s.
+       Accuracy               : +-0.01%
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2004-08-18/CCYY-MM-DD
+       Notes                  : The sensor is incorporated in the MET3
+                              : Meteorological System
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : Thin-film Platinum 1000-ohm Resistor
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : 
+       Data Sampling Interval : 300 s.
+       Accuracy               : +-0.5 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2004-08-18/CCYY-MM-DD
+       Notes                  : The sensor is incorporated in the MET3
+                              : Meteorological System
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Seismic Station Tixi
+     Preferred Abbreviation   : SST YEMSP GS SB RAS
+     Mailing Address          : 30 Akademika Fedorova Street
+                              : 678400 Tixi
+                              : Yakutia - Sakha Republic, RUSSIA
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : RDAAC,GS RAS,JPL
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : 189 Lenina Street
+                              : Obninsk 249030, Kaluga Region, RUSSIA
+     Primary Contact
+       Contact Name           : Grigory Steblov
+       Telephone (primary)    : +7-903-1529610
+       Telephone (secondary)  : +7-48439-20181
+       Fax                    : 
+       E-mail                 : steblov@gps.gsras.ru
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+13.  More Information
+
+     URL for More Information : http://www.gps.gsras.ru
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : Hardcopy Information available from www.site
+                              : or from Responsible Agency
+     Antenna Graphics with Dimensions
+
+
+
+
+TPSCR3_GGD
+                        ---------
+                      /     +     \                        <--  0.104  L2
+                     |      +      |                       <--  0.081  L1
+   +--------------------------------------------------+    <--  0.071  TCR
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   +-----------------+-------------+------------------+    <--  0.003 BCR
+                      +-----x-----+                        <--  0.000 BPA=ARP
+
+   <--                    0.326                     -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+
+
+
+

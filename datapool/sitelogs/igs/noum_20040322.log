@@ -1,0 +1,459 @@
+     International GPS Service
+     NOUM Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Cyrille DUMAS-PILHOU
+     Date Prepared            : 2004-03-22
+     Report Type              : UPDATED
+     If Update:
+      Previous Site Log       : noum_20020806.log
+      Modified/Added Sections : 3.6,11
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : NOUMEA
+     Four Character ID        : NOUM
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 92701M003
+     CDP Number               : (A4)
+     Monument Description     : MAST
+       Height of the Monument : 2.50m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 3.50m
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1997-12-08
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED on the surface, UNALTERED below
+       Fracture Spacing       : 10-50 cm on the first meters, >200 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+                              : Local number 3D 33-68b
+                              : Set on the western coast of New Caledonia
+                              : Island, on top of a hill at the sea site,
+                              : in the old accretionary prism of a
+                              : former, tertiary, subduction margin.
+                              : The 4" steel pilar which sustain the
+                              :
+                              : (set at 2.5 m above ground level) goes
+                              :
+                              : deep
+                              : down to the unaltered bedrock to which
+                              :
+                              : been anchored
+
+2.   Site Location Information
+
+     City or Town             : NOUMEA
+     State or Province        : New Caledonia
+     Country                  : FRANCE
+     Tectonic Plate           : Indo-Australian
+     Approximate Position (ITRF)
+       X coordinate (m)       : -5739971.533
+       Y coordinate (m)       : 1387563.675
+       Z coordinate (m)       : -2402123.573
+       Latitude (N is +)      : -221611.64
+       Longitude (E is +)     : +1662436.72
+       Elevation (m,ellips.)  : 83.079 (HAE) and 20.835 (MSL)
+     Additional Information   : ITRF97 coordinates. Epoch 1997.0
+                              : Located at the communication centre of
+                              : Caledonia
+                              : France Cables et Radio site at Nouville
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : 3618A15567
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1997-12-08T04:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4700
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : 0220134837
+     Firmware Version         : Nav 1.20   Sig 1.42
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-05-23T09:00Z
+     Date Removed             : 2000-07-12T06:05Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Temporary change beetween 4000ssi and
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : 3618A15567
+     Firmware Version         : 7.19
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-07-12T06:25Z
+     Date Removed             : 2001-11-23T03:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : TRIMBLE support put firmware 7.19
+                              :
+                              : new problem
+
+3.4  Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            : 0220264714
+     Firmware Version         : 1.04
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2001-11-23T03:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : L1/L2 receiver with Maxwell-4 ASIC
+
+3.5  Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            : 0220264714
+     Firmware Version         : 1.20
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2002-08-06T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : L1/L2 receiver with Maxwell-4 ASIC
+
+3.6  Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            : 0220264714
+     Firmware Version         : 2.01
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2004-03-16T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : L1/L2 receiver with Maxwell-4 ASIC
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : TRM29659.00
+     Serial Number            : 0220094218
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    :
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1997-12-08
+     Date Removed             : 2001-11-23T03:00Z
+     Additional Information   : The antenna is fixed at the centre of
+                              : stainless steel plate at
+                              : the top of 4" steel pillar
+
+4.2  Antenna Type             : TRM41249.00
+     Serial Number            : 11889097
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 60m
+     Date Installed           : 2001-11-23T03:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Zephyr 4 -point feed antenna -
+                              : Stealth Ground Plane
+                              : Exactly the same position (axe and height)
+                              : that the precedent antenna (TRM29659.00)
+
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.1  Tied Marker Name         : DORIS Mark RBGM  ( Local number
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 92701M002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -17.558
+       dy (m)                 : -16.416
+       dz (m)                 : 40.214
+     Accuracy (mm)            : 3
+     Survey method            : (GPS
+CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : 1997-07-28
+     Additional Information   : (multiple lines)
+
+5.2  Tied Marker Name         : DORIS  ARP (Ant. Reference point)
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 92701S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -22.223
+       dy (m)                 :
+       dz (m)                 : 38.253
+     Accuracy (mm)            : 3
+     Survey method            : (GPS
+CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : 1997-07-28
+     Additional Information   : (multiple lines)
+
+5.3  Tied Marker Name         : PRARE ARP  (Ant. Reference point)
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number :
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 7.823
+       dy (m)                 : 7.551
+       dz (m)                 : -9.455
+     Accuracy (mm)            : 3
+     Survey method            : (GPS
+CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : 1997-07-28
+     Additional Information   : (multiple lines)
+
+
+5.4  Tied Marker Name         : DORIS2 ARP (Ant. Reference point)
+     Tied Marker Usage        : DORIS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number :
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 3.286
+       dy (m)                 : 14.333
+       dz (m)                 : 1.370
+     Accuracy (mm)            : 2
+     Survey method            : GPS CAMPAIGN + LEVELLING + TRILATERATION
+     Date Measured            : 2001-10-30
+     Additional Information   : New DORIS station (december 2001)
+                              : DITTT file : CRG10
+                              : Old one (õ 5.2) is decontaminated
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1987-11-20/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.2  Instrumentation Type     : PRARE
+       Status                 : PERMANENT
+       Effective Dates        : 1997-08-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.1  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval :
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval :
+       Accuracy               : (mbar)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval :
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : DEPARTMENT of LAND (DITTT/ST/BGN)
+     Preferred Abbreviation   : DITTT
+     Mailing Address          : 1 bis rue Edouard UNGER
+                              : 1er vallee du Tir
+                              : BP A2 - 98848 NOUMEA Cedex
+                              : NEW CALEDONIA
+     Primary Contact
+       Contact Name           : Cyrille DUMAS-PILHOU (Geodetic depart.)
+       Telephone (primary)    : 687 - 28 03 27
+       Telephone (secondary)  : 687 - 28 03 22
+       Fax                    : 687 - 24 90 49
+       E-mail                 : cyrille.dumas-pilhou@gouv.nc
+     Secondary Contact
+       Contact Name           : Pierre LEBELLEGARD (IRD)
+       Telephone (primary)    : 687 - 26 07 70
+       Telephone (secondary)  : 687 - 26 10 00
+       Fax                    : 687 - 26 43 26
+       E-mail                 : lebelleg@noumea.ird.nc
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+13.  More Information
+
+     URL for More Information :
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+

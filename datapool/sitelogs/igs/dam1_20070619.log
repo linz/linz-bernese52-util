@@ -1,0 +1,417 @@
+      DAM1 Site Information Form (site log)
+      International GPS Service
+      See Instructions at:
+        ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.    Form
+
+      Prepared by (full name) : Paul Jamason
+      Date Prepared           : 2007-06-19
+      Report Type             : DYNAMIC
+      If Update:
+       Previous Site Log       : (ssss_ccyymmdd.log)
+       Modified/Added Sections : (n.n,n.n,...)
+
+
+1.    Site Identification of the GNSS Monument
+
+      Site Name               : Pacoima Dam 1
+      Four Character ID       : DAM1
+      Monument Inscription    : 
+      IERS DOMES Number       : 49905M001
+      CDP Number              : (A4)
+      Monument Description    : glued-rod
+        Height of the Monument: (m)
+        Monument Foundation   : ROOF
+        Foundation Depth      : (m)
+      Marker Description      : Top of machined groove in pin shank.
+                              : Pin is set in roof of dam house on concrete 
+                              : abutment.
+      Date Installed          : 1995-08-03T00:00Z
+      Geologic Characteristic : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+        Bedrock Type          : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+        Bedrock Condition     : (FRESH/JOINTED/WEATHERED)
+        Fracture Spacing      : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+      Fault zones nearby      : (YES/NO/Name of the zone)
+      Distance/activity       : (multiple lines)
+      Additional Information  : Antenna is attached to a threaded rock pin 
+                              : (modified Bevis pin design). See below for 
+                              : info on vertical datum. SCIGN - Southern 
+                              : California Integrated GPS Network. Station was 
+                              : decommisioned on 4 April, 2000 due to new 
+                              : construction at site.
+                              : Last day of data is 03/28/2000
+
+
+2.    Site Location Information
+
+      City or Town            : Pacoima
+      State or Province       : California
+      Country                 : USA
+      Tectonic Plate          : North America Pacific
+      Approximate Position (ITRF)
+       X coordinate (m)       : -2507721.12
+       Y coordinate (m)       : -4638444.48
+       Z coordinate (m)       : 3577430.03
+       Latitude (N is +)      : +341948.00
+       Longitude (E is +)     : -1182400.00
+       Elevation (m,ellips.)  : 584.77
+      Additional Information  : Los Angeles County.
+                              : Reference frame used is (ITRF97).
+                              : Coordinate system used is (NAD83).
+
+
+3.    GNSS Receiver Information
+
+3.1   Receiver Type           : ASHTECH Z-XII3
+      Satellite System        : GPS
+      Serial Number           : 00221
+      Firmware Version        : NAV 1E24, CHN 1C70
+      Elevation Cutoff Setting: (deg)
+      Date Installed          : 1995-08-03T00:00Z
+      Date Removed            : 1996-09-06T00:00Z
+      Temperature Stabiliz.   : (none or tolerance in degrees C)
+      Additional Information  : First Measurements. (Owned by L.A. Co. Survey 
+                              : Division)
+
+3.2   Receiver Type           : ASHTECH Z-XII3
+      Satellite System        : GPS
+      Serial Number           : 00221
+      Firmware Version        : NAV 1E95, 1D01
+      Elevation Cutoff Setting: (deg)
+      Date Installed          : 1996-09-06T00:00Z
+      Date Removed            : 1999-03-02T00:00Z
+      Temperature Stabiliz.   : (none or tolerance in degrees C)
+      Additional Information  : Firmware upgrade.
+
+3.3   Receiver Type           : ASHTECH Z-XII3
+      Satellite System        : GPS
+      Serial Number           : LP03345
+      Firmware Version        : CB00
+      Elevation Cutoff Setting: 10
+      Date Installed          : 1999-03-02T00:00Z
+      Date Removed            : 1999-07-01T00:00Z
+      Temperature Stabiliz.   : (none or tolerance in degrees C)
+      Additional Information  : Receiver swap. Previous unit had bad memory 
+                              : problem.
+
+3.4   Receiver Type           : ASHTECH Z-XII3
+      Satellite System        : GPS
+      Serial Number           : LP03345
+      Firmware Version        : CC00
+      Elevation Cutoff Setting: 10
+      Date Installed          : 1999-07-01T00:00Z
+      Date Removed            : 2000-04-04T00:00Z
+      Temperature Stabiliz.   : (none or tolerance in degrees C)
+      Additional Information  : Firmware upgrade for GPS week 
+                              : rollover-compliance.
+
+3.x   Receiver Type           : (A20, from rcvr_ant.tab; see instructions)
+      Satellite System        : (GPS/GLONASS/GPS+GLONASS)
+      Serial Number           : (A5)
+      Firmware Version        : (A11)
+      Elevation Cutoff Setting: (deg)
+      Date Installed          : (CCYY-MM-DDThh:mmZ)
+      Date Removed            : (CCYY-MM-DDThh:mmZ)
+      Temperature Stabiliz.   : (none or tolerance in degrees C)
+      Additional Information  : (multiple lines)
+
+
+4.    GNSS Antenna Information
+
+4.1   Antenna Type            : ASH700936A_M
+      Serial Number           : 11931
+      Antenna Reference Point : BPA
+      Marker->ARP Up Ecc. (m) : 0.0980
+      Marker->ARP North Ecc(m): (F8.4)
+      Marker->ARP East Ecc(m) : (F8.4)
+      Alignment from True N   : (deg; + is clockwise/east)
+      Antenna Radome Type     : NONE
+      Radome Serial Number    : 
+      Antenna Cable Type      : (vendor & type number)
+      Antenna Cable Length    : (m)
+      Date Installed          : 1995-08-03T00:00Z
+      Date Removed            : 1996-12-16T00:00Z
+      Additional Information  : First Measurements. Vertical datum is the top 
+                              : of machined groove in pin shank. Pin is set in 
+                              : roof of a concrete block house on dam abutment.
+
+4.2   Antenna Type            : ASH700936A_M
+      Serial Number           : 11931
+      Antenna Reference Point : BPA
+      Marker->ARP Up Ecc. (m) : 0.100
+      Marker->ARP North Ecc(m): (F8.4)
+      Marker->ARP East Ecc(m) : (F8.4)
+      Alignment from True N   : (deg; + is clockwise/east)
+      Antenna Radome Type     : SNOW
+      Radome Serial Number    : 
+      Antenna Cable Type      : (vendor & type number)
+      Antenna Cable Length    : (m)
+      Date Installed          : 1996-12-16T00:00Z
+      Date Removed            : 2000-04-04T00:00Z
+      Additional Information  : ANTENNA HEIGHT CHANGE. Station decommisioned due to new construction at site.
+
+4.x   Antenna Type            : (A20, from rcvr_ant.tab; see instructions)
+      Serial Number           : (A*, but note the first A5 is used in SINEX)
+      Antenna Reference Point : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+      Marker->ARP Up Ecc. (m) : (F8.4)
+      Marker->ARP North Ecc(m): (F8.4)
+      Marker->ARP East Ecc(m) : (F8.4)
+      Alignment from True N   : (deg; + is clockwise/east)
+      Antenna Radome Type     : (A4 from rcvr_ant.tab; see instructions)
+      Radome Serial Number    : 
+      Antenna Cable Type      : (vendor & type number)
+      Antenna Cable Length    : (m)
+      Date Installed          : (CCYY-MM-DDThh:mmZ)
+      Date Removed            : (CCYY-MM-DDThh:mmZ)
+      Additional Information  : (multiple lines)
+
+
+5.    Surveyed Local Ties
+
+5.1   Tied Marker Name        : 
+      Tied Marker Usage       : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+      Tied Marker CDP Number  : (A4)
+      Tied Marker DOMES Number: (A9)
+      Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+      Accuracy (mm)           : (mm)
+      Survey method           : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+      Date Measured           : (CCYY-MM-DDThh:mmZ)
+      Additional Information  : (multiple lines)
+
+5.x   Tied Marker Name        : 
+      Tied Marker Usage       : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+      Tied Marker CDP Number  : (A4)
+      Tied Marker DOMES Number: (A9)
+      Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+      Accuracy (mm)           : (mm)
+      Survey method           : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+      Date Measured           : (CCYY-MM-DDThh:mmZ)
+      Additional Information  : (multiple lines)
+
+
+6.    Frequency Standard
+
+6.1   Standard Type           : INTERNAL
+      Input Frequency         : (if external)
+      Effective Dates         : 1995-08-03/CCYY-MM-DD
+      Notes                   : (multiple lines)
+
+6.x   Standard Type           : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+      Input Frequency         : (if external)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+7.    Collocation Information
+
+7.1   Instrumentation Type    : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+      Status                  : (PERMANENT/MOBILE)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+7.x   Instrumentation Type    : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+      Status                  : (PERMANENT/MOBILE)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.    Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy (% rel h)      : (% rel h)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/etc)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.1.x Humidity Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy (% rel h)      : (% rel h)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/etc)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.2.1 Pressure Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (hPa)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (hPa)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.3.1 Temp. Sensor Model      :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (deg C)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/etc)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+      Manufacturer            : 
+      Serial Number           : 
+      Data Sampling Interval  : (sec)
+      Accuracy                : (deg C)
+      Aspiration              : (UNASPIRATED/NATURAL/FAN/etc)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.4.1 Water Vapor Radiometer  :
+      Manufacturer            : 
+      Serial Number           : 
+      Distance to Antenna     : (m)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+      Manufacturer            : 
+      Serial Number           : 
+      Distance to Antenna     : (m)
+      Height Diff to Ant      : (m)
+      Calibration Date        : (CCYY-MM-DD)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+
+8.5.1 Other Instrumentation   : (multiple lines)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+
+8.5.x Other Instrumentation   : (multiple lines)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+
+
+9.    Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+      Observed Degradations   : (SN RATIO/DATA GAPS/etc)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+      Observed Degradations   : (SN RATIO/DATA GAPS/etc)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+
+9.3.1 Signal Obstructions     : (TREES/BUILDINGS/etc)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Additional Information  : (multiple lines)
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.1  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+      Agency                  : United States Geological Survey
+      Preferred Abbreviation  : USGS
+      Mailing Address         : Pasadena Field Office, 525 S. Wilson Ave., 
+                              : Pasadena CA 91106
+      Primary Contact         
+       Contact Name           : Keith Stark
+       Telephone (primary)    : 626-583-6729
+       Telephone (secondary)  : 818-542-5930
+       Fax                    : 626-583-7827
+       E-mail                 : stark@gps.caltech.edu
+      Secondary Contact       
+       Contact Name           : Paul Jamason
+       Telephone (primary)    : 858-822-4472
+       Telephone (secondary)  : 858-663-3508
+       Fax                    : 858-534-9873
+       E-mail                 : pjamason@ucsd.edu
+      Additional Information  : (Primary) SCIGN Network Coordinator
+
+
+12.   Responsible Agency (if different from 11.)
+
+      Agency                  : (multiple lines)
+      Preferred Abbreviation  : (A10)
+      Mailing Address         : (multiple lines)
+      Primary Contact         
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+      Secondary Contact       
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+      Additional Information  : (multiple lines)
+
+
+13.   More Information
+
+      Primary Data Center     : 
+      Secondary Data Center   : 
+      URL For More Information: http://www.scign.org
+      Hardcopy on File        
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+      Additional Information  : (multiple lines)
+      Antenna Graphics with Dimensions
+                              
+      (insert text graphic from antenna.gra)
+
+

@@ -1,0 +1,169 @@
+     NOVARA Site Information Form
+     International GPS Service for Geodynamics
+
+
+0.   Form
+
+     Prepared by (full name)  : Ambrogio Manzino
+     Date Prepared            : 06-NOV-2001
+     Report Type              : NEW INSTALLATION
+     Prepared Using           :
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Novara Comune Largo Don Minzoni 8
+     Four Character ID        : NOVA
+     Monument Inscription     : 
+     IERS DOMES Number        : 12759M001
+     CDP Number               :
+     Date Installed           : (01-MAY-1998 00:00 UT)
+     Geologic Characteristic  : ALLUVIAL FAN
+       Bedrock Type           : GRAVEL AND SAND
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Notes                  : 
+     Additional Information   :
+
+
+2.   Site Location Information
+
+     City or Town             : Novara
+     State or Province        : Piemonte
+     Country                  : ITALY
+     Tectonic Plate           : MEDITERRANEAN STRUCTURE BETWEEN AFRICAN PLATE
+                              : AND ADRIATIC PLATE (EURO-ASIATIC BLOCK)
+     Approximate Position
+       X coordinate (m)       : 4431899.395
+       Y coordinate (m)       :  671366.943
+       Z coordinate (m)       : 4522512.024
+       Latitude (deg)         :   45.4472 N
+       Longitude (deg)        :    8.6140 E
+       Elevation (m)          :  218.570  Q (WGS84)
+     Additional Information   : orthometric elevation 174.57 m 
+			      : In previous version, X/Y/Z coord. were not correct
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Serial Number            : 3639A - 15784  
+     Firmware Version         : 7.29
+     Date Installed           : 01-MAY-1998
+     Date Removed             : 
+     Additional Information   : logging - TRIMBLE URS software
+
+
+
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00
+                              : TRIMBLE L1/L2 DORN MARGOLIN ELEMENT
+                                WITH CHOKERINGS  
+     Serial Number            : SN0220071791
+     Antenna Height (m)       : 0.000
+     Antenna Reference Point  : BOTTOM OF THE ANTENNA MOUNT
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : 01-MAY-1998
+     Date Removed             : 
+     Additional Information   : 
+
+5.   Local Site Ties
+
+Monument               CDP     DOMES             Components      Accuracy  Date
+Name                   Number  Number       dX       dY      dZ     mm yy-mm-dd
+
+NOVA(MARKER 1)            1   ........    0.000     0.000    0.000
+C1  (MARKER 2)            2   ........    5.085    -9.006    2.381  2  00-03-19
+C2  (MARKER 3)            3   ........    3.959    -6.988   -6.744  2  00-03-19
+C3  (MARKER 4)            4   ........   -3.201    14.355   -2.914  2  00-03-19
+C4  (MARKER 5)            5   ........    4.937     6.713   -9.925  2  00-03-19
+
+Differential coordinates from the GPS monument to the reference and
+other monuments. The components are parallel to the XYZ-axes of the
+global geocentric reference system ITRF (WGS-84).
+
+"Accuracy" is estimated accuracy of local survey (millimeters).
+
+
+
+5.1  Monument Name            : 
+     Site Ref CDP Number      : 
+     Site Ref Domes Number    : 12759M001
+
+     Differential Components from GPS Mark to Site Reference (ITRS) (O-R)
+       dx (m)                 :      
+       dy (m)                 :   
+       dz (m)                 :
+     Accuracy (mm)            : 
+     Date Measured            : 
+     Additional Information   : 
+
+
+6.   Frequency Standard
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : 
+       Status                 : 
+       Effective Dates        : 
+       Notes                  : 
+
+
+8.  Meteorological Instrumentation
+
+8.1  Instrumentation Type     : 
+                              : thermo-igrometer
+                              : pluviometer
+                              : anemometer
+
+
+
+
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Comune di Novara Area Sviluppo Urbano
+                              : Servizio Sistema Informativo Territoriale
+Mailing Address               : Via G. Ferrari 13 NOVARA, ITALY
+     Primary Contact
+       Contact Name           : Dott Roberto Stampini/Geom Claudio Porzio
+       Telephone (primary)    : ++39.0321.370720          
+       Telephone (secondary)  : ++39.0321.370723
+       Fax                    : ++39.0321.370725
+       E-mail                 : urbanist@comune.novara.it
+                              : cc: Manzino@polito.it
+
+
+
+Antenna Graphics with Dimensions
+
+
+
+
+Trimble: CHOKE RING
+
+                         -----
+                     /     +     \                      <--  0.128  L2
+                    |      +      |                     <--  0.110  L1
+  +--------------------------------------------------+  <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+<--  0.038
++-------------------+-------------+--------------------+<--  0.035  BCR
+                    |             |
+                    |             |
+                ----+------x------+----                 <--  0.000  ARP
+                          /             \
+MARKER-------------------/               Antenna Height = 0.000 m
+
+
+ARP = Antenna Reference Point
+
+

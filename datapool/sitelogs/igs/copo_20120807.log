@@ -1,0 +1,335 @@
+     COPO Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Eric C. Kendrick
+     Date Prepared            : 2012-08-07
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : copo_20080901.log
+      Modified/Added Sections : 3.2,3.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Copiapo
+     Four Character ID        : COPO
+     Monument Inscription     : none
+     IERS DOMES Number        : 41714S001
+     CDP Number               : 
+     Monument Description     : MAST/STEEL
+       Height of the Monument : 
+       Monument Foundation    : CONCRETE IN BEDROCK
+       Foundation Depth       : 1
+     Marker Description       : Center of top surface of mast
+     Date Installed           : 2002-01-01T00:01Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 11-50 cm
+       Fault zones nearby     : YES
+         Distance/activity    : 
+     Additional Information   : Antenna mast is a steel pipe with
+                              : approximately 8.9 cm outside diameter.
+                              : ARP is approximately 1.650 m above ground
+                              : level.
+                              : Mast is cemented into a hole excavated 1 meter
+                              : deep in a large outcrop of bedrock atop a
+                              : hill.
+
+
+2.   Site Location Information
+
+     City or Town             : Copiapo
+     State or Province        : Region III
+     Country                  : Chile
+     Tectonic Plate           : South America
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1907041.
+       Y coordinate (m)       : -5337379.
+       Z coordinate (m)       : -2916335.
+       Latitude (N is +)      : -272304.30
+       Longitude (E is +)     : -0702017.64
+       Elevation (m,ellips.)  : 479.2
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 01069
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2002-01-01T00:01Z
+     Date Removed             : 2008-07-03T14:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4420233995
+     Firmware Version         : 1.2-0
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2008-07-03T14:06Z
+     Date Removed             : 2012-08-07T13:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4420233995
+     Firmware Version         : 1.3-1
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2012-08-07T13:30Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936D_M    SNOW
+     Serial Number            : 12473
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : BELDEN 8214 RG-8 50 OHM
+     Antenna Cable Length     : 30 
+     Date Installed           : 2002-01-01T00:01Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : COP1
+     Tied Marker Usage        : FOOTPRINT
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -20.439
+       dy (m)                 : 6.011
+       dz (m)                 : -30.795
+     Accuracy (mm)            : 
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : CCYY-MM-DDThh:mmZ
+     Additional Information   : IGM has also leveled to COPO and COP1 from an
+                              : older IGM benchmark in Copiapo
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : 
+       Input Frequency        : 
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Geografico Militar de Chile
+     Preferred Abbreviation   : IGM
+     Mailing Address          : Nueva Santa Isabel 1640
+                              : Santiago, Chile
+     Primary Contact
+       Contact Name           : Wilfredo Rubio
+       Telephone (primary)    : 56-2-460-6844
+       Telephone (secondary)  : 
+       Fax                    : 56-2-460-6978
+       E-mail                 : calculo@igm.cl
+     Secondary Contact
+       Contact Name           : Hector Parra
+       Telephone (primary)    : 56-2-460-6844
+       Telephone (secondary)  : 
+       Fax                    : 56-2-460-6978
+       E-mail                 : calculo@igm.cl
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geodesy and Geodynamics Group
+     Preferred Abbreviation   : G2
+     Mailing Address          : Geodesy and Geodynamics Group
+                              : 275 Mendenhall
+                              : 125 S. Oval Mall
+                              : Columbus, OH 43210
+                              : USA
+     Primary Contact
+       Contact Name           : Eric Kendrick
+       Telephone (primary)    : 614-247-5036
+       Telephone (secondary)  : 
+       Fax                    : 614-247-5042
+       E-mail                 : kendrick.42@osu.edu
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : Scripps Orbit and Permanent Array Center
+     Secondary Data Center    : Crustal Dynamics Data Information System
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+ASH700936D_M
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+
+
+
+

@@ -1,0 +1,289 @@
+     MANU Site Information Form
+     International GPS Service for Geodynamics
+
+
+0.   Form
+
+     Prepared by (full name)  : Katia Duarte Pereira
+     Date Prepared            : 1997-12-01
+     Report Type              : -
+     Prepared Using           : -
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Manaus
+     Four Character ID        : MANU
+     Monument Inscription     : 91300
+     IERS DOMES Number        : 41614M001
+     CDP Number               : 
+     Date Installed           : 29-APR-1997
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Notes                  : (multiple lines)
+     Additional Information   : RBMC - Brazilian Network for Continuous
+                                Monitoring of GPS
+                                Monument is a concrete pillar with forced
+                                centering device in the top of two-floor
+                                building
+
+2.   Site Location Information
+
+     City or Town             : Manaus
+     State or Province        : Amazonas
+     Country                  : Brazil 
+     Tectonic Plate           : South America
+     Approximate Position
+       X coordinate (m)       : 3179009.385
+       Y coordinate (m)       : -5518662.101
+       Z coordinate (m)       : -344401.888
+       Latitude (deg)         : 03.116151 S
+       Longitude (deg)        : 60.056030 W
+       Elevation (m)          : 40.18
+     Additional Information   : The site is located in the " 4a. Divisão de
+                                Levantamentos da Diretoria do Serviço Geografico
+                                do Exército" (Army Service Facility)
+                                
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Serial Number            : 16731
+     Firmware Version         : 7.22
+     Date Installed           : 29-APR-1997
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00      
+     Serial Number            : 070171
+     Antenna Height (m)       : 0.008 m 
+     Antenna Reference Point  : ARP
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : 29-APR-1997
+     Additional Information   : (multiple lines)
+
+ 
+5.   Local Site Ties
+
+5.1  Monument Name            : 90044
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : 7756.908 
+       dy (m)                 : 4521.814 
+       dz (m)                 : -1434.401 
+     Accuracy (mm)            : 0.3 
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+5.2  Monument Name            : 90045
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : -55098.393
+       dy (m)                 : -30078.010
+       dz (m)                 : -20300.888
+     Accuracy (mm)            : 5
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+5.3  Monument Name            : 91160
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : 1617.273
+       dy (m)                 : 856.705
+       dz (m)                 : 691.883
+     Accuracy (mm)            : 0.1
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+5.4  Monument Name            : 91161
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : -50.268
+       dy (m)                 : -37.429
+       dz (m)                 : 79.264
+     Accuracy (mm)            : 0.1
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+5.5  Monument Name            : 91162
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : 0.452
+       dy (m)                 : 4.464
+       dz (m)                 : 84.509
+     Accuracy (mm)            : 0.3
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+5.6  Monument Name            : 91163
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : 130.867
+       dy (m)                 : 92.434
+       dz (m)                 : -80.290
+     Accuracy (mm)            : 0.3
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+5.7  Monument Name            : 91164
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : 1199.222
+       dy (m)                 : 686.203
+       dz (m)                 : -437.421
+     Accuracy (mm)            : 0.2
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+5.8  Monument Name            : 91165
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : -500.877
+       dy (m)                 : -399.197
+       dz (m)                 : 1167.130
+     Accuracy (mm)            : 0.2
+     Date Measured            : 26-MAY-1995
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              :
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (DORIS/GLONASS/PRARE/SLR/VLBI)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    : None
+       Manufacturer           : -
+       Data Frequency         : -
+       Accuracy (% rel h)     : (% rel h)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.2  Pressure Sensor Model    : None
+       Manufacturer           : -
+       Data Frequency         : -
+       Accuracy (mbar)        : (mbar)
+       Height Diff to GPS (m) : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.3  Temperature Sensor Model : None
+       Manufacturer           : -
+       Data Frequency         : -
+       Accuracy (deg C)       : (deg C)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.4  Water Vapor Radiometer   : None
+       Manufacturer           : -
+       Distance to GPS (m)    : (m)
+       Elev Diff to GPS (m)   : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.5  Other Instrumentation    : (multiple lines)
+
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : IBGE
+     Mailing Address          : Avenida Brasil, 15671 - CEP 21241-051
+                                Rio de Janeiro - RJ - Brazil
+     Primary Contact
+       Contact Name           : Katia Duarte Pereira
+       Telephone (primary)    : 55-21-391-8217
+       Telephone (secondary)  : 55-21-351-9355
+       Fax                    : 55-21-481-2747
+       E-mail                 : katiaduarte@ibge.gov.br
+   Secondary Contact
+       Contact Name           : Roberto Teixeira Luz
+       Telephone (primary)    : 55-21-391-3674
+       Telephone (secondary)  : 55-21-391-1420 ext.239/229/234
+       Fax                    : 55-21-391-9028
+       E-mail                 : roberto@ibge.gov.br
+     Additional Information   : (multiple lines)
+
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : (multiple lines)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : (N)
+       Site Diagram           : (N)
+       Horizon Mask           : (N)
+       Monument Description   : (N)
+       Site Pictures          : (N)
+     Additional Information   : (multiple lines)
+    
+ Antenna Graphics with Dimensions
+
+ Dorne Margolin T
+
+                   -------
+                /     +     \                   <-- 0.136m  L2
+               |      +      |                  <-- 0.118m  L1
+  +----------------------------------------+    <-- 0.110m  TCR
+  |                                        |
+  |                                        |
+  |                                        |
+  |                                        |
++-+----------------------------------------+-+  <-- 0.046m
++--------------+-------------+---------------+  <-- 0.043m BCR
+               |             |
+               |     +-+     |
+               +-----|x|-----+   <-- 0.008m ARP
+                   +-+-+-+       <-- 0.000m 
+                   |     |
+              +----+-----+----+  <-- Monument Concrete Pillar
+              |               |
+              |               |
+              |               |
+
+ARP: Antenna Reference Point          
+L1 : L1 Phase Center
+TCR: Top of Chokering
+L2 : L2 Phase Center
+BCR: Botton of Chokering

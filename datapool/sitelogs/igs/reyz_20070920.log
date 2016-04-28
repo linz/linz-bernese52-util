@@ -1,0 +1,579 @@
+     REYZ Site Information Form
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+     Prepared by (full name)  : Rudi Stoeger
+     Date Prepared            : 2007-09-20
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : reyz_20070524.log
+      Modified/Added Sections : 3.4, 4.4, 5.2, 7.2, 7.3, 7.4
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : Reykjavik
+     Four Character ID        : REYZ
+     Monument Inscription     :
+     IERS DOMES Number        : 10202M003
+     CDP Number               :
+     Monument Description     : Concrete Balustrade Wall
+       Height of the Monument : 0.5
+       Monument Foundation    : CONCRETE
+       Foundation Depth       :
+     Marker Description       : SURVEY MARKER BOLT
+     Date Installed           : 1998-09-11T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : Basaltic Lava
+       Bedrock Condition      : The lava is glacialy scoured
+                              : and jointed
+       Fracture Spacing       : 50 - 200 cm
+       Fault zones nearby     : YES
+         Distance/activity    :
+     Additional Information   : The Survey Marker Bolt is anchored
+                              : into the concrete of the balustrade
+                              : wall on the top of the elevator tower
+                              : in the building for the Engineering
+                              : Research Institute in the University
+                              : Reykjavik. The antenna is 13.5 m
+                              : above the ground, 1.5 m above
+                              : the roof of the building, 0.5 m above
+                              : the roof of the elevator tower and
+                              : 0.2 m above the balustrade wall.
+                              : The building foundation is
+                              : 21 m to the rock.
+                              : In addition ROGUE SNR-8000 /
+                              : AOA SNR-8000 ACT / TPS E_GGD receivers
+                              : are operating since 1995-11-02, four
+                              : character ID REYK, Domes No.
+                              : 10202M001.
+                              : Shut down of REYZ 2007-09-19T15:00Z. 
+                              : Data from Reykjavik are available
+                              : from the REYK GPS+GLONASS
+                              : Permanent Tracking Station.
+
+
+2.   Site Location Information
+
+     City or Town             : Reykjavik
+     State or Province        :
+     Country                  : Iceland
+     Tectonic Plate           : North American Plate
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2587384.5330
+       Y coordinate (m)       : -1043033.4970
+       Z coordinate (m)       : 5716564.0080
+       Latitude (N is +)      : +640819.65
+       Longitude (E is +)     : -0215719.71
+       Elevation (m,ellips.)  : 00093.0
+     Additional Information   :
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLONASS
+     Serial Number            : ZX00111
+     Firmware Version         : 0064
+     Elevation Cutoff Setting : 0
+     Date Installed           : 1998-09-11T00:00Z
+     Date Removed             : 2001-09-18T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.2  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLONASS
+     Serial Number            : ZX00111
+     Firmware Version         : 0065
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2001-09-18T00:00Z
+     Date Removed             : 2004-10-05T14:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.3  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 235-0367
+     Firmware Version         : 2.3 Oct,17,2003 p3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2004-10-05T16:25Z
+     Date Removed             : 2007-05-23T08:14Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.4  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 235-0367
+     Firmware Version         : 2.6.0 Apr,18,2007
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2007-05-23T08:15Z
+     Date Removed             : 2007-09-19T15:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Shut down of REYZ
+                              : 2007-09-19. Data from
+                              : Reykjavik are available
+                              : from the REYK GPS+GLONASS
+                              : Permanent Tracking Station.
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701073.1     SNOW
+     Serial Number            : CRG0102
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0600
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length (m) : 30
+     Date Installed           : 1998-09-11T00:00Z
+     Date Removed             : 2001-09-18T00:00Z
+     Additional Information   :
+
+4.2  Antenna Type             : ASH701073.1     SNOW
+     Serial Number            : CRG0102
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0590
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length (m) : 30
+     Date Installed           : 2001-09-18T00:00Z
+     Date Removed             : 2003-06-13T15:00Z
+     Additional Information   :
+
+4.3  Antenna Type             : ASH701073.1     SNOW
+     Serial Number            : CRG0102
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0630
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length (m) : 30
+     Date Installed           : 2003-06-13T15:00Z
+     Date Removed             : 2003-08-21T13:50Z
+     Additional Information   :
+
+4.4  Antenna Type             : ASH701073.1     SNOW
+     Serial Number            : CRG0102
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0610
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length (m) : 30
+     Date Installed           : 2003-08-21T13:50Z
+     Date Removed             : 2007-09-19T15:00Z
+     Additional Information   : Shut down of REYZ
+                              : 2007-09-19. Data from
+                              : Reykjavik are available
+                              : from the REYK GPS+GLONASS
+                              : Permanent Tracking Station.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : DORIS
+     Tied Marker Usage        : DORIS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number :
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            :
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Four character ID REYB
+
+5.2  Tied Marker Name         : REYK TPS E_GGD
+     Tied Marker Usage        : GPS+GLONASS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 10202M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            :
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : GPS+GLONASS Permanent Tracking Station,
+                              : four character ID REYK.
+                              : ROGUE SNR-8000 or AOA SNR-8000 ACT
+                              : from 1995-11-02 until 2007-09-19.
+                              : TPS E_GGD from 2007-09-19.
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : 1998-09-11/CCYY-MM-DD
+       Notes                  :
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1990-07-04/CCYY-MM-DD
+       Notes                  : Four character ID REYB
+
+7.2  Instrumentation Type     : GPS REYK ROGUE SNR-8000
+       Status                 : PERMANENT
+       Effective Dates        : 1995-11-02/2000-07-11
+       Notes                  : Four character ID REYK
+
+7.3  Instrumentation Type     : GPS REYK AOA SNR-8000 ACT
+       Status                 : PERMANENT
+       Effective Dates        : 2000-07-11/2007-09-19
+       Notes                  : Four character ID REYK
+
+7.4  Instrumentation Type     : GPS+GLONASS REYK TPS E_GGD
+       Status                 : PERMANENT
+       Effective Dates        : 2007-09-19/CCYY-MM-DD
+       Notes                  : Four character ID REYK
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 6377
+       Data Sampling Interval : 900
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : 1.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-11-02/2001-08-22
+       Notes                  : Meteorological data site REYK.
+                              : The Humidity Sensor was
+                              : 1.0 m below the antenna.
+
+8.1.2  Humidity Sensor Model  : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 14564 008
+       Data Sampling Interval : 900
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : 1.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-22/2004-10-12
+       Notes                  : Meteorological data site REYK.
+                              : The Humidity Sensor is
+                              : 1.0 m below the antenna.
+
+8.1.3  Humidity Sensor Model  : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 21206 003
+       Data Sampling Interval : 900
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : 1.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2004-10-12/CCYY-MM-DD
+       Notes                  : Meteorological data site REYK.
+                              : The Humidity Sensor is
+                              : 1.0 m below the antenna.
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : APS
+       Manufacturer           : ROESLER + CIE
+       Serial Number          : 3195A094
+       Data Sampling Interval : 900
+       Accuracy               : 0.1
+       Height Diff to Ant     : 4.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-11-02/2001-08-22
+       Notes                  : Meteorological data site REYK.
+                              : The Pressure Sensor was
+                              : 4.0 m below the antenna.
+
+8.2.2  Pressure Sensor Model  : APS 9215
+       Manufacturer           : L-TECH LEIBENGUTH
+       Serial Number          : 05034599A
+       Data Sampling Interval : 900
+       Accuracy               : 0.1
+       Height Diff to Ant     : 4.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-22/2004-10-12
+       Notes                  : Meteorological data  site REYK.
+                              : The pressure Sensor is
+                              : 4.0 m below the antenna.
+
+8.2.3  Pressure Sensor Model  : APS 9215
+       Manufacturer           : L-TEC LEIBENGUTH
+       Serial Number          : 5198A504
+       Data Sampling Interval : 900
+       Accuracy               : 0.1
+       Height Diff to Ant     : 4.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2004-10-12/CCYY-MM-DD
+       Notes                  : Meteorological data  site REYK.
+                              : The pressure Sensor is
+                              : 4.0 m below the antenna.
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 6377
+       Data Sampling Interval : 900
+       Accuracy               : 0.3
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 1.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-11-02/2001-08-22
+       Notes                  : Meteorological data site REYK.
+                              : The Temperature Sensor was
+                              : 1.0 m below the antenna.
+
+8.3.2  Temp. Sensor Model     : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 14564 008
+       Data Sampling Interval : 900
+       Accuracy               : 0.3
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 1.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-22/2004-10-12
+       Notes                  : Meteorological data site REYK.
+                              : The Temperature Sensor is
+                              : 1.0 m below the antenna.
+
+8.3.3  Temp. Sensor Model     : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 21206 003
+       Data Sampling Interval : 900
+       Accuracy               : 0.3
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 1.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2004-10-12/CCYY-MM-DD
+       Notes                  : Meteorological data site REYK.
+                              : The Temperature Sensor is
+                              : 1.0 m below the antenna.
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+     
+     Agency                   : Landmaelingar Islands
+                              : National Land Survey of Iceland
+     Preferred Abbreviation   : LMI
+     Mailing Address          : Stillholti 16 - 18
+                              : IS-300 Akranes
+                              : Iceland
+     Primary Contact
+       Contact Name           : Gudmundur Valsson
+       Telephone (primary)    : 00354-4390040
+       Telephone (secondary)  : 00354-4309000
+       Fax                    : 00354-4309090
+       E-mail                 : gudmundur@lmi.is
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Fundamentalstation Wettzell
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Fundamentalstation Wettzell
+                              : D-93444 Bad Koetzting
+			      : Germany
+     Primary Contact
+       Contact Name           : Dr. Wolfgang Schlueter
+       Telephone (primary)    : ++49-9941-603107
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : wolfgang.schlueter@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Additional Information   : Klaus Roettcher
+                              : ++49-9941-603115
+                              : klaus.roettcher@bkg.bund.de
+                              : Rudi Stoeger
+                              : ++49-9941-603117
+                              : rudolf.stoeger@bkg.bund.de
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : OLG
+     URL for More Information : www.ifag.de, www.wettzell.ifag.de
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+
+ASH701073.1
+
+                         +-------+
+                       /     +     \                        <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1020 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0380
+  +-------------------+-------------+--------------------+  <--  0.0350 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                        ?                         -->
+
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+All dimensions are in meters.
+

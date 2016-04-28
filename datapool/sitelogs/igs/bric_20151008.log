@@ -1,0 +1,354 @@
+     BRIB Site Information Form (site log)
+     BARD Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mario Aranha
+     Date Prepared            : 2015-10-08
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       :
+      Modified/Added Sections :
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Briones Reservoir
+     Four Character ID        : BRIC
+     Monument Inscription     : 
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : 
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1993-08-06T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Current monument, installed 24-MAR-2000,
+                              : is poured  concrete cylinder with
+                              : continuous steel  reinforcement to older
+                              : monument.   Reference point is mark on
+                              : SCIGN adaptor.
+                              : BARD - Bay Area Regional Deformation
+                              : 
+                              : Original monument, valid 06-Aug-1993 to
+                              : 23-MAR-2000, was drilled and cemented
+                              : into massive sandstone outcrop. Threaded
+                              : 5/8" rod cemented about 0.8m deep into
+                              : rock with stainless steel collar at
+                              : surface. Antenna threaded onto rod in
+                              : reproducible manner. Mark was top center
+                              : of rod.
+
+2.   Site Location Information
+
+     City or Town             : Rural, near Lafayette, California
+     State or Province        : California
+     Country                  : USA
+     Tectonic Plate           : Pacific-North America plate boundary
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2681173.4810
+       Y coordinate (m)       : -4265461.0970
+       Z coordinate (m)       : 3898552.5202
+       Latitude (N is +)      : +375509.84
+       Longitude (E is +)     : -1220909.36
+       Elevation (m,ellips.)  : 263.17
+     Additional Information   : On Univ of Calif's Russel Reservation,
+                              : adjacent to Leuschner Observatory.
+                              : Current reference point. Original reference
+                              : point was destroyed during installation
+                              : of new concrete pier monument (see 1.)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE BD920-SG
+     Satellite System         : GPS
+     Serial Number            : 1221014966
+     Firmware Version         : 4.93
+     Elevation Cutoff Setting : 
+     Date Installed           : 2015-10-01T14:00Z
+     Date Removed             : 
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700228D      ENCL
+     Serial Number            : 700228D2133
+     Antenna Reference Point  : Bottom of tripod mount collar.
+     Marker->ARP Up Ecc. (m)  :  -0.0150
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0
+     Antenna Radome Type      : ENCL
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1993-08-13T00:00Z
+     Date Removed             : 2000-03-23T21:50Z
+     Additional Information   : Antenna height measured relative to
+                              : original reference point.
+                              : Radome is a plexiglass skylight enclosure
+
+4.2  Antenna Type             : ASH701945B_M    SCIT
+     Serial Number            : CR519992110
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00347
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2000-04-04T18:00Z
+     Date Removed             : 
+     Additional Information   : SCIGN Adaptor
+                              : Mounted on permanently installed SCIGN
+                              : adapter. Antenna height is standard value
+                              : relative to adapter reference point, a
+                              : dimpled nub. Added antenna cable splitter
+                              : @ 2015-09-30T20:04Z to feed Trimble Kestrels.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1993-05-13
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Berkeley Seismological Laboratory
+     Preferred Abbreviation   : BSL
+     Mailing Address          : University of California
+                              : 215 McCone Hall
+                              : Berkeley CA 94720-4760
+     Primary Contact
+       Contact Name           : Mario Aranha
+       Telephone (primary)    : 510-643-3898
+       Telephone (secondary)  : 
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkeley.edu
+     Secondary Contact
+       Contact Name           : Doug Neuhauser
+       Telephone (primary)    : 510.642.3977
+       Telephone (secondary)  : 510.642.0931
+       Fax                    : 510.643.5811
+       E-mail                 : bard@seismo.berkley.edu
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      : NCEDC http://www.ncedc.org
+     Secondary Data Center    : 
+     URL for More Information : http://www.ncedc.org/bard
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+               Ashtech: GEODETIC L1/L2
+
+                           ^
+                 +-------------------+           
+  +--+ +-------+-----------+-----------+--------+ +--+ <--0.064 TGP=L1=L2   
++-+--+ +------------+-------------+-------------+ +--+-+ <-- 0.060 BGP
+                    |-------------|
+                    |-------------|
+                    |-------------|
+                    |-------------|
+                    +------x------+                  <--  0.000  ARP
+
+                    <--  0.080  -->
+      <--                0.2636                -->
+<--                      0.286                       -->
+
+
+        Ashtech w/Dorne-Margolin Choke Ring 
+
+                         -----
+                     /     +     \                        <-- 0.128  L2
+                    |      +      |                       <-- 0.110  L1
+  +--------------------------------------------------+    <-- 0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038  BCR
++-------------------+-------------+--------------------+  <-- 0.035  BGP
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.000  m ARP
+
+<--                      0.381                       -->
+
+     NOTE: Dimensions and Offsets Presumed to be same
+           as for TurboRogue DM-T (tests pending)
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+

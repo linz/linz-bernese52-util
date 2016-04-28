@@ -1,0 +1,318 @@
+     CSKI Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Rex Flake 
+     Date Prepared            : 2014-08-21
+     Report Type              : 
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : CSKI
+     Four Character ID        : CSKI
+     Monument Inscription     : 
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : Building
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 2006-01-23
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Kent
+     State or Province        : WA
+     Country                  : 
+     Tectonic Plate           : North America
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2307858.5454
+       Y coordinate (m)       : -3659746.2141
+       Z coordinate (m)       : 4670524.5671
+       Latitude (N is +)      : 47.3803
+       Longitude (E is +)     : -122.2355
+       Elevation (m,ellips.)  : 
+     Additional Information   : Velocity X (m/yr) = 0.000000
+                              : Velocity Y (m/yr) = 0.000000
+                              : Velocity Z (m/yr) = 0.000000
+                              : Reference Time = 2000-01-01
+
+
+3.   GNSS Receiver Information
+
+
+3.1  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 
+     Firmware Version         : 
+     Elevation Cutoff Setting : 
+     Date Installed           : 2006-01-23T00:00z
+     Date Removed             : 2007-11-14T00:59z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : JPS ODYSSEY
+     Satellite System         : GPS
+     Serial Number            : 8RIVNU9B56O
+     Firmware Version         : EGGDT_2 / 3.1 Jun,2
+     Elevation Cutoff Setting :
+     Date Installed           : 2007-11-14T01:00z
+     Date Removed             : 2009-04-17T19:13z
+     Temperature Stabiliz.    :
+     Additional Information   :
+
+3.3  Receiver Type            : JPS ODYSSEY
+     Satellite System         : GPS
+     Serial Number            :
+     Firmware Version         :
+     Elevation Cutoff Setting :
+     Date Installed           : 2009-04-24T19:27z
+     Date Removed             : 2012-12-31T23:59z
+     Temperature Stabiliz.    :
+     Additional Information   :
+
+
+3.4  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO
+     Serial Number            :
+     Firmware Version         :
+     Elevation Cutoff Setting :
+     Date Installed           : 2013-01-01T00:00z
+     Date Removed             :
+     Temperature Stabiliz.    :
+     Additional Information   :
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM33429.00+GP
+     Serial Number            : 
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2006-01-23T00:00z
+     Date Removed             : 2007-11-14T00:59z
+     Additional Information   : 
+
+4.2  Antenna Type             : TPSCR3_GGD      CONE
+     Serial Number            :
+     Antenna Reference Point  :
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : CONE
+     Radome Serial Number     :
+     Antenna Cable Type       :
+     Antenna Cable Length     :
+     Date Installed           : 2007-11-14T01:00z
+     Date Removed             : 2009-04-17T19:13z
+     Additional Information   :
+
+4.3  Antenna Type             : TPSCR3_GGD      CONE 
+     Serial Number            :
+     Antenna Reference Point  :
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : CONE
+     Radome Serial Number     :
+     Antenna Cable Type       :
+     Antenna Cable Length     :
+     Date Installed           : 2009-04-24T19:27z
+     Date Removed             : 2012-12-31T23:59z
+     Additional Information   :
+
+4.4  Antenna Type             : TPSCR.G3        TPSH
+     Serial Number            :
+     Antenna Reference Point  :
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     :
+     Antenna Cable Type       :
+     Antenna Cable Length     :
+     Date Installed           : 2013-01-01T00:00z
+     Date Removed             :
+     Additional Information   :
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 
+     Additional Information   : 
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : 
+       Input Frequency        : 
+       Effective Dates        : 
+       Notes                  : 
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : 
+       Status                 : 
+       Effective Dates        : 
+       Notes                  : 
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy (% rel h)     : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.5.1 Other Instrumentation   : 
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : 
+       Observed Degradations  : 
+       Effective Dates        : 
+       Additional Information : 
+
+9.2.1 Multipath Sources       : 
+       Effective Dates        : 
+       Additional Information : 
+
+9.3.1 Signal Obstructions     : 
+       Effective Dates        : 
+       Additional Information : 
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 
+     Event                    : 
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      :
+     Secondary Data Center    :
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : Station ID = 27
+     RINEX Comment            : Rinex Header Coords are Approx
+                              : Refer to WSRN Website
+                              : Ellipsoid Values to ARP
+     Antenna Graphics with Dimensions
+

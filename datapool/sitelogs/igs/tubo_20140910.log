@@ -1,0 +1,572 @@
+     TUBO Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Jakub Kostelecky
+     Date Prepared            : 2014-09-10
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tubo_20140512.log
+      Modified/Added Sections : 1, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 9.1.1, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Technical University Brno
+     Four Character ID        : TUBO
+     Monument Inscription     : 
+     IERS DOMES Number        : 11503M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 3.29 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 3.0 m
+     Marker Description       : STEEL SCREW
+     Date Installed           : 1994-04-27T00:00Z
+     Geologic Characteristic  : LOESS
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : Massive concrete pillar, embedded in
+                              : the bearing wall, is 3.29 m above the roof,
+                              : the height of the building (above the ground)
+                              : is 25.71 m, foundation depth of the building
+                              : is 3 m. Point in 29.00 m above ground.
+                              : Weathered bedrock is approximately 5 m under
+                              : ground.
+
+
+2.   Site Location Information
+
+     City or Town             : Brno
+     State or Province        : Moravia
+     Country                  : Czech Republic
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4001470.4
+       Y coordinate (m)       : 1192345.5
+       Z coordinate (m)       : 4805795.6
+       Latitude (N is +)      : +491221.24
+       Longitude (E is +)     : +0163534.08
+       Elevation (m,ellips.)  :   324.4
+     Additional Information   : ITRF93, epoch 2001.5
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 20128
+     Firmware Version         : 1.30/0.00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-06-14T13:33Z
+     Date Removed             : 2005-12-15T09:21Z
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : full serial number is 0220220128
+
+3.2  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 457133
+     Firmware Version         : 2.14/2.121
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-12-15T13:32Z
+     Date Removed             : 2006-02-02T15:00Z
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 457133
+     Firmware Version         : 3.00/2.121
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-02-02T16:00Z
+     Date Removed             : 2010-08-31T10:00Z
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 457133
+     Firmware Version         : 8.00/2.125
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-08-31T10:01Z
+     Date Removed             : 2011-12-12T09:50Z
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 496604
+     Firmware Version         : 8.20/4.007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-12-12T11:14Z
+     Date Removed             : 2011-12-20T09:50Z
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 457133
+     Firmware Version         : 8.50/4.007
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-12-20T10:04Z
+     Date Removed             : 2012-04-05T17:50Z
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 457133
+     Firmware Version         : 8.51/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-04-05T18:10Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 29909
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.3107
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TRIMBLE PN 14551-00
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-06-14T13:33Z
+     Date Removed             : 2005-12-15T09:21Z
+     Additional Information   : full serial number is 0220229909
+
+4.2  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 102923
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.3107
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 102923
+     Antenna Cable Type       : SEMIRIGID RG218
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2005-12-15T13:32Z
+     Date Removed             : 2011-12-12T09:50Z
+     Additional Information   : antenna is absolute calibrated by Geo++ GmbH
+                              : on May 6, 2005
+
+4.3  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 10401005
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.3113
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 10401005
+     Antenna Cable Type       : SEMIRIGID RG218
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2011-12-12T11:14Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna is absolute calibrated by Geo++ GmbH
+                              : on Mar 4, 2011. Shortened serial number (401005)
+                              : replaced by full serial number on
+                              : 2012-03-21.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2001-06-14/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HG421.65
+       Manufacturer           : COMET SYSTEM, CZ
+       Serial Number          : 01430040
+       Data Sampling Interval : 60 s
+       Accuracy (% rel h)     : 2
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : -1.16 m
+       Calibration date       : 2011-05-04
+       Effective Dates        : 2001-08-28/CCYY-MM-DD
+       Notes                  : Sensor is 1.16 m under GPS antenna.
+                              : First calibration 2001-08-08
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : TMAG 518 N4F
+       Manufacturer           : CRESSTO, CZ
+       Serial Number          : 1119/01
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.2 hPa
+       Height Diff to Ant     : -1.13 m
+       Calibration date       : 2011-05-04
+       Effective Dates        : 2001-08-28/CCYY-MM-DD
+       Notes                  : Sensor is 1.13 m under GPS antenna.
+                              : First calibration 2001-07-26
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : NS520-120A
+       Manufacturer           : COMET SYSTEM, CZ
+       Serial Number          : 01360007
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.4 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -1.17 m
+       Calibration date       : 2005-12-15
+       Effective Dates        : 2001-08-28/2006-02-02
+       Notes                  : Sensor is 1.17 m under GPS antenna.
+                              : First calibration 2001-08-08
+
+8.3.2  Temp. Sensor Model     : NS520-120A
+       Manufacturer           : COMET SYSTEM, CZ
+       Serial Number          : 02360003
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.4 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -1.17 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2006-02-02/2008-04-04
+       Notes                  : Sensor is 1.17 m under GPS antenna.
+
+8.3.3  Temp. Sensor Model     : NS520-120A
+       Manufacturer           : COMET SYSTEM, CZ
+       Serial Number          : 01360007
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.4 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -1.17 m
+       Calibration date       : 2011-05-04
+       Effective Dates        : 2008-04-04/CCYY-MM-DD
+       Notes                  : Sensor is 1.17 m under GPS antenna.
+                              : Repaired sensor from 8.3.1
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1  Radio Interferences    : WiFi/GSM source near antenna
+       Observed Degradations  : Decreasing number of observations
+       Effective Dates        : 2014-08-01/2014-08-31
+       Additional Information : (multiple lines)
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : ROOF IN NORTH-WEST DIRECTION
+       Effective Dates        : 2001-06-14/CCYY-MM-DD
+       Additional Information : maximal elevation angle of the roof is
+                              : 13 degrees
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Brno University of Technology
+                              : Faculty of Civil Engineering
+                              : Department of Geodesy
+     Preferred Abbreviation   : VUT BRNO
+     Mailing Address          : VUT v Brne
+                              : Fakulta stavebni
+                              : Ustav geodezie
+                              : Veveri 95
+                              : CZ-662 37 Brno
+     Primary Contact
+       Contact Name           : Jiri Bures
+       Telephone (primary)    : ++420-541147136
+       Telephone (secondary)  : ++420-541147212
+       Fax                    : ++420-541147218
+       E-mail                 : bures.j@fce.vutbr.cz
+     Secondary Contact
+       Contact Name           : Otakar Svabensky
+       Telephone (primary)    : ++420-541147211
+       Telephone (secondary)  : ++420-541147201
+       Fax                    : ++420-541147218
+       E-mail                 : svabensky.o@fce.vutbr.cz
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Research Institute of Geodesy, Topography
+                              : and Cartography
+                              : Geodetic Observatory Pecny
+     Preferred Abbreviation   : RIGTC GOP
+     Mailing Address          : VUGTK
+                              : Geodeticka observator Pecny
+                              : Ondrejov 244
+                              : CZ-251 65
+     Primary Contact
+       Contact Name           : Jakub Kostelecky
+       Telephone (primary)    : ++420-323649235
+       Telephone (secondary)  : 
+       Fax                    : ++420-323649236
+       E-mail                 : jakub.kostelecky@pecny.cz
+     Secondary Contact
+       Contact Name           : Jan Dousa
+       Telephone (primary)    : ++420-323649235
+       Telephone (secondary)  : 
+       Fax                    : ++420-323649236
+       E-mail                 : jan.dousa@pecny.cz
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : OLG
+     Secondary Data Center    : BKGE
+     URL for More Information : http://oko.pecny.cz/vesog/stanice/tubo.html
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : http://tubo.fce.vutbr.cz
+     Antenna Graphics with Dimensions
+
+TRM29659.00
+Trimble L1/L2 Dorne Margolin element with chokerings
+Model 29659.00
+
+                       +-------+
+                     /     +     \                        <-- 0.1280 L2
+                    |      +      |                       <-- 0.1100 L1
+  +--------------------------------------------------+    <-- 0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.0380
++-------------------+-------------+--------------------+  <-- 0.0350 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.3810                      -->
+
+
+LEIAT504        LEIS
+Leica L1/L2 Dorne Margolin element with chokerings and radome
+Model AT504
+
+                       ____---____
+                  __---           ---__
+               __/                     \__
+             _/                           \_
+           _/                               \_
+          /                                   \
+        _/                                     \_
+      _/                                         \_
+     /                                             \
+    |                                               |
+   |                                                 |
+  |                     +-------+                     |   <-- 0.1393
+  |                   /     +     \                   |   <-- 0.1282 L2
+ |                   |      +      |                   |  <-- 0.1093 L1
+ |+------------------+-------------+------------------+|  <-- 0.1020 TCR
+ ||                                                   ||
+ ||                                                   ||
+ ||                                                   ||
+ ||                                                   ||
++-+---------------------------------------------------+-+ <-- 0.0380
++--------------------+-------------+--------------------+ <-- 0.0350 BCR
+                     |             |
+                     |             |
+                     +------x------+                      <-- 0.0 BPA=ARP
+
+<--                      0.3794                       -->
+
+
+LEIAR25.R4      LEIT
+Dorne Margolin with 3D choke ring (Revision 4) GPS: L1,L2,L5 GLONASS: L1,L2,L3
+Galileo: E2-L1-E1,E5a,E5b,E6,AltBOC Compass: B1,B2,B3 L-BAND
+Includes insert for enhanced L5 performance.
+
+                       ___---___
+                  __---         ---__
+               __/                   \__
+             _/                         \_
+           _/                             \_
+          /            +-------+            \             <--  0.1995
+        _/            /         \            \_
+       /        +---+-------------+---+        \          <--  0.1606  TCR
+      |         |                     |         |
+     |       |---------------------------|       |
+    |     |---------------------------------|     |
+    |  |---------------------------------------|  |
+   |+---------------------------------------------+|
+   ||                                             ||
+   ||                                             ||
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                              (5/8' thread
+might
+                                                               differ from BPA!)
+  <--                    0.3802                   -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+BPA: Bottom of Preamplifier
+
+Antenna heights:
+
+
+                        ___---___
+                   __---         ---__
+                __/                   \__
+              _/                         \_
+            _/                             \_
+           /            +-------+            \             <--  0.5108
+         _/            /         \            \_
+        /        +---+-------------+---+        \          <--  0.4719  TCR
+       |         |                     |         |
+      |       |---------------------------|       |
+     |     |---------------------------------|     |
+     |  |---------------------------------------|  |
+    |+---------------------------------------------+|
+    ||                                             ||
+    ||                                             ||
+   +-+---------------------------------------------+-+
+   +-----------------+-------------+-----------------+     <--  0.3433  BCR
+                     |             |
+                     |             |
+                     +------x------+                       <--  0.3113  BPA=ARP
+                         ++---++
+                          |   |
+                          |   |
+                         ++---++
+                         |     |
+                         |     |
+                         |     |
+                 +-------+     +-------+
+            +----+----------x----------+----+             <-- 0.0 reference
+            |                               |                     point TUBO
+            |            pillar             |
+            |                               |
+            |                               |

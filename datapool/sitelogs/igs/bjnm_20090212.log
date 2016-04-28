@@ -1,0 +1,343 @@
+     BJNM Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : LIANG Kun
+     Date Prepared            : 2009-02-12
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       : (ssss_ccyymmdd.log)
+      Modified/Added Sections : (n.n,n.n,...)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : BJNM antenna at NIM 
+     Four Character ID        : BJNM
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 21616M001
+     CDP Number               : NONE
+     Monument Description     : A round hollow corner of the rack on the rooftop
+       Height of the Monument : (m)
+       Monument Foundation    : Metal rack on the rooftop
+       Foundation Depth       : (m)
+     Marker Description       : ARP only
+     Date Installed           : 2008-10-22T02:30Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Antenna is fixed in the round northeast corner
+                              :  of the metal rack layed in the fixed position
+                              :  on the top of Building 20#
+                              :  of the experimental base at NIM 
+
+
+2.   Site Location Information
+
+     City or Town             : Beijing
+     State or Province        : Beijing
+     Country                  : China
+     Tectonic Plate           : Eurasia
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2154287.413
+       Y coordinate (m)       : 4373440.047
+       Z coordinate (m)       : 4098885.628
+       Latitude (N is +)      : +401443.17
+       Longitude (E is +)     : +1161326.86
+       Elevation (m,ellips.)  : 118.6
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : SEPT POLARX3ETR
+     Satellite System         : GPS+GLO
+     Serial Number            : 2001087
+     Firmware Version         : 2.0
+     Elevation Cutoff Setting : 15
+     Date Installed           : 2010-05-04T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : NOV702GG        NONE
+     Serial Number            : 01017577
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30
+     Date Installed           : 2010-08-21T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL HYDROGEN MASER
+       Input Frequency        : 10M Hz
+       Effective Dates        : 2006-06-25/CCYY-MM-DD
+       Notes                  : Input signal is UTC(NIM). It is generated
+                                by an HYDROGEN MASER steered
+                                to UTC(NIM) from one fountain Cesium clock, 
+                                some other masers and cesuim clocks 
+                                in our atomic clock ensemble.
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : NATIONAL TIME & FREQUENCY STANDARDS
+       Status                 : PERMANENT
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : Full name is National Time & Frequency 
+                              :  Metrology Primary Standards
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : HygroClip CP01
+       Manufacturer           : Rotronic
+       Serial Number          : 10070716101
+       Data Sampling Interval : 600
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : FAN
+       Height Diff to Ant     : -0.12
+       Calibration date       : 2010-08-18
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : F02002-M004W-A
+       Manufacturer           : FRONTTECH
+       Serial Number          : MSP100500450N
+       Data Sampling Interval : 600
+       Accuracy               : 1.5
+       Height Diff to Ant     : -0.97
+       Calibration date       : 2010-08-18
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : HygroClip CP01
+       Manufacturer           : Rotronic
+       Serial Number          : 10070716101
+       Data Sampling Interval : 600
+       Accuracy               : 0.3
+       Aspiration             : FAN
+       Height Diff to Ant     : -0.12
+       Calibration date       : 2010-08-18
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : National Institute of Metrology
+     Preferred Abbreviation   : NIM
+     Mailing Address          : No.18, Bei San Huan Dong Lu, Chaoyang Dist,
+                              : Beijing, P.R.China,  100013
+     Primary Contact
+       Contact Name           : LIANG Kun
+       Telephone (primary)    : +86-10-64525207
+       Telephone (secondary)  : +86-10-64225327
+       Fax                    : +86-10-64214828
+       E-mail                 : Liangk@nim.ac.cn
+     Secondary Contact
+       Contact Name           : ZHANG Aimin
+       Telephone (primary)    : +86-10-64525206
+       Telephone (secondary)  : +86-10-64214828
+       Fax                    : +86-10-64214828
+       E-mail                 : Zhangam@nim.ac.cn
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : National Institute of Metrology
+     Preferred Abbreviation   : NIM
+     Mailing Address          : No.18, Bei San Huan Dong Lu, Chaoyang Dist,
+                              : Beijing, P.R.China,  100013
+     Primary Contact
+       Contact Name           : LIANG Kun
+       Telephone (primary)    : +86-10-64525207
+       Telephone (secondary)  : +86-10-64225327
+       Fax                    : +86-10-64214828
+       E-mail                 : Liangk@nim.ac.cn
+     Secondary Contact
+       Contact Name           : ZHANG Aimin
+       Telephone (primary)    : +86-10-64525206
+       Telephone (secondary)  : +86-10-64214828
+       Fax                    : +86-10-64214828
+       E-mail                 : Zhangam@nim.ac.cn
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : SIO
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     (insert text graphic from file antenna.gra)
+
+
+

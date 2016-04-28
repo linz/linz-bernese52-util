@@ -1,0 +1,447 @@
+     TORI Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : prof. Ambrogio Manzino & prof. Alberto Cina
+     Date Prepared            : 2011-03-08
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tori_20091015.log
+      Modified/Added Sections : 3.4, 3.5, 4.3, 4.4, 6.2, 6.3, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : TORINO
+     Four Character ID        : TORI
+     Monument Inscription     : Marker '1'
+     IERS DOMES Number        : 12724M002
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : (m)
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1996-06-14
+     Geologic Characteristic  : GRAVEL/SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 0 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Torino
+     State or Province        : ITALY
+     Country                  : Italy
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4472544.441
+       Y coordinate (m)       : 0601634.230
+       Z coordinate (m)       : 4492545.112
+       Latitude (N is +)      : +450348.24
+       Longitude (E is +)     : +0073940.68
+       Elevation (m,ellips.)  :   310.4
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 00011703
+     Firmware Version         : Nav 7.29 Sig 3.07
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1996-06-15
+     Date Removed             : 2005-08-01
+     Temperature Stabiliz.    : 20 +/- 10
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 00011703
+     Firmware Version         : Nav 7.32 Sig 3.08
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-08-02
+     Date Removed             : 2008-03-13
+     Temperature Stabiliz.    : 20 +/- 10
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 00022778
+     Firmware Version         : Nav 7.32 Sig 3.08
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-03-14
+     Date Removed             : 2009-10-12
+     Temperature Stabiliz.    : 20 +/- 10
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495251
+     Firmware Version         : 7.50/4.010
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-10-13
+     Date Removed             : 2011-03-08
+     Temperature Stabiliz.    : 20 +/- 2
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495251
+     Firmware Version         : 8.10/4.010
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-03-08
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 20 +/- 2
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM22020.00+GP  NONE
+     Serial Number            : 20012721
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1996-06-15
+     Date Removed             : 1998-07-12
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 118494
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1998-07-13
+     Date Removed             : 2009-10-12
+     Additional Information   : TRIMBLE L1/L2 DORNE MARGOLIN ELEMENT
+                              : WHIT CHOKERINGS MODEL 29659.00
+
+4.3  Antenna Type             : LEIAR25         LEIT
+     Serial Number            : 09050010
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0790
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 765734
+     Antenna Cable Type       : Leica
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2009-10-13
+     Date Removed             : 2011-03-08
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : LEIAR25.R3      NONE
+     Serial Number            : 09330025
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0790
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2011-03-08
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Absolute Calibration by GEO++ Date 2011-02-02
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : FC1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 73.524
+       dy (m)                 : 51.202
+       dz (m)                 : -57.015
+     Accuracy (mm)            : 2
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1997-03-19
+     Additional Information   : Differential coordinates from the GPS
+                              : monument to the reference and
+                              : other monuments. The components
+                              : are parallel to the XYZ-axes of the
+                              : global geocentric reference system ITRF
+
+5.2  Tied Marker Name         : FC2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -84.652
+       dy (m)                 : 22.082
+       dz (m)                 : 92.521
+     Accuracy (mm)            : 2
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1997-03-19
+     Additional Information   : Differential coordinates from the GPS
+                              : monument to the reference and
+                              : other monuments. The components
+                              : are parallel to the XYZ-axes of the
+                              : global geocentric reference system ITRF
+
+5.3  Tied Marker Name         : FC3
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 22.567
+       dy (m)                 : -88.569
+       dz (m)                 : -25.419
+     Accuracy (mm)            : 2
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1997-03-19
+     Additional Information   : Differential coordinates from the GPS
+                              : monument to the reference and
+                              : other monuments. The components
+                              : are parallel to the XYZ-axes of the
+                              : global geocentric reference system ITRF
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2001-04-18/2009-10-12
+       Notes                  : (multiple lines)
+
+6.2  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2009-10-13/2011-03-08
+       Notes                  : (multiple lines)
+
+6.3  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2011-03-08/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : ROOF
+       Effective Dates        : 1996-06-15/CCYY-MM-DD
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Politecnico di Torino
+                              : Dip. Ingegneria del Territorio,
+                              : dell'Ambiente
+                              : e
+                              : delle Geotecnologie
+     Preferred Abbreviation   : POLITO
+     Mailing Address          : C.so Duca Abruzzi, 24 - 10129 TORINO
+     Primary Contact
+       Contact Name           : prof. Ambrogio Manzino
+       Telephone (primary)    : ++39.011.5647675
+       Telephone (secondary)  : ++39.0161.226390
+       Fax                    : ++39.011.5647699
+       E-mail                 : AMBROGIO.MANZINO@POLITO.IT
+     Secondary Contact
+       Contact Name           : prof. Alberto Cina
+       Telephone (primary)    : ++39.011.5647630
+       Telephone (secondary)  : 
+       Fax                    : ++39.011.5647699
+       E-mail                 : ALBERTO.CINA@POLITO.IT
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ASI
+     Secondary Data Center    : OLG
+     URL for More Information : http://geodaf.mt.asi.it/html/gps/info.html
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : http://geodaf.mt.asi.it/GDHTL/surv_rep.html
+     Antenna Graphics with Dimensions
+
+LEIAR25.R3
+
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+  <--                    0.3802                   -->
+
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center

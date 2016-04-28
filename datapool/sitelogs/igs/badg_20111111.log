@@ -1,0 +1,482 @@
+     BADG Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Iskander Gayazov
+     Date Prepared            : 2011-11-11
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : badg_20100423.log
+      Modified/Added Sections : 3.2, 3.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Badary
+     Four Character ID        : BADG
+     Monument Inscription     : 301
+     IERS DOMES Number        : 12338M002
+     CDP Number               : (A4)
+     Monument Description     : CONCRETE PILLAR ON THE ROOF
+       Height of the Monument : 1.2
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : CENTERING BOLT ON STAINLESS PLATE
+     Date Installed           : 2004-08-01
+     Geologic Characteristic  : SAND
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Concrete pillar on flat roof of 2-story
+                              : laboratory building; mark 301;
+                              : 16 m above the ground.
+
+
+2.   Site Location Information
+
+     City or Town             : Badary
+     State or Province        : Buryatiya Republic             
+     Country                  : Russian Federation
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -838281.513 
+       Y coordinate (m)       : 3865777.334 
+       Z coordinate (m)       : 4987624.632
+       Latitude (N is +)      : +514610.94
+       Longitude (E is +)     : +1021405.93
+       Elevation (m,ellips.)  : 811.4        
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA SR520         
+     Satellite System         : GPS
+     Serial Number            : 20527
+     Firmware Version         : 4.20/1.44
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2005-04-01T00:00Z
+     Date Removed             : 2010-03-09T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00181
+     Firmware Version         : 3.1.1 Oct,05,2009
+     Elevation Cutoff Setting : 3
+     Date Installed           : 2010-03-15T00:00Z
+     Date Removed             : 2011-09-12T06:22Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00181
+     Firmware Version         : 3.2.7 May,16,2011
+     Elevation Cutoff Setting : 3
+     Date Installed           : 2011-09-12T07:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504        LEIS     
+     Serial Number            : 102158
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0280
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : +180
+     Antenna Radome Type      : LEIS   
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : Leica 
+     Antenna Cable Length     : 30
+     Date Installed           : 2005-04-01T00:00Z
+     Date Removed             : 2005-11-14T23:59Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAT504        NONE     
+     Serial Number            : 102158
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0280
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : +180
+     Antenna Radome Type      : NONE   
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica 
+     Antenna Cable Length     : 30
+     Date Installed           : 2005-11-15T00:00Z
+     Date Removed             : 2006-08-25T23:59Z
+     Additional Information   : 
+
+4.3  Antenna Type             : LEIAT504        LEIS     
+     Serial Number            : 102158
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0280
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : +180
+     Antenna Radome Type      : LEIS   
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : Leica 
+     Antenna Cable Length     : 30
+     Date Installed           : 2006-08-26T00:00Z
+     Date Removed             : 2007-04-01T23:59Z
+     Additional Information   : 
+
+4.4  Antenna Type             : LEIAT504        LEIS     
+     Serial Number            : 102158
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0280
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : LEIS   
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : Leica 
+     Antenna Cable Length     : 30
+     Date Installed           : 2007-04-02T00:00Z
+     Date Removed             : 2010-03-09T23:59Z
+     Additional Information   : Degree Offset from North : < 5
+
+4.5  Antenna Type             : JAVRINGANT_DM   JVDM     
+     Serial Number            : 00328
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0280
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : JVDM   
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : 8D-FB PEEG MIL-C-17D
+     Antenna Cable Length     : 30
+     Date Installed           : 2010-03-15T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Degree Offset from North : < 5
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : BADARY
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7382
+     Tied Marker DOMES Number : 12338S003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 80.758
+       dy (m)                 : -25.612
+       dz (m)                 : 46.448
+     Accuracy (mm)            : 3
+     Survey method            : TRIANGULATION/LEVELING/DIRECT DIST. MEAS.
+     Date Measured            : 2006-09-27T00:00Z
+     Additional Information   : measured with conventional techniques
+                              : exact time unknown
+
+5.2  Tied Marker Name         : BADB
+     Tied Marker Usage        : DORIS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 12338S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 3.694
+       dy (m)                 : -0.159
+       dz (m)                 : 2.165
+     Accuracy (mm)            : 3
+     Survey method            : TRIANGULATION/LEVELING/DIRECT DIST. MEAS.
+     Date Measured            : 2006-09-27T00:00Z
+     Additional Information   : measured with conventional techniques
+                              : exact time unknown
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER CH1-80
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2010-03-15/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI RADIO TELESCOPE RT-32
+       Status                 : PERMANENT
+       Effective Dates        : 2006-07-01/CCYY-MM-DD
+       Notes                  : regular participation in the IVS since Mar 2007
+
+7.2  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1993-01-03/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HUMICAP
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : C4820022
+       Data Sampling Interval : 600 
+       Accuracy (% rel h)     : 3 
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1
+       Calibration date       : 2007-11-28
+       Effective Dates        : 2008-07-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : BAROCAP
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : C4820022
+       Data Sampling Interval : 600
+       Accuracy               : 0.5
+       Height Diff to Ant     : 1
+       Calibration date       : 2007-11-28
+       Effective Dates        : 2008-07-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : THERMOCAP
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : C4820022
+       Data Sampling Interval : 600
+       Accuracy               : 0.3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1
+       Calibration date       : 2007-11-28
+       Effective Dates        : 2008-07-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : VLBI ANTENNA
+       Effective Dates        : 2005-01-01/CCYY-MM-DD
+       Additional Information : exact date in 2005 unknown
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Institute of Applied Astronomy RAS
+     Preferred Abbreviation   : IAA
+     Mailing Address          : nab. Kutuzova 10, St.Petersburg 191187, Russia
+     Primary Contact
+       Contact Name           : Iskander Gayazov (in St.Petersburg)
+       Telephone (primary)    : +7-(812)-275-11-18
+       Telephone (secondary)  : +7-(812)-275-10-24
+       Fax                    : +7-(812)-275-11-19
+       E-mail                 : gayazov@ipa.nw.ru
+     Secondary Contact
+       Contact Name           : Vladimir Sharkov
+       Telephone (primary)    : +7-(812)-275-11-18
+       Telephone (secondary)  : +7-(812)-275-10-24
+       Fax                    : +7-(812)-275-11-19
+       E-mail                 : gpsuser@ipa.nw.ru
+     Additional Information   : Roman Sergeev (at Badary)
+                              : Phone +7-(30147)-418-91
+                              : Fax   +7-(812)-275-11-19
+                              : E-mail sergeev@ipa.nw.ru
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : SOPAC
+     Secondary Data Center    : BKGI
+     URL for More Information : www.ipa.nw.ru
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+JAVRINGANT_DM     
+
+                         +-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.100  TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.033  BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.000  BPA=ARP
+
+                      <--  0.119  -->
+  <--                      0.380                      -->
+
+===============================================================================
+
+Antenna height one finds in the BADG files (0.0280 m) is the height of ARP
+above mark. The installation of antenna looks as so:
+
+
+       ===================================================
+        |                                               |
+        |             Antenna JAVRINGANT_DM             |
+        |                       _                       |
+        |                     /   \                     |
+        |                    |     |                    |
+  40.0  |____________________|     |____________________|  ARP
+                      |                   |
+                      |          /------------------------ mark reference point
+  12.0                |       / ~ \       |
+                      |      |     |      | <------------- thread adapter
+                      |      |     |      |
+   0     ------------------------------------------------
+                                                           stainless plate
+ -12     ------------------------------------------------
+                                                          \
+                                                           \
+                                                            \
+                                                              concrete pillar
+                                                            /
+                                                           /
+                                                          /
+ ~-1200  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  roof
+
+ height, mm
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

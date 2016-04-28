@@ -1,0 +1,507 @@
+     1LSU Site Information Form
+     LSU Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Francine Coloma
+     Date Prepared            : 2015-03-27
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : 1lsu_20140919.log
+      Modified/Added Sections : 3.12 3.13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Louisiana State University
+     Four Character ID        : 1LSU
+     Monument Inscription     :
+     IERS DOMES Number        : (A9)
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : (m)
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : ARP
+     Date Installed           : 2003-10-08T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : YES Baton Rouge Fault
+         Distance/activity    : less than 1 km
+     Additional Information   : Mount is  stainless tube attached to
+                              : building structural member.
+
+
+2.   Site Location Information
+
+     City or Town             : Baton Rouge
+     State or Province        : Louisiana
+     Country                  : USA
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : -113402.830
+       Y coordinate (m)       : -5504361.332
+       Z coordinate (m)       : 3209404.206
+       Latitude (N is +)      : +302426.73
+       Longitude (E is +)     : -0911048.94
+       Elevation (m,ellips.)  : -6.6
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              :  1631.
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 2200252004
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-03-01
+     Date Removed             : 2003-12-06
+     Temperature Stabiliz.    : none
+     Additional Information   : Remove date same as next install date GS
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 2200252006
+     Firmware Version         : CN00
+     Elevation Cutoff Setting :  deg
+     Date Installed           : 2003-12-06
+     Date Removed             : 2005-09-06
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware replaced
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 2200252006
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2005-09-06
+     Date Removed             : 2006-05-11T16:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware Upgrade
+
+3.4  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4549261264
+     Firmware Version         : 1.1-3
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2006-05-11T16:00Z
+     Date Removed             : 2006-11-10T21:15Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver replaced.
+
+3.5  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4549261264
+     Firmware Version         : 1.1-5
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2006-11-10T21:17Z
+     Date Removed             : 2008-06-20T18:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4635120813
+     Firmware Version         : 1.2-0
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2008-06-23T18:00Z
+     Date Removed             : 2008-11-20
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver Replaced
+
+3.7  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53479
+     Firmware Version         : 3.64
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2008-11-20
+     Date Removed             : 2009-07-27
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+
+3.8  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53479
+     Firmware Version         : 4.03
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2009-07-27
+     Date Removed             : 2010-04-14T20:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4635120799
+     Firmware Version         : 1.2-0
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2010-04-14T20:00Z
+     Date Removed             : 2010-08-25T02:50Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+
+3.10 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4635120799
+     Firmware Version         : 1.3-0
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2010-08-25T02:51Z
+     Date Removed             : 2014-01-14T17:32Z 
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver change 
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5201K41202 
+     Firmware Version         : 4.81 
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2014-01-14T18:31Z
+     Date Removed             : 2014-07-30T17:00Z 
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.12 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5201K41202 
+     Firmware Version         : 4.85 
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-07-30T17:03Z
+     Date Removed             : 2015-03-19T15:00Z 
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.13 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5201K41202 
+     Firmware Version         : 4.93 
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-03-19T15:16Z 
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945E_M    SCIS
+     Serial Number            : 620024327
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2003-03-01
+     Date Removed             : 2008-06-20T18:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 30765370
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : Times Microwave LMR«-400
+     Antenna Cable Length     : 30
+     Date Installed           : 2008-06-20T18:00Z
+     Date Removed             : 2010-04-14T20:00Z
+     Additional Information   : Antenna model corrected 2008-07-02.
+
+4.3  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 60104339
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : RG8
+     Antenna Cable Length     : 30m
+     Date Installed           : 2010-04-14T20:00Z 
+     Date Removed             : 2014-01-14T17:32Z
+     Additional Information   : Antenna change 
+
+4.4  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 5000117882 
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : RG8
+     Antenna Cable Length     : 30m
+     Date Installed           : 2014-01-14T18:31Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Louisiana State University
+                              : Center for Geoinformatics
+                              : The Louisiana Spatial Reference Center
+       Preferred Abbreviation : LSU 
+       Mailing Address        : LSU Center for GeoInformatics
+                              : 101 LSU Student Union Building
+                              : LSU Box #25413
+                              : Baton Rouge, LA 70803
+     Primary Contact
+       Contact Name           : Randy Osborne
+       Telephone (primary)    : (225) 578-4609
+       Telephone (secondary)  : (225) 328-8976
+       Fax                    : (225) 578-4502
+       E-mail                 : rosbor1@lsu.edu
+     Secondary Contact
+       Contact Name           : Larry Dunaway
+       Telephone (primary)    : 225-578-8925
+       Telephone (secondary)  : 225-916-7848
+       Fax                    : 225-578-4502
+       E-mail                 : larryd@lsu.edu
+     Additional Information   : (multiple lines)
+
+
+12. Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : c4g.lsu.edu
+     Secondary Data Center    : ftp://www.ngs.noaa.gov/cors
+     URL for More Information : c4gnet.lsu.edu
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+       http://www.ngs.noaa.gov/ANTCAL

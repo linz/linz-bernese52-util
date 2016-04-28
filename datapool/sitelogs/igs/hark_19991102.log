@@ -1,0 +1,280 @@
+     HARK Site Information Form
+     International GPS Service for Geodynamics
+
+
+0.   Form
+
+     Prepared by (full name)  : Louis Duquesne
+     Date Prepared            : 02-NOV-1999
+     Report Type              : UPDATE
+     Prepared Using           :
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Hartebeesthoek
+     Four Character ID        : HARK
+     Monument Inscription     : Engraved plate
+     IERS DOMES Number        : 30302M007
+     CDP Number               : Not assigned
+     Date Installed           : 26-MAY-1997 hh:mm UT
+     Geologic Characteristic  :
+(BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200
+cm)
+       Notes                  : (multiple lines)
+     Additional Information   : Station located at the site
+                              : of the 2-GHz CNES Tracking Station.
+
+
+2.   Site Location Information
+
+     City or Town             : Pretoria
+     State or Province        :
+     Country                  : Republic of South Africa
+     Tectonic Plate           : African
+     Approximate Position
+       X coordinate (m)       : 5084625.425
+       Y coordinate (m)       : 2670366.916
+       Z coordinate (m)       : -2768494.036
+       Latitude (deg)         : -25.8871 S
+       Longitude (deg)        : 27.7077 E
+       Elevation (m)          : 1555
+     Additional Information   : (multiple lines)
+
+
+3.   GPS Receiver Information
+
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Serial Number            : T 367
+     Firmware Version         : 3.2.32.1
+     Date Installed           : 26-MAY-1997 hh:mm UT
+     Date Removed             : 27-may-1999 hh:mm UT
+     Additional Information   : (multiple lines)
+
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Serial Number            : 3844A24813
+     Firmware Version         : 7.29
+     Date Installed           : 01-JUN-1999 hh:mm UT
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T
+     Serial Number            : 153
+     Antenna Height (m)       : 9.803
+     Antenna Reference Point  : ARP
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : 26-MAY-1997 hh:mm UT
+     Date Removed             : 27-MAY-1999 hh:mm UT
+     Additional Information   : (multiple lines)
+
+
+4.2  Antenna Type             : TRM29659.00
+     Serial Number            : 0220136820
+     Antenna Height (m)       : 9.803
+     Antenna Reference Point  : ARP
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : 01-JUN-1999 hh:mm UT
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+5.   Local Site Ties
+
+5.1  Monument Name            : 26-meter VLBI antenna
+     Site Ref CDP Number      : 7232
+     Site Ref Domes Number    : 30302S001
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Date Measured            : ??-??-199? hh:mm UT
+     Additional Information   : (multiple lines)
+
+5.2  Monument Name            : DORIS antenna
+     Site Ref CDP Number      :
+     Site Ref Domes Number    :
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            :
+     Date Measured            : ??-???-199? hh:mm UT
+     Additional Information   : (multiple lines)
+
+5.2  Monument Name            : GPS antenna  (HART)
+     Site Ref CDP Number      : 7232
+     Site Ref Domes Number    : none
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            :
+     Date Measured            : ??-???-199? hh:mm UT
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              : 5MHz
+       Effective Dates        : 01-JUN-1999 - dd-MMM-yyyy
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+7.2  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (% rel h)     : (% rel h)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.2  Pressure Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (mbar)        : (mbar)
+       Height Diff to GPS (m) : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.3  Temperature Sensor Model :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (deg C)       : (deg C)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    : (m)
+       Elev Diff to GPS (m)   : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.5  Other Instrumentation    : (multiple lines)
+
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : CSIR
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : IAN SHILSHOM - Satellite Applications
+Center
+       Telephone (primary)    : 27.12.326.5271
+       Telephone (secondary)  :     -
+       Fax                    : 27.11.642.2446
+       E-mail                 : IChislol@sac.csir.za
+     Secondary Contact
+       Contact Name           : Pierre PICARD - Satellite Application
+Center
+       Telephone (primary)    : 27.12.326.5271
+       Telephone (secondary)  :     -
+       Fax                    : 27.11.642.2446
+       E-mail                 : PPicard@csir.za
+     Additional Information   : (multiple lines)
+
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : Centre National d'Etudes Spatiales
+     Mailing Address          : EO/ST/SC - 18, avenue Edouard Belin
+                              : 31401 - Toulouse - France
+     Primary Contact
+       Contact Name           : Louis Duquesne
+       Telephone (primary)    : (33) 5 61 28 19 62
+       Telephone (secondary)  :
+       Fax                    : (33) 5 61 28 15 36
+       E-mail                 : gpscnes@cst.cnes.fr
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : X
+       Site Diagram           : X
+       Horizon Mask           : (Y)
+       Monument Description   : X
+       Site Pictures          : 03-DEC-1993
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+TURBOROGUE: DORNE MARGOLIN T
+
+                                  -----
+                              /     +     \
+<-- 0.128  L2
+                             |      +      |
+<-- 0.110  L1
+         +--------------------------------------------------+
+<-- 0.102  TCR
+         |                                                  |
+         |                                                  |
+         |                                                  |
+         |                                                  |
+       +-+--------------------------------------------------+-+
+<-- 0.038
+       +---------------------+-------------+------------------+
+<-- 0.035  BCR
+                             |             |
+                            =|             |
+ Antenne Ref. Point (ARP) -> +-----|-|-----+        <------------+
+<-- 0.000  ARP
+ Forced centering device  -> ===============                     |
+                                  |   |                          |
+                                  |   |                          |
+                                  |   |                          |
+                                                               9.803
+m
+                                                                 |
+                                                                 |
+                                                                 |
+                                   Mark                          |
+             ---------------------- + ------------- <------------+
+             Ground           (Engraved plate)
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+Louis DUQUESNE
+DEE/EO/ST/SC
+CNES 18 Av. E.BELIN
+TOULOUSE 31055
+TEL. (33) 5 61 28 19 62
+FAX. (33) 5 61 28 15 36

@@ -1,0 +1,466 @@
+     SALA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Jose Antonio Sanchez Sobrino
+     Date Prepared            : 2015-08-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : sala_20140915.log
+      Modified/Added Sections : 3.15
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Salamanca
+     Four Character ID        : SALA
+     Monument Inscription     : None
+     IERS DOMES Number        : 13469M001
+     CDP Number               : (A4)
+     Monument Description     : Brass plate with centering screw incrusted in
+       Height of the Monument : 0.8 m
+       Monument Foundation    : Concrete block
+       Foundation Depth       : 0.0 m
+     Marker Description       : Brass plate
+     Date Installed           : 2006-04-25
+     Geologic Characteristic  : Conglomerate
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : No
+         Distance/activity    : (multiple lines)
+     Additional Information   : Reinforced concrete block on the terrace
+                              : of the National Meteorologic Institute in
+                              : the airport of Salamanca
+
+
+2.   Site Location Information
+
+     City or Town             : Salamanca
+     State or Province        : Salamanca
+     Country                  : Spain
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4803054.1
+       Y coordinate (m)       : -462132.2
+       Z coordinate (m)       : 4158380.0
+       Latitude (N is +)      : +405642.34
+       Longitude (E is +)     : -0052945.14
+       Elevation (m,ellips.)  :   855.4
+     Additional Information   : SALA is a reference point of the Spanish GPS
+                              : Permanent Network raised by the Instituto
+                              : Geografico Nacional.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4549261230
+     Firmware Version         : NP 1.15 / SP 0.00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-08-10
+     Date Removed             : 2008-03-26T09:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4549261230
+     Firmware Version         : NP 1.20 / SP 0.00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-03-26T09:01Z
+     Date Removed             : 2009-04-24T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4549261230
+     Firmware Version         : 1.2-5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-04-25T00:00Z
+     Date Removed             : 2009-06-16T13:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-06-17T17:00Z
+     Date Removed             : 2009-10-21T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 7.53
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-10-22T00:00Z
+     Date Removed             : 2010-02-12T13:15Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 7.80
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-02-12T13:30Z
+     Date Removed             : 2010-06-14T08:59Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 7.80/4.004
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-06-14T09:00Z
+     Date Removed             : 2010-06-28T12:42Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 8.00/4.005
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-06-29T00:00Z
+     Date Removed             : 2010-07-22T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 8.00/4.005
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-07-22T10:00Z
+     Date Removed             : 2011-05-20T10:11Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Set tracking of unhealthy satellites
+
+3.10 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 8.10/4.007
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-05-20T10:35Z
+     Date Removed             : 2011-05-24T12:21Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 8.20/4.007
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-05-24T12:29Z
+     Date Removed             : 2012-01-24T09:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.12 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495071
+     Firmware Version         : 8.50/6.110
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-01-25T00:00Z
+     Date Removed             : 2012-03-28T07:27Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.13 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495071
+     Firmware Version         : 8.51/6.110
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-03-28T07:38Z
+     Date Removed             : 2012-09-28T09:12Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.14 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495071
+     Firmware Version         : 8.51/6.111
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-09-28T09:12Z
+     Date Removed             : 2013-05-13T15:19Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.15 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495071
+     Firmware Version         : 8.71/6.112
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-05-13T15:39Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220369428
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2006-08-10
+     Date Removed             : 2009-06-16T13:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : LEIAR25         NONE
+     Serial Number            : 08510035
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0600
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2009-06-17T17:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2006-04-25/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Nacional de Meteorologma
+     Preferred Abbreviation   : INM
+     Mailing Address          : Aeropuerto de Matacan
+                              : 37182-Encinas de Abajo (Salamanca)-Spain
+     Primary Contact
+       Contact Name           : Genaro
+       Telephone (primary)    : +34 923374037
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : Amparo
+       Telephone (primary)    : +34 923306245
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Instituto Geografico Nacional
+     Preferred Abbreviation   : IGN-E
+     Mailing Address          : C/ General Ibanez Ibero, 3
+                              : E-28003 MADRID
+                              : SPAIN
+     Primary Contact
+       Contact Name           : Pedro Gonzalo Lopez
+       Telephone (primary)    : +34 91 597 9436
+       Telephone (secondary)  : +34 91 597 9562
+       Fax                    : +34 91 597 9616
+       E-mail                 : pgonzalo@fomento.es
+     Secondary Contact
+       Contact Name           : Jose Antonio Sanchez Sobrino
+       Telephone (primary)    : +34 91 597 9428
+       Telephone (secondary)  : +34 91 597 9562
+       Fax                    : +34 91 597 9616
+       E-mail                 : jassobrino@fomento.es
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+GRAPHICS FOR ANTENNA TYPE 4.2
+LEIAR25
+
+                       +-------+                          <-- 0.1995
+                     /     +     \
+                    |      +      |
+                |---+-------------+----|                  <-- 0.1614 TCR
+            |------------------------------|
+        |--------------------------------------|
+    |----------------------------------------------|
+  +--------------------------------------------------+
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+
++-------------------+-------------+--------------------+  <-- 0.0320
++-------------------+-------------+--------------------+ BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+                      |         |
+                      |         |
+                      |         |
+                      |         |            Antenna Height = 0.060 m
+                      |         |
+                      |         |
+                      |         |
+ ---------------------+----x----+--------------------
+                         marker
+
+<--                      0.381                       -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering

@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<igsSiteLog xmlns:equip="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/equipment/2004" xmlns:contact="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/contact/2004" xmlns:mi="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/monumentInfo/2004" xmlns:li="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/localInterferences/2004" xmlns="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011 http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011/igsSiteLog.xsd">
+  <formInformation>
+    <mi:preparedBy>Elisabetta D'Anastasio</mi:preparedBy>
+    <mi:datePrepared>2016-01-06</mi:datePrepared>
+    <mi:reportType>DYNAMIC</mi:reportType>
+  </formInformation>
+  <siteIdentification>
+    <mi:siteName>Faleolo</mi:siteName>
+    <mi:fourCharacterID>FALE</mi:fourCharacterID>
+    <mi:monumentInscription></mi:monumentInscription>
+    <mi:iersDOMESNumber></mi:iersDOMESNumber>
+    <mi:cdpNumber></mi:cdpNumber>
+    <mi:monumentDescription>pillar</mi:monumentDescription>
+    <mi:heightOfTheMonument>2.0</mi:heightOfTheMonument>
+    <mi:monumentFoundation>reinforced concrete</mi:monumentFoundation>
+    <mi:foundationDepth>2.0</mi:foundationDepth>
+    <mi:markerDescription>Forced Centering</mi:markerDescription>
+    <mi:dateInstalled>1999-01-01T00:00Z</mi:dateInstalled>
+    <mi:geologicCharacteristic></mi:geologicCharacteristic>
+    <mi:bedrockType></mi:bedrockType>
+    <mi:bedrockCondition></mi:bedrockCondition>
+    <mi:fractureSpacing></mi:fractureSpacing>
+    <mi:faultZonesNearby></mi:faultZonesNearby>
+    <mi:distance-Activity></mi:distance-Activity>
+    <mi:notes></mi:notes>
+  </siteIdentification>
+  <siteLocation>
+    <mi:city>Faleolo Western Samoa</mi:city>
+    <mi:state>N/A</mi:state>
+    <mi:country>Samoa</mi:country>
+    <mi:tectonicPlate>Pacific</mi:tectonicPlate>
+    <mi:approximatePositionITRF>
+      <mi:xCoordinateInMeters>-6134111.86645</mi:xCoordinateInMeters>
+      <mi:yCoordinateInMeters>-862145.168938</mi:yCoordinateInMeters>
+      <mi:zCoordinateInMeters>-1514974.61697</mi:zCoordinateInMeters>
+      <mi:latitude-North>-13.83221526</mi:latitude-North>
+      <mi:longitude-East>-171.999524003</mi:longitude-East>
+      <mi:elevation-m_ellips.>47.6006</mi:elevation-m_ellips.>
+    </mi:approximatePositionITRF>
+    <mi:notes></mi:notes>
+  </siteLocation>
+  <gnssReceiver>
+    <equip:receiverType>ASHTECH Z-XII3</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>LP01199</equip:serialNumber>
+    <equip:firmwareVersion>1E95</equip:firmwareVersion>
+    <equip:elevationCutoffSetting></equip:elevationCutoffSetting>
+    <equip:dateInstalled>1996-11-13T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>1997-04-10T23:59Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>ASHTECH Z-XII3</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>LP02741</equip:serialNumber>
+    <equip:firmwareVersion>1F39</equip:firmwareVersion>
+    <equip:elevationCutoffSetting></equip:elevationCutoffSetting>
+    <equip:dateInstalled>1997-04-11T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>1999-08-09T23:59Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>ASHTECH Z-XII3</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>LP00611</equip:serialNumber>
+    <equip:firmwareVersion>CC00</equip:firmwareVersion>
+    <equip:elevationCutoffSetting></equip:elevationCutoffSetting>
+    <equip:dateInstalled>2000-01-18T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2010-10-21T22:13Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4431236764</equip:serialNumber>
+    <equip:firmwareVersion>1.2-5</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2010-10-22T02:31Z</equip:dateInstalled>
+    <equip:dateRemoved>2014-03-04T23:00Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4706128320</equip:serialNumber>
+    <equip:firmwareVersion>1.2-0</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2014-03-04T23:55Z</equip:dateInstalled>
+    <equip:dateRemoved></equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssAntenna>
+    <equip:antennaType>ASH700936C_M</equip:antennaType>
+    <equip:serialNumber>12627</equip:serialNumber>
+    <equip:antennaReferencePoint>BAM</equip:antennaReferencePoint>
+    <equip:marker-arpUpEcc.>0.0000</equip:marker-arpUpEcc.>
+    <equip:marker-arpNorthEcc.>0.0000</equip:marker-arpNorthEcc.>
+    <equip:marker-arpEastEcc.>0.0000</equip:marker-arpEastEcc.>
+    <equip:alignmentFromTrueNorth>0</equip:alignmentFromTrueNorth>
+    <equip:antennaRadomeType>SNOW</equip:antennaRadomeType>
+    <equip:radomeSerialNumber></equip:radomeSerialNumber>
+    <equip:antennaCableType></equip:antennaCableType>
+    <equip:antennaCableLength></equip:antennaCableLength>
+    <equip:dateInstalled>1996-11-13T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2003-09-17T23:59Z</equip:dateRemoved>
+    <equip:notes></equip:notes>
+  </gnssAntenna>
+  <gnssAntenna>
+    <equip:antennaType>ASH701945E_M</equip:antennaType>
+    <equip:serialNumber>CR620022305</equip:serialNumber>
+    <equip:antennaReferencePoint>BAM</equip:antennaReferencePoint>
+    <equip:marker-arpUpEcc.>0.0000</equip:marker-arpUpEcc.>
+    <equip:marker-arpNorthEcc.>0.0000</equip:marker-arpNorthEcc.>
+    <equip:marker-arpEastEcc.>0.0000</equip:marker-arpEastEcc.>
+    <equip:alignmentFromTrueNorth>0</equip:alignmentFromTrueNorth>
+    <equip:antennaRadomeType>SNOW</equip:antennaRadomeType>
+    <equip:radomeSerialNumber></equip:radomeSerialNumber>
+    <equip:antennaCableType></equip:antennaCableType>
+    <equip:antennaCableLength></equip:antennaCableLength>
+    <equip:dateInstalled>2003-09-18T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2010-10-21T22:13Z</equip:dateRemoved>
+    <equip:notes></equip:notes>
+  </gnssAntenna>
+  <gnssAntenna>
+    <equip:antennaType>TRM41249.00</equip:antennaType>
+    <equip:serialNumber>12697180</equip:serialNumber>
+    <equip:antennaReferencePoint>BAM</equip:antennaReferencePoint>
+    <equip:marker-arpUpEcc.>0.0535</equip:marker-arpUpEcc.>
+    <equip:marker-arpNorthEcc.>0.0000</equip:marker-arpNorthEcc.>
+    <equip:marker-arpEastEcc.>0.0000</equip:marker-arpEastEcc.>
+    <equip:alignmentFromTrueNorth>0</equip:alignmentFromTrueNorth>
+    <equip:antennaRadomeType>NONE</equip:antennaRadomeType>
+    <equip:radomeSerialNumber></equip:radomeSerialNumber>
+    <equip:antennaCableType></equip:antennaCableType>
+    <equip:antennaCableLength></equip:antennaCableLength>
+    <equip:dateInstalled>2010-10-22T02:31Z</equip:dateInstalled>
+    <equip:dateRemoved></equip:dateRemoved>
+    <equip:notes></equip:notes>
+  </gnssAntenna>
+  <contactAgency>
+    <contact:agency>GNS Science</contact:agency>
+    <contact:preferredAbbreviation>GNS</contact:preferredAbbreviation>
+    <contact:mailingAddress>1 Fairway Drive, Avalon 5010, PO Box 30-368, Lower Hutt, New Zealand</contact:mailingAddress>
+    <contact:primaryContact>
+      <contact:name>GeoNet reception</contact:name>
+      <contact:telephonePrimary>+64 4 570 1444</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax>+64 4 570 4676</contact:fax>
+      <contact:e-mail>info@geonet.org.nz</contact:e-mail>
+    </contact:primaryContact>
+    <contact:secondaryContact>
+      <contact:name>Elisabetta D'Anastasio</contact:name>
+      <contact:telephonePrimary>+64 4 570 4744</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax></contact:fax>
+      <contact:e-mail>e.danastasio@gns.cri.nz</contact:e-mail>
+    </contact:secondaryContact>
+    <contact:notes></contact:notes>
+  </contactAgency>
+  <moreInformation>
+    <mi:primaryDataCenter>ftp.geonet.org.nz</mi:primaryDataCenter>
+    <mi:secondaryDataCenter></mi:secondaryDataCenter>
+    <mi:urlForMoreInformation>www.geonet.org.nz</mi:urlForMoreInformation>
+    <mi:hardCopyOnFile></mi:hardCopyOnFile>
+    <mi:siteMap></mi:siteMap>
+    <mi:siteDiagram></mi:siteDiagram>
+    <mi:horizonMask></mi:horizonMask>
+    <mi:monumentDescription></mi:monumentDescription>
+    <mi:sitePictures></mi:sitePictures>
+    <mi:notes>additional information and pictures could be found at http://magma.geonet.org.nz/delta/app then search for CGPS mark</mi:notes>
+    <mi:antennaGraphicsWithDimensions>
+ASH700936C_M
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     &lt;--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   &lt;--  0.0380
++-------------------+-------------+-------------------+   &lt;--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       &lt;--  0.0000  BPA=ARP
+                                                                       NOM=NRP
+&lt;--                      0.3810                     --&gt;
+
+ASH701945E_M
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     &lt;--  0.1006  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   &lt;--  0.0376
++-------------------+-------------+-------------------+   &lt;--  0.0346  BCR
+                    |             |
+                    |             |
+                    +------x------+                       &lt;--  0.0000  BPA=ARP
+                                                                       NOM=NRP
+&lt;--                      0.3794                     --&gt;
+
+TRM41249.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----x-----/                        &lt;--  0.0000  BAM=ARP
+                                                                       RXC=NRP
+  &lt;--                    0.3396                   --&gt;                  Notches
+</mi:antennaGraphicsWithDimensions>
+    <mi:insertTextGraphicFromAntenna></mi:insertTextGraphicFromAntenna>
+  </moreInformation>
+</igsSiteLog>

@@ -1,0 +1,397 @@
+     SHOE Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+     
+     Prepared by (full name)  : Colin Fane
+     Date Prepared            : 2011-03-30
+     Report Type              : Update
+     If Update:
+      Previous Site Log       : shoe_20100922.log
+      Modified/Added Sections : 3.5, 3.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Shoeburyness
+     Four Character ID        : SHOE
+     Monument Inscription     : 
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : Steel Tripod
+       Height of the Monument : 2.0 above ground level
+       Monument Foundation    : Concrete Plinth
+       Foundation Depth       : Unknown
+     Marker Description       : Centre of mount thread on plane of antenna ARP
+     Date Installed           : 2005-07-29
+     Geologic Characteristic  : Unknown
+       Bedrock Type           : Unknown
+       Bedrock Condition      : Unknown
+       Fracture Spacing       : Unknown
+       Fault zones nearby     : No
+         Distance/activity    : 
+     Additional Information   : Antenna is approx 2m above ground level
+
+
+2.   Site Location Information
+
+     City or Town             : Shoeburyness
+     State or Province        : Essex
+     Country                  : United Kingdom
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3973493
+       Y coordinate (m)       : 57358
+       Z coordinate (m)       : 4972193
+       Latitude (N is +)      : +513317.22
+       Longitude (E is +)     : +0004937.25
+       Elevation (m,ellips.)  : 00048.9
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA SR530
+     Satellite System         : GPS
+     Serial Number            : 0131420 
+     Firmware Version         : 4.20
+     Elevation Cutoff Setting : 5 
+     Date Installed           : 2005-08-18T00:00Z 
+     Date Removed             : 2007-05-25T10:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.2  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 4649K03387
+     Firmware Version         : 3.30
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-05-25T10:00Z
+     Date Removed             : 2007-08-19T09:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.3  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 4649K03387
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-08-19T09:01Z
+     Date Removed             : 2010-08-24T21:08Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.4  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 4649K03387
+     Firmware Version         : 3.64
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2010-08-24T21:30Z
+     Date Removed             : 2010-09-22T10:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.5  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 4649K03387
+     Firmware Version         : 4.15
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2010-09-22T10:50Z
+     Date Removed             : 2011-03-30T15:19Z
+     Temperature Stabiliz.    : none
+     Additional Information   :  
+
+3.6  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 4649K03387
+     Firmware Version         : 4.15
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-03-30T15:19Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : Change in elevation cutoff only 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 102013
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2005-08-18T00:00Z
+     Date Removed             : 2007-05-25T10:00Z
+     Additional Information   :
+
+4.2  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30336574
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : unknown
+     Antenna Cable Length     : 4m
+     Date Installed           : 2007-05-25T10:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+ 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2005-07-29
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : 
+       Status                 : 
+       Effective Dates        : 
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+          : 
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Please use the contact in the responsible agency (12.)
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Ordnance Survey
+     Preferred Abbreviation   : 
+     Mailing Address          : Ordnance Survey
+                              : Romsey Road
+                              : Southampton
+                              : SO16 4GU
+     Primary Contact
+       Contact Name           : Customer Service Centre
+       Telephone (primary)    : 08456 050505
+       Telephone (secondary)  : +44 (0)23 8079 2912
+       Fax                    : 
+       E-mail                 : customerservices@ordnancesurvey.co.uk
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 :
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      :
+     Secondary Data Center    :
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+LEIAT504
+L1/L2 Dorne Margolin antenna with chokerings
+(designed after DORNE MARGOLIN T) 
+
+                       +-------+                          <-- 0.1393
+                     /     +     \                        <-- 0.1282 L2
+                    |      +      |                       <-- 0.1093 L1
+  +-----------------+-------------+------------------+    <-- 0.1020 TCR
+  |                                                  | 
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.0380
++-------------------+-------------+--------------------+  <-- 0.1020 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.000  BPA=ARP
+
+<--                      0.3794                      -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   BPA: Bottom of Preamplifier
+
+
+TRM55971.00
+
+    / ----------------------+--------------------- \   
+   +                        +                       +  
+    \ -------------------------------------------- /   
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=BAM
+
+   <--                   0.3396                  -->
+
+
+
+
+
+

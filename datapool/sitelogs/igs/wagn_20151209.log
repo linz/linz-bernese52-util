@@ -1,0 +1,376 @@
+     WAGN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ted Zhou
+     Date Prepared            : 2015-12-09
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : wagn_20150603.log 
+      Modified/Added Sections : 3.4,3.5
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Wagin 
+     Four Character ID        : WAGN
+     Monument Inscription     : 
+     IERS DOMES Number        : 59966M001     
+     CDP Number               : NONE 
+     Monument Description     : PILLAR
+       Height of the Monument : 
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : STAINLESS STEEL PLATE / THREADED SPIGOT
+     Date Installed           : 2010-03-22T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Wagin 
+     State or Province        : Western Australia
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2455773.9240
+       Y coordinate (m)       :  4735625.3180 
+       Z coordinate (m)       : -3485038.7070
+       Latitude (N is +)      : -331959.0315
+       Longitude (E is +)     : +1172436.3508
+       Elevation (m,ellips.)  : +0289.0050
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495583
+     Firmware Version         : 7.53
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-03-22T00:00Z
+     Date Removed             : 2010-10-17T23:59Z 
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495583
+     Firmware Version         : 8.01/4.004
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-10-18T00:00Z
+     Date Removed             : 2011-10-25T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495583
+     Firmware Version         : 8.20/4.007
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-10-25T00:00Z
+     Date Removed             : 2012-06-20T04:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495583
+     Firmware Version         : 8.51/6.110
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-06-20T04:30Z
+     Date Removed             : 2015-12-09T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR9 
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5306K50855 
+     Firmware Version         : 5.10 
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-12-09T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAR25.R3      LEIT
+     Serial Number            : 09330050
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0040 m
+     Marker->ARP North Ecc(m) : 000.0000 m
+     Marker->ARP East Ecc(m)  : 000.0000 m
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : CNT400 / RG58
+     Antenna Cable Length     : 45 m / 0.3 m
+     Date Installed           : 2010-03-22T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Elbow joint at receiver end of cable
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2010-03-22/(CCYY-MM-DD)
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : PAROSCIENTIFIC MET4 
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ125439
+       Data Sampling Interval : 30 (sec)
+       Accuracy (% rel h)     : 2.00 (% rel h)
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 0 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2014-04-10/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ125439
+       Data Sampling Interval : 30 (sec)
+       Accuracy               : 0.08 (hPa)
+       Height Diff to Ant     : 0 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2014-04-10/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ125439
+       Data Sampling Interval : 30 (sec)
+       Accuracy               : 0.50 (deg C)
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 0 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2014-04-10/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2014-04-11/2014-04-11
+     Event                    : Doug did monitoring surveys at Wagin CORS
+                              : The dome was removed at 23:30 UT 
+                              : and replaced at 01:39 UT 
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : LANDGATE 
+     Preferred Abbreviation   : LANDGATE
+     Mailing Address          : PO Box 2222
+                              : Midland WA 6056
+     Primary Contact
+       Contact Name           : Doug Hardman 
+       Telephone (primary)    : (+61 8) 9273 7117
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : doug.hardman@landgate.wa.gov.au 
+     Secondary Contact
+       Contact Name           : Lindsay Shuiling
+       Telephone (primary)    : (+61 8) 9273 7115
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : lindsay.shuiling@landagte.wa.gov.au
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : GPO Box 378
+                              : Canberra ACT 2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick 
+       Telephone (primary)    : (+61 2) 6249 9426
+       Telephone (secondary)  : 
+       Fax                    : (+61 2) 6249 9929 
+       E-mail                 : ryan.ruddick@ga.gov.au 
+     Secondary Contact
+       Contact Name           : Michael Moore 
+       Telephone (primary)    : (+61 2) 6249 9052 
+       Telephone (secondary)  : 
+       Fax                    : (+61 2) 6249 9929 
+       E-mail                 : michael.moore@ga.gov.au 
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : N/A
+     URL for More Information : ftp://ftp.ga.gov.au
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : 
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAR25.R3
+
+
+                         +-------+                          <--  0.1995              
+                        /         \
+                  +---+-------------+---+                   <--  0.1606  TCR
+                  |                     |                   
+               |---------------------------|    
+            |---------------------------------|    
+         |---------------------------------------|  
+      +---------------------------------------------+
+      |                                             |
+      |                                             |
+    +-+---------------------------------------------+-+
+    +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000  BPA=ARP
+
+    <--                   0.3802                    -->

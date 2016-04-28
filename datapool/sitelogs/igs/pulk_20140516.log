@@ -1,0 +1,330 @@
+     PULK Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Victor Gorshkov
+     Date Prepared            : 2014-05-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : pulk_20140515.log
+      Modified/Added Sections : 9.2.1, 11, 12
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : PULKOVO OBSERVATORY
+     Four Character ID        : PULK
+     Monument Inscription     : 
+     IERS DOMES Number        : 12305M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST MOUNTED ON THE BASE WALL
+       Height of the Monument : 1.2 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2002-04-22
+     Geologic Characteristic  : CONGLOMERATE WITH ROCK, CLAY AND SAND
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : LADOGA-BOTHNIC FAULT ZONE
+         Distance/activity    : NEAR 200-300 KM NORTH, WEAK FAULT ACROSS
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : ST.PETERSBURG
+     State or Province        : 
+     Country                  : Russian Federation
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2778606.9
+       Y coordinate (m)       : 1625494.6
+       Z coordinate (m)       : 5487811.0
+       Latitude (N is +)      : +594618.60
+       Longitude (E is +)     : +0301940.00
+       Elevation (m,ellips.)  :   101.2
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 00008010
+     Firmware Version         : Nav 7.32 Sig 3.08
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-04-22
+     Date Removed             : 2006-08-31
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 00009987
+     Firmware Version         : Nav  7.32 / Boot  3
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-09-01
+     Date Removed             : 2014-05-13T09:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 401-01369
+     Firmware Version         : 4.0 Dec,21,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-05-13T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM33429.20+GP  NONE
+     Serial Number            : 0220223669
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2002-04-22
+     Date Removed             : 2004-06-22
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 12518178
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2004-06-25
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : microwave absorber (ECCOSORB VHP) was installed
+                              : m of the antenna and
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2002-04-22/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : METAL ROOF
+       Effective Dates        : 2002-04-22/CCYY-MM-DD
+       Additional Information : microwave absorber (ECCOSORB VHP) was installed
+                              : tom of the antenna and
+                              : 2012-12-29
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : PULKOVO OBSERVATORY
+     Preferred Abbreviation   : PULK OBS
+     Mailing Address          : Radioastrometry & Geodynamic Laboratory
+                              : Pulkovo Observatory
+                              : Pulkovskoe sh., 65
+                              : Saint-Petersburg
+                              : Russia
+                              : 196140
+     Primary Contact
+       Contact Name           : Victor L.  Gorshkov
+       Telephone (primary)    : +7 812 363 7025
+       Telephone (secondary)  : +7 921 989 0797
+       Fax                    : +7 812 723 1922
+       E-mail                 : vigor@gao.spb.ru
+     Secondary Contact
+       Contact Name           : Sergey Smirnoiv
+       Telephone (primary)    : +7 921 328 1599
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : microsoft-suxx@mail.ru
+     Additional Information   : http://www.gao.spb.ru/english/as/persac/pulk.htm
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : GEOMATIC, LLC
+     Preferred Abbreviation   : GEOMATIC
+     Mailing Address          : GEOMATIC, LLC
+                              : Sevastyanova st., 12
+                              : St.-Petersburg
+                              : Russia
+                              : 196105
+     Primary Contact
+       Contact Name           : Sergey Shteyn
+       Telephone (primary)    : +7 812 715 01 38
+       Telephone (secondary)  : +7 903 096 57 37
+       Fax                    : +7 812 715 01 38
+       E-mail                 : mail@geomatic.su
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM41249.00
+
+    / ----------------------+--------------------- \
+   +                        +                       +
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000 ARP=BAM
+
+   <--                   0.3396                  -->

@@ -1,0 +1,551 @@
+
+     FFMJ Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Matthias Groeschel
+     Date Prepared            : 2016-02-22
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ffmj_20140402.log
+      Modified/Added Sections : 3.8
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Frankfurt / Main
+     Four Character ID        : FFMJ
+     Monument Inscription     : 
+     IERS DOMES Number        : 14279M001
+     CDP Number               : 
+     Monument Description     : ALUMINIUM-MAST - Platform on a building
+       Height of the Monument : 
+       Monument Foundation    : Aluminium-Mast fastened on vertical
+       Foundation Depth       : 
+     Marker Description       : Thread - Rod
+     Date Installed           : 2002-02-18T12:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : The system is installed on the roof of the
+                              : BKG building at Frankfurt.
+
+
+2.   Site Location Information
+
+     City or Town             : Frankfurt / Main
+     State or Province        : Hessen
+     Country                  : Germany
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4053455.990
+       Y coordinate (m)       : 617729.525
+       Z coordinate (m)       : 4869395.615
+       Latitude (N is +)      : +500526.08
+       Longitude (E is +)     : +0083953.87
+       Elevation (m,ellips.)  : 178.2
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : AGBV83QBWN4
+     Firmware Version         : E_GGD_2/2.2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-02-18T12:00Z
+     Date Removed             : 2002-10-09T12:00Z
+     Temperature Stabiliz.    : +18 - +23 C
+     Additional Information   : 
+
+3.2  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : AGBV83QBWN4
+     Firmware Version         : E_GGD_2/2.2p2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-10-09T12:00Z
+     Date Removed             : 2003-11-17T12:00Z
+     Temperature Stabiliz.    : +18 - +23 C
+     Additional Information   : 
+
+3.3  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : AGBV83QBWN4
+     Firmware Version         : E_GGD_2/2.3p3
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-11-17T12:00Z
+     Date Removed             : 2006-11-15T12:00Z
+     Temperature Stabiliz.    : +18 - +23 C
+     Additional Information   : 
+
+3.4  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : AGBV83QBWN4
+     Firmware Version         : E_GGD_2/2.5p2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-11-15T12:00Z
+     Date Removed             : 2007-06-01T08:00Z
+     Temperature Stabiliz.    : +18 - +23 C
+     Additional Information   : 
+
+3.5  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : AGBV83QBWN4
+     Firmware Version         : 2.6.0 APR,18,2007
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-06-01T08:00Z
+     Date Removed             : 2008-01-25T10:45Z
+     Temperature Stabiliz.    : +18 - +23 C
+     Additional Information   : 
+
+3.6  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : AGBV83QBWN4
+     Firmware Version         : 2.6.1 JAN,10,2008
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-01-25T10:45Z
+     Date Removed             : 2012-09-21T07:50Z
+     Temperature Stabiliz.    : +18 - +23 C
+     Additional Information   : 
+
+3.7  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : AFP2LB8MMM8
+     Firmware Version         : 3.4 DEC,12,2009 p2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-09-21T08:10Z
+     Date Removed             : 2014-04-02T10:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Additional Number
+                              : LE5787 on the
+                              : type level
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 01587
+     Firmware Version         : 3.5.5 MAR,03,2014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-04-02T11:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : +18 - +23 C
+     Additional Information   : Board Id
+                              : 03VCFXT1UPXR123OK1AUP94U5M
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : JPSREGANT_SD_E2 NONE
+     Serial Number            : RA0294
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.000
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Aircom plus
+     Antenna Cable Length     : 65 m
+     Date Installed           : 2002-02-18T12:00Z
+     Date Removed             : 2005-05-19T08:00Z
+     Additional Information   : Antenna type listed in this section retro-
+                              : actively changed from JPSREGANT_SD_E to
+                              : JPSREGANT_SD_E2 starting with log file
+                              : ffmj_20121007.log. See IGSMAIL-6662 and
+                              : IGSMAIL-6663 for details.
+
+4.2  Antenna Type             : TPSCR3_GGD      CONE
+     Serial Number            : 217-0111
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.000
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : CONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Aircom plus
+     Antenna Cable Length     : 65 m
+     Date Installed           : 2005-05-19T08:00Z
+     Date Removed             : 2008-02-20T11:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TPSCR3_GGD      CONE
+     Serial Number            : 217-0111
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.045
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : CONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Aircom plus
+     Antenna Cable Length     : 65 m
+     Date Installed           : 2008-02-20T11:00Z
+     Date Removed             : 2011-02-08T10:00Z
+     Additional Information   : 
+
+4.4  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 10231013
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.045
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : Aircom plus
+     Antenna Cable Length     : 65 m
+     Date Installed           : 2011-02-08T10:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna individual
+                              : calibrated absolute at Geo++
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : PTU200
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W5110012
+       Data Sampling Interval : 10 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : HUMICAP 180 CAPACITIVY THIN FILM POLYMER
+       Height Diff to Ant     : 
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-02-18/2011-02-08
+       Notes                  : The Humidity Sensor is 0.1m
+                              : below the antenna
+
+8.1.2  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W5040005
+       Data Sampling Interval : 10 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : HUMICAP 180 CAPACITIVY THIN FILM POLYMER
+       Height Diff to Ant     : -0.6 m
+       Calibration date       : 2010-10-10
+       Effective Dates        : 2011-02-08/CCYY-MM-DD
+       Notes                  : The Humidity Sensor is 0.6m
+                              : below the antenna
+                              : (sec)
+                              : (% rel h)
+                              : (UNASPIRATED/NATURAL/FAN/etc)
+                              : (m)
+                              : (CCYY-MM-DD)
+                              : (CCYY-MM-DD/CCYY-MM-DD)
+                              : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : PTU200
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W5110012
+       Data Sampling Interval : 10 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 2002-02-18/2011-02-08
+       Notes                  : The Temperature Sensor is
+                              : 0.1 m below the antenna
+
+8.3.2  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W5040005
+       Data Sampling Interval : 10 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : RESISTIVE PLATINUM PROBE
+       Height Diff to Ant     : -0.6 m
+       Calibration date       : 2010-10-10
+       Effective Dates        : 2011-02-08/CCYY-MM-DD
+       Notes                  : The Temperature Sensor is
+                              : 0.6 m below the antenna
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : CCYY-MM-DD/CCYY-MM-DD
+     Event                    : 
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Bundesamt fuer Kartographie und Geodaesie
+                              : Department of Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie und Geodaesie
+                              : Department of Geodaesie
+                              : Richard Strauss Allee 11
+                              : D 60598 Frankfurt / M.
+                              : Germany
+     Primary Contact
+       Contact Name           : Peter Franke
+       Telephone (primary)    : (0049)-69-6333-279
+       Telephone (secondary)  : (0049)-69-6333-1
+       Fax                    : (0049)-69-6333-425
+       E-mail                 : peter.franke@bkg.bund.de
+     Secondary Contact
+       Contact Name           : see 12.
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie und Geodaesie
+                              : Department of Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie und Geodaesie
+                              : Branch Leipzig
+                              : Karl Rothe Str. 10-14
+                              : D 04105 Leipzig
+                              : Germany
+     Primary Contact
+       Contact Name           : Matthias Groeschel
+       Telephone (primary)    : (0049)-341-5634-432
+       Telephone (secondary)  : (0049)-341-5634-0
+       Fax                    : (0049)-341-5634-415
+       E-mail                 : matthias.groeschel@bkg.bund.de
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : CDDIS
+     URL for More Information : http://igs.bkg.bund.de
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+
+
+
+             Javad Positioning Systems: REGANT - SD
+
+
+                +-------------------------+ <---------- Plastic Housing for
+               /    -------------------    \            Antenna/Choke Ring
+              /    /                   \    \
+   +---------+     |         +         |     +---------+     <-- 0.1060 L1
+  | +-------------------------------------------------+ |    <-- TCR
+ /  |                                                 |  \
+|   |                                                 |   |
+|   |                                                 |   |
+|   |                                                 |   |
+ \+-----------------------------------------------------+/
+ |+-----------------------------------------------------+|   <-- BCR
+  \______________  |                   |  ______________/
+                 \ |                   | /
+                  \+---------x---------+/                    <-- 0.0000 ARP=BPA
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                       BOP: Bottom of Pole
+
+
+TPSCR3_GGD
+                        ---------
+                      /     +     \                        <--  0.104  = L2
+                     |      +      |                       <--  0.081  = L1
+   +--------------------------------------------------+    <--  0.071  = TCR
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   +-----------------+-------------+------------------+    <--  0.003 =  BCR
+                      +-----x-----+                        <--  0.000    BPA=ARP
+
+   <--                    0.326                     -->
+
+LEIAR25.R4
+
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+  <--                    0.3802                   -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+
+
+
+
+

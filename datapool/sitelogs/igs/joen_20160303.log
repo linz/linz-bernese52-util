@@ -1,0 +1,491 @@
+     JOEN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Sonja Lahtinen
+     Date Prepared            : 2016-03-03
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : joen_20150203.log
+      Modified/Added Sections : 0, 3.9, 3.10, 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Joensuu permanent GPS
+     Four Character ID        : JOEN
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 10512M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL GRID MAST
+       Height of the Monument : 2.5 m
+       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1994-06-10
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Joensuu
+     State or Province        : 
+     Country                  : Finland
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2564139
+       Y coordinate (m)       : 1486150
+       Z coordinate (m)       : 5628951
+       Latitude (N is +)      : +622328.28
+       Longitude (E is +)     : +0300546.15
+       Elevation (m,ellips.)  :   113.7
+     Additional Information   : Postglacial land uplift approx. 3 mm/y
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 04125
+     Firmware Version         : 1E00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1995-06-15
+     Date Removed             : 1995-11-22
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 04125
+     Firmware Version         : 1F00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1995-11-22T07:53Z
+     Date Removed             : 1996-02-15T07:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP00995
+     Firmware Version         : 1E81 Beta
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1996-02-15T07:19Z
+     Date Removed             : 1998-06-14
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 03176
+     Firmware Version         : 1F60
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1998-06-26
+     Date Removed             : 1999-02-10T14:14Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP00995
+     Firmware Version         : CB00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-02-10T14:15Z
+     Date Removed             : 1999-07-14
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Receiver was changed when
+                              : meteo-sensors were installed.
+
+3.6  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 995
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-07-14T15:30Z
+     Date Removed             : 2002-06-17
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : 06-APR-2001 Serial no changed to be
+                              : consistent with RINEX header.
+                              : Full s/n LP00995
+
+3.7  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 087
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-06-20T11:48Z
+     Date Removed             : 2004-09-07T10:30Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Full s/n LP01087
+                              : 2003-04-02 (doy 92) Deactivation of
+                              : smoothing in conversion from raw data
+                              : to RINEX (Asrinexo -program).
+
+3.8  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 640
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-09-07T10:52Z
+     Date Removed             : 2008-09-30T14:10Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Full s/n LP00640
+
+3.9  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 530
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-09-30T14:10Z
+     Date Removed             : 2016-03-03T09:20Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 530
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-03-03T09:20Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936A_M    SNOW
+     Serial Number            : 191
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : +10 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1995-06-15
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 29-JUN-1999 : Antenna type naming changed
+                              : 06-APR-2001 : Changes made to be consistent
+                              : with RINEX header (Full s/n: 11191,
+                              : BPA=ARP).
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : JOENSUU A
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -6.4560
+       dy (m)                 : 1.0826
+       dz (m)                 : -0.8859
+     Accuracy (mm)            : 10
+     Survey method            : TRILATERATION
+     Date Measured            : 1994-06-10
+     Additional Information   : (multiple lines)
+
+5.2  Tied Marker Name         : JOENSUU B
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.7542
+       dy (m)                 : 3.3742
+       dz (m)                 : -5.6817
+     Accuracy (mm)            : 10
+     Survey method            : TRILATERATION
+     Date Measured            : 1994-06-10
+     Additional Information   : (multiple lines)
+
+5.3  Tied Marker Name         : JOENSUU C
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -2.8375
+       dy (m)                 : -5.5698
+       dz (m)                 : -0.7575
+     Accuracy (mm)            : 10
+     Survey method            : TRILATERATION
+     Date Measured            : 1994-06-10
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1995-06-15/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45D, with Humicap (R) 180
+       Manufacturer           : Vaisala Oy
+       Serial Number          : 
+       Data Sampling Interval : 30 s
+       Accuracy (% rel h)     : 3
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-02-10/2014-11-06
+       Notes                  : Data Frequency  : 30 s (every 30 s an
+                              : averaged value over 30 s period is recorded)
+                              : Accuracy (% rel h) At +20 degC:  +-2%
+                              : (0...90% RH),+-3% (90-100% RH)
+                              : Manufacturer address
+                              : P.O.Box 26, FIN- 00421 HELSINKI
+                              : http://www.vaisala.com
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Vaisala Pressure transmitter PTU200ABA1AA
+       Manufacturer           : Vaisala Oy
+       Serial Number          : 
+       Data Sampling Interval : 30 s
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -116.8 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-02-10/CCYY-MM-DD
+       Notes                  : Data Frequency   30 s (every 30 s an
+                              : averaged value over 30 speriod is recorded)
+                              : Accuracy (mbar)   Class A barometer:
+                              : accuracy at +20 degC = +- 0.10 hPa;
+                              : total accuracy including one year drift
+                              : = +-0.20 hPa
+                              : Manufacturer address
+                              : P.O.Box 26, FIN- 00421 HELSINKI
+                              : http://www.vaisala.com
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P with Pt100 IEC 751 1/3 Class B
+       Manufacturer           : Vaisala Oy
+       Serial Number          : 
+       Data Sampling Interval : 30 s
+       Accuracy               : 0.4 deg C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-02-10/2014-11-06
+       Notes                  : Data Frequency   30 s (every 30 s an
+                              : averaged value over 30 s period is
+                              : recorded)
+                              : Accuracy (deg C)
+                              : At -20 degC +-0.4 degC,
+                              : at   0 degC +-0.3 degC and
+                              : at +20 degC +-0.2 degC
+                              : Temperature and humidity probe HMP45D and
+                              : PTU200-transmitter are mounted to the
+                              : GPS-antenna mast with a special mounting set
+                              : (Vaisala PTU200MIK). Temperature and
+                              : humidity sensors are inside a radiation
+                              : screen (Vaisala DTR13) 2 m abovethe ground.
+                              : Manufacturer address
+                              : P.O.Box 26, FIN- 00421 HELSINKI
+                              : http://www.vaisala.com
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Finnish Geospatial Research Institute
+                              : National Land Survey of Finland
+     Preferred Abbreviation   : FGI
+     Mailing Address          : PL 84 FIN-00521 Helsinki FINLAND
+     Primary Contact
+       Contact Name           : Finnref GNSS team
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : finnref_team@maanmittauslaitos.fi
+     Secondary Contact
+       Contact Name           : Sonja Lahtinen
+       Telephone (primary)    : +358 29 531 4855
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : sonja.lahtinen@nls.fi
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH700936A_M
+Dorne Margolin with chokerings, Model 700936A
+C146 Dorne Margolin element, milled chokerings
+
+                      +---------+
+                     /     +     \                        <-- 0.1280 L2
+                    |      +      |                       <-- 0.1100 L1
+  +-----------------+-------------+------------------+    <-- 0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.0380
++-------------------+-------------+--------------------+  <-- 0.0350 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.3810                      -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center

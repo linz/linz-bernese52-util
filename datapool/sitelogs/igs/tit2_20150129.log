@@ -1,0 +1,329 @@
+     TIT2 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Matthias Groeschel
+     Date Prepared            : 2015-01-29
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tit2_20141211.log
+      Modified/Added Sections : 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Titz / Jackerath
+     Four Character ID        : TIT2
+     Monument Inscription     : 
+     IERS DOMES Number        : 14278M002
+     CDP Number               : 
+     Monument Description     : Steelpipe with heat protection
+       Height of the Monument : 2.2 m
+       Monument Foundation    : 2014
+       Foundation Depth       : 12m
+     Marker Description       : SURVEY MARKER BOLT ON THE PILLAR
+     Date Installed           : 2014-12-10
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Survey Marker Bolt on a pillar.
+                              : Antenna mounted with a special screw
+                              : adapter on a rivet thread of a circular
+                              : tube of steel filled with concrete,
+                              : 14.5 m length
+                              : placed on the ground at Goelogischer Dienst 
+                              : Nordrhein-Westfalen
+                              : In addition and parallel a JPS LEGACY GPS+GLO
+                              : Receiver, Four character ID TITZ,
+                              : DOMES No. 14278M001.
+                              : Further informations and effective
+                              : dates see section 7.
+                              
+2.   Site Location Information
+
+     City or Town             : Titz
+     State or Province        : Nordrhein-Westfalen
+     Country                  : Germany
+     Tectonic Plate           : Eurasean Plate
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3993780.7
+       Y coordinate (m)       : 450206.6
+       Z coordinate (m)       : 4936136.8
+       Latitude (N is +)      : +510207.1
+       Longitude (E is +)     : +0062553.9
+       Elevation (m,ellips.)  : 155.000
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 01690
+     Firmware Version         : 3.6.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-12-11T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Bord ID
+                              : 02RRVTI255XJX2EJ3XLQDJMTBB
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 725557
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : ECOFLEX 10
+     Antenna Cable Length     : 41 m
+     Date Installed           : 2014-12-11T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna calibrated absolute
+                              : by Geo++ GmbH, Garbsen 2013-01-15.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2005-07-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : JPS LEGACY GPS+GLONASS TITZ
+       Status                 : PERMANENT
+       Effective Dates        : 2001-09-27/CCYY-MM-DD
+       Notes                  :
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Department of Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Department of Geodaesie
+                              : Richard Strauss Allee 11
+                              : D 60598 Frankfurt / M.
+                              : Germany
+     Primary Contact
+       Contact Name           : Axel Ruelke
+       Telephone (primary)    : (0049)-69-6333-391
+       Telephone (secondary)  : (0049)-69-6333-1
+       Fax                    : (0049)-69-6333-425
+       E-mail                 : axel.ruelke@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Peter Franke
+       Telephone (primary)    : (0049)-69-6333-279
+       Telephone (secondary)  : (0049)-69-6333-1
+       Fax                    : (0049)-69-6333-425
+       E-mail                 : peter.franke@bkg.bund.de
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Department of Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Branch Leipzig
+                              : Karl Rothe Str. 10-14
+                              : D 04105 Leipzig
+                              : Germany
+     Primary Contact
+       Contact Name           : Matthias Groeschel
+       Telephone (primary)    : (0049)-341-5634-432
+       Telephone (secondary)  : (0049)-341-5634-0
+       Fax                    : (0049)-341-5634-415
+       E-mail                 : matthias.groeschel@bkg.bund.de
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : CDDIS
+     URL for More Information : www.bkg.bund.de
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : Y
+     Additional Information   : Data center Bundesamt fuer
+                              : Kartographie und
+                              : Geodaesie
+                              : Department of Geodaesie
+                              : Referat G2
+                              : Richard Strauss Allee 11
+                              : D 60598 Frankfurt / M.
+                              : Germany
+                              : http://igs.bkg.bund.de
+  
+  Antenna Graphics with Dimensions
+
+
+LEIAR25.R3/LEIAR25.R4
+
+                         +-------+                        <-- 0.1995
+                        /         \
+                  +---+-------------+---+                 <-- 0.1606  TCR
+                  |                     |
+               |---------------------------|
+            |---------------------------------|
+         |---------------------------------------|
+      +---------------------------------------------+
+      |                                             |
+      |                                             |
+    +-+---------------------------------------------+-+
+    +-----------------+-------------+-----------------+   <-- 0.0320  BCR
+                      |             |
+                      |             |
+                      +------x------+                     <-- 0.0000  BPA=ARP
+
+    <--                    0.3802                   -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+TOP: Top of Pole

@@ -1,0 +1,238 @@
+     ELAT Site Information Form
+     Survey of Israel / Tel Aviv University / Royal Jordanian Geographic Centre
+
+
+0.  Form
+
+     Prepared by (full name)  : Einat Salmon (Survey of Israel)
+     Date Prepared            : 2004-12-08
+     Report Type              : UPDATED
+     If Update:
+      Previous Site Log       : elat_log.txt
+      Modified/Added Sections : 3,4,9,10
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Eilat
+     Four Character ID        : ELAT
+     Monument Inscription     : 
+     IERS DOMES Number        : 20706M001
+     CDP Number               : (XXXX)
+     Date Installed           : dd-MMM-yyyy hh:mm UT
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+      Bedrock Type            : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+      Bedrock Condition       : (FRESH/JOINTED/WEATHERED)
+      Fracture Spacing        : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+     Notes                    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Eilat
+     State or Province        : 
+     Country                  : Israel
+     Tectonic Plate           : Arabian
+     Approximate Position     
+       X coordinate (m)       : 4555028.83
+       Y coordinate (m)       : 3180067.26
+       Z coordinate (m)       : 3123164.32
+       Latitude (deg)         : 29.51 N
+       Longitude (deg)        : 34.92 E
+       Elevation (m)          : 29.55
+     Additional Information   : Cartesian coordinates are referenced with
+                              : respect to the International Terrestrial
+                              : Reference Frame 1996 (ITRF96).
+                              : Geodetic coordinates are refere
+                              : Reference frame used is (N/A).
+                              : Coordinate system used is (N/A).
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Serial Number            : 
+     Firmware Version         : 7.21
+     Date Installed           : 10-OCT-1996 00:00 UT
+     Date Removed             : 01-AUG-2003 
+     Additional Information   : Rinex header last 4 digits of SN: 9930
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Serial Number            : LP01667
+     Firmware Version         : CD00
+     Date Installed           : 01-AUG-2003 
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : 
+
+3.x  Receiver Type            : 
+     Serial Number            : 
+     Firmware Version         : 
+     Date Installed           : (dd-MMM-yyyy hh:mm UT)
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00
+     Serial Number            : 
+     Antenna Height (m)       : -0.011
+     Antenna Reference Point  : BPA
+     Degree Offset from North : 
+     Antenna Radome Type      : NONE
+     Date Installed           : 05-FEB-1997 00:00 UT
+     Date Removed             : 2004-12-01
+     Additional Information   : Rinex header last 4 digits of SN: 0424
+
+4.2  Antenna Type             : Topcon CR-4
+     Serial Number            : 265-0127
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2004-12-01
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : 
+     Serial Number            : 
+     Antenna Height (m)       : (m)
+     Antenna Reference Point  : (ARP/BCR/BPA)
+     Degree Offset from North : 
+     Antenna Radome Type      : 
+     Date Installed           : (dd-MMM-yyyy hh:mm UT)
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+5.   Local Site Ties
+
+5.x  Monument Name            : 
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Date Measured            : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.x  Standard Type            : (H-MASER/CESIUM/QUARTZ/INTERNAL/RUBIDIUM)
+     Frequency                : 
+     Effective Dates          : (dd-MMM-yyyy - dd-MMM-yyyy)
+     Notes                    : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (DORIS/GLONASS/PRARE/SLR/VLBI)
+     Status                   : (PERMANENT/MOBILE)
+     Effective Dates          : (dd-MMM-yyyy - dd-MMM-yyyy)
+     Notes                    : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    :
+     Manufacturer             : 
+     Data Frequency           : 
+     Accuracy (% rel h)       : (% rel h)
+     Effective Dates          : (dd-MMM-yyyy - dd-MMM-yyyy)
+     Notes                    : (multiple lines)
+
+
+8.2  Pressure Sensor Model    :
+     Manufacturer             : 
+     Data Frequency           : 
+     Accuracy (mbar)          : (mbar)
+     Height Diff to GPS (m)   : (m)
+     Effective Dates          : (dd-MMM-yyyy - dd-MMM-yyyy)
+     Notes                    : (multiple lines)
+
+
+8.3  Temperature Sensor Model :
+     Manufacturer             : 
+     Data Frequency           : 
+     Accuracy (deg C)         : (deg C)
+     Effective Dates          : (dd-MMM-yyyy - dd-MMM-yyyy)
+     Notes                    : (multiple lines)
+
+
+8.4  Water Vapor Radiometer   :
+     Manufacturer             : 
+     Distance to GPS (m)      : (m)
+     Elev Diff to GPS (m)     : (m)
+     Effective Dates          : (dd-MMM-yyyy - dd-MMM-yyyy)
+     Notes                    : (multiple lines)
+
+
+8.5  Other Instrumenation     (multiple lines)
+
+9.   On-Site, Point of Contact Agency Information
+  
+     Agency                   : Survey of Israel
+     Preferred Abbreviation   : SOI
+     Mailing Address          : 1 Lincoln St.
+                              : Tel-Aviv, 65220
+                              : Israel
+     Primary Contact
+       Contact Name           : Moshe Rozenbloom
+       Telephone (primary)    : +972-3-623-1975
+       Telephone (secondary)  : +972-57705667
+       Fax                    : 1815
+       E-mail                 : rozenblm@mapi.gov.il
+     Secondary Contact
+       Contact Name           : Marina Kozakov
+       Telephone (primary)    : +972-3-623-1993
+       Telephone (secondary)  : +972-57203602
+       Fax                    : 1815
+       E-mail                 : sade@mapi.gov.il
+     Additional Information   : (multiple lines)
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : GSM Navigation&survey
+     Preferred Abbreviation   : GSM
+
+     Mailing Address          : 19 Hadror St
+                              : Ramat-hasharon
+                              : Israel
+     Primary Contact
+       Contact Name           : Shmuael Grossman
+       Telephone (primary)    : +972-3-547-4022
+       Telephone (secondary)  : +972-50267903
+       Fax                    : +972-3-547-4021
+       E-mail                 : gsmsam@netvision.net.il
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+11.  More Information
+
+     URL For More Information : 
+     Hardcopy on File         
+       Site Map               : (Y)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+                              
+     (insert text graphic)    
+
+

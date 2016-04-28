@@ -1,0 +1,456 @@
+     NURK Site Information Form
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Markus Bradke
+     Date Prepared            : 2013-01-09
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nurk_20121025.log
+      Modified/Added Sections : 3.9, 3.10
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Kigali - National University of Rwanda, CGIS
+     Four Character ID        : NURK
+     Monument Inscription     :
+     IERS DOMES Number        : 34001M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 1.2 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2008-08-26T12:30Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Kigali
+     State or Province        : 
+     Country                  : Ruanda
+     Tectonic Plate           : AFRICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 5516756.6320      
+       Y coordinate (m)       : 3196624.8504 
+       Z coordinate (m)       : -215027.2589
+       Latitude (N is +)      :  -015640.55
+       Longitude (E is +)     : +0300523.65
+       Elevation (m,ellips.)  :     1485.3
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TPS NETG3
+     Satellite System         : GPS
+     Serial Number            : 01153
+     Firmware Version         : 3.1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-08-26T12:30Z
+     Date Removed             : 2008-10-07T10:30Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TPS NETG3
+     Satellite System         : GPS
+     Serial Number            : 01153
+     Firmware Version         : 3.3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-10-07T10:30Z
+     Date Removed             : 2008-12-04T09:50Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 01153
+     Firmware Version         : 3.3p4
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-12-04T09:50Z
+     Date Removed             : 2010-04-23T16:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 01153
+     Firmware Version         : 3.4p1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-04-23T16:00Z
+     Date Removed             : 2010-08-16T15:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 344
+     Firmware Version         : 3.1.7
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-08-17T00:00Z
+     Date Removed             : 2011-12-21T09:21Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 344
+     Firmware Version         : 3.3.5
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-12-21T09:21Z
+     Date Removed             : 2012-03-07T08:40Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+     
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 344
+     Firmware Version         : 3.4.1b3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2012-03-07T08:40Z
+     Date Removed             : 2012-06-12T08:45Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 344
+     Firmware Version         : 3.4.4b0
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2012-06-12T08:45Z
+     Date Removed             : 2012-10-25T10:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 344
+     Firmware Version         : 3.4.4b0
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2012-10-25T10:00Z
+     Date Removed             : 2013-01-09T10:08Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 344
+     Firmware Version         : 3.4.7
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2013-01-09T10:08Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TPSCR3_GGD      NONE
+     Serial Number            : 383-0153
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1300
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2008-08-26T12:30Z
+     Date Removed             : 2010-08-16T15:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : JAV_RINGANT_G3T NONE
+     Serial Number            : 314
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.1300
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2010-08-17T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 1994-10-01/2011-12-21
+       Notes                  : (multiple lines)
+       
+6.2  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2011-12-21/2012-03-05
+       Notes                  : (multiple lines)
+    
+6.3  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2012-03-05/CCYY-MM-DD
+       Notes                  : (multiple lines)
+   
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : W0630002
+       Data Sampling Interval : 300
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : +0.8m
+       Calibration date       : 2007-04-04
+       Effective Dates        : 2008-08-26/CCYY-MM-DD
+       Notes                  : The humidity sensor is part of a Vaisala 
+                              : PTU200 meteo station
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : PTU200
+       Manufacturer           : Vaisala
+       Serial Number          : W0630002
+       Data Sampling Interval : 300
+       Accuracy               : 0.1
+       Height Diff to Ant     : -3.4m
+       Calibration date       : 2007-04-04
+       Effective Dates        : 2008-08-26/CCYY-MM-DD
+       Notes                  : The pressure sensor is part of a Vaisala 
+                              : PTU200 meteo station
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : W0630002
+       Data Sampling Interval : 300
+       Accuracy               : 0.1
+       Aspiration             : NATURAL
+       Height Diff to Ant     : +0.8m
+       Calibration date       : 2007-04-04
+       Effective Dates        : 2008-08-26/CCYY-MM-DD
+       Notes                  : The temperature sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Centre for Geographic Information System
+                              : & Remote Sensing 
+     Preferred Abbreviation   : CGIS-NUR
+     Mailing Address          : Boulevard de l'Umuganda
+                              : Kigali
+                              : Rwanda
+     Primary Contact
+       Contact Name           : Vivien Munyaburanga
+       Telephone (primary)    : (+250)0880-2040
+       Telephone (secondary)  : 
+       Fax                    : (+250)530-210
+       E-mail                 : vivien.munyaburanga@cgisnur.org
+     Secondary Contact
+       Contact Name           : Stefan Kappeler
+       Telephone (primary)    : (+250)0880-6061
+       Telephone (secondary)  :
+       Fax                    : (+250)530-210
+       E-mail                 : stefan.kappeler@cgisnur.org
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Helmholtz-Zentrum Potsdam
+                              : Deutsches GeoForschungsZentrum GFZ
+     Preferred Abbreviation   : GFZ
+     Mailing Address          : Telegrafenberg A17
+                              : 14473 Potsdam / Germany
+     Primary Contact
+       Contact Name           : Dr. Markus Ramatschi
+       Telephone (primary)    : (+49)331-288-1746
+       Telephone (secondary)  : (+49)331-288-1110
+       Fax                    : (+49)331-288-1759
+       E-mail                 : gpsnet@gfz-potsdam.de
+     Secondary Contact
+       Contact Name           : Markus Bradke
+       Telephone (primary)    : (+49)331-288-1182
+       Telephone (secondary)  : 
+       Fax                    : (+49)331-288-1759
+       E-mail                 : bradke@gfz-potsdam.de
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : 
+                              : 
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+JAV_RINGANT_G3T
+
+                       ---------                          <--  0.0614
+                     /           \
+                   /               \
+  +-------------------------------------------------+     <--  0.0410  TCR
+  |                                                 |
+  |              +-------------------+              |
+  |              |   \           /   |              |
+  |              |    \         /    |              |
+  |              |      +--x--+      |              |     <--  0.0000  BPA=ARP
+  +--------------+-------------------+--------------+     <-- -0.0260  BCR
+
+  <--                    0.3260                   -->

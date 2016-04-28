@@ -1,0 +1,362 @@
+
+     OWNG Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Thomas DONAL
+     Date Prepared            : 2015-10-21
+     Report Type              : Update
+     If Update:
+      Previous Site Log       : owng_20150622.log
+      Modified/Added Sections : 3.2, 3.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Chatham Island
+     Four Character ID        : OWNG
+     Monument Inscription     : None
+     IERS DOMES Number        : 50253M001
+     CDP Number               : 
+     Monument Description     : STEEL MAST
+       Height of the Monument : 2 m
+       Monument Foundation    : concrete block
+       Foundation Depth       : 1 m
+     Marker Description       : brass hemispheric mark
+     Date Installed           : 2014-11-22T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : VERY RIGID STEEL MAST, 2M HIGH
+
+
+2.   Site Location Information
+
+     City or Town             : Owenga
+     State or Province        : Chatham Island
+     Country                  : New Zealand
+     Tectonic Plate           : PACIFIC
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4584344.6155
+       Y coordinate (m)       : -290965.0770
+       Z coordinate (m)       : -4410099.9897
+       Latitude (N is +)      : -440129.735572
+       Longitude (E is +)     : -1762206.056789
+       Elevation (m,ellips.)  : 23.707
+     Additional Information   : coordinates IGS2008 EPOCH 2012.0
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 5340K46072
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-11-22T00:00Z
+     Date Removed             : 2015-06-22T14:55Z
+     Temperature Stabiliz.    : 25 C +/- 5 C
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 5340K46072
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-06-22T15:10Z
+     Date Removed             : 2015-10-21T11:49Z
+     Temperature Stabiliz.    : 25 C +/- 5 C
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 5340K46072
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-10-21T11:50Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 25.0 +/- 5.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 5406354937
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 002.0417
+     Marker->ARP North Ecc(m) : -000.0001
+     Marker->ARP East Ecc(m)  : 000.0008
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TRIMBLE LMR-400
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2014-11-22T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : DORIS antenna ref. pt.(OWEC)
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 50253S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 14.3928
+       dy (m)                 : 11.5792
+       dz (m)                 : -18.7367
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2014-11-20T00:00Z
+     Additional Information   : high geodetic surveying proceed by IGN-F
+
+5.2  Tied Marker Name         : Marker DORIS
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 50253M002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 16.13899
+       dy (m)                 : 11.68990
+       dz (m)                 : -17.04609
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2014-11-20T00:00Z
+     Additional Information   : high geodetic surveying proceed by IGN-F
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2014-11-22/CCYY-MM-DD
+       Notes                  : steering enabled
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1988-12-16/CCYY-MM-DD
+       Notes                  : 
+
+7.2  Instrumentation Type     : TIDE GAUGE
+       Status                 : PERMANENT
+       Effective Dates        : 2007-12-07/CCYY-MM-DD
+       Notes                  : OWENGA TSUNAMI MONITORING GAUGE
+                              : Geodetic code: CHIT
+                              : Agency: LINZ
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Land Information New Zealand
+     Preferred Abbreviation   : LINZ
+     Mailing Address          : Radio New Zealand House
+                              : 155 The Terrace
+                              : PO Box 5501, Wellington 6145
+                              : New Zealand
+     Primary Contact
+       Contact Name           : Matt Amos
+       Telephone (primary)    : +64 (0)4 460 0559
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : mamos@linz.govt.nz
+     Secondary Contact
+       Contact Name           : Andrew Cowie
+       Telephone (primary)    : +64 (0)4 570 1444
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : A.Cowie@gns.cri.nz
+     Additional Information   : The secondary contact is in charge 
+                              : of the station maintenance.
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Centre National d'Etudes Spatiales
+     Preferred Abbreviation   : CNES
+     Mailing Address          : CNES DCT/ME/NC 18, avenue Edouard Belin
+                              : 31401 Toulouse cedex 09 - France
+     Primary Contact
+       Contact Name           : Alain Brissaud
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : alain.brissaud@cnes.fr
+     Secondary Contact
+       Contact Name           : Jean-Paul Cardaliaguet
+       Telephone (primary)    : (33) 5.61.27.31.98
+       Telephone (secondary)  : (33) 5.61.28.35.22
+       Fax                    : 
+       E-mail                 : jean-paul.cardaliaguet@cnes.fr
+     Additional Information   : generic email - regina.operation@cnes.fr
+
+13.  More Information
+
+     Primary Data Center      : IGN
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : : (multiple lines)
+     Antenna Graphics with Dimensions
+	 
+TRM59800.00
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+Abbreviations
+-------------
+ARP: antenna reference point
+BCR: bottom of chokering
+BPA: bottom of preamplifier
+TCR: top of chokering
+
+Dimensions
+----------
+All dimensions are in meters.
+
+
+
+

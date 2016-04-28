@@ -1,0 +1,551 @@
+
+     OPMT Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Dr Pierre Uhrich
+     Date Prepared            : 2015-08-27
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : opmt_20140129.log
+      Modified/Added Sections : 3,6,9,11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Observatoire de Paris
+     Four Character ID        : OPMT
+     Monument Inscription     : None
+     IERS DOMES Number        : 10001S006
+     CDP Number               : 
+     Monument Description     : Concrete balk and pillar
+       Height of the Monument : 2.30 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 14.73 m
+     Marker Description       : 
+     Date Installed           : 2001-07-01T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Paris
+     State or Province        : Ile-de-France
+     Country                  : France
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4202777.3831
+       Y coordinate (m)       : 171367.9881
+       Z coordinate (m)       : 4778660.1844
+       Latitude (N is +)      : +485009.17
+       Longitude (E is +)     : +0022005.58
+       Elevation (m,ellips.)  : 124.2
+     Additional Information   : Antenna phase coordinates as computed in July
+                              : 2004 from the IGS daily determination with the
+                              : help of Jim Ray
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : 02942
+     Firmware Version         : 1L01-1D04
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-07-01T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : Between 19.5 °C and 23.5 °C
+     Additional Information   : ASHTECH Z-XII3 Time Transfer P/N 700845-1(E)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : 3S-02-TSADM     NONE
+     Serial Number            : 00019
+     Antenna Reference Point  : TOP
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : Not required deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew HELIAX LDF2RN-50
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-07-01T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : The antenna is temperature stabilized
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2001-07-01/2002-10-11
+       Notes                  : Sigma Tau active H-MASER 205
+                              : The required 1 pps signal is coming
+                              : from the same standard through a
+                              : cable labelled '403' from the output
+                              : 'B' of a distribution amplifier TST
+                              : 6460 labelled 'Maser 0205'.
+
+6.2  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2002-10-11/2002-10-31
+       Notes                  : UTC(OP) issued from an HP 5071A Cesium clock
+
+6.3  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2002-10-31/2003-04-30
+       Notes                  : Sigma Tau active H-MASER 016
+                              : The required 1 pps signal is coming
+                              : from the same standard through a
+                              : cable labelled '403' from the front output
+                              : of a distribution amplifier TST
+                              : 6460 labelled 'Maser 0016'.
+
+6.4  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2003-04-30/2004-10-20
+       Notes                  : Sigma Tau active H-MASER 205
+                              : The required 1 pps signal is coming
+                              : from the same standard through a
+                              : cable labelled '403' from the output 'B'
+                              : of a distribution amplifier TST
+                              : 6460 labelled 'Maser 0205'.
+
+6.5  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2004-10-20/2004-11-25
+       Notes                  : Sigma Tau active H-MASER 016
+                              : The required 1 pps signal is coming
+                              : from the same standard through a
+                              : cable labelled '403' from the front output
+                              : of a distribution amplifier TST
+                              : 6460 labelled 'Maser 0016'.
+
+6.6  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2004-11-25/2007-04-23
+       Notes                  : Sigma Tau active H-MASER 205
+                              : The required 1 pps signal is coming
+                              : from the same standard through a
+                              : cable labelled '403' from the output 'B'
+                              : of a distribution amplifier TST
+                              : 6460 labelled 'Maser 0205'.
+
+6.7  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2007-04-24/2008-03-11
+       Notes                  : Kvarz active H-MASER 890
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '403' from the output '1'
+                              : of a TimeTech Pulse Distribution Unit
+                              : feeded by the signal from a Quartzlock
+                              : A6 Frequency Convertor labelled
+                              : 'Maser 1400890'.
+
+6.8  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2008-03-11/2008-05-15
+       Notes                  : Sigma Tau active H-MASER 016
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '403' from the output
+                              : of a PTF 1204 Pulse Distribution Unit
+                              : labelled 'Maser 1400816'
+                              : feeded by a 1 pps coming from
+                              : a distribution amplifier TST
+                              : 6460 labelled 'Maser 016'.
+
+6.9  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2008-05-15/2008-08-28
+       Notes                  : Kvarz active H-MASER 890
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '403' from the output '2'
+                              : of a PTF 1204 Pulse Distribution Unit
+                              : labelled 'Maser 1400890'
+                              : feeded by the 1 pps from a Quartzlock
+                              : A6 Frequency Convertor labelled
+                              : 'Maser 1400890'.
+                              : Interruption of external clock signal
+                              : on 2008-08-28 at 10:22 UTC
+                              : due to failure of power supply.
+
+6.10 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2008-09-02/2010-10-27
+       Notes                  : Kvarz active H-MASER 890
+                              : To be considered as a "new" clock
+                              : with respect to before power failure,
+                              : put into operation after 13:00 UTC.
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '403' from the output '2'
+                              : of a PTF 1204 Pulse Distribution Unit
+                              : labelled 'Maser 1400890'
+                              : feeded by the 1 pps from a Quartzlock
+                              : A6 Frequency Convertor labelled
+                              : 'Maser 1400890'.
+
+6.11 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2010-10-27/2011-01-25
+       Notes                  : Sigma Tau active H-MASER 816
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '454' from one back output
+                              : of a distribution amplifier TST 6460
+                              : labelled 'A2M' common with TWSTFT station.
+
+6.12 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2011-01-25/2012-01-26
+       Notes                  : Kvarz active H-MASER 890
+                              : Put into operation after 12:00 UTC.
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '554' from the output '2'
+                              : of a PTF 1204 Pulse Distribution Unit
+                              : labelled 'Maser 1400890'
+                              : feeded by the 1 pps from a Quartzlock
+                              : A6 Frequency Convertor labelled
+                              : 'Maser 1400890'.
+                              : The required 10 MHz signal is coming
+                              : from the standard through a cable
+                              : labelled '299' from the ouput 1 of
+                              : a Quartzlock A5-12 Amplifier number 149
+                              : labelled 'Maser 1400890'.
+                              : The frequency multiplier x2 is new.
+
+6.13 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2012-01-26/2013-07-24
+       Notes                  : Kvarz active H-MASER 889
+                              : Put into operation after 17:00 UTC.
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '554' from the output '2'
+                              : of a PTF 1204 Pulse Distribution Unit
+                              : labelled 'Maser 1400889'
+                              : feeded by the output 2 of the Timetech Pulse
+                              : Distribution Unit number 26
+                              : The required 20 MHz signal is produced from
+                              : a 5 MHz signal coming from the standard
+                              : through the cable labelled '231' connected
+                              : to the Timetech RF Distrisbution Unit number 23.
+                              : The A8 output is connected to a frequency
+                              : multiplier X4. The resulting 20 MHz signal is
+                              : connected via the cable 422 to the Timetech RF
+                              : Distribution Unit number 88. The B6 output
+                              : provide the 20 MHz reference to the receiver.
+
+6.14 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2013-07-24/2014-01-28
+       Notes                  : Vremya active H-MASER 809
+                              : Put into operation after 15:00 UTC.
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '554' from the output '2'
+                              : of a PTF 1204 Pulse Distribution Unit
+                              : labelled 'Maser 1400809'
+                              : feeded by the output 2 of the Timetech Pulse
+                              : Distribution Unit number 26
+                              : The required 20 MHz signal is produced from
+                              : a 5 MHz signal coming from the standard
+                              : through the cable labelled '231' connected
+                              : to the Timetech RF Distrisbution Unit number 23.
+                              : The A8 output is connected to a frequency
+                              : multiplier X4. The resulting 20 MHz signal is
+                              : connected via the cable 422 to the Timetech RF
+                              : Distribution Unit number 88. The B6 output
+                              : provide the 20 MHz reference to the receiver.
+
+6.15 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHz
+       Effective Dates        : 2014-01-28/2015-08-26
+       Notes                  : Kvarz active H-MASER 889
+                              : Put into operation after 09:00 UTC.
+                              : The required 1 pps signal is coming
+                              : from the standard through a
+                              : cable labelled '554' from the output '2'
+                              : of a PTF 1204 Pulse Distribution Unit
+                              : labelled 'Maser 1400889'
+                              : feeded by the output 2 of the Timetech Pulse
+                              : Distribution Unit number 26
+                              : The required 20 MHz signal is produced from
+                              : a 5 MHz signal coming from the standard
+                              : through the cable labelled '231' connected
+                              : to the Timetech RF Distrisbution Unit number 23.
+                              : The A8 output is connected to a frequency
+                              : multiplier X4. The resulting 20 MHz signal is
+                              : connected via the cable 422 to the Timetech RF
+                              : Distribution Unit number 88. The B6 output
+                              : provide the 20 MHz reference to the receiver.
+
+6.16 Standard Type            : EXTERNAL UTC(OP)
+       Input Frequency        : 1 PPS and 20 MHz
+       Effective Dates        : 2015-08-26/CCYY-MM-DD
+       Notes                  : Real-time prediction of UTC
+                              : in Observatoire de Paris (OP)
+                              : Put into operation after 17:00 UTC.
+                              : The required 1 PPS signal is coming
+                              : from a PTF 1204 Pulse Distribution Unit
+                              : connected to the output 3 of TimeTech
+                              : amplifier 25 labelled '1PPSUTCOP'
+                              : The required 20 MHz signal is coming from
+                              : output B3 of TimeTech Frequency Distribution
+                              : Amplifier 87 labelled '20MHzUTCOP'
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS TIME
+       Status                 : PERMANENT
+       Effective Dates        : 2001-07-01/CCYY-MM-DD
+       Notes                  : NBS TTR5 and AOA TTR6
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : BUILDINGS
+       Effective Dates        : 2001-07-01/CCYY-MM-DD
+       Additional Information : The horizon profile is clear above an elevation
+                              : of 10° except between the azimuth 240° E and
+                              : 330° E where the buildings' mask can reach an
+                              : elevation of 45° with an average value of 23°
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : LNE-SYRTE
+                              : Observatoire de Paris
+                              : PSL Research University
+                              : CNRS
+                              : Sorbonne Universits
+                              : UPMC Univ. Paris 06
+     Preferred Abbreviation   : OP
+     Mailing Address          : LNE-SYRTE
+                              : Observatoire de Paris
+                              : 61 avenue de l'Observatoire
+                              : F-75014 Paris
+                              : France
+     Primary Contact
+       Contact Name           : Pierre Uhrich
+       Telephone (primary)    : +33 (0)1 40512217
+       Telephone (secondary)  : +33 (0)1 40512216
+       Fax                    : +33 (0)1 43255542
+       E-mail                 : Pierre.Uhrich@obspm.fr
+     Secondary Contact
+       Contact Name           : Currently none
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : The name of the Agency was formerly BNM-LPTF
+                              : then BNM-SYRTE.
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : IGN
+     Secondary Data Center    : BKG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+3S-02-TSADM
+                            -----
+                        /     +     \                        <--  0.2916 L2
+                       |      +      |                       <--  0.2725 L1
+     +--------------------------------------------------+
+     |                                                  |
+     |                                                  |
+     |                                                  |
+     |                                                  | 
+  +-+--------------------------------------------------+-+  <-- 0.208  TGP 
+  +-------------------+-------------+--------------------+
++----------------------|             |------------------------------
+|                     =|             |                        ------
+|                      +------x------+                        ------
+|                                                             ------
+|  <--                      0.381                       -->   ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+|                                                             ------
+
++------------------------------------------------------------------- 
+                |                           |
+                --------------x--------------                <-- ARP=TOP 
+
+   ARP: Antenna Reference Point
+
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                        
+
+
+

@@ -1,0 +1,397 @@
+     ALEX Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Cecile SHAALAN
+     Date Prepared            : 2012-04-25 
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : (alex_20020815.log)
+      Modified/Added Sections : (0.,2.,3.1,4.1)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Alexandria
+     Four Character ID        : ALEX
+     Monument Inscription     : none
+     IERS DOMES Number        : 30102M001
+     CDP Number               : (A4)
+     Monument Description     : concrete pillar
+       Height of the Monument : 1.70
+       Monument Foundation    : roof of building
+       Foundation Depth       : (m)
+     Marker Description       : Center of lower steel plate of the centring
+                                device attached to a concrete pillar
+     Date Installed           : 2001-12-01T00:00Z 
+     Geologic Characteristic  : nile deposits*
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : unknown
+       Fault zones nearby     : YES
+         Distance/activity    : c. 200km East,prolongation of the African Rift
+                                c. 400km North, Aegean subduction zone
+     Additional Information   : The antenna is mounted upon a concrete pillar
+                                on the eighth floor terrace of the Centre d'Etudes
+                                Alexandrines.
+                                nile deposits* : mainly calcareous oolithic sands
+                                with localy indurated calcarenites
+                                (alexandria formation).
+
+2.   Site Location Information
+
+     City or Town             : Alexandria
+     State or Province        : Alexandria
+     Country                  : Egypt
+     Tectonic Plate           : Africa
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4733389.059
+       Y coordinate (m)       : 2723027.730
+       Z coordinate (m)       : 3284632.234
+       Latitude (N is +)      : +311149.43 
+       Longitude (E is +)     : +0295439.57
+       Elevation (m,ellips.)  : 00058.0
+     Additional Information   : Decommisoned in 2008-03-03T00:00Z
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA CRS1000
+     Satellite System         : GPS
+     Serial Number            : 23318
+     Firmware Version         : 8.03
+     Elevation Cutoff Setting : 5    
+     Date Installed           : 2001-12-01T00:00Z
+     Date Removed             : 2008-03-03T00:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT303
+     Serial Number            : 730006
+     Antenna Reference Point  : ARP
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : none
+     Radome Serial Number     : 
+     Antenna Cable Type       : LEICA
+     Antenna Cable Length     : 30
+     Date Installed           : 2001-12-01T00:00Z
+     Date Removed             : 2008-03-03T00:00Z
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : none
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : l'installation d'une base m t orologique pr s
+                                de la station GPS en collaboration avec $$
+                                est en projet.
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc) antennes paraboliques
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc) 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc) immeuble proche
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Centre d'Etudes Alexandrines - UMS 1812
+                                Centre National de la Recherche Scientifique
+     Preferred Abbreviation   : CEA-CNRS
+     Mailing Address          : 50, Soliman Yousri Street - 21131 Alexandria
+                                EGYPT
+     Primary Contact
+       Contact Name           : Cecile Shaalan
+       Telephone (primary)    : 00.203.390.69.62
+       Telephone (secondary)  : 00.203.391.13.70
+       Fax                    : 00.203.484.62.45
+       E-mail                 : station.gps@cea.com.eg
+     Secondary Contact
+       Contact Name           : Jean-Yves Empereur
+       Telephone (primary)    : 00.20.12.229.60.62
+       Telephone (secondary)  : 00.203.484.62.45
+       Fax                    : 00.203.484.62.45
+       E-mail                 : jye@cea.com.eg
+     Additional Information   : Founded in 1990 by Jean-Yves Empereur, director 
+     of research with the French Centre National de la Recherche Scientifique, 
+     the Centre d'Etudes Alexandrines (CEA) has, as a mission, the study of the
+     rich history of Alexandria whether through existing vestiges, land or 
+     underwater excavations, archives, ancient maps and texts, or travellers
+     accounts.
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      :
+     Secondary Data Center    :
+     URL for More Information : http://www.station-gps.cea.com.eg
+     Hardcopy on File
+       Site Map               : http://www.station-gps.cea.com.eg/en_location.htm
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : http://www.station-gps.cea.com.eg/en_equipment.htm
+       Site Pictures          : http://www.station-gps.cea.com.eg/en_presentation.htm
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+LEIAT303  
+
+      
+                                                                    
+                                                                    
+                                +-----^-----+   
+                               /      +      \                    <--  x.xxxx L2
+                              /       +       \                   <--  x.xxxx L1
+             +---------------+========+========+---------------+  <--  x.xxxx TCR
+             +-+---------------------------------------------+-+
+               |                                             |
+               |                                             |
+               |                                             |
+               +------------------+-------+------------------+    <--  0.0000 BCR=ARP
+                                  |       |
+                                  |       |
+                                  |       |
+                                  |       |
+                              +---+-------+---+
+                              +-+-----------+-+
+                                ||         ||
+                                ||         ||
+                                ||         ||
+                                ||         ||
+                                ||         ||
+                          +----+-+----x----+-+----+               <-- -0.164 marker
+                         |                         |                   
+                         |                         |
+                         |         concrete        |
+                         |                         |
+                         |          pillar         |
+                         |                         |
+                         |                         |
+                         |                         |
+                         |                         |
+                         |                         |
+                         |                         |
+                         |                         |
+                                     
+                                     
+                                     
+                                     
+  
+  
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                        
+
+
+
+All dimensions are in meters.

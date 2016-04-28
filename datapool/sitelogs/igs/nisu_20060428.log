@@ -1,0 +1,382 @@
+     NISU Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Marc Abbott Weiss
+     Date Prepared            : 2006-04-28
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       : (ssss_ccyymmdd.log)
+      Modified/Added Sections : (n.n,n.n,...)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : NISU antenna at NIST
+     Four Character ID        : NISU
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 49507M001
+     CDP Number               : NONE
+     Monument Description     : METAL POLE ON TOP OF ELEVATOR SHAFT ON ROOFTOP
+       Height of the Monument : (m)
+       Monument Foundation    : ROOF OF BLDG
+       Foundation Depth       : (m)
+     Marker Description       : no geodetic marker, ARP only
+     Date Installed           : 2002-01-01T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : The reference is antenna ARP only, mounted on
+                              : a forced centering threaded rod that is bolted
+                              : to a pole.  The pole is mounted to the top of
+                              : the elevator shaft above our highest roof.
+
+
+2.   Site Location Information
+
+     City or Town             : Boulder
+     State or Province        : Colorado
+     Country                  : USA
+     Tectonic Plate           : North America
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1288363.592
+       Y coordinate (m)       : -4721684.338
+       Z coordinate (m)       : 4078659.412
+       Latitude (N is +)      : +395943.53
+       Longitude (E is +)     : -1051544.10
+       Elevation (m,ellips.)  : 1653.9
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : NOV EURO4-1.00-222
+     Satellite System         : GPS+WAAS
+     Serial Number            : 00480087
+     Firmware Version         : 2.140-L1L2W
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2002-01-01T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : NOV600          NONE
+     Serial Number            : 02370080
+     Antenna Reference Point  : TOP
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew FSJ1-50A
+     Antenna Cable Length     : 56.9
+     Date Installed           : 2002-01-01T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : DMA
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : NONE
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -32.431
+       dy (m)                 : 3.525
+       dz (m)                 : -22.524
+     Accuracy (mm)            : 10
+     Survey method            : GPS CAMPAIGN and local survey
+     Date Measured            : 2002-08-23T22:00Z
+     Additional Information   : NGS National Geodetic Survey PID#AI7564
+
+5.2  Tied Marker Name         : NIST TF NE 1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : NONE
+     Tied Marker DOMES Number :
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 17.692
+       dy (m)                 : 23.501
+       dz (m)                 : 16.155
+     Accuracy (mm)            : 10
+     Survey method            : GPS CAMPAIGN and local survey
+     Date Measured            : 2002-08-23T22:00Z
+     Additional Information   : NGS National Geodetic Survey PID#AI7563
+
+5.3  Tied Marker Name         : NIST TF PT 1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 105.081
+       dy (m)                 : -80.293
+       dz (m)                 : -89.771
+     Accuracy (mm)            : 10
+     Survey method            : GPS CAMPAIGN and local survey
+     Date Measured            : 2002-08-23T22:00Z
+     Additional Information   : NGS National Geodetic Survey PID#AI7562
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2002-01-01/CCYY-MM-DD
+       Notes                  : Input signal is UTC(NIST).  It is generated
+                              : by an Auxiliary Output Generator (AOG) steered
+                              : to UTC(NIST) from one of five H-masers in our
+                              : ensemble.  All H-masers and the AOG are
+                              : Symmetricom products.
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : NATIONAL TIME & FREQUENCY STANDARDS
+       Status                 : PERMANENT
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : Other antennas
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : Mountains to West up to about 5 deg
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : National Institute of Standards and Technology
+     Preferred Abbreviation   : NIST
+     Mailing Address          : Mail Stop 847
+                              : 325 Broadway
+                              : Boulder, CO 80305
+     Primary Contact
+       Contact Name           : Marc Weiss
+       Telephone (primary)    : 303-497-3261
+       Telephone (secondary)  : 
+       Fax                    : 303-497-6461
+       E-mail                 : mweiss@boulder.nist.gov
+     Secondary Contact
+       Contact Name           : Victor Zhang
+       Telephone (primary)    : 303-497-3977
+       Telephone (secondary)  : 
+       Fax                    : 303-497-6461
+       E-mail                 : vzhang@boulder.nist.gov
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : National Institute of Standards and Technology
+     Preferred Abbreviation   : NIST
+     Mailing Address          : Mail Stop 847
+                              : 325 Broadway
+                              : Boulder, CO 80305
+     Primary Contact
+       Contact Name           : Marc Weiss
+       Telephone (primary)    : 303-497-3261
+       Telephone (secondary)  : 
+       Fax                    : 303-497-6461
+       E-mail                 : mweiss@boulder.nist.gov
+     Secondary Contact
+       Contact Name           : Victor Zhang
+       Telephone (primary)    : 303-497-3977
+       Telephone (secondary)  : 
+       Fax                    : 303-497-6461
+       E-mail                 : vzhang@boulder.nist.gov
+     Additional Information   : Data flow contacts: dstowers@jpl.nasa.gov
+                              : and ruud@unavco.org
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : UNAVCO
+     URL for More Information : http://tf.nist.gov/time/nisu.htm
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : http://tf.nist.gov/time/nisu.htm
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     (insert text graphic from file antenna.gra)
+
+

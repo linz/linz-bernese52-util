@@ -1,0 +1,432 @@
+     OHIG Site Information Form
+     International GPS Service for Geodynamics
+
+
+0.   Form
+
+     Prepared by (full name)  : Dr. Wolfgang Schlueter
+                              : Klaus Roettcher
+                              : Uwe Hessels
+                              : Andreas Reinhold
+                              : Reiner Wojdziak
+                              : Rudi Stoeger
+     Date Prepared            : 25-FEB-2002
+     Report Type              : UPDATE
+     Prepared Using           :
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : O'Higgins / Antarctica
+     Four Character ID        : OHIG
+     Monument Inscription     : Pillar K5
+     IERS DOMES Number        : 66008M001
+     CDP Number               : 
+     Date Installed           : 14-FEB-1995 00:00 UT
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : Metamorphic
+       Bedrock Condition      : Weathered
+       Fracture Spacing       : 50-200 cm
+       Notes                  : Predominant rocks at the station
+                              : O'Higgins are quartz-bearing black,
+                              : grey and reddish brown
+                              : low-metamorphic clay slates and
+                              : phylitte slates of the Trinity
+                              : Peninsula Formation. They are very
+                              : brittle, fine-laminated in the mm-
+                              : and cm-range and incline with about
+                              : 60 to 80 degrees to NW.
+                              : Because of these characteristics
+                              : and the high clay mineral content
+                              : and the expansive force resulting
+                              : from this the slates are highly
+                              : susceptible to weathering and mostly
+                              : covered by detrital layers. Only
+                              : tectonicly less stressed parts and
+                              : parts resistant to weathering stick
+                              : out from these detrital masses. These
+                              : have a linear geometry and show strong
+                              : cleavings. The instrusions of 0.5m to
+                              : 1.5m thick vein rocks, which pass
+                              : through the slates, are significantly
+                              : younger. The pillar with the Turbo
+                              : Rogue antenna is bolted into one of
+                              : these veins, which are very resistant
+                              : to weathering.   
+     Additional Information   : ROGUE SNR-8000 / AOA SNR-8000 ACT
+                              : operated since 14-FEB-1995 at the
+                              : ERS/VLBI- Station O'Higgins.
+                              : Upgrading Firmware from V 3.0
+                              : to V 3.2, 04-FEB-1996, 16:40 UT.
+                              : Malfunctiong ROGUE SNR-8000 S/N T319
+                              : have been replaced by ROGUE SNR-8000
+                              : S/N T398, 17-FEB-1997, 00:23 UT
+                              : (Firmware V 3.2 to V 3.32.4).
+                              : ROGUE SNR-8000 S/N T-398 have been
+                              : replaced by AOA SNR-8000 ACT 
+                              : S/N T-395U (ROGUE SNR-8000 upgraded
+                              : to ACT, functionally like AOA
+                              : BENCHMARK ACT) V 3.3.32.3,
+                              : 14-FEB-2000, 00:35 UT.
+                              : Malfunctioning AOA SNR-8000 ACT
+                              : S/N T-395U (ROGUE SNR-8000
+                              : upgraded to ACT) V 3.3.32.3 have
+                              : been replaced by ROGUE SNR-8000
+                              : S/N T394 Firmware Version
+                              : 3.2.32.9, 02-OCT-2000.
+                              : ROGUE SNR-8000 S/N T394 Firmware
+                              : Version 3.2.32.9 have been replaced
+                              : by AOA SNR-8000 ACT (ROGUE SNR-8000
+                              : upgraded to ACT) S/N T-395U,
+                              : V 3.3.32.3, 09-FEB-2001, 01:00 UT.
+                              : In addition and parallel also an
+                              : ASHTECH Z18 GPS/GLONASS System,
+                              : Four Character ID OHIZ, is operating
+                              : in O'Higgins since 09-FEB-2001.
+                              : Because of the expansion and of 
+                              : construction works in the Chilenean
+                              : Antarctic Base we had to move the
+                              : antenna for the GPS Permanent Tracking
+                              : Station OHIG to another new pillar K6
+                              : in our O'Higgins Observatory.
+                              : The four character ID for the new
+                              : antenna-site is OHI2.
+                              : For collocation we observed from
+                              : 14-FEB-2002 18:30 UT until
+                              : 20-FEB-2002 02:00 UT with two
+                              : AOA SNR-8000 ACT at OHIG and OHI2,
+                              : and also with the Ashtech Z-18 OHIZ.
+                              : 14-FEB-2002 18:30 UT OHI2 installed.
+                              : 16-FEB-2002 18:30 UT DOME removed in OHIG.
+                              : 19-FEB-2002 20:00 UT DOME installed in
+                              : OHI2.
+                              : 20-FEB-2002 02:00 UT OHIG removed.
+                              
+
+2.   Site Location Information
+
+     City or Town             : O'Higgins
+     State or Province        :
+     Country                  : Antarctic Peninsula
+     Tectonic Plate           : Antarctican
+     Approximate Position
+       X coordinate (m)       : 1525872.392
+       Y coordinate (m)       : -2432481.273
+       Z coordinate (m)       : -5676146.066
+       Latitude (deg)         : 63.320724011 S
+       Longitude (deg)        : 57.900342018 W
+       Elevation (m)          : 30.621
+     Additional information   : The GPS-System was installed nearby
+                              : the German ERS/VLBI-Station and the
+                              : Chilenian Base O'Higgins.
+                              : The System is a stand-alone-system
+                              : during long Antartican-Winter.
+                              : Only for VLBI-Observation-Sessions
+                              : operators travel to O'Higgins during
+                              : short Antarctican-"Summer".
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Serial Number            : T319
+     Firmware Version         : 3.0
+     Date Installed           : 14-FEB-1995 00:00 UT
+     Date Removed             : 04-FEB-1996 16:40 UT
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Serial Number            : T319
+     Firmware Version         : 3.2
+     Date Installed           : 04-FEB-1996 16:40 UT
+     Date Removed             : 17-FEB-1997 00:23 UT
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Serial Number            : T398
+     Firmware Version         : 3.2.32.4
+     Date Installed           : 17-FEB-1997 00:23 UT
+     Date Removed             : 14-FEB-2000 00:35 UT
+     Additional Information   :   
+
+3.4  Receiver Type            : AOA SNR-8000 ACT
+     Serial Number            : T-395U
+     Firmware Version         : 3.3.32.3
+     Date Installed           : 14-FEB-2000 00:35 UT
+     Date Removed             : 02-OCT-2000 00:00 UT 
+     Additional Information   :
+
+3.5  Receiver Type            : ROGUE SNR-8000
+     Serial Number            : T394
+     Firmware Version         : 3.2.32.9
+     Date Installed           : 02-OCT-2000 00:00 UT
+     Date Removed             : 09-FEB-2001 01:00 UT
+     Additional Information   :
+
+3.6  Receiver Type            : AOA SNR-8000 ACT
+     Serial Number            : T-395U
+     Firmware Version         : 3.3.32.3
+     Date Installed           : 09-FEB-2001 01:00 UT
+     Date Removed             : 
+     Additional Information   : OHIG replaced with OHI2.
+                              : Additional informations
+                              : kindly see at the OHI2
+                              : Site Information Form.
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 414
+     Antenna Height (m)       : 0.001 m
+                              : (1.0 mm above metal plate at
+                              : pillar # K5)
+                              : - 0.013 m (13.0 mm below top of
+                              : bolt at pillar # K5)
+     Antenna Reference Point  : BPA
+     Degree Offset from North :
+     Antenna Radome Type      : DOME
+     Date Installed           : 09-FEB-1995 00:00 UT
+     Date Removed             : 30-JAN-1999 16:30 UT
+     Additional Information   : Modified Radome as used for
+                              : Inmarsat A equipments
+
+4.2  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 421
+     Antenna Height (m)       : 0.001
+                              : (1.0 mm above metal plate at
+                              : pillar # K5)
+                              : - 0.013 m (13.0 mm below top of
+                              : bolt at pillar # K5)
+     Antenna Reference Point  : BPA
+     Degree Offset from North :
+     Antenna Radome Type      : DOME
+     Date Installed           : 30-JAN-1999 16:30 UT
+     Date Removed             : 16-FEB-2002 18:30 UT
+     Additional Information   : Modified Radome as used for
+                              : Inmarsat A equipments
+
+4.3  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 421
+     Antenna Height (m)       : 0.001
+                              : (1.0 mm above metal plate at
+                              : pillar # K5 and
+                              : 13.0 mm below top of bolt at
+                              : pillar # K 5)
+     Antenna Reference Point  : BPA
+     Degree Offset from North :
+     Antenna Radome Type      : NONE
+     Date Installed           : 16-FEB-2002 18:30 UT
+     Date Removed             : 
+     Additional Information   : OHIG replaced with OHI2.
+                              : Additional informations
+                              : kindly see at the OHI2
+                              : Site Information form.
+
+
+5.   Local Site Ties
+
+5.1  Monument Name            : VLBI
+     Site Ref CDP Number      : 
+     Site Ref Domes Number    : 
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : -39.4541
+       dy (m)                 : 17.6454
+       dz (m)                 : -28.4221
+     Accuracy (mm)            : mm
+     Date Measured            : 30-JUL-1999
+     Additional Information   : The vectors are refered to the top
+                              : of the bolt at pillar # K5
+                              : dx = x (axis VLBI) - x (top of bolt
+                              : at pillar # K5).
+                              : Top of the bolt at pillar # K5 is
+                              : 13 mm above the ARP.
+
+5.2  Monument Name            : OHIZ
+     Site Ref CDP Number      :
+     Site Ref Domes Number    : 66008M004
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : mm
+     Date Measured            :
+     Additional Information   : GPS / GLONASS  ASHTECH Z18
+
+5.3  Monument Name            : OHI2
+     Site Ref CDP Number      :
+     Site Ref Domes Number    : 66008M005
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : mm
+     Date Measured            :
+     Additional Information   :
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              :
+       Effective Dates        : 09-FEB-1995
+       Notes                  : The ROGUE SNR-8000 / AOA SNR-8000
+                              : ACT operated with internal
+                              : oscillator.
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1995 - now
+       Notes                  : 2 VLBI-measurements in campaigns
+                              : each year
+
+7.2  Instrumentation Type     : GPS / GLONASS ASHTECH Z18
+       Status                 : PERMANENT
+       Effective Dates        : 09-FEB-2001 - now
+       Notes                  : Four Character ID OHIZ
+
+7.3  Instrumentation Type     : GPS AOA SNR-8000 ACT
+       Status                 : PERMANENT
+       Effective Dates        : 14-FEB-2002 18:30 UT
+       Notes                  : Four Character ID OHI2.
+                              : OHI2 replaced OHIG.
+
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    : MP 408 A
+       Manufacturer           : Rotronic, Esslingen
+       Data Frequency         : 15 min
+       Accuracy (% rel h)     : + / - 1.5 % rel h
+       Effective Dates        : 14-FEB-1995 - now
+       Notes                  : 
+
+8.2  Pressure Sensor Model    : APS
+       Manufacturer           : Roessler + Cie
+       Data Frequency         : 15 min
+       Accuracy (mbar)        : + / - 1 mbar
+       Height Diff to GPS (m) : 2,5 m
+       Effective Dates        : 14-FEB-1995 - now
+       Notes                  : 
+
+8.3  Temperature Sensor Model : MP 408 A
+       Manufacturer           : Rotronic, Esslingen 
+       Data Frequency         : 15 min
+       Accuracy (deg C)       : + / - 0.3 deg C
+       Effective Dates        : 14-FEB-1995 - now
+       Notes                  : 
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    : 
+       Elev Diff to GPS (m)   : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.5  Other Instrumentation    : 
+
+
+9.   On-Site, Point of Contact Agency Information
+     
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Aussenstelle Leipzig
+                              : Karl-Rothe-Strasse 10 - 14
+                              : D-04105 Leipzig
+                              : Germany
+     Primary Contact
+       Contact Name           : Andreas Reinhold
+       Telephone (primary)    : (0049)-341-5634421
+       Telephone (secondary)  : (0049)-341-56340
+       Fax                    : (0049)-341-5634415
+       E-mail                 : ar@leipzig.ifag.de
+     Secondary Contact
+       Contact Name           : Reiner Wojdziak
+       Telephone (primary)    : (0049)-341-5634204
+       Telephone (secondary)  : (0049)-341-56340
+       Fax                    : (0049)-341-5634415
+       E-mail                 : wojdziak@leipzig.ifag.de
+
+
+10.  Responsible Agency (if different from 9.)
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Fundamentalstation Wettzell
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Fundamentalstation Wettzell
+                              : D-93444 Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Dr. Wolfgang Schlueter
+       Telephone (primary)    : (0049)-9941-603107
+       Telephone (secondary)  : (0049)-9941-6030
+       Fax                    : (0049)-9941-603222
+       E-mail                 : schlueter@wettzell.ifag.de
+       Contact Name           : Klaus Roettcher
+       Telephone (primary)    : (0049)-9941-603115
+       Telephone (secondary)  : (0049)-9941-6030
+       Fax                    : (0049)-9941-603222
+       E-mail                 : roettcher@wettzell.ifag.d 
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : (0049)-9941-603204
+       Telephine (secondary)  : (0049)-9941-6030
+       Fax                    : (0049)-9941-603222
+       E-mail                 : hessels@wettzell.ifag.de
+       Contact Name           : Rudi Stoeger
+       Telephone (primary)    : (0049)-9941-603114
+       Telephone (secondary)  : (0049)-9941-6030
+       Fax                    : (0049)-9941-603222
+       E-mail                 : stoeger@wettzell.ifag.de 
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : 
+     Additional Information   : 
+
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : X
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : X
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+                 AOAD/M_T         DOME
+  (DOME = modified Radome as used for Inmarsat A equipment)
+
+                         -----
+                     /     +     \                        <--  0.1280  L2
+                    |      +      |                       <--  0.1100  L1
+  +--------------------------------------------------+    <--  0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.0380
++-------------------+-------------+--------------------+  <--  0.0350 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000 BPA=ARP
+
+<--                      0.3810                       -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   BPA: Bottom of Preamplifier
+

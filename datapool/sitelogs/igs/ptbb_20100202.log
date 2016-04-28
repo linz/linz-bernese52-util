@@ -1,0 +1,486 @@
+     PTBB Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Rudi Stoeger
+     Date Prepared            : 2010-02-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ptbb_20061116.log
+      Modified/Added Sections : 3.5, 6.3, 6.4, 11, 12
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Braunschweig
+     Four Character ID        : PTBB
+     Monument Inscription     : 
+     IERS DOMES Number        : 14234M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST ON THE ROOF
+       Height of the Monument : 4.50
+       Monument Foundation    : STEEL MAST SCREW ANCHORED TO THE ROOF
+       Foundation Depth       : (m)
+     Marker Description       : SURVEY MARKER ON THE STEEL MAST
+     Date Installed           : 2000-03-29T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : The antenna is installed on a steel mast,
+                              : srew anchored on the roof of the building in
+                              : the PTB Physikalisch-Technische Bundesanstalt,
+                              : 11.10 m above the ground.
+
+
+2.   Site Location Information
+
+     City or Town             : Braunschweig
+     State or Province        : Niedersachsen
+     Country                  : Germany
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3844060.11
+       Y coordinate (m)       : 709661.20
+       Z coordinate (m)       : 5023129.46
+       Latitude (N is +)      : +521746.32
+       Longitude (E is +)     : +0102734.92
+       Elevation (m,ellips.)  :   130.2
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T-317
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2000-03-29T00:00Z
+     Date Removed             : 2002-03-19T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- 0.5
+     Additional Information   : External frequency from the H-Maser
+
+3.2  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT820013901
+     Firmware Version         : 1L01-1D04
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2002-03-19T00:00Z
+     Date Removed             : 2003-04-29T07:45Z
+     Temperature Stabiliz.    : (deg C) +/- 0.5
+     Additional Information   : ASHTECH Model Z-12
+                              : Metronome WP103, P/N 800926, external
+                              : frequency from the H-Maser.
+                              : Smoothing option on.
+
+3.3  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT820013901
+     Firmware Version         : 1L01-1D04
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-04-29T07:45Z
+     Date Removed             : 2006-07-25T08:35Z
+     Temperature Stabiliz.    : (deg C) +/- 0.5
+     Additional Information   : ASHTECH Model Z-12
+                              : Metronome WP103, P/N 800926, external
+                              : frequency from the H-Maser prior
+                              : 2003-10-01.
+                              : After 2003-10-02
+                              : external frequency from the Cesium Frequency
+                              : Standard CS2.
+                              : Since 2003-04-29 smoothing option deactivated.
+
+3.4  Receiver Type            : SEPT POLARX2
+     Satellite System         : GPS
+     Serial Number            : 1219
+     Firmware Version         : 2.6.0
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-07-25T08:35Z
+     Date Removed             : 2006-11-13T13:15Z
+     Temperature Stabiliz.    : (deg C) +/- 0.5
+     Additional Information   : External frequency from the Cesium Frequency
+                              : Standard CS2.
+
+3.5  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT820013901
+     Firmware Version         : 1L01-1D04
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-11-13T13:15Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- 0.5
+     Additional Information   : ASHTECH Model Z-12
+                              : Metronome WP103, P/N 800926.
+                              : Prior 2010-01-28 external frequency
+                              : from the Cesium Frequency Standard CS2.
+                              : From 2010-01-28 external frequency
+                              : from the active H-Maser and downstream
+                              : phase shifter.
+                              : Smoothing option deactivated.
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 393
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0580
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30
+     Date Installed           : 2000-03-29T00:00Z
+     Date Removed             : 2002-03-19T00:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : ASH700936E      SNOW
+     Serial Number            : CR15930
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0562
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30
+     Date Installed           : 2002-03-19T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHZ
+       Effective Dates        : 2000-03-29/2003-04-29
+       Notes                  : PTB Physikalisch-Technische Bundesanstalt
+                              : is responsible for the realisation of the
+                              : legal time in Germany.
+                              : External frequency from the H-MASER H2
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 20 MHZ
+       Effective Dates        : 2003-04-29/2003-10-02
+       Notes                  : PTB Physikalisch-Technische Bundesanstalt
+                              : is responsible for the realisation of the
+                              : legal time in Germany.
+                              : External frequency from the H-MASER H2
+
+6.3  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 20 MHZ
+       Effective Dates        : 2003-10-02/2010-01-28
+       Notes                  : PTB Physikalisch-Technische Bundesanstalt
+                              : is responsible for the realisation of the
+                              : legal time in Germany.
+                              : External frequency from UTC PTB.
+
+6.4  Standard Type            : EXTERNAL ACTIVE H-MASER
+       Input Frequency        : 20 MHZ
+       Effective Dates        : 2010-01-28/CCYY-MM-DD
+       Notes                  : PTB Physikalisch-Technische Bundesanstalt
+                              : is responsible for the realisation of the
+                              : legal time in Germany.
+                              : External frequency from the active
+                              : H-Maser and downstream phase shifter.
+                              : UTC PTB.
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 14148 004
+       Data Sampling Interval : 900
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : 3.00
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-07-16/CCYY-MM-DD
+       Notes                  : Humidity Sensor is 3.00 m
+                              : below the antenna
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : APS 9215
+       Manufacturer           : L-TEC LEIBENGUTH
+       Serial Number          : 0502099A
+       Data Sampling Interval : 900
+       Accuracy               : 0.1
+       Height Diff to Ant     : 12.90
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-07-16/2003-09-30
+       Notes                  : Pressure Sensor is
+                              : 12.90 m below the antenna
+
+8.2.2  Pressure Sensor Model  : APS 9215
+       Manufacturer           : L-TEC LEIBENGUTH
+       Serial Number          : 0502099A
+       Data Sampling Interval : 900
+       Accuracy               : 0.1
+       Height Diff to Ant     : 9.20
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-10-01/CCYY-MM-DD
+       Notes                  : Pressure Sensor is
+                              : 9.20 m below the antenna
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MP408A-T4-W4W
+       Manufacturer           : ROTRONIC
+       Serial Number          : 14148 004
+       Data Sampling Interval : 900
+       Accuracy               : 0.3
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 3.00
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-07-16/CCYY-MM-DD
+       Notes                  : Temperature Sensor is
+                              : 3.00 m below the antenna
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Physikalisch-Technische
+                              : Bundesanstalt
+     Preferred Abbreviation   : PTB
+     Mailing Address          : Fachlabor 4.42
+                              : Zeituebertragung
+                              : Bundesallee 100
+                              : D-38116 Braunschweig
+                              : Germany
+     Primary Contact
+       Contact Name           : Dr. Dirk Piester
+       Telephone (primary)    : ++49-531-592 4421
+       Telephone (secondary)  : ++49-531-592-4419
+       Fax                    : ++49-531-592 4479
+       E-mail                 : dirk.piester@ptb.de
+     Secondary Contact
+       Contact Name           : Dr. Andreas Bauch
+       Telephone (primary)    : ++49-531-592 4420
+       Telephone (secondary)  : ++49-531-592-4419
+       Fax                    : ++49-531-592 4479
+       E-mail                 : andreas.bauch@ptb.de
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : GeodeticalObservatory Wettzell
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+                              : Sackenrieder Strasse 25
+                              : D-93444 Bad Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Dr. Reiner Dassing
+       Telephone (primary)    : ++49-9941-603112
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : reiner.dassing@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Additional Information   : Klaus Roettcher
+                              : ++49-9941-603115
+                              : klaus.roettcher@bkg.bund.de
+                              : Rudi Stoeger
+                              : ++49-9941-603117
+                              : rudolf.stoeger@bkg.bund.de
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : www.bkg.bund.de and www.wettzell.ifag.de
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+AOAD/M_T
+>From 2000-03-29 until 2002-03-19
+without Dome
+
+                         -----
+                     /     +     \                        <-- 0.128 L2
+                    |      +      |                       <-- 0.110 L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.381                       -->
+
+
+ASH700936E
+>From 2002-03-19
+with Ashtech white conical dome SNOW
+
+
+                        +---------+
+                       /     +     \                        <-- 0.1280 L2
+                      |      +      |                       <-- 0.1100 L1
+    +-----------------+-------------+------------------+    <-- 0.1008 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <-- 0.0378
+  +-------------------+-------------+--------------------+  <-- 0.0348 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.0 BPA=ARP
+
+  <--                      0.3794                      -->
+
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+TOP: Top of Pole

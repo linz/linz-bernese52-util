@@ -1,0 +1,374 @@
+     0194 Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Basara Miyahara / Kyoko Kotani 
+     Date Prepared            : 2004-09-09
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : TOBISHIMA
+     Four Character ID        : 0194
+     Monument Inscription     :
+     IERS DOMES Number        : 21752S001
+     CDP Number               : none
+     Monument Description     : PILLAR
+       Height of the Monument : 6.9
+       Monument Foundation    : CONCRETE
+       Foundation Depth       : 1.5
+     Marker Description       :  none
+     Date Installed           : 1996-03-12
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Sakata
+     State or Province        : Yamagata
+     Country                  : Japan
+     Tectonic Plate           : North American Plate
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3766965.363
+       Y coordinate (m)       : 3211877.132 
+       Z coordinate (m)       : 4008334.279
+       Latitude (N is +)      : +391108.03
+       Longitude (E is +)     : +1393251.57
+
+       Elevation (m,ellips.)  : 45.14
+     Additional Information   :
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI 
+     Satellite System         : GPS
+     Serial Number            :
+     Firmware Version         : 7.16
+     Elevation Cutoff Setting : 15 
+     Date Installed           : 1996-03-12
+     Date Removed             :
+     Temperature Stabiliz.    :
+     Additional Information   :
+
+3.2  Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            :
+     Firmware Version         : 1.24
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2003-06-09
+     Date Removed             :
+     Temperature Stabiliz.    :
+     Additional Information   :
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM23903.00
+     Serial Number            :
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.000
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 
+     Antenna Radome Type      : GSI4
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1996-03-12
+     Date Removed             : 
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM29659.00
+     Serial Number            : 
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.000
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 
+     Antenna Radome Type      : GSI4
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2003-06-09
+     Date Removed             : 
+     Additional Information   :   
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number :
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            :
+     Date Measured            :
+     Additional Information   :
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 
+       Notes                  : 
+
+6.x  Standard Type            :
+       Input Frequency        :
+       Effective Dates        :
+       Notes                  :
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     :
+       Status                 :
+       Effective Dates        :
+       Notes                  :
+
+7.x  Instrumentation Type     :
+       Status                 :
+       Effective Dates        :
+       Notes                  :
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :
+       Accuracy (% rel h)     :
+       Aspiration             :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        :
+       Notes                  :
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :
+       Accuracy (% rel h)     :
+       Aspiration             :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        : 
+       Notes                  :
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :
+       Accuracy               :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        : 
+       Notes                  :
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :
+       Accuracy               :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        :
+       Notes                  :
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :
+       Accuracy               :
+       Aspiration             :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        :
+       Notes                  :
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval :
+       Accuracy               :
+       Aspiration             :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        :
+       Notes                  :
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        :
+       Notes                  :
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    :
+       Height Diff to Ant     :
+       Calibration date       :
+       Effective Dates        :
+       Notes                  :
+
+8.5.1 Other Instrumentation   :
+
+8.5.x Other Instrumentation   :
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     :
+       Observed Degradations  :
+       Effective Dates        :
+       Additional Information :
+
+9.1.x Radio Interferences     :
+       Observed Degradations  :
+       Effective Dates        :
+       Additional Information :
+
+9.2.1 Multipath Sources       :
+       Effective Dates        :
+       Additional Information :
+
+9.2.x Multipath Sources       :
+       Effective Dates        :
+       Additional Information :
+
+9.3.1 Signal Obstructions     :
+       Effective Dates        :
+       Additional Information :
+
+9.3.x Signal Obstructions     :
+       Effective Dates        :
+       Additional Information :
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     :
+     Event                    :
+
+10.x Date                     :
+     Event                    :
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geographical Survey Institute
+     Preferred Abbreviation   : GSI
+     Mailing Address          : Kitasato-1, Tsukuba-shi, ibaraki-ken 305
+				JAPAN
+     Primary Contact
+       Contact Name           : IGS_group 
+       Telephone (primary)    : 81-29-864-4811 
+       Telephone (secondary)  : 
+       Fax                    : 81-29-864-6864 
+       E-mail                 : igs-grp@gsi.go.jp 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   :
+     Preferred Abbreviation   :
+     Mailing Address          :
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   :
+
+
+13.  More Information
+
+     Primary Data Center      :
+     Secondary Data Center    :
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+TRM29659.00
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+TRM23903.00 
+
+                       ----+----                          <--  0.0770  L1
+                    /      +      \                       <--  0.0756  L2
+++----------------+-----------------+-----------------++  
+++---------------+-------------------+----------------++ 
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <--  0.000  ARP=BPA
+
+ <--                     0.4668                     -->        INNER EDGE
+<--                      0.4826                      -->       OUTER EDGE
+
+    ARP: Antenna Reference Point     BPA: Bottom of Preamplifter
+    L1 : L1 Phase Center             L2 : L2 Phase Center
+    TCR: Top of Chorkering           BCR: Bottom of Chorkering
+
+All dimensions are in meters.
+
+
+
+
+

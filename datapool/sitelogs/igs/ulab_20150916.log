@@ -1,0 +1,455 @@
+
+     ULAB Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Markus Bradke
+     Date Prepared            : 2015-09-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ulab_20130905.log
+      Modified/Added Sections : 0,3.10,3.11,4.1,4.2
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Ulaanbataar
+     Four Character ID        : ULAB
+     Monument Inscription     : Concrete Pillar
+     IERS DOMES Number        : 24201M001
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.50 m
+       Monument Foundation    : BEDROCK
+       Foundation Depth       : 1.00 m
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2000-11-11T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Ulaanbataar
+     State or Province        : 
+     Country                  : Mongolia
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1257408.4318
+       Y coordinate (m)       : 4099404.3554
+       Z coordinate (m)       : 4707992.5970
+       Latitude (N is +)      : +474012.00
+       Longitude (E is +)     : +1070260.00
+       Elevation (m,ellips.)  : 1611.7
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : 287-U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2000-11-11T00:00Z
+     Date Removed             : 2009-09-09T08:15Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : T-270U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2009-09-09T08:15Z
+     Date Removed             : 2011-09-20T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 208
+     Firmware Version         : 3.2.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-09-20T00:00Z
+     Date Removed             : 2012-01-16T15:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 208
+     Firmware Version         : 3.4.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-01-16T15:00Z
+     Date Removed             : 2012-01-19T15:35Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 208
+     Firmware Version         : 3.3.5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-01-19T15:35Z
+     Date Removed             : 2012-03-06T14:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 208
+     Firmware Version         : 3.4.1b3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-03-06T14:00Z
+     Date Removed             : 2012-06-12T09:45Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 208
+     Firmware Version         : 3.4.4b0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-06-12T09:45Z
+     Date Removed             : 2012-10-25T10:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 208
+     Firmware Version         : 3.4.4b0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-10-25T10:00Z
+     Date Removed             : 2013-01-08T12:37Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 208
+     Firmware Version         : 3.4.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-01-08T12:38Z
+     Date Removed             : 2013-09-05T15:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+QZSS+SBAS
+     Serial Number            : 208
+     Firmware Version         : 3.4.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-09-05T15:00Z
+     Date Removed             : 2015-09-16T08:14Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+QZSS+SBAS
+     Serial Number            : 208
+     Firmware Version         : 3.5.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-16T08:14Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 340-U
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0460
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 25.00 m
+     Date Installed           : 2000-11-11T00:00Z
+     Date Removed             : 2011-09-20T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : JAV_RINGANT_G3T NONE
+     Serial Number            : 337
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.1206
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2011-09-20T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2000-11-11/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : A3720002
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.30 m
+       Calibration date       : 2005-09-15
+       Effective Dates        : 2007-01-08/CCYY-MM-DD
+       Notes                  : The humidity sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU200
+       Manufacturer           : Vaisala
+       Serial Number          : A3720002
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -0.10 m
+       Calibration date       : 2005-09-15
+       Effective Dates        : 2007-01-08/CCYY-MM-DD
+       Notes                  : The pressure sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : A3720002
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.30 m
+       Calibration date       : 2005-09-15
+       Effective Dates        : 2007-01-08/CCYY-MM-DD
+       Notes                  : The temperature sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Research Centre of Astronomy and Geophysics
+     Preferred Abbreviation   : RCAG
+     Mailing Address          : Mongolian Academy of Sciences
+                              : P.O.B 788
+                              : Ulaanbaatar 210613
+     Primary Contact
+       Contact Name           : Amarjargal Sharavyn
+       Telephone (primary)    : (+976)11-458024
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : satellamar@netscape.net
+     Secondary Contact
+       Contact Name           : Sanjijav Sodnom
+       Telephone (primary)    : (+976)11-480331
+       Telephone (secondary)  : (+976)11-324046
+       Fax                    : 
+       E-mail                 : sanjijav@yahoo.com
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Helmholtz-Zentrum Potsdam
+                              : Deutsches GeoForschungsZentrum GFZ
+     Preferred Abbreviation   : GFZ
+     Mailing Address          : Telegrafenberg A17
+                              : 14473 Potsdam / Germany
+     Primary Contact
+       Contact Name           : Dr. Markus Ramatschi
+       Telephone (primary)    : (+49)331-288-1746
+       Telephone (secondary)  : (+49)331-288-1110
+       Fax                    : (+49)331-288-1759
+       E-mail                 : gpsnet@gfz-potsdam.de
+     Secondary Contact
+       Contact Name           : Markus Bradke
+       Telephone (primary)    : (+49)331-288-1182
+       Telephone (secondary)  : 
+       Fax                    : (+49)331-288-1759
+       E-mail                 : bradke@gfz-potsdam.de
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : BKG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+JAV_RINGANT_G3T
+
+                       ---------                          <--  0.0614
+                     /           \
+                   /               \
+  +-------------------------------------------------+     <--  0.0410  TCR
+  |                                                 |
+  |              +-------------------+              |
+  |              |   \           /   |              |
+  |              |    \         /    |              |
+  |              |      +--x--+      |              |     <--  0.0000  BAM=ARP
+  +--------------+-------------------+--------------+     <-- -0.0260  BCR
+                                                                       RXC=NRP
+  <--                    0.3260                   -->
+
+AOAD/M_T
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0380
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                                       RXC=NRP
+<--                      0.3810                     -->
+
+

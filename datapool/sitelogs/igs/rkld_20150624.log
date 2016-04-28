@@ -1,0 +1,370 @@
+     RKLD Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ted Zhou
+     Date Prepared            : 2015-06-24
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : rkld_20120726.log
+      Modified/Added Sections : 3.1,3.2,11,12,13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Rocklands
+     Four Character ID        : RKLD
+     Monument Inscription     :  
+     IERS DOMES Number        : 59941M001
+     CDP Number               : (A4) 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.455 (m)
+       Monument Foundation    : STEEL RODS
+       Foundation Depth       : 2.0 (m)
+     Marker Description       : STEEL PLATE
+     Date Installed           : 2012-07-21
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : N/A
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Rocklands Pastral Lease
+     State or Province        : Northern Territory
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4445289.066
+       Y coordinate (m)       : 4025824.945
+       Z coordinate (m)       : -2164422.047
+       Latitude (N is +)      : -195803.42137
+       Longitude (E is +)     : +1375005.27821
+       Elevation (m,ellips.)  : 276.241
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495596
+     Firmware Version         : 8.51
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2012-07-21T00:00Z
+     Date Removed             : 2015-06-24T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Measurement Engine Version 6.11
+
+3.2  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 495596
+     Firmware Version         : 9.20/6.404 
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2015-06-24T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update only 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAR25.R3      NONE
+     Serial Number            : 09310006
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 (deg)
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR400
+     Antenna Cable Length     : 22.5 (m)
+     Date Installed           : 2012-07-21T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : RM1
+     Tied Marker Usage        : CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : 0.1mm
+     Survey method            : Terrestrial
+     Date Measured            : 2012-07-21
+     Additional Information   : Stainless steel rod driven to almost refusal. 
+                              : 4 x 0.5m lengths
+
+5.2  Tied Marker Name         : RM2
+     Tied Marker Usage        : CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : 0.1mm
+     Survey method            : Terrestrial
+     Date Measured            : 2012-07-21
+     Additional Information   : Stainless steel rod driven to almost refusal. 
+                              : 1 x 1.0m and 1 x 0.5m lengths
+
+5.3  Tied Marker Name         : RM3
+     Tied Marker Usage        : CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : 0.1mm
+     Survey method            : Terrestrial
+     Date Measured            : 2012-07-21
+     Additional Information   : Stainless steel rod driven to almost refusal. 
+                              : 4 x 0.5m lengths
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2012-07-21/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 118037
+       Data Sampling Interval : 30 (sec)
+       Accuracy (% rel h)     : 2.0 (% rel h) 
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : +0.035 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2012-07-21/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 118037
+       Data Sampling Interval : 30 (sec)
+       Accuracy               : 0.08 (hPa)
+       Height Diff to Ant     : 0.035 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2012-07-21/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 118037
+       Data Sampling Interval : 30 (sec)
+       Accuracy               : 0.50 (deg)
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 0.035 (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2012-07-21/(CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : Decommissioned microwave tower to NW
+       Effective Dates        : 2012-07-21
+       Additional Information : Not considered an issue
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : NT Department of Lands and Planning
+     Preferred Abbreviation   : DLP
+     Mailing Address          : GPO Box 1680
+                              : Darwin  NT  0801
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Amy Peterson
+       Telephone (primary)    : +61 8 8995 5361
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : amy.peterson@nt.gov.au
+     Secondary Contact
+       Contact Name           : Robert Sarib
+       Telephone (primary)    : +61 8 8995 5360
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : robert.sarib@nt.gov.au
+     Additional Information   : http://www.dlpe.nt.gov.au
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : Nicholas Brown
+       Telephone (primary)    : +61 2 6249 9831
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Additional Information   :
+
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : RDSI 
+     URL for More Information : http://www.ga.gov.au
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   :
+     Antenna Graphics with Dimensions
+
+LEIAR25.R3
+LEIAR25.R4
+
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                              (5/8" thread might
+                                                               differ from BPA!)
+  <--                    0.3802                   -->                  NOM=NRP
+
+
+

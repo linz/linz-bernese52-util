@@ -1,0 +1,473 @@
+
+     HERT Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Rob Sherwood
+     Date Prepared            : 2015-09-21
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : hert_20150320.log
+      Modified/Added Sections : 3.9, 3.10
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Water Tower monument
+     Four Character ID        : HERT
+     Monument Inscription     : 
+     IERS DOMES Number        : 13212M010
+     CDP Number               : 
+     Monument Description     : BRICK/CONCRETE PILLAR
+       Height of the Monument : 0.5 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 5 m
+     Marker Description       : Centre antenna mounting plate
+     Date Installed           : 2003-03-01T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : (multiple lines)
+                              : Located in grounds of Herstmonceux Castle
+
+
+2.   Site Location Information
+
+     City or Town             : Hailsham
+     State or Province        : East Sussex
+     Country                  : United Kingdom
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4033461.0378
+       Y coordinate (m)       : 23537.6625
+       Z coordinate (m)       : 4924318.1656
+       Latitude (N is +)      : +505202.92
+       Longitude (E is +)     : +0002003.67
+       Elevation (m,ellips.)  : 83.3
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX 199912136
+     Firmware Version         : 0065 ZT16
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2003-03-12T00:00Z
+     Date Removed             : 2007-12-04T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Installation of Z-18 from HERP at new monument
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 5.50/3.014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-12-04T12:30Z
+     Date Removed             : 2008-01-25T12:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 5.62/3.014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-01-25T12:30Z
+     Date Removed             : 2008-09-16T09:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 6.02/3.015
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-09-16T09:30Z
+     Date Removed             : 2009-05-19T08:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 7.50/3.015
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-05-19T08:30Z
+     Date Removed             : 2009-06-09T15:40Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 7.50/3.017
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-06-09T15:40Z
+     Date Removed             : 2010-03-30T11:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 7.80/3.018
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-03-30T11:00Z
+     Date Removed             : 2010-05-04T04:40Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 7.80/3.019
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-05-04T04:40Z
+     Date Removed             : 2014-07-21T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 7.80/3.055
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-07-21T09:00Z
+     Date Removed             : 2015-09-18T15:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355316
+     Firmware Version         : 7.80/3.055
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-18T15:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : change of elevation cut off to 0
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701946.2     NONE
+     Serial Number            : CR3 19993603
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH SUPPLIED
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2003-03-12T00:00Z
+     Date Removed             : 2007-12-04T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAT504GG      NONE
+     Serial Number            : 200429
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LEICA
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-12-04T12:30Z
+     Date Removed             : 2015-03-03T12:00Z
+     Additional Information   : Cleaning of antenna undertaken on 3/3/2015.
+
+4.3  Antenna Type             : LEIAT504GG      NONE
+     Serial Number            : 200429
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LEICA
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2015-03-03T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Cleaning of antenna undertaken on 3/3/2015.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : SLR intersection
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7840
+     Tied Marker DOMES Number : 13212S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.6863
+       dy (m)                 : 124.8209
+       dz (m)                 : -13.0074
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN/TRIANGULATION
+     Date Measured            : 2008-06-23T00:00Z
+     Additional Information   : site survey conducted by IGN june 2008
+
+5.2  Tied Marker Name         : HERS
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 13212M007
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 9.1855
+       dy (m)                 : 135.0916
+       dz (m)                 : -16.9475
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN/TRIANGULATION
+     Date Measured            : 2008-06-23T00:00Z
+     Additional Information   : site survey conducted by IGN june 2008
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-03-12/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1984-09-01/CCYY-MM-DD
+       Notes                  : 
+
+7.2  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1992-03-24/CCYY-MM-DD
+       Notes                  : IGS GPS site HERS
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MP103A-T7-W4W
+       Manufacturer           : Rotronics
+       Serial Number          : 15082004
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : 
+       Height Diff to Ant     : 8 m
+       Calibration date       : 2001-11-20
+       Effective Dates        : 2003-03-12/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : DPI 140 series
+       Manufacturer           : Druck
+       Serial Number          : 
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 8 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-03-12/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MP103A-T7-W4W
+       Manufacturer           : Rotronics
+       Serial Number          : 15082004
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.3 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 8 m
+       Calibration date       : 2001-11-20
+       Effective Dates        : 2003-03-12/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NERC Space Geodesy Facility
+     Preferred Abbreviation   : NSGF
+     Mailing Address          : Herstmonceux Castle, Hailsham,
+     Primary Contact
+       Contact Name           : Rob Sherwood
+       Telephone (primary)    : +44 (0)1323 833888
+       Telephone (secondary)  : 
+       Fax                    : +44 (0)1323 833929
+       E-mail                 : rshe@nerc.ac.uk
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAT504
+LEIAT504GG
+
+                         +-------+                          <-- 0.1393
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.1012 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.000  BPA=ARP
+

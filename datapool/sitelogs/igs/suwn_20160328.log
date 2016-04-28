@@ -1,0 +1,482 @@
+
+     SUWN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : National Geographic Information Institute
+     Date Prepared            : 2016-03-28
+     Report Type              : Update
+     If Update:
+      Previous Site Log       : suwn_20150831.log
+      Modified/Added Sections : 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : GPS-station NGI/Suwon, Korea
+     Four Character ID        : SUWN
+     Monument Inscription     : Pillar
+     IERS DOMES Number        : 23903M001
+     CDP Number               : N/A
+     Monument Description     : STEEL MAST
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1995-03-15T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : GRANITE
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : none
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : N/A
+
+
+2.   Site Location Information
+
+     City or Town             : Suwon-shi
+     State or Province        : Kyonggi-do
+     Country                  : South Korea
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3062023.4156
+       Y coordinate (m)       : 4055449.1662
+       Z coordinate (m)       : 3841819.3768
+       Latitude (N is +)      : +371631.80
+       Longitude (E is +)     : +1270315.12
+       Elevation (m,ellips.)  : 83.9322
+     Additional Information   : WGS-84
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T-306
+     Firmware Version         : Ver. 3.2
+     Elevation Cutoff Setting : 
+     Date Installed           : 1995-03-15T00:00Z
+     Date Removed             : 2000-02-14T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3950A27345
+     Firmware Version         : Ver. 7.29
+     Elevation Cutoff Setting : 
+     Date Installed           : 2000-02-14T00:00Z
+     Date Removed             : 2005-01-26T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241593
+     Firmware Version         : 1.0-3 09 Mar2004
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-01-28T00:00Z
+     Date Removed             : 2011-06-11T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.4  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241593
+     Firmware Version         : 1.3-1 10 Dec 2010
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-06-11T00:00Z
+     Date Removed             : 2013-07-25T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5302K41501
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-07-25T00:00Z
+     Date Removed             : 2014-02-24T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5302K41501
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-02-24T00:00Z
+     Date Removed             : 2015-01-16T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.7  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5302K41501
+     Firmware Version         : 4.93
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-01-16T00:00Z
+     Date Removed             : 2015-06-09T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5302K41501
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-06-09T00:00Z
+     Date Removed             : 2015-07-10T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5302K41501
+     Firmware Version         : 5.03
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-07-10T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : N/A
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 153
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.570
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : N/A deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1995-03-15T00:00Z
+     Date Removed             : 2000-02-14T00:00Z
+     Additional Information   : The Antenna height is the vertical
+                              : from the Geodetic Marker to the ARP.
+                              : height of the Geodetic Marker on the
+                              : base is 58.634m(MSL). It is tied the
+                              : order Bench Mark.
+                              : Half Sphere radome
+
+4.2  Antenna Type             : TRM29659.00     DOME
+     Serial Number            : 0220170420
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.57m
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : N/A deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2000-02-14T00:00Z
+     Date Removed             : 2013-07-25T00:00Z
+     Additional Information   : The Antenna height is the vertical
+                              : from the marker to the ARP of antenna.
+                              : The Pillar height is 1.50cm.
+                              : The othometric height of the concrete base is 
+                              : 58.634m(MSL). 
+                              : It is connected 
+                              : the first order Bench Mark.
+                              : Half Sphere radome
+
+4.3  Antenna Type             : TRM59800.80     DOME
+     Serial Number            : 0220170420
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.570
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : N/A deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2013-07-25T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : The Antenna height is the vertical
+                              : from the marker to the ARP of antenna.
+                              : The Pillar height is 1.50cm.
+                              : The othometric height of the concrete base is 
+                              : 58.634m(MSL). 
+                              : It is connected 
+                              : the first order Bench Mark.
+                              : Half Sphere radome
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Korean Datum
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -20.863
+       dy (m)                 : 12.416
+       dz (m)                 : -41.492
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1997-03-14T00:00Z
+     Additional Information   : 
+
+5.2  Tied Marker Name         : VLBI Observation Point
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 0.535
+       dy (m)                 : -4.630
+       dz (m)                 : 9.394
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1997-03-14T00:00Z
+     Additional Information   : VLBI Observation was carried out with
+                              : Mobil VLBI Observation System with 3.8m
+                              : Antenna in from Sep. 1995 to Nov. 1997
+                              : and Geogrpahical Survey Institute(GSI)
+                              : Japan. 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1998-02-03/CCYY-MM-DD
+       Notes                  : Allen Osborne Associate, Inc. S/N 132
+
+6.2  Standard Type            : EXTERNAL CESIUM=20
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2002-01-23/CCYY-MM-DD
+       Notes                  : Model 4065C, DATUM, Inc. S/N 0124006529
+
+6.3  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2010-03-05/CCYY-MM-DD
+       Notes                  : Model CS4000, Symmetricom, Inc. S/N 1001008201
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : National Geographic Information Institute
+     Preferred Abbreviation   : NGII
+     Mailing Address          : 111, Wonchon-dong, Youngtong-gu,
+                              : Suwon-shi, 443-772, Korea
+     Primary Contact
+       Contact Name           : Hwang, Byuongcheol
+       Telephone (primary)    : +82-31-210-2640
+       Telephone (secondary)  : 
+       Fax                    : +82-31-210-2756
+       E-mail                 : pchwang@korea.kr
+     Secondary Contact
+       Contact Name           : Sung, Woojin
+       Telephone (primary)    : +82-31-210-2641
+       Telephone (secondary)  : 
+       Fax                    : +82-31-210-2756
+       E-mail                 : geoswj@korea.kr
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : http://www.ngii.go.kr
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+     (insert text graphic)
+
+
+
+
+
+
+          ********  The Elements of GPS Antenna in NGI
+                   ----------
+                /               \
+               +-----------------+
+                 |           |
+            =
++
+<-------------- BCR
+                   |     |           0.35m
+              +--------------+ <------------------ ARP
+                 ||  ||  ||               0.07m
+                |          |
+             +--------+-------+  <-------on the top of the pillar H:
+60.134m
+             +----------------+
+            |                |
+              \             /
+                |       | /
+                |       |/
+                |pillar|
+                |       |             <----Pillar height:  1.500m
+                ~~~~~~~
+                ~~~~~~~
+               |       |
+               |       |
+         +--------+----------+ <-- Marker H: 58.634m
+        |   Concrete base    |
+  ~~~~~~|                    |~~~~~~~Ground
+        |                    |
+
+
+
+
+
+
+

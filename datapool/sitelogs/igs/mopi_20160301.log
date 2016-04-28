@@ -1,0 +1,435 @@
+     MOPI Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Martina Minarikova
+     Date Prepared            : 2016-03-01
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : mopi_20130107.log
+      Modified/Added Sections : 0, 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Modra-Piesok
+     Four Character ID        : MOPI
+     Monument Inscription     : 
+     IERS DOMES Number        : 11507M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 0.5 m
+       Monument Foundation    : CONCRETE BLOCK EMBEDDED IN BEDROCK
+       Foundation Depth       : 0.5 m
+     Marker Description       : BRASS CONSOLE FOR GPS ANTENNA ADAPTOR
+     Date Installed           : 1991-05-10
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 0 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : site of CEGRN
+
+
+2.   Site Location Information
+
+     City or Town             : Modra-Piesok
+     State or Province        : 
+     Country                  : Slovakia
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4053738
+       Y coordinate (m)       : 1260571
+       Z coordinate (m)       : 4744940
+       Latitude (N is +)      : +482221.72
+       Longitude (E is +)     : +0171626.04
+       Elevation (m,ellips.)  :   579.0
+     Additional Information   : 40 km NE from Bratislava
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 4750
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1996-06-10
+     Date Removed             : 2006-07-18T10:20Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3201
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-07-18T10:30Z
+     Date Removed             : 2006-07-24T10:20Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 4750
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-07-24T10:30Z
+     Date Removed             : 2010-06-22T08:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 4401
+     Firmware Version         : 7.19 / 3.04
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-06-22T08:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 65095
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0870
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1996-06-10
+     Date Removed             : 1997-02-02T08:00Z
+     Additional Information   : Antenna without radome
+
+4.2  Antenna Type             : TRM14532.00     DOME
+     Serial Number            : 65095
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0870
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1997-02-02T10:00Z
+     Date Removed             : 1997-06-02T09:30Z
+     Additional Information   : Radome installed
+
+4.3  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 65095
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0870
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1997-06-02T10:00Z
+     Date Removed             : 1997-06-17T08:00Z
+     Additional Information   : Antenna without radome
+
+4.4  Antenna Type             : TRM14532.00     DOME
+     Serial Number            : 65095
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0870
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1997-06-17T08:30Z
+     Date Removed             : 1998-03-13T07:00Z
+     Additional Information   : Radome installed
+
+4.5  Antenna Type             : TRM14532.00     DOME
+     Serial Number            : 65095
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0870
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1998-03-14T11:50Z
+     Date Removed             : 1998-05-21T09:30Z
+     Additional Information   : Radome installed in new position
+
+4.6  Antenna Type             : TRM14532.00     DOME
+     Serial Number            : 65095
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0870
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1998-05-21T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Radome installed in definitive position
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1996-06-10/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HG421.65
+       Manufacturer           : COMET, CZECH REPUBLIC
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy (% rel h)     : 3.0
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -2.36 m
+       Calibration date       : 2003-01-24
+       Effective Dates        : 2003-02-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : TMAG518R3F
+       Manufacturer           : CRESSTO, CZECH REPUBLIC
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.2 hPa
+       Height Diff to Ant     : -2.36 m
+       Calibration date       : 2003-01-24
+       Effective Dates        : 2003-02-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : NS520.65-120
+       Manufacturer           : COMET, CZECH REPUBLIC
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -2.36 m
+       Calibration date       : 2003-01-24
+       Effective Dates        : 2003-02-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Astronomical and Geophysical Observatory
+     Preferred Abbreviation   : AGO
+     Mailing Address          : Modra-Piesok, 900 01 Modra
+                              : Slovak Republic
+     Primary Contact
+       Contact Name           : Mr. Dusan Kalmancok
+       Telephone (primary)    : (00421)-33-647 5261
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : ago@Modra.fmph.uniba.sk
+     Secondary Contact
+       Contact Name           : Martina Minarikova
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : martina.minarikova@stuba.sk
+     Additional Information   : NOT RESPONSIBLE FOR MAINTAINING
+                              : THE STATION!
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Slovak University of Technology
+     Preferred Abbreviation   : SUT
+     Mailing Address          : Radlinskeho 11
+                              : 813 68 Bratislava
+                              : Slovak Republic
+     Primary Contact
+       Contact Name           : Jan Hefty
+       Telephone (primary)    : (00421)-2-592 74 533
+       Telephone (secondary)  : 
+       Fax                    : (00421)-2-529 25 476
+       E-mail                 : jan.hefty@stuba.sk
+     Secondary Contact
+       Contact Name           : Juraj Papco
+       Telephone (primary)    : (00421)-2-592 74 345
+       Telephone (secondary)  : 
+       Fax                    : (00421)-2-529 25 476
+       E-mail                 : juraj.papco@stuba.sk
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : OLG
+     Secondary Data Center    : BKG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM14532.00 (old name 4000ST L1/L2 GEOD)
+
+                       ----+----                          <-- 0.1570 L1
+                    /      +      \                       <-- 0.1550 L2
+++----------------+-----------------+-----------------++  <-- 0.1500 TGP
+++---------------+-------------------+----------------++  <-- 0.1470 BGP
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <-- 0.0870 ARP=BPA
+                        |     |
+                        |     |
+                        |     |
+ Reference Point =>   +-+-----+-+                         <--  0.000
+                      |         |
+           +----------+---------+----------+
+           |                               |
+           |        Concrete Pillar        |
+           |                               |
+           |-------------------------------|
+          /                                 \
+         /                                   \
+        /               Bedrock               \
+
+ARP: Antenna Reference Point

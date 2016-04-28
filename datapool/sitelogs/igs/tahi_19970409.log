@@ -1,0 +1,240 @@
+     TAHI Site Information Form
+     International GPS Service for Geodynamics
+
+
+0.   Form
+
+     Prepared by (full name)  : Herve Burger
+     Date Prepared            : 09-APR-1997
+     Report Type              : NEW
+     Prepared Using           :
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Tahiti
+     Four Character ID        : TAHI
+     Monument Inscription     : None (IGNF brass
+     IERS DOMES Number        : 92201M006
+     CDP Number               : Not assigned
+     Date Installed           : 07-APR-1997 hh:mm UT
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Notes                  : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Papeete
+     State or Province        :
+     Country                  : Tahiti, French Polynesia
+     Tectonic Plate           : Pacific
+     Approximate Position
+       X coordinate (m)       : -5246577.0988 m
+       Y coordinate (m)       : -3076990.4407 m
+       Z coordinate (m)       : -1913780.9022 m
+       Latitude (deg)         : 17.5665 S
+       Longitude (deg)        : 149.5751 W
+       Elevation (m)          : 74 m
+     Additional Information   : Station located in the facilities
+                              : of UFP (Universit‚ Fran‡aise du Pacique).
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8100
+     Serial Number            : 156/7490430
+     Firmware Version         : 3.2.32.1
+     Date Installed           : 07-APR-1997 hh:mm UT
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : DORNE MARGOLIN T
+     Serial Number            : 402
+     Antenna Height (m)       : 1.055
+     Antenna Reference Point  : ARP
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : 07-APR-1997 hh:mm UT
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+
+5.   Local Site Ties
+
+5.1  Monument Name            : DORIS antenna ref. pt. (PAPB)
+     Site Ref CDP Number      :
+     Site Ref Domes Number    : 92201S007
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : - 11.033
+       dy (m)                 : 16.403
+       dz (m)                 : 0.416
+     Accuracy (mm)            : 1
+     Date Measured            : 26-JUL-1995
+     Additional Information   : Vectors are given FROM the GPS monument
+                                to the above points.
+
+5.2  Monument Name            : PRARE antenna ref. pt.
+     Site Ref CDP Number      :
+     Site Ref Domes Number    : Not available yet
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : - 20.19
+       dy (m)                 : 32.82
+       dz (m)                 : - 2.86
+     Accuracy (mm)            : 10
+     Date Measured            : 18-MAR-1996
+     Additional Information   : Vectors are given FROM the GPS  monument to
+                                the above points.
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              : 5 MHz
+       Effective Dates        : 01-AUG-1994
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 27-JUL-1995 -
+       Notes                  : DORIS code : PAPB
+
+7.2  Instrumentation Type     : PRARE
+       Status                 : PERMANENT
+       Effective Dates        : MAR-1996 -
+       Notes                  :
+
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (% rel h)     : (% rel h)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.2  Pressure Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (mbar)        : (mbar)
+       Height Diff to GPS (m) : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.3  Temperature Sensor Model :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (deg C)       : (deg C)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    : (m)
+       Elev Diff to GPS (m)   : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.5  Other Instrumentation    : (multiple lines)
+
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Universit‚ Fran‡aise du Pacifique (UFP)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : Alain Bonneville (Laboratoire Geosciences
+                              : Marines)
+       Telephone (primary)    : 689.80.38.05
+       Fax                    : 689.80.38.04
+       E-mail                 : alain@ufp-papeete.rio.net
+     Secondary Contact
+       Contact Name           : GPS OPERATOR
+       Telephone (primary)    : 689.80.38.30
+       Fax                    : 689.80.38.04
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : Centre National d'Etudes Spatiales (CNES)
+     Mailing Address          : EO/ST/SC - 18, avenue Edouard Belin
+                              : 31401 Toulouse cedex 04 - France
+     Primary Contact
+       Contact Name           : Louis Duquesne
+       Telephone (primary)    : (33) 5 61 28 19 62
+       Fax                    : (33) 5 61 28 15 36
+       E-mail                 : gpscnes@cst.cnes.fr
+     Secondary Contact
+       Contact Name           : Jean Riquoir
+       Telephone (primary)    : (33) 5 61 27 30 87
+       Fax                    : (33) 5 61 28 15 36
+       E-mail                 : gpscnes@cst.cnes.fr
+     Additional Information   : (multiple lines)
+
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : X
+       Site Diagram           : X
+       Horizon Mask           : X
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+             TURBOROGUE: DORNE MARGOLIN T
+
+
+                                   -----
+                               /     +     \                              <-- 0.128  L2
+                              |      +      |                             <-- 0.110  L1
+            +--------------------------------------------------+          <-- 0.102  TCR
+            |                                                  |
+            |                                                  |
+            |                                                  |
+            |                                                  |
+          +-+--------------------------------------------------+-+        <-- 0.038
+          +-------------------+-------------+--------------------+        <-- 0.035  BCR
+                                |         |
+                               =|         |
+ Antenna Ref. Point (ARP) =>   +====|=|====+   <------------------------+ <-- 0.000  ARP
+                                |         |                             |
+ Forced centering device =>   ===============                           |
+                               ||         ||                            |
+                               ||         ||                            |
+                           +---||---------||---+                        |
+                           |                   |                        |
+                           |                   |                        |
+                           |    Metal tower    |                      1.055 m
+                           |                   |                        |
+                           /                   /                        |
+                                                                        |
+                           /                   /                        |
+                           |                   |                        |
+                           |                   |                        |
+                           |                   |                        |
+                           |                   |                        |
+                           |        Mark       |                        |
+                 __________|_________+_________|__________ <------------+
+                |                                         |
+                |               Concrete pad              |
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering

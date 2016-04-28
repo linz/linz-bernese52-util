@@ -1,0 +1,490 @@
+Return-path: <owner-igscb-outgoing@igscb.jpl.nasa.gov>
+Return-path: <owner-igscb-outgoing@igscb.jpl.nasa.gov>
+Received: from conversion-daemon.mailhost4.jpl.nasa.gov by
+ mailhost4.jpl.nasa.gov
+ (iPlanet Messaging Server 5.2 HotFix 1.12 (built Feb 13 2003))
+ id <0HV700E011XIJ9@mailhost4.jpl.nasa.gov>; Fri,
+ 26 Mar 2004 09:30:19 -0800 (PST)
+Received: from eis-msg-mx01.jpl.nasa.gov
+ (eis-msg-mx01.jpl.nasa.gov [137.78.160.64]) by mailhost4.jpl.nasa.gov
+ (iPlanet Messaging Server 5.2 HotFix 1.12 (built Feb 13 2003))
+ with ESMTP id <0HV7006C510IVP@mailhost4.jpl.nasa.gov>; Fri,
+ 26 Mar 2004 09:30:11 -0800 (PST)
+Received: from igscb.jpl.nasa.gov by eis-msg-mx01.jpl.nasa.gov with ESMTP; Fri,
+ 26 Mar 2004 09:30:10 -0800
+Received: by igscb.jpl.nasa.gov (Postfix)	id 302C2B7A7E; Fri,
+ 26 Mar 2004 09:30:10 -0800 (PST)
+Received: by igscb.jpl.nasa.gov (Postfix, from userid 91)	id 27FA1B7A80; Fri,
+ 26 Mar 2004 09:30:10 -0800 (PST)
+Date: Fri, 26 Mar 2004 10:29:56 -0700
+From: Oivind Ruud <ruud@unavco.org>
+Subject: [IGSCB-10307]: EISL: updated log
+Sender: owner-igscb@igscb.jpl.nasa.gov
+To: igscb@igscb.jpl.nasa.gov
+Cc: ruud@unavco.org
+Message-id: <044c01c41357$f86e09a0$5605ea0a@win.int.unavco.org>
+MIME-version: 1.0
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2800.1165
+X-Mailer: Microsoft Outlook Express 6.00.2800.1158
+Content-type: text/plain; charset=iso-8859-1
+Content-transfer-encoding: 7BIT
+X-Priority: 3
+X-MSMail-priority: Normal
+Precedence: bulk
+Delivered-to: igscb-outgoing@igscb.jpl.nasa.gov
+Delivered-to: igscb@igscb.jpl.nasa.gov
+
+******************************************************************************
+IGSCB Electronic Mail      26 Mar 09:30:10 PST 2004      Message Number 10307
+******************************************************************************
+
+     International GPS Service
+     EISL Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Oivind Ruud
+     Date Prepared            : 2004-02-24
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : eisl_20030226.log
+      Modified/Added Sections : 3.5, 4.4, 8.1.1, 8.2.1, 8.3.1, 11, 12, 13
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Easter Island Laser Station
+     Four Character ID        : EISL
+     Monument Inscription     : JPL 4008-S
+     IERS DOMES Number        : 41703M003
+     CDP Number               : None
+     Monument Description     : BRASS PLATE
+       Height of the Monument : 0.5 m
+       Monument Foundation    : CONCRETE BLOCK OR PILLAR
+       Foundation Depth       : (m)
+     Marker Description       : DIVOT IN BRASS PLATE
+     Date Installed           : 1992-01-01
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+                              : East South Pacific Island, about 500
+                              : kilometers east of the crest of the East
+                              : Pacific Rise. The island is the product of
+                              : three principle volcanic structures.
+                              : Some evidence suggests that the island is
+                              : on a microplate at the edge of the Nazca
+                              : Plate. Geological information from "NASA
+                              : Space Geodesy Program Technical
+                              : Memorandum 4482, March 1993, p99.
+                              : Exact date of installation in 1992 not
+                              : known.
+
+2.   Site Location Information
+
+     City or Town             : Easter Island
+     State or Province        :
+     Country                  : Chile
+     Tectonic Plate           : Pacific/Nazca
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1884951.8173
+       Y coordinate (m)       : -5357595.8630
+       Z coordinate (m)       : -2892890.5180
+       Latitude (N is +)      : -270853.55
+       Longitude (E is +)     : -1092259.87
+       Elevation (m,ellips.)  : 114.5179
+     Additional Information   : Latitude, Longitude and Elevation derived
+                              : from "IERS Technical Note 20, Results
+                              : and Analysis of the ITRF94" March 1996;
+                              : Table 6 "ITRF94 Class B Station Coordinates
+                              : at Epoch 1993.0", pT68.
+                              : The site is located on the southwest part
+                              : of the South Pacific Chilean island,
+                              : Easter Island. The facility is located
+                              : inland about 2.5 miles northeast of Mataveri
+                              : Airport. To reach the station from the main
+                              : entrance of the Mataveri Airport, proceed
+                              : southeast along the road that parallels
+                              : the runway for 1.2 kilometers to a fork in
+                              : the road. Bear left (northeast) onto the
+                              : left fork and proceed 4.1 kilometers to the
+                              : entrance road to the NASA site on the left
+                              : (north). This mark was established for
+                              : permanent GPS observations. The stainless
+                              : steel plate is set flush in the center of a
+                              : 0.610 meter diameter concrete monolith that
+                              : projects 0.5 meters above the ground.
+                              : Site information from "NASA Space Geodesy
+                              : Program Technical Memorandum 4482, March
+                              : 1993, p99 and 102a.
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T144
+     Firmware Version         : 2.8 06/08/93
+     Elevation Cutoff Setting : 4
+     Date Installed           : 1994-05-01
+     Date Removed             : 1997-08-01
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T362
+     Firmware Version         : 3.2.32.4. Link 95/02/28
+     Elevation Cutoff Setting : 4
+     Date Installed           : 1997-08-01
+     Date Removed             : 1999-06-01
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T362
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 4
+     Date Installed           : 1999-06-01T19:29Z
+     Date Removed             : 2003-02-07T22:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR220014903
+     Firmware Version         : CJ12
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-02-07T22:00Z
+     Date Removed             : 2004-02-14T15:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : AOA SNR-8100 ACT
+     Satellite System         : GPS
+     Serial Number            : 137-U
+     Firmware Version         : 3.3.32.5
+     Elevation Cutoff Setting : 4
+     Date Installed           : 2004-02-14T15:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 144
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    :
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1994-05-01
+     Date Removed             : 1997-08-01
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 407
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    :
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1997-08-01
+     Date Removed             : 2003-02-07T22:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : ASH701945C_M    JPLA
+     Serial Number            : CR520003501
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    :
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2003-02-07T22:00Z
+     Date Removed             : 2004-02-14T15:00Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 410
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2004-02-14T15:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.1  Tied Marker Name         : 7097-1986
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : 7097
+     Tied Marker DOMES Number : 41703M002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -32.0162
+       dy (m)                 : -12.4845
+       dz (m)                 : 37.0883
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : 1993-07-13
+     Additional Information   : NASA brass disk.
+                              : This monument replaces Monument 7061.
+                              : Monument information from "NASA Space
+                              : Geodesy Program Technical Memorandum
+                              : 4482, March 1993, p101.
+
+5.2  Tied Marker Name         : Doris Ref Pt.
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 41703S008
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -41.9743
+       dy (m)                 : -09.1431
+       dz (m)                 : 31.8209
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : 1993-07-13
+     Additional Information   : 4-char ID
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : TREES
+       Effective Dates        : 2003-02-07/CCYY-MM-DD
+       Additional Information : Fast growing eucalyptus trees are
+                              : partially blocking skyview for
+                              : GPS antenna, especially between
+                              : azimuth degrees 0-80, and
+                              : 170-250.
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Center for Space Studies
+     Preferred Abbreviation   : CEC
+     Mailing Address          : University of Chile
+                              : A. Prat 1171
+                              : Casilla 411-3
+                              : Santiago, Chile
+     Primary Contact
+       Contact Name           : Martin Arluciaga
+       Telephone (primary)    : 56-2-6981702
+       Telephone (secondary)  :
+       Fax                    : 56-2-8441003
+       E-mail                 : marluciaga@ing.uchile.cl
+     Secondary Contact
+       Contact Name           : Miguel Tapia
+       Telephone (primary)    : 56-2-6981702
+       Telephone (secondary)  :
+       Fax                    : 56-2-8441003
+       E-mail                 : mtapia@cec.uchile.cl
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA 91109 USA
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 1-818-354-7055
+       Telephone (secondary)  :
+       Fax                    : 1-818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : Network Engineer/UNAVCO
+       Telephone (primary)    : 303-381-7476
+       Telephone (secondary)  : 303-381-7500
+       Fax                    : 303-381-7451
+       E-mail                 : ruud@unavco.org
+     Additional Information   : Oivind Ruud (303-381-7476)
+
+13.  More Information
+
+     Primary Data Center      : JPL (ODC-Operational Data Center)
+     Secondary Data Center    : CDDIS (GDC-Global Data Center)
+     URL for More Information : http://www.unavco.net/public/logs/
+                              : sitedetails.aspx
+       Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+AOAD/M_T
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                     <-- 0.000 BPA=ARP
+
+<--                      0.381                       -->
+

@@ -1,0 +1,203 @@
+     XXXX Site Information Form
+     Lane County Surveyors Cooperative CORS Station
+
+0.   Form
+
+0.1  Prepared by (full name)  :	Michael A. Gray
+     Date Prepared            : 09-10-2001
+     Report Type              : Initial
+     Prepared Using           :
+
+0.x  Prepared by (full name)  :
+     Date Prepared            : (dd-MMM-yyyy)
+     Report Type              : (NEW/UPDATE)
+     Prepared Using           :
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Accupoint Inc.
+     Four Character ID        : ACCU
+     Monument Inscription     :
+     IERS DOMES Number        : (XXXXXXXXX)
+     CDP Number               : (XXXX)
+     Date Installed           : (dd-MMM-yyyy hh:mm UT)
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Notes                  : (multiple lines)
+     Additional Information   : (multiple lines)
+
+2.   Site Location Information
+
+     City or Town             :	Anchorage 	
+     State or Province        :	Alaska
+     Country                  :	USA
+     Tectonic Plate           : 
+     Approximate Position
+       X coordinate (m)       : (m)
+       Y coordinate (m)       : (m)
+       Z coordinate (m)       : (m)
+       Latitude (deg)         : ( dd.dddd N/S)
+       Longitude (deg)        : (ddd.dddd E/W)
+       Elevation (m)          : (Ellip Ht)
+     Additional Information   : ARP ITRF97 POSITION (EPOCH 1997.0) computed
+in
+
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : Trimble 4700 L1/L2
+     Serial Number            : 0220222635
+     Firmware Version         : 1.3
+     Date Installed           : 01-01-2001 UT
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            :
+     Serial Number            :
+     Firmware Version         :
+     Date Installed           : (dd-MMM-yyyy hh:mm UT)
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : Trimble L1/L2 Micro Centered
+     Serial Number            : 
+     Antenna Height (m)       : 0.0
+     Antenna Reference Point  : ARP
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : 01-01-2001 UT
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             :
+     Serial Number            :
+     Antenna Height (m)       : (m)
+     Antenna Reference Point  : (ARP/BCR/BPA)
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : (dd-MMM-yyyy hh:mm UT)
+     Date Removed             : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+5.   Local Site Ties
+
+5.x  Monument Name            :
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    : (XXXXXXXXX)
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Date Measured            : (dd-MMM-yyyy hh:mm UT)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              :
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (H-MASER/CESIUM/QUARTZ/INTERNAL/RUBIDIUM)
+       Frequency              :
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (DORIS/GLONASS/PRARE/SLR/VLBI)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (% rel h)     : (% rel h)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.2  Pressure Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (mbar)        : (mbar)
+       Height Diff to GPS (m) : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.3  Temperature Sensor Model :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (deg C)       : (deg C)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    : (m)
+       Elev Diff to GPS (m)   : (m)
+       Effective Dates        : (dd-MMM-yyyy - dd-MMM-yyyy)
+       Notes                  : (multiple lines)
+
+8.5  Other Instrumentation    : (multiple lines)
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Accupoint Inc.
+     Mailing Address          : 7125 Old Seward Hwy, Suite 100
+				Anchorage, AK 99518
+     Primary Contact
+       Contact Name           : Mike Gray
+       Telephone (primary)    : 1-(907)-522-1600
+       Telephone (secondary)  :
+       Fax                    : 1-(907)-522-1640
+       E-mail                 : mgray@accupoint.com
+     Secondary Contact
+       Contact Name           : Jennifer Gregory
+       Telephone (primary)    : 1-(907)-522-1600
+       Telephone (secondary)  :
+       Fax                    : 1-(907)-522-1640
+       E-mail                 : jengregory@accupoint.com
+     Additional Information   : (multiple lines)
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : (multiple lines)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+11.  More Information
+
+     URL for More Information : http://www.accupoint.com
+     Hardcopy on File
+       Site Map               : (Y)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+
+     Antenna Graphics with Dimensions
+
+     http://www.grdl.noaa.gov/GRD/GPS/Projects/ANTCAL
+

@@ -1,0 +1,200 @@
+     CSAR Site Information Form
+     International GPS Service for Geodynamics
+
+
+0.   Form
+
+     Prepared by (full name)  : Einat Salmon (Survey of Israel)
+     Date Prepared            : 2004-12-09
+     Report Type              : NEW
+     If Update:
+      Previous Site Log       :
+      Modified/Added Sections :
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Ceasarya
+     Four Character ID        : CSAR
+     Monument Inscription     :
+     IERS DOMES Number        :
+     CDP Number               :
+     Date Installed           : 2004-03-19
+     Geologic Characteristic  :
+       Bedrock Type           :
+       Bedrock Condition      :
+       Fracture Spacing       :
+       Notes                  :
+     Additional Information   :
+
+
+2.   Site Location Information
+
+     City or Town             : Sdot-Yam
+     State or Province        :
+     Country                  : Israel
+     Tectonic Plate           : Sinai Sub-plate (Africa)
+     Approximate Position
+       X coordinate (m)       :
+       Y coordinate (m)       :
+       Z coordinate (m)       :
+       Latitude (deg)         :
+       Longitude (deg)        :
+       Elevation (m)          :
+     Additional Information   :
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 5700
+     Serial Number            : 0220301095
+     Firmware Version         :
+     Date Installed           : 2004-03-19
+     Date Removed             : 2007-02-26
+     Additional Information   :
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Serial Number            : 352426
+     Firmware Version         : 7.50
+     Date Installed           : 2007-02-26
+     Date Removed             :
+     Additional Information   :
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00
+     Serial Number            : 220294322
+     Antenna Height (m)       : 0.000 (m)
+     Antenna Reference Point  : BPA
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           : 2004-03-19
+     Date Removed             :
+     Additional Information   :
+
+
+5.   Local Site Ties
+
+5.x  Monument Name            : CSAR
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    :
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            :
+     Date Measured            :
+     Additional Information   :
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              :
+       Effective Dates        :
+       Notes                  :
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     :
+       Status                 :
+       Effective Dates        :
+       Notes                  :
+
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (% rel h)     :
+       Effective Dates        :
+       Notes                  :
+
+8.2  Pressure Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (mbar)        :
+       Height Diff to GPS (m) :
+       Effective Dates        :
+       Notes                  :
+
+8.3  Temperature Sensor Model :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (deg C)       :
+       Effective Dates        :
+       Notes                  :
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    :
+       Elev Diff to GPS (m)   :
+       Effective Dates        :
+       Notes                  :
+
+8.5  Other Instrumentation    :
+
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Survey of Israel
+     Preferred Abbreviation   : SOI
+     Mailing Address          : 1 Lincoln St.
+                              : Tel-Aviv, 65220
+                              : Israel
+     Primary Contact
+       Contact Name           : Moshe Rozenbloom
+       Telephone (primary)    : +972-3-623-1975
+       Telephone (secondary)  : +972-57705667
+       Fax                    : 1815
+       E-mail                 : rozenblm@mapi.gov.il
+     Secondary Contact
+       Contact Name           : Marina Kozakov
+       Telephone (primary)    : +972-3-623-1993
+       Telephone (secondary)  : +972-57203602
+       Fax                    : 1815
+       E-mail                 : sade@mapi.gov.il
+     Additional Information   : (multiple lines)
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : GSM Navigation&survey
+     Preferred Abbreviation   : GSM
+
+     Mailing Address          : 19 Hadror St
+                              : Ramat-hasharon
+                              : Israel
+     Primary Contact
+       Contact Name           : Shmuael Grossman
+       Telephone (primary)    : +972-3-547-4022
+       Telephone (secondary)  : +972-50267903
+       Fax                    : +972-3-547-4021
+       E-mail                 : gsmsam@netvision.net.il
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : (Y)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   PED: Bottom of Pedestal (DM Modified for ASHTECH)

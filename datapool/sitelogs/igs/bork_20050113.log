@@ -1,0 +1,502 @@
+     BORK Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Uwe Feldmann-Westendorff
+     Date Prepared            : 2005-01-13
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : bork_20030702.log
+      Modified/Added Sections : 3.3, 3.4
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Borkum
+     Four Character ID        : BORK
+     Monument Inscription     : 674
+     IERS DOMES Number        : 14268M001
+     CDP Number               :
+     Monument Description     : CIRCULAR STEEL TUBE MOUNT
+       Height of the Monument : 1.5
+       Monument Foundation    : SCREW ANCHORED ON WALL OF BUILDING
+       Foundation Depth       :
+     Marker Description       : RIVET THREAD ON THE CIRCULAR STEEL TUBE
+     Date Installed           : 2000-09-29T00:00Z
+     Geologic Characteristic  : CENOZOIC QUATERNARY
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : NO
+         Distance/activity    :
+     Additional Information   : Antenna mounted with a special
+                              : tribrach on a rivet thread of a
+                              : circular tube of steel, 1.5 m
+                              : length. Fixed on the gable of
+                              : a building (WSA Emden), 10.0 m
+                              : above the ground. Marked in 1999.
+
+
+2.   Site Location Information
+
+     City or Town             : Borkum
+     State or Province        : Lower Saxony (Niedersachsen)
+     Country                  : Germany
+     Tectonic Plate           : Eurasean
+     Approximate Position (ITRF)
+       X coordinate (m)       :  3770134.807
+       Y coordinate (m)       :   446054.238
+       Z coordinate (m)       :  5108090.925
+       Latitude (N is +)      : +533348.96
+       Longitude (E is +)     : +0064450.64
+       Elevation (m,ellips.)  : 00054.2
+     Additional Information   : Mentioned ETRF89 epoch 89.0
+                              : coordinates are derived from
+                              : the network adjustment of the
+                              : Tide Gauge GPS campaign PEGEL99.
+                              : The elevation refers to the
+                              : surface of the tube.
+                              : Island in the Northsea.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3752A21439
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2000-09-29T00:00Z
+     Date Removed             : 2000-11-09T09:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware removed because of
+                              : the 12-channel TRIMBLE 4000SSI
+                              : problems, announced on
+                              : 04-FEB-2000 via CANSPACE by Mike
+                              : Jackson from UNAVCO.
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3752A21439
+     Firmware Version         : 7.19
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2000-11-09T09:30Z
+     Date Removed             : 2001-04-18T14:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.3  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 0220219865
+     Firmware Version         : 00130|00000|00100
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2001-04-18T14:00Z
+     Date Removed             : 2005-01-13T11:05Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.4  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 0220219865
+     Firmware Version         : 00141|00000|00100
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-01-13T11:05Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     SNOW
+     Serial Number            : 0220187547
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0540
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30
+     Date Installed           : 2000-09-29T00:00Z
+     Date Removed             : 2001-10-11T00:00Z
+     Additional Information   : Antenna calibrated, IGS conform,
+                              : by LGN.
+                              : Antenna type calibrated
+                              : absolute, field measurements,
+                              : by Geo++ GmbH, Garbsen.
+                              : PCV are available at 11.
+                              : Trimble Antenna TRM29659.00
+                              : with white conical Ashtech
+                              : Radome SNOW.
+
+4.2  Antenna Type             : TRM29659.00     SNOW
+     Serial Number            : 0220187547
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0530
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30
+     Date Installed           : 2001-10-11T00:00Z
+     Date Removed             : 2003-06-02T12:20Z
+     Additional Information   : New measurement with higher
+                              : accuracy led to the change of
+                              : the antenna height by 1 mm.
+                              : There was no variation of the
+                              : antenna itself.
+                              : L2 interferences of the TRM29659.00
+                              : SNOW have produced decreasing data
+                              : quantities below 15 degree elevation
+                              : since 2003-03-19.
+
+4.3  Antenna Type             : TRM33429.20+GP  NONE
+     Serial Number            : 0220226150
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0530
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30
+     Date Installed           : 2003-06-02T12:21Z
+     Date Removed             : 2003-07-01T09:00Z
+     Additional Information   : Antenna individual calibrated
+                              : absolute, field measurements,
+                              : by Geo++ GmbH, Garbsen.
+
+4.4  Antenna Type             : TRM29659.00     SNOW
+     Serial Number            : 0220180416
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0530
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30
+     Date Installed           : 2003-07-01T10:02Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna individual calibrated
+                              : absolute, field measurements,
+                              : by Institut fuer Erdmessung IfE,
+                              : University of Hannover, PCV are
+                              : available at 11.
+
+4.x  Antenna Type             : (A20 from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : 2000-09-29/CCYY-MM-DD
+       Notes                  :
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  :
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DDThh:mmZ)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Landesvermessung und Geobasis-
+                              : information Niedersachsen
+     Preferred Abbreviation   : LGN
+     Mailing Address          : Podbielskistrasse 331
+                              : D-30659 Hannover
+                              : Germany
+     Primary Contact
+       Contact Name           : Uwe Feldmann-Westendorff
+       Telephone (primary)    : (0049)-511-64609-451
+       Telephone (secondary)  : (0049)-511-64609-458
+       Fax                    : (0049)-511-64609-168
+       E-mail                 : uwe.feldmann-westendorff@lgn.niedersachsen.de
+     Secondary Contact
+       Contact Name           : Volker Wegener
+       Telephone (primary)    : (0049)-511-64609-458
+       Telephone (secondary)  : (0049)-511-64609-131
+       Fax                    : (0049)-511-64609-168
+       E-mail                 : volker.wegener@lgn.niedersachsen.de
+       Contact Name           : Ernst Guenther
+       Telephone (primary)    : (0049)-511-64609-472
+       Telephone (secondary)  : (0049)-511-64609-132
+       Fax                    : (0049)-511-64609-168
+       E-mail                 : ernst.guenther@lgn.niedersachsen.de
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Fundamentalstation Wettzell
+     Preferred Abbreviation   : BGK
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Fundamentalstation Wettzell
+                              : D-93444 Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Dr. Wolfgang Schlueter
+       Telephone (primary)    : (0049)-9941-603107
+       Telephone (secondary)  : (0049)-9941-6030
+       Fax                    : (0049)-9941-603222
+       E-mail                 : schlueter@wettzell.ifag.de
+     Secondary Contact
+       Contact Name           : Klaus Roettcher
+       Telephone (primary)    : (0049)-9941-603115
+       Telephone (secondary)  : (0049)-9941-6030
+       Fax                    : (0049)-9941-603222
+       E-mail                 : roettcher@wettzell.ifag.de
+     Additional Information   : Third Contact
+                              : Contact Name         : Uwe Hessels
+                              : Telephone (primary)  : (0049)-9941-603204
+                              : Telephone (secondary): (0049)-9941-6030
+                              : Fax                  : (0049)-9941-603222
+                              : uwe.hessels@bkg.bund.de
+                              : Fourth Contact
+                              : Contact name         : Rudi Stoeger
+                              : Telephone (primary)  : (0049)-9941-603114
+                              : Telephone (secondary): (0049)-9941-6030
+                              : Fax                  : (0049)-9941-603222
+                              : stoeger@wettzell.ifag.de
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    :
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+
+
+
+
+ANTENNA DIMENSIONS
+------------------
+
+Pictures for most of the antennas given here are available at the
+NGS on the WWW page:
+
+       http://www.grdl.noaa.gov/GPS/PROJECTS/ANTCAL/antcal.html
+
+The L1 and L2 antenna phase center offsets given in these drawings
+here are manufacturer values and should not be used anymore. The
+official IGS set of mean offsets and elevation-dependent phase center
+variations are given in the file IGS_01.PCV.
+
+
+TRM29659.00
+with white concical Ashtech Dome SNOW
+from 2000-09-29 until 2003-06-02
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+TRM33429.20+GP
+without Dome
+from 2003-06-02 until 2003-07-01
+
+                       ----+----                          <--  0.0740  L1
+                    /      +      \                       <--  0.0703  L2
+++----------------+-----------------+-----------------++  <--  0.0631  TGP
+++---------------+-------------------+----------------++  <--  0.0596  BGP
+                 |                   |
+                 |                   |
+                  |                 |
+                   +-------x-------+                      <--  0.000  ARP=BPA
+
+ <--                     0.4668                     -->        INNER EDGE
+<--                      0.4826                      -->       OUTER EDGE
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+
+
+TRM29659.00
+with white concical Ashtech Dome SNOW
+from 2003-07-01
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole

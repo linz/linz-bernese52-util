@@ -1,0 +1,316 @@
+     TLPA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Volker Janssen
+     Date Prepared            : 2015-06-23
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tlpa_20150421.log
+      Modified/Added Sections : 3.2,3.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Tilpa
+     Four Character ID        : TLPA
+     Monument Inscription     : Tilpa CORS
+     APREF DOMES Number       : AUM000395
+     CDP Number               : 
+     Monument Description     : STAINLESS STEEL POLE
+       Height of the Monument : 2.8 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 0.5 m
+     Marker Description       : CORSNET-NSW ANTENNA MOUNT (SS), THREADED SPIGOT
+     Date Installed           : 2014-06-02T00:00Z
+     Geologic Characteristic  : BEDROCK/SANDSTONE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : TS 12228 (SCIMS Number)
+
+
+2.   Site Location Information
+
+     City or Town             : Tilpa
+     State or Province        : New South Wales
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4456340.370
+       Y coordinate (m)       : 3188804.844
+       Z coordinate (m)       : -3253337.150
+       Latitude (N is +)      : -305201.10141
+       Longitude (E is +)     : +1442449.62820
+       Elevation (m,ellips.)  : 183.984
+     Additional Information   : GDA94 coordinates (Reg 13)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5332K45093
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-06-02T00:00Z
+     Date Removed             : 2015-02-10T06:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Ti-2
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5332K45093
+     Firmware Version         : 4.93
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-02-10T06:30Z
+     Date Removed             : 2015-06-20T21:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Ti-2
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 5332K45093
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-06-20T21:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : Ti-2
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM59800.00     SCIS
+     Serial Number            : 5109354043
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 1659
+     Antenna Cable Type       : LMR400 / LMR400
+     Antenna Cable Length     : 8.0 m / 1.0 m
+     Date Installed           : 2014-06-02T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Surge Protection (Times Microwave TC-LP-GTRNFF)
+                              : and Divider (Rojone AMA23012N) installed at
+                              : receiver end.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NSW Land and Property Information
+     Preferred Abbreviation   : LPI
+     Mailing Address          : 346 Panorama Avenue
+                              : Bathurst NSW 2795
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Simon McElroy
+       Telephone (primary)    : +61 2 6332 8300
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Simon.McElroy@lpi.nsw.gov.au
+     Secondary Contact
+       Contact Name           : Thomas Yan
+       Telephone (primary)    : +61 2 6332 8389
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Thomas.Yan@lpi.nsw.gov.au
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CORSnet-NSW (http://www.corsnet.com.au)
+     Secondary Data Center    : GA (ftp.ga.gov.au)
+     URL for More Information : http://www.corsnet.com.au
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+     ARP: Antenna Reference Point
+     BCR: bottom of chokering
+     BPA: bottom of preamplifier
+     TCR: top of chokering
+     NRP: North Reference Point
+     RXC: receiver connector (connect antenna to external receiver)
+
+     TRM59800.00
+
+ <--                      0.3810                     -->
+                          -----
+                      /           \
+                     |             |
+   +-------------------------------------------------+     <--  0.1020  TCR
+   |                                                 |
+   |                                                 |
+   |                                                 |
+   |                                                 |
+ +-+-------------------------------------------------+-+   <--  0.0381
+ +-------------------+-------------+-------------------+   <--  0.0350  BCR
+                     |             |
+                    =|             |
+                     +------x------+                       <--  0.0000  BPA=ARP
+                                                                        RXC=NRP
+ <--                      0.3810                     -->

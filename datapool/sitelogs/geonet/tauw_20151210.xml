@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<igsSiteLog xmlns:equip="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/equipment/2004" xmlns:contact="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/contact/2004" xmlns:mi="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/monumentInfo/2004" xmlns:li="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/localInterferences/2004" xmlns="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011 http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011/igsSiteLog.xsd">
+  <formInformation>
+    <mi:preparedBy>Elisabetta D'Anastasio</mi:preparedBy>
+    <mi:datePrepared>2016-01-06</mi:datePrepared>
+    <mi:reportType>DYNAMIC</mi:reportType>
+  </formInformation>
+  <siteIdentification>
+    <mi:siteName>Tauwhareparae</mi:siteName>
+    <mi:fourCharacterID>TAUW</mi:fourCharacterID>
+    <mi:monumentInscription></mi:monumentInscription>
+    <mi:iersDOMESNumber></mi:iersDOMESNumber>
+    <mi:cdpNumber></mi:cdpNumber>
+    <mi:monumentDescription>Deep Wyatt/Agnew drilled-braced</mi:monumentDescription>
+    <mi:heightOfTheMonument>0</mi:heightOfTheMonument>
+    <mi:monumentFoundation>stainless steel rods</mi:monumentFoundation>
+    <mi:foundationDepth>10</mi:foundationDepth>
+    <mi:markerDescription>Forced Centering</mi:markerDescription>
+    <mi:dateInstalled>2009-01-01T00:00Z</mi:dateInstalled>
+    <mi:geologicCharacteristic></mi:geologicCharacteristic>
+    <mi:bedrockType></mi:bedrockType>
+    <mi:bedrockCondition></mi:bedrockCondition>
+    <mi:fractureSpacing></mi:fractureSpacing>
+    <mi:faultZonesNearby></mi:faultZonesNearby>
+    <mi:distance-Activity></mi:distance-Activity>
+    <mi:notes></mi:notes>
+  </siteIdentification>
+  <siteLocation>
+    <mi:city>Tauwhareparae Station</mi:city>
+    <mi:state>Gisborne</mi:state>
+    <mi:country>New Zealand</mi:country>
+    <mi:tectonicPlate>Australian</mi:tectonicPlate>
+    <mi:approximatePositionITRF>
+      <mi:xCoordinateInMeters>-5018829.27331</mi:xCoordinateInMeters>
+      <mi:yCoordinateInMeters>174745.971811</mi:yCoordinateInMeters>
+      <mi:zCoordinateInMeters>-3920075.96207</mi:zCoordinateInMeters>
+      <mi:latitude-North>-38.162424733</mi:latitude-North>
+      <mi:longitude-East>178.005876841</mi:longitude-East>
+      <mi:elevation-m_ellips.>713.456</mi:elevation-m_ellips.>
+    </mi:approximatePositionITRF>
+    <mi:notes></mi:notes>
+  </siteLocation>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4751143358</equip:serialNumber>
+    <equip:firmwareVersion>1.2-5</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2009-08-19T04:45Z</equip:dateInstalled>
+    <equip:dateRemoved>2011-03-27T21:25Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETR9</equip:receiverType>
+    <equip:satelliteSystem>GPS+GLO</equip:satelliteSystem>
+    <equip:serialNumber>5035K69875</equip:serialNumber>
+    <equip:firmwareVersion>4.17</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>3</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2011-03-27T21:28Z</equip:dateInstalled>
+    <equip:dateRemoved>2011-04-21T00:00Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETR9</equip:receiverType>
+    <equip:satelliteSystem>GPS+GLO</equip:satelliteSystem>
+    <equip:serialNumber>5049K72152</equip:serialNumber>
+    <equip:firmwareVersion>4.17</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>3</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2011-04-21T00:12Z</equip:dateInstalled>
+    <equip:dateRemoved>2013-12-28T23:59Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETR9</equip:receiverType>
+    <equip:satelliteSystem>GPS+GLO</equip:satelliteSystem>
+    <equip:serialNumber>5049K72152</equip:serialNumber>
+    <equip:firmwareVersion>4.46</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>3</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2013-12-29T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2014-01-08T23:58Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETR9</equip:receiverType>
+    <equip:satelliteSystem>GPS+GLO</equip:satelliteSystem>
+    <equip:serialNumber>5121K76074</equip:serialNumber>
+    <equip:firmwareVersion>4.46</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>3</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2014-01-09T00:28Z</equip:dateInstalled>
+    <equip:dateRemoved></equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssAntenna>
+    <equip:antennaType>TRM57971.00</equip:antennaType>
+    <equip:serialNumber>30895557</equip:serialNumber>
+    <equip:antennaReferencePoint>BAM</equip:antennaReferencePoint>
+    <equip:marker-arpUpEcc.>0.0020</equip:marker-arpUpEcc.>
+    <equip:marker-arpNorthEcc.>0.0000</equip:marker-arpNorthEcc.>
+    <equip:marker-arpEastEcc.>0.0000</equip:marker-arpEastEcc.>
+    <equip:alignmentFromTrueNorth>0</equip:alignmentFromTrueNorth>
+    <equip:antennaRadomeType>NONE</equip:antennaRadomeType>
+    <equip:radomeSerialNumber></equip:radomeSerialNumber>
+    <equip:antennaCableType></equip:antennaCableType>
+    <equip:antennaCableLength></equip:antennaCableLength>
+    <equip:dateInstalled>2009-08-19T04:45Z</equip:dateInstalled>
+    <equip:dateRemoved></equip:dateRemoved>
+    <equip:notes></equip:notes>
+  </gnssAntenna>
+  <contactAgency>
+    <contact:agency>GNS Science</contact:agency>
+    <contact:preferredAbbreviation>GNS</contact:preferredAbbreviation>
+    <contact:mailingAddress>1 Fairway Drive, Avalon 5010, PO Box 30-368, Lower Hutt, New Zealand</contact:mailingAddress>
+    <contact:primaryContact>
+      <contact:name>GeoNet reception</contact:name>
+      <contact:telephonePrimary>+64 4 570 1444</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax>+64 4 570 4676</contact:fax>
+      <contact:e-mail>info@geonet.org.nz</contact:e-mail>
+    </contact:primaryContact>
+    <contact:secondaryContact>
+      <contact:name>Elisabetta D'Anastasio</contact:name>
+      <contact:telephonePrimary>+64 4 570 4744</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax></contact:fax>
+      <contact:e-mail>e.danastasio@gns.cri.nz</contact:e-mail>
+    </contact:secondaryContact>
+    <contact:notes></contact:notes>
+  </contactAgency>
+  <moreInformation>
+    <mi:primaryDataCenter>ftp.geonet.org.nz</mi:primaryDataCenter>
+    <mi:secondaryDataCenter></mi:secondaryDataCenter>
+    <mi:urlForMoreInformation>www.geonet.org.nz</mi:urlForMoreInformation>
+    <mi:hardCopyOnFile></mi:hardCopyOnFile>
+    <mi:siteMap></mi:siteMap>
+    <mi:siteDiagram></mi:siteDiagram>
+    <mi:horizonMask></mi:horizonMask>
+    <mi:monumentDescription></mi:monumentDescription>
+    <mi:sitePictures></mi:sitePictures>
+    <mi:notes>additional information and pictures could be found at http://magma.geonet.org.nz/delta/app then search for CGPS mark</mi:notes>
+    <mi:antennaGraphicsWithDimensions>
+TRM57971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----x-----/                        &lt;--  0.0000  BAM=ARP
+                                                                       RXC=NRP
+  &lt;--                    0.3396                   --&gt;                  Notches
+</mi:antennaGraphicsWithDimensions>
+    <mi:insertTextGraphicFromAntenna></mi:insertTextGraphicFromAntenna>
+  </moreInformation>
+</igsSiteLog>

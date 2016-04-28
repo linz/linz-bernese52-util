@@ -1,0 +1,249 @@
+     TEOL Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Giuseppe_Casula
+     Date Prepared            : 2007-04-05T00:00Z
+     Report Type              : DYNAMIC
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Teolo
+     Four Character ID        : TEOL
+     Monument Inscription     : 
+     IERS DOMES Number        : 
+     CDP Number               : NONE
+     Monument Description     : reinforced concrete pillar
+       Height of the Monument : 1.5 m
+       Monument Foundation    : steel rods, concrete block
+       Foundation Depth       : 1.5 m
+     Marker Description       : Pivot on steel nipple of antenna adapter
+     Date installed           : 2004-03-31T00:00Z
+     Geologic Characteristic  : bedrock
+      Bedrock type            : igneous jointed
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Teolo
+     State or Province        : Padova (PD)
+     Country                  : Italy
+     Tectonic Plate           : Nubia-Eurasia plate boundary
+     Approximate Position (ITRF)
+      X coordinate (m)        : 4397774.6765                                                                                                      
+      Y coordinate (m)        : 908915.6748                                  
+      Z coordinate (m)        : 4514347.6541            
+      Latitude (N is +)       : +45 20 33.92137 
+      Longitude (E is +)      : +011 40 38.15625
+      Elevation (m, ellips.)  : 203.4272   
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA SR520
+     Satellite System         : GPS
+     Serial Number            : 022293
+     Firmware Version         : 4.20
+     Elevation Cutoff Setting : 10
+     Date installed           : 2004-03-31T00:00Z
+     Date removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.2  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 461929
+     Firmware Version         : 2.14
+     Elevation Cutoff Setting : 10
+     Date installed           : 2007-04-03T00:00Z
+     Date removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 20° C +- 5°C
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504 SCIT
+     Serial Number            : 2024
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0.0
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 0264
+     Antenna Cable Type       : SUHNER SUCOFEED 3/8" HF-FR 04 46
+     Antenna Cable Length     : 30 m
+     Date installed           : 2004-03-31T00:00Z
+     Date removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATION/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Istituto Nazionale di Geofisica e Vulcanologia - Centro Nazionale Terremoti - Via di Vigna Murata 605, I-00143 Roma - Italy  
+     Preferred Abbrevation    : CNT
+     Mailing Address          : ingv.it
+     Primary Contact
+      Contact Name            : Dott. Marco Anzidei
+INGV CNT RM
+      Telephone (primary)     : +39 0651860214
+      Telephone (secondary)   : +39 3356528812
+      Fax                     : +39 065041303
+      E-mail                  : anzidei@ingv.it
+     Secondary Contact
+      Contact Name            : Dott. Giuseppe Casula
+INGV CNT BO
+      Telephone (primary)     : +39 0514151465
+      Telephone (secondary)   : +39 3493960637
+      Fax                     : +39 0514151499
+      E-mail                  : casula@bo.ingv.it
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : UNIVERSITY OF PADOVA
+                              : DEPT. OF GEOSCIENCES
+     Preferred Abbreviation   : UNIPD
+     Mailing Address          : VIA GRADENIGO 6, 35131 PADOVA, ITALY
+     Primary Contact
+       Contact Name           : PROF. A. CAPORALI
+       Telephone (primary)    : +39 0498279122
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : alessandro.caporali@unipd.it
+     Secondary Contact
+       Contact Name           : G. GIRARDI
+       Telephone (primary)    : +39 0498279128
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : giampaolo.girardi@unipd.it
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : http://147.162.229.53
+     Secondary Data Center    : http://147.162.229.63/Web/page.php?pid=showgps&gid=21&chain=4
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : http://maps.google.it/maps?ll=45.12234786,11.15556488&z=17&t=h&hl=it
+       Site Diagram           : X
+       Horizon Mask           : NO OBSTRUCTION ABOVE 0 DEGREES
+       Monument Description   : X
+       Site Pictures          : X
+     Additional Information   : (multiple lines)
+
+
+Antenna Graphics with Dimensions
+
+LEIAT504 SCIT
+LEIAT504 L1/L2 DORME MARGOLIN ANTENNA WITH CHOKE-RING
+
+                         +-------+                          <-- 0.1393
+                       /     +     \                        <-- 0.1282 L2
+                      |      +      |                       <-- 0.1093 L1
+    +-----------------+-------------+------------------+    <-- 0.1012 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <-- 0.0378
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.000  BPA=ARP
+
+  <--                      0.3794                      -->
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                        
+
+All dimensions are in meters.

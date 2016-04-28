@@ -1,0 +1,278 @@
+     SMR5 Site Information Form
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Sibylle Vey
+     Date Prepared            : 2009-03-26
+     Report Type              : New
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : San Martin / Antarctica
+     Four Character ID        : SMR5
+     Monument Inscription     : Pillar 
+     IERS DOMES Number        : 66034M002
+     CDP Number               :
+     Monument Description     : PILLAR
+       Height of the Monument : 0.7
+       Monument Foundation    : METALLIC PILLAR BOLTED ON BEDROCK
+       Foundation Depth       : 0.2
+     Marker Description       : PILLAR
+     Date Installed           : 2009-02-25 T12:30Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : Metamorphic
+       Bedrock Condition      : Weathered
+       Fracture Spacing       : 50-200 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : San Martin
+     State or Province        :
+     Country                  : Antarctic Peninsula
+     Tectonic Plate           : Antarctican
+     Approximate Position (ITRF)
+       X coordinate (m)       : 927076.5
+       Y coordinate (m)       : -2195043.1
+       Z coordinate (m)       : -5896519.7
+       Latitude (N is +)      : -68°07'46.858"
+       Longitude (E is +)     : -67°06'11.643"
+       Elevation (m,ellips.)  : 25.28
+     Additional Information   :
+
+
+3.  GNSS Receiver Information 
+
+3.1  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLONASS+Galileo
+     Serial Number            : 4834K57935
+     Firmware Version         : 3.80, 2008-10-24
+     Elevation Cutoff Setting : 0 deg.
+     Date Installed           : 2009-02-25 T12:30Z 
+     Date Removed             : 
+     Temperature Stabiliz.    : none
+     Additional Information   : New SMR5 replaces SMR1 
+                              : which was operated
+                              : since 2009-02-26 T12:40Z 
+                             
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.  GNSS Antenna Information
+
+4.1  Antenna Type             : Trimble Geodetic Zephyr II 
+                                TRM57971.00
+     Serial Number            : 30976593
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : TZGD
+     Radome Serial Number     :
+     Antenna Cable Type       : Cellflex LCF 1.2-50J D 30238 01.05*021.3m 
+     Antenna Cable Length     : 80
+     Date Installed           : 2009-02-24T18:30Z
+     Date Removed             : 
+     Additional Information   : Amplifier S/N: 37424
+
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.  Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Antartico Argentino
+     Preferred Abbreviation   : IAA
+     Mailing Address          : Cerrito 1248 
+                              : (C1010AAZ) Buenos Aires, Argentina
+     Primary Contact
+       Contact Name :         : Dr. Sergio A. Marenssi
+       Telephone (primary)    : ++54 11 48166271
+       Telephone (secondary)  : 
+       Fax                    : ++54 11 4837807
+       E-mail                 : SMarenssi@dna.gov.ar
+       Secondary Contact
+       Contact Name           : Dr. Hans Werner Schenke 
+       Telephone (primary)    : ++49-471-4831-1222
+       Telephone (secondary)  : ++49-471-4831-1223
+       Fax                    : ++49-471-4831-1977
+       E-mail                 : Hans-Werner.Schenke@awi.de
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Alfred Wegener Insitut for Polar and Marine 
+			       : Reseach 
+     Preferred Abbreviation   : AWI
+     Mailing Address          : Van-Ronzelen-Str.2
+                              : D-27568 Bremerhaven
+                              : Germany
+     Primary Contact
+       Telephone (primary)    : ++49-471-4831-1222
+       Telephone (secondary)  : ++49-471-4831-1223
+       Fax                    : ++49-471-4831-1977
+       E-mail                 : Hans-Werner.Schenke@awi.de
+     Secondary Contact
+       Contact Name           : Sibylle Vey
+       Telephone (primary)    : ++49-511-762-5149
+       Telephone (secondary)  : 
+       Fax                    :
+       E-mail                 : svey@ife.uni-hannover.de
+     Additional Information   :
+
+13.  More Information
+
+     Primary Data Center      : Federal Agency for
+                                Cartography and Geodesy, Germany
+     Secondary Data Center    : 
+     URL for More Information : www.bkg.bund.de
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL) 
+       Horizon Mask           : (Y or URL)       
+       Monument Description   : (Y or URL)       
+       Site Pictures          : (Y or URL)
+     Additional Information   :
+     
+
+
+
+
+

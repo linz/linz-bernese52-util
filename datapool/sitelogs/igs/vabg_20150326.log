@@ -1,0 +1,408 @@
+     VABG Site Information Form
+     VDMME Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : cors-adm
+     Date Prepared            : 2015-03-26
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : vabg_20141215.log
+      Modified/Added Sections : 1 2
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : BIG STONE GAP VA
+     Four Character ID        : VABG
+     Monument Inscription     : 1000
+     IERS DOMES Number        : 49462M001
+     CDP Number               : (A4)
+     Monument Description     : SCIGN mount attached to the interior roof
+                              : parapet wall by a stainless steel frame.  The
+                              : Serial number of the SCIGN mount is 1000.  The
+                              : reference datum is the divoted top of the
+                              : center support screw on the bottom plate.
+                              : The monument is located on the southeast
+                              : corner of the roof of the Virginia Department
+                              : of Mines Minerals and Energy Building.
+       Height of the Monument : (m)
+       Monument Foundation    : ROOF PARAPET
+       Foundation Depth       : (m)
+     Marker Description       : SCIGN MOUNT
+     Date Installed           : 2005-04-14T00:00Z
+     Geologic Characteristic  : MIDDLE SILURIAN
+       Bedrock Type           : MASSIVE SANDSTONE
+       Bedrock Condition      : FRESH
+       Fracture Spacing       :
+       Fault zones nearby     : NO
+         Distance/activity    :
+     Additional Information   : Strata dips approx. 6-8 DEG E.
+                              : The distance between bottom of top plate and
+                              : top of bottom plate, measured at the left side
+                              : of the V-notch at the north side of the mount
+                              : was measured three times as .66, .655 and
+                              : .66 cm.  The distance between bottom of top
+                              : plate and top of bottom plate, measured at the
+                              : eastern leveling screw was measured three times
+                              : as .795 cm.
+
+
+2.   Site Location Information
+
+     City or Town             : Big Stone Gap
+     State or Province        : Virginia
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 643980.809
+       Y coordinate (m)       : -5069331.010
+       Z coordinate (m)       : 3804939.319
+       Latitude (N is +)      : +365120.65
+       Longitude (E is +)     : -0824536.82
+       Elevation (m,ellips.)  : 574.0
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              :  1631.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241595
+     Firmware Version         : 1.1-1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-03-10
+     Date Removed             : 2005-10-25T18:03Z
+     Temperature Stabiliz.    : 20-24
+     Additional Information   : Located in locked computer room with
+                              : temperature, humidity control and Backup power
+                              : supply.  Primary power is through a UPS system.
+                              : Secondary power is provided by a set of three
+                              : 12V batteries. Clock steering and multipath
+                              : reduction is enabled.
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241595
+     Firmware Version         : 1.1-3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-10-25T18:03Z
+     Date Removed             : 2008-02-15
+     Temperature Stabiliz.    : 20-24
+     Additional Information   : Located in locked computer room with
+                              : temperature, humidity control and Backup power
+                              : supply.  Primary power is through a UPS system.
+                              : Secondary power is provided by a set of three
+                              : 12V batteries. Clock steering and multipath
+                              : reduction is enabled.
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4527253298
+     Firmware Version         : 1.2-0
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-02-15
+     Date Removed             : 2008-04-24
+     Temperature Stabiliz.    :
+     Additional Information   : Located in locked computer room with
+                              : temperature, humidity control and Backup power
+                              : supply.  Primary power is through a UPS system.
+                              : Secondary power is provided by a set of three
+                              : 12V batteries. Clock steering and multipath
+                              : reduction is enabled.
+
+3.4  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241595
+     Firmware Version         : 1.1-5
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-04-24
+     Date Removed             : 2009-10-30
+     Temperature Stabiliz.    :
+     Additional Information   : Located in locked computer room with
+                              : temperature, humidity control and Backup power
+                              : supply.  Primary power is through a UPS system.
+                              : Secondary power is provided by a set of three
+                              : 12V batteries. Clock steering and multipath
+                              : reduction is enabled.
+
+3.5  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241595
+     Firmware Version         : 1.2-0
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-01-04
+     Date Removed             : 2014-11-13T18:00Z
+     Temperature Stabiliz.    :
+     Additional Information   : Located in locked computer room with
+                              : temperature, humidity control and Backup power
+                              : supply.  Primary power is through a UPS system.
+                              : Secondary power is provided by a set of three
+                              : 12V batteries. Clock steering and multipath
+                              : reduction is enabled.
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5428R49108
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-11-14T15:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Located in locked computer room with
+                              : temperature, humidity control and Backup power
+                              : supply.  Primary power is through a UPS system.
+                              : Secondary power is provided by a set of three
+                              : 12V batteries. Clock steering and multipath
+                              : reduction is enabled.
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 12668805
+     Antenna Reference Point  : TOP
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : 30m LMR-400 and 15m LMR-400-LLPL
+     Antenna Cable Length     : 45m
+     Date Installed           : 2005-04-14
+     Date Removed             : 2014-11-13T18:00Z
+     Additional Information   : 30m of LMR-400 cable run through 1-1/2" PVC
+                              : conduit to building main air intake on
+                              : roof.  Inline lighting arrester attached
+                              : before next 15m of LMR-400-LLPL cable.
+                              : LMR-400-LLPL cable run to receiver in
+                              : computer room.  Antenna is aligned to
+                              : true north with hand compass and given
+                              : magnetic declination.
+
+4.2  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 5000118418
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : LMR-400
+     Antenna Cable Length     : 60m
+     Date Installed           : 2014-11-14T15:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 30m of LMR-400 cable run through 1-1/2" PVC
+                              : conduit to building main air intake on
+                              : roof.  Inline lighting arrester attached
+                              : before next 15m of LMR-400-LLPL cable.
+                              : LMR-400-LLPL cable run to receiver in
+                              : computer room.  Antenna is aligned to
+                              : true north with hand compass and given
+                              : magnetic declination.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2005-03-10/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interference      : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : The Virginia Department of Mines Minerals and
+                              : Energy
+     Preferred Abbreviation   : VA DMME
+     Mailing Address          : DRAWER 900
+                              : BIG STONE GAP VA 24219-0900
+     Primary Contact
+       Contact Name           : Steven B. Mullins
+       Telephone (primary)    : 276 523 8192
+       Telephone (secondary)  :
+       Fax                    : 276 523 8141
+       E-mail                 : steven.mullins@dmme.virginia.gov
+     Secondary Contact
+       Contact Name           : Daniel X. Kestner
+       Telephone (primary)    : 276 523 8193
+       Telephone (secondary)  :
+       Fax                    : 276 523 8141
+       E-mail                 : daniel.kestner@dmme.virginia.gov
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     ftp://igscb.jpl.nasa.gov/pub/station/general/antenna.gra

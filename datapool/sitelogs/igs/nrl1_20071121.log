@@ -1,0 +1,434 @@
+     NRL1 Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ken Senior
+     Date Prepared            : 2007-11-21
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nrl1_20050705
+      Modified/Added Sections : 6.2, 4.1, 11, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : U.S. Naval Research Laboratory
+     Four Character ID        : NRL1
+     Monument Inscription     : no monument, ARP
+     IERS DOMES Number        : 40451S301
+     CDP Number               : NONE
+     Monument Description     : STEEL PLATE
+       Height of the Monument : 0.005 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2005-01-01
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : The antenna is mounted near the center of and
+                              : a few inches above a penthouse which rests atop
+                              : 3-story building.  There are no nearby geodetic 
+                              : markers or control points.
+
+2.   Site Location Information
+
+     City or Town             : Washington
+     State or Province        : District of Columbia (DC)
+     Country                  : U.S.A.
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1117249.15762
+       Y coordinate (m)       : -4848758.67469
+       Z coordinate (m)       : 3976821.16656
+       Latitude (N is +)      : +384914.71
+       Longitude (E is +)     : -0770127.85
+       Elevation (m,ellips.)  : -26.010
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT920010202
+     Firmware Version         : IL01-1D04-MCF-12MX
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2005-01-01
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 2
+     Additional Information   : Resides in thermally-controlled chamber.
+                              : Absolute receiver delay was determined
+                              : during two absolute calibrations of the
+                              : receiver.
+                              : RECEIVER DELAYS
+                              :     cal #1     cal #2     avg
+                              : P1  294.8 ns  294.8 ns   294.8 ns
+                              : P2  306.8 ns  308.0 ns   307.4 ns
+                              : P3  276.3 ns  274.4 ns   275.4 ns
+                              :
+                              : TtP = +23.6 ns (tick-to-phase delay at 
+                              :                 receiver input)
+                              : 
+                              : NOTE: One must also subtract from the above 
+                              :       receiver delays the value of the 
+                              :       tick-to-phase. The TtP is the time 
+                              :       difference between the rising tick of 
+                              :       the 1PPS input and the next (rising) 
+                              :       zero crossing of the 20 MHz.
+                              :
+                              : See section 13 for full system timing 
+                              : calibration calculation.
+ 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945C_M
+     Serial Number            : CR620011801
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew FSJ1-50A
+     Antenna Cable Length     : 26.5176 m
+     Date Installed           : 2005-01-01
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Absolute antenna calibration info:
+                              : absolute antenna delays: 
+                              : L1=25.251 ns   
+                              : L2=26.266 ns     
+                              : L3=23.682 ns
+                              :
+                              : antenna cable delay = 109.455 ns
+                              :
+                              : See section 13 for full system timing 
+                              : calibration calculation.
+                              :
+                              : More information on antenna cable:
+                              : Andrew FSJ1-50A (35422-33 phase stabilized)
+                              : 1/4 inch Superflexible Foam Dielectric
+                              : Heliax -- physical length 87 feet
+                              : (26.5176 m), mostly outside; measured electrical
+                              : length is 109.455 ns +/- 30 ps
+                              : specifications -
+                              : Velocity factor 0.84
+                              : DC resistance 2 to 3 ohms per 1000 foot
+                              : Capacitance, 24.2 pF/foot
+                              : Inductance, .061 uH/foot
+                              : Loss at 1250 MHz   6.77 dB/100 foot
+                              : Loss at 1500 MHz   7.47 dB/100 foot
+                              : Electrical Length Change verses Temperature -
+                              : 400 PPM over (-40 to 30 C) or 5.7 PPM/C
+                              : => 0.02 ps/m/C
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : H-MASER
+       Input Frequency        : 20 Mhz
+       Effective Dates        : 2005-01-01
+       Notes                  : 5 Mhz is multiplied to 20 Mhz using a multiplier
+                              : built in-house.
+
+6.2  Standard Type            : H-MASER
+       Input Frequency        : 20 Mhz
+       Effective Dates        : 2007-08-01
+       Notes                  : 5 Mhz is multiplied to 20 Mhz using a multiplier
+                              : built in-house.  Input to NRL1 is now the 
+                              : steered 
+                              : (Auxiliary Output Generator) output of a H-MASER
+                              : and also represents the NRL realization of UTC, 
+                              : UTC(NRL).
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : U.S. Naval Research Laboratory
+     Preferred Abbreviation   : NRL
+     Mailing Address          : 4555 Overlook Ave SW
+                              : Washington, DC  20375
+     Primary Contact
+       Contact Name           : Ken Senior
+       Telephone (primary)    : +1 202 767 2043
+       Telephone (secondary)  : +1 202 767 2595
+       Fax                    : +1 202 767 2845
+       E-mail                 : Ken.Senior@nrl.navy.mil
+     Secondary Contact
+       Contact Name           : Joe White
+       Telephone (primary)    : +1 202 767 5111
+       Telephone (secondary)  : +1 202 767 2595
+       Fax                    : +1 202 767 2845
+       E-mail                 : Joe.White@nrl.navy.mil
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : SOPAC
+     URL for More Information : https://goby.nrl.navy.mil/NRL1/
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : https://goby.nrl.navy.mil/NRL1/images/
+     Additional Information   :
+                              :
+                              : FULL SYSTEM TIMING CALIBRATION:
+                              :
+                              : TOTAL (L1) = REC - TtP + Antenna + Cable
+                              :            = 294.8 + 23.6 + 25.3 + 109.46
+                              :            = 453.16 ns
+                              : 
+                              : TOTAL (L2) = REC - TtP + Antenna + Cable
+                              :            = 307.4 + 23.6 + 26.3 + 109.46
+                              :            = 466.76 ns 
+                              :
+                              : TOTAL (L3) = REC - TtP + Antenna + Cable
+                              :            = 275.4 + 23.6 + 23.8 + 109.46
+                              :            = 432.26 ns
+
+     Antenna Graphics with Dimensions
+
+ 
+ 
+             
+ 
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.000  BPA
+ 
+<--                      0.381                       -->
+ 
+ 
+   BPA: Bottom of Preamplifier
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+

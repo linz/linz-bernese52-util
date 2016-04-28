@@ -1,0 +1,429 @@
+
+     ROAP Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Hector Esteban Pinillos
+     Date Prepared            : 2015-09-30
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : roap_20150605.log
+      Modified/Added Sections : 3.6, 3.7
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : San Fernando
+     Four Character ID        : ROAP
+     Monument Inscription     : Marca ROAP - Número DOMES 13402M006
+     IERS DOMES Number        : 13402M006
+     CDP Number               : 
+     Monument Description     : STEEL MAST
+       Height of the Monument : 1.0690 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2006-11-20T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : At Real Instituto y Observatorio de la Armada
+
+
+2.   Site Location Information
+
+     City or Town             : San Fernando
+     State or Province        : Cadiz
+     Country                  : Spain
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 5105509.755
+       Y coordinate (m)       : -555200.625
+       Z coordinate (m)       : 3769790.256
+       Latitude (N is +)      : +362751.36
+       Longitude (E is +)     : -0061222.55
+       Elevation (m,ellips.)  : 00073.7
+     Additional Information   : National Time Laboratory 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : SEPT POLARX2
+     Satellite System         : GPS
+     Serial Number            : 1225
+     Firmware Version         : 2.6.0
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2003-02-01T00:00Z
+     Date Removed             : 2009-04-20T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Placed inside Time Laboratory
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4805144947
+     Firmware Version         : 1.2-5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-04-24T00:00Z
+     Date Removed             : 2009-06-25T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Placed inside Time Laboratory
+
+3.3  Receiver Type            : SEPT POLARX2
+     Satellite System         : GPS
+     Serial Number            : 1225
+     Firmware Version         : 2.6.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-06-25T00:00Z
+     Date Removed             : 2009-09-30T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Placed inside Time Laboratory      
+
+3.4  Receiver Type            : SEPT POLARX3ETR
+     Satellite System         : GPS+GLO
+     Serial Number            : 2000805
+     Firmware Version         : 1.3.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-09-30T00:00Z
+     Date Removed             : 2014-02-21T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Placed inside Time Laboratory
+
+3.5  Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 3102249
+     Firmware Version         : 2.5.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-02-21T00:00Z
+     Date Removed             : 2015-06-04T07:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Placed inside Time Laboratory
+
+3.6  Receiver Type            : SEPT POLARX2
+     Satellite System         : GPS
+     Serial Number            : 1225
+     Firmware Version         : 2.6.0
+     Elevation Cutoff Setting : 
+     Date Installed           : 2015-06-04T07:00Z
+     Date Removed             : 2015-09-30T00:00Z
+     Temperature Stabiliz.    : 23 ºC  ± 2 ºC 
+     Additional Information   : 
+
+3.7  Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3007633
+     Firmware Version         : 2.9.0
+     Elevation Cutoff Setting : 
+     Date Installed           : 2015-09-30T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 23 ºC ± 2 ºC
+     Additional Information   : Placed inside Time Laboratory.
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : SEN67157596+CR  NONE
+     Serial Number            : 3392
+     Antenna Reference Point  : TCR
+     Marker->ARP Up Ecc. (m)  : 001.1113
+     Marker->ARP North Ecc(m) : -000.0234
+     Marker->ARP East Ecc(m)  : -000.3808
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TIME MICROWAVE SYSTEM - PHK203
+     Antenna Cable Length     : 10 m
+     Date Installed           : 2003-02-01T00:00Z
+     Date Removed             : 2011-10-25T09:15Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAR25.R4      NONE
+     Serial Number            : 725232
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 001.0690
+     Marker->ARP North Ecc(m) : -000.0234
+     Marker->ARP East Ecc(m)  : -000.3808
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TIME MICROWAVE SYSTEM - PHK203
+     Antenna Cable Length     : 10 m
+     Date Installed           : 2011-10-25T09:18Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna height was corrected on 21-NOV-2014. 
+                              : Old antenna height of 1.1113 was corrected to
+                              : be 1.0690 meters.
+                              : Antenna height of 1.0690 meters must be applied
+                              : since 2011-10-25T09:18Z.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2003-02-01/2007-10-15
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2007-10-15/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : TWSTFT
+       Status                 : PERMANENT
+       Effective Dates        : 1997-12-01/CCYY-MM-DD
+       Notes                  : Same frequency and time H-MASER input as POLARX2
+
+7.2  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1995-12-18/CCYY-MM-DD
+       Notes                  : Aditional Geophysical Instrumentation
+                              : Long Period Sysmometers (P)
+                              : Short Period sysmometric local net (P)
+                              : Magnetometric registers (P)
+                              : Meteorological station (P)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Real Instituto y Observatorio de la Armada
+     Preferred Abbreviation   : ROA
+     Mailing Address          : Cecilio Pujazon s.n.
+     Primary Contact
+       Contact Name           : Hector Esteban Pinillos
+       Telephone (primary)    : 34 956 54 54 39
+       Telephone (secondary)  : 34 956 59 92 86
+       Fax                    : 34 956 59 93 66
+       E-mail                 : hesteban@roa.es
+     Secondary Contact
+       Contact Name           : Francisco Javier Galindo Mendoza
+       Telephone (primary)    : 34 956 59 92 86
+       Telephone (secondary)  : 34 956 54 54 39
+       Fax                    : 34 956 59 93 66
+       E-mail                 : jgalindo@roa.es
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : IGN
+     Secondary Data Center    : BKG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+     
+     
+SEN67157596+CR
+>From 2003-02-01
+Until 2011-10-25
+                         _____________
+                        /      +      \
+                       |       +       |
+    --------------------------------------------------------   <--  0.0680 TCR
+    |                                                      |
+    |                                                      |
+  +-+------------------------------------------------------+-+ <--  0.0040 BCR
+  +----------------------------x-----------------------------+ <--  0.0000 BCR
+
+  <--                        0.3810                        -->
+
+
+
+
+LEIAR25.R4
+>From 2010-10-25
+
+
+                         +-------+                          <--  0.1995
+                        /         \
+                  +---+-------------+---+                   <--  0.1614  TCR
+                  |                     |
+               |---------------------------|
+            |---------------------------------|
+         |---------------------------------------|
+      +---------------------------------------------+
+      |                                             |
+      |                                             |
+    +-+---------------------------------------------+-+
+    +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000  BPA=ARP
+
+    <--                   0.3802                    -->
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+All dimensions are in meters.
+

@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<igsSiteLog xmlns:equip="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/equipment/2004" xmlns:contact="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/contact/2004" xmlns:mi="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/monumentInfo/2004" xmlns:li="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/localInterferences/2004" xmlns="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011 http://sopac.ucsd.edu/ns/geodesy/doc/igsSiteLog/2011/igsSiteLog.xsd">
+  <formInformation>
+    <mi:preparedBy>Elisabetta D'Anastasio</mi:preparedBy>
+    <mi:datePrepared>2016-01-06</mi:datePrepared>
+    <mi:reportType>DYNAMIC</mi:reportType>
+  </formInformation>
+  <siteIdentification>
+    <mi:siteName>Bluff</mi:siteName>
+    <mi:fourCharacterID>BLUF</mi:fourCharacterID>
+    <mi:monumentInscription></mi:monumentInscription>
+    <mi:iersDOMESNumber></mi:iersDOMESNumber>
+    <mi:cdpNumber></mi:cdpNumber>
+    <mi:monumentDescription>pillar</mi:monumentDescription>
+    <mi:heightOfTheMonument>1.265</mi:heightOfTheMonument>
+    <mi:monumentFoundation>reinforced concrete</mi:monumentFoundation>
+    <mi:foundationDepth>2.0</mi:foundationDepth>
+    <mi:markerDescription>Forced Centering</mi:markerDescription>
+    <mi:dateInstalled>2004-03-05T00:00Z</mi:dateInstalled>
+    <mi:geologicCharacteristic></mi:geologicCharacteristic>
+    <mi:bedrockType></mi:bedrockType>
+    <mi:bedrockCondition></mi:bedrockCondition>
+    <mi:fractureSpacing></mi:fractureSpacing>
+    <mi:faultZonesNearby></mi:faultZonesNearby>
+    <mi:distance-Activity></mi:distance-Activity>
+    <mi:notes></mi:notes>
+  </siteIdentification>
+  <siteLocation>
+    <mi:city>Bluff</mi:city>
+    <mi:state>Southland</mi:state>
+    <mi:country>New Zealand</mi:country>
+    <mi:tectonicPlate>Pacific</mi:tectonicPlate>
+    <mi:approximatePositionITRF>
+      <mi:xCoordinateInMeters>-4300030.49671</mi:xCoordinateInMeters>
+      <mi:yCoordinateInMeters>891112.884805</mi:yCoordinateInMeters>
+      <mi:zCoordinateInMeters>-4610274.87004</mi:zCoordinateInMeters>
+      <mi:latitude-North>-46.58506441</mi:latitude-North>
+      <mi:longitude-East>168.2920867</mi:longitude-East>
+      <mi:elevation-m_ellips.>124.6399</mi:elevation-m_ellips.>
+    </mi:approximatePositionITRF>
+    <mi:notes></mi:notes>
+  </siteLocation>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4356263016</equip:serialNumber>
+    <equip:firmwareVersion>1.0-2</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2004-03-11T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2004-11-01T02:28Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4351230312</equip:serialNumber>
+    <equip:firmwareVersion>1.0-3</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2004-11-01T02:29Z</equip:dateInstalled>
+    <equip:dateRemoved>2005-11-06T00:00Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4429236339</equip:serialNumber>
+    <equip:firmwareVersion>1.0-3</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2005-11-06T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2006-03-10T10:02Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4429236339</equip:serialNumber>
+    <equip:firmwareVersion>1.1-3</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2006-03-10T10:02Z</equip:dateInstalled>
+    <equip:dateRemoved>2006-04-03T13:57Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4429236339</equip:serialNumber>
+    <equip:firmwareVersion>1.1-5</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2006-04-03T13:57Z</equip:dateInstalled>
+    <equip:dateRemoved>2006-10-18T22:25Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4351230281</equip:serialNumber>
+    <equip:firmwareVersion>1.1-5</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2006-10-18T23:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2008-01-01T04:00Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETRS</equip:receiverType>
+    <equip:satelliteSystem>GPS</equip:satelliteSystem>
+    <equip:serialNumber>4435237672</equip:serialNumber>
+    <equip:firmwareVersion>1.2-0</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>4</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2008-01-01T04:30Z</equip:dateInstalled>
+    <equip:dateRemoved>2010-11-25T04:42Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETR9</equip:receiverType>
+    <equip:satelliteSystem>GPS+GLO</equip:satelliteSystem>
+    <equip:serialNumber>5018K67247</equip:serialNumber>
+    <equip:firmwareVersion>4.17A</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>3</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2010-11-25T05:05Z</equip:dateInstalled>
+    <equip:dateRemoved>2012-04-03T21:45Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETR9</equip:receiverType>
+    <equip:satelliteSystem>GPS+GLO</equip:satelliteSystem>
+    <equip:serialNumber>5018K67247</equip:serialNumber>
+    <equip:firmwareVersion>4.46</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>3</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2012-04-03T22:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2015-08-23T15:25Z</equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssReceiver>
+    <equip:receiverType>TRIMBLE NETR9</equip:receiverType>
+    <equip:satelliteSystem>GPS+GLO</equip:satelliteSystem>
+    <equip:serialNumber>5018K67247</equip:serialNumber>
+    <equip:firmwareVersion>4.85</equip:firmwareVersion>
+    <equip:elevationCutoffSetting>0</equip:elevationCutoffSetting>
+    <equip:dateInstalled>2015-08-23T15:25Z</equip:dateInstalled>
+    <equip:dateRemoved></equip:dateRemoved>
+    <equip:temperatureStabilization></equip:temperatureStabilization>
+    <equip:notes></equip:notes>
+  </gnssReceiver>
+  <gnssAntenna>
+    <equip:antennaType>TRM41249.00</equip:antennaType>
+    <equip:serialNumber>12589847</equip:serialNumber>
+    <equip:antennaReferencePoint>BAM</equip:antennaReferencePoint>
+    <equip:marker-arpUpEcc.>0.0550</equip:marker-arpUpEcc.>
+    <equip:marker-arpNorthEcc.>0.0000</equip:marker-arpNorthEcc.>
+    <equip:marker-arpEastEcc.>0.0000</equip:marker-arpEastEcc.>
+    <equip:alignmentFromTrueNorth>0</equip:alignmentFromTrueNorth>
+    <equip:antennaRadomeType>NONE</equip:antennaRadomeType>
+    <equip:radomeSerialNumber></equip:radomeSerialNumber>
+    <equip:antennaCableType></equip:antennaCableType>
+    <equip:antennaCableLength></equip:antennaCableLength>
+    <equip:dateInstalled>2004-03-11T00:00Z</equip:dateInstalled>
+    <equip:dateRemoved>2010-11-25T04:42Z</equip:dateRemoved>
+    <equip:notes></equip:notes>
+  </gnssAntenna>
+  <gnssAntenna>
+    <equip:antennaType>TRM57971.00</equip:antennaType>
+    <equip:serialNumber>1441031250</equip:serialNumber>
+    <equip:antennaReferencePoint>BAM</equip:antennaReferencePoint>
+    <equip:marker-arpUpEcc.>0.0550</equip:marker-arpUpEcc.>
+    <equip:marker-arpNorthEcc.>0.0000</equip:marker-arpNorthEcc.>
+    <equip:marker-arpEastEcc.>0.0000</equip:marker-arpEastEcc.>
+    <equip:alignmentFromTrueNorth>0</equip:alignmentFromTrueNorth>
+    <equip:antennaRadomeType>NONE</equip:antennaRadomeType>
+    <equip:radomeSerialNumber></equip:radomeSerialNumber>
+    <equip:antennaCableType></equip:antennaCableType>
+    <equip:antennaCableLength></equip:antennaCableLength>
+    <equip:dateInstalled>2010-11-25T05:05Z</equip:dateInstalled>
+    <equip:dateRemoved></equip:dateRemoved>
+    <equip:notes></equip:notes>
+  </gnssAntenna>
+  <contactAgency>
+    <contact:agency>GNS Science</contact:agency>
+    <contact:preferredAbbreviation>GNS</contact:preferredAbbreviation>
+    <contact:mailingAddress>1 Fairway Drive, Avalon 5010, PO Box 30-368, Lower Hutt, New Zealand</contact:mailingAddress>
+    <contact:primaryContact>
+      <contact:name>GeoNet reception</contact:name>
+      <contact:telephonePrimary>+64 4 570 1444</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax>+64 4 570 4676</contact:fax>
+      <contact:e-mail>info@geonet.org.nz</contact:e-mail>
+    </contact:primaryContact>
+    <contact:secondaryContact>
+      <contact:name>Elisabetta D'Anastasio</contact:name>
+      <contact:telephonePrimary>+64 4 570 4744</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax></contact:fax>
+      <contact:e-mail>e.danastasio@gns.cri.nz</contact:e-mail>
+    </contact:secondaryContact>
+    <contact:notes></contact:notes>
+  </contactAgency>
+  <responsibleAgency>
+    <contact:agency>Land Information New Zealand</contact:agency>
+    <contact:preferredAbbreviation>LINZ</contact:preferredAbbreviation>
+    <contact:mailingAddress>155 The Terrace, PO Box 5501, Wellington 6145 New Zealand</contact:mailingAddress>
+    <contact:primaryContact>
+      <contact:name>LINZ Reception</contact:name>
+      <contact:telephonePrimary>+64 4 460 0110</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax>+64 4 472 2244</contact:fax>
+      <contact:e-mail>positionz@linz.govt.nz</contact:e-mail>
+    </contact:primaryContact>
+    <contact:secondaryContact>
+      <contact:name>Paula Gentle</contact:name>
+      <contact:telephonePrimary>+64 4 460 2757</contact:telephonePrimary>
+      <contact:telephoneSecondary></contact:telephoneSecondary>
+      <contact:fax></contact:fax>
+      <contact:e-mail>pgentle@linz.govt.nz</contact:e-mail>
+    </contact:secondaryContact>
+    <contact:notes>CGPS site is part of the LINZ PositioNZ Network http://www.linz.govt.nz/positionz</contact:notes>
+  </responsibleAgency>
+  <moreInformation>
+    <mi:primaryDataCenter>ftp.geonet.org.nz</mi:primaryDataCenter>
+    <mi:secondaryDataCenter></mi:secondaryDataCenter>
+    <mi:urlForMoreInformation>www.geonet.org.nz</mi:urlForMoreInformation>
+    <mi:hardCopyOnFile></mi:hardCopyOnFile>
+    <mi:siteMap></mi:siteMap>
+    <mi:siteDiagram></mi:siteDiagram>
+    <mi:horizonMask></mi:horizonMask>
+    <mi:monumentDescription></mi:monumentDescription>
+    <mi:sitePictures></mi:sitePictures>
+    <mi:notes>additional information and pictures could be found at http://magma.geonet.org.nz/delta/app then search for CGPS mark</mi:notes>
+    <mi:antennaGraphicsWithDimensions>
+TRM41249.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----x-----/                        &lt;--  0.0000  BAM=ARP
+                                                                       RXC=NRP
+  &lt;--                    0.3396                   --&gt;                  Notches
+
+TRM57971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----x-----/                        &lt;--  0.0000  BAM=ARP
+                                                                       RXC=NRP
+  &lt;--                    0.3396                   --&gt;                  Notches
+</mi:antennaGraphicsWithDimensions>
+    <mi:insertTextGraphicFromAntenna></mi:insertTextGraphicFromAntenna>
+  </moreInformation>
+</igsSiteLog>

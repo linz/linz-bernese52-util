@@ -1,0 +1,388 @@
+
+     USN8 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Stephen Mitchell
+     Date Prepared            : 2015-09-23
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : usn8_20150805.log
+      Modified/Added Sections : 2, 3.2
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : U.S. Naval Observatory Time Service
+     Four Character ID        : USN8
+     Monument Inscription     : 
+     IERS DOMES Number        : 40451S009
+     CDP Number               : 
+     Monument Description     : TRIANGULATED AL STRUTS
+       Height of the Monument : 7 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : MOUNTING BRACKET HOLE, ARP
+     Date Installed           : 2014-11-12T16:00Z
+     Geologic Characteristic  : on aluminum structure on roof of of 2-story
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Same DOMES number as USN7 since same antenna 
+                              : The antenna is mounted on a baseball diamond
+                              : shaped aluminum structure mounted on the roof
+                              : (2 stories) of the Time Service department
+                              : building at the U.S. Naval Observatory,
+                              : Washington. D.C..  There are nearby geodetic
+                              : markers, but this antenna has not been surveyed
+                              : to those markers. (see accompanying pictures).
+                              : USN7 functionally replaces USN3.
+                              : The antenna mount was extended by 1.5m on
+                              : 2014-11-12.
+
+
+2.   Site Location Information
+
+     City or Town             : Washington
+     State or Province        : D.C.
+     Country                  : United States
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1112162.138
+       Y coordinate (m)       : -4842854.667
+       Z coordinate (m)       : 3985497.066
+       Latitude (N is +)      : +385514.03801
+       Longitude (E is +)     : -0770358.59575
+       Elevation (m,ellips.)  : 58.924
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : SN11203000923
+     Firmware Version         : 2.3.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-11-12T11:00Z
+     Date Removed             : 2015-01-22T20:08Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Receiver installed prior to the start of this 
+                              : monument.  Actual receiver install date is
+                              : 2013-05-01T14:00Z.
+
+3.2  Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : SN11203000923
+     Firmware Version         : 2.5.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-01-22T20:34Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : Also tracking WAAS.
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TPSCR.G5        TPSH
+     Serial Number            : 762-11615
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew FSJ1-50A (35422-33 phase stabilized)
+     Antenna Cable Length     : 39 m
+     Date Installed           : 2014-11-12T11:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna is a Multi-band GNSS unit with TOPCON
+                              : radome.  Antenna cable
+                              : 14-April-2009 to present - Andrew FSJ1-50A
+                              : (35422-33 phase stabilized) 1/4 inch
+                              : Superflexible Foam Dielectric Heliax --
+                              : physical length 130 feet (39 m), mostly
+                              : run in ceiling and floor of USNO Bldg 78;
+                              : specifications - Velocity factor 0.84
+                              : DC resistance 2 to 3 ohms per 1000 foot
+                              : Capacitance, 24.2 pF/foot Inductance,
+                              : .061 uH/foot Loss at 1250 MHz, 6.77 dB/100 foot
+                              : Loss at 1500 MHz,
+                              : 7.47 dB/100 foot Electrical Length Change
+                              : versus Temperature - 400 PPM over
+                              : (-40 to 30 C) or 5.7 PPM/C => 0.02 ps/m/C
+                              : Antenna splitter - USNO specially designed
+                              : antenna splitter that has > 100 db
+                              : port to port isolation and flat group delay
+                              : response at L1 and L2.  New 8-port
+                              : splitter installed 2014-11-12.  Antenna
+                              : splitter cable - from splitter to
+                              : receiver.  The Antenna splitter cable is
+                              : attached to a DC block and 20db PAD at
+                              : the receiver input to improve impedance
+                              : matching.  A lightning arrestor was
+                              : introduced in-line 2014-11-12.  The measured
+                              : delays through each component of
+                              : the system are summarized in the table below -
+                              :                    L1(ns)          L2(ns)
+                              :                  ---------       ---------
+                              : antenna total      18.64           15.60 *
+                              : change to TOPCON
+                              : antenna cable     150.10          150.10 * no
+                              : change but added short cable to
+                              :                                           
+                              : support lightning arrester
+                              : lightning arrester  0.47            0.50 * new
+                              : item
+                              : short cable         7.39            7.39 * new
+                              : item is short cable between
+                              :                                           
+                              : antenna and lightning arrester
+                              : antenna splitter    7.85            8.02 *
+                              : change to new 8 port splitter
+                              : cable to receiver   6.36            6.36 * no
+                              : change
+                              : DC block and 20db
+                              : PAD                 0.50            0.50 * no
+                              : change
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 1998-03-24/CCYY-MM-DD
+       Notes                  : Reference signal from USNO Master clock (MC2),
+                              : the primary realization of UTC(USNO), located
+                              : in Bldg. 78 in a thermal chamber.  MC2 is
+                              : steered to UTC using information obtained
+                              : from the Bureau International des Poids
+                              : et Mesures (BIPM) roughly each month.  See
+                              : the BIPM Circular T for more detail,
+                              : http://www.bipm.fr/enus/5_Scientific/c_time/
+                              : time_ftp.shtml
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 2015-01-22/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HUMICA H-sensor (pn 16663)
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 15 sec
+       Accuracy (% rel h)     : 1%(0...90%RH)
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.724 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-21/CCYY-MM-DD
+       Notes                  : NOAA GSOS # 062
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTB220
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 15 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -0.724 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-21/CCYY-MM-DD
+       Notes                  : met sensors are located at USNO on rooftop
+                              : of Building 52A (~ few hundred m from GPS ant.)
+                              : NOAA GSOS # 062
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : PT100 RTD 1/s DIN 43760B
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 15 sec
+       Accuracy               : 0.1 @ 20.0 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.724 m
+       Calibration date       : 
+       Effective Dates        : 2001-08-21/CCYY-MM-DD
+       Notes                  : NOAA GSOS # 062
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : U.S. Naval Observatory
+     Preferred Abbreviation   : USNO
+     Mailing Address          : Time Service Department
+                              : 3450 Massachusetts Ave., NW
+                              : Washington, D.C. 20392-5420
+     Primary Contact
+       Contact Name           : Stephen Mitchell (USNO)
+       Telephone (primary)    : 202-762-1455
+       Telephone (secondary)  : 
+       Fax                    : 202-762-1511
+       E-mail                 : stephen.mitchell@usno.navy.mil
+     Secondary Contact
+       Contact Name           : Ed Powers
+       Telephone (primary)    : 202-762-1451
+       Telephone (secondary)  : 
+       Fax                    : 202-762-1511
+       E-mail                 : edward.powers@usno.navy.mil
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : US Naval Observatory
+     Preferred Abbreviation   : USNO
+     Mailing Address          : 3450 Massachusetts Ave. NW
+                              : Washington, DC 20392
+     Primary Contact
+       Contact Name           : Stephen Mitchell
+       Telephone (primary)    : +1 (202) 762-1455
+       Telephone (secondary)  : 
+       Fax                    : +1 (202) 762-1511
+       E-mail                 : stephen.mitchell@usno.navy.mil
+     Secondary Contact
+       Contact Name           : Ed Powers
+       Telephone (primary)    : +1 (202) 762-1451
+       Telephone (secondary)  : 
+       Fax                    : +1 (202) 762-1511
+       E-mail                 : edward.powers@usno.navy.mil
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : N
+       Site Diagram           : N
+       Horizon Mask           : N
+       Monument Description   : no monument
+       Site Pictures          : N
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+

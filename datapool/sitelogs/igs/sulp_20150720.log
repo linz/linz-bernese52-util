@@ -1,0 +1,390 @@
+
+     SULP Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Stepan Savchuk
+     Date Prepared            : 2015-07-20
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : sulp_20150303.log
+      Modified/Added Sections : 3.5, 3.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Lviv Polytechnic
+     Four Character ID        : SULP
+     Monument Inscription     : 
+     IERS DOMES Number        : 12366M001
+     CDP Number               : 
+     Monument Description     : PILLAR ABOVE THE ROOF
+       Height of the Monument : 25 m
+       Monument Foundation    : ROCK BASE
+       Foundation Depth       : 5 m
+     Marker Description       : CHISELLED CROSS
+     Date Installed           : 2001-06-01T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 51-200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Fundamental astronomical monument, which was
+                              : constructed and built on rock base in 1870
+                              : inside the main building of the University
+                              : in such a manner to have no any contact with
+                              : the building itself.
+
+
+2.   Site Location Information
+
+     City or Town             : Lviv
+     State or Province        : Lviv
+     Country                  : Ukraine
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3765296.991
+       Y coordinate (m)       : 1677559.204
+       Z coordinate (m)       : 4851297.409
+       Latitude (N is +)      : +495008.11
+       Longitude (E is +)     : +0240052.15
+       Elevation (m,ellips.)  : 370.5
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 20236698
+     Firmware Version         : 1.30
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-06-10T00:00Z
+     Date Removed             : 2010-07-28T17:00Z
+     Temperature Stabiliz.    : 21.0 +/- 1.0
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 20181663
+     Firmware Version         : Nav  1.41 / Boot  1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-11-24T00:00Z
+     Date Removed             : 2013-03-30T09:00Z
+     Temperature Stabiliz.    : 21.0 +/- 1.0
+     Additional Information   : 
+
+3.3  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 02215
+     Firmware Version         : 4.0 Aug,03,2012
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-04-05T13:23Z
+     Date Removed             : 2014-11-30T16:40Z
+     Temperature Stabiliz.    : 21.0 +/- 1.0
+     Additional Information   : 
+
+3.4  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 02215
+     Firmware Version         : 4.1 May,31,2013
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-11-30T16:55Z
+     Date Removed             : 2015-03-03T13:10Z
+     Temperature Stabiliz.    : 21.0 +/- 1.0
+     Additional Information   : 
+
+3.5  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 02215
+     Firmware Version         : 4.1 May,31,2013
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-03-03T13:11Z
+     Date Removed             : 2015-07-20T18:35Z
+     Temperature Stabiliz.    : 21.5 +/- 1.0
+     Additional Information   : 
+
+3.6  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 02215
+     Firmware Version         : 4.1 May,31,2013
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-20T18:36Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 21.5 +/- 1.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM33429.20+GP  NONE
+     Serial Number            : 34547
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 4.7340
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-06-10T00:00Z
+     Date Removed             : 2001-10-13T09:37Z
+     Additional Information   : Antenna TRM33429.20+GP will be
+                              : changed to new antenna Zephyr
+
+4.2  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 423
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 4.7290
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-10-13T09:38Z
+     Date Removed             : 2013-03-30T09:00Z
+     Additional Information   : New antenna Zephyr now installed
+
+4.3  Antenna Type             : TPSCR.G5        TPSH
+     Serial Number            : 11138
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 4.7290
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH PN 100914 REV A 08MQO 9835
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2013-03-30T11:16Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna manufacture label:
+                              : TOPCON
+                              : P/N: 01-070801-01
+                              : S/N: 762-11138
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2001-06-01/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Lviv Polytechnic National University
+     Preferred Abbreviation   : NULP
+     Mailing Address          : 12, S.Bandera Str.,Lviv, 79013, UKRAINE
+     Primary Contact
+       Contact Name           : Stepan Savchuk
+       Telephone (primary)    : +380-32-258-21-81
+       Telephone (secondary)  : 
+       Fax                    : +380-32-258-26-98
+       E-mail                 : ssavchuk@polynet.lviv.ua
+     Secondary Contact
+       Contact Name           : Korneliy Tretjak
+       Telephone (primary)    : +380-032-258-22-34
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : kornel@polynet.lviv.ua
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TRM41249.00     NONE
+
+         -------------------+--------------------       <-- 0.0714 L1
+       /
+      +                     +                      +    <-- 0.0682 L2
+                                                 /
+         ----------------------------------------
+                    |                |
+                      |            |
+                       +----x----+                      <-- 0.0 ARP=TOP
+
+    <--                  0.33962                   --> EDGE
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                L2 : L2 Phase Center
+
+TPSCR.G5
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.0885  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+

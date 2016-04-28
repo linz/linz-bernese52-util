@@ -1,0 +1,388 @@
+     TBOB Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Volker Janssen
+     Date Prepared            : 2014-07-28
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tbob_20140507.log
+      Modified/Added Sections : 3.6,3.7
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Tibooburra 
+     Four Character ID        : TBOB
+     Monument Inscription     : 
+     IERS DOMES Number        : 59963M001
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.5 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1.2 m
+     Marker Description       : STAINLESS STEEL PLATE, THREADED SPIGOT
+     Date Installed           : 2010-06-07T00:00Z
+     Geologic Characteristic  : BEDROCK/SANDSTONE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : TS 12114 (SCIMS Number)
+
+
+2.   Site Location Information
+
+     City or Town             : Tibooburra
+     State or Province        : NSW
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4383697.974
+       Y coordinate (m)       : 3417851.087
+       Z coordinate (m)       : -3117540.126
+       Latitude (N is +)      : -292700.60688
+       Longitude (E is +)     : +1420326.70671
+       Elevation (m,ellips.)  : 191.151
+     Additional Information   : GDA94 coordinates (Reg 13)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355417
+     Firmware Version         : 7.53
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-06-07T12:00Z
+     Date Removed             : 2010-07-07T07:12Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355417
+     Firmware Version         : 8.00/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-07-07T07:12Z
+     Date Removed             : 2011-01-24T03:55Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355417
+     Firmware Version         : 8.01/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-01-24T03:55Z
+     Date Removed             : 2011-04-12T23:36Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355417
+     Firmware Version         : 8.10/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-04-12T23:36Z
+     Date Removed             : 2012-07-19T01:46Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355417
+     Firmware Version         : 8.51/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-07-19T01:46Z
+     Date Removed             : 2014-05-06T04:00Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355417
+     Firmware Version         : 8.71/3.822
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-05-06T04:00Z
+     Date Removed             : 2014-07-25T04:10Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355417
+     Firmware Version         : 8.71/3.823
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-07-25T04:10Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504GG      SCIS
+     Serial Number            : 200524
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000 m
+     Marker->ARP North Ecc(m) : 000.0000 m
+     Marker->ARP East Ecc(m)  : 000.0000 m
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 0305
+     Antenna Cable Type       : LMR400 / LMR400/ LMR400 
+     Antenna Cable Length     : 0.3 m / 34.3 m / 0.7 m
+     Date Installed           : 2010-06-07T12:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Surge Protection (Polyphaser MR50LNZ+15) and
+                              : Divider (Rojone AMA23012N) installed at receiver
+                              : end between 0.7 m and 34.3 m leads.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : PAROSCIENTIFIC MET4 
+       Manufacturer           : Paroscientific 
+       Serial Number          : 107284
+       Data Sampling Interval : 30 sec
+       Accuracy (% rel h)     : 2.0 % rel h
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : +0.43 m
+       Calibration date       : 
+       Effective Dates        : 2010-06-07/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 107284
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.08 hPa
+       Height Diff to Ant     : +0.43 m
+       Calibration date       : 
+       Effective Dates        : 2010-06-07/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : 107284
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.5 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : +0.43 m
+       Calibration date       : 
+       Effective Dates        : 2010-06-07/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NSW Land and Property Information
+     Preferred Abbreviation   : LPI 
+     Mailing Address          : 346 Panorama Avenue
+                              : Bathurst NSW 2795
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Simon McElroy
+       Telephone (primary)    : +61 2 6332 8300
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Simon.McElroy@lpi.nsw.gov.au
+     Secondary Contact
+       Contact Name           : Thomas Yan
+       Telephone (primary)    : +61 2 6332 8389
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Thomas.Yan@lpi.nsw.gov.au
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : Geoscience Australia
+                              : P.O. Box 2
+                              : Belconnen ACT 2616
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Michael Moore 
+       Telephone (primary)    : +61 2 6249 9052
+       Telephone (secondary)  : 0413 604169 (mobile)
+       Fax                    : +61 2 6249 9929
+       E-mail                 : Michael.Moore@ga.gov.au
+     Secondary Contact
+       Contact Name           : Ryan Ruddick 
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : +61 2 6249 9929
+       E-mail                 : Ryan.Ruddick@ga.gov.au
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      : Geoscience Australia (ftp://ftp.ga.gov.au)
+     Secondary Data Center    : CORSnet-NSW (http://www.corsnet.com.au)
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+     ARP: Antenna Reference Point
+     BCR: bottom of chokering
+     BPA: bottom of preamplifier
+     TCR: top of chokering
+     
+     LEIAT504GG
+
+                        +-------+                          <--  0.1393
+                      /           \
+                     |             |
+   +-----------------+-------------+-----------------+     <--  0.1012  TCR
+   |                                                 |
+   |                                                 |
+   |                                                 |
+   |                                                 |
+ +-+-------------------------------------------------+-+   <--  0.0378
+ +-------------------+-------------+-------------------+   <--  0.0345  BCR
+                     |             |
+                     |             |
+                     +------x------+                       <--  0.0000  BPA=ARP
+
+ <--                      0.3794                     -->

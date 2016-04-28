@@ -1,0 +1,633 @@
+
+     GODE Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Tatevik Shakhbandaryan
+     Date Prepared            : 2015-09-10
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : gode_20130130.log
+      Modified/Added Sections : 0,10.9
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : GGAO (Greenbelt)
+     Four Character ID        : GODE
+     Monument Inscription     : JPL 4006
+     IERS DOMES Number        : 40451M123
+     CDP Number               : none
+     Monument Description     : PILLAR
+       Height of the Monument : 0.5 m
+       Monument Foundation    : CONCRETE PIER
+       Foundation Depth       : 
+     Marker Description       : DIVOT on stainless steel plate
+     Date Installed           : 1993-04-02T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : See Question #5
+                              : There appears to be an error in Question #5,
+                              : Table "GORF 1993 HAVAGO ADJUSTMENT", the first
+                              : line indicates that CDP 7102 corresponds to
+                              : IERS-40451-DOMES#  M123. According to "IERS
+                              : Technical Note 20, Results and Analysis of the
+                              : ITRF94" March 1996, Table T2 "Directory of IERS
+                              : Stations" pT21, CDP 7102 corresponds to
+                              : 40451M102. GODE, 40451M123, does not have a CDP
+                              : number.
+
+
+2.   Site Location Information
+
+     City or Town             : Greenbelt
+     State or Province        : Maryland
+     Country                  : United States
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1130773.7180
+       Y coordinate (m)       : -4831253.5810
+       Z coordinate (m)       : 3994200.4220
+       Latitude (N is +)      : +390118.2193
+       Longitude (E is +)     : -0764936.5898
+       Elevation (m,ellips.)  : 14.5046
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 129
+     Firmware Version         : 93.06.08
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1993-04-17T00:00Z
+     Date Removed             : 1994-12-12T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : R148
+     Firmware Version         : 3.2
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1994-12-12T00:00Z
+     Date Removed             : 1999-05-18T14:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : R253-U
+     Firmware Version         : 3.3.32.2
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-05-18T14:45Z
+     Date Removed             : 2002-04-16T18:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : operated at 1s samprate
+                              : converted to 30s data at JPL
+                              : using do_npt with lfit_2 option
+
+3.4  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : R253-U
+     Firmware Version         : 3.3.32.5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2002-04-16T18:00Z
+     Date Removed             : 2002-05-03T19:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware update,
+                              : now run at 30s samprate
+
+3.5  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : T341-U
+     Firmware Version         : 3.3.32.5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2002-05-03T19:10Z
+     Date Removed             : 2006-04-10T13:10Z
+     Temperature Stabiliz.    : none
+     Additional Information   : failed receiver replacement
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520013801
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2006-04-11T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1993-04-17T00:00Z
+     Date Removed             : 2001-06-01T17:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2001-06-01T19:00Z
+     Date Removed             : 2012-07-07T00:10Z
+     Additional Information   : antenna electronics modified internally;
+                              : LNA replaced with lower NF unit,
+                              : bandpass element relocated from between
+                              : antenna element and LNA, to after LNA.
+                              : Note radome changes (on/off) in 2002 -
+                              : (local survey/testing)
+                              : DAY  Dome Removed   Dome Replaced
+                              : 135  13:30 UTC      21:30 UTC
+                              : 136  15:30 UTC      20:30 UTC
+                              : 141  14:00 UTC      19:00 UTC
+                              : 144  13:30 UTC      21:00 UTC
+                              : 148  13:30 UTC      21:00 UTC
+                              : 150  14:00 UTC      21:00 UTC
+                              : 151  13:30 UTC      21:00 UTC
+
+4.3  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-07-07T00:10Z
+     Date Removed             : 2012-07-21T23:15Z
+     Additional Information   : radome temporarily removed to facilitate
+                              : a NOAA/NGS site survey and to support
+                              : IGS activities regarding in-situ calibrations.
+                              : antenna amplifier failed antenna swap needed
+
+4.4  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220135750
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-07-24T17:35Z
+     Date Removed             : 2012-08-02T11:15Z
+     Additional Information   : temporary antenna installed
+                              : failed AOA/M_T antenna repaired
+                              : Trimble antenna removed
+
+4.5  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-08-07T13:19Z
+     Date Removed             : 2012-11-15T17:10Z
+     Additional Information   : antenna received new amplifier
+                              : AOA antenna reinstalled on monument
+
+4.6  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-11-15T17:10Z
+     Date Removed             : 2012-12-13T18:00Z
+     Additional Information   : the antenna once again failed and
+                              : a new amplifier was installed
+
+4.7  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-12-13T18:28Z
+     Date Removed             : 2013-01-30T17:00Z
+     Additional Information   : JPLA dome reinstalled
+
+4.8  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2013-01-30T17:00Z
+     Date Removed             : 2013-01-30T18:15Z
+     Additional Information   : JPLA dome removed.
+                              : See section 10.8 for additional information.
+
+4.9  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0614
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2013-01-30T18:15Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : JPLA dome reinstalled
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : see IGSMAIL #233
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1993-08-01/1999-11-03
+       Notes                  : clock steering disabled
+
+6.2  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1999-11-03/1999-11-05
+       Notes                  : clock steering enabled
+
+6.3  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1999-11-05/2002-06-03
+       Notes                  : clock steering disabled
+
+6.4  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2002-06-03/2002-06-25
+       Notes                  : clock steering enabled
+
+6.5  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2002-06-25/2008-02-04
+       Notes                  : clock steering disabled
+
+6.6  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-02-04/2008-02-04
+       Notes                  : clock steering disabled
+                              : during this minute the H-Maser lost
+                              : phase lock, and the LO was drifting
+
+6.7  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-02-04/2008-02-06
+       Notes                  : clock steering disabled
+                              : normal H-Maser operations
+
+6.8  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-02-06/2008-02-06
+       Notes                  : clock steering disabled
+                              : during this maintenance period the
+                              : H-Maser lost phase lock, and the
+                              : LO was drifting
+
+6.9  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-02-06/2011-03-02
+       Notes                  : clock steering disabled
+                              : normal H-Maser operations
+
+6.10 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2011-03-02/CCYY-MM-DD
+       Notes                  : a Sigma Tau Maser
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR/VLBI
+       Status                 : PERMANENT
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2002-05-15/2002-05-31
+     Event                    : see section 4.2 of sitelog for detail
+
+10.2 Date                     : 2003-09-10/2003-09-10
+     Event                    : Antenna removed/replaced for survey
+                              : (14:02-20:35UTC)
+
+10.3 Date                     : 2009-09-30/2009-09-30
+     Event                    : Radome removed/replaced for survey
+                              : (16:49-19:55UTC)
+
+10.4 Date                     : 2012-02-07/2012-02-07
+     Event                    : Transition from .soc to .ash data types.
+                              : For soc data types used soc2rnx to do the
+                              : conversion to RINEX data. For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX data.
+
+10.5 Date                     : 2012-02-28/2012-02-28
+     Event                    : Transition from .ash to .soc data types.
+                              : For ash data types used teqc directly to
+                              : do the conversion to RINEX data. For soc
+                              : data types using soc2rnx to do the conversion
+                              : to RINEX data.
+
+10.6 Date                     : 2012-07-09/2012-07-09
+     Event                    : NGS running levels to the choke ring.
+                              : There may be some temporary masking of the
+                              : satellites while work is being done around the
+                              : antenna.
+
+10.7 Date                     : 2012-07-21/2012-08-07
+     Event                    : LNA of AOA antenna failed while the in-situ
+                              : IGS dome calibration experiment was in process
+                              : (dome removed). A temporary Trimbe antenna was
+                              : installed while the AOA antenna was repaired.
+
+10.8 Date                     : 2013-01-30/2013-01-30
+     Event                    : Dome was removed from 17:00 to 18:15 UTC for
+                              : re-installation of the circulation fan,
+                              : charcoal, and sealing of dome base.
+
+10.9 Date                     : 2015-09-10/2015-09-10
+     Event                    : Transitioned from .soc to .ash data types.
+                              : For soc data types used soc2rnx to do the
+                              : conversion to RINEX data. For ash data types 
+                              : using teqc directly to do the conversion to 
+                              : RINEX data.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NASA Goddard Space Flight Center
+     Preferred Abbreviation   : GSFC
+     Mailing Address          : Space Geodesy Branch, Code 926.9
+                              : NASA/GSFC
+                              : Greenbelt, MD 20771 USA
+     Primary Contact
+       Contact Name           : Irv Diegel
+       Telephone (primary)    : 301-805-3959
+       Telephone (secondary)  : 
+       Fax                    : 301-805-3974
+       E-mail                 : Irv.Diegel@Honeywell.com
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA 91109 USA
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : UNAVCO Network Engineer
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 303-381-7451
+       E-mail                 : ggn-ops@ls.unavco.org
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+
+TURBOROGUE: AOA/M_T
+
+                         -----
+                     /     +     \                        <-- 0.128  L2
+                    |      +      |                       <-- 0.110  L1
+  +--------------------------------------------------+    <-- 0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035  BCR
+                    |             |
+                   =|             |
+                    +----+-x-+----+  ------------         <-- 0.000  BPA=ARP
+                         |   |                |
+                         |   |                |
+                         |   |              "Spike"
+                         |   |              6.14 cm
+                         \   /                |
+                          \ /                 |
+                           V                  |         Stainless-steel
+      =====================X========================    plate in concrete
+                                                        pier. "X" is survey
+                                                        reference point.
+<--                      0.381                       -->
+
+
+   ARP: Antenna Reference Point           BPA: Bottom of Preamplifier
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+
+
+
+
+

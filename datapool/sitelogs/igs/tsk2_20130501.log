@@ -1,0 +1,409 @@
+     TSK2 Site Information Form
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Tomoaki Furuya / Kazuki Sakai / Motomu Mandokoro
+     Date Prepared            : 2013-05-01
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tsk2_20121219.log
+      Modified/Added Sections : 3.4, 3.5
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : TSUKUBA2-A
+     Four Character ID        : TSK2
+     Monument Inscription     : 
+     IERS DOMES Number        : 21730S010
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 5
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1.5
+     Marker Description       : none
+     Date Installed           : 2003-05-07
+     Geologic Characteristic  : QUATERNARY CLAY
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : An replacement for TSKB (TBD)
+
+
+2.   Site Location Information
+
+     City or Town             : Tsukuba
+     State or Province        : Ibaraki
+     Country                  : Japan
+     Tectonic Plate           : North American plate
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3957184.109
+       Y coordinate (m)       : 3310231.726
+       Z coordinate (m)       : 3737703.956
+       Latitude (N is +)      : +360620.07
+       Longitude (E is +)     : +1400513.62
+       Elevation (m,ellips.)  : 69.93
+     Additional Information   : ITRF2000
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            : 21293
+     Firmware Version         : 1.24
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2003-05-07T09:44Z
+     Date Removed             : 2012-01-31T01:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS
+     Serial Number            : 00879
+     Firmware Version         : 3.4.0a3_qzs
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2012-01-31T01:00Z
+     Date Removed             : 2012-05-28T05:48Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS
+     Serial Number            : 5137K78455
+     Firmware Version         : 4.46
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2012-06-05T00:00Z
+     Date Removed             : 2012-07-13T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+QZSS
+     Serial Number            : 5137K78455
+     Firmware Version         : 4.46
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2012-07-13T00:00Z
+     Date Removed             : 2012-08-17T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+QZSS
+     Serial Number            : 5137K78455
+     Firmware Version         : 4.61
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2012-08-17T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     DOME
+     Serial Number            : 01515
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : N-lemo
+     Antenna Cable Length     : 60m
+     Date Installed           : 2003-05-07T09:44Z
+     Date Removed             : 2011-07-01T01:27Z
+     Additional Information   : Spherical radome
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 01515
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : N-lemo
+     Antenna Cable Length     : 60m
+     Date Installed           : 2011-07-01T01:27Z
+     Date Removed             : 2011-08-30T01:05Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM29659.00     DOME
+     Serial Number            : 01515
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : N-lemo
+     Antenna Cable Length     : 60m
+     Date Installed           : 2011-08-30T01:05Z
+     Date Removed             : 2012-01-30T01:30Z
+     Additional Information   : Spherical radome
+
+4.4  Antenna Type             : JAVRINGANT_DM   NONE
+     Serial Number            : 00577
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : N-lemo
+     Antenna Cable Length     : 60m
+     Date Installed           : 2012-01-30T01:30Z
+     Date Removed             : 2012-05-28T05:48Z
+     Additional Information   : 
+
+4.5  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 5129354202
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : N-lemo
+     Antenna Cable Length     : 60m
+     Date Installed           : 2012-06-05T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : CESIUM
+       Input Frequency        : 10MHz
+       Effective Dates        : 2003-05-07/2012-12-19
+       Notes                  : HP 5071A S/N 3608A00823
+
+6.2  Standard Type            : H-MASER
+       Input Frequency        : 10MHz
+       Effective Dates        : 2012-12-19
+       Notes                  : Anritsu SA0D05A 100000059
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1998-06-06
+       Notes                  : Geospatial Information Authority of Japan (GSI)
+                              : Tsukuba 32m Antenna
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geospatial Information Authority of Japan
+     Preferred Abbreviation   : GSI
+     Mailing Address          : Kitasato-1, Tsukuba-City, Ibaraki-Pref.,
+                              : 305-0811, JAPAN
+     Primary Contact
+       Contact Name           : IGS_group
+       Telephone (primary)    : 81-29-864-6266
+       Telephone (secondary)  : 81-29-864-1111
+       Fax                    : 81-29-864-6864
+       E-mail                 : igs-grp@gsi.go.jp
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : GSI
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+TRM59800.00
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+    ARP: Antenna Reference Point     BPA: Bottom of Preamplifter
+    L1 : L1 Phase Center             L2 : L2 Phase Center
+    TCR: Top of Chorkering           BCR: Bottom of Chorkering
+
+All dimensions are in meters.
+
+
+
+

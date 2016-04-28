@@ -1,0 +1,385 @@
+     SUR4 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Ahti Bloom
+     Date Prepared            : 2015-11-05
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : sur4_20150416.log
+      Modified/Added Sections : 3.6, 3.7
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Suurupi
+     Four Character ID        : SUR4
+     Monument Inscription     : 
+     IERS DOMES Number        : 10601M002
+     CDP Number               : (A4)
+     Monument Description     : top of the lighthouse
+       Height of the Monument : 21.20 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2011-09-21T11:53Z
+     Geologic Characteristic  : LIMESTONE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : The GPS antenna is mounted to the top of the
+                              : Suurupi lighthouse. The description is
+                              : following: there is a metal ladder with metal
+                              : handrail.Both are firmly welded in several
+                              : points of the cupola of the lighthouse.
+                              : On metal handrail is a metal plate - 8 mm thick,
+                              : it is fixed to handrail with 3 bolts.
+                              : In addition, the metal
+                              : plate has holes for fixing the tripod. The ends
+                              : of the tripod were threaded, which made it
+                              : possible to screw the tripod to the platform
+                              : with female screws. The tripod was provided
+                              : also with lift screws to ensure the horizontal
+                              : position of the antenna. The upper part of the
+                              : tripod consists of a triangular metal plate
+                              : with a hole in the middle for the bolting of
+                              : the antenna.
+                              : The height of the monument is above the local
+                              : ground plane.
+
+
+2.   Site Location Information
+
+     City or Town             : Tallinn
+     State or Province        : Harju
+     Country                  : Estonia
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2959057.237
+       Y coordinate (m)       : 1341058.492
+       Z coordinate (m)       : 5470426.795
+       Latitude (N is +)      : +592748.85
+       Longitude (E is +)     : +0242248.91
+       Elevation (m,ellips.)  :    84.3
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355252
+     Firmware Version         : 8.10/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-09-21T11:27Z
+     Date Removed             : 2011-10-04T10:15Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355252
+     Firmware Version         : 8.10/3.019
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-10-04T10:15Z
+     Date Removed             : 2011-10-06T08:03Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355252
+     Firmware Version         : 8.20/3.019
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-10-06T08:03Z
+     Date Removed             : 2011-11-17T09:34Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355252
+     Firmware Version         : 8.20/3.053
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-11-17T09:34Z
+     Date Removed             : 2013-05-20T10:33Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355252
+     Firmware Version         : 8.71/3.822
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-05-20T10:33Z
+     Date Removed             : 2015-04-16T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO
+     Serial Number            : 1831285
+     Firmware Version         : 3.11.1639/6.403
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-04-16T12:36Z
+     Date Removed             : 2015-11-04T21:05Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO
+     Serial Number            : 1831285
+     Firmware Version         : 3.22/6.521
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-11-04T21:05Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504GG      LEIS
+     Serial Number            : 200441
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : Leica 632390
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2011-09-21T11:27Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2011-09-21/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : ABSOLUTE GRAVIMETER JILag-5
+       Status                 : MOBILE
+       Effective Dates        : 1995-09-27/1995-09-29
+       Notes                  : Finnish Geodetic Institute
+
+7.2  Instrumentation Type     : ABSOLUTE GRAVIMETER FG5-220
+       Status                 : MOBILE
+       Effective Dates        : 2007-07-07/2007-07-09
+       Notes                  : Institut für Erdmessung,
+                              : Leibniz Universität Hannover (Germany)
+
+7.3  Instrumentation Type     : ABSOLUTE GRAVIMETER FG5-221
+       Status                 : MOBILE
+       Effective Dates        : 2008-07-15/2008-07-17
+       Notes                  : Finnish Geodetic Institute
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : METAL ROOF
+       Effective Dates        : 2011-09-21/CCYY-MM-DD
+       Additional Information : Antenna is placed on the top of the
+                              : metal cupola of lighthouse
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : ESTONIAN LAND BOARD
+     Preferred Abbreviation   : ELB
+     Mailing Address          : Mustamäe tee 51
+                              : 10602 Tallinn
+                              : Estonia
+     Primary Contact
+       Contact Name           : Karin Kollo
+       Telephone (primary)    : +372 66 50 674
+       Telephone (secondary)  : 
+       Fax                    : +372 66 50 604
+       E-mail                 : karin.kollo@maaamet.ee
+     Secondary Contact
+       Contact Name           : Ahti Bloom
+       Telephone (primary)    : +372 66 50 674
+       Telephone (secondary)  : 
+       Fax                    : +372 66 50 604
+       E-mail                 : ahti.bloom@maaamet.ee
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGE
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+LEIAT504GG
+
+                         +-------+                          <-- 0.1393
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.1012 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.0 BPA=ARP

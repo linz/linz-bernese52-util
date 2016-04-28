@@ -1,0 +1,601 @@
+
+     BZRG Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Nuccio Di Sclafani
+     Date Prepared            : 2015-07-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : bzrg_20141204.log
+      Modified/Added Sections : 3.14, 3.15
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Bolzano
+     Four Character ID        : BZRG
+     Monument Inscription     : Steel pillar on the roof of regional building
+     IERS DOMES Number        : 12751M001
+     CDP Number               : 
+     Monument Description     : STEEL PILLAR
+       Height of the Monument : 1.38 m
+       Monument Foundation    : CONCRETE BLOCK ON ROOF
+       Foundation Depth       : 18.5 m
+     Marker Description       : INCISION IN CENTER OF THE PILLAR'S UPPER PLATE
+     Date Installed           : 1997-05-14T00:00Z
+     Geologic Characteristic  : GRAVEL AND SAND
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Bolzano - Bozen
+     State or Province        : Alto Adige - Südtirol
+     Country                  : Italy
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4312657.7500
+       Y coordinate (m)       : 864634.3099
+       Z coordinate (m)       : 4603844.0502
+       Latitude (N is +)      : +462956.40
+       Longitude (E is +)     : +0112012.48
+       Elevation (m,ellips.)  : 328.8
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA SR399E
+     Satellite System         : GPS
+     Serial Number            : 61372
+     Firmware Version         : 3.07 / 1.20
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 1997-05-14T00:00Z
+     Date Removed             : 1999-01-25T14:13Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 11-SEP-1997 new Firmware Version n. 4.01
+                              : 28-NOV-1997 new Firmware Version n. 5.02
+
+3.2  Receiver Type            : LEICA SR9500
+     Satellite System         : GPS
+     Serial Number            : 1863
+     Firmware Version         : 5.04 / 1.20
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 1999-01-25T14:17Z
+     Date Removed             : 2000-11-29T09:08Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : LEICA CRS1000
+     Satellite System         : GPS
+     Serial Number            : 23155
+     Firmware Version         : 8.03
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2000-11-29T09:47Z
+     Date Removed             : 2004-10-28T14:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : (12 channel L1/L2,continuous reference station)
+
+3.4  Receiver Type            : LEICA GRX1200
+     Satellite System         : GPS
+     Serial Number            : 452176
+     Firmware Version         : 1.52/2.120
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-10-28T15:00Z
+     Date Removed             : 2005-03-02T11:25Z
+     Temperature Stabiliz.    : 
+     Additional Information   : (12 channel L1/L2,continuous reference station)
+
+3.5  Receiver Type            : LEICA SR530
+     Satellite System         : GPS
+     Serial Number            : 136795
+     Firmware Version         : 4.20/1.39
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-03-02T11:37Z
+     Date Removed             : 2005-04-21T09:05Z
+     Temperature Stabiliz.    : 
+     Additional Information   : (12 channel L1/L2,continuous reference station)
+
+3.6  Receiver Type            : LEICA GRX1200
+     Satellite System         : GPS
+     Serial Number            : 452176
+     Firmware Version         : 2.00/2.121
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2005-04-21T12:00Z
+     Date Removed             : 2007-12-12T10:09Z
+     Temperature Stabiliz.    : 
+     Additional Information   : (12 channel L1/L2,continuous reference station)
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355409
+     Firmware Version         : 5.60/3.014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-12-12T11:17Z
+     Date Removed             : 2008-06-02T17:28Z
+     Temperature Stabiliz.    : 
+     Additional Information   : (12 channel L1/L2,continuous reference station)
+
+3.8  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355409
+     Firmware Version         : 5.62/3.014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-06-02T18:39Z
+     Date Removed             : 2009-06-12T07:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : (12 channel L1/L2,continuous reference station)
+
+3.9  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355409
+     Firmware Version         : 5.62/3.017
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-06-12T07:00Z
+     Date Removed             : 2010-05-05T20:10Z
+     Temperature Stabiliz.    : 
+     Additional Information   : (12 channel L1/L2,continuous reference station)
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355409
+     Firmware Version         : 7.80/3.018
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-05-05T20:58Z
+     Date Removed             : 2010-05-06T14:10Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355409
+     Firmware Version         : 7.80/3.019
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-05-06T14:24Z
+     Date Removed             : 2010-07-05T09:22Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.12 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355409
+     Firmware Version         : 7.80/3.019
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-07-05T09:22Z
+     Date Removed             : 2012-02-16T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Set tracking of unhealthy satellites
+
+3.13 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 454401
+     Firmware Version         : 8.50/6.110
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-02-16T09:00Z
+     Date Removed             : 2014-12-02T13:28Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.14 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 454401
+     Firmware Version         : 9.20/6.404
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-12-02T13:28Z
+     Date Removed             : 2015-07-17T06:55Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.15 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 454401
+     Firmware Version         : 9.20/6.404
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-17T06:55Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT303        LEIC
+     Serial Number            : 2008
+     Antenna Reference Point  : TOP
+     Marker->ARP Up Ecc. (m)  : 0.2040
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIC
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1997-05-14T00:00Z
+     Date Removed             : 2000-11-29T00:00Z
+     Additional Information   : In date 31-DEC-1997 mounted on the antenna a
+                              : protection's cover for the snow (RADOME).
+                              : The id of the antenna type and radome type
+                              : conforms to RCVR_ANT.TAB file as specified in
+                              : IGSMail Number 2281.
+                              : No physical chance is otherwise implied in the
+                              : location of the antenna.
+                              : LEIAT303(old id LEICA AT303)= Micropulse
+                              : antenna L1/L2, with chokerings
+                              : LEIC = dome for LEIAT303 and LEIAT503,
+                              : conical shape.
+                              : TOP of Pole = Bottom of Chokering minus 0.005m.
+
+4.2  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 00261
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.2120
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2000-11-29T00:00Z
+     Date Removed             : 2002-05-25T10:21Z
+     Additional Information   : LEIAT504 = L1/L2 Dorne Margolin antenna with
+                              : chokerings designed after DORNE MARGOLIN T
+                              : LEIS = Dome for DORNE MARGOLIN LEICA, spherical
+                              : shape
+
+4.3  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 00679
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.2120
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2002-05-25T10:42Z
+     Date Removed             : 2002-07-08T13:43Z
+     Additional Information   : 
+
+4.4  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 000673
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.2120
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2002-07-08T13:45Z
+     Date Removed             : 2007-12-12T10:09Z
+     Additional Information   : 
+
+4.5  Antenna Type             : LEIAT504GG      LEIS
+     Serial Number            : 102153
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.2120
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2007-12-12T11:17Z
+     Date Removed             : 2012-02-16T09:00Z
+     Additional Information   : 
+
+4.6  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 725220
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.2120
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-02-16T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : BZRG (Stable pillar - 1997)
+     Tied Marker Usage        : VTS2V
+     Tied Marker CDP Number   : BZRG
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : VTS2V
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.2  Tied Marker Name         : BZR0 (Marker on the top of roof)
+     Tied Marker Usage        : VTS2V
+     Tied Marker CDP Number   : BZR0
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 13.0186
+       dy (m)                 : -8.9523
+       dz (m)                 : -13.1175
+     Accuracy (mm)            : 2 mm
+     Survey method            : VTS2V
+     Date Measured            : 1997-05-14T00:00Z
+     Additional Information   : 
+
+5.3  Tied Marker Name         : BZR1 (Stable pillar - 1992)
+     Tied Marker Usage        : VTS2V
+     Tied Marker CDP Number   : BZR1
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 0.1432
+       dy (m)                 : 3.4595
+       dz (m)                 : -1.1495
+     Accuracy (mm)            : 2 mm
+     Survey method            : VTS2V
+     Date Measured            : 1997-05-14T00:00Z
+     Additional Information   : 
+
+5.4  Tied Marker Name         : BZR2 (Marker on the rock)
+     Tied Marker Usage        : VTS2V
+     Tied Marker CDP Number   : BZR2
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 748.538
+       dy (m)                 : 348.616
+       dz (m)                 : -1193.311
+     Accuracy (mm)            : 6 mm
+     Survey method            : VTS2V
+     Date Measured            : 1997-05-14T00:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2000-11-29/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1997-05-14/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : AUTONOME PROVINZ BOZEN - SÜDTIROL
+                              : Abteilung 41 - Amt 41.2
+                              : PROVINCIA AUTONOMA DI BOLZANO
+                              : Ripartizione 41 - Ufficio 41.2
+     Preferred Abbreviation   : STPOS
+     Mailing Address          : Giorgio-Ambrosoli-Platz, 16 39100 Bozen,ITALY
+                              : Piazza Giorgio Ambrosoli,16 39100 Bolzano,ITALY
+     Primary Contact
+       Contact Name           : geom. Nuccio Di Sclafani
+       Telephone (primary)    : ++39.0471.417351
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : nuccio.disclafani@provincia.bz.it
+     Secondary Contact
+       Contact Name           : geom. Georg Valentin
+       Telephone (primary)    : ++39.0471.417354
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : georg-johannes.valentin@provinz.bz.it
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : ASI
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAT504GG
+
+                         +-------+                          <-- 0.1393
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.1012 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                     + <-- 0.0 BPA=ARP
+                           !   !                          |
+                           !   !                          |
+                           !   !                          |
+                           !   !                          |
+                           !   !                          |
+                           !   !                          |
+                           !   !                          |
+                           !   !                          | antenna height
+      +---------------------------------------------+     | = 0.212
+      +---------------------------------------------+     |
+          !!                                   !!         |
+          !!                                   !!         |
+          !!                                   !!         |
+          !!                                   !!         |
+          !!                                   !!         |
+       +--------------------(x)--------------------+      +   <-- Marker
+       +-------------------------------------------+
+        |                                         |
+        |  (x)  = (Marker on the top of pillar)   |
+        |                                         |
+        |                                         |
+        |                                         |
+
+  <--                      0.3794                      -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+

@@ -1,0 +1,951 @@
+     GOPE Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Jakub Kostelecky
+     Date Prepared            : 2015-06-25
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : gope_20140512.log
+      Modified/Added Sections : 3.7, 3.10, 3.11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Pecny, Ondrejov / CZ
+     Four Character ID        : GOPE
+     Monument Inscription     : 
+     IERS DOMES Number        : 11502M002
+     CDP Number               : 
+     Monument Description     : PILLAR ABOVE THE ROOF
+       Height of the Monument : 11.6 m
+       Monument Foundation    : ROOF OF BUILDING
+       Foundation Depth       : 3.6 m
+     Marker Description       : CENTER OF HOLE IN STEEL PLATE
+     Date Installed           : 1992-06-13T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 51-200 cm
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : Height of pillar above roof is 4.4 m.
+                              : Height of point above ground is 11.6 m.
+
+
+2.   Site Location Information
+
+     City or Town             : Ondrejov
+     State or Province        : Bohemia
+     Country                  : Czech Republic
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3979316.134
+       Y coordinate (m)       : 1050312.478
+       Z coordinate (m)       : 4857067.108
+       Latitude (N is +)      : +495449.34
+       Longitude (E is +)     : +0144708.24
+       Elevation (m,ellips.)  : 592.6
+     Additional Information   : ITRF2005, epoch 001/2005
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 2185
+     Firmware Version         : 5.52
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 1995-05-13T00:00Z
+     Date Removed             : 1997-06-10T23:59Z
+     Temperature Stabiliz.    : 22.0 +/- 4.0
+     Additional Information   : SN 3301A02185
+
+3.2  Receiver Type            : SPP GEOTRACER100
+     Satellite System         : GPS
+     Serial Number            : 1504
+     Firmware Version         : 4.34
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 1997-06-11T00:00Z
+     Date Removed             : 1997-06-19T19:15Z
+     Temperature Stabiliz.    : 22.0 +/- 4.0
+     Additional Information   : SN 3108A01504A
+
+3.3  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 2185
+     Firmware Version         : 7.24
+     Elevation Cutoff Setting : 15 deg
+     Date Installed           : 1997-06-20T00:00Z
+     Date Removed             : 1999-11-04T12:00Z
+     Temperature Stabiliz.    : 22.0 +/- 4.0
+     Additional Information   : SN 3301A02185
+
+3.4  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : 000113
+     Firmware Version         : 0064
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-11-04T13:00Z
+     Date Removed             : 2000-07-24T12:36Z
+     Temperature Stabiliz.    : 22.0 +/- 4.0
+     Additional Information   : SN ZX00113
+
+3.5  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 2185
+     Firmware Version         : 7.24
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2000-07-24T17:02Z
+     Date Removed             : 2000-10-04T11:00Z
+     Temperature Stabiliz.    : 22.0 +/- 4.0
+     Additional Information   : SN 3301A02185
+
+3.6  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : 000113
+     Firmware Version         : 0064
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2000-10-04T11:30Z
+     Date Removed             : 2001-07-18T11:00Z
+     Temperature Stabiliz.    : 22.0 +/- 4.0
+     Additional Information   : SN ZX00113
+
+3.7  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : 00113
+     Firmware Version         : 0065
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-07-18T12:00Z
+     Date Removed             : 2009-12-14T07:20Z
+     Temperature Stabiliz.    : 25.0 +/- 4.0
+     Additional Information   : SN ZX00113
+
+3.8  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 01308
+     Firmware Version         : 3.4 May,13,2009
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-12-14T10:30Z
+     Date Removed             : 2010-05-20T09:45Z
+     Temperature Stabiliz.    : 24.0 +/- 2.0
+     Additional Information   : air conditioning
+                              : SN 401-01308
+
+3.9  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 01308
+     Firmware Version         : 3.4 Dec,12,2009p2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-05-20T10:00Z
+     Date Removed             : 2013-03-19T22:00Z
+     Temperature Stabiliz.    : 21.0 +/- 1.0
+     Additional Information   : air conditioning
+                              : SN 401-01308
+
+3.10 Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 01308
+     Firmware Version         : 4.0 Aug,03,2012
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-03-19T22:00Z
+     Date Removed             : 2015-06-25T14:31Z
+     Temperature Stabiliz.    : 21.0 +/- 1.0
+     Additional Information   : air conditioning
+                              : SN 401-01308
+
+3.11 Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 01308
+     Firmware Version         : 4.0 Dec,21,2012 p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-06-25T15:21Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 21.0 +/- 1.0
+     Additional Information   : air conditioning
+                              : SN 401-01308
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 66682
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0464
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TRIMBLE PN 14551-00
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1995-05-13T00:00Z
+     Date Removed             : 1999-11-04T12:00Z
+     Additional Information   : Before 25-JUN-1999 antenna type in RINEX
+                              : files was marked as 4000ST L1/L2 GEOD
+                              : SN 3250A66682
+
+4.2  Antenna Type             : ASH701073.3     SNOW
+     Serial Number            : 000110
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0464
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH PN 100914 REV A 08MQO 9835
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1999-11-04T13:00Z
+     Date Removed             : 2000-07-24T12:36Z
+     Additional Information   : Antenna manufacture label:
+                              : Model: Choke Ring Antenna GG
+                              : Part No: 701073   Rev: 3
+                              : Serial No: CRG1998380110
+
+4.3  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 66682
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0464
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TRIMBLE PN 14551-00
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2000-07-24T17:02Z
+     Date Removed             : 2000-10-04T11:00Z
+     Additional Information   : SN 3250A66682
+
+4.4  Antenna Type             : ASH701946.3     SNOW
+     Serial Number            : 03301
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0464
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH PN 100914 REV A 08MQO 9835
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2000-10-04T11:30Z
+     Date Removed             : 2006-01-20T08:00Z
+     Additional Information   : Before 18-JUL-2001 12:00UT antenna type in
+                              : RINEX files was marked as ASH701946.022   SNOW
+                              : and serial number was 003301 (cutted to A5
+                              : for SINEX format)
+                              : Antenna manufacture label:
+                              : Model: Choke Ring Antenna GG
+                              : Part No: 701946-02  Rev: 3
+                              : Serial No: CR420003301
+
+4.5  Antenna Type             : ASH701946.3     SNOW
+     Serial Number            : 23102
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0467
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH PN 100914 REV A 08MQO 9835
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2006-01-24T11:00Z
+     Date Removed             : 2006-07-14T12:00Z
+     Additional Information   : Antenna manufacture label:
+                              : Model: Choke Ring Antenna GG
+                              : Part No: 701946-01  Rev: 3
+                              : Serial No: CR320023102
+
+4.6  Antenna Type             : TPSCR3_GGD      CONE
+     Serial Number            : 70184
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1114
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : CONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH PN 100914 REV A 08MQO 9835
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2006-07-14T12:50Z
+     Date Removed             : 2009-12-14T07:20Z
+     Additional Information   : Antenna manufacture label:
+                              : TOPCON
+                              : P/N: 01-031401-01
+                              : S/N: 217 0184
+
+4.7  Antenna Type             : TPSCR.G3        TPSH
+     Serial Number            : 30161
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1114
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH PN 100914 REV A 08MQO 9835+SPLITTER
+     Antenna Cable Length     : 32 m
+     Date Installed           : 2009-12-14T10:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna manufacture label:
+                              : TOPCON
+                              : P/N: 01-044301-01
+                              : S/N: 383-0161
+                              : Antenna is connected through 30 m cabel,
+                              : surge arrestor, two-way splitter and
+                              : 2 m cabel to receiver
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : EUREF 0209
+     Tied Marker Usage        : TRIANGULATION STATION
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 11502M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -65.9815
+       dy (m)                 : 84.6572
+       dz (m)                 : 33.1807
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1994-04-01T00:00Z
+     Additional Information   : The vector is referred to the reference point
+                              : of GOPE (mark on the top of the concrete
+                              : pillar) i.e. dx = x (0209) - x (GOPE).
+
+5.2  Tied Marker Name         : GOP3
+     Tied Marker Usage        : EXCENTRIC PILLAR
+     Tied Marker CDP Number   : GOP3
+     Tied Marker DOMES Number : 11502M003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.0465
+       dy (m)                 : 2.5846
+       dz (m)                 : -2.1997
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2008-03-01T00:00Z
+     Additional Information   : The vector is referred to the reference point
+                              : of GOPE (mark on the top of the concrete
+                              : pillar) i.e. dx = x (GOP3) - x (GOPE).
+                              : Date measured is mean epoch - results are
+                              : average form 24 days of measurement.
+
+5.3  Tied Marker Name         : GOP4
+     Tied Marker Usage        : EXCENTRIC PILLAR for GNSS TIME receiver
+     Tied Marker CDP Number   : GOP4
+     Tied Marker DOMES Number : 11502M004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.4312
+       dy (m)                 : 1.6166
+       dz (m)                 : -2.3066
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2008-03-03T00:00Z
+     Additional Information   : The vector is referred to the reference point
+                              : of GOPE (mark on the top of the concrete
+                              : pillar) i.e. dx = x (GOP4) - x (GOPE).
+                              : Date measured is mean epoch - results are
+                              : average form 44 days of measurement.
+
+5.4  Tied Marker Name         : GOP5
+     Tied Marker Usage        : EXCENTRIC PILLAR
+     Tied Marker CDP Number   : GOP5
+     Tied Marker DOMES Number : 11502M005
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.8196
+       dy (m)                 : 0.6237
+       dz (m)                 : -2.4174
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2008-03-02T00:00Z
+     Additional Information   : The vector is referred to the reference point
+                              : of GOPE (mark on the top of the concrete
+                              : pillar) i.e. dx = x (GOP5) - x (GOPE).
+                              : Date measured is mean epoch - results are
+                              : average form 26 days of measurement.
+
+5.5  Tied Marker Name         : GOP6
+     Tied Marker Usage        : EXCENTRIC PILLAR
+     Tied Marker CDP Number   : GOP6
+     Tied Marker DOMES Number : 11502M006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 3.2001
+       dy (m)                 : -0.3343
+       dz (m)                 : -2.5319
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2008-02-24T00:00Z
+     Additional Information   : The vector is referred to the reference point
+                              : of GOPE (mark on the top of the concrete
+                              : pillar) i.e. dx = x (GOP6) - x (GOPE).
+                              : Date measured is mean epoch - results are
+                              : average form 36 days of measurement.
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1995-05-13/2009-12-14
+       Notes                  : exact end date: 2009-12-14T07:20Z
+
+6.2  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2009-12-14/CCYY-MM-DD
+       Notes                  : exact start date: 2009-12-14T10:30Z
+                              : Symmetricom 5071A cesium atomic clock
+                              : Frequency steered to national standard
+                              : TP (Tempus Pragensis) by GNSS time transfer
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VISUAL ASTROMETRY
+       Status                 : PERMANENT
+       Effective Dates        : 1970-01-01/CCYY-MM-DD
+       Notes                  : Circumzenithal VUGTK 100/1000
+                              : Exact date in 1970 not known
+
+7.2  Instrumentation Type     : EARTH TIDAL GRAVIMETER
+       Status                 : PERMANENT
+       Effective Dates        : 1976-04-22/CCYY-MM-DD
+       Notes                  : Askania GS15 (No.228)
+                              : Tidal station ICET No. 0930 Pecny
+
+7.3  Instrumentation Type     : ABSOLUTE GRAVIMETER
+       Status                 : PERMANENT
+       Effective Dates        : 1978-10-04/CCYY-MM-DD
+       Notes                  : Epoch measurements in 1978, 1983, 1986, 1992,
+                              : 1993, 2x 1995, 1996, 1997, 2x 1998, 2000,
+                              : periodically from 2001 (own FG5 No. 215)
+
+7.4  Instrumentation Type     : SUPERCONDUCTING GRAVIMETER
+       Status                 : PERMANENT
+       Effective Dates        : 2007-02-14/CCYY-MM-DD
+       Notes                  : GWR OSG-050
+                              : GGP station PE
+
+7.5  Instrumentation Type     : SEISMOMETER
+       Status                 : PERMANENT
+       Effective Dates        : 2009-05-14/CCYY-MM-DD
+       Notes                  : Very-broad-band seismometer Guralp CMG-3TD
+                              : instaled in 60 m depth borehole
+                              : Seismic station GOPC
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HG421.65
+       Manufacturer           : COMET, Czech Republic
+       Serial Number          : 9843035
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : 3.0
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.23 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1999-11-04/2009-04-15
+       Notes                  : older sensor since 1996
+
+8.1.2  Humidity Sensor Model  : HG421.65
+       Manufacturer           : COMET SYSTEM, Czech Republic
+       Serial Number          : 02430108
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : 3.0
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.55 m
+       Calibration date       : 2009-04-17
+       Effective Dates        : 2009-04-15/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : TMAG 518 R3F
+       Manufacturer           : CRESSTO, Roznov p. R., Czech Republic
+       Serial Number          : 491/98
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.4 hPa
+       Height Diff to Ant     : -0.18 m
+       Calibration date       : 2001-07-26
+       Effective Dates        : 1999-11-04/2001-05-24
+       Notes                  : older sensor since 1990
+
+8.2.2  Pressure Sensor Model  : TMAG 518 Z3F
+       Manufacturer           : CRESSTO, Roznov p. R., Czech Republic
+       Serial Number          : 713/01
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.4 hPa
+       Height Diff to Ant     : -0.18 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-05-24/2002-05-03
+       Notes                  : 
+
+8.2.3  Pressure Sensor Model  : TMAG 518 N4F
+       Manufacturer           : CRESSTO, Roznov p. R., Czech Republic
+       Serial Number          : 1118/01
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.4 hPa
+       Height Diff to Ant     : -0.18 m
+       Calibration date       : 2001-07-26
+       Effective Dates        : 2002-05-03/2009-12-14
+       Notes                  : 
+
+8.2.4  Pressure Sensor Model  : T7410
+       Manufacturer           : COMET SYSTEM, Czech Republic
+       Serial Number          : 08960984
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.4 hPa
+       Height Diff to Ant     : -0.43 m
+       Calibration date       : 2009-04-17
+       Effective Dates        : 2009-12-14/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : NS520.65-120
+       Manufacturer           : COMET, Czech Republic
+       Serial Number          : 9838033
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.4 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : -0.27 m
+       Calibration date       : 
+       Effective Dates        : 1999-11-04/2009-04-15
+       Notes                  : older sensor since 1996
+
+8.3.2  Temp. Sensor Model     : NS520.65-120
+       Manufacturer           : COMET, Czech Republic
+       Serial Number          : 9838033
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.4 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : -0.50 m
+       Calibration date       : 2009-04-17
+       Effective Dates        : 2009-04-15/CCYY-MM-DD
+       Notes                  : moved to new meteorologic chamber
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : TP/WVP-3000
+       Manufacturer           : RADIOMETRICS, USA
+       Serial Number          : 3025
+       Distance to Antenna    : 1.14 m
+       Height Diff to Ant     : 0.10 m
+       Calibration date       : 2006-09-14
+       Effective Dates        : 2006-09-11/CCYY-MM-DD
+       Notes                  : 
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : wind direction
+                              : Vaisala, FI
+                              : model WAV151
+
+8.5.2  Other Instrumentation  : wind speed
+                              : Vaisala, FI
+                              : model WAA151
+
+8.5.3  Other Instrumentation  : precipitation gauge
+                              : Meteoservis, CZ
+                              : model MR3H (heated)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : TREES
+       Effective Dates        : 1995-05-13/2001-12-17
+       Additional Information : 2001-10-25/2001-12-17 reduction obstructions
+                              : in elevation angles between 10 and 25 degrees
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Research Institute of Geodesy, Topography
+                              : and Cartography, p.r.i.
+                              : Geodetic Observatory Pecny
+     Preferred Abbreviation   : RIGTC GOP
+     Mailing Address          : Geodetic Observatory Pecny
+                              : CZ-25165 Ondrejov 244, Czech Republic
+     Primary Contact
+       Contact Name           : Jakub Kostelecky
+       Telephone (primary)    : ++420 323649235
+       Telephone (secondary)  : 
+       Fax                    : ++420 323649236
+       E-mail                 : jakub.kostelecky@pecny.cz
+     Secondary Contact
+       Contact Name           : Jan Dousa
+       Telephone (primary)    : ++420 323649235
+       Telephone (secondary)  : 
+       Fax                    : ++420 323649236
+       E-mail                 : jan.dousa@pecny.cz
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : OLG
+     Secondary Data Center    : BKG
+     URL for More Information : http://www.pecny.cz
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TRM14532.00 (former name 4000ST L1/L2 GEOD)
+
+                         ----+----                          <-- 0.070 L1
+                      /      +      \                       <-- 0.068 L2
+  ++----------------+-----------------+-----------------++  <-- 0.063 TGP
+  ++---------------+-------------------+----------------++  <-- 0.060 BGP
+                   |                   |
+                    |                 |
+                     |               |
+                      +------x------+                     <-- 0.0 ARP=BPA
+
+                      <--  0.140  -->                             BPA
+                   <--     0.155     -->                          TPA
+   <--                     0.467                      -->         NOTCHES
+  <--                      0.483                       -->        EDGE
+
+
+
+
+ASH701073.3 SNOW  (= 701073 RADOME)
+
+                        . --- .                           <--  0.420
+                     .           .
+                    /             \
+                   .               .
+
+                 /                   \
+                .                     .
+
+               /                       \
+              .                         .
+
+             /                           \
+            .                             .
+
+           /                               \
+          .                                 .
+
+         /                                   \
+        .                                     .
+
+       /                                       \
+      .                                         .
+
+     /                                           \
+    .                                             .
+
+   /                                               \
+  .                      .---.                      .     <-- 0.140
+                       /       \
+ +                   /     +     \                   +    <-- 0.128 L2
+ .                  |      +      |                  .    <-- 0.110 L1
+ |+-------------------------------------------------+|    <-- 0.101 TCR
+ .|                                                 |.
+ ||                                                 ||
+ .|                                                 |.
+ +|                                                 |+
++-+-------------------------------------------------+-+   <-- 0.038
++-------------------+-------------+-------------------+   <-- 0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 ARP=BPA
+
+                    <--  0.120  -->                               Preamp
+  <--                    0.360                    -->             Ch.Ring
+ <--                     0.374                     -->            Dome
+<--                      0.380                      -->           Gr.Plate
+
+
+
+
+ASH701946.3   SNOW   (former name ASH701946.022 SNOW)
+
+                        . --- .                           <--  0.420
+                     .           .
+                    /             \
+                   .               .
+
+                 /                   \
+                .                     .
+
+               /                       \
+              .                         .
+
+             /                           \
+            .                             .
+
+           /                               \
+          .                                 .
+
+         /                                   \
+        .                                     .
+
+       /                                       \
+      .                                         .
+
+     /                                           \
+    .                                             .
+
+   /                                               \
+  .                      .---.                      .     <-- 0.140
+                       /       \
+ +                   /     +     \                   +    <-- 0.1284 L2
+ .                  |      +      |                  .    <-- 0.1098 L1
+ |+-------------------------------------------------+|    <-- 0.1012 TCR
+ .|                                                 |.
+ ||                                                 ||
+ .|                                                 |.
+ +|                                                 |+
++-+-------------------------------------------------+-+   <-- 0.0380
++-------------------+-------------+-------------------+   <-- 0.0349 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 ARP=BPA
+
+                    <--  0.119  -->                               Preamp
+  <--                    0.360                    -->             Ch.Ring
+ <--                     0.373                     -->            Dome
+<--                      0.379                      -->           Gr.Plate
+
+
+
+TPSCR3_GGD      CONE
+                            _                              <-- 0.33
+                           / \
+                          /   \
+                         /     \
+                        /       \
+                       /         \
+                      /           \
+                     /             \
+                    /               \
+                   /                 \
+                  /                   \
+                 /                     \
+                /                       \
+               /                         \
+              /                           \
+             /                             \
+            /                               \
+           /                                 \
+          /                                   \
+         /                                     \
+        /                                       \
+       /                                         \
+      /                                           \
+     /                  ---------                  \
+    /                 /     +     \                 \      <-- 0.104 L2
+   /                 |      +      |                 \     <-- 0.081 L1
+  |+-------------------------------------------------+|    <-- 0.071 TCR
+  ||                                                 ||
+   |                                                 |     <-- 0.051 BofRadome
+   |                                                 |
+   |                                                 |
+   +-----------------+-------------+-----------------+     <-- 0.003 BCR
+                      +-----x-----+                        <-- 0.0 BPA=ARP
+
+   <--                    0.326                    -->
+  <--                     0.331                     -->
+
+
+TPSCR.G3        TPSH
+
+                   ___-----------___                      <--  0.29
+               _ --                 -- _
+             /                           \
+          /                                 \
+        /                                     \
+      /                                         \
+     /                                           \
+    /                  +-------+                  \
+   |                 /           \                 |
+  |                 |             |                 |
+ |+-----------------+-------------+-----------------+|    <--  0.1015  TCR
+ ||                                                 ||
+ ||                                                 ||
+ ||                                                 ||
+ ||                                                 ||
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+
+
+
+TPSCR.G3        TPSH   (after 2009-12-14)
+
+                    ___-----------___                     <--  0.40
+                _ --                 -- _
+              /                           \
+           /                                 \
+         /                                     \
+       /                                         \
+      /                                           \
+     /                  +-------+                  \
+    |                 /           \                 |
+   |                 |             |                 |
+  |+-----------------+-------------+-----------------+|   <--  0.2129  TCR
+  ||                                                 ||
+  ||                                                 ||
+  ||                                                 ||
+  ||                                                 ||
+ +-+-------------------------------------------------+-+
+ +-------------------+-------------+-------------------+  <--  0.1459  BCR
+                     |             |
+                     |             |
+                     +------x------+                      <--  0.1114  BPA=ARP
+                        |       |
+                        |       |
+                        |       |
+                      +-+-------+-+
+                      |           |
+                      |           |
+Reference Point => +------- x -------+                    <-- 0.0000
+                   |                 |
+                   |                 |
+Monument =>  +-----------------------------+
+             |                             |
+             |       Concrete Pillar       |
+             |                             |
+             |                             |
+Building => ------------------------------------
+
+
+ARP: Antenna Reference Point
+

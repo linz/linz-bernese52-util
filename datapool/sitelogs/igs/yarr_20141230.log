@@ -1,0 +1,461 @@
+
+     YARR Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ryan Ruddick
+     Date Prepared            : 2014-12-30
+     Report Type              : Update
+     If Update:
+      Previous Site Log       : yarr_20111004.log
+      Modified/Added Sections : 3.4,3.5,3.6,6.1,6.2,11,13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : AU053
+     Four Character ID        : YARR
+     Monument Inscription     : 
+     IERS DOMES Number        : 50107M006
+     CDP Number               : 
+     Monument Description     : PLATE/STEEL
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1998-08-22T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Jurassic Yaragadee Formation; sandstone,
+                              : siltstone, shale. The terrain is covered
+                              : by low scrub. The site is on the edge of
+                              : an escarpment running northeast from which
+                              : a flat plateau extends towards the north.
+                              : Geologic Province
+
+
+2.   Site Location Information
+
+     City or Town             : Dongara
+     State or Province        : Western Australia
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2389024.506
+       Y coordinate (m)       : 5043315.359
+       Z coordinate (m)       : -3078534.163
+       Latitude (N is +)      : -290247.74
+       Longitude (E is +)     : +1152049.09
+       Elevation (m,ellips.)  : 241.382
+     Additional Information   : These positions are preliminary.
+                              : A precision survey of all points 
+                              : at the Yaragadee site was carried 
+                              : out in late August 1998. The reductions
+                              : and final coordinates are not yet completed.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX00104
+     Firmware Version         : 
+     Elevation Cutoff Setting : 
+     Date Installed           : 1998-09-17T00:00Z
+     Date Removed             : 2003-08-11T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Receiver sent for repairs
+
+3.2  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX00104
+     Firmware Version         : 
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-11-27T00:00Z
+     Date Removed             : 2008-05-09T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Receiver returned following repairs
+
+3.3  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 462888
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-09-24T00:00Z
+     Date Removed             : 2011-10-04T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 462888
+     Firmware Version         : 8.20/2.125
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-10-04T00:00Z
+     Date Removed             : 2012-12-12T23:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 462888
+     Firmware Version         : 8.20/2.127
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-12-12T23:00Z
+     Date Removed             : 2014-12-26T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 495613
+     Firmware Version         : 9.20/6.404
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-12-26T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701073.1     DOME
+     Serial Number            : CRG0105
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0045
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1998-08-17T00:00Z
+     Date Removed             : 2007-10-04T03:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAT504        NONE
+     Serial Number            : 103314
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0045
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2007-10-04T03:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : RM-4
+     Tied Marker Usage        : GPS Mark
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 50107M004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -1.033
+       dy (m)                 : 1.515
+       dz (m)                 : 3.425
+     Accuracy (mm)            : 10 mm
+     Survey method            : Terrestrial Connection
+     Date Measured            : 1998-08-24T00:00Z
+     Additional Information   : Main GPS mark
+
+5.2  Tied Marker Name         : MOBLAS 5 Monu 7090
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 7090
+     Tied Marker DOMES Number : 50107M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1998-08-24T00:00Z
+     Additional Information   : Survey completed but results not yet available.
+
+5.3  Tied Marker Name         : Intersection of axes
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 50107S007
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1998-08-24T00:00Z
+     Additional Information   : Survey completed but results not yet available.
+
+5.4  Tied Marker Name         : Doris Refernce Point
+     Tied Marker Usage        : DORIS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 50107S006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1998-08-24T00:00Z
+     Additional Information   : Survey completed but results not yet available.
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2000-10-19/2014-12-23
+       Notes                  : Truetime GPS Time and Frequency receiver
+                              : e removed unknown
+
+6.2  Standard Type            : INTERNAL 
+       Input Frequency        : 
+       Effective Dates        : 2014-12-24/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR MOBLAS-5
+       Status                 : PERMANENT
+       Effective Dates        : 1979-07-01/CCYY-MM-DD
+       Notes                  : 
+
+7.2  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1992-09-14/CCYY-MM-DD
+       Notes                  : Alcatel antenna (type A)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : Geoscience Australia
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : ryan.ruddick@ga.gov.au
+     Secondary Contact
+       Contact Name           : Nicholas Brown
+       Telephone (primary)    : +61 2 6249 9831
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : nicholas.brown@ga.gov.au
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : Y
+       Horizon Mask           : N
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+
+             TURBOROGUE: DORNE MARGOLIN T
+
+                         -----
+                     /     +     \                        <--  0.128  
+L2
+                    |      +      |                       <--  0.110  
+L1
+  +-----------------+-------------+------------------+    <--  0.102  
+TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  
+BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.000  
+ARP
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   
+   
+LEIAT504
+LEIAT504GG
+
+                       +-------+                          <--  0.1393
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1012  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0378
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                                       NOM=NRP
+<--                      0.3794                     -->
+
+
+
+

@@ -1,0 +1,242 @@
+     KABR Site Information Form
+     International GPS Service for Geodynamics
+
+0.   Form
+
+     Prepared by (full name)  : Einat Salmon (Survey of Israel)
+     Date Prepared            : 2004-12-05
+     Report Type              : UPDATED
+     If Update:
+      Previous Site Log       : kabr_log.txt
+      Modified/Added Sections : 9,10
+
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Kibutz Kabri
+     Four Character ID        : KABR
+     Monument Inscription     :
+     IERS DOMES Number        : 20709S001
+     CDP Number               :
+     Date Installed           : 24-SEP-1998
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       :
+       Notes                  :
+     Additional Information   :
+
+
+2.   Site Location Information
+
+     City or Town             : Kibutz Kabri
+     State or Province        :
+     Country                  : Israel
+     Tectonic Plate           : Sinai Sub-plate (Africa)
+     Approximate Position
+       X coordinate (m)       : 4377310.2 (m)
+       Y coordinate (m)       : 3081538.1 (m)
+       Z coordinate (m)       : 3456142.8 (m)
+       Latitude (deg)         :  33.0228 N
+       Longitude (deg)        : 035.1448 E
+       Elevation (m)          :    119.4  (m)
+     Additional Information   :
+
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Serial Number            : LP03144
+     Firmware Version         : 1F50-1D02
+     Date Installed           : 1998-07-10
+     Date Removed             : 2000-01-31
+     Additional Information   :
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Serial Number            : LP03144
+     Firmware Version         : CD00
+     Date Installed           : 2000-01-31
+     Date Removed             : 2007-02-28
+     Additional Information   :
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Serial Number            : 352433
+     Firmware Version         : 7.50
+     Date Installed           : 2007-02-28
+     Date Removed             :
+     Additional Information   :
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : ASH700936D_M    SNOW
+     Serial Number            : CR15924
+     Antenna Height (m)       : 0.000 (m)
+     Antenna Reference Point  : BPA
+     Degree Offset from North :
+     Antenna Radome Type      : SNOW
+     Date Installed           : 1998-06-10
+     Date Removed             : 2000-05-13
+     Additional Information   :
+
+4.2  Antenna Type             : ASH701945C_M    SNOW
+     Serial Number            : CR519991719
+     Antenna Height (m)       : 0.000 (m)
+     Antenna Reference Point  : BPA
+     Degree Offset from North :
+     Antenna Radome Type      : SNOW
+     Date Installed           : 2000-05-13
+     Date Removed             :
+     Additional Information   : Antenna shift due to replacement is:
+                                -1mm N, -2mm E, +2mm U
+
+5.   Local Site Ties
+
+5.x  Monument Name            : KABR
+     Site Ref CDP Number      : (XXXX)
+     Site Ref Domes Number    :
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            :
+     Date Measured            :
+     Additional Information   :
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Frequency              :
+       Effective Dates        :
+       Notes                  :
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     :
+       Status                 :
+       Effective Dates        :
+       Notes                  :
+
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    : MET3
+       Manufacturer           : Parosicientific
+       Data Frequency         :
+       Accuracy (% rel h)     : 2.
+       Effective Dates        : 20-FEB-2000
+       Notes                  : Serial number is 57367
+
+8.2  Pressure Sensor Model    : MET3
+       Manufacturer           : Parosicientific
+       Data Frequency         :
+       Accuracy (mbar)        : .5
+       Height Diff to GPS (m) : (m)
+       Effective Dates        : 20-FEB-2000
+       Notes                  : Serial number is 57367
+
+8.3  Temperature Sensor Model : MET3
+       Manufacturer           : Parosicientific
+       Data Frequency         :
+       Accuracy (deg C)       : .5
+       Effective Dates        : 20-FEB-2000
+       Notes                  : Serial number is 57367
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    : (m)
+       Elev Diff to GPS (m)   : (m)
+       Effective Dates        : (dd-MMM-YYYY
+       Notes                  : (multiple lines)
+
+8.5  Other Instrumentation    : (multiple lines)
+
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Survey of Israel
+     Preferred Abbreviation   : SOI
+     Mailing Address          : 1 Lincoln St.
+                              : Tel-Aviv, 65220
+                              : Israel
+     Primary Contact
+       Contact Name           : Moshe Rozenbloom
+       Telephone (primary)    : +972-3-623-1975
+       Telephone (secondary)  : +972-57705667
+       Fax                    : 1815
+       E-mail                 : rozenblm@mapi.gov.il
+     Secondary Contact
+       Contact Name           : Marina Kozakov
+       Telephone (primary)    : +972-3-623-1993
+       Telephone (secondary)  : +972-57203602
+       Fax                    : 1815
+       E-mail                 : sade@mapi.gov.il
+     Additional Information   : (multiple lines)
+
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : GSM Navigation&survey
+     Preferred Abbreviation   : GSM
+
+     Mailing Address          : 19 Hadror St
+                              : Ramat-hasharon
+                              : Israel
+     Primary Contact
+       Contact Name           : Shmuael Grossman
+       Telephone (primary)    : +972-3-547-4022
+       Telephone (secondary)  : +972-50267903
+       Fax                    : +972-3-547-4021
+       E-mail                 : gsmsam@netvision.net.il
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Map               : (Y)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     (insert text graphic)
+
+             ASHTECH Choke Ring (& White Conical Radome)
+
+                         -----
+                     /     +     \                        <-- 0.128  L2
+                    |      +      |                       <-- 0.110  L1
+  +--------------------------------------------------+    <-- 0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038  BCR
++-------------------+-------------+--------------------+  <-- 0.035  BGP
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.000  m ARP=BPA
+
+<--                      0.381                       -->
+
+     NOTE: Dimensions and Offsets Presumed to be same
+           as for TURBOROGUE DM-T (tests pending)
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   PED: Bottom of Pedestal (DM Modified for ASHTECH)

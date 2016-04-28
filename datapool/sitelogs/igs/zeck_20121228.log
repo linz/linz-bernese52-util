@@ -1,0 +1,631 @@
+     ZECK Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Iskander Gayazov
+     Date Prepared            : 2012-12-28
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : zeck_20110822.log
+      Modified/Added Sections : 8.1.1, 8.1.2, 8.2.1, 8.2.2, 8.2.3, 8.3.1, 8.3.2,
+                              : 8.3.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Zelenchukskaya / Russia
+     Four Character ID        : ZECK
+     Monument Inscription     : 201
+     IERS DOMES Number        : 12351M001
+     CDP Number               : (A4)
+     Monument Description     : CONCRETE PILLAR ON THE ROOF
+       Height of the Monument : 1.0 m
+       Monument Foundation    : CONCRETE PILLAR ANCHORED ON THE ROOF
+       Foundation Depth       : (m)
+     Marker Description       : SURVEY MARKER BOLT
+     Date Installed           : 1997-07-11T00:00Z
+     Geologic Characteristic  : Clay, pebble, loam
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Upper stratum (thickness 0.3 - 0.5 m) -
+                              : loamy soil
+                              : beneath (thickness 0.7 - 2.3 m) -
+                              : clay + detritus
+                              : beneath (thickness 3.5 m) -
+                              : pebble + loam
+                              : beneath (thickness 10 - 12 m) -
+                              : pebble + boulders + sand
+                              : terrace - Jurassic gray argillite with
+                              : sand interlayers.
+                              : Concrete pillar on flat roof of 2-story
+                              : laboratory building, mark 201,
+                              : 16 m above the ground.
+                              : The bedrock type is METAMORPHIC, also.
+
+
+2.   Site Location Information
+
+     City or Town             : Zelenchukskaya
+     State or Province        : Karachaevo-Cherkesia
+     Country                  : Russian Federation
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3451175.15
+       Y coordinate (m)       : 3060335.95
+       Z coordinate (m)       : 4391955.97
+       Latitude (N is +)      : +431718.21
+       Longitude (E is +)     : +0413354.23
+       Elevation (m,ellips.)  :  1166.8
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T317
+     Firmware Version         : 3.2.32.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1997-07-11T00:00Z
+     Date Removed             : 1997-11-28T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T399
+     Firmware Version         : 3.2.32.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1997-11-28T00:00Z
+     Date Removed             : 1999-07-29T06:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T399
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-07-29T07:20Z
+     Date Removed             : 2001-07-12T13:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : T-322U
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2001-07-12T13:00Z
+     Date Removed             : 2005-10-18T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02415
+     Firmware Version         : CD00-1D02
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-07-30T00:00Z
+     Date Removed             : 2011-08-18T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00180
+     Firmware Version         : 3.2.7 May,16,2011
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-08-18T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 289
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1997-07-11T00:00Z
+     Date Removed             : 2001-07-12T13:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 290
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-07-12T13:00Z
+     Date Removed             : 2005-10-18T00:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : ASH700936D_M    SNOW
+     Serial Number            : CR13723
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2006-07-30T00:00Z
+     Date Removed             : 2010-06-08T10:29Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : ASH700936D_M    NONE
+     Serial Number            : CR13723
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-06-08T10:30Z
+     Date Removed             : 2010-07-26T06:09Z
+     Additional Information   : (multiple lines)
+
+4.5  Antenna Type             : ASH700936D_M    SNOW
+     Serial Number            : CR13723
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-07-26T06:10Z
+     Date Removed             : 2011-08-18T11:00Z
+     Additional Information   : (multiple lines)
+
+4.6  Antenna Type             : JAVRINGANT_DM   JVDM
+     Serial Number            : 00314
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0450
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : JVDM
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : 8D-FB PEEG MIL-C-17D
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2011-08-18T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Degree Offset from North : < 5
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 209
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 242.884
+       dy (m)                 : -105.740
+       dz (m)                 : -134.047
+     Accuracy (mm)            : < 6
+     Survey method            : GPS
+     Date Measured            : 1994-09-03T10:00Z
+     Additional Information   : measured with GPS in 1994;
+                              : ground mark;
+                              : was used as main Zelencukskaya mark
+                              : during PEKA'93 and PEKA'94 campaigns
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1997-07-11/1997-11-27
+       Notes                  : Rogue SNR-8000 S/N T317
+                              : used H-Maser for input
+                              : reference oscillator
+
+6.2  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1997-11-28/2009-05-12
+       Notes                  : (multiple lines)
+
+6.3  Standard Type            : EXTERNAL H-MASER CH1-80
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2009-05-13/2011-05-27
+       Notes                  : Use H-Maser for external
+                              : input reference oscillator
+
+6.4  Standard Type            : EXTERNAL H-MASER VCH-1003M
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2011-05-28/CCYY-MM-DD
+       Notes                  : Use H-Maser for external
+                              : input reference oscillator
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GLONASS receiver
+       Status                 : PERMANENT
+       Effective Dates        : 1993-02-18/CCYY-MM-DD
+       Notes                  : Code only
+
+7.2  Instrumentation Type     : VLBI Radio Telescope RTF-32
+       Status                 : PERMANENT
+       Effective Dates        : 2001-02-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.3  Instrumentation Type     : Absolute gravimeter FG5#101
+       Status                 : MOBILE
+       Effective Dates        : 1994-06-27/1994-06-29
+       Notes                  : BKG measurements
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HUMICAP
+       Manufacturer           : Vaisala Qyi, Finland
+       Serial Number          : C2610018
+       Data Sampling Interval : 900 s
+       Accuracy (% rel h)     : 3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2007-07-10
+       Effective Dates        : 2008-02-07/2011-07-02
+       Notes                  : (multiple lines)
+
+8.1.2  Humidity Sensor Model  : HUMICAP
+       Manufacturer           : Vaisala Qyi, Finland
+       Serial Number          : D5130011
+       Data Sampling Interval : 900 s
+       Accuracy (% rel h)     : 3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2011-01-01
+       Effective Dates        : 2011-10-04/CCYY-MM-DD
+       Notes                  : Exact calibration date
+                              : in 2011 not known.
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : ATSAT-3M
+       Manufacturer           : NPO 'Typhoon', Obninsk, Russia
+       Serial Number          : 0019
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.7 hPa
+       Height Diff to Ant     : -8 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-01-01/2007-08-25
+       Notes                  : Data Frequency on request.
+                              : 1 sec - ...
+                              : Exact date in 2000 not known.
+
+8.2.2  Pressure Sensor Model  : BAROCAP
+       Manufacturer           : Vaisala Oyi, Finland
+       Serial Number          : C2610018
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2007-07-10
+       Effective Dates        : 2008-02-07/2011-07-02
+       Notes                  : (multiple lines)
+
+8.2.3  Pressure Sensor Model  : BAROCAP
+       Manufacturer           : Vaisala Oyi, Finland
+       Serial Number          : D5130011
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2011-01-01
+       Effective Dates        : 2011-10-04/CCYY-MM-DD
+       Notes                  : Exact calibration date
+                              : in 2011 not known.
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : ATSAT-3M
+       Manufacturer           : NPO 'Typhoon', Obninsk, Russia
+       Serial Number          : 0019
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.5 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 2 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2000-01-01/2007-08-25
+       Notes                  : Exact date in 2000 not known.
+
+8.3.2  Temp. Sensor Model     : THERMOCAP
+       Manufacturer           : Vaisala Oyi, Finland
+       Serial Number          : C2610018
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.3 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2007-07-10
+       Effective Dates        : 2008-02-07/2011-07-02
+       Notes                  : (multiple lines)
+
+8.3.3  Temp. Sensor Model     : THERMOCAP
+       Manufacturer           : Vaisala Oyi, Finland
+       Serial Number          : D5130011
+       Data Sampling Interval : 900 s
+       Accuracy               : 0.3 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2011-01-01
+       Effective Dates        : 2011-10-04/CCYY-MM-DD
+       Notes                  : Exact calibration date
+                              : in 2011 not known.
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Institute of Applied Astronomy RAS
+     Preferred Abbreviation   : IAA
+     Mailing Address          : Lab of Space Geodesy and Earth Rotation
+                              : nab. Kutuzova 10
+                              : 191187 St. Petersburg
+                              : Russia
+     Primary Contact
+       Contact Name           : Dr. Iskander S. Gayazov
+       Telephone (primary)    : ++7-812-275-1118
+       Telephone (secondary)  : ++7-812-275-1024
+       Fax                    : ++7-812-275-1119
+       E-mail                 : gayazov@ipa.nw.ru
+     Secondary Contact
+       Contact Name           : Vladimir Sharkov
+       Telephone (primary)    : ++7-812-275-1118
+       Telephone (secondary)  : ++7-812-275-1024
+       Fax                    : ++7-812-275-1119
+       E-mail                 : sharkov@ipa.nw.ru
+     Additional Information   : Andrey Diakov at Zelenchukskaya
+                              : Phone ++7-87878-43402
+                              : Fax ++7-87878-42970
+                              : E-mail ipazel@mail.svkchr.ru
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+                              : Sackenrieder Strasse 25
+                              : D-93444 Bad Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Dr. Reiner Dassing
+       Telephone (primary)    : ++49-9941-603112
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : reiner.dassing@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Additional Information   : Klaus Roettcher
+                              : ++49-9941-603115
+                              : klaus.roettcher@bkg.bund.de
+                              : Rudi Stoeger
+                              : ++49-9941-603204
+                              : rudolf.stoeger@bkg.bund.de
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : OLG
+     URL for More Information : www.bkg.bund.de, www.wettzell.ifag.de
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+AOAD/M_T
+>From 1997-07-11 until 2005-10-18
+
+                         -----
+                     /     +     \                        <-- 0.128 L2
+                    |      +      |                       <-- 0.110 L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.381                       -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+TOP: Top of Pole
+
+
+ASH700936D_M
+>From 2006-07-30 until 2011-08-18
+
+                         -----
+                     /     +     \                        <-- 0.128 L2
+                    |      +      |                       <-- 0.110 L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+JAVRINGANT_DM
+>From 2011-08-18
+
+                         +-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.100  TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.033  BCR
+                      |             |
+                     =|             |
+                      +------x------+                       <-- 0.000  BPA=ARP
+

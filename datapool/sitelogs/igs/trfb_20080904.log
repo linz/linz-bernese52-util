@@ -1,0 +1,362 @@
+     TRFB Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Helmut Titz, BEV, Vienna, Austria
+     Date Prepared            : 2008-09-04
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : trfb_20080131.log
+      Modified/Added Sections : 3.1, 3.2, 4.1, 4.2, 5.1, 5.2, 6.1,
+                              : 7.1, 7.2, 11, 12, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Trafelberg
+     Four Character ID        : TRFB
+     Monument Inscription     : T0301-075L1
+     IERS DOMES Number        : 11047M001
+     CDP Number               : none
+     Monument Description     : PILLAR
+       Height of the Monument : 2.5
+       Monument Foundation    : CONCRETE BLOCK 
+       Foundation Depth       : 2
+     Marker Description       : MANTLED STEEL ROD
+     Date Installed           : 2003-06-01T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Pernitz
+     State or Province        : Lower Austria
+     Country                  : Austria
+     Tectonic Plate           : Eurasian
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4119400
+       Y coordinate (m)       : 1170248
+       Z coordinate (m)       : 4712324
+       Latitude (N is +)      : +475540.70
+       Longitude (E is +)     : +0155132.10
+       Elevation (m,ellips.)  : 01092.6
+     Additional Information   : DATUM = ETRF89 Austria 2002
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA SR520
+     Satellite System         : GPS
+     Serial Number            : 22113
+     Firmware Version         : 4.20
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2004-04-16T12:00Z
+     Date Removed             : 2008-01-30T11:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : station replaced by new station TRF2
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504        OLGA
+     Serial Number            : 1249
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : OLGA
+     Radome Serial Number     : TRFB
+     Antenna Cable Type       : RG213
+     Antenna Cable Length     : 50 m
+     Date Installed           : 2004-04-16T12:00Z
+     Date Removed             : 2008-01-30T11:00Z
+     Additional Information   : station replaced by new station TRF2
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX) 
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : TRF2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : 11047M002
+     Differential Components from GNSS Marker to the tied monument ITRS
+       dx (m)                 : -0.110
+       dy (m)                 : -0.031
+       dz (m)                 : -0.126
+     Accuracy (mm)            : 1
+     Survey method            : NIVELLEMENT
+     Date Measured            : 2008-01-30T11:00Z
+     Additional Information   : dE=0.000, dN=0.000, dH=-0.170
+
+5.2  Tied Marker Name         : T0301-075B2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument ITRS
+       dx (m)                 : -29.722
+       dy (m)                 : +20.235
+       dz (m)                 : +17.703
+     Accuracy (mm)            : +/-1 mm
+     Survey method            : triangulation + distance
+     Date Measured            : 2003-11-03
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2004-04-16/CCYY-MM-DD
+       Notes                  : none
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : TIDAL GRAVIMETER GWR
+       Status                 : PERMANENT
+       Effective Dates        : 2007-07-01/CCYY-MM-DD
+       Notes                  : ECGN station
+
+7.2  Instrumentation Type     : ABSOLUTE GRAVITY STATION
+       Status                 : MOBILE
+       Effective Dates        : 2003-09-19/CCYY-MM-DD
+       Notes                  : ECGN station
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Federal Office of Metrology and
+                              : Surveying
+     Preferred Abbreviation   : BEV
+     Mailing Address          : Schiffamtsgasse 1-3, A - 1025 Wien
+                              : Austria
+     Primary Contact
+       Contact Name           : Dept. Control Survey
+                              : Satellite positioning
+                              : Austrian Positioning Service APOS
+       Telephone (primary)    : +43/676/8210-1111
+       Telephone (secondary)  : +43/1/21110-3200
+       Fax                    : 
+       E-mail                 : apos.admin@bev.gv.at
+     Secondary Contact
+       Contact Name           : Ernst Zahn
+       Telephone (primary)    : +43/1/21110-3209
+       Telephone (secondary)  : +43/676/8210-3209
+       Fax                    : 
+       E-mail                 : ernst.zahn@bev.gv.at
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Federal Office of Metrology and
+                              : Surveying
+     Preferred Abbreviation   : BEV
+     Mailing Address          : Schiffamtsgasse 1-3, A - 1025 Wien
+                              : Austria
+     Primary Contact
+       Contact Name           : Dept. Control Survey
+                              : Satellite positioning
+                              : Austrian Positioning Service APOS
+       Telephone (primary)    : +43/676/8210-1111
+       Telephone (secondary)  : +43/1/21110-3200
+       Fax                    : 
+       E-mail                 : apos.admin@bev.gv.at
+     Secondary Contact
+       Contact Name           : Helmut Titz
+       Telephone (primary)    : +43/1/21110-3207
+       Telephone (secondary)  : +43/676/8210-3207
+       Fax                    : 
+       E-mail                 : helmut.titz@bev.gv.at
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : OLG
+     Secondary Data Center    : BKGE
+     URL for More Information : http://www.bev.gv.at/
+     Hardcopy on File
+       Site Map               :             
+       Site Diagram           :             
+       Horizon Mask           : 12
+       Monument Description   : see below 
+       Site Pictures          : 
+     Additional Information   :
+     Antenna Graphics with Dimensions
+
+TPSCR3_GGD
+
+                        ---------
+                      /     +     \                        
+                     |      +      |                       
+   +--------------------------------------------------+    <-- 0.071 TCR
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   +-----------------+-------------+------------------+    <-- 0.003 BCR
+                      +-----x-----+                        <-- 0.0 BPA=ARP
+
+   <--                    0.326                     -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+TOP: Top of Pole                       BAM: Bottom of antenna mount 
+
+All dimensions are in meters.
+
+
+Monument description
+
+              _______
+            /         \
+          /      _      \
+         |   ___/ \___   |-- GRP radome
+         |  |_________|  |               <---  0.000 BPA=ARP
+         |      |_|      |               <--- -0.005 ANTENNA ADAPTER
+         |_____  |  _____|               <--- -0.170 RADOM GROUNDPLANE
+             ||  |  ||
+             ||  |  ||
+             ||  |  ||-- galvanized
+             ||  |  ||   steel
+             ||  |  ||
+             ||  |  ||
+            //   |   \\
+           ||    |--- || -- protected iron rod
+           ||    |    ||
+           ||    |    ||
+     -------------------------           <---  -1.650 BOTTOM PLATE
+     |//////  concrete  \\\\\\|
+     |///////////\\\\\\\\\\\\\|
+    /                          \

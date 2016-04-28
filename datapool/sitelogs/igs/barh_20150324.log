@@ -1,0 +1,479 @@
+     BARH Site Information Form
+     NGS Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : cors-adm
+     Date Prepared            : 2015-03-24
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : barh_20141201.log
+      Modified/Added Sections : 1 2
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : Bar Harbor
+     Four Character ID        : BARH
+     Monument Inscription     :
+     IERS DOMES Number        : 49927S001
+     CDP Number               : (A4)
+     Monument Description     : Leveling bracket
+       Height of the Monument : (m)
+       Monument Foundation    : Concrete
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1998-10-02T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS-GRANITE
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Mount is a UNAVCO type force centering device
+                              : on a chimney. The chimney is located in the
+                              : middle of the building and is attached the
+                              : building foundations. The rest of the building
+                              : has a wooden frame. The brick chimney is active.
+                              : The force centering device is cemented in place
+                              : via a stainless steel rod ~13cm long. The
+                              : building has 3-storeys and was constructed in
+                              : the 1970's.
+
+
+2.   Site Location Information
+
+     City or Town             : Bar Harbor
+     State or Province        : Maine
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1693644.846
+       Y coordinate (m)       : -4239067.570
+       Z coordinate (m)       : 4439567.239
+       Latitude (N is +)      : +442342.17
+       Longitude (E is +)     : -0681318.09
+       Elevation (m,ellips.)  : 6.8
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Published by the IGS in Nov 2010.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3748A21042
+     Firmware Version         : 7.27
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1998-10-02T00:00Z
+     Date Removed             : 2000-05-09
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : remove date same as next install date GS
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3748A21042
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-05-09T13:32Z
+     Date Removed             : 2006-08-01
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware Upgrade
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3748A21042
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2006-08-01
+     Date Removed             : 2007-03-27
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver replaced.
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 4.10
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-03-27
+     Date Removed             : 2007-05-03
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-05-03
+     Date Removed             : 2007-08-28
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 5.50
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-08-28
+     Date Removed             : 2007-11-01
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware replaced.
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 5.60
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-11-01
+     Date Removed             : 2008-02-27
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+                              : Changed Satellite System from GPS to
+                              : GPS+GLONASS effective 2008-03-17
+
+3.8  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 5.62
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2008-02-27
+     Date Removed             : 2009-05-21
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+
+3.9  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2009-05-21
+     Date Removed             : 2010-03-25T17:10Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 7.80
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-03-25T17:20Z
+     Date Removed             : 2010-05-06T00:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 7.80/IME3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-05-06T00:00Z
+     Date Removed             : 2011-01-26T13:31Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.12 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351000
+     Firmware Version         : 8.10/IME3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-01-26T13:31Z
+     Date Removed             : 2011-08-01T00:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.13 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351251
+     Firmware Version         : 8.20/IME3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-08-24T00:00Z
+     Date Removed             : 2011-09-13T19:20Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver replaced.
+
+3.14 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351252
+     Firmware Version         : 8.20/IME3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-09-13T19:21Z
+     Date Removed             : 2014-08-06T13:50Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.15 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351252
+     Firmware Version         : 8.20/IME3.055
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2014-08-06T13:50Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     UNAV
+     Serial Number            : 0220088091
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : UNAV
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-10-02T00:00Z
+     Date Removed             : 2007-03-27
+     Additional Information   : Antenna replaced.
+
+4.2  Antenna Type             : LEIAX1202GG     NONE
+     Serial Number            : 06320009
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2007-03-27
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : 1998-10-02/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy (% rel h)     : 1.0
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-07-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy               : 0.1
+       Height Diff to Ant     : 0.271
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-07-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy               : 0.5
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-07-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : COLLEGE OF THE ATLANTIC GIS LABORATORY
+     Preferred Abbreviation   : COA
+     Mailing Address          : 105 Eden Street
+     Primary Contact
+       Contact Name           : Gordon Longsworth
+       Telephone (primary)    : 207-801-5677
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : glongsworth@coa.edu
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : NOAA-National Geodetic Survey
+     Preferred Abbreviation   : NOAA-NGS
+     Mailing Address          : NOAA, N/NGS6, SSMC3-9111
+                              : 1315 East-West Hwy.
+                              : Silver Spring, MD 20896, USA
+     Primary Contact
+       Contact Name           : Giovanni Sella
+       Telephone (primary)    : 301-713-3198x126
+       Telephone (secondary)  : 301-713-2845
+       Fax                    : 301-713-4475
+       E-mail                 : ngs.corscollector@noaa.gov
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : N
+       Horizon Mask           : N
+       Monument Description   : N
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+

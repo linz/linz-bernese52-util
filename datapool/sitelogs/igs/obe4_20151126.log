@@ -1,0 +1,374 @@
+
+     OBE4 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Markus Ramatschi
+     Date Prepared            : 2015-11-26
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : obe4_20150915.log
+      Modified/Added Sections : 8
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Oberpfaffenhofen
+     Four Character ID        : OBE4
+     Monument Inscription     : 
+     IERS DOMES Number        : 14208M007
+     CDP Number               : 
+     Monument Description     : STEEL MAST
+       Height of the Monument : 3.88 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2012-09-28T12:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Oberpfaffenhofen
+     State or Province        : Bavaria
+     Country                  : Germany
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4186704.4300
+       Y coordinate (m)       : 834903.5830
+       Z coordinate (m)       : 4723664.8570
+       Latitude (N is +)      : +480505.30
+       Longitude (E is +)     : +0111640.28
+       Elevation (m,ellips.)  : 650.5
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 214
+     Firmware Version         : 3.4.4b0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-09-28T12:00Z
+     Date Removed             : 2013-01-08T08:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 214
+     Firmware Version         : 3.4.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-01-08T08:31Z
+     Date Removed             : 2015-09-15T12:42Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 214
+     Firmware Version         : 3.5.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-15T12:42Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : JAV_RINGANT_G3T NONE
+     Serial Number            : 340
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0700
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ECOFLEX 10
+     Antenna Cable Length     : 20.00 m
+     Date Installed           : 2012-09-28T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2012-09-28/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : B3110016
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -1.40 m
+       Calibration date       : 2012-09-03
+       Effective Dates        : 2012-09-28/2015-11-19
+       Notes                  : The humidity sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.1.2  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : X3710010
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -1.40 m
+       Calibration date       : 2014-06-19
+       Effective Dates        : 2015-11-19/CCYY-MM-DD
+       Notes                  : The humidity sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU200
+       Manufacturer           : Vaisala
+       Serial Number          : B3110016
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -6.20 m
+       Calibration date       : 2012-09-03
+       Effective Dates        : 2012-09-28/2015-11-19
+       Notes                  : 
+
+8.2.2  Pressure Sensor Model  : PTU200
+       Manufacturer           : Vaisala
+       Serial Number          : X3710010
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -6.20 m
+       Calibration date       : 2014-06-19
+       Effective Dates        : 2015-11-19/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : B3110016
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -1.40 m
+       Calibration date       : 2012-09-03
+       Effective Dates        : 2012-09-28/2015-11-19
+       Notes                  : The temperature sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.3.2  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : X3710010
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -1.40 m
+       Calibration date       : 2014-06-19
+       Effective Dates        : 2015-11-19/CCYY-MM-DD
+       Notes                  : The temperature sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Deutsches Zentrum fuer Luft- und Raumfahrt
+                              : Institut fuer Kommunikation und Navigation
+     Preferred Abbreviation   : DLR
+     Mailing Address          : Muenchner Str. 20
+                              : D-82234 Oberpfaffenhofen-Wessling
+     Primary Contact
+       Contact Name           : Johann Furthner
+       Telephone (primary)    : (+49)-8153-282304
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Johann.Furthner@dlr.de
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Helmholtz-Zentrum Potsdam
+                              : Deutsches GeoForschungsZentrum GFZ
+     Preferred Abbreviation   : GFZ
+     Mailing Address          : Telegrafenberg A17
+                              : 14473 Potsdam / Germany
+     Primary Contact
+       Contact Name           : Dr. Markus Ramatschi
+       Telephone (primary)    : (+49)-331-2881746
+       Telephone (secondary)  : (+49)-331-2881110
+       Fax                    : (+49)-331-2881759
+       E-mail                 : maram@gfz-potsdam.de
+     Secondary Contact
+       Contact Name           : Markus Bradke
+       Telephone (primary)    : (+49)-331-2881182
+       Telephone (secondary)  : (+49)-331-2881110
+       Fax                    : (+49)-331-2881759
+       E-mail                 : bradke@gfz-potsdam.de
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : IGN
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+JAV_RINGANT_G3T
+
+                       ---------                          <--  0.0614
+                     /           \
+                   /               \
+  +-------------------------------------------------+     <--  0.0410  TCR
+  |                                                 |
+  |              +-------------------+              |
+  |              |   \           /   |              |
+  |              |    \         /    |              |
+  |              |      +--x--+      |              |     <--  0.0000  BAM=ARP
+  +--------------+-------------------+--------------+     <-- -0.0260  BCR
+                                                                       RXC=NRP
+  <--                    0.3260                   -->
+

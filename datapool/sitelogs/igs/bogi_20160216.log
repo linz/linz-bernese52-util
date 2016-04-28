@@ -1,0 +1,616 @@
+
+     BOGI Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Marcin Sekowski
+     Date Prepared            : 2016-02-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : bogi_20150731.log
+      Modified/Added Sections : 3.17, 3.18
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Borowa Gora
+     Four Character ID        : BOGI
+     Monument Inscription     : Station mark EUREF 217 BG02
+     IERS DOMES Number        : 12207M003
+     CDP Number               : 
+     Monument Description     : Concrete pillar covered with wooden casing
+       Height of the Monument : 1.2 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 2.5 m
+     Marker Description       : outlet diameter 20 mm with auto-centering ball
+     Date Installed           : 2001-10-01T00:00Z
+     Geologic Characteristic  : SAND and GRAVEL
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : taking part in programs: IGS EPOCH-92,
+                              : EUREF-EAST, EUREF-POL, EUREF-BAL,
+                              : EXTENDED SAGET, EUVN, HIRAC/SolarMax,
+
+
+2.   Site Location Information
+
+     City or Town             : Borowa Gora
+     State or Province        : precambrian platform of EURA
+     Country                  : Poland
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3633815.7
+       Y coordinate (m)       : 1397453.9
+       Z coordinate (m)       : 5035280.8
+       Latitude (N is +)      : +522829.96
+       Longitude (E is +)     : +0210206.76
+       Elevation (m,ellips.)  : 139.9
+     Additional Information   : 40 km to the North of Warsaw
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JPS EUROCARD
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311204751
+     Firmware Version         : 2.1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-01-03T00:00Z
+     Date Removed             : 2003-05-06T12:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : JPS EUROCARD
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311204751
+     Firmware Version         : 2.3
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-05-06T12:00Z
+     Date Removed             : 2003-08-08T12:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : JPS EUROCARD
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311204751
+     Firmware Version         : 2.3P2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-08-08T12:00Z
+     Date Removed             : 2004-07-30T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT310533200
+     Firmware Version         : 2.2P1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-07-30T00:00Z
+     Date Removed             : 2004-12-23T16:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AEVWYXOEY2O
+     Firmware Version         : 2.4 SEP,02,2004
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-12-23T16:00Z
+     Date Removed             : 2006-05-19T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AEVWYXOEY2O
+     Firmware Version         : 2.4 SEP,02,2004
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-05-19T00:00Z
+     Date Removed             : 2008-01-29T20:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AEVWYXOEY2O
+     Firmware Version         : 2.6.1 JAN,10,2008
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-01-29T20:00Z
+     Date Removed             : 2008-08-15T16:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311525256
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-08-28T12:00Z
+     Date Removed             : 2009-07-02T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : JPS EGGDT
+     Satellite System         : GPS+GLO
+     Serial Number            : LGGD_0242
+     Firmware Version         : 2.7.0 Mar,31,2008
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-07-02T13:00Z
+     Date Removed             : 2010-01-22T12:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : Delta_00031  OEM_066
+     Firmware Version         : 3.0.0b29 Dec,05,2008
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-01-22T12:00Z
+     Date Removed             : 2010-09-20T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : Delta_00031 OEM_0665
+     Firmware Version         : 3.2.2 Aug,11,2010
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-09-20T09:30Z
+     Date Removed             : 2010-09-22T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.12 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : Delta_00031 OEM_066
+     Firmware Version         : 3.0.2 Jul,06,2009
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-09-22T10:00Z
+     Date Removed             : 2011-01-03T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.13 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : Delta_00031 OEM_066
+     Firmware Version         : 3.1.7 May,31,2010
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-01-03T00:00Z
+     Date Removed             : 2012-12-18T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.14 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : Delta_00031 OEM_066
+     Firmware Version         : 3.5.0 Nov,13,2012
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-12-18T10:00Z
+     Date Removed             : 2013-04-27T23:25Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.15 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : Delta_00031 OEM_066
+     Firmware Version         : 3.5.1 Mar,04,2013
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-04-27T23:30Z
+     Date Removed             : 2014-12-02T14:40Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.16 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : Delta_00031 OEM_066
+     Firmware Version         : 3.5.7 Oct,22,2014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-12-02T14:45Z
+     Date Removed             : 2015-07-31T18:10Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.17 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : Delta_00031 OEM_066
+     Firmware Version         : 3.5.9 Apr,21,2015
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-07-31T18:10Z
+     Date Removed             : 2016-02-16T18:10Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.18 Receiver Type            : JAVAD TRE_G3T DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : Delta_00031 OEM_066
+     Firmware Version         : 3.5.12 Nov,12,2015
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-02-16T18:10Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945C_M    SNOW
+     Serial Number            : CR520005005
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0534
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : N/A
+     Antenna Cable Length     : 28 m
+     Date Installed           : 2001-10-01T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : BOGO
+     Tied Marker Usage        : LOCAL CONTROL, EPN STATION
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 12207M002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -76.3510
+       dy (m)                 : -19.9841
+       dz (m)                 : 72.5113
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2001-08-18T15:00Z
+     Additional Information   : 
+
+5.2  Tied Marker Name         : JAN1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -30.7581
+       dy (m)                 : -32.8456
+       dz (m)                 : 31.9040
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2001-08-18T15:00Z
+     Additional Information   : 
+
+5.3  Tied Marker Name         : JAN2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 34.3647
+       dy (m)                 : -7.3473
+       dz (m)                 : -21.7688
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2001-08-18T15:00Z
+     Additional Information   : 
+
+5.4  Tied Marker Name         : R3
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 10.0387
+       dy (m)                 : -5.6804
+       dz (m)                 : -5.2382
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 2001-08-18T15:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2001-01-03/2009-07-02
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2009-07-03/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1996-06-08/CCYY-MM-DD
+       Notes                  : BOGO Permanent GPS Station
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : LB-710HB
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy (% rel h)     : 0.8
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.5 m
+       Calibration date       : 1999-04-01
+       Effective Dates        : 1999-05-17/2004-07-22
+       Notes                  : placed in the meteorological box
+
+8.1.2  Humidity Sensor Model  : LB-710HB
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 0.8
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.5 m
+       Calibration date       : 2005-04-01
+       Effective Dates        : 2005-04-17/2008-08-15
+       Notes                  : placed in the meteorological box
+
+8.1.3  Humidity Sensor Model  : LB-710HB
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 0.8
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.5 m
+       Calibration date       : 2005-04-01
+       Effective Dates        : 2008-09-10/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : LB-716P
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : 1999-04-01
+       Effective Dates        : 1999-05-17/2004-07-22
+       Notes                  : placed in the meteorological box
+
+8.2.2  Pressure Sensor Model  : LB-716P
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2005-04-01
+       Effective Dates        : 2005-04-17/2008-08-15
+       Notes                  : placed in the meteorological box
+
+8.2.3  Pressure Sensor Model  : LB-716P
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2005-04-01
+       Effective Dates        : 2008-09-10/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : LB-710HB
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.15 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.5 m
+       Calibration date       : 1999-05-01
+       Effective Dates        : 1999-05-17/2004-07-22
+       Notes                  : placed in the meteorological box
+
+8.3.2  Temp. Sensor Model     : LB-710HB
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.15 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 1.5 m
+       Calibration date       : 2005-04-01
+       Effective Dates        : 2005-04-17/2008-08-15
+       Notes                  : placed in the meteorological box
+
+8.3.3  Temp. Sensor Model     : LB-710HB
+       Manufacturer           : LAB-EL
+       Serial Number          : 
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.15 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 1.5 m
+       Calibration date       : 2005-04-01
+       Effective Dates        : 2008-09-10/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : gravimeter LaCoste&Romberg
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Institute of Geodesy and Cartography
+     Preferred Abbreviation   : IGiK
+     Mailing Address          : 02-769 Warszawa, ul. Modzelewskiego 27
+                              : Poland
+     Primary Contact
+       Contact Name           : Jan Cisak
+       Telephone (primary)    : +48(22)3291908
+       Telephone (secondary)  : +48(22)3291905
+       Fax                    : +48(22)3291950
+       E-mail                 : jcisak@aster.pl
+     Secondary Contact
+       Contact Name           : Marcin Sekowski
+       Telephone (primary)    : 48(22)3291905
+       Telephone (secondary)  : 48(22)3291908
+       Fax                    : 48(22)3291950
+       E-mail                 : msek@igik.edu.pl
+     Additional Information   : astro@igik.edu.pl
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : OLG
+     Secondary Data Center    : BKG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+Ashtech: DORNE MARGOLIN ASH701945C_M
+
+                         -----
+                     /     +     \                        <--  0.181 L2
+                    |      +      |                       <--  0.163 L1
+  +--------------------------------------------------+    <--  0.155 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.091
++-------------------+-------------+--------------------+  <--  0.088 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.053 ARP=BPA
+

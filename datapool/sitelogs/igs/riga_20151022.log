@@ -1,0 +1,692 @@
+
+     RIGA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Kalvis Salminsh
+     Date Prepared            : 2015-10-22
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : riga_20150511.log
+      Modified/Added Sections : 3.13, 3.14
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : RIGA permanent GPS
+     Four Character ID        : RIGA
+     Monument Inscription     : 10371
+     IERS DOMES Number        : 12302M002
+     CDP Number               : 
+     Monument Description     : 
+       Height of the Monument : 5.34 m
+       Monument Foundation    : 5 m diameter concrete cylinder.
+       Foundation Depth       : 12 m
+     Marker Description       : standard geodetic mark
+     Date Installed           : 1995-12-05T04:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : No
+         Distance/activity    : No
+     Additional Information   : Concrete pillar with forced centering
+                              : and levelling brass plate.
+                              : The height of the monument is above
+                              : local ground plane.
+                              : Dolomite with a quaternary covering of
+                              : alluvium and beach deposits.
+
+
+2.   Site Location Information
+
+     City or Town             : Riga
+     State or Province        : Vidzeme
+     Country                  : Latvia
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3183899.3440
+       Y coordinate (m)       : 1421478.3780
+       Z coordinate (m)       : 5322810.7360
+       Latitude (N is +)      : +565655.03
+       Longitude (E is +)     : +0240331.38
+       Elevation (m,ellips.)  : 34.7
+     Additional Information   : ITRF-2000 at epoch 1997.0
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : UNKNOWN
+     Firmware Version         : UNKNOWN
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1995-12-05T04:00Z
+     Date Removed             : 1996-03-28T23:59Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : from FGI Finnland
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 223
+     Firmware Version         : 2.8
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1996-03-29T00:00Z
+     Date Removed             : 1999-09-02T13:10Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : from OSO Sweden.
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 223
+     Firmware Version         : 2.8.0.7
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-09-02T13:45Z
+     Date Removed             : 2005-01-13T00:30Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : from OSO Sweden.
+
+3.4  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 2050
+     Firmware Version         : 3.3.32.5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2005-01-13T10:08Z
+     Date Removed             : 2006-06-17T00:00Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : LUAI property.
+
+3.5  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 223
+     Firmware Version         : 2.8.0.7
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-06-18T00:00Z
+     Date Removed             : 2007-01-08T13:00Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : from OSO Sweden.
+
+3.6  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 2050
+     Firmware Version         : 3.3.32.5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2007-01-08T13:00Z
+     Date Removed             : 2007-05-24T10:00Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : LUAI property
+
+3.7  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 223
+     Firmware Version         : 2.8.0.7
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-05-29T11:00Z
+     Date Removed             : 2007-09-10T08:30Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : from OSO Sweden.
+
+3.8  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 2050
+     Firmware Version         : 3.3.32.5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2007-09-10T09:00Z
+     Date Removed             : 2007-12-06T12:00Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : LUAI property
+
+3.9  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 453321
+     Firmware Version         : 5.60/2.125
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2007-12-16T12:00Z
+     Date Removed             : 2012-12-12T15:20Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : none
+
+3.10 Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 453321
+     Firmware Version         : 5.60/2.127
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2012-12-12T15:20Z
+     Date Removed             : 2013-12-11T09:00Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : 
+
+3.11 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1830430
+     Firmware Version         : 3.03/6.214
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-12-11T13:00Z
+     Date Removed             : 2014-08-14T00:00Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : LUAI property.
+
+3.12 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1830430
+     Firmware Version         : 3.10.1633/6.403
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-08-14T00:00Z
+     Date Removed             : 2015-05-11T10:00Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : LUAI property.
+
+3.13 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1830430
+     Firmware Version         : 3.11.1639/6.403
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-05-11T10:00Z
+     Date Removed             : 2015-10-29T17:10Z
+     Temperature Stabiliz.    : 18.0 +/- 4.0
+     Additional Information   : 
+
+3.14 Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO
+     Serial Number            : 1830430
+     Firmware Version         : 3.21.1806/6.403
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-10-29T17:10Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 20.0 +/- 4.0
+     Additional Information   : Temporary removed GAL+SBAS from tracked
+                              : satellite systems to match currently submitted
+                              : data
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 519
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0850
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : <1 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : AWM RG214/U STYLE 1354 E96824-I
+     Antenna Cable Length     : 60 m
+     Date Installed           : 1995-12-05T04:00Z
+     Date Removed             : 1996-03-28T23:59Z
+     Additional Information   : from FGI Finnland
+
+4.2  Antenna Type             : ASH700936D_M    NONE
+     Serial Number            : 11471
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0850
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : <1 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : AWM RG214/U STYLE 1354 E96824-I
+     Antenna Cable Length     : 60 m
+     Date Installed           : 1996-03-29T00:00Z
+     Date Removed             : 2005-01-13T00:30Z
+     Additional Information   : from OSO Sweden
+
+4.3  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 532
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0850
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : <1 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : AWM RG214/U STYLE 1354 E96824-I
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2005-01-13T10:08Z
+     Date Removed             : 2006-05-20T06:00Z
+     Additional Information   : Internally Damaged
+
+4.4  Antenna Type             : ASH700936D_M    NONE
+     Serial Number            : 11471
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0850
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : <1 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : AWM RG214/U STYLE 1354 E96824-I
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2006-05-22T00:00Z
+     Date Removed             : 2007-12-06T12:00Z
+     Additional Information   : The same as in point 4.2
+
+4.5  Antenna Type             : LEIAT504        LEIS
+     Serial Number            : 102588
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0850
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : <1 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : AWM RG214/U STYLE 1354 E96824-I
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2007-12-16T12:00Z
+     Date Removed             : 2013-12-11T09:00Z
+     Additional Information   : NONE
+
+4.6  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 726676
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0850
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : <1 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : Huber+Suhner
+     Antenna Cable Length     : 50 m
+     Date Installed           : 2013-12-11T15:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : S1884  Laser telescope LS-105
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 1884
+     Tied Marker DOMES Number : 12302S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -3.401
+       dy (m)                 : 18.661
+       dz (m)                 : -6.963
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1995-06-10T12:00Z
+     Additional Information   : from local GPS session.
+
+5.2  Tied Marker Name         : M1884  Moblas platform
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7560
+     Tied Marker DOMES Number : 12302M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 14.834
+       dy (m)                 : -4.832
+       dz (m)                 : -13.919
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1995-06-10T12:00Z
+     Additional Information   : local GPS session
+
+5.3  Tied Marker Name         : S1884 LASER TELESCOPE LS-105
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 1884
+     Tied Marker DOMES Number : 12302S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -3.4051
+       dy (m)                 : 18.6609
+       dz (m)                 : -6.9630
+     Accuracy (mm)            : 2 mm
+     Survey method            : WITH TACHEOMETRE SET-4220
+     Date Measured            : 2004-12-20T10:00Z
+     Additional Information   : local survey
+
+5.4  Tied Marker Name         : M1884 MOBLAS PLATFORM
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7560
+     Tied Marker DOMES Number : 12302M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 14.8213
+       dy (m)                 : -4.8370
+       dz (m)                 : -13.9076
+     Accuracy (mm)            : 2 mm
+     Survey method            : WITH TACHEOMETRE SET-4220
+     Date Measured            : 2004-12-20T10:00Z
+     Additional Information   : local survey
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1995-12-05/2005-01-13
+       Notes                  : 
+
+6.2  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2005-01-13/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1995-12-05/CCYY-MM-DD
+       Notes                  : EUROLAS Consortium.
+
+7.2  Instrumentation Type     : ABSOLUTE GRAVIMETER JiLag-5
+       Status                 : MOBILE
+       Effective Dates        : 1995-10-25/1995-10-29
+       Notes                  : Finnish Geodetic Institute.
+
+7.3  Instrumentation Type     : ABSOLUTE GRAVIMETER FG5/101
+       Status                 : MOBILE
+       Effective Dates        : 1996-05-07/1996-05-11
+       Notes                  : IFAG Germany
+
+7.4  Instrumentation Type     : ABSOLUTE GRAVIMETER FG5/107
+       Status                 : MOBILE
+       Effective Dates        : 1996-08-01/1996-08-12
+       Notes                  : DMA USA
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : Hair Hygrometer,
+       Manufacturer           : USSR
+       Serial Number          : M34-3359
+       Data Sampling Interval : 86400 sec
+       Accuracy (% rel h)     : 10
+       Aspiration             : fan
+       Height Diff to Ant     : 3.5 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-12-05/2007-03-30
+       Notes                  : No meteo files given.
+                              : Not in use for GPS.
+                              : Not calibrated.
+
+8.1.2  Humidity Sensor Model  : WXT510
+       Manufacturer           : VAISALA
+       Serial Number          : C1150003
+       Data Sampling Interval : 600 sec
+       Accuracy (% rel h)     : 3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -2.0 m
+       Calibration date       : 2007-03-16
+       Effective Dates        : 2007-03-30/CCYY-MM-DD
+       Notes                  : Calibrated at Factory.
+                              : 3% accur. between 0 and 90% RH
+                              : 5% accur. between 90 and 100% RH
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Precisions Barometer
+       Manufacturer           : Paulin Stockholm
+       Serial Number          : VBM2-1443
+       Data Sampling Interval : 86400 sec
+       Accuracy               : 0.2 hPa
+       Height Diff to Ant     : 3.5 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-12-05/2007-03-30
+       Notes                  : No meteo files given.
+                              : Not in use for GPS.
+                              : Not calibrated.
+
+8.2.2  Pressure Sensor Model  : WXT510
+       Manufacturer           : VAISALA
+       Serial Number          : C1150003
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : -2.0 m
+       Calibration date       : 2007-03-16
+       Effective Dates        : 2007-03-30/CCYY-MM-DD
+       Notes                  : Calibrated at Factory.
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : Mercury Thermometer
+       Manufacturer           : USSR
+       Serial Number          : TMZ-4970
+       Data Sampling Interval : 86400 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 3.5 m
+       Calibration date       : 
+       Effective Dates        : 1995-12-05/2007-03-30
+       Notes                  : No meteo files given.
+                              : Not in use for GPS.
+                              : Not calibrated after factory, hence calibration
+                              : date is unknown
+
+8.3.2  Temp. Sensor Model     : WXT510
+       Manufacturer           : VAISALA
+       Serial Number          : C1150003
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.3 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -2.0 m
+       Calibration date       : 2007-03-16
+       Effective Dates        : 2007-03-30/CCYY-MM-DD
+       Notes                  : Calibrated at Factory
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : Transit instrument metal roof
+       Effective Dates        : 1995-12-05/2013-12-10
+       Additional Information : 
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : TREES and BUILDINGS
+       Effective Dates        : 1995-12-05/CCYY-MM-DD
+       Additional Information : 
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Institute of astronomy of the University of
+                              : Latvia.
+     Preferred Abbreviation   : LUAI
+     Mailing Address          : Blvd. Rainis 19,LV-1586,Riga,Latvia
+     Primary Contact
+       Contact Name           : Kazimirs Lapushka
+       Telephone (primary)    : +371 7 611984
+       Telephone (secondary)  : +371 7 034580
+       Fax                    : +371 7 611984
+       E-mail                 : riglas@lanet.lv
+     Secondary Contact
+       Contact Name           : Valdis Laposhka
+       Telephone (primary)    : +371 7 034580
+       Telephone (secondary)  : +371 7 611984
+       Fax                    : +371 7 611984
+       E-mail                 : riglas@lanet.lv
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+AOAD/M_T   ASH700936D_M
+
+                          -----
+  L2 Phase center     /     +     \         <--------------------+
+  L1 Phase center    |      +      |        <---------------+    |
+   +--------------------------------------------------+     |    |
+   |                                          TCR     |     |    |
+   |                                                  |     |    |
+   |                                                  |     |    |
+   |                                                  |     |    |
+ +-+--------------------------------------------------+-+   |    |
+ +-------------------+-------------+--------------------+   |    |
+                     |             |          BCR           |    |
+                     |             |                        |  0.213m
+         BPA   =>    +=============+   <---+                |    |
+                     |     FC      |       |             0.195m  |
+                     |   Mount     |     0.085 m            |    |
+                     |             |       |                |    |
+ Monum.ref.point =>  |     +-+     |   <---+----------------+----+
+          +----------+=====| |=====+----------+
+          |                                   |
+          |                                   |
+          |         Concrete  pillar          |
+          |                                   |
+
+
+
+    ROGUE   AOAD/M_T    MODEL 7490582-2
+                       ____________
+                      /      + L2  \                      +
+    _________________|_______ ______|___________________ 0.1214
+    |         |              + L1                      |  +
+    |       0.1016                                     | 0.0952
+    ==========|=========================================  |
+              |___   |______________| __ _________________|
+                     |    BPA       | |
+                     |              | 0.0850
+                 ____|_______x______|_|___
+                 |         MARK          |
+                 |                       |
+
+Antenna/choke ring assembly phase center offsets
+L1 offset  X=0.40 cm, Y=0.20cm, Z=-0.64cm
+L2 offset  X=0.36cm,  Y=0.12cm, Z=1.98cm
+
+Horizon mask (degr.)
+
+Azimuth         Open from     Closed by
+000 - 063            10         trees
+063 - 086            15         trees
+086 - 175            10         trees
+175 - 252            15         houses
+252 - 258            10         houses
+

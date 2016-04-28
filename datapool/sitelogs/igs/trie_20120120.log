@@ -1,0 +1,366 @@
+     TRIE Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : David Zuliani
+     Date Prepared            : 2012-01-20
+     Report Type              : DYNAMIC
+     If Update:
+      Previous Site Log       :
+      Modified/Added Sections :
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Trieste
+     Four Character ID        : TRIE
+     Monument Inscription     : 
+     IERS DOMES Number        : 12718M003
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : 0.35m
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : Pivot on steel nipple of antenna adapter
+     Date Installed           : 2003-02-05
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Direct power supply,
+                                the building is 7.60m high (up to the roof)
+
+2.   Site Location Information
+
+     City or Town             : Sgonico 
+     State or Province        : Trieste
+     Country                  : Italy
+     Tectonic Plate           : EURASIA
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4333581.75          
+       Y coordinate (m)       : 1061504.58
+       Z coordinate (m)       : 4543010.61
+       Latitude (N is +)      : +454235.12
+       Longitude (E is +)     : +0134548.67
+       Elevation (m,ellips.)  : 00323.4
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 23801
+     Firmware Version         : CJ00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-02-07
+     Date Removed             : 2003-09-16T12:31Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number, ZR220023801
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 23801
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-10-14T08:21Z
+     Date Removed             : 2006-08-01T09:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number, ZR220023801
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 23801
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-08-01T10:15Z
+     Date Removed             : 2007-07-16T10:48Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number, ZR220023801
+     
+3.4  Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24775
+     Firmware Version         : 3.1 Jan,24,2007 p1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2007-07-16T12:00Z
+     Date Removed             : 2008-07-30T07:59Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Full Serial Number, T224775
+
+3.5  Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24775
+     Firmware Version         : 3.3 May,05,2008 p1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-07-30T08:06Z
+     Date Removed             : 2009-03-25T11:09Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Full Serial Number, T224775
+
+3.6  Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24775
+     Firmware Version         : 3.3 Dec,22,2008 p6
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-03-25T11:52Z
+     Date Removed             : 2012-01-20T09:16Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Full Serial Number, T224775
+     
+3.7  Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24775
+     Firmware Version         : 3.5 Dec,24,2010
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2012-01-20T11:09Z27
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Full Serial Number, T224775
+     
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)     
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945D_M    SCIT
+     Serial Number            : 20704
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0083
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00359
+     Antenna Cable Type       : RG213/U
+     Antenna Cable Length     : 15 m
+     Date Installed           : 2003-02-05
+     Date Removed             : 2003-03-05T09:26Z
+     Additional Information   : This type of antenna (ASH701945D_M)
+                                hasn't been calibrated yet.
+                                Full Serial Number, CR620020704
+
+4.2  Antenna Type             : ASH701945E_M    SCIT
+     Serial Number            : 24201
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0083
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00359
+     Antenna Cable Type       : RG213/U
+     Antenna Cable Length     : 15 m
+     Date Installed           : 2003-02-05T13:03Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Full Serial Number, CR620024201
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-02-07
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Centro Ricerche Sismologiche
+     Preferred Abbreviation   : CRS
+     Mailing Address          : Via Treviso 55, 33100 Udine, Italy
+     Primary Contact
+       Contact Name           : David Zuliani
+       Telephone (primary)    : 39-0432-522433
+       Telephone (secondary)  : 
+       Fax                    : 39-0432-522474
+       E-mail                 : dzuliani@inogs.it
+     Secondary Contact
+       Contact Name           : Giorgio Duri
+       Telephone (primary)    : 39-0432-522433
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : gduri@inogs.it
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Istituto Nazionale di Oceanografia e Geofisica
+                                Sperimentale
+     Preferred Abbreviation   : OGS
+     Mailing Address          : Borgo Grotta Gigante 42/c, 34010 Sgonico, Italy
+     Primary Contact
+       Contact Name           : Enrico Priolo
+       Telephone (primary)    : 39-040-2140351
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : epriolo@inogs.it
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : 
+     Secondary Data Center    : 
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : TRIE is part of the Friuli Regional Deformation
+                                network (FReDNet) a continuously operating
+                                Global Positioning System (GPS) receivers.
+                                FReDNet monitors crustal deformation in the
+                                Friuli area (Northeast of Italy) and the
+                                northeast boundary of the Adriatic microplate.
+                                FReDNet is operated by the Centro Ricerche
+                                Sismologiche (CRS) a department of the Istituto
+                                Nazionale di Oceanografia e di Geofisica
+                                Sperimentale - OGS. We began to install the
+                                initial 7 stations of FReDNet in the summer of
+                                2002. Nowadays FReDNet consit of 8 stations and
+                                it is complete, up and running. For accessing
+                                FReDNet	GPS data visit
+                                http://www.crs.inogs.it/frednet.
+ 				For more info about FReDNet contact:
+                                - David Zuliani dzuliani@inogs.it
+                                - Maurizio Battaglia battag@seismo.berkeley.edu
+
+     Antenna Graphics with Dimensions
+                                
+ASH701945E_M                    
+                                
+                         +-------+
+                       /     +     \                        <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.3794                      -->

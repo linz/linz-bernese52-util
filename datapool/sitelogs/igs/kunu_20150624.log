@@ -1,0 +1,368 @@
+     KUNU Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ted Zhou  
+     Date Prepared            : 2015-06-24
+     Report Type              : UPDATE 
+     If Update:
+      Previous Site Log       : kunu_20110825.log
+      Modified/Added Sections : 3.4,3.5,11,12,13 
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Kununurra
+     Four Character ID        : KUNU
+     Monument Inscription     : 
+     IERS DOMES Number        : 59995M001 
+     CDP Number               : (A4)
+     Monument Description     : PILLAR 
+       Height of the Monument : 2.00 (m) 
+       Monument Foundation    : STEEL RODS / CONCRETE BLOCK
+       Foundation Depth       : 4.0 (m)
+     Marker Description       : STAINLESS STEEL PLATE, THREADED SPIGOT
+     Date Installed           : 2009-05-22
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : 
+
+2.   Site Location Information
+
+     City or Town             : Kununurra
+     State or Province        : Western Australia 
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3845766.6735
+       Y coordinate (m)       :  4789564.7454
+       Z coordinate (m)       : -1712364.4435
+       Latitude (N is +)      : -154037.09194 
+       Longitude (E is +)     : +1284545.42583
+       Elevation (m,ellips.)  : 0091.9827
+     Additional Information   : 
+                              
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355566
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2009-07-22T00:00Z
+     Date Removed             : 2010-05-07T00:00Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : The tracking was changed from C2 or P2, to
+                              : P2 only at 2009-08-06T00:00Z.
+                              : The tracking was changed to all SVs
+                              : regardless of health status at 
+                              : 2009-09-24T04:25Z. 
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355566
+     Firmware Version         : 7.50 / 3.019
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2010-05-07T00:00Z
+     Date Removed             : 2011-04-07T00:00Z  
+     Temperature Stabiliz.    : none 
+     Additional Information   : ME upgrade due to GLONASS tracking problem.
+
+3.3  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495608
+     Firmware Version         : 8.10/4.007  
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2011-04-07T00:00Z
+     Date Removed             : 2011-08-24T23:59Z  
+     Temperature Stabiliz.    : none 
+     Additional Information   : Previous receiver failed. 
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495608
+     Firmware Version         : 8.10/4.007  
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2011-08-25T00:00Z
+     Date Removed             : 2015-06-24T00:00Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495608
+     Firmware Version         : 9.20/6.404 
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2015-06-24T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none 
+     Additional Information   : Firmware update only 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : LEIAT504GG      SCIS
+     Serial Number            : 200539 
+     Antenna Reference Point  : BPA 
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 (deg) 
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : CNT400
+     Antenna Cable Length     : 28 (m)
+     Date Installed           : 2009-07-22T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external) 
+       Effective Dates        : 2009-07-22/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : 
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.x  Instrumentation Type     : 
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.1  Humidity Sensor Model  : PAROSCIENTIFIC MET4
+       Manufacturer           : PAROSCIENTIFIC 
+       Serial Number          : DQ107262
+       Data Sampling Interval : 30 sec
+       Accuracy (% rel h)     : 2.0 % rel h
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 000.000 m
+       Calibration date       : 2009-07-22 
+       Effective Dates        : 2009-07-22/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : PAROSCIENTIFIC MET4
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : DQ107262
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.08 hPa
+       Height Diff to Ant     : 000.000 m
+       Calibration date       : 2009-07-22
+       Effective Dates        : 2009-07-22/CCYY-MM-DD
+       Notes                  :
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : PAROSCIENTIFIC MET4
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : DQ107262
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.5 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 000.0000 m
+       Calibration date       : 2009-07-22
+       Effective Dates        : 2009-07-22/CCYY-MM-DD
+       Notes                  :
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : WA Landgate
+     Preferred Abbreviation   : Landgate
+     Mailing Address          : 1 Midland Square
+                              : Midland  WA  6156
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Doug Hardman
+       Telephone (primary)    : +61 8 9273 7117
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : doug.hardman@landgate.wa.gov.au
+     Secondary Contact
+       Contact Name           : Linda Morgan
+       Telephone (primary)    : +61 8 9273 7133
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : linda.morgan@landgate.wa.gov.au
+     Additional Information   : http://www.landgate.wa.gov.au
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : Nicholas Brown
+       Telephone (primary)    : +61 2 6249 9831
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Additional Information   :
+
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : RDSI 
+     URL for More Information : http://www.ga.gov.au
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   :
+     Antenna Graphics with Dimensions
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+LEIAT504GG
+
+                         +-------+                          <-- 0.1393
+                       /     +     \                        
+                      |      +      |                       
+    +-----------------+-------------+------------------+    <-- 0.1012 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.000  BPA=ARP
+
+  <--                      0.3794                      -->
+

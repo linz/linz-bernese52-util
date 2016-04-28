@@ -1,0 +1,509 @@
+
+     DLF1 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Hans van der Marel
+     Date Prepared            : 2015-07-13
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : dlf1_20150618.log
+      Modified/Added Sections : 3.9, 3.10
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Delft
+     Four Character ID        : DLF1
+     Monument Inscription     : Delft-22
+     IERS DOMES Number        : 13502M009
+     CDP Number               : 
+     Monument Description     : STEEL MAST ON CONCRETE BUILDING
+       Height of the Monument : 1.50 m
+       Monument Foundation    : ROOF ON CONCRETE BUILDING, PILLARS
+       Foundation Depth       : 15 m
+     Marker Description       : BRASS THREAD/FIXED CENTERING
+     Date Installed           : 2002-09-04T00:00Z
+     Geologic Characteristic  : SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Delft
+     State or Province        : Zuid-Holland
+     Country                  : Netherlands
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3924697.942
+       Y coordinate (m)       : 301124.893
+       Z coordinate (m)       : 5001905.154
+       Latitude (N is +)      : +515909.55
+       Longitude (E is +)     : +0042314.88
+       Elevation (m,ellips.)  : 74.2
+     Additional Information   : NMI building Thijsseweg 11, 5 km South
+                              : of the center of town. Motorway A13, exit
+                              : Delft Zuid / Technische Universiteit Delft
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.22
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-04-15T10:00Z
+     Date Removed             : 2011-06-22T11:20Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-06-22T11:20Z
+     Date Removed             : 2012-02-01T12:32Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.43
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-02-01T12:32Z
+     Date Removed             : 2012-05-03T11:30Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.46
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-05-03T11:30Z
+     Date Removed             : 2012-05-08T11:05Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.60
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-05-08T11:05Z
+     Date Removed             : 2013-02-18T22:15Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-02-18T22:15Z
+     Date Removed             : 2013-05-09T06:05Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.80
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-05-09T06:05Z
+     Date Removed             : 2013-08-12T14:15Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-08-12T14:15Z
+     Date Removed             : 2015-06-17T21:30Z
+     Temperature Stabiliz.    : (deg C) +/- 3.0
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-06-17T21:30Z
+     Date Removed             : 2015-07-13T17:10Z
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 70764
+     Firmware Version         : 5.03
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-13T17:10Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 20.0 +/- 3.0
+     Additional Information   : The MARKER NAME in the RINEX file has been
+                              : changed from "DELFT-22" into "DLF1".
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAR25.R3      LEIT
+     Serial Number            : 10030006
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 10030006
+     Antenna Cable Type       : LMR400
+     Antenna Cable Length     : 41.5 m
+     Date Installed           : 2011-04-15T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : The antenna cable run consists of a 30 m LMR400
+                              : outdoors, a Huber-Suhner type 3402.17.A surge
+                              : protector, 10 m LMR400 indoors, GPS Networking
+                              : Inc. 4-way high-isolation antenna splitter
+                              : N HI AL DCB S1X4-N/ 12/ 220, with 17 dB gain
+                              : and 12 V DC feed to the antenna, and a short
+                              : 1.5 m cables to the receiver.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : GPS (mark #16)
+     Tied Marker Usage        : GPS DELF (EUREF)
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 13502M004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -10.4112
+       dy (m)                 : 7.9596
+       dz (m)                 : 5.7753
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRILAT./TRIANG./LEVELLING/GPS CAMPAIGN
+     Date Measured            : 1994-04-19T00:00Z
+     Additional Information   : The ties are checked twice per year using a
+                              : local survey, unless there are significant
+                              : changes the results are not reported here
+
+5.2  Tied Marker Name         : GPS (mark #20)
+     Tied Marker Usage        : GPS DLFT (IGS)
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 13502M006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -0.9202
+       dy (m)                 : 7.0236
+       dz (m)                 : -1.7047
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRILAT./TRIANG./LEVELLING/GPS CAMPAIGN
+     Date Measured            : 1994-04-19T00:00Z
+     Additional Information   : The ties are checked twice per year using a
+                              : local survey, unless there are significant
+                              : changes the results are not reported here
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2011-04-15/2011-06-22
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2011-06-22/CCYY-MM-DD
+       Notes                  : Clock steering has been enabled during some
+                              : periods, and disabled during others. Currently
+                              : clock steering is enabled.
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1994-12-30/CCYY-MM-DD
+       Notes                  : EUREF Permanent Network station DELF
+
+7.2  Instrumentation Type     : GPS+GLONASS
+       Status                 : PERMANENT
+       Effective Dates        : 1998-08-17/CCYY-MM-DD
+       Notes                  : IGS Permanent station DLFT
+
+7.3  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 2004-09-14/CCYY-MM-DD
+       Notes                  : JPL GDGPS Permenent station DLF3,
+                              : operated on the same antenna
+                              : through an antenna splitter.
+
+7.4  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 2004-09-14/CCYY-MM-DD
+       Notes                  : EGNOS Data Collection Network (EDCN) Permanent
+                              : station DLF5, operated on the same antenna
+                              : through an antenna splitter.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HUMICAP H-Sensor
+       Manufacturer           : Vaisala Oy, Finland
+       Serial Number          : P0120011
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : <2
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.60 m
+       Calibration date       : 1993-09-12
+       Effective Dates        : 1994-04-19/CCYY-MM-DD
+       Notes                  : Electronics: Vaisala Humidity and Temperature
+                              : Transmitter HMP233
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Vaisala Pressure Transmitter PTB 200A
+       Manufacturer           : Vaisala Oy, Finland
+       Serial Number          : 692620
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.12 hPa
+       Height Diff to Ant     : -2.65 m
+       Calibration date       : 1993-09-12
+       Effective Dates        : 1994-04-14/CCYY-MM-DD
+       Notes                  : Electronics: Vaisala Pressure Transmitter
+                              : PTB 200A; pressure sensor below GPS antenna
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : Pt 100 RTD 1/3 DIN 43760B
+       Manufacturer           : Vaisala Oy, Finland
+       Serial Number          : P0120011
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 1.60 m
+       Calibration date       : 1993-09-12
+       Effective Dates        : 1994-04-14/CCYY-MM-DD
+       Notes                  : Electronics: Vaisala Humidity and Temperature
+                              : Transmitter HMP233
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1  Radio Interferences    : CELL PHONE ANTENNA
+       Observed Degradations  : NONE
+       Effective Dates        : 1997-03-25/CCYY-MM-DD
+       Additional Information : Located on South tower, 100 meters from GNSS
+                              : antennae, transmitting in a 240 degrees sector.
+                              : The GNSS antennae are located in a 120 degrees
+                              : sector not covered by the GSM system. Test at
+                              : 5 meters from the GSM antenna have shown no
+                              : degradation of the GPS, so it is very unlikely
+                              : that the GPS is affected.
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : ROOF
+       Effective Dates        : 1994-12-30/CCYY-MM-DD
+       Additional Information : Flat roof with concrete balustrade at right
+                              : angles with the roof, and several 90 degrees
+                              : corners. Medium multipath effects have been
+                              : observed.
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : NONE
+       Effective Dates        : 2011-04-15/CCYY-MM-DD
+       Additional Information : 
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 1997-03-25/CCYY-MM-DD
+     Event                    : CELL PHONE TRANSMISSION STARTED (SEE 9.1.1)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Delft University of Technology (TUD)
+     Preferred Abbreviation   : TUD/MGP
+     Mailing Address          : Stevinweg 1
+                              : 2628 CN Delft, The Netherlands
+     Primary Contact
+       Contact Name           : Hans van der Marel
+       Telephone (primary)    : (0031) 15 278 4907
+       Telephone (secondary)  : (0031) 15 262 1844
+       Fax                    : (0031) 15 278 3711
+       E-mail                 : H.vanderMarel@TUDelft.nl
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : DUT
+     Secondary Data Center    : BKG
+     URL for More Information : http://gnss1.tudelft.nl/dpga/
+     Hardcopy on File
+       Site Map               : ./station/Delft.html
+       Site Diagram           : ./station/Delft.html
+       Horizon Mask           : ./station/Delft.html
+       Monument Description   : ./station/Delft.html
+       Site Pictures          : ./station/Delft.html
+     Additional Information   : No obstacles above 0 degrees of elevation
+     Antenna Graphics with Dimensions
+
+LEIAR25.R3
+
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                              (5/8' thread might
+                                                               differ from BPA!)
+  <--                    0.3802                   -->
+

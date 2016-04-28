@@ -1,0 +1,530 @@
+
+     SCH2 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Stuart Elson
+     Date Prepared            : 2015-11-03
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : sch2_20130121.log
+      Modified/Added Sections : 1, 4.3, 4.4
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : SCH2 CACS-GSD
+     Four Character ID        : SCH2
+     Monument Inscription     : 972000
+     IERS DOMES Number        : 40133M002
+     CDP Number               : 
+     Monument Description     : Concrete Pier
+       Height of the Monument : 1.70 m
+       Monument Foundation    : Exposed bedrock
+       Foundation Depth       : 3.00 m
+     Marker Description       : Brass Plate
+     Date Installed           : 1997-06-29T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 51-200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : The GNSS reference mark consists of a brass
+                              : plate with a forced centered stainless steel
+                              : bolt embedded on top of a 1.7 m high concrete
+                              : pier, 0.40 m in diameter. The concrete pier is
+                              : anchored to exposed bedrock by stainless steel
+                              : reinforcing bars to a depth of 3 m.
+
+
+2.   Site Location Information
+
+     City or Town             : Schefferville
+     State or Province        : QC
+     Country                  : Canada
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1448636.93
+       Y coordinate (m)       : -3385243.67
+       Z coordinate (m)       : 5191046.95
+       Latitude (N is +)      : +544955.56
+       Longitude (E is +)     : -0664957.36
+       Elevation (m,ellips.)  : 498.20
+     Additional Information   : SCH2 is a continuously tracking GNSS station and
+                              : is part of the Canadian Active Control System
+                              : (CACS).  The station is located at Transport
+                              : Canada telecommunication facility in
+                              : Schefferville, Quebec. The GNSS station has been
+                              : in operation since Jun 29, 1997 and
+                              : replaces station SCHE #882035 which was in
+                              : operation between Aug. 1993 and Sept. 1996.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T161
+     Firmware Version         : TURBO 3.2.32.5X
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1997-06-29T00:00Z
+     Date Removed             : 1999-08-04T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : 235-U
+     Firmware Version         : 3.3.32.2N
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-08-05T00:00Z
+     Date Removed             : 2008-01-01T17:45Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 2028
+     Firmware Version         : 3.3.32.2N
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2008-02-15T19:15Z
+     Date Removed             : 2009-11-09T11:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 401-01542
+     Firmware Version         : 3.4
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2009-11-13T00:00Z
+     Date Removed             : 2011-05-02T17:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-00848
+     Firmware Version         : 3.5 Mar 16, 2011 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-05-05T20:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 170
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RJ-214
+     Antenna Cable Length     : 50.00 m
+     Date Installed           : 1997-06-29T00:00Z
+     Date Removed             : 2003-10-10T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 473
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : FSJ2-50
+     Antenna Cable Length     : 50.00 m
+     Date Installed           : 2003-10-13T00:00Z
+     Date Removed             : 2008-10-06T14:15Z
+     Additional Information   : 
+
+4.3  Antenna Type             : ASH701945E_M    NONE
+     Serial Number            : CR620045048
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : FSJ2-50
+     Antenna Cable Length     : 50.00 m
+     Date Installed           : 2008-10-06T14:15Z
+     Date Removed             : 2015-08-06T15:25Z
+     Additional Information   : 
+
+4.4  Antenna Type             : ASH701945E_M    NONE
+     Serial Number            : CR620045048
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0.0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LDF4-50A
+     Antenna Cable Length     : 50.00 m
+     Date Installed           : 2015-08-07T03:31Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1997-06-29/2003-10-10
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2003-10-13/2009-11-09
+       Notes                  : 
+
+6.3  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2009-11-13/2012-02-14
+       Notes                  : 
+
+6.4  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2012-02-14/2013-01-21
+       Notes                  : 
+
+6.5  Standard Type            : INTERNAL
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2013-01-21/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP-35A
+       Manufacturer           : VAISALA
+       Serial Number          : XXX
+       Data Sampling Interval : 900 sec
+       Accuracy (% rel h)     : 2.0
+       Aspiration             : NONE
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2002-11-13
+       Effective Dates        : 2002-11-13/2003-10-10
+       Notes                  : 
+
+8.1.2  Humidity Sensor Model  : HMP-35A
+       Manufacturer           : VAISALA
+       Serial Number          : XXX
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 2.0
+       Aspiration             : NONE
+       Height Diff to Ant     : -3.66 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-10-13/2009-11-09
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTB-100A
+       Manufacturer           : VAISALA
+       Serial Number          : XXX
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -2 m
+       Calibration date       : 2002-11-13
+       Effective Dates        : 2002-11-13/2003-10-10
+       Notes                  : The readings are modeled as a function of the
+                              : pressure transducer output and the
+                              : temperature.
+
+8.2.2  Pressure Sensor Model  : PTB-100A
+       Manufacturer           : VAISALA
+       Serial Number          : XXX
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -.31 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-10-13/2009-11-09
+       Notes                  : The readings are modeled as a function of the
+                              : pressure transducer output and the
+                              : temperature.
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : YSI 44212
+       Manufacturer           : YSI
+       Serial Number          : XXX
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : NONE
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2002-11-13
+       Effective Dates        : 2002-11-13/2003-10-10
+       Notes                  : 
+
+8.3.2  Temp. Sensor Model     : VSI 44212
+       Manufacturer           : VSI
+       Serial Number          : XXX
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : NONE
+       Height Diff to Ant     : -3.66 m
+       Calibration date       : 
+       Effective Dates        : 2003-10-13/2009-11-09
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2010-01-26/2010-01-29
+     Event                    : OBSERVED POSITION SHIFT DUE TO SNOW ON THE
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NRCan/GEODETIC SURVEY OF CANADA
+     Preferred Abbreviation   : NRCan
+     Mailing Address          : 615 Booth Street, Ottawa,Ontario
+                              : Canada, K1A 0E9
+     Primary Contact
+       Contact Name           : Mark Caissy
+       Telephone (primary)    : 613-995-4024
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : caissy@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Peter Taylor
+       Telephone (primary)    : 613-992-2106
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : peter.taylor@nrcan.gc.ca
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : NRCan
+     URL for More Information : http://www.geod.nrcan.gc.ca/index_e.php
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+
+
+    Type: AOAD/M_T
+
+                                    ---
+     L2 Phase Center =>         /    +    \             <---------------+
+     L1 Phase Center =>        |     +     |            <---------+     |
+              +----------------------------------------------+    |     |
+              |                                              |    |     |
+              |                                              |    |     |
+              |                                              |    |     |
+              |                                              |    |     |
+             ==================================================   |     |
+                               |           |                      |     |
+                               |    +-+    |                      |   0.228m
+   Bottom of Preamp.  (BPA) => +====| |====+   <--+               |     |
+                               |           |      |             0.210m  |
+                               |           |      |               |     |
+                               |           |      |               |     |
+                      Mount => |           |    0.100m            |     |
+                               |           |      |               |     |
+                               |           |      |               |     |
+                               |    +-+    |      |               |     |
+ Monument =>  +----------------+====| |====+-----------------+ <--+-----+
+ Ref. Point   |                                              |
+              |                                              |
+              |                                              |
+              |               Concrete pillar                |
+              |                                              |
+              |                                              |
+              |                                              |
+
+
+
+
+   Type:ASH701945E_M
+
+                         +-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+  <--                 |    0.3794   |                  -->
+                      |     +-+     |
+                      +=====| |=====+   <--BPA
+                      |             |      |
+                      |             |      |
+                      |             |      |
+             Mount => |             |    0.100m
+                      |             |      |
+                      |             |      |
+                      |     +-+     |      |
+  +-------------------+=====| |=====+--------------------+ <-- Monument
+  |                                                      |     Ref. Point
+  |                                                      |
+  |                                                      |
+  |                   Concrete pillar                    |
+  |                                                      |
+  |                                                      |
+  |                                                      |
+
+
+
+   BPA: Bottom of Preamplifier
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+

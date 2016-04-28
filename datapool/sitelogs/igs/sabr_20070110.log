@@ -1,0 +1,234 @@
+     SAAR Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : LKVK
+     Date Prepared            : 2007-01-10
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : 0930_20070108.log
+      Modified/Added Sections : 4.3,1
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : SAARBRUECKEN
+     Four Character ID        : SABR
+     Monument Inscription     : 
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : ROOF OF THE ZDV SAAR
+       Height of the Monument : 0.5
+       Monument Foundation    : SIDEWAYS FIXED AT A CHIMNEY
+       Foundation Depth       : 
+     Marker Description       : STEELTUBE WITH PLATE
+     Date Installed           : 1999-11-23T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : SAARBRUECKEN
+     State or Province        : SAARLAND
+     Country                  : Germany
+     Tectonic Plate           : Eurasian Plate
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4143127.67
+       Y coordinate (m)       : 509345.58
+       Z coordinate (m)       : 4806622.404
+       Latitude (N is +)      : +491303.69
+       Longitude (E is +)     : +0070031.07
+       Elevation (m,ellips.)  : 00284.3
+     Additional Information   : ETRS89, REALIZATION DREF91 (SINCE 2003-07-01)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JPS EUROCARD
+     Satellite System         : GPS
+     Serial Number            : MT310534353
+     Firmware Version         : 2.3 APR.28.2004 P4
+     Elevation Cutoff Setting : 0
+     Date Installed           : 1999-11-23T00:00Z
+     Date Removed             : 2005-06-17T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.2  Receiver Type            : NOV MILLEN-RT2
+     Satellite System         : GPS
+     Serial Number            : SGL99080043
+     Firmware Version         : 3-1 4.501/2.03
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-06-17T00:00Z
+     Date Removed             : 
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : JPSREGANT_DD_E
+     Serial Number            : RA0170
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0550
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 20
+     Date Installed           : 1999-11-03T00:00Z
+     Date Removed             : 2003-12-03T00:00Z
+     Additional Information   : ANTENNA ABSOLUTE CALIBRATED
+                              :  (ROBOT) BY GEO++ GMBH GARBSEN
+
+4.2  Antenna Type             : NOV503+CR
+     Serial Number            : 6625
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : 000.1240
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 20
+     Date Installed           : 2003-12-03T00:00Z
+     Date Removed             : 2005-05-23T00:00Z
+     Additional Information   : ANTENNA ABSOLUTE CALIBRATED
+                              : (ROBOT) BY GEO++ GMBH GARBSEN
+                              : ARP:
+                              : HORIZONTAL:ROTATION AXIS CENTER OF 5/8"
+                              : THREAD
+                              : VERTICAL:1"THREAD
+                              : ATTENTION:
+                              : ARP IS NOT LOWEST
+                              : POINT OF ANTENNA BODY
+                              : OUTER EDGE OF ANTENNA BODY
+                              : IS LOWER THAN 1" THREAD
+
+4.3  Antenna Type             : NOV503+CR
+     Serial Number            : 6612
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : -00.1280
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NOKE
+     Radome Serial Number     : NONE
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 20
+     Date Installed           : 2005-05-23T00:00Z
+     Date Removed             : 
+     Additional Information   : ANTENNA ABSOLUTE CALIBRATED
+                              : (ROBOT) BY GEO++ GMBH GARBSEN
+                              : ARP:
+                              : HORIZONTAL:ROTATION AXIS CENTER OF 5/8"
+                              : THREAD
+                              : VERTICAL:1"THREAD
+                              : ATTENTION:
+                              : ARP IS NOT LOWEST
+                              : POINT OF ANTENNA BODY
+                              : OUTER EDGE OF ANTENNA BODY
+                              : IS LOWER THAN 1" THREAD
+
+
+5.   Surveyed Local Ties
+
+
+6.   Frequency Standard
+
+
+7.   Collocation Information
+
+
+8.   Meteorological Instrumentation
+
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : LANDESAMT FÜR KATASTER-
+                              : VERMESSUNGS- UND KARTENWESEN
+                              : SAARLAND
+     Preferred Abbreviation   : LKVK SL
+     Mailing Address          : VON DER HEYDT 22
+                              : 66115 SAARBRÜCKEN
+     Primary Contact
+       Contact Name           : RUDOLF KLEINBAUER
+       Telephone (primary)    : 0049-681-9712-222
+       Telephone (secondary)  : 
+       Fax                    : 0049-681-9712-200
+       E-mail                 : R.KLEINBAUER@LKVK.SAARLAND.DE
+     Secondary Contact
+       Contact Name           : MARCO WEGMANN
+       Telephone (primary)    : 0049-681-9712-309
+       Telephone (secondary)  : 
+       Fax                    : 0049-681-9712-200
+       E-mail                 : M.WEGMANN@LKVK.SAARLAND.DE
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      : 
+     Secondary Data Center    : 
+     URL for More Information : HTTP://WWW.LKVK.SAARLAND.DE
+     Hardcopy on File
+       Site Map               : N
+       Site Diagram           : N
+       Horizon Mask           : N
+       Monument Description   : N
+       Site Pictures          : N
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+NOV503+CR
+                     _____________
+                    /      +      \                       <--  0.0923 L2 
+                   |       +       |                      <--  0.0865 L1
+--------------------------------------------------------  <--         TCR 
+|                                                      |
+|                                                      |
++------------------------+---+-------------------------+  <--  0.0000 BCR = ARP
+
+<--                      0.3764                      --> 
+

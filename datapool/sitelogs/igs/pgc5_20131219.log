@@ -1,0 +1,824 @@
+     pgc5 Site Information Form
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Brian Schofield
+     Date Prepared            : 2013-12-19
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : pgc5_20120116.log 
+      Modified/Added Sections : 2006-03-02: - 1., 13.
+                                            - corrected all Antenna Diagrams
+                              : 2008-05-01: - added 3.13, updated firmware version;
+                              : 2009-11-17: - added 3.14, firware update (2009-08-06)
+                              :             - added 3.15, receiver change; L2C
+                              : 2012-01-16: - cleaned up antenna diagrams; 
+                              :               (removed L1, L2 phase centre
+                              :               offsets and clarified
+                              :               ARP location;
+                              : 2013-12-19: - 3.15: firmware upgrade;
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : PGC5
+     Four Character ID        : PGC5
+     Monument Inscription     : 987003
+     IERS DOMES Number        : 40129M007
+     CDP Number               : 
+     Monument Description     : CONCRETE PIER, 61cm DIAMETER
+       Height of the Monument : 3.0
+       Monument Foundation    : anchored to the top of buried concrete water
+                              : reservoir
+       Foundation Depth       : 
+     Marker Description       : BRASS PLATE; FORCED CENTER STAINLESS STEEL
+                              : BOLT
+     Date Installed           : 1998-03-31
+     Geologic Characteristic  : see below
+       Bedrock Type           : see below
+       Bedrock Condition      : see below
+       Fracture Spacing       : see below
+       Fault zones nearby     : Cascadia Subduction Zone
+         Distance/activity    : 
+     Additional Information   : see below
+                              : This station is part of the Western Canada
+                              : Deformation Array (WCDA) as well as the Canadian
+                              : Active Control System (CACS). 
+                              : ************************************************
+                              : The GPS reference mark consists of a brass plate
+                              : with a forced centred stainless steel bolt. The
+                              : brass plate is embedded on top of a 3.0 metre
+                              : high concrete pier, 61 cm in diameter. The
+                              : concrete pier is anchored to the top of a
+                              : buried water reservoir.
+                              : The antenna is attached to the brass,
+                              : forced centered plate via a 10 cm high anodized
+                              : aluminum base. This base provides a constant
+                              : height above the brass plate and also permits
+                              : the antenna to be referenced to north.
+
+2.   Site Location Information
+
+     City or Town             : North Saanich
+     State or Province        : B.C.
+     Country                  : Canada
+     Tectonic Plate           : North America
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2327194.975
+       Y coordinate (m)       : -3522532.685
+       Z coordinate (m)       : 4764828.925
+       Latitude (N is +)      : +483853.88
+       Longitude (E is +)     : -1232703.96
+       Elevation (m,ellips.)  : +3
+     Additional Information   : NOTE: - these coordinates are approximate;
+                                      - coordinates should not be used to
+                                        constrain site in data processing;
+
+3.   GNSS Receiver Information
+
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 381
+     Firmware Version         : 3.2.32.1
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1998-05-13T22:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1113
+     Firmware Version         : 3.2.32.7
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1998-06-09T23:17Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : 297
+     Firmware Version         : 3.2.32.7
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1998-12-15T22:12Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : 292
+     Firmware Version         : 3.3.32.2
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-04-01T23:33Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 185
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-06-24T17:00Z
+     Date Removed             : 1999-07-11T00:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 332
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-07-11T00:35Z
+     Date Removed             : 2000-05-16T16:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 2026
+     Firmware Version         : 3.3.32.3 lk 99/02/28
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-05-16T00:00Z
+     Date Removed             : 2000-05-23T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : LEICA CRS1000
+     Satellite System         : GPS
+     Serial Number            : 23163
+     Firmware Version         : 8.01 4.42 1.26 1.20
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2000-05-23T00:00Z
+     Date Removed             : 2000-06-15T23:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.9  Receiver Type            : LEICA CRS1000
+     Satellite System         : GPS
+     Serial Number            : 23163
+     Firmware Version         : 8.02 4.42 1.26 1.20
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2000-06-15T23:30Z
+     Date Removed             : 2001-05-14T19:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.10 Receiver Type            : LEICA CRS1000
+     Satellite System         : GPS
+     Serial Number            : 30205
+     Firmware Version         : 8.05 4.42 1.26 1.20
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2001-05-14T19:30Z
+     Date Removed             : 2002-03-12T18:22Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.11 Receiver Type            : LEICA CRS1000
+     Satellite System         : GPS
+     Serial Number            : 30205
+     Firmware Version         : 9.00 4.42 1.26 1.20
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2002-03-12T18:22Z
+     Date Removed             : 2005-10-21T17:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.12 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241653
+     Firmware Version         : 0.4-0  10 Oct 2005
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2005-10-21T17:25Z
+     Date Removed             : 2005-10-28T16:55Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.13 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241653
+     Firmware Version         : 0.4-1  27 Oct 2005
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2005-10-28T16:55Z
+     Date Removed             : 2009-08-06T16:23Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.14 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4450241653
+     Firmware Version         : 1.2-0  26 Apr 2007
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2009-08-06T16:23Z
+     Date Removed             : 2009-11-17T23:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.14 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4636121881
+     Firmware Version         : 1.2-0  26 Apr 2007
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2009-11-17T23:30Z
+     Date Removed             : 2013-11-20T23:40Z
+     Temperature Stabiliz.    : none
+     Additional Information   : receiver configured to track L2C and L2-Y-code;
+                              : RINEX file uses L2(P2);
+
+3.15 Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4636121881
+     Firmware Version         : 1.3-2  30 Oct 2012
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2013-11-20T23:43Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware upgrade; 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.   GNSS Antenna Information
+
+
+4.1  Antenna Type             : AOAD/M_T
+     Serial Number            : 98381
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-05-13T22:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : ref. Antenna Diagram 'A' below
+                              : Antenna p/n 7490582-2
+
+4.2  Antenna Type             : AOAD/M_T
+     Serial Number            : 94383
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG-214
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-06-09T23:17Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : ref. Antenna Diagram 'A' below
+                              : Antenna p/n 7490582-2
+
+4.3  Antenna Type             : AOAD/M_T
+     Serial Number            : 94383
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG-214
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-12-15T22:12Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : ref. Antenna Diagram 'A' below
+                              : Antenna p/n 7490582-2
+
+4.4  Antenna Type             : AOAD/M_T
+     Serial Number            : 95160
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : none
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG-214
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-04-01T23:33Z
+     Date Removed             : 1999-07-11T00:35Z
+     Additional Information   : ref. Antenna Diagram 'A' below
+                              : Antenna p/n 7490582-1
+                              : no RF skirt
+
+4.5  Antenna Type             : AOAD/M_T
+     Serial Number            : 95160
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG-214
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-07-12T23:00Z
+     Date Removed             : 2000-05-02T18:30Z
+     Additional Information   : ref. Antenna Diagram 'B' below
+                              : Antenna p/n 7490582-1
+                              : no RF skirt
+
+4.6  Antenna Type             : AOAD/M_T
+     Serial Number            : 95160
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : none
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG-214
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-05-02T18:30Z
+     Date Removed             : 2000-05-13T16:00Z
+     Additional Information   : ref. Antenna Diagram 'A' below
+                              : Antenna p/n 7490582-1
+                              : no RF skirt
+
+4.7  Antenna Type             : LEIAT504
+     Serial Number            : 00306
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : none
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG-214
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-05-16T16:00Z
+     Date Removed             : 2001-05-14T19:30Z
+     Additional Information   : ref. Antenna Diagram 'C' below
+                              : no RF skirt
+
+4.8  Antenna Type             : LEIAT504
+     Serial Number            : 00306
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2001-05-14T19:30Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : ref. Antenna Diagram 'D' below
+                              : no RF skirt
+                              : Dome s/n 00021
+
+4.9  Antenna Type             : LEIAT504
+     Serial Number            : 00306
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-09-08T23:33Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : ref. Antenna Diagram 'D' below
+                              : no RF skirt
+                              : 
+                              : SCIS dome raised by ~3.55 cm effective
+                              : 16-OCT-2001 23:20UT (D289);
+                              : - work started at 22:46UT
+                              : (dome removed, replaced, levelled);
+
+4.10  Antenna Type            : TRM29659.00
+     Serial Number            : 0220364746
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0
+     Antenna Radome Type      : none
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrews FSJ4-50B
+     Antenna Cable Length     : (m)
+     Date Installed           : 2005-10-21T17:25Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : ref. Antenna Diagram 'E' below
+                              : no RF skirt
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : Rubidium
+      Input Frequency         : 5MHz
+      Effective Dates         : 1998-12-15T22:12Z/CCYY-MM-DD
+      Notes                   : no longer in use
+
+6.2  Standard Type            : INTERNAL
+      Input Frequency         : 5MHz
+      Effective Dates         : 1998-12-15T22:12Z/CCYY-MM-DD
+      Notes                   : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+      Input Frequency         : (if external)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+7.   Collocation Information
+
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+      Status                  : (PERMANENT/MOBILE)
+      Effective Dates         : (CCYY-MM-DD/CCYY-MM-DD)
+      Notes                   : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : 
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geological Survey of Canada
+     Preferred Abbreviation   : GSC
+     Mailing Address          : P.O. Box 6000
+                              : 9860 West Saanich Rd.
+                              : Sidney, B.C.
+                              : Canada V8L 4B2
+     Primary Contact
+       Contact Name           : Michael Schmidt
+       Telephone (primary)    : 250-363-6760
+       Telephone (secondary)  : 250-363-6500
+       Fax                    : 250-363-6565
+       E-mail                 : MSchmidt@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Herb Dragert
+       Telephone (primary)    : 250-363-6447
+       Telephone (secondary)  : 250-363-6500
+       Fax                    : 250-363-6565
+       E-mail                 : HDragert@nrcan.gc.ca
+     Additional Information   : (multiple lines)
+
+
+12.   Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+     Agency                   : 
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://wcda.pgc.nrcan.gc.ca
+     Secondary Data Center    : none
+     URL for More Information : http://gsc.nrcan.gc.ca/geodyn/wcda/index_e.php
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : Hardcopy Information available from
+                              : www site or site contact
+
+
+     Antenna Graphics with Dimensions
+
+
+
+
+Antenna Diagram A
+*****************
+
+                              AOAD/M_T
+                            (not to scale)
+
+                                -----
+                            /     +     \                       
+                           |      +      |                      
+          +-----------------------------------------------+     
+          |                                               |
+          |                                               |
+          |                                               |
+          |                                               |
+       +-+------------------------------------------------+-+   
+       ------------------+-------------+------------------+    
+                           |             |
+                           |             |
+                           +------X------+   <------ 0.000 BPA=ARP
+                           *             *         |
+                           *             *         |
+                           *             *         |
+                           *             *       0.100m
+                           *             *         |
+                           *             *         |
+     [---------------------*------#------*-------------------] TOP OF
+     [                                                       ] CONCRETE
+     [                                                       ] PIER
+     [                                                       ]
+     [                                                       ]
+
+                     # ...  Monument Reference Point
+                     X ...  Antenna Reference Point (ARP)
+
+
+
+Antenna Diagram B
+*****************
+
+                        AOAD/M_T        SCIS
+                           (not to scale)
+
+
+                              .  .  .
+                         .                .
+                     .                        .
+                  .                              .
+               .                                    .
+             .                                        .
+           .                                            .
+         . <--  DOME (SCIS)                               .
+       .                                                    .
+      .                                                      .
+     .                                                        .
+     .                                                        .
+     .                                                        .
+     .                         -----                          .
+     .                     /     +     \                      .
+     .                    |      +      |                     .
+     .    +-----------------------------------------------+   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     . +-+------------------------------------------------+-+ .
+     . +-------------------+-------------+------------------+ .
+                           |             |                     
+                           |             |                     
+                           +------X------+   <------ 0.000 BPA=ARP
+                           *             *         |           
+                           *             *         |           
+                           *             *         |         
+                           *             *       0.100m      
+                           *             *         |       
+                           *             *         |      
+     [---------------------*------#------*--------------------]<-TOP OF
+     [                                                        ]CONCRETE
+     [                                                        ]  PIER
+     [                                                        ]
+     [                                                        ]
+
+                     # ...  Monument Reference Point
+                     X ...  Antenna Reference Point (ARP)
+
+
+
+Antenna Diagram C
+*****************
+
+                               LEIAT504
+                             (not to scale)
+
+
+                             +-------+                         
+                           /     +     \                       
+                          |      +      |                      
+          +-----------------------------------------------+    
+          |                                               |
+          |                                               |
+          |                                               |
+          |                                               |
+       +-+------------------------------------------------+-+
+       +-------------------+-------------+------------------+  
+                           |             |
+                           |             |
+                           +------X------+   <----- 0.000 BPA=ARP
+                           *             *         |
+                           *             *         |
+                           *             *         |
+                           *             *       0.100m
+                           *             *         |
+                           *             *         |
+     [---------------------*------#------*--------------------]<-TOP OF
+     [                                                        ]CONCRETE
+     [                                                        ]  PIER
+     [                                                        ]
+     [                                                        ]
+
+                     # ...  Monument Reference Point
+                     X ...  Antenna Reference Point (ARP)
+
+
+Antenna Diagram D
+*****************
+
+                          LEIAT504        SCIS
+                             (not to scale)
+
+
+                              .  .  .
+                         .                .
+                     .                        .
+                  .                              .
+               .                                    .
+             .                                        .
+           .                                            .
+         . <--  DOME (SCIS)                               .
+       .                                                    .
+      .                                                      .
+     .                                                        .
+     .                                                        .
+     .                                                        .
+     .                       +-------+                        .
+     .                     /     +     \                      .
+     .                    |      +      |                     .
+     .    +-----------------------------------------------+   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     . +-+------------------------------------------------+-+ .
+     . +-------------------+-------------+------------------+ .
+                           |             |
+                           |             |
+                           +------X------+   <----- 0.000 BPA=ARP
+                           *             *         |
+                           *             *         |
+                           *             *         |
+                           *             *       0.100m
+                           *             *         |
+                           *             *         |
+     [---------------------*------#------*--------------------]<-TOP OF
+     [                                                        ]CONCRETE
+     [                                                        ]  PIER
+     [                                                        ]
+     [                                                        ]
+
+                     # ...  Monument Reference Point
+                     X ...  Antenna Reference Point (ARP)
+
+
+
+
+Antenna Diagram E
+*****************
+
+                             TRM29659.00
+                            (not to scale)
+
+
+                              -----                          
+                           /     +     \                     
+                          |      +      |                     
+          +-----------------------------------------------+   
+          |                                               |   
+          |                                               |   
+          |                                               |   
+          |                                               |   
+       +-+------------------------------------------------+-+ 
+       +-------------------+-------------+------------------+ 
+                           |             |
+                           |             |
+                           +------X------+   <------ 0.000 BPA=ARP
+                           *             *         |
+                           *             *         |
+                           *             *         |
+                           *             *       0.100m
+                           *             *         |
+                           *             *         |
+     [---------------------*------#------*--------------------]<-TOP OF
+     [                                                        ]CONCRETE
+     [                                                        ]  PIER
+     [                                                        ]
+     [                                                        ]
+
+                     # ...  Monument Reference Point
+                     X ...  Antenna Reference Point (ARP)
+
+
+

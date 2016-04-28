@@ -1,0 +1,562 @@
+     HERS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Robert Sherwood
+     Date Prepared            : 2010-10-06
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : hers_20100823.log
+      Modified/Added Sections : 3.5, 3.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Herstmonceux
+     Four Character ID        : HERS
+     Monument Inscription     : 
+     IERS DOMES Number        : 13212M007
+     CDP Number               : 7840
+     Monument Description     : STEEL MAST
+       Height of the Monument : 8 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 5 m
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1991-09-01
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (0 cm/1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+                              : Located in grounds of Herstmonceux Castle a
+                              : few meters from the UK SLR Facility
+
+
+2.   Site Location Information
+
+     City or Town             : Hailsham
+     State or Province        : East Sussex
+     Country                  : United Kingdom
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4033471.33
+       Y coordinate (m)       : 23667.86
+       Z coordinate (m)       : 4924300.35
+       Latitude (N is +)      : +505202.28
+       Longitude (E is +)     : +0002010.32
+       Elevation (m,ellips.)  :    76.5
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8C
+     Satellite System         : GPS
+     Serial Number            : CR325
+     Firmware Version         : Conan 4.2 (Meenix 7.3) (from 1-FEB-1993)
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1992-03-24
+     Date Removed             : 1998-01-01T00:00Z
+     Temperature Stabiliz.    : 18 +/- 2
+     Additional Information   : SNR-8A receiver from 01-SEP-1991 to 24-MAR-1992
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP01573
+     Firmware Version         : 1F50 (nav); 1D02*50 (channel)
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1998-02-18T00:00Z
+     Date Removed             : 1998-06-29T14:00Z
+     Temperature Stabiliz.    : 18 +/- 2
+     Additional Information   : Temporary installation pending purchase of
+                              : permanent (Ashtech) receiver (see sect 3.3)
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03373
+     Firmware Version         : CB00 (nav); 1D02*50 (channel)
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1998-07-01T00:00Z
+     Date Removed             : 1999-08-20T00:00Z
+     Temperature Stabiliz.    : 18 +/- 2
+     Additional Information   : Permanent receiver - model 700845-10(G)
+
+3.4  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03373
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-08-20T01:37Z
+     Date Removed             : 2010-08-19T12:00Z
+     Temperature Stabiliz.    : 18 +/- 2
+     Additional Information   : Firmware upgrade for GPS week rollover
+
+3.5  Receiver Type            : SEPT POLARX3ETR
+     Satellite System         : GPS+GLO
+     Serial Number            : 2001062
+     Firmware Version         : 1.4.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-08-19T12:00Z
+     Date Removed             : 2010-10-06T09:00Z
+     Temperature Stabiliz.    : 22 +/- 1
+     Additional Information   : Septentrio receiver takes a 10Mhz and 1pps input
+                              : from
+                              : H-Maser. Receiver is located in the same temp
+                              : controlled
+                              : room as the maser.
+
+3.6  Receiver Type            : SEPT POLARX3ETR
+     Satellite System         : GPS+GLO
+     Serial Number            : 2001062
+     Firmware Version         : 2.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-10-06T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 22 +/- 1
+     Additional Information   : Firmware update to 2.1
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_B        NONE
+     Serial Number            : 102
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  :   0.2000
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1991-09-01
+     Date Removed             : 1998-01-01T00:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : ASH700936E      NONE
+     Serial Number            : CR14108
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0096
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH SUPPLIED
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1998-02-18T00:00Z
+     Date Removed             : 1998-06-29T14:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : ASH700936E      NONE
+     Serial Number            : CR16688
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0096
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH SUPPLIED
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1998-07-01T00:00Z
+     Date Removed             : 2001-06-18T11:00Z
+     Additional Information   : The antenna (reference position unchanged from
+                              : above) is mounted at the top of an 8-meter,
+                              : open lattice, cross-braced steel mast set in
+                              : a concrete base. The plane of the chokering
+                              : is above local trees and buildings.
+                              : Antenna unchanged. On 18-Aug-2000 ~10:30UT
+                              : a second nearby GPS antenna (1m away from and
+                              : below the HERS chokering) mounted on the same
+                              : mast was removed and relocated elsewhere on
+                              : site
+                              : Antenna removed because
+                              : of non-uniform directional response and
+                              : sent to Ashtech for repair (IGSMAIL 3373)
+
+4.4  Antenna Type             : ASH700936E      NONE
+     Serial Number            : CR16688
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0096
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH SUPPLIED
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-08-08T15:00Z
+     Date Removed             : 2010-08-19T12:00Z
+     Additional Information   : Antenna unchanged. Repaired antenna (4.4)
+                              : remounted on monument. Data resubmission
+                              : restarted 03-Sep-2001 (IGSMAIL 3503)
+
+4.5  Antenna Type             : LEIAR25.R3      NONE
+     Serial Number            : 10250002
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0096
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Ashtech supplied
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-08-19T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : SLR intersection
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7840
+     Tied Marker DOMES Number : 13212S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -6.4992
+       dy (m)                 : -10.2707
+       dz (m)                 : 3.9401
+     Accuracy (mm)            : 2
+     Survey method            : GPS CAMPAIGN/TRIANGULATION
+     Date Measured            : 2008-06-23
+     Additional Information   : site survey conducted by IGN june 2008
+
+5.2  Tied Marker Name         : HERT
+     Tied Marker Usage        : GNSS
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : 13212M010
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -9.1855
+       dy (m)                 : -135.0916
+       dz (m)                 : 16.9475
+     Accuracy (mm)            : 2
+     Survey method            : GPS CAMPAIGN/TRIANGULATION
+     Date Measured            : 2008-06-23
+     Additional Information   : site survey conducted by IGN june 2008
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL GPS (AND RUBIDIUM) MODERATED BY DFS
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1996-06-17/2010-08-19
+       Notes                  : (multiple lines)
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2010-08-19/CCYY-MM-DD
+       Notes                  : T4 science iMaser 3000, number 55
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1984-09-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.2  Instrumentation Type     : GPS/GLONASS
+       Status                 : PERMANENT
+       Effective Dates        : 1999-12-01/CCYY-MM-DD
+       Notes                  : IGLOS site name HERT
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP140
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 300 s
+       Accuracy (% rel h)     : 5
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 1.1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1996-06-19/2002-01-18
+       Notes                  : (multiple lines)
+
+8.1.2  Humidity Sensor Model  : MP103A-T7-W4W
+       Manufacturer           : Rotronics
+       Serial Number          : 15082004
+       Data Sampling Interval : 300 s
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 1.1 m
+       Calibration date       : (2001-11-20)
+       Effective Dates        : 2002-01-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : DPI 140 series
+       Manufacturer           : Druck
+       Serial Number          : 
+       Data Sampling Interval : Every 5 min s
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 1.1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1997-06-04/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP140
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : Every 5 min s
+       Accuracy               : 0.1 deg C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 1.1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1997-06-04/2002-01-18
+       Notes                  : (multiple lines)
+
+8.3.2  Temp. Sensor Model     : MP103A-T7-W4W
+       Manufacturer           : Rotronics
+       Serial Number          : 15082004
+       Data Sampling Interval : Every 5 min s
+       Accuracy               : 0.3 deg C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : 1.1 m
+       Calibration date       : 2001-11-20
+       Effective Dates        : 2002-01-18/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NERC Space Geodesy Facility
+     Preferred Abbreviation   : NSGF
+     Mailing Address          : Herstmonceux Castle, Hailsham,
+                              : East Sussex BN27 1RP, England
+     Primary Contact
+       Contact Name           : Robert Sherwood
+       Telephone (primary)    : +44 (0)1323 833888
+       Telephone (secondary)  : 
+       Fax                    : +44 (0)1323 833929
+       E-mail                 : rshe@nerc.ac.uk
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ROGUE:  DORNE MARGOLIN B  (Allen Osborne Design)
+
+                         -----
+                     /     +                             <--  0.096  L2
+                    |      +      |                       <--  0.078  L1
+  +-----------------+-------------+------------------+    <--  0.070  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  +-----------------+------x------+------------------+    <--  0.000  ARP
+                    |             |
+                    +-------------+                       <-- -0.011
+                          ||  ||
+
+  <--                    0.351                     -->
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+--------------------------------------------------------------------------
+
+    ASHTECH:  ASH700936E
+
+                         -----
+                     /     +                             <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +-----------------+-------------+------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+-----------------+-------------+------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- -0.000  ARP=BPA
+
+<--                      0.381                       -->
+
+
+   ARP: Antenna Reference Point           BPA: Bottom of Pre-Amplifier
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+--------------------------------------------------------------------------
+
+LEIAR25.R3
+
+                       +-------+                          <--  0.1995
+                      /
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP

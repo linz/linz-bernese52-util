@@ -1,0 +1,610 @@
+     HOB2 Site Information Form
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ted Zhou  
+     Date Prepared            : 2014-07-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : hob2_20101011.log
+       Modified/Added Sections: 3.14,3.15,11,13
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Hobart AU016
+     Four Character ID        : HOB2
+     Monument Inscription     : National Geodetic Fiducial Network
+     IERS DOMES Number        : 50116M004
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 0.5 m
+       Monument Foundation    : STEEL RODS SET IN BEDROCK
+       Foundation Depth       : (m)
+     Marker Description       : Stainless steel plate with a 
+                                centred 5/8" spigot 
+     Date Installed           : 1992-08-12
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : Jurassic Dolerite
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Monument is a 600mm dia concrete
+                              : Pillar 0.5 m high
+
+
+2.   Site Location Information
+
+     City or Town             : Hobart
+     State or Province        : Tasmania
+     Country                  : Australia
+     Tectonic Plate           : PACIFIC
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3950071.2740
+       Y coordinate (m)       : 2522415.2180
+       Z coordinate (m)       : -4311638.5120
+       Latitude (N is +)      : -424816.98508
+       Longitude (E is +)     : +1472619.43547
+       Elevation (m,ellips.)  : 041.1270
+     Additional Information   : ARGN (Australian Regional GPS Network)
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : AOA ICS-4000Z
+     Satellite System         : GPS
+     Serial Number            : C133
+     Firmware Version         : 3.2.33.1
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 1995-11-30T00:00Z
+     Date Removed             : 1997-05-21T23:59Z 
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : AOA ICS-4000Z
+     Satellite System         : GPS
+     Serial Number            : C117
+     Firmware Version         : 3.2.33.1
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 1997-05-22T00:00Z
+     Date Removed             : 1998-10-25T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : AOA ICS-4000Z
+     Satellite System         : GPS
+     Serial Number            : C122
+     Firmware Version         : 3.2.33.1
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 1998-10-26T00:00Z
+     Date Removed             : 1999-08-15T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : AOA ICS-4000Z
+     Satellite System         : GPS
+     Serial Number            : C122
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 1999-08-16T00:00Z
+     Date Removed             : 1999-11-29T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : C206U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 1999-11-30T00:00Z
+     Date Removed             : 2000-07-26T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : AOA ICS-4000Z ACT
+     Satellite System         : GPS
+     Serial Number            : C127U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2000-07-27T00:00Z
+     Date Removed             : 2002-03-28T03:30Z
+     Temperature Stabiliz.    : none 
+     Additional Information   : 
+
+3.7  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 4278
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2002-03-28T03:30Z
+     Date Removed             : 2002-04-02T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : AOA ICS-4000Z ACT
+     Satellite System         : GPS
+     Serial Number            : C127U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 0 (deg)
+     Date Installed           : 2002-04-02T00:00Z
+     Date Removed             : 2005-10-03T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.9  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 25001
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-10-04T00:00Z
+     Date Removed             : 2008-12-09T23:59Z 
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356495
+     Firmware Version         : 6.02 
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-12-10T00:00Z
+     Date Removed             : 2009-07-06T00:00Z  
+     Temperature Stabiliz.    : none
+     Additional Information   :
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356495
+     Firmware Version         : 7.50 
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-07-06T00:00Z
+     Date Removed             : 2010-05-04T00:00Z  
+     Temperature Stabiliz.    : none
+     Additional Information   : The tracking was changed from C2 or P2, to
+                              : P2 only at 2009-07-30T00:00Z 
+                              : Tracking was changed to all in view at
+                              : 2009-09-09T01:40Z
+
+3.12 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356495
+     Firmware Version         : 7.50 / 3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-05-04T00:00Z
+     Date Removed             : 2010-07-29T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : ME upgrade due to GLONASS tracking problem.
+
+3.13 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356495
+     Firmware Version         : 8.00/3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-07-29T00:00Z
+     Date Removed             : 2010-10-11T00:00Z  
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware casused RTCM problems 
+
+3.14 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356495
+     Firmware Version         : 8.01/3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-10-11T00:00Z
+     Date Removed             : 2014-07-17T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.15 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356495
+     Firmware Version         : 8.71/3.823
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2014-07-17T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 203
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : 100 (m)
+     Date Installed           : 1994-07-11
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.1  Tied Marker Name         : RM1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : (A9) 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -34.909
+       dy (m)                 : -3.640
+       dz (m)                 : 25.656
+     Accuracy (mm)            : +/-1mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1992-08-12
+     Additional Information   : (multiple lines)
+
+5.2  Tied Marker Name         : RM2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : (A9) 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 9.057
+       dy (m)                 : -15.836
+       dz (m)                 : -14.018
+     Accuracy (mm)            : +/-1mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1992-08-12
+     Additional Information   : (multiple lines)
+
+5.3  Tied Marker Name         : RM3
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : (A9) 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 11.970
+       dy (m)                 : 28.394
+       dz (m)                 : 7.930
+     Accuracy (mm)            : +/-1mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1992-08-12
+     Additional Information   : (multiple lines)
+
+5.4  Tied Marker Name         : HOBA
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : (A9) 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -112.713
+       dy (m)                 : -50.732
+       dz (m)                 : +50.200
+     Accuracy (mm)            : +/-1mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1992-08-12 
+     Additional Information   : (multiple lines)
+
+5.5  Tied Marker Name         : Hobart VLBI
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7242
+     Tied Marker DOMES Number : 50116S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -165.3740
+       dy (m)                 : -67.6263
+       dz (m)                 : 75.8209
+     Accuracy (mm)            : +/-2mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-03-27
+     Additional Information   : The components are ITRF97 at 1997.0
+                              : VLBI  HOB2 + (dx,dy,dz)
+
+5.6  Tied Marker Name         : Hobart VLBI
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7242
+     Tied Marker DOMES Number : 50116S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -165.3735
+       dy (m)                 : -67.6268
+       dz (m)                 : 75.8232
+     Accuracy (mm)            : +/-2mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-08-14
+     Additional Information   : (multiple lines)
+
+5.7  Tied Marker Name         : RM1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -34.9090
+       dy (m)                 : -3.6377
+       dz (m)                 : 25.6572
+     Accuracy (mm)            : +/-1mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-08-14
+     Additional Information   : (multiple lines)
+
+5.8  Tied Marker Name         : RM2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 9.0624
+       dy (m)                 : -15.8417
+       dz (m)                 : -14.0247
+     Accuracy (mm)            : +/-1mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-08-14
+     Additional Information   : (multiple lines)
+
+5.9  Tied Marker Name         : RM3
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4) 
+     Tied Marker DOMES Number : (A9) 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 11.9712
+       dy (m)                 : 28.3959
+       dz (m)                 : 7.9285
+     Accuracy (mm)            : +/-1mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2004-08-14
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : H-MASER
+       Input Frequency        : 5Mhz
+       Effective Dates        : 1993-02-20/1997-05-22
+       Notes                  : 
+
+6.2  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 5Mhz
+       Effective Dates        : 1997-05-22/1998-08-21
+       Notes                  : 
+
+6.3  Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 1998-08-21/1998-10-02
+       Notes                  : 
+
+6.4  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 5MHz
+       Effective Dates        : 1998-10-02/1998-10-27
+       Notes                  : 
+
+6.5  Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 1998-10-27/1999-11-30
+       Notes                  : 
+
+6.6  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 5MHz
+       Effective Dates        : 1999-11-30/2000-03-13
+       Notes                  : 
+
+6.7  Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 2000-03-13/2003-02-28
+       Notes                  : Suspected Maser problem
+
+6.8  Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 5MHz
+       Effective Dates        : 2003-02-28/2003-03-14
+       Notes                  : Normal operations with internal
+                                switching back to Maser for testing
+
+6.9  Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 2003-03-14/2004-03-25
+       Notes                  : Maser disconnected for servicing.
+
+6.10 Standard Type            : QUARTZ/INTERNAL
+       Input Frequency        : 5MHz
+       Effective Dates        : 2004-03-25/2004-03-30
+       Notes                  : Reconnected back to MASER after servicing
+
+6.11 Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 2004-03-31T00:00Z/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : 
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1992-08-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : GA
+     Mailing Address          : National Geospatial Reference Frames Project
+                              : Geoscience Australia
+                              : GPO Box 378
+                              : Canberra  ACT  2609
+                              : Australia
+                              :
+                              : geodesy@ga.gov.au
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : +61 2 6249 9929
+       E-mail                 : ryan.ruddick@ga.gov.au
+     Secondary Contact
+       Contact Name           : Bob Twilley
+       Telephone (primary)    : +61 2 6249 9066
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : +61 2 6249 9929
+       E-mail                 : bob.twilley@ga.gov.au
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+13.  More Information
+
+     Primary Data Center      : GA (ftp.ga.gov.au)
+     Secondary Data Center    : CDDIS 
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : http://www.auslig.gov.au/geodesy/argn/hob2.htm
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+AOAD/M_T
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0380
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+
+

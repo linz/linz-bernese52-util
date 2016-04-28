@@ -1,0 +1,368 @@
+     RESO Site Information Form
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mike Craymer
+     Date Prepared            : 2010-05-03
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : reso_20071206.log
+      Modified/Added Sections : 1, 2
+
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Resolute
+     Four Character ID        : RESO
+     Monument Inscription     : M009002
+     IERS DOMES Number        : 40149M001
+     CDP Number               : N/A
+     Monument Description     : Steel pipe
+       Height of the Monument : 2.5 m
+       Monument Foundation    : Bedrock
+       Foundation Depth       : 3 m
+     Marker Description       : Brass plate with centering bolt
+     Date Installed           : 2000-08-05
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : Limestone
+       Bedrock Condition      : Weathered
+       Fracture Spacing       : Unknown
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : The GPS reference mark consists of a brass 
+                                plate with a forced centering stainless steel 
+                                bolt cemented on top of a 12.7cm diameter, 8m 
+                                long galvanized steel pipe, set in shale and 
+                                permafrost to a depth of 6m. A slurry was 
+                                poured into the pipe to ground level and 
+                                insulation added to a 0.3m from the top. 
+                                Cement was used to top off the remaining part 
+                                for setting the brass plate. A 0.8m high, 3m 
+                                diameter berme was built around the above-
+                                ground section of the pipe.
+
+
+2.   Site Location Information
+
+     City or Town             : Resolute (Cornwallis Island)
+     State or Province        : Nunavut
+     Country                  : Canada
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       :  -144097.43
+       Y coordinate (m)       : -1683123.97
+       Z coordinate (m)       :  6129777.88
+       Latitude (N is +)      :  +744126.88
+       Longitude (E is +)     : -0945335.88
+       Elevation (m,ellips.)  :       34.90
+     Additional Information   : GPS station at Geological Survey of Canada
+                                Geomagnetic Observatory.
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 03843
+     Firmware Version         : CD00-1D02
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2001-09-12
+     Date Removed             : 2003-05-26T19:00Z
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020405
+     Firmware Version         : CJ50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-05-26T19:15Z
+     Date Removed             : 2003-06-09T19:15Z
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020402
+     Firmware Version         : CJ50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-06-09T19:15Z
+     Date Removed             : 2004-02-20T00:00Z
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020405
+     Firmware Version         : CJ50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-02-20T00:00Z
+     Date Removed             : 2005-05-17T18:30Z
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020406
+     Firmware Version         : CK00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2005-05-17T18:32Z
+     Date Removed             : 2006-03-04T17:10Z
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020402
+     Firmware Version         : CK00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-03-10T20:26Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : None
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.  GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936A_M
+     Serial Number            : 468
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : N/A
+     Antenna Cable Length     : N/A
+     Date Installed           : 2001-09-12
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.  Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2001-09-12/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2007-12-06T20:10Z/2007-12-06T20:13Z
+     Event                    : Removed snow from antenna choke rings
+                                and hoar frost from middle dome.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Natural Resources Canada
+     Preferred Abbreviation   : NRCan/GSD
+     Mailing Address          : 615 Booth Street
+                                Ottawa, ON, K1A 0E9, Canada
+     Primary Contact
+       Contact Name           : Mike Craymer
+       Telephone (primary)    : 613-947-1829
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : craymer@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Mike Piraszewski
+       Telephone (primary)    : 613-947-0967
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : mpirasze@nrcan.gc.ca
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : NRCan/GSD
+     URL for More Information : 
+       Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+              Ashtech: ASH700936A_M
+
+                         -----
+                     /     +     \                        <--  0.228  L2
+                    |      +      |                       <--  0.210  L1
+  +--------------------------------------------------+    <--  0.202  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.138
++-------------------+-------------+--------------------+  <--  0.135  BCR
+<--                 |    0.381    |                  -->
+                    |     +-+     |
+                    +=====| |=====+                       <--  0.100  ARP
+                    |             |
+                    |             |
+                    |             |
+           Mount => |             |
+                    |             |
+                    |             |
+                    |     +-+     |
+   +----------------+=====| |=====+-----------------+     <--  0.000  MRP
+   |                                                |
+   |                                                |
+   |               DIAMETER STEEL PIPE              |
+   |                                                |
+   |                                                |
+
+
+   ARP: Antenna Reference Point           MRP: Monument Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering

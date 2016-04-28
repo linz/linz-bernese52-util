@@ -1,0 +1,431 @@
+
+     TUBI Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Dr. Rahsan Cakmak
+     Date Prepared            : 2016-02-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tubi_20160215.log
+      Modified/Added Sections : 1, 3.9, 3.10
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Gebze
+     Four Character ID        : TUBI
+     Monument Inscription     : Pillar
+     IERS DOMES Number        : 20806M001
+     CDP Number               : 
+     Monument Description     : PILLAR/BRASS
+       Height of the Monument : 
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : CHISELLED BRASS NAIL
+     Date Installed           : 1998-05-07T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : YES/North Anatolian Fault
+         Distance/activity    : 
+     Additional Information   : Bedrock is sandstone (Slightly altered) of
+                              : Triassic red-bed typical series of Gebze Area.
+                              : A Trimble 4000SSi has been in operation
+                              : since 14-JAN-1999 at the Gebze GPS
+                              : Permanent Station.
+                              : Previously, this site was occupied
+                              : by Ashtech Z12 between
+                              : 7-MAY-1998 and 6-JAN-1999. Historical
+                              : data are available via on-site
+                              : contact point (Rahsan.Cakmak@tubitak.gov.tr)
+
+
+2.   Site Location Information
+
+     City or Town             : Gebze
+     State or Province        : Kocaeli
+     Country                  : Turkey
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4211318.522
+       Y coordinate (m)       : 2377865.759
+       Z coordinate (m)       : 4144664.456
+       Latitude (N is +)      : +404712.12
+       Longitude (E is +)     : +0292702.52
+       Elevation (m,ellips.)  : 221.8
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP00658
+     Firmware Version         : CA00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1998-05-07T00:00Z
+     Date Removed             : 1999-01-06T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 25012
+     Firmware Version         : 7.28
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-01-07T00:00Z
+     Date Removed             : 1999-10-13T08:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 25012
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-10-13T10:15Z
+     Date Removed             : 2001-10-19T10:16Z
+     Temperature Stabiliz.    : 
+     Additional Information   : The firmware of the receiver has been
+
+3.4  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 220223123
+     Firmware Version         : 1.35 / 1.35
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2001-10-19T10:58Z
+     Date Removed             : 2002-06-05T12:02Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 220223123
+     Firmware Version         : 1.35 / 1.35
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-06-05T12:23Z
+     Date Removed             : 2002-08-20T00:05Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 25080
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2002-08-21T07:07Z
+     Date Removed             : 2002-08-23T08:15Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 220223123
+     Firmware Version         : 1.35 / 1.35
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-08-26T06:22Z
+     Date Removed             : 2012-06-01T07:50Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 220219184
+     Firmware Version         : 1.37 / 1.37
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-06-01T07:50Z
+     Date Removed             : 2016-02-03T08:50Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            : 220325938
+     Firmware Version         : 2.32 / 2.32
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2016-02-03T08:50Z
+     Date Removed             : 2016-02-16T12:23Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE 5700
+     Satellite System         : GPS
+     Serial Number            : 220403445
+     Firmware Version         : 2.21 / 2.21
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2016-02-16T12:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936C_M    UNAV
+     Serial Number            : 11756
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.4260
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 5 deg
+     Antenna Radome Type      : UNAV
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1998-05-07T00:00Z
+     Date Removed             : 1999-01-06T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM29659.00     UNAV
+     Serial Number            : 145524
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.4260
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : UNAV
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1999-01-07T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1998-05-07/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : TUBITAK Marmara Research Center
+                              : Earth Sciences Research Institute
+     Preferred Abbreviation   : TUBITAK MRC
+     Mailing Address          : TUBITAK Marmara Research Center
+                              : Earth Sciences Research Institute
+                              : 41470 Gebze, Kocaeli
+                              : TURKEY
+     Primary Contact
+       Contact Name           : Dr. Rahsan Cakmak
+       Telephone (primary)    : + 90-262-677 28 63
+       Telephone (secondary)  : + 90-262-677 28 50
+       Fax                    : + 90-262-641 23 09
+       E-mail                 : Rahsan.Cakmak@tubitak.gov.tr
+     Secondary Contact
+       Contact Name           : Alpay Belgen
+       Telephone (primary)    : + 90-262-677 28 78
+       Telephone (secondary)  : + 90-262-677 28 50
+       Fax                    : + 90-262-641 23 09
+       E-mail                 : Alpay.Belgen@tubitak.gov.tr
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : www.nemrut.mam.gov.tr
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : A Short Period Seismological Recorder
+                              : has been in operation in the same site since
+                              : and the station ID is GBZT.
+                              : Seismometer type is 1 Hz, Mark Products L4-3C.
+                              : Record mode is triggered, 14-bit digital.
+                              : Seismological data are available via
+                              : on-site contact
+                              : (Onur.Tan@tubitak.gov.tr)
+     Antenna Graphics with Dimensions
+
+ASH700936C_M
+
+                         -----
+                     /     +     \                        <-- 0.1280 L2
+                    |      +      |                       <-- 0.1100 L1
+  +--------------------------------------------------+    <-- 0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.0380
++-------------------+-------------+--------------------+  <-- 0.0350 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+<--                      0.3810                       -->
+
+
+
+TRM29569.00
+
+                         -----
+                     /     +     \                        <-- 0.1280 L2
+                    |      +      |                       <-- 0.1100 L1
+  +--------------------------------------------------+    <-- 0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.0380
++-------------------+-------------+--------------------+  <-- 0.0350 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+<--                      0.3810                       -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+

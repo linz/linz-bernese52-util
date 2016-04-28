@@ -1,0 +1,664 @@
+
+     SEY1 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Tatevik Shakhbandaryan
+     Date Prepared            : 2015-01-21
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : sey1_20141022.log
+      Modified/Added Sections : 0,3.16,3.17
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Republic of Seychelles Permanent
+     Four Character ID        : SEY1
+     Monument Inscription     : 4016-S
+     IERS DOMES Number        : 39801M001
+     CDP Number               : none
+     Monument Description     : Seismic wellhead steel pipe
+       Height of the Monument : 0.0254 m
+       Monument Foundation    : Steel pipe grouted to granite
+       Foundation Depth       : 100 m
+     Marker Description       : Mark in steel plate
+     Date Installed           : 1995-05-15T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : (multiple lines)
+                              : Monument is a 1" Stainless steel plate
+                              : mounted on a 7" O.D. steel pipe (wellhead)
+                              : grouted to provide mechanical coupling to
+                              : bedrock (granite) to a depth of 100 m.
+                              : The mark consists of a dimple on the plate.
+
+
+2.   Site Location Information
+
+     City or Town             : La Misere
+     State or Province        : Mahe Island
+     Country                  : Seychelles
+     Tectonic Plate           : EAST AFRICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3602870.9328
+       Y coordinate (m)       : 5238175.0780
+       Z coordinate (m)       : -516275.4452
+       Latitude (N is +)      : -044025.3877
+       Longitude (E is +)     : +0552845.8577
+       Elevation (m,ellips.)  : 537.9123
+     Additional Information   : Site is collocated with the seismic station
+                              : of UCSD on the lower pad of the former Air
+                              : Force Tracking Station,10km NW of the
+                              : International Airport at an altitute of 575m
+                              : above sea level.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T334
+     Firmware Version         : 3.2 link 3/9/1995
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1995-05-15T00:00Z
+     Date Removed             : 1996-08-25T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Serial Port B connected to computer's serial
+                              : port (COM3).
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T391
+     Firmware Version         : 3.2 LINK 3/9/1995
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1996-08-25T00:00Z
+     Date Removed             : 1998-08-13T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T194
+     Firmware Version         : 3.2
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1998-08-13T00:00Z
+     Date Removed             : 1999-04-29T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Standard 8-channel T-Rogue receiver, 10Mb
+                              : flashcard, 30 sec sampling rate.
+
+3.4  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T194
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-04-29T00:00Z
+     Date Removed             : 2003-02-06T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Serial Port B connected to computer's serial
+                              : port (COM3).
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : zr520013802
+     Firmware Version         : CJ12
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-02-06T00:00Z
+     Date Removed             : 2004-06-21T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC1200345005
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-06-21T00:00Z
+     Date Removed             : 2005-04-01T02:14Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.7  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC120031609
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-03-07T17:30Z
+     Date Removed             : 2006-11-20T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.8  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR220013847
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-04-09T21:30Z
+     Date Removed             : 2007-04-11T08:45Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.9  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC1200325010
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-06-29T00:00Z
+     Date Removed             : 2007-12-07T08:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.10 Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520021802
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2007-12-07T09:00Z
+     Date Removed             : 2011-08-02T23:59Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.11 Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR2200709004
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2011-08-03T00:00Z
+     Date Removed             : 2013-02-06T09:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : See section 10.2
+
+3.12 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01322
+     Firmware Version         : 3.4.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2013-05-15T17:36Z
+     Date Removed             : 2013-05-23T16:17Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : See section 10.3
+
+3.13 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01321
+     Firmware Version         : 3.5.2b1
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2013-07-22T14:30Z
+     Date Removed             : 2013-09-30T15:38Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.14 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01321
+     Firmware Version         : 3.5.3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2013-09-30T15:38Z
+     Date Removed             : 2014-03-26T16:29Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.15 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01321
+     Firmware Version         : 3.5.5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-03-26T16:30Z
+     Date Removed             : 2014-10-22T01:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : L1 center = 1573
+
+3.16 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01321
+     Firmware Version         : 3.5.7b0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-10-22T01:30Z
+     Date Removed             : 2015-01-21T00:06Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : SBAS off, L1 center = 1573
+
+3.17 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01321
+     Firmware Version         : 3.5.8b0-12-52e9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-01-21T00:07Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : NONE
+     Additional Information   : SBAS off, L1 center = 1573
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 427
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.5011
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1995-05-15T00:00Z
+     Date Removed             : 1996-02-01T00:00Z
+     Additional Information   : Located within a PVC enclosure.
+
+4.2  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 487
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.5011
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1996-02-01T00:00Z
+     Date Removed             : 1998-08-13T00:00Z
+     Additional Information   : Located within a PVC enclosure.
+
+4.3  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 233
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.2065
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : -6 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1998-08-13T00:00Z
+     Date Removed             : 2003-02-06T00:00Z
+     Additional Information   : Antenna is within a PVC enclosure; 26" clear
+                              : raydome protects antenna. The antenna is
+                              : screwed onto a modified UNAVCO spike mount
+                              : with a fixed height of 1.2065m (the rod was
+                              : machined at 47.500").
+
+4.4  Antenna Type             : ASH701945C_M    DOME
+     Serial Number            : cr20004605
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.2065
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : -6 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2003-02-06T00:00Z
+     Date Removed             : 2006-11-20T00:00Z
+     Additional Information   : Antenna is within a PVC enclosure; 26" clear
+                              : raydome protects antenna. The antenna is
+                              : screwed onto a modified UNAVCO spike mount
+                              : with a fixed height of 1.2065m (the rod was
+                              : machined at 47.500"). Antenna is aligned to
+                              : magnetic north.
+
+4.5  Antenna Type             : ASH701945B_M    DOME
+     Serial Number            : CR519992106
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.2065
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : -6 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2007-04-09T21:30Z
+     Date Removed             : 2007-04-11T08:45Z
+     Additional Information   : Antenna is within a PVC enclosure; 26" clear
+                              : raydome protects antenna. The antenna is
+                              : screwed onto a modified UNAVCO spike mount
+                              : with a fixed height of 1.2065m (the rod was
+                              : machined at 47.500"). Antenna is aligned to
+                              : magnetic north.
+
+4.6  Antenna Type             : ASH701945B_M    DOME
+     Serial Number            : CR519993002
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.2065
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : -6 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2007-06-29T00:00Z
+     Date Removed             : 2011-08-02T23:59Z
+     Additional Information   : Antenna is within a PVC enclosure; 26" clear
+                              : raydome protects antenna. The antenna is
+                              : screwed onto a modified UNAVCO spike mount
+                              : with a fixed height of 1.2065m (the rod was
+                              : machined at 47.500"). Antenna is aligned to
+                              : magnetic north.
+
+4.7  Antenna Type             : ASH701945E_M    NONE
+     Serial Number            : CR6200548023
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 1.2065
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Time LMR 400
+     Antenna Cable Length     : 
+     Date Installed           : 2011-08-03T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Dome broken, appears a large object was 
+                              : dropped onto antenna.
+                              : Guy wires for 220ft tower installed by Sheik 
+                              : travel directly over antenna.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1995-05-15/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : Seismic
+       Status                 : PERMANENT
+       Effective Dates        : 1998-08-13/CCYY-MM-DD
+       Notes                  : UCSD operates a seismic station collocated
+                              : with the GPS site.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          : 69944
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : 2 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-02-06/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          : 69944
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.010 hPa
+       Height Diff to Ant     : 2 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-02-06/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          : 69944
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.5 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 2 m
+       Calibration date       : 
+       Effective Dates        : 2003-02-06/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : 220 ft metal tower
+       Effective Dates        : 2011-08-03/CCYY-MM-DD
+       Additional Information : 220 ft tower is guy wired into ground between
+                              : recording room and seismic wellhead (antenna). 
+                              : Guy wires pass directly over GPS antenna.
+                              : Site being used as vehicle turnaround, antenna
+                              : cable is driven over each time.
+                              : New Dormitory built 80-100 yards below site
+                              : which houses 80-100 people.
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : TREES
+       Effective Dates        : 2004-06-21/CCYY-MM-DD
+       Additional Information : Continuously growing trees around
+                              : antenna will affect signal reception.
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2012-03-26/2012-03-26
+     Event                    : Transitioned from .soc to .ash data types.  For
+                              : soc data typed used soc2rnx to do the
+                              : conversion to RINEX data.  For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX.
+
+10.2 Date                     : 2013-02-06/2013-05-15
+     Event                    : Ashtech receiver failed on 2013-02-06.
+                              : It was replaced with a Javad receiver on
+                              : 2013-05-14. There is a data gap from 2013-02-06
+                              : to 2013-05-15.
+
+10.3 Date                     : 2013-05-23/2013-07-22
+     Event                    : Javad receiver did not come back up after
+                              : firmware update, so it was replaced.
+
+10.4 Date                     : 2013-07-22/2013-07-22
+     Event                    : L1 center frequency offset to 1573 from nominal
+                              : 1575, allowing some functional BeiDou tracking.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Seychelles Petroleum Company Ltd.
+     Preferred Abbreviation   : SEYPEC
+     Mailing Address          : P.O. Box 222
+                              : Victoria
+                              : Seychelles
+     Primary Contact
+       Contact Name           : Vincent Horeau
+       Telephone (primary)    : +248-224240
+       Telephone (secondary)  : 
+       Fax                    : +284-224456
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : Brown Horter
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA
+                              : USA  91109
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : UNAVCO Network Engineer
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 303-381-7451
+       E-mail                 : ggn-ops@ls.unavco.org
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : N
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : Updated antenna graphics below.
+     Antenna Graphics with Dimensions
+
+ASH701945B_M
+ASH701945C_M
+ASH701945D_M
+ASH701945E_M
+ASH701945G_M
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1006  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0376
++-------------------+-------------+-------------------+   <--  0.0346  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3794                     -->
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                        
+
+All dimensions are in meters.
+
+
+
+
+

@@ -1,0 +1,261 @@
+
+     IGM0 Site Information Form
+     International GPS Service for Geodynamics
+
+0.   Form
+
+     Prepared by (full name)  : Wolfgang Seemueller
+     Date Prepared            : 1999-06-15
+     Report Type              : NEW
+     Prepared Using           :
+
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Buenos Aires
+     Four Character ID        : IGM0
+     Monument Inscription     :
+     IERS DOMES Number        : 41505M002
+     CDP Number               :
+     Date Installed           : 01/08/1998
+     Geologic Characteristic  : Conglomerate
+       Bedrock Type           : Sedimentary
+       Bedrock Condition      :
+       Fracture Spacing       :
+       Notes                  :
+     Additional Information   : 
+
+2.   Site Location Information
+
+     City or Town             : Buenos Aires
+     State or Province        : Buenos Aires
+     Country                  : Argentina
+     Tectonic Plate           : South America
+     Approximate Position
+       X coordinate (m)       : 2751801.076m
+       Y coordinate (m)       :-4479882.682m
+       Z coordinate (m)       :-3598917.357m
+       Latitude (deg)         : 34.57 S
+       Longitude (deg)        : 58.44 W
+       Elevation (m)          : 48.857m
+     Additional Information   :
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Serial Number            : 463
+     Firmware Version         : 1E951D0
+     Date Installed           : 01-AUG-1998 00:00 UT
+     Date Removed             :
+     Additional Information   :
+
+3.x  Receiver Type            :
+     Serial Number            :
+     Firmware Version         :
+     Date Installed           :
+     Date Removed             :
+     Additional Information   :
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : ASH700936D_M    
+     Serial Number            : 769
+     Antenna Height (m)       : 1.3930m
+     Antenna Reference Point  : BCR
+     Degree Offset from North : 0
+     Antenna Radome Type      : No radome
+     Date Installed           : 01-AUG-1998 00:00 UT
+     Date Removed             :
+     Additional Information   :
+
+4.x  Antenna Type             :
+     Serial Number            :
+     Antenna Height (m)       :
+     Antenna Reference Point  :
+     Degree Offset from North :
+     Antenna Radome Type      :
+     Date Installed           :
+     Date Removed             :
+     Additional Information   :
+
+5.   Local Site Ties
+
+5.1  Monument Name            : 
+     Site Ref CDP Number      :
+     Site Ref Domes Number    :
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : m
+       dy (m)                 : m
+       dz (m)                 : m
+     Accuracy (mm)            :  
+     Date Measured            : 
+     Additional Information   :
+
+5.2  Monument Name            : 
+     Site Ref CDP Number      :
+     Site Ref Domes Number    :
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :  m
+       dy (m)                 :  m
+       dz (m)                 :  m
+     Accuracy (mm)            :  
+     Date Measured            :  
+     Additional Information   :
+
+5.x  Monument Name            : 
+     Site Ref CDP Number      :
+     Site Ref Domes Number    :
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Date Measured            : 
+     Additional Information   :
+
+6.   Frequency Standard
+
+6.1  Standard Type            : 
+       Frequency              :
+       Effective Dates        :
+       Notes                  :
+
+6.x  Standard Type            :
+       Frequency              :
+       Effective Dates        :
+       Notes                  :
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : 
+       Status                 : 
+       Effective Dates        : 
+       Notes                  :
+
+7.x  Instrumentation Type     : 
+       Status                 : 
+       Effective Dates        : 
+       Notes                  :
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (% rel h)     :
+       Effective Dates        :
+       Notes                  :
+
+8.2  Pressure Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (mbar)        :
+       Height Diff to GPS (m) :
+       Effective Dates        :
+       Notes                  :
+
+8.3  Temperature Sensor Model :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (deg C)       :
+       Effective Dates        :
+       Notes                  :
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    :
+       Elev Diff to GPS (m)   :
+       Effective Dates        :
+       Notes                  :
+
+8.5  Other Instrumentation    : 
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Geografico Militar (IGM)
+
+     Mailing Address          : Instituto Geografico Militar (IGM)
+                                Departamento Geodesico Cabldo 381
+				Buenos Aires - (1426)
+                                Republica Argentina
+
+
+     Primary Contact Name     : Mayor Eduardo Andres Lauria
+       Telephone (primary)    : 54-11-4576-5576 int. 187
+       Telephone (secondary)  : 
+       Fax                    : 54-11-4576-5529 
+       E-mail                 : geoide@mapas.igm.gov.ar
+     Secondary Contact
+       Contact Name           : Sergio Ruben Cimbaro
+       Telephone (primary)    : 54-11-4576-5576 int. 187 
+       Telephone (secondary)  :
+       Fax                    : 54-11-4576-5529
+       E-mail                 : geoide@mapas.igm.gov.ar
+     Additional Information   :
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : DGFI 
+     Mailing Address          : Marstallplatz 8
+				D-80539 Muenchen
+				Germany
+     Primary Contact
+       Contact Name           : Hermann Drewes
+       Telephone (primary)    : +49-89-23031106
+       Telephone (secondary)  :
+       Fax                    : +49-89-23031240
+       E-mail                 : drewes@dgfi.badw-muenchen.de
+     Secondary Contact
+       Contact Name           : Klaus Stuber
+       Telephone (primary)    : +49-89-23031119
+       Telephone (secondary)  :
+       Fax                    : +49-89-23031240
+       E-mail                 : stuber@dgfi.badw-muenchen.de
+     Additional Information   :
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Diagram           : (Y)
+       Site Map               : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     (insert text graphic)
+
+ Dorne Margolin T
+Monument Concrete Pillar
+
+
+
+                   -------
+                /     +     \                   <-- 0.135m  L2
+               |      +      |                  <-- 0.117m  L1
+  +----------------------------------------+    <-- 0.109m  TCR
+  |                                        |
+  |                                        |
+  |                                        |
+  |                                        |
++-+----------------------------------------+-+  <-- 0.045m, 1.393m ARP
++--------------+-------------+---------------+  <-- 0.042m BCR
+               |             |
+               |     +-+     |
+               +-----|x|-----+   <-- undetermined, top of antenna mount, bottom of antenna
+                   +-+-+-+       <-- 0.000m  
+                   |     |
+              +----+-----+----+  <-- Monument Concrete Pillar on roof
+              |               |
+              |               |
+              |               |
+
+
+
+
+ARP: Antenna Reference Point          
+L1 : L1 Phase Center
+TCR: Top of Chokering
+L2 : L2 Phase Center
+BCR: Botton of Chokering

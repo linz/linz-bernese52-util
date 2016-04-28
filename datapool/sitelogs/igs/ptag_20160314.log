@@ -1,0 +1,452 @@
+
+     PTAG Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Charisma Victoria D. Cayapan
+     Date Prepared            : 2016-03-14
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ptag_20120206.log
+      Modified/Added Sections : 1 (Monument Description, Geologic
+                              : Characteristic),
+                              : 2 (Tectonic Plate, Approximate Position), 
+                              : 3.1-3.6, 5.1, 5.2, 7.2, 7.3, 8.1-8.3, 9.3.1
+                              : 11 (Primary and Secondary Contacts)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : NAMRIA Taguig Active Geodetic Station
+     Four Character ID        : PTAG
+     Monument Inscription     : 
+     IERS DOMES Number        : 22006M005
+     CDP Number               : 
+     Monument Description     : ROOF BASED - PILLAR
+       Height of the Monument : 1.635 (m) from survey marker to ARP m
+       Monument Foundation    : Bolted to one of the building's vertical colum
+       Foundation Depth       : 
+     Marker Description       : NONE
+     Date Installed           : 2008-09-23T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : East Valley Fault Line
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Taguig City
+     State or Province        : Metro Manila
+     Country                  : Philippines
+     Tectonic Plate           : PHILIPPINE
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3184318.745
+       Y coordinate (m)       : 5291065.489
+       Z coordinate (m)       : 1590418.235
+       Latitude (N is +)      : +143207.59009
+       Longitude (E is +)     : +1210226.75542
+       Elevation (m,ellips.)  : 86.647
+     Additional Information   : Ellipsoidal height measured from BPA
+                              : Position from AUSPOS
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355445
+     Firmware Version         : 5.60/3.014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-09-23T00:00Z
+     Date Removed             : 2012-01-31T06:44Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355445
+     Firmware Version         : 5.60/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-01-31T07:14Z
+     Date Removed             : 2012-02-01T06:09Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Measurement engine upgraded from 3.014 
+                              : to 3.019 on 2012-01-31
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355445
+     Firmware Version         : 8.50/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-02-01T06:19Z
+     Date Removed             : 2014-07-22T06:03Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Firmware upgraded from 5.60 to 8.50 on 
+                              : 2012-02-01
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355445
+     Firmware Version         : 8.50/3.055
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-07-22T08:45Z
+     Date Removed             : 2016-03-07T07:43Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Measurement engine upgraded from 3.019 to 
+                              : 3.055 on 2014-07-22
+
+3.5  Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO
+     Serial Number            : 1831080
+     Firmware Version         : 3.03/6.214
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-03-08T06:06Z
+     Date Removed             : 2016-03-14T01:51Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Replaced LEICA GRX1200GGPRO with 
+                              : LEICA GR25 receiver
+
+3.6  Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO
+     Serial Number            : 1831080
+     Firmware Version         : 3.22/6.521
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-03-14T02:02Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : NONE
+     Additional Information   : Firmware upgraded from 3.03/6.214 to 
+                              : 3.22/6.521 on 2016-03-14
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504GG      LEIS
+     Serial Number            : 200479
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : -01 deg
+     Antenna Radome Type      : LEIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2008-09-23T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna aligned to magnetic north, magnetic
+                              : declination was computed to be -01 deg 24 min
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : DORIS antenna ref. pt. (MANB)
+     Tied Marker Usage        : DORIS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 22006S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : TRIANGULATION
+     Date Measured            : 2014-12-06T00:00Z
+     Additional Information   : high geodetic surveying
+
+5.2  Tied Marker Name         : PTGG
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 22006M006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : TRIANGULATION
+     Date Measured            : 2014-12-06T00:00Z
+     Additional Information   : high geodetic surveying
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2008-09-23/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1991-04-01/CCYY-MM-DD
+       Notes                  : 
+
+7.2  Instrumentation Type     : GPS/GLONASS/QZSS
+       Status                 : PERMANENT
+       Effective Dates        : 2013-05-16/CCYY-MM-DD
+       Notes                  : 
+
+7.3  Instrumentation Type     : GPS/GLONASS/GALILEO/BEIDOU/QZSS
+       Status                 : PERMANENT
+       Effective Dates        : 2014-12-05/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : Met 4
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : DQ105661
+       Data Sampling Interval : 20 sec
+       Accuracy (% rel h)     : 2% @ 25degC
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : -0.01 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2008-06-16/CCYY-MM-DD
+       Notes                  : Height diff from top of sensor to bottom 
+                              : of choke ring
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Met 4
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : DQ105661
+       Data Sampling Interval : 20 sec
+       Accuracy               : Better than  0.08 hPa
+       Height Diff to Ant     : -0.01 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2008-06-16/CCYY-MM-DD
+       Notes                  : Height diff from top of sensor to bottom
+                              : of choke ring
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : Met 4
+       Manufacturer           : Paroscientific, Inc.
+       Serial Number          : DQ105661
+       Data Sampling Interval : 20 sec
+       Accuracy               : better than  0.5 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : -0.01 m
+       Calibration date       : 
+       Effective Dates        : 2008-06-16/CCYY-MM-DD
+       Notes                  : Height diff from top of sensor to bottom 
+                              : of choke ring
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1  Radio Interferences    : CELL PHONE ANTENNA
+       Observed Degradations  : NO DATA
+       Effective Dates        : 2005-01-01/CCYY-MM-DD
+       Additional Information : 
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : Metal Roof
+       Effective Dates        : 1988-01-01/CCYY-MM-DD
+       Additional Information : 
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : BUILDING
+       Effective Dates        : 2015/CCYY-MM-DD
+       Additional Information : 12 story condominium building newly
+                              : constructed on western corner of station
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : National Mapping and Resource Information Authority
+     Preferred Abbreviation   : NAMRIA
+     Mailing Address          : NAMRIA, Lawton Avenue, Fort Andres Bonifacio,
+                              : Taguig City, Philippines
+     Primary Contact
+       Contact Name           : Charisma Victoria D. Cayapan
+       Telephone (primary)    : (+632)8104831 local 601
+       Telephone (secondary)  : (+632)8842849
+       Fax                    : (+632)8842844
+       E-mail                 : pagenet@namria.gov.ph
+     Secondary Contact
+       Contact Name           : Hennesey R. Marohom
+       Telephone (primary)    : (+632)8104831 local 620
+       Telephone (secondary)  : (+632)8842849
+       Fax                    : 
+       E-mail                 : pagenet@namria.gov.ph
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : IGN
+     Secondary Data Center    : GA
+     URL for More Information : http://pagenet.namria.gov.ph
+     Hardcopy on File
+       Site Map               : http://pagenet.namria.gov.ph
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAT504GG
+
+
+                       +-------+                          <--  0.1393
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1012  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0378
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3794                     -->
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole  
+
+
+
+
+
+

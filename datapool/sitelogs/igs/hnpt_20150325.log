@@ -1,0 +1,494 @@
+     HNPT Site Information Form
+     NGS Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : cors-adm
+     Date Prepared            : 2015-03-25
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : hnpt_20141202.log
+      Modified/Added Sections : 1 2
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : Horn Point Enviromental Lab.
+     Four Character ID        : HNPT
+     Monument Inscription     :
+     IERS DOMES Number        : 49913S001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : 4.3
+       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1995-12-13T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Cambridge
+     State or Province        : Maryland
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1196626.343
+       Y coordinate (m)       : -4846358.500
+       Z coordinate (m)       : 3956723.115
+       Latitude (N is +)      : +383519.74
+       Longitude (E is +)     : -0760749.34
+       Elevation (m,ellips.)  : -28.0
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              :  1631.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-12
+     Satellite System         : GPS
+     Serial Number            : T210
+     Firmware Version         : 3.2.32.1
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1995-12-13
+     Date Removed             : 1997-05-15
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   :
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T371
+     Firmware Version         : 3.2.32.1
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1997-05-16
+     Date Removed             : 1999-04-29T14:19Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   :
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T371
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-04-30T00:00Z
+     Date Removed             : 1999-08-09T14:50Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : firmware upgrade
+
+3.4  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T371
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-08-09T15:03Z
+     Date Removed             : 2000-05-10T23:36Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : station hit by lightning
+
+3.5  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T148
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-05-22T13:22Z
+     Date Removed             : 2000-08-09T00:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Upgraded firmware
+
+3.6  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T148
+     Firmware Version         : 3.2.32.11
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-08-09T13:37Z
+     Date Removed             : 2001-03-28T18:20Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   :
+
+3.7  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3912A25531
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2001-04-25T00:00Z
+     Date Removed             : 2001-07-17T13:37Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T366
+     Firmware Version         : 3.2.32.11
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2001-08-03T13:34Z
+     Date Removed             : 2004-02-11
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : LEICA RS500
+     Satellite System         : GPS
+     Serial Number            : 80155
+     Firmware Version         : 4.20
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2004-02-11
+     Date Removed             : 2006-08-01
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : LEICA RS500
+     Satellite System         : GPS
+     Serial Number            : 80155
+     Firmware Version         : 4.20
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2006-08-01
+     Date Removed             : 2007-06-14
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver replace.
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-06-14
+     Date Removed             : 2007-11-01
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Receiver firmware replaced.
+
+3.12 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 5.60
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2007-11-01
+     Date Removed             : 2009-07-30
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware upgrade.
+
+3.13 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 7.53
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2009-07-30
+     Date Removed             : 2010-03-22T17:58Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple Lines)
+
+3.14 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 7.8
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-03-22T17:58Z
+     Date Removed             : 2010-05-04T19:10Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple Lines)
+
+3.15 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 7.80 / IME 3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-05-04T19:10Z
+     Date Removed             : 2011-05-13T19:47Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple Lines)
+
+3.16 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 8.10/IME 3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-05-13T19:47Z
+     Date Removed             : 2013-04-19T16:24Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple Lines)
+
+3.17 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 8.20/IME 3.019
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2013-04-19T16:24Z
+     Date Removed             : 2014-08-06T16:05Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple Lines)
+
+3.18 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351085
+     Firmware Version         : 8.20/IME3.055
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2014-08-06T16:05Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple Lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 196
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1995-12-13
+     Date Removed             : 1999-01-24T23:59Z
+     Additional Information   : 2009-03-18 Set Marker Ecc North and East
+                              :   from F8.4 to 0.0000
+
+4.2  Antenna Type             : AOAD/M_TA_NGS   NONE
+     Serial Number            : 398
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-01-26T00:00Z
+     Date Removed             : 2000-05-10T23:36Z
+     Additional Information   : Dorne Margolin with chokering retrofit
+                              : with Ashtech LNA
+                              : 2009-03-18 Set Marker Ecc North and East
+                              :   from F8.4 to 0.0000
+
+4.3  Antenna Type             : ASH700936E      SNOW
+     Serial Number            : CR519993605
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-05-22T13:22Z
+     Date Removed             : 2007-06-14
+     Additional Information   : Antenna removed.
+                              : 2009-03-18 Set Marker Ecc North and East
+                              :   from F8.4 to 0.0000
+
+4.4  Antenna Type             : LEIAX1202GG     NONE
+     Serial Number            : 06300058
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2007-06-14
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   :
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : 1995-12-13/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : University of Maryland Center for Environmental
+                              : Studies Horn Point Laboratory
+     Preferred Abbreviation   : UMCES
+     Mailing Address          : 2020 Horns Point Road
+                              : Cambridge, MD  21613
+     Primary Contact
+       Contact Name           : Jason Beveridge
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : jbeveridge@umces.edu
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : NOAA-National Geodetic Survey
+     Preferred Abbreviation   : NOAA-NGS
+     Mailing Address          : 1315 East-West Hwy.
+                              : Silver Spring, MD 20910, USA
+     Primary Contact
+       Contact Name           : Giovanni Sella
+       Telephone (primary)    : 301-713-3198x126
+       Telephone (secondary)  : 301-713-2845
+       Fax                    : 301-713-4475
+       E-mail                 : ngs.corscollector@noaa.gov
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     ftp://igscb.jpl.nasa.gov/pub/station/general/antenna.gra

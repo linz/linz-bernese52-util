@@ -1,0 +1,435 @@
+
+     SPT0 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Anders Frisk
+     Date Prepared            : 2015-11-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : spt0_20150209.log
+      Modified/Added Sections : 0, 3.7, 3.8
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : SP Boras
+     Four Character ID        : SPT0
+     Monument Inscription     : 
+     IERS DOMES Number        : 10425M001
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1995-12-01T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : 
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Swedish permanent GPS Network (SWEPOS)
+                              : Mark at the centre of a horizontal metal plate
+                              : embedded on the concrete monument.
+                              : GABBRO bedrock.
+                              : The same monument and antenna has been used for
+                              : the IGEX/IGLOS-site SP0G up to 2003-08-19.
+
+
+2.   Site Location Information
+
+     City or Town             : Boras
+     State or Province        : 
+     Country                  : Sweden
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3328984.8136
+       Y coordinate (m)       : 761910.0660
+       Z coordinate (m)       : 5369033.4748
+       Latitude (N is +)      : +574253.84
+       Longitude (E is +)     : +0125328.84
+       Elevation (m,ellips.)  : 219.9
+     Additional Information   : SWEREF 99 (Swedish realisation of ETRS89).
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311430635
+     Firmware Version         : 1.9 Aug,11,1999 pl4
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-11-01T00:00Z
+     Date Removed             : 2003-06-23T00:00Z
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : 
+
+3.2  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311430635
+     Firmware Version         : 2.3 May,13,2003 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-06-23T00:00Z
+     Date Removed             : 2004-11-22T15:00Z
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : Firmware upgrade.
+
+3.3  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311430635
+     Firmware Version         : 2.3 Apr,28,2004 p4
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-11-22T15:00Z
+     Date Removed             : 2008-05-06T09:00Z
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : Firmware upgrade.
+
+3.4  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AFFE4GQHRLS
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-05-06T09:00Z
+     Date Removed             : 2012-01-16T14:00Z
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : 
+
+3.5  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00319
+     Firmware Version         : 3.3.5 Nov,16,2011
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-01-16T14:00Z
+     Date Removed             : 2014-01-14T17:00Z
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : 
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00319
+     Firmware Version         : 3.3.5 Nov,16,2011
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-01-14T17:00Z
+     Date Removed             : 2015-02-09T15:15Z
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : 
+
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00319
+     Firmware Version         : 3.5.6 Aug,14,2014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-02-09T15:15Z
+     Date Removed             : 2015-11-17T10:00Z
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : 
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00319
+     Firmware Version         : 3.5.12 Nov,12,2015
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-11-17T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 23.0 +/- 1.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        OSOD
+     Serial Number            : 258
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : OSOD
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1995-12-01T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Boras (BOR0)
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 0
+       dy (m)                 : 0
+       dz (m)                 : 0
+     Accuracy (mm)            : 0 mm
+     Survey method            : TRILATERATION/TRIANGULATION
+     Date Measured            : 1995-12-01T00:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 1995-12-01/2003-10-27
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2003-10-27/2008-03-18
+       Notes                  : Cesium replaced with Hydrogen Maser at
+                              : 16:30 UT
+
+6.3  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-03-18/2008-03-20
+       Notes                  : Unstable frequency due to maintenance
+                              : work on the maser
+
+6.4  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-03-20/2009-04-09
+       Notes                  : Hydrogen maser back to normal operation
+
+6.5  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2009-04-09/CCYY-MM-DD
+       Notes                  : Prev. maser replaced due to unstable frequency
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1995-12-01/CCYY-MM-DD
+       Notes                  : BIPM, SWEPOS, and IGS receivers
+                              : share the same pillar/antenna system.
+                              : The GPS site SPT0 and the GPS/GLONASS
+                              : site SP0G have been merged into site SPT0,
+                              : equipped with a GPS/GLONASS receiver.
+
+7.2  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2003-06-16/2003-06-17
+       Notes                  : 
+
+7.3  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2013-04-19/2013-04-21
+       Notes                  : Observation performed by Lantmateriet.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : MULTIPATH REDUCTION
+       Effective Dates        : 2007-06-08/CCYY-MM-DD
+       Additional Information : Microwave absorbing material Eccosorb was
+                              : mounted around and beneath the antenna to
+                              : reduce multipath.
+
+9.2.2  Multipath Sources      : RADOME HEATING
+       Effective Dates        : 2009-09-30/CCYY-MM-DD
+       Additional Information : A fan system for removal of snow on the radome
+                              : is installed. The fan heats the air under the
+                              : radome.
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : SP Technical Research Institute of
+                              : Sweden Measurement Technology
+     Preferred Abbreviation   : SP
+     Mailing Address          : PO Box 857
+                              : S-501 15 BorE5s
+                              : Sweden
+     Primary Contact
+       Contact Name           : Jan Johansson
+       Telephone (primary)    : +46 10 516 55 04
+       Telephone (secondary)  : +46 31 772 5558
+       Fax                    : +46 10 512 50 38
+       E-mail                 : jan.johansson@sp.se
+     Secondary Contact
+       Contact Name           : SWEPOS Control Centre
+       Telephone (primary)    : +46 26 63 37 53
+       Telephone (secondary)  : +46 26 63 38 84
+       Fax                    : +46 26 65 42 75
+       E-mail                 : swepos@lm.se
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Lantmateriet, the Swedish mapping, cadastral and
+                              : land registration authority
+     Preferred Abbreviation   : LMV
+     Mailing Address          : S-801 82 Gavle
+                              : SWEDEN
+     Primary Contact
+       Contact Name           : Peter Wiklund
+       Telephone (primary)    : +46 26 63 38 84
+       Telephone (secondary)  : +46 70 344 06 38
+       Fax                    : +46 26 61 06 76
+       E-mail                 : peter.wiklund@lm.se
+     Secondary Contact
+       Contact Name           : Jan Johansson
+       Telephone (primary)    : +46 10 516 55 04
+       Telephone (secondary)  : +46 31 772 5558
+       Fax                    : +46 10 512 50 38
+       E-mail                 : jan.johansson@sp.se
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : http://www.sp.se/metrology
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+AOAD/M_T
+Dorne Margolin with chokerings (TurboRogue)
+
+                      +---------+
+                     /     +     \                        <-- 0.1280 L2
+                    |      +      |                       <-- 0.1100 L1
+  +-----------------+-------------+------------------+    <-- 0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.0380
++-------------------+-------------+--------------------+  <-- 0.0350 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.3810                      -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+

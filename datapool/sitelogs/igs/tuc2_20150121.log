@@ -1,0 +1,561 @@
+     TUC2 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Xenophon Frantzis
+     Date Prepared            : 2015-01-21
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tuc2_20140509.log
+      Modified/Added Sections : 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Technical University of Crete
+     Four Character ID        : TUC2
+     Monument Inscription     : 
+     IERS DOMES Number        : 12617M003
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 1.20 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 0.70 m
+     Marker Description       : CENTER OF ANTENNA MOUNTING PLATE
+     Date Installed           : 2004-06-16T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : TUC2 site is installed and maintained by
+                              : the Geodesy and Geomatics Engineering Lab
+                              : of the Mineral Resources Engineering Dept
+                              : of the Technical University of Crete,
+                              : Chania, Greece.
+
+
+2.   Site Location Information
+
+     City or Town             : Chania
+     State or Province        : Crete
+     Country                  : Greece
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4744543.851
+       Y coordinate (m)       : 2119411.870
+       Z coordinate (m)       : 3686258.942
+       Latitude (N is +)      : +353159.48
+       Longitude (E is +)     : +0240414.01
+       Elevation (m,ellips.)  :   161.0
+     Additional Information   : TUC2 site is located in the Technical
+                              : University of Crete Campus, Chania, Greece.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA RS500
+     Satellite System         : GPS
+     Serial Number            : 0080199
+     Firmware Version         : 4.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-06-20T00:00Z
+     Date Removed             : 2008-12-10T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS
+     Serial Number            : 352838
+     Firmware Version         : 5.62/3.014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-12-10T00:00Z
+     Date Removed             : 2010-06-14T06:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : GRX1200GGPRO Receiver is capable of recording
+                              : Glonass data. However this is not done because
+                              : the Glonass option is locked on the receiver.
+                              : The local leica vendor was not providing the
+                              : option free of charge and the given budget at
+                              : the time was not enough to unlock this option.
+                              : On 17 March 2010 (DOY 2010/076, 13:20 UTC) the
+                              : 'Code smoothing' tracking parameter was changed
+                              : from 'Smoothed' to 'Not smoothed'.
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS
+     Serial Number            : 352838
+     Firmware Version         : 8.00/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-06-14T07:00Z
+     Date Removed             : 2010-07-15T06:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : GRX1200GGPRO Receiver is capable of recording
+                              : Glonass data. However this is not done because
+                              : the Glonass option is locked on the receiver.
+                              : The local leica vendor was not providing the
+                              : option free of charge and the given budget at
+                              : the time was not enough to unlock this option.
+                              : On 17 March 2010 (DOY 2010/076, 13:20 UTC) the
+                              : 'Code smoothing' tracking parameter was changed
+                              : from 'Smoothed' to 'Not smoothed'.
+
+3.4  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495906
+     Firmware Version         : 8.00/4.004
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-07-15T09:10Z
+     Date Removed             : 2011-03-11T11:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495906
+     Firmware Version         : 8.10/4.004
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-03-11T11:00Z
+     Date Removed             : 2014-05-05T08:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495906
+     Firmware Version         : 8.71/6.112
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-05-05T08:00Z
+     Date Removed             : 2015-01-21T08:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495906
+     Firmware Version         : 9.20/6.404
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-01-21T08:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT504        NONE
+     Serial Number            : 212
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0337
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica supplied
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2004-06-20T00:00Z
+     Date Removed             : 2004-10-14T10:00Z
+     Additional Information   : Removed due to poor quality of data
+                              : (Satellite visibility problems in North
+                              : sector)
+
+4.2  Antenna Type             : LEIAT504        NONE
+     Serial Number            : 424
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0343
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica supplied
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2004-10-14T10:00Z
+     Date Removed             : 2010-07-15T06:30Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : LEIAR25.R3      NONE
+     Serial Number            : 10020008
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0393
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Leica supplied
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-07-15T09:10Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : R00
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -0.200
+       dy (m)                 : 0.090
+       dz (m)                 : -1.003
+     Accuracy (mm)            : 0.5
+     Survey method            : TRILATERATION/TRIANGULATION/LEVELLING
+     Date Measured            : 2004-06-18T00:00Z
+     Additional Information   : (multiple lines)
+
+5.2  Tied Marker Name         : R01
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -8.300
+       dy (m)                 : 6.820
+       dz (m)                 : -0.704
+     Accuracy (mm)            : 0.5
+     Survey method            : TRILATERATION/TRIANGULATION/LEVELLING
+     Date Measured            : 2004-06-18T00:00Z
+     Additional Information   : (multiple lines)
+
+5.3  Tied Marker Name         : R02
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -0.650
+       dy (m)                 : 9.070
+       dz (m)                 : -0.864
+     Accuracy (mm)            : 0.5
+     Survey method            : TRILATERATION/TRIANGULATION/LEVELLING
+     Date Measured            : 2004-06-18T00:00Z
+     Additional Information   : (multiple lines)
+
+5.4  Tied Marker Name         : R03
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 10.580
+       dy (m)                 : -4.750
+       dz (m)                 : -0.992
+     Accuracy (mm)            : 0.5
+     Survey method            : TRILATERATION/TRIANGULATION/LEVELLING
+     Date Measured            : 2004-06-18T00:00Z
+     Additional Information   : (multiple lines)
+
+5.5  Tied Marker Name         : R04
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 5.600
+       dy (m)                 : -3.060
+       dz (m)                 : -0.949
+     Accuracy (mm)            : 0.5
+     Survey method            : TRILATERATION/TRIANGULATION/LEVELLING
+     Date Measured            : 2004-06-18T00:00Z
+     Additional Information   : (multiple lines)
+
+5.6  Tied Marker Name         : R05
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -0.270
+       dy (m)                 : -17.120
+       dz (m)                 : -0.541
+     Accuracy (mm)            : 0.5
+     Survey method            : TRILATERATION/TRIANGULATION/LEVELLING
+     Date Measured            : 2004-06-18T00:00Z
+     Additional Information   : (multiple lines)
+
+5.7  Tied Marker Name         : SLR0
+     Tied Marker Usage        : SLR, LOCAL CONTROL, GPS
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -1.090
+       dy (m)                 : -16.450
+       dz (m)                 : -0.544
+     Accuracy (mm)            : 0.5
+     Survey method            : GPS CAMPAIGN/TRIANGULATION/LEVELLING
+     Date Measured            : 2004-06-18T00:00Z
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2004-06-16/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45A-P Humidity and Temperature probe
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : X1540004
+       Data Sampling Interval : 180 s
+       Accuracy (% rel h)     : 1
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 16 m
+       Calibration date       : 2003-05-27
+       Effective Dates        : 2003-09-01/2006-12-12
+       Notes                  : (multiple lines)
+
+8.1.2  Humidity Sensor Model  : PAROSCIENTIFIC MET3
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : X1550001
+       Data Sampling Interval : 60 s
+       Accuracy (% rel h)     : 1
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2006-10-10
+       Effective Dates        : 2006-12-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU200 Class A PTU transmitter
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : X1540004
+       Data Sampling Interval : 180 s
+       Accuracy               : 0.07 hPa
+       Height Diff to Ant     : 13 m
+       Calibration date       : 2002-04-11
+       Effective Dates        : 2003-09-01/2006-12-12
+       Notes                  : (multiple lines)
+
+8.2.2  Pressure Sensor Model  : PAROSCIENTIFIC MET3
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : X1550001
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.07 hPa
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2006-10-10
+       Effective Dates        : 2006-12-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P Humidity and Temperature probe
+       Manufacturer           : Vaisala Oyj, Finland
+       Serial Number          : X1540004
+       Data Sampling Interval : 180 s
+       Accuracy               : 0.15 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 16 m
+       Calibration date       : 2003-05-27
+       Effective Dates        : 2003-09-01/2006-12-12
+       Notes                  : (multiple lines)
+
+8.3.2  Temp. Sensor Model     : PAROSCIENTIFIC MET3
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : X1550001
+       Data Sampling Interval : 60 s
+       Accuracy               : 0.15 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 2 m
+       Calibration date       : 2006-10-10
+       Effective Dates        : 2006-12-12/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Laboratory of Geodesy and Geomatics
+                              : Engineering, Mineral Resources
+                              : Engineering Department,Technical
+                              : University of Crete, Greece
+     Preferred Abbreviation   : TUC
+     Mailing Address          : Laboratory of Geodesy and Geomatics
+                              : Engineering, Mineral Resources
+                              : Engineering Department, Technical
+                              : University of Crete, 73100, Chania,
+                              : Greece
+     Primary Contact
+       Contact Name           : Stelios P. Mertikas
+       Telephone (primary)    : +30-28210-37629
+       Telephone (secondary)  : +30-28210-37633
+       Fax                    : +30-28210-37872
+       E-mail                 : mertikas@mred.tuc.gr
+     Secondary Contact
+       Contact Name           : Xenophon A. Frantzis
+       Telephone (primary)    : +30-28210-37672
+       Telephone (secondary)  : +30-28210-37633
+       Fax                    : +30-28210-37892
+       E-mail                 : xfratzis@mred.tuc.gr
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ASI
+     Secondary Data Center    : OLG
+     URL for More Information : http://www.gavdos.tuc.gr
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+LEIAR25
+
+                       +-------+                          <--  0.1995
+                      /         \
+                    +-           -+
+                |---+-------------+---|                   <--  0.1456  TCR
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP

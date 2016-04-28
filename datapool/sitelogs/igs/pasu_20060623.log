@@ -1,0 +1,264 @@
+     PASU Site Information Form (site log)
+     International GPS Service
+
+0.   Form
+
+     Prepared by (full name)  : SAPOS TEAM
+     Date Prepared            : 2006-06-23
+     Report Type              : 
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Passau
+     Four Character ID        : 0261
+     Monument Inscription     : 
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : Alu-Stange
+       Height of the Monument : 8 m
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : Trägerrohr Oberkante
+     Date Installed           : 2002-10-07
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Passau
+     State or Province        : Bayern
+     Country                  : Germany
+     Tectonic Plate           : Eurasian Plate
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4112944.9876
+       Y coordinate (m)       : 983129.3535
+       Z coordinate (m)       : 4759252.2595
+       Latitude (N is +)      : +483406.4087
+       Longitude (E is +)     : +0132635.9928
+       Elevation (m,ellips.)  : 419.625
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA SR520
+     Satellite System         : GPS
+     Serial Number            : 0020715
+     Firmware Version         : V. 4.20
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-10-07
+     Date Removed             : 
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAT303        LEIC
+     Serial Number            : 730013
+     Antenna Reference Point  : TOP
+     Marker->ARP Up Ecc. (m)  : 0
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    : 0
+     Antenna Radome Type      : LEIC
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2002-10-07
+     Date Removed             : 
+     Additional Information   : 
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 
+     Additional Information   : 
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 
+       Notes                  : 
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : 
+       Status                 : 
+       Effective Dates        : 
+       Notes                  : 
+
+
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : Not available
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy (% rel h)     : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.2.1 Pressure Sensor Model   :  Not available
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.3.1 Temp. Sensor Model      :  Not available
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.4.1 Water Vapor Radiometer  :  Not available
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 
+       Notes                  : 
+
+8.5.1 Other Instrumentation   : 
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : 
+       Observed Degradations  : 
+       Effective Dates        : 
+       Additional Information : 
+
+9.2.1 Multipath Sources       : 
+       Effective Dates        : 
+       Additional Information : 
+
+9.3.1 Signal Obstructions     : 
+       Effective Dates        : 
+       Additional Information : 
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 
+     Event                    : 
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Landesamt für Vermessung und Geoinformation
+     Preferred Abbreviation   : LVG
+     Mailing Address          : Alexandrastrasse 4, D-80538 Muenchen
+     Primary Contact
+       Contact Name           : Andreas Bruenner
+       Telephone (primary)    : +49 89 2129 1223
+       Telephone (secondary)  : +49 89 2129 1030
+       Fax                    : +49 89 2129 21223
+       E-mail                 : Andreas.Bruenner@lvg.bayern.de
+     Secondary Contact
+       Contact Name           : Martin Freitag
+       Telephone (primary)    : +49 89 2129 1165
+       Telephone (secondary)  : +49 89 2129 1030
+       Fax                    : +49 89 2129 21165
+       E-mail                 : Martin.Freitag@lvg.bayern.de
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+13.  More Information
+
+     Primary Data Center      :
+     Secondary Data Center    :
+     URL for More Information : http://sapos.bayern.de
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+LEIAT303  
+
+                        +-----^-----+                        
+                              +                              <--  0.0939 L2
+                              +                              <--  0.0782 L1
+     +---------------+========+========+----------------+    <--  0.068  TCR
+     +-+----------------------------------------------+-+    
+       |                                              |
+       |                                              |
+       |                                              |
+       +------------------+-------+-------------------+      <--  0.005  BCR
+                          |  +x+  |                          <--  0.000  TOP=ARP
+                          ===| |===
+                          ===| |===
+                            ++ ++
+                            |   |
+                          +-+   +-+                          <-- -0.100
+                          |       |
+                     +----+-------+----+                     <-- -0.125
+                     +-----------------+                     <-- -0.145
+                      =--=         =--=
+                     =========x=========                     <-- Marker
+
+       <--                  0.300                   -->
+     <--                    0.306                     -->
+
+ 

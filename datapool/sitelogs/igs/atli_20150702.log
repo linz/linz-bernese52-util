@@ -1,0 +1,417 @@
+     ATLI Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Francine Coloma 
+     Date Prepared            : 2015-07-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : atli_20120116.log 
+      Modified/Added Sections : 3.1, 3.2, 3.3
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Atlin
+     Four Character ID        : ATLI
+     Monument Inscription     : 987009
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : Concrete Pier
+       Height of the Monument : 1.4 m
+       Monument Foundation    : BEDROCK
+                              : GROUTED INTO BEDROCK
+       Foundation Depth       : 
+     Marker Description       : BRASS PLATE; FORCED CENTER STAINLESS STEEL
+                              : BOLT
+     Date Installed           : 2011-07-13T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 51-200 cm
+       Fault zones nearby     : East of Yakutat Collision Zone and Denali Fault
+         Distance/activity    : 
+     Additional Information   : 2012-01-16: - cleaned up antenna diagrams; 
+                              :  (removed L1, L2 phase centre
+                              :  offsets and clarified
+                              :  ARP location;
+
+
+2.   Site Location Information
+
+     City or Town             : Atlin
+     State or Province        : British Columbia
+     Country                  : Canada
+     Tectonic Plate           : North America
+     Approximate Position (ITRF) 
+       X coordinate (m)       : -2236998.40
+       Y coordinate (m)       : -2339703.63
+       Z coordinate (m)       : 5478151.25
+       Latitude (N is +)      : +593522.12
+       Longitude (E is +)     : -1334252.01
+       Elevation (m,ellips.)  : +793
+     Additional Information   : This station is part of the 
+                              : Geological Survey of Canada's
+                              : Western Canada Deformation Array (WCDA). 
+                              : The following information is current as
+                              : of 2011-09-14:
+                              : *******************************************
+                              : The GPS reference mark consists of a brass
+                              : plate with a forced centered stainless steel
+                              : bolt. The brass plate is embedded on top of
+                              : a 1.4 (approx.) metre high concrete pier, 
+                              : The concrete pier is anchored to exposed 
+                              : bedrock using steel re-enforcement bars.
+                              : The antenna is attached to the brass forced
+                              : centered plate via a 10 cm high anodized
+                              : aluminum base.
+                              : This base provides a constant height
+                              : above the brass plate and permits
+                              : the antenna to be referenced to north.
+                              : Data is available from 
+                              :      ftp://wcda.pgc.nrcan.gc.ca
+                              : 
+                              
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35578
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-07-13T21:00Z
+     Date Removed             : 2014-11-19T23:00Z  
+     Temperature Stabiliz.    : none
+     Additional Information   : station installed
+     
+3.2  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35578
+     Firmware Version         : 4.48
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-11-19T23:30Z 
+     Date Removed             : 2014-11-27T19:10Z 
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines) 
+     
+3.3  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35578
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-11-27T19:10Z 
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines) 
+     
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM59800.00
+     Serial Number            : 4905A64499
+     Antenna Reference Point  : ARP
+     Marker->ARP Up Ecc. (m)  : 0.100
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 0349
+     Antenna Cable Type       : Andrew FSJ4-50B
+     Antenna Cable Length     : 72m
+     Date Installed           : 2011-07-13T21:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : station installed
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2011-07-13T21:00Z
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : none
+       Status                 : 
+       Effective Dates        : 
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geological Survey of Canada
+     Preferred Abbreviation   : GSC
+     Mailing Address          : P.O. Box 6000
+                              : 9860 West Saanich Rd.
+                              : Sidney, B.C.
+                              : Canada V8L 4B2
+     Primary Contact
+       Contact Name           : Michael Schmidt
+       Telephone (primary)    : 250-363-6760
+       Telephone (secondary)  : 250-363-6500
+       Fax                    : 250-363-6565
+       E-mail                 : mschmidt@nrcan.gc.ca
+     Secondary Contact
+       Contact Name           : Brian Schofield
+       Telephone (primary)    : 250-363-6701
+       Telephone (secondary)  : 250-363-6500
+       Fax                    : 250-363-6565
+       E-mail                 : Brian.Schofield@nrcan.gc.ca
+     Additional Information   : gps@pgc.nrcan.gc.ca
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://wcda.pgc.nrcan.gc.ca
+     Secondary Data Center    : none
+     URL for More Information : http://gsc.nrcan.gc.ca/geodyn
+     Hardcopy on File
+       Site Map               : N
+       Site Diagram           : N
+       Horizon Mask           : N
+       Monument Description   : N
+       Site Pictures          : N
+     Additional Information   : (multiple lines)
+
+
+     Antenna Graphics with Dimensions
+  
+Antenna Diagram A
+*****************
+
+                        TRM59800.00     SCIS
+                            (not to scale)
+
+                              .  .  .
+                         .                .
+                     .                        .
+                  .                              .
+               .                                    .
+             .                                        .
+           .                                            .
+         . <--  DOME (SCIS)                               .
+       .                                                    .
+      .                                                      .
+     .                                                        .
+     .                                                        .
+     .                         -----                          .
+     .                     /     +     \                      .
+     .                    |      +      |                     .
+     .    +-----------------------------------------------+   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     .    |                                               |   .
+     . +-+------------------------------------------------+-+ .
+     . +-------------------+-------------+------------------+ .
+                           |             |
+                           |             |
+                           +------X------+   <----------------  0.000 BPA=ARP
+
+       
+
+                     X ...  Antenna Reference Point (ARP)
+                            AND
+                            Monument Reference Point
+                            
+

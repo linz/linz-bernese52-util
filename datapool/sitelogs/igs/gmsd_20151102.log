@@ -1,0 +1,584 @@
+
+     GMSD Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Sachiyo Kasho (JAXA)
+     Date Prepared            : 2015-11-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : gmsd_20150708.log
+      Modified/Added Sections : 3.17, 3.18
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : GUTS Masda
+     Four Character ID        : GMSD
+     Monument Inscription     : HAC monitoring station
+     IERS DOMES Number        : 21749S002
+     CDP Number               : none
+     Monument Description     : STEEL MAST
+       Height of the Monument : 2.0 m
+       Monument Foundation    : Concrete base on roof
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 2003-12-20T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : STK400:The carbon steel pipe for general
+                              : structures,Concreate base on ROOF
+                              : GPS Antenna mounted on the steel mast
+                              : Steel mast is on the rooftop of SLR building.
+                              : http://god.tksc.jaxa.jp/slrsub/DOME/id.html
+
+
+2.   Site Location Information
+
+     City or Town             : Nakatane town
+     State or Province        : Kagoshima prefecture(Tanegashima Island)
+     Country                  : Japan
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3607665.4303
+       Y coordinate (m)       : 4147868.2248
+       Z coordinate (m)       : 3223717.2617
+       Latitude (N is +)      : +303323.204151
+       Longitude (E is +)     : +1310056.029064
+       Elevation (m,ellips.)  : 142.6475
+     Additional Information   : Date Measured 2012/02/25
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : NOV MILLEN-RT2
+     Satellite System         : GPS
+     Serial Number            : SGL01270141
+     Firmware Version         : HW3-2 SW4.503/2.03
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-11-13T00:00Z
+     Date Removed             : 2008-10-14T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : This receiver is installed for the navigation 
+                              : experiment using ETS-VIII(Engineering Test 
+                              : Satellite-VIII), thus, transmission of GPS
+                              : data will interrupt when the experiment carry 
+                              : out. The data which received in the experiment 
+                              : period will transmit after the end of 
+                              : experiment.  
+
+3.2  Receiver Type            : NOV OEMV3-RT2
+     Satellite System         : GPS
+     Serial Number            : NBV07510004
+     Firmware Version         : HW Rev. 5.01
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2008-10-14T00:00Z
+     Date Removed             : 2010-12-06T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Reference clock (10MHz) which made by cesium
+                              : atomic clock is inputed. 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.42  22 Oct 2007
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2011-07-27T00:00Z
+     Date Removed             : 2011-10-25T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.43
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2011-10-25T00:00Z
+     Date Removed             : 2012-01-10T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.43
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-01-10T00:00Z
+     Date Removed             : 2012-03-15T03:20Z
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.46
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-03-15T03:20Z
+     Date Removed             : 2012-04-17T10:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.48
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-04-17T10:30Z
+     Date Removed             : 2012-06-07T03:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.60
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-06-07T03:00Z
+     Date Removed             : 2012-08-15T03:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.61
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-08-15T03:20Z
+     Date Removed             : 2012-10-11T05:10Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.62
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-10-11T05:10Z
+     Date Removed             : 2013-02-15T01:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-02-15T01:30Z
+     Date Removed             : 2013-05-10T01:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.12 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.80
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-05-10T01:00Z
+     Date Removed             : 2013-07-08T01:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.13 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-07-08T01:00Z
+     Date Removed             : 2014-06-04T02:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.14 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-06-04T02:00Z
+     Date Removed             : 2015-02-12T04:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.15 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 4.93
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-02-12T04:15Z
+     Date Removed             : 2015-05-08T03:10Z
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.16 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 5.01
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-05-08T03:10Z
+     Date Removed             : 2015-07-08T02:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.17 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 5.03
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-07-08T02:30Z
+     Date Removed             : 2015-11-02T04:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.18 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72188
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2015-11-02T04:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : none
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : NOV503+CR       SPKE
+     Serial Number            : 7297.503
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SPKE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LHP X-10D (HITACHI CABLE LTD.)
+     Antenna Cable Length     : 28 m
+     Date Installed           : 2003-11-13T00:00Z
+     Date Removed             : 2010-12-06T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM59800.00     SCIS
+     Serial Number            : 4938353448
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 0968
+     Antenna Cable Type       : LHP X-10D (HITACHI CABLE LTD.)
+     Antenna Cable Length     : 28 m
+     Date Installed           : 2011-07-27T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : JAXA SLR GMSL station
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 13.4196
+       dy (m)                 : 5.9487
+       dz (m)                 : 5.6317
+     Accuracy (mm)            : 5.0 mm
+     Survey method            : TRILATERATION
+     Date Measured            : 2006-05-14T00:00Z
+     Additional Information   : Infomation of JAXA SLR station is described at 
+                              : http://igs.org/network/site/gmsd.html
+                              : x: -3607651.3276
+                              : y: 4147874.1477
+                              : z: 3223723.1226
+
+5.2  Tied Marker Name         : JAXA SLR GMSL station
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 2010-02-12T00:00Z
+     Additional Information   : Infomarion of JAXA SLR station is described at 
+                              : http://igs.org/network/site/gmsd.html
+                              : x: -3607651.2508
+                              : y: 4147874.0676
+                              : z: 3223723.0513
+
+5.3  Tied Marker Name         : JAXA SLR GMSL station
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7358
+     Tied Marker DOMES Number : 21749S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 13.8533
+       dy (m)                 : 5.4943
+       dz (m)                 : 5.327
+     Accuracy (mm)            : 5.0 mm
+     Survey method            : 
+     Date Measured            : 2012-02-25T00:00Z
+     Additional Information   : Infomarion of JAXA SLR station is described at
+                              : http://igs.org/network/site/gmsd.html 
+                              : x: -3607651.5770 
+                              : y: 4147873.7191 
+                              : z: 3223722.5887 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2013-04-01/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 2004-04-28/CCYY-MM-DD
+       Notes                  : NONE
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45D
+       Manufacturer           : NIPPON ELECTRIC INSTRUMENT
+       Serial Number          : 
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : <1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2010-12-06/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : RPT-301
+       Manufacturer           : NIPPON ELECTRIC INSTRUMENT
+       Serial Number          : 
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 5 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2010-12-06/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : N-65B
+       Manufacturer           : NIPPON ELECTRIC INSTRUMENT
+       Serial Number          : 
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : 
+       Height Diff to Ant     : <1 m
+       Calibration date       : 
+       Effective Dates        : 2010-12-06/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Japan Aerospace Exploration Agency
+     Preferred Abbreviation   : JAXA
+     Mailing Address          : 2-1-1 sengen, Tsukuba-city, Ibaraki Japan
+     Primary Contact
+       Contact Name           : Shinichi Nakamura
+       Telephone (primary)    : +81 50 3362 4798
+       Telephone (secondary)  : +81 50 3362 4574
+       Fax                    : +81 298 68 2990
+       E-mail                 : nakamura.shinichi@jaxa.jp
+     Secondary Contact
+       Contact Name           : Sachiyo Kasho
+       Telephone (primary)    : +81 50 3362 5838
+       Telephone (secondary)  : +81 50 3362 4574
+       Fax                    : +81 298 68 2990
+       E-mail                 : kasho.sachiyo@jaxa.jp
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : JPL
+     URL for More Information : http://god.tksc.jaxa.jp/gpssystem/index.html
+     Hardcopy on File
+       Site Map               : URL
+       Site Diagram           : URL
+       Horizon Mask           : URL
+       Monument Description   : URL
+       Site Pictures          : URL
+     Additional Information   : (multiple lines)
+                              : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+TRM59800.00
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+
+
+   ARP: Antenna Reference Point           BPA: Bottom of Preamplifier
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+
+
+
+
+
+

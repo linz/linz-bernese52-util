@@ -1,0 +1,541 @@
+     TSKB Site Information Form
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Tomoaki Furuya / Motomu Mandokoro / Kazuki Sakai
+     Date Prepared            : 2013-10-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : tskb_20121219.log
+      Modified/Added Sections : 3.11, 3.12
+
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Tsukuba ROGUE site
+     Four Character ID        : TSKB
+     Monument Inscription     :
+     IERS DOMES Number        : 21730S005
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 2.0
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1.5
+     Marker Description       : none
+     Date Installed           : 1993-12-15
+     Geologic Characteristic  : QUATERNARY CLAY
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+                              : 
+
+
+2.   Site Location Information
+
+     City or Town             : Tsukuba
+     State or Province        : Ibaraki
+     Country                  : Japan
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -3957199.240
+       Y coordinate (m)       : 3310199.668
+       Z coordinate (m)       : 3737711.708
+       Latitude (N is +)      : +360620.45
+       Longitude (E is +)     : +1400514.99
+       Elevation (m,ellips.)  : 67.3
+     Additional Information   : by "ITRF2000_GPS.SSC"
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 102
+     Firmware Version         : 2.8
+     Elevation Cutoff Setting : 10
+     Date Installed           : 1993-12-15T00:00Z
+     Date Removed             : 1995-07-30T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 267
+     Firmware Version         : 2.8.32.1
+     Elevation Cutoff Setting : 10
+     Date Installed           : 1995-07-31T00:00Z
+     Date Removed             : 1995-09-19T23:50Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 102
+     Firmware Version         : 3.2.32.1
+     Elevation Cutoff Setting : 10
+     Date Installed           : 1995-09-20T03:04Z
+     Date Removed             : 1996-11-21T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 102
+     Firmware Version         : 3.2.32.2
+     Elevation Cutoff Setting : 10
+     Date Installed           : 1996-11-22T00:00Z
+     Date Removed             : 1999-08-03T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 102
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 10
+     Date Installed           : 1999-08-04T00:00Z
+     Date Removed             : 2002-06-17T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1141
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2002-06-18T00:00Z
+     Date Removed             : 2011-12-27T23:59Z
+     Temperature Stabiliz.    : 23 degrees C
+     Additional Information   : A backup receiver is equipped
+                              : to enhance redundancy.
+                              : Serial Number 1142
+
+3.7  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1142
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2011-12-28T00:00Z
+     Date Removed             : 2012-01-03T23:59Z
+     Temperature Stabiliz.    : 23 degrees C
+     Additional Information   :
+
+3.8  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1141
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2012-01-04T00:00Z
+     Date Removed             : 2012-03-01T23:59Z
+     Temperature Stabiliz.    : 23 degrees C
+     Additional Information   : A backup receiver is equipped
+                              : to enhance redundancy.
+                              : Serial Number 1142
+
+3.9  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1142
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2012-03-02T00:00Z
+     Date Removed             : 2012-03-03T23:59Z
+     Temperature Stabiliz.    : 23 degrees C
+     Additional Information   :
+
+3.10 Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1141
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2012-03-04T00:00Z
+     Date Removed             : 2012-08-27T00:00Z
+     Temperature Stabiliz.    : 23 degrees C
+     Additional Information   : A backup receiver is equipped
+                              : to enhance redundancy.
+                              : Serial Number 1142
+
+3.11 Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 1142
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2012-08-27T00:00Z
+     Date Removed             : 2013-10-14T23:59Z
+     Temperature Stabiliz.    : 23 degrees C
+     Additional Information   :
+
+3.12 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS
+     Serial Number            : 5048K72050
+     Firmware Version         : 4.61
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2013-10-15T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : 23 degrees C
+     Additional Information   :
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.  GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 106
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 60m
+     Date Installed           : 1993-12-15T00:00Z
+     Date Removed             : 1994-08-14T03:47Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 105
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 60m
+     Date Installed           : 1994-08-15T04:42Z
+     Date Removed             : 1995-04-04T01:35Z
+     Additional Information   : 
+
+4.3  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 105
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : DOME
+     Radome Serial Number     :
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 60m
+     Date Installed           : 1995-04-04T02:04Z
+     Date Removed             : 2000-08-20T03:22Z
+     Additional Information   : Spherical radome
+
+4.4  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 312
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : DOME
+     Radome Serial Number     :
+     Antenna Cable Type       : AOA N-N
+     Antenna Cable Length     : 60m
+     Date Installed           : 2000-08-22T09:20Z
+     Date Removed             : 2011-07-01T00:49Z
+     Additional Information   : Spherical radome
+
+4.5  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 312
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : AOA N-N
+     Antenna Cable Length     : 60m
+     Date Installed           : 2011-07-01T00:49Z
+     Date Removed             : 2011-08-30T01:27Z
+     Additional Information   : 
+
+4.6  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 312
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0
+     Antenna Radome Type      : DOME
+     Radome Serial Number     :
+     Antenna Cable Type       : AOA N-N
+     Antenna Cable Length     : 60m
+     Date Installed           : 2011-08-30T01:27Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Spherical radome
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.  Surveyed Local Ties
+
+5.1  Tied Marker Name         : Tsukuba
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7311
+     Tied Marker DOMES Number : 21730S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 26.306
+       dy (m)                 : 38.284
+       dz (m)                 : -2.761
+     Accuracy (mm)            : (mm)
+     Survey method            : TRIANGULATION
+     Date Measured            : 1994-01-07
+     Additional Information   : 
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : CESIUM
+       Input Frequency        : 5MHz
+       Effective Dates        : 1993-12-15/2011-09-14
+       Notes                  : Agilent 5071A US39301638
+
+6.2  Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 2011-09-14/2011-12-27
+       Notes                  : Anritsu SA0D05A 100000059
+
+6.3  Standard Type            : CESIUM
+       Input Frequency        : 5MHz
+       Effective Dates        : 2011-12-28/2012-01-03
+       Notes                  : Agilent 5071A US39301638
+
+6.4  Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 2012-01-04/2012-03-01
+       Notes                  : Anritsu SA0D05A 100000059
+
+6.5  Standard Type            : CESIUM
+       Input Frequency        : 5MHz
+       Effective Dates        : 2012-03-02/2012-03-03
+       Notes                  : Agilent 5071A US39301638
+
+6.6  Standard Type            : H-MASER
+       Input Frequency        : 5MHz
+       Effective Dates        : 2012-03-04/2012-08-26
+       Notes                  : Anritsu SA0D05A 100000059
+
+6.7  Standard Type            : CESIUM
+       Input Frequency        : 5MHz
+       Effective Dates        : 2012-08-27/2012-12-19
+       Notes                  : Agilent 5071A US39301638
+
+6.8  Standard Type            : H-MASER
+       Input Frequency        : 10MHz
+       Effective Dates        : 2012-12-19
+       Notes                  : Anritsu SA0D05A 100000059
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1998-06-06
+       Notes                  : Geospatial Information Authority of Japan (GSI)
+                              : Tsukuba 32m Antenna
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geospatial Information Authority of Japan
+     Preferred Abbreviation   : GSI
+     Mailing Address          : Kitasato-1, Tsukuba-City, Ibaraki-Pref.,
+                              : 305-0811, JAPAN
+     Primary Contact
+       Contact Name           : IGS_group
+       Telephone (primary)    : 81-298-64-6266
+       Telephone (secondary)  : 81-298-64-1111
+       Fax                    : 81-298-64-6864
+       E-mail                 : igs-grp@gsi.go.jp
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : GSI
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+
+             TURBOROGUE: DORNE MARGOLIN T
+
+                         -----
+                     /     +     \                        <-- 0.128  L2
+                    |      +      |                       <-- 0.110  L1
+  +--------------------------------------------------+    <-- 0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.000  ARP
+
+<--                      0.381                       -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+

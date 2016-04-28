@@ -1,0 +1,600 @@
+     LEIJ Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Peter Franke, Matthias Groeschel
+     Date Prepared            : 2014-10-10
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : leij_20140827.log
+      Modified/Added Sections : 8.1.2, 8.1.3, 8.2.1, 8.2.2, 8.3.2, 8.3.3,
+                                8.5.1, 8.5.2, 8.5.3, 8.5.4
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Leipzig
+     Four Character ID        : LEIJ
+     Monument Inscription     : 10 B
+     IERS DOMES Number        : 14267M001
+     CDP Number               : 
+     Monument Description     : STEEL PILLAR
+       Height of the Monument : 0.77 m
+       Monument Foundation    : PILLAR ANCHORED TO THE ROOF
+       Foundation Depth       : 
+     Marker Description       : STEEL SURVEY MARKER BOLT
+     Date Installed           : 1997-03-21T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : NONE
+       Bedrock Condition      : NONE
+       Fracture Spacing       : none
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : The Steel Pillar is anchored
+                              : to the roof on the building of
+                              : the BKG in Leipzig. The antenna
+                              : is about 32 m above the ground.
+
+
+2.   Site Location Information
+
+     City or Town             : Leipzig
+     State or Province        : Sachsen
+     Country                  : Germany
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3898736.515
+       Y coordinate (m)       : 855345.125
+       Z coordinate (m)       : 4958372.370
+       Latitude (N is +)      : +512114.30
+       Longitude (E is +)     : +0122226.70
+       Elevation (m,ellips.)  : 00178.4
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT300102915
+     Firmware Version         : EURO_3/2.1 JAN,03
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2001-07-03T12:00Z
+     Date Removed             : 2002-08-13T11:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT300102915
+     Firmware Version         : 2.2p2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2002-08-13T11:00Z
+     Date Removed             : 2004-05-10T11:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT300102915
+     Firmware Version         : EURO 3.2.3p4
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-05-10T11:00Z
+     Date Removed             : 2006-08-29T13:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT311605707
+     Firmware Version         : EURO 3.2.3p4
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-08-29T13:00Z
+     Date Removed             : 2006-11-30T12:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 8RO9KEY30N4
+     Firmware Version         : EGGT_2,2.5p2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-11-30T12:00Z
+     Date Removed             : 2008-01-24T09:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 8RO9KEY30N4
+     Firmware Version         : EGGDT_2,2.6.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-01-24T09:45Z
+     Date Removed             : 2010-07-01T12:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Additional Number
+                              : 340-0385 on the
+                              : type level
+
+3.7  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 8RO9KEY30N4
+     Firmware Version         : EGGDT_2,3.4p2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-07-01T13:00Z
+     Date Removed             : 2014-08-27T11:20Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Additional Number
+                              : 340-0385 on the
+                              : type level
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 01392
+     Firmware Version         : 3.6.0 JUN,23,2014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-08-27T12:20Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : +18 - +23 deg C
+     Additional Information   : Board Id
+                              : 01OIESQ5YAYAL2T6P4LTL9YP4C
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220175404
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2000-05-18T13:00Z
+     Date Removed             : 2010-07-01T12:59Z
+     Additional Information   : Aerial connection by
+                              : high-frequency splitter
+
+4.2  Antenna Type             : LEIAR25.R3      LEIT
+     Serial Number            : 09390011
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0450
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : ECOFLEX15
+     Antenna Cable Length     : 25 m
+     Date Installed           : 2010-07-01T13:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : P/N 01018079,
+                              : Antenna calibrated absolute
+                              : by GEO++ GmbH Garbsen 2010-04-27,
+                              : Aerial connection by
+                              : high-frequency splitter
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : LEIP
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 14267M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : LEIJ and LEIP are observing with the
+                              : same antenna, fixed on the same
+                              : marker, using a high-frequency
+                              : splitter
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2001-07-03/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : TRIMBLE 4000SSI GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1997-03-21/CCYY-MM-DD
+       Notes                  : Four Character ID LEIP,
+                              : using the same antenna,
+                              : DOMES No. 14267M001
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W0210003
+       Data Sampling Interval : 10 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : HUMICAP 180 CAPACITIVY THIN FILM POLYMER
+       Height Diff to Ant     : 2.5 m
+       Calibration date       : 2001-01-08
+       Effective Dates        : 2001-07-10/2008-03-08
+       Notes                  : The Humidity Sensor is 2,5 m
+                              : below the antenna
+
+8.1.2  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : A2110013
+       Data Sampling Interval : 10 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : HUMICAP 180 CAPACITIVY THIN FILM POLYMER
+       Height Diff to Ant     : 2.5 m
+       Calibration date       : 2007-05-25
+       Effective Dates        : 2008-03-08/2012-12-13
+       Notes                  : The Humidity Sensor is 2,5 m
+                              : below the antenna
+
+8.1.3  Humidity Sensor Model  : WXTPTU
+       Manufacturer           : Vaisala
+       Serial Number          : J2330062
+       Data Sampling Interval : 10 sec
+       Accuracy (% rel h)     : 3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.99 m
+       Calibration date       : 2013-06-12
+       Effective Dates        : 2014-09-17/CCYY-MM-DD
+       Notes                  : Vaisala WXT520 (heated) SN: J2440007
+                              : Humidity Sensor is 0.99 m under the antenna
+                              : capacitive thin film polymer HUMICAP 180 sensor
+                              : measurement data available since 2014-09-29 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU200 Class A
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W0220004
+       Data Sampling Interval : 10 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 2.5 m
+       Calibration date       : 2001-01-12
+       Effective Dates        : 2001-07-10/2012-12-13
+       Notes                  : The Pressure Sensor is 2,5 m
+                              : below the antenna
+
+8.2.2  Pressure Sensor Model  : WXTPTU
+       Manufacturer           : Vaisala
+       Serial Number          : J2330062
+       Data Sampling Interval : 10 sec
+       Accuracy               : 1 hPa
+       Height Diff to Ant     : -0.99 m
+       Calibration date       : 2013-06-12
+       Effective Dates        : 2014-09-17/CCYY-MM-DD
+       Notes                  : Vaisala WXT520 (heated) SN: J2440007
+                              : Pressure Sensor is 1 m under the antenna
+                              : capacitive silicon BAROCAP sensor
+                              : measurement data available since 2014-09-29 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : W0220004
+       Data Sampling Interval : 10 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 2.5 m
+       Calibration date       : 2001-01-12
+       Effective Dates        : 2001-07-10/2008-03-07
+       Notes                  : The Temperature Sensor is
+                              : 2,5 m below the antenna
+
+8.3.2  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala Oyi
+       Serial Number          : A2110013
+       Data Sampling Interval : 10 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : 2.5 m
+       Calibration date       : 2007-05-25
+       Effective Dates        : 2008-03-07/2012-12-13
+       Notes                  : The Temperature Sensor is
+                              : 2,5 m below the antenna
+
+8.3.3  Temp. Sensor Model     : WXTPTU
+       Manufacturer           : Vaisala
+       Serial Number          : J2330062
+       Data Sampling Interval : 10 s
+       Accuracy               : 0.3 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.99 m
+       Calibration date       : 2013-06-12
+       Effective Dates        : 2014-09-17/CCYY-MM-DD
+       Notes                  : Vaisala WXT520 (heated) SN: J2440007
+                              : Temperature Sensor is 1 m under the antenna
+                              : capacitive ceramic THERMOCAP sensor
+                              : measurement data available since 2014-09-29 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : Wind Azimut
+                              : Wind Sensor Model WXT520  (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J2440007
+                              : Data Sampling Interval 10 sec
+                              : Accuracy 3 deg
+                              : Height Diff to Ant -0.99 m
+                              : Test date 2013-06-12
+                              : Effective Dates 2014-09-17/CCYY-MM-DD
+                              : Notes Wind Sensor is 1 m under the antenna
+                              : Notes ultrasonic WINDCAP sensor
+                              : Notes: measurement data available since 2014-09-29 
+
+8.5.2  Other Instrumentation  : Wind Speed
+                              : Wind Sensor Model WXT520 (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J2440007
+                              : Data Sampling Interval 10 sec
+                              : Accuracy
+                              : measurement values 0..35 m/s  0.3 m/s or 3%
+                              : measurement values 36..60 m/s  5%
+                              : Height Diff to Ant -0.99 m
+                              : Test date 2013-06-12
+                              : Effective Dates 2014-09-17/CCYY-MM-DD
+                              : Notes Wind Sensor is 1 m under the antenna
+                              : Notes ultrasonic WINDCAP sensor
+                              : Notes: measurement data available since 2014-09-29
+
+8.5.3  Other Instrumentation  : Rain Increment
+                              : Rain Sensor Model WXT520 (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J2440007
+                              : Data Sampling Interval 10 sec
+                              : Accuracy 5 %
+                              : Height Diff to Ant -0.99 m
+                              : Test date 2013-06-12
+                              : Effective Dates 2014-09-17/CCYY-MM-DD
+                              : Notes Rain Sensor is 1 m under the antenna
+                              : Notes piezoelectrical RAINCAP sensor
+                              : Notes: measurement data available since 2014-09-29
+
+8.5.4  Other Instrumentation  : Hail Indicator
+                              : Hail Sensor Model WXT520 (heated)
+                              : Manufacturer Vaisala
+                              : Serial Number J2440007
+                              : Data Sampling Interval 10 sec
+                              : Accuracy 5 %
+                              : Height Diff to Ant -0.99 m
+                              : Test date 2013-06-12
+                              : Effective Dates 2014-05-09/CCYY-MM-DD
+                              : Notes Hail Sensor is 1 m under the antenna
+                              : Notes piezoelectrical RAINCAP sensor
+                              : Notes: measurement data available since 2014-09-29
+                              
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Bundesamt fuer Kartographie und Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie und Geodaesie
+                              : Department of Geodaesie
+                              : Richard Strauss Allee 11
+                              : D-60598 Frankfurt / M.
+                              : Germany
+     Primary Contact
+       Contact Name           : Peter Franke
+       Telephone (primary)    : (0049)-69-6333-279
+       Telephone (secondary)  : (0049)-69-6333-1
+       Fax                    : (0049)-69-6333-425
+       E-mail                 : peter.franke@bkg.bund.de
+     Secondary Contact
+       Contact Name           : see 12.
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie und Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie und Geodaesie
+                              : Department Leipzig
+                              : Karl-Rothe-Strasse 10-14
+                              : D-04105 Leipzig
+                              : Germany
+     Primary Contact
+       Contact Name           : Matthias Groeschel
+       Telephone (primary)    : (0049)-341-5634-432
+       Telephone (secondary)  : (0049)-341-5634-0
+       Fax                    : (0049)-341-5634-415
+       E-mail                 : matthias.groeschel@bkg.bund.de
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : CDDIS
+     URL for More Information : http://igs.bkg.bund.de
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+TRM29659.00
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+LEIAR25.R3
+  
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+  
+  <--                    0.3802                   -->
+    
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+All dimensions are in meters.
+
+

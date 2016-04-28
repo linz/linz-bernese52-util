@@ -1,0 +1,426 @@
+     NYAC Site Information Form (site log)
+     Jet Propulsion Laboratory
+     ftp://bodhi.nasa.gov/pub/sitelog/
+
+0.   Form
+
+     Prepared by (full name)  : Tatevik Shakhbandaryan
+     Date Prepared            : 2014-04-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nyac_20130808.log
+      Modified/Added Sections : 0,3.6,3.7
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Ny-Alesund
+     Four Character ID        : NYAC
+     Monument Inscription     : None
+     IERS DOMES Number        : 10317M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : 5 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 2 m
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1993-01-01
+     Geologic Characteristic  : PERMAFROST/MORAINE
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : YES
+         Distance/activity    : Under investigation
+     Additional Information   : Investigations concludes that the
+                              : reinforced concrete carrying the steel tower,
+                              : most likely, is not well fixed to the solid
+                              : bedrock. It is assumed that there might be a
+                              : layer of frozen gravel separating the solid
+                              : bedrock and the concrete.
+                              : Antenna mounted in steel tower
+                              : Exact date in Jan 1993 not known
+
+
+2.   Site Location Information
+
+     City or Town             : Ny-Alesund
+     State or Province        : Svalbard
+     Country                  : Norway
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1202433.7383
+       Y coordinate (m)       : 252632.3492
+       Z coordinate (m)       : 6237772.6990
+       Latitude (N is +)      : +785546.40
+       Longitude (E is +)     : +0115155.1
+       Elevation (m,ellips.)  :    84.0
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4526253174
+     Firmware Version         : 0.4-1 2005/10/27
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2005-10-29T00:00Z
+     Date Removed             : 2006-01-10T00:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4526253174
+     Firmware Version         : 0.4-2 2005/12/20
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2006-01-10T00:00Z
+     Date Removed             : 2006-02-24T00:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4526253174
+     Firmware Version         : 1.1-5 2006/01/13
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2006-02-24T00:00Z
+     Date Removed             : 2012-07-24T12:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00872
+     Firmware Version         : 3.3.10
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2012-07-24T17:00Z
+     Date Removed             : 2013-07-16T19:12Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00872
+     Firmware Version         : 3.5.1
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2013-07-16T19:12Z
+     Date Removed             : 2013-08-06T14:30Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : See section 10.1
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00872
+     Firmware Version         : 3.5.2
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2013-08-06T14:30Z
+     Date Removed             : 2014-04-07T18:19Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00872
+     Firmware Version         : 3.5.5
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2014-04-07T18:20Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_B        DOME
+     Serial Number            : R106
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  :   5.2160
+     Marker->ARP North Ecc(m) :   0.0040
+     Marker->ARP East Ecc(m)  :  -0.0010
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1993-01-01T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : The antenna was connected to
+                              : receiver 3.1 (ROGUE SNR-8).
+                              : Antenna Radome Type 'Danny Van Loon'
+                              : Exact date in Jan 1993 not known
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Q
+     Tied Marker Usage        : LOCAL CONTROL/FOOTPRINT
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -88.630
+       dy (m)                 : -238.976
+       dz (m)                 : 21.191
+     Accuracy (mm)            : 7
+     Survey method            : GPS CAMPAIGN/TRILATERATION/TRIANGULATION
+     Date Measured            : 1991-01-01
+     Additional Information   : Exact date in Jan 1991 not known
+
+5.2  Tied Marker Name         : ASTRO
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -44.489
+       dy (m)                 : 1394.975
+       dz (m)                 : -78.360
+     Accuracy (mm)            : 7
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1991-01-01
+     Additional Information   : Exact date in Jan 1991 not known
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1994-10-01/CCYY-MM-DD
+       Notes                  : Exact date in Oct 1994 not known
+
+7.2  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1989-01-01/CCYY-MM-DD
+       Notes                  : INSTALLED BY IGN, FRANCE
+
+7.3  Instrumentation Type     : PRARE
+       Status                 : PERMANENT
+       Effective Dates        : 1995-11-01/CCYY-MM-DD
+       Notes                  : exact date in Nov 1995 not known
+
+7.4  Instrumentation Type     : TRIMBLE 4000SSI / SATREF
+       Status                 : PERMANENT
+       Effective Dates        : 1995-09-01/2009-05-13
+       Notes                  : This is a DGPS system used for navigation.
+                              : exact date in Sep 1995 not known
+
+7.5  Instrumentation Type     : NYA1
+       Status                 : PERMANENT
+       Effective Dates        : 1997-06-01/CCYY-MM-DD
+       Notes                  : Parallell IGS-station
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : TIDE GAUGE approx. 1500 m. to north north east
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : METAL ROOF/DOME/VLBI ANTENNA
+       Effective Dates        : 1993-01-01/CCYY-MM-DD
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1  Date                    : 2013-07-16/2013-07-16
+      Event                   : L1 center frequency offset to 1573 from
+                              : nominal 1575,
+                              : allowing some functional BeiDou tracking.
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Ny-Alesund Geodetiske Observatorium
+     Preferred Abbreviation   : NMA
+     Mailing Address          : Boks 13
+                              : N-9173 Ny Alesund
+                              : Norway
+     Primary Contact
+       Contact Name           : See 12.
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA
+                              : USA    91109
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : JPL (ODC-Operational Data Center)
+     Secondary Data Center    : CDDIS (GDC-Global Data Center)
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+AOAD/M_B  (Allen Osborne Design)
+
+                         -----
+                     /     +     \                        <-- 0.096 L2
+                    |      +      |                       <-- 0.078 L1
+  +-----------------+-------------+------------------+    <-- 0.070 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  +-----------------+------x------+------------------+    <-- 0.000 ARP
+                    |             |
+                    +-------------+                       <-- -0.011
+                          ||  ||
+
+  <--                    0.351                     -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering

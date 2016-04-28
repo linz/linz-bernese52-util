@@ -1,0 +1,456 @@
+     JOG2 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Markus Bradke
+     Date Prepared            : 2013-05-16
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : jog2_20130306.log
+      Modified/Added Sections : 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : YogYakarta
+     Four Character ID        : JOG2
+     Monument Inscription     : 
+     IERS DOMES Number        : 23109M002
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.51 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 4.00 m
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2004-12-08T04:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : YOUNG VOLCANIC SAND
+       Bedrock Condition      : OLD VOLCANIC SAND
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : Opak and Progo Fault
+         Distance/activity    : 15 km to Opak fault, 15 km to Progo fault
+                              : south 25 km from Merapi very active
+                              : caldera  (4 yearly eruption)
+     Additional Information   : Monument Foundation attached to the building
+                              : pillar on the 3rd floor/11.25m from the ground
+
+
+2.   Site Location Information
+
+     City or Town             : Yogyakarta
+     State or Province        : Daerah Instimewa Yogyakarta
+     Country                  : Indonesia
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2200260.8810
+       Y coordinate (m)       : 5924956.5950
+       Z coordinate (m)       : -855934.8231
+       Latitude (N is +)      : -074549.58
+       Longitude (E is +)     : +1102221.79
+       Elevation (m,ellips.)  : 250.0
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : AOA BENCHMARK ACT
+     Satellite System         : GPS
+     Serial Number            : 2002
+     Firmware Version         : 3.3.32.2N
+     Elevation Cutoff Setting : 0.5 deg
+     Date Installed           : 2004-12-08T04:00Z
+     Date Removed             : 2011-05-03T05:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : SEPT POLARX2
+     Satellite System         : GPS
+     Serial Number            : 1260
+     Firmware Version         : 2.7.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-05-03T05:00Z
+     Date Removed             : 2011-12-03T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 01153
+     Firmware Version         : 3.4p2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-12-03T00:00Z
+     Date Removed             : 2013-02-05T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 212
+     Firmware Version         : 3.4.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-02-06T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 384
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0480
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30.00 m
+     Date Installed           : 2004-12-08T04:00Z
+     Date Removed             : 2011-05-03T05:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TPSCR3_GGD      NONE
+     Serial Number            : 2170502
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1206
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2011-05-03T05:00Z
+     Date Removed             : 2011-12-03T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TPSCR.G3        NONE
+     Serial Number            : 383-0153
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1206
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2011-12-03T00:00Z
+     Date Removed             : 2013-02-05T23:59Z
+     Additional Information   : 
+
+4.4  Antenna Type             : JAV_RINGANT_G3T NONE
+     Serial Number            : 323
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.1206
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Ecoflex 10
+     Antenna Cable Length     : 25.00 m
+     Date Installed           : 2013-02-06T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2004-12-08/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : B3110015
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.80 m
+       Calibration date       : 2012-09-03
+       Effective Dates        : 2013-02-06/CCYY-MM-DD
+       Notes                  : The humidity sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU200
+       Manufacturer           : Vaisala
+       Serial Number          : B3110015
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -3.80 m
+       Calibration date       : 2012-09-03
+       Effective Dates        : 2013-02-06/CCYY-MM-DD
+       Notes                  : The pressure sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : Vaisala
+       Serial Number          : B3110015
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.80 m
+       Calibration date       : 2012-09-03
+       Effective Dates        : 2013-02-06/CCYY-MM-DD
+       Notes                  : The temperature sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Universitas Gadjah Mada
+                              : Fakultas Teknik
+     Preferred Abbreviation   : GMU
+     Mailing Address          : Jl. Grafica 2
+                              : Yogyakarta
+                              : Indonesia
+     Primary Contact
+       Contact Name           : Dr. T. Ir. Aris Sunantyo M.Sc
+       Telephone (primary)    : +62-274-6492121
+       Telephone (secondary)  : +62-274-520226
+       Fax                    : +62-274-520226
+       E-mail                 : sunantyo@yahoo.com
+     Secondary Contact
+       Contact Name           : Ir. Nurrochmat Widjajanti M.T.Ph.D
+       Telephone (primary)    : +62-274-6492121
+       Telephone (secondary)  : +62-274-520226
+       Fax                    : +62-274-520226
+       E-mail                 : n.widjajanti@gmail.com
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Helmholtz-Zentrum Potsdam
+                              : Deutsches GeoForschungsZentrum GFZ
+     Preferred Abbreviation   : GFZ
+     Mailing Address          : Telegrafenberg A17
+                              : 14473 Potsdam / Germany
+     Primary Contact
+       Contact Name           : Dr. Markus Ramatschi
+       Telephone (primary)    : (+49)331-288-1746
+       Telephone (secondary)  : (+49)331-288-1110
+       Fax                    : (+49)331-288-1759
+       E-mail                 : gpsnet@gfz-potsdam.de
+     Secondary Contact
+       Contact Name           : Markus Bradke
+       Telephone (primary)    : (+49)331-288-1182
+       Telephone (secondary)  : 
+       Fax                    : (+49)331-288-1759
+       E-mail                 : bradke@gfz-potsdam.de
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : IGN
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+JAV_RINGANT_G3T
+
+
+                       ---------                          <--  0.0614
+                     /           \
+                   /               \
+  +-------------------------------------------------+     <--  0.0410  TCR
+  |                                                 |
+  |              +-------------------+              |
+  |              |   \           /   |              |
+  |              |    \         /    |              |
+  |              |      +--x--+      |              |     <--  0.0000  BAM=ARP
+  +--------------+-------------------+--------------+     <-- -0.0260  BCR
+
+  <--                    0.3260                   -->
+
+TPSCR.G3
+
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1015  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+
+TPSCR3_GGD
+
+
+                       ---------
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.0710  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  +-----------------+-------------+-----------------+     <--  0.0030  BCR
+                     +-----x-----+                        <--  0.0000  BPA=ARP
+
+  <--                    0.3260                   -->
+
+AOAD/M_T
+
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0380
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+

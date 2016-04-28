@@ -1,0 +1,498 @@
+     AL90 Site Information Form
+     ALDOT Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Francine Coloma
+     Date Prepared            : 2015-09-24
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : al90_20150706.log
+      Modified/Added Sections : 3.12, 3.13
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : ALDOT 9 DIV OFF
+     Four Character ID        : AL90
+     Monument Inscription     :
+     IERS DOMES Number        : (A9)
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : (m)
+       Monument Foundation    : Building is constructed hurricane resistant.
+                              : The foundation is 14" dia. pressure grouted,
+                              : Augercast pile drilled to a depth of 75' for
+                              : capacity of 22 tons each. Each pile has 4 -
+                              : #7, 20' long extending up to top steel of 2'6"
+                              : x 2'6" grade beam. The walls are double thick
+                              : reinforced concrete block with all blocks
+                              : filled below ground line.
+       Foundation Depth       : (m)
+     Marker Description       : (CHISLLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2006-11-15T00:00Z
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORHPIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEAHTERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : The antenna is mounted on a 3/8" steel plate
+                              : welded to a 2-1/2" angle iron bolted to a
+                              : reinforced concrete block parapet wall for 6'
+                              : on a one story building (22' tall) - ALDOT
+                              : Traffic Management Center for Ninth Division
+                              : Office - constructed in 2003 with 2' projecting
+                              : above the roof.
+
+
+2.   Site Location Information
+
+     City or Town             : Mobile
+     State or Province        : Alabama
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 188546.103
+       Y coordinate (m)       : -5486311.732
+       Z coordinate (m)       : 3236456.340
+       Latitude (N is +)      : +304126.99
+       Longitude (E is +)     : -0880154.16
+       Elevation (m,ellips.)  : -17.4
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              :  1631.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 350550
+     Firmware Version         : 4.10
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-11-15
+     Date Removed             : 2006-12-20T17:28Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware upgrade.
+
+3.2  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 350550
+     Firmware Version         : 5.00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-12-20T17:30Z
+     Date Removed             : 2007-09-06T10:46Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware upgrade.
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 350550
+     Firmware Version         : 5.50
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2007-09-06T10:47Z
+     Date Removed             : 2008-05-27T08:10Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update.
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 350550
+     Firmware Version         : 5.62
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-05-27T08:23Z
+     Date Removed             : 2008-05-28T10:33Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update.
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 350550
+     Firmware Version         : 6.00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-07-28T10:52Z
+     Date Removed             : 2009-10-08T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update.
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 350550
+     Firmware Version         : 7.53
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-10-08T00:38Z
+     Date Removed             : 2010-02-19T21:40Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update.
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 350550
+     Firmware Version         : 7.80
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-02-19T22:15Z
+     Date Removed             : 2010-08-25T15:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Replaced receiver.
+
+3.8  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495489
+     Firmware Version         : 7.80
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-08-25T16:24Z
+     Date Removed             : 2011-10-17
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update.
+
+3.9  Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495489
+     Firmware Version         : 8.20
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2011-10-17
+     Date Removed             : 2013-01-16T03:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update.
+
+3.10 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495489
+     Firmware Version         : 8.51
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2013-01-16T03:29Z
+     Date Removed             : 2014-06-25T20:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : LEICA GRX1200+GNSS
+     Satellite System         : GPS+GLO
+     Serial Number            : 495489
+     Firmware Version         : 8.71
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2014-06-25T20:53Z
+     Date Removed             : 2015-06-24T16:40Z 
+     Temperature Stabiliz.    : none
+     Additional Information   : Receiver change 
+
+3.12 Receiver Type            : LEICA GR10
+     Satellite System         : GPS+GLO
+     Serial Number            : 1703136
+     Firmware Version         : 3.11/6.403
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-06-24T16:40Z 
+     Date Removed             : 2015-09-21T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware Update.
+
+3.13 Receiver Type            : LEICA GR10
+     Satellite System         : GPS+GLO
+     Serial Number            : 1703136
+     Firmware Version         : 3.21
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-22T15:14Z 
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : LEIAX1202GG     NONE
+     Serial Number            : 06230111
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : Belden Coax 9913
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2006-11-15
+     Date Removed             : 2010-08-25T15:00Z
+     Additional Information   : Replaced antenna.
+
+4.2  Antenna Type             : LEIAX1203+GNSS  NONE
+     Serial Number            : 09340045
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : Belden Coax 9913
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2010-08-25T16:24Z
+     Date Removed             : 2015-06-24T16:40Z 
+     Additional Information   : Antenna change 
+
+4.3  Antenna Type             : LEIAR10         NONE
+     Serial Number            : 17115008
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : Belden Coax 9913
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2015-06-24T16:40Z 
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2006-11-15/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interference      : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interference      : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Alabama Department of Transportation
+     Preferred Abbreviation   : ALDOT
+     Mailing Address          : 1409 Coliseum Blvd. Montgomery, AL 36130
+     Primary Contact
+       Contact Name           : John Matthew Floyd
+       Telephone (primary)    : 334-242-6676
+       Telephone (secondary)  : 334-850-7705
+       Fax                    : 334-269-4689
+       E-mail                 : floydm@dot.state.al.us
+     Secondary Contact
+       Contact Name           : John Russell
+       Telephone (primary)    : 334-242-6139
+       Telephone (secondary)  :
+       Fax                    : 334-269-4689
+       E-mail                 : harrisr@dot.state.al.us
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     ftp://igscb.jpl.nasa.gov/pub/station/general/antenna.gra

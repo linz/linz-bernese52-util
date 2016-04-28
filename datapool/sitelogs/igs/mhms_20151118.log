@@ -1,0 +1,379 @@
+     MHMS Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Susan Jeffries
+     Date Prepared            : 2015-11-18
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : mhms_20140707.log
+      Modified/Added Sections : (n.n,n.n,...)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Markham Middle School
+     Four Character ID        : MHMS
+     Monument Inscription     : 
+     IERS DOMES Number        : 40487M007
+     CDP Number               : 
+     Monument Description     : Wyatt/Agnew drilled-braced
+       Height of the Monument :  (m)
+       Monument Foundation    : (STEEL RODS/CONCRETE BLOCK/ROOF/etc)
+       Foundation Depth       :  (m)
+     Marker Description       : Top of center support screw on SCIGN D3 antenna
+                              : adaptor
+     Date Installed           : 1999-02-16
+     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/10-50 cm/50-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : SCIGN - Southern California Integrated GPS
+                              : Network. Monument is Wyatt-type drilled-braced
+                              : geodetic monument composed of stainless steel
+                              : supports and new SCIGN antenna adaptor. Fixed
+                              : antenna height is 0.0083 m. A secondary
+                              : measurement, the adaptor/divot distance, taken
+                              : from the bottom of the lower adaptor plate to
+                              : the center of a divot drill-mark on the
+                              : north-facing tripod leg, is not yet measured.
+
+
+2.   Site Location Information
+
+     City or Town             : Los Angeles
+     State or Province        : California
+     Country                  : USA
+     Tectonic Plate           : Pacific
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2506712.3974
+       Y coordinate (m)       : -4666364.4381
+       Z coordinate (m)       : 3540838.7779
+       Latitude (N is +)      : +335620.60
+       Longitude (E is +)     : -1181438.88
+       Elevation (m,ellips.)  : -2.4685
+     Additional Information   : Los Angeles County. Reference frame used is
+                              : (ITRF2000). Coordinate system used is (WGS84).
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02811
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-10-10T00:00Z
+     Date Removed             : 2000-06-14T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Initial installation.
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02811
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2000-06-14T00:00Z
+     Date Removed             : 2001-02-01T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Decreased sampling interval to 120 seconds.
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02811
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2001-02-01T00:00Z
+     Date Removed             : 2012-02-15T18:29Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Session programming set to 30 second sample rate
+                              : 24 hours/day now that telemetry to site is
+                              : established
+
+3.4  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-01101
+     Firmware Version         : 3.5 Aug,24,2011 p3b2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-02-15T18:32Z
+     Date Removed             : 2013-05-29T21:08Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS
+     Serial Number            : 618-01101
+     Firmware Version         : 4.0 Dec,21,2012 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-05-29T22:48Z
+     Date Removed             : 2015-11-18T19:17Z
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TPS NET-G3A
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-01101
+     Firmware Version         : 4.5 Dec,29,2014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2015-11-18T19:22Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936E_C    SCIT
+     Serial Number            : CR14681
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    :  deg
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00070
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1999-10-10T00:00Z
+     Date Removed             : 2000-01-12T00:00Z
+     Additional Information   :  
+
+4.2  Antenna Type             : ASH701945B_M    SCIT
+     Serial Number            : CR519991912
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    :  deg
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00070
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-01-12T00:00Z
+     Date Removed             : 2012-02-15T19:25Z
+     Additional Information   :  
+
+4.3  Antenna Type             : TPSCR.G3        SCIT
+     Serial Number            : 383-1828
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    :  deg
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00070
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2012-02-15T19:35Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : 
+       Input Frequency        :
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : US Geological Survey
+     Preferred Abbreviation   : USGS
+     Mailing Address          : 525 S. Wilson Ave. Cal Tech, Room 001
+                              : Pasadena CA USA 91106-3212
+     Primary Contact
+       Contact Name           : Kenneth W. Hudnut
+       Telephone (primary)    : 626-583-7232
+       Telephone (secondary)  :
+       Fax                    : 626-583-7827
+       E-mail                 : hudnut@usgs.gov
+     Secondary Contact
+       Contact Name           : Dan Determan
+       Telephone (primary)    : 626-583-6729
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : ddeterman@usgs.gov
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   :
+     Preferred Abbreviation   : 
+     Mailing Address          :
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  :
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : UNAVCO Boulder Facility Archive
+     Secondary Data Center    : 
+     URL for More Information : http://www.unavco.org
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TPSCR.G3
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1015  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+
+
+

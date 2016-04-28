@@ -1,0 +1,429 @@
+     MDEA Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : David Zuliani
+     Date Prepared            : 2012-01-20
+     Report Type              : DYNAMIC
+     If Update:
+      Previous Site Log       : 
+      Modified/Added Sections : 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Medea
+     Four Character ID        : MDEA
+     Monument Inscription     : 
+     IERS DOMES Number        : 12765M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 1.50 m
+       Monument Foundation    : STEEL RODS, CONCRETE BLOCK
+       Foundation Depth       : 0.20 m
+     Marker Description       : Pivot on steel nipple of antenna adapter
+     Date Installed           : 2003-01-18
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY - LIMESTONE
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : YES
+         Distance/activity    : (multiple lines)
+     Additional Information   : Direct power supply.
+
+
+2.   Site Location Information
+
+     City or Town             : Medea 
+     State or Province        : Gorizia
+     Country                  : Italy
+     Tectonic Plate           : EURASIA
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4322832.37
+       Y coordinate (m)       : 1032685.60
+       Z coordinate (m)       : 4559530.70
+       Latitude (N is +)      : +455528.09
+       Longitude (E is +)     : +0132608.29
+       Elevation (m,ellips.)  : 00165.7
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 20305
+     Firmware Version         : CJ00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-01-23
+     Date Removed             : 2003-08-25T11:29Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number,  ZR20020305
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 20305
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2003-09-24T12:11Z
+     Date Removed             : 2004-12-21T14:42Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number,  ZR20020305
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 20308
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-01-25T11:40Z
+     Date Removed             : 2005-11-16T15:55Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number,  ZR20020308
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 50008
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-11-22T10:52Z
+     Date Removed             : 2006-01-03T13:50Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number,  UC2200450008
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 20308
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-01-03T13:54Z
+     Date Removed             : 2006-09-18T10:01Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number,  ZR20020308
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 50008
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2006-09-25T10:30Z
+     Date Removed             : 2007-05-31T14:44Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Full Serial Number, UC2200450008
+
+3.7  Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24772
+     Firmware Version         : 3.1 Jan,24,2007 p1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2007-05-31T17:27Z
+     Date Removed             : 2007-12-11T10:40Z
+     Temperature Stabiliz.    : none
+     Additional Information   : full Serial Number, T224772
+
+3.8  Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24772
+     Firmware Version         : 3.1 Mar,13,2007 p2
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2007-12-11T14:00Z
+     Date Removed             : 2008-05-14T13:09Z
+     Temperature Stabiliz.    : none
+     Additional Information   : full Serial Number, T224772
+     
+3.9  Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24772
+     Firmware Version         : 3.3 May,05,2008 p1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2008-05-15T09:00Z
+     Date Removed             : 2009-03-26T08:58Z
+     Temperature Stabiliz.    : none
+     Additional Information   : full Serial Number, T224772
+
+3.10 Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 24772
+     Firmware Version         : 3.3 Dec,22,2008 p6
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-03-26T09:08Z
+     Date Removed             : 2009-09-11T11:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : full Serial Number, T224772
+
+3.11 Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 224780
+     Firmware Version         : 3.3 Dec,22,2008 p6
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-09-11T12:00Z
+     Date Removed             : 2010-10-24T21:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : full Serial Number, T224780
+
+3.12 Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 224375
+     Firmware Version         : 3.4 Dec,12,2009 p2
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-10-27T10:00Z
+     Date Removed             : 2012-01-20T17:01Z
+     Temperature Stabiliz.    : none
+     Additional Information   : full Serial Number, T224375
+
+3.13 Receiver Type            : TPS GB-1000
+     Satellite System         : GPS+GLONASS
+     Serial Number            : 224375
+     Firmware Version         : 3.5 Dec,24,2010
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2012-01-20T17:15Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : full Serial Number, T224375
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945E_M    SCIT
+     Serial Number            : 23305
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0083
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     : 00218
+     Antenna Cable Type       : Helihax 1/2"
+     Antenna Cable Length     : 75 m
+     Date Installed           : 2003-01-14
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : The heliax cable is adapted to the
+                                receiver throught a RG58 cable 1m long
+                                and to the antenna through a RG213 cable
+                                2m long.
+                                Full Serial Number, CR620023305
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-01-23
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Centro Ricerche Sismologiche
+     Preferred Abbreviation   : CRS
+     Mailing Address          : Via Treviso 55, 33100 Udine, Italy
+     Primary Contact
+       Contact Name           : David Zuliani
+       Telephone (primary)    : 39-0432-522433
+       Telephone (secondary)  : 
+       Fax                    : 39-0432-522474
+       E-mail                 : dzuliani@inogs.it
+     Secondary Contact
+       Contact Name           : Giorgio Duri
+       Telephone (primary)    : 39-0432-522433
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : gduri@inogs.it
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Istituto Nazionale di Oceanografia e Geofisica
+                                Sperimentale
+     Preferred Abbreviation   : OGS
+     Mailing Address          : Borgo Grotta Gigante 42/c, 34010 Sgonico, Italy
+     Primary Contact
+       Contact Name           : Enrico Priolo
+       Telephone (primary)    : 39-040-2140351
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : epriolo@inogs.it
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : 
+     Secondary Data Center    : 
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : MDEA is part of the Friuli Regional Deformation
+                                network (FReDNet) a continuously operating
+                                Global Positioning System (GPS) receivers.
+                                FReDNet monitors crustal deformation in the
+                                Friuli area (Northeast of Italy) and the
+                                northeast boundary of the Adriatic microplate.
+                                FReDNet is operated by the Centro Ricerche
+                                Sismologiche (CRS) a department of the Istituto
+                                Nazionale di Oceanografia e di Geofisica
+                                Sperimentale - OGS. We began to install the
+                                initial 7 stations of FReDNet in the summer of
+                                2002. Nowadays FReDNet consit of 8 stations and
+                                it is complete, up and running. For accessing
+                                FReDNet	GPS data visit
+                                http://www.crs.inogs.it/frednet.
+ 				For more info about FReDNet contact:
+                                - David Zuliani dzuliani@inogs.it
+                                - Maurizio Battaglia battag@seismo.berkeley.edu
+
+     Antenna Graphics with Dimensions
+                                
+ASH701945E_M
+
+                         +-------+
+                       /     +     \                        <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.3794                      -->

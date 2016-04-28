@@ -1,0 +1,682 @@
+
+     ONSA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Anders Frisk
+     Date Prepared            : 2015-11-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : onsa_20150708.log
+      Modified/Added Sections : 3.10, 3.11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : ONSALA
+     Four Character ID        : ONSA
+     Monument Inscription     : ONSALA 301
+     IERS DOMES Number        : 10402M004
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1991-07-01T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : 
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : GABBRO
+                              : Swedish permanent GPS Network (SWEPOS)
+                              : The same monument and antenna has been used for
+                              : the IGEX/IGLOS-site OS0G up to 2003-08-19
+
+
+2.   Site Location Information
+
+     City or Town             : Onsala
+     State or Province        : 
+     Country                  : Sweden
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3370658.8318
+       Y coordinate (m)       : 711876.9387
+       Z coordinate (m)       : 5349786.7450
+       Latitude (N is +)      : +572343.07
+       Longitude (E is +)     : +0115531.85
+       Elevation (m,ellips.)  : 45.5
+     Additional Information   : SWEREF 99 (Swedish realisation of ETRS89).
+                              : Swedish westcoast, near Gothenburg
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 199
+     Firmware Version         : 2.8
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1993-07-01T00:00Z
+     Date Removed             : 1999-02-01T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Elevation cutoff setting unknown
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 834
+     Firmware Version         : 1F60
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-02-02T00:00Z
+     Date Removed             : 1999-07-03T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : 834
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1999-07-03T00:00Z
+     Date Removed             : 2003-08-19T00:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.4  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT301613113
+     Firmware Version         : 2.3 May,13,2003 p1
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-08-19T00:00Z
+     Date Removed             : 2004-03-10T16:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.5  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AGOMET9N0N4
+     Firmware Version         : 2.3 Feb,17,2004 p4b2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2004-03-10T16:00Z
+     Date Removed             : 2007-11-01T08:30Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.6  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AG72YY6YV40
+     Firmware Version         : 2.3 Feb,17,2004 p4b2
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-11-01T08:40Z
+     Date Removed             : 2008-05-15T14:30Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.7  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AG72YY6YV40
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-05-15T14:40Z
+     Date Removed             : 2014-01-14T17:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : Firmware upgrade
+
+3.8  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AG72YY6YV40
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-01-14T17:00Z
+     Date Removed             : 2015-05-05T14:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.9  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00323
+     Firmware Version         : 3.5.6 Aug,14,2014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-05-05T14:00Z
+     Date Removed             : 2015-07-08T12:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.10 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00323
+     Firmware Version         : 3.5.9 Apr,21,2015
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-07-08T12:00Z
+     Date Removed             : 2015-11-17T10:00Z
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.11 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 00323
+     Firmware Version         : 3.5.12 Nov,12,2015
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-11-17T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 25.0 +/- 3.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_B        DUTD
+     Serial Number            : 20
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 0.9950
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : +180 deg
+     Antenna Radome Type      : DUTD
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1991-07-01T00:00Z
+     Date Removed             : 1999-02-01T00:00Z
+     Additional Information   : Antenna correctly oriented towards
+                              : North on 1994-09-11.
+
+4.2  Antenna Type             : AOAD/M_B        OSOD
+     Serial Number            : 020
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 0.9950
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : OSOD
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1999-02-02T00:00Z
+     Date Removed             : 2013-08-28T12:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : AOAD/M_B        NONE
+     Serial Number            : 020
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 0.9950
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2013-08-28T12:00Z
+     Date Removed             : 2013-11-06T13:05Z
+     Additional Information   : Radome temporarily removed, due to
+                              : participation in IGS Radome Experiment at
+                              : Co-located Stations.
+
+4.4  Antenna Type             : AOAD/M_B        OSOD
+     Serial Number            : 020
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 0.9950
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : OSOD
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2013-11-06T13:05Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : ONSALA 131
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7213
+     Tied Marker DOMES Number : 10402S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -52.631
+       dy (m)                 : 40.464
+       dz (m)                 : 43.865
+     Accuracy (mm)            : 1 mm
+     Survey method            : TRILATERATION/TRIANGULATION
+     Date Measured            : 1993-04-15T00:00Z
+     Additional Information   : Differential coordinates from the GPS
+                              : monument to the reference and other
+                              : monuments.
+                              : The components are parallel to the
+                              : XYZ-axes
+                              : of the global geocentric reference
+                              : system
+                              : ITRF (WGS-84).
+
+5.2  Tied Marker Name         : ONSALA 501
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7211
+     Tied Marker DOMES Number : 10402M006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -16.704
+       dy (m)                 : -10.902
+       dz (m)                 : 9.290
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN/TRILATERATION/TRIANGULATION
+     Date Measured            : 1993-04-15T00:00Z
+     Additional Information   : Differential coordinates from the GPS
+                              : monument to the reference and other
+                              : monuments.
+                              : The components are parallel to the
+                              : XYZ-axes
+                              : of the global geocentric reference
+                              : system
+                              : ITRF (WGS-84).
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1991-07-01/CCYY-MM-DD
+       Notes                  : CLOCK STEERING has been Y since 1999-02-02.
+                              : CLOCK STEERING set to N 2000-12-06 00:00 UT.
+                              : AUTO-SWITCH has always been Y.
+                              : Clock steering information valid for Ashtech
+                              : receivers.
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1980-01-01/CCYY-MM-DD
+       Notes                  : Also Mobile VLBI, Gravim
+
+7.2  Instrumentation Type     : GLONASS/GPS
+       Status                 : PERMANENT
+       Effective Dates        : 1998-10-21/2003-08-19
+       Notes                  : Same pillar and antenna as the GPS
+                              : station.
+                              : GPS site ONSA and GPS/GLONASS site OS0G
+                              : have been merged into site ONSA, equipped
+                              : with a GPS/GLONASS receiver.
+
+7.3  Instrumentation Type     : GPS
+       Status                 : PERMANENT
+       Effective Dates        : 2003-08-19/CCYY-MM-DD
+       Notes                  : Same pillar and antenna as the GPS/GLONASS
+                              : station.
+
+7.4  Instrumentation Type     : GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 1995-09-26/1995-09-27
+       Notes                  : 
+
+7.5  Instrumentation Type     : GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 1995-09-29/1995-10-01
+       Notes                  : 
+
+7.6  Instrumentation Type     : GNSS
+       Status                 : PERMANENT
+       Effective Dates        : 2012-01-28/CCYY-MM-DD
+       Notes                  : EPN station ONS1 10402M007.
+                              : ONS1 is also included in the IGS MGEX project.
+
+7.7  Instrumentation Type     : SUPERCONDUCTING GRAVITY
+       Status                 : PERMANENT
+       Effective Dates        : 2009-06-13/CCYY-MM-DD
+       Notes                  : 
+
+7.8  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 1993-08-07/1993-08-10
+       Notes                  : 
+
+7.9  Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 1998-06-13/1998-06-14
+       Notes                  : 
+
+7.10 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2003-06-14/2003-06-15
+       Notes                  : 
+
+7.11 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2003-07-15/2003-07-16
+       Notes                  : 
+
+7.12 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2004-10-25/2004-10-29
+       Notes                  : 
+
+7.13 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2005-10-12/2005-10-14
+       Notes                  : 
+
+7.14 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2006-10-08/2006-10-10
+       Notes                  : 
+
+7.15 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2007-03-20/2007-03-22
+       Notes                  : Observation performed by Lantmateriet.
+
+7.16 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2007-05-09/2007-05-10
+       Notes                  : 
+
+7.17 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2009-06-30/2009-07-01
+       Notes                  : Observation performed by Lantmateriet.
+
+7.18 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2009-07-02/2009-07-05
+       Notes                  : Observation performed by Lantmateriet.
+
+7.19 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2010-06-30/2010-07-02
+       Notes                  : Observation performed by Lantmateriet.
+
+7.20 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2010-09-20/2010-09-23
+       Notes                  : Observation performed by Lantmateriet.
+
+7.21 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : PERMANENT
+       Effective Dates        : 2011-06-29/2011-07-01
+       Notes                  : Observation performed by Lantmateriet.
+
+7.22 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2011-07-02/2011-07-04
+       Notes                  : Observation performed by Lantmateriet.
+
+7.23 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2013-04-22/2013-04-24
+       Notes                  : Observation performed by Lantmateriet.
+
+7.24 Instrumentation Type     : ABSOLUTE GRAVITY
+       Status                 : MOBILE
+       Effective Dates        : 2013-04-29/2013-05-03
+       Notes                  : Observation performed by Lantmateriet.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP35D HUMICAP H-sensor
+       Manufacturer           : VAISALA
+       Serial Number          : 
+       Data Sampling Interval : 1800 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1997-04-01/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Setra 361B
+       Manufacturer           : Setra Systems
+       Serial Number          : 
+       Data Sampling Interval : 1800 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1991-07-01/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP35D pt-100
+       Manufacturer           : VAISALA
+       Serial Number          : 
+       Data Sampling Interval : 1800 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 0 m
+       Calibration date       : 
+       Effective Dates        : 1997-04-01/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : Astrid
+       Manufacturer           : Onsala Space Observatory
+       Serial Number          : 
+       Distance to Antenna    : 8 m
+       Height Diff to Ant     : 0 m
+       Calibration date       : 
+       Effective Dates        : 1991-07-01/CCYY-MM-DD
+       Notes                  : 
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : MULTIPATH REDUCTION
+       Effective Dates        : 1994-07-31/2013-07-04
+       Additional Information : A plate of microwave absorbing
+                              : material(Eccosorb) was mounted around the
+                              : antenna to reduce multipath.
+
+9.2.2  Multipath Sources      : MULTIPATH REDUCTION
+       Effective Dates        : 2013-07-04/CCYY-MM-DD
+       Additional Information : The microwave absorbing plate surrounding the
+                              : antenna was exchanged due to ageing. The new
+                              : plate is of the same type as the previous.
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2015-03-04/2015-03-04
+     Event                    : Troubleshooting was performed 8:30-10:30 UTC,
+                              : trying to find the cause of low data quality.
+                              : Moisture in and around the radome was removed,
+                              : contacts were examined and some other receivers
+                              : connected to the ONSA site were disconnected.
+
+10.2 Date                     : 2015-03-12/2015-03-12
+     Event                    : Due to troubleshooting  on station ONSA DOY 071
+                              : 9-12  UTC, distributed data is corrupt.
+                              : Disabled one of three pre-amplifiers.
+
+10.3 Date                     : 2015-05-22/2015-07-08
+     Event                    : Troubleshooting and repair of pre-amplifier in
+                              : antenna. Components in pre-amplifier have been
+                              : replaced.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Onsala Space Observatory/Chalmers
+     Preferred Abbreviation   : OSO
+     Mailing Address          : SE-439 92 Onsala
+                              : Sweden
+     Primary Contact
+       Contact Name           : Lars Eriksson
+       Telephone (primary)    : +46 31 772 55 67
+       Telephone (secondary)  : +46 31 772 55 00
+       Fax                    : +46 31 772 55 90
+       E-mail                 : lars.eriksson@chalmers.se
+     Secondary Contact
+       Contact Name           : Jan Johansson
+       Telephone (primary)    : +46 31 772 55 58
+       Telephone (secondary)  : +46 33 16 55 04
+       Fax                    : +46 33 12 50 38
+       E-mail                 : jan.johansson@sp.se
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Lantmateriet, the Swedish mapping, cadastral and
+                              : land registration authority
+     Preferred Abbreviation   : LMV
+     Mailing Address          : S-801 82 Gavle SWEDEN
+     Primary Contact
+       Contact Name           : SWEPOS Control Centre
+       Telephone (primary)    : +46 26 63 37 53
+       Telephone (secondary)  : +46 70 534 12 23
+       Fax                    : +46 26 65 42 75
+       E-mail                 : swepos@lm.se
+     Secondary Contact
+       Contact Name           : Peter Wiklund
+       Telephone (primary)    : +46 26 63 38 84
+       Telephone (secondary)  : +46 70 344 06 38
+       Fax                    : +46 26 61 06 76
+       E-mail                 : peter.wiklund@lm.se
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+AOAD/M_B  (Allen Osborne Design)
+
+                         -----
+                     /     +     \                      <-- 0.096 L2
+                    |      +      |                     <-- 0.078 L1
+  +-----------------+-------------+------------------+  <-- 0.070 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  +-----------------+------x------+------------------+  <-- 0.000 ARP
+                    |             |
+                    +-------------+                     <-- -0.011
+                          ||  ||
+
+  <--                    0.351                     -->
+
+
+ARP: Antenna Reference Point
+

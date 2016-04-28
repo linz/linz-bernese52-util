@@ -1,0 +1,386 @@
+     MOBJ Site Information Form
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Robert Khachikyan
+     Date Prepared            : 2012-10-07
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : mobj_20090327.log
+      Modified/Added Sections : 4.2
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Obninsk/Moscow Seismic Station
+     Four Character ID        : MOBJ
+     Monument Inscription     : None
+     IERS DOMES Number        : 12365M002
+     CDP Number               : (A4)
+     Monument Description     : STAINLESS STEEL ROD
+       Height of the Monument : (m)
+       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2005-12-15
+     Geologic Characteristic  : East European Platform.
+       Bedrock Type           : Vendian Paleozoic sediments over
+       Bedrock Condition      : NA
+       Fracture Spacing       : NA
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+                              : This station is part of NEDA Deformation Array.
+                              : NEDA operational control is provided by RDAAC
+                              : Acquisition/Analysis Center (Moscow, Russia).
+                              : RDAAC is also IGS Operational Center for NEDA.
+                              : *******************************************
+                              : The GPS reference mark is located at
+                              : Seismic Station Moscow, 80 km to the southwest
+                              : of the Moscow Circular Highway, at Town of
+                              : Obninsk.
+                              : The mark is 5/8-11" diameter, vertical stainless
+                              : steel rod glued into the concrete parapet
+                              : of the roof near its southwest corner.
+                              : This is a single-story reinforced concrete
+                              : building 5.5 meters high. The roof is the
+                              : prefabricated reinforced concrete slab.
+                              : The rod is driven to a depth of 10 cm.
+                              : Vertical datum of the rod.
+                              : Antenna is attached to the rod
+                              : with the compact leveling mount,
+
+2.   Site Location Information
+
+     City or Town             : Obninsk
+     State or Province        : Kaluga Region
+     Country                  : Russian Federation
+     Tectonic Plate           : Eurasian
+     Approximate Position (ITRF)
+       X coordinate (m)       : 2936424.6740
+       Y coordinate (m)       : 2178374.0120
+       Z coordinate (m)       : 5208858.3846
+       Latitude (N is +)      : +550653.57504
+       Longitude (E is +)     : +0363410.96645
+       Elevation (m,ellips.)  : 182.6079
+     Additional Information   : Cartesian and geodetic coordinates (ITRF00)
+                              : from GAMIT solution. Epoch 2005.274
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : TPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT302240425
+     Firmware Version         : 2.3 Apr,28,2004 p4
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-12-15T00:00Z
+     Date Removed             : 2009-03-25T05:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT302240425
+     Firmware Version         : 2.6.1 Jan,10,2008
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2009-03-25T07:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+
+4.1  Antenna Type             : TPSCR3_GGD      NONE
+     Serial Number            : 00264
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1312
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-12-18T00:00Z
+     Date Removed             : 2007-02-22T09:45Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : JPSREGANT_SD_E1 NONE
+     Serial Number            : RA0033
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1312
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2007-05-24T10:06Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+                              : Antenna type listed in this section retro-
+                              : actively changed from JPSREGANT_SD_E to
+                              : JPSREGANT_SD_E1 starting with log file
+                              : mobj_20121007.log. See IGSMAIL-6662 and
+                              : IGSMAIL-6663 for details.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.1  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : (mbar)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : (multiple lines)
+
+8.5.x  Other Instrumentation  : 
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Geophysical Service, Russ. Acad. Sci.
+     Preferred Abbreviation   : GS RAS
+     Mailing Address          : 189 Lenina Street
+                              : Obninsk 249030, Kaluga Region, RUSSIA
+     Primary Contact
+       Contact Name           : Grigory Steblov
+       Telephone (primary)    : +7-903-1529610
+       Telephone (secondary)  : +7-48439-20181
+       Fax                    : 
+       E-mail                 : steblov@gps.gsras.ru
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+                              : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           :  
+       Telephone (primary)    :  
+       Telephone (secondary)  : 
+       Fax                    :  
+       E-mail                 :  
+     Additional Information   : (multiple lines) 
+
+13.  More Information
+
+     Primary Data Center      : RDAAC
+     Secondary Data Center    : SIO
+     URL for More Information : http://www.gps.gsras.ru
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+
+JPSREGANT_SD_E1
+
+                +-------------------------+                  <--  0.1258  Plastic
+               /    -------------------    \                              Housing
+              /    /         +         \    \
+   +---------+     |         +         |     +---------+
+  | +-------------------------------------------------+ |    <--          TCR
+ /  |                                                 |  \
+|   |                                                 |   |
+|   |                                                 |   |
+|   |                                                 |   |
+ \+-----------------------------------------------------+/
+ |+-----------------------------------------------------+|   <--          BCR
+  \______________  |                   |  ______________/
+                 \ |                   | /
+                  \+---------x---------+/                    <--  0.0000  BPA=ARP
+
+<--                        0.3709                       -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+

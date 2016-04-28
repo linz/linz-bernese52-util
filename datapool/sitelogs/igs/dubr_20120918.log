@@ -1,0 +1,440 @@
+     DUBR Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Ivan Malovic
+     Date Prepared            : 2012-09-18
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : dubr_20120113.log
+      Modified/Added Sections : 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Dubrovnik
+     Four Character ID        : DUBR
+     Monument Inscription     : 
+     IERS DOMES Number        : 11901M001
+     CDP Number               : -
+     Monument Description     : PAINTED STEEL TRIPOD
+       Height of the Monument : 2.85 m
+       Monument Foundation    : STEEL TRIPOD ANCHORED TO THE FLAT ROOF
+       Foundation Depth       : (m)
+     Marker Description       : SURVEY MARKER BOLT ON STEEL TRIPOD
+     Date Installed           : 2000-09-22T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Painted steel tripod anchored to
+                              : the flat roof of the Imperial
+                              : Fortress on the hill Srdj -
+                              : San Sergio.
+                              : The antenna is 7.5 m above the
+                              : ground on northern side, and 9.5 m
+                              : on southern side.
+
+
+2.   Site Location Information
+
+     City or Town             : Dubrovnik
+     State or Province        : 
+     Country                  : Croatia
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4465940.10
+       Y coordinate (m)       : 1460594.41
+       Z coordinate (m)       : 4299291.36
+       Latitude (N is +)      : +423859.93
+       Longitude (E is +)     : +0180637.56
+       Elevation (m,ellips.)  :   454.3
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02415
+     Firmware Version         : 1I00-D002
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2000-09-22T00:00Z
+     Date Removed             : 2003-07-20T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Ashtech GPS Receiver XII,
+                              : Mdl. Z-12,
+                              : P/N 700845-10 (E).
+                              : Smoothing option on.
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02415
+     Firmware Version         : 1I00-D002
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-07-20T10:00Z
+     Date Removed             : 2004-12-15T09:36Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : Ashtech GPS Receiver XII,
+                              : Mdl. Z-12,
+                              : P/N 700845-10 (E).
+                              : Smoothig option deactivated.
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03169
+     Firmware Version         : 1K00-1D04
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-12-15T09:36Z
+     Date Removed             : 2005-12-14T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02991
+     Firmware Version         : 3.30
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-01-22T16:00Z
+     Date Removed             : 2007-08-20T10:45Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4619K01216
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-08-20T11:00Z
+     Date Removed             : 2007-10-08T16:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4644K02991
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-10-08T16:15Z
+     Date Removed             : 2008-12-07T09:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4844K59159
+     Firmware Version         : 3.60
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-12-07T09:00Z
+     Date Removed             : 2009-04-26T08:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4844K59159
+     Firmware Version         : 3.64
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-04-26T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936D_M    SNOW
+     Serial Number            : CR13724
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0810
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2000-09-22T00:00Z
+     Date Removed             : 2005-12-14T00:00Z
+     Additional Information   : Ashtech Choke Ring Antenna
+                              : P/N 700936 (D) with white
+                              : conical Ashtech Dome SNOW
+
+4.2  Antenna Type             : TRM55971.00     TZGD
+     Serial Number            : 30213971
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :  -0.0120
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TZGD
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-01-22T16:00Z
+     Date Removed             : 2007-06-02T11:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : TRM55971.00     TZGD
+     Serial Number            : 30213971
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0580
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TZGD
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-06-02T12:00Z
+     Date Removed             : 2007-06-19T17:45Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30213971
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  :   0.0580
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-06-19T18:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2000-07-22/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : State Geodetic Administration
+     Preferred Abbreviation   : SGA
+     Mailing Address          : State Geodetic Administration
+                              : Gruska 20, 10000 Zagreb
+                              : Republic of Croatia
+     Primary Contact
+       Contact Name           : Martina Ciprijan
+       Telephone (primary)    : +38516165407
+       Telephone (secondary)  : +38516165415
+       Fax                    : +38516165430
+       E-mail                 : martina.ciprijan@dgu.hr
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : OLG
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH700936D_M
+from 2000-09-22 until 2005-12-14
+
+                         -----
+                     /     +     \                        <--  0.128 L2
+                    |      +      |                       <--  0.110 L1
+  +--------------------------------------------------+    <--  0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000
+BPA=ARP
+
+<--                      0.381                       -->
+
+
+TRM55971.00
+from 2007-01-22
+
+
+    / ----------------------+--------------------- \   <--  0.0850 L1
+   +                        +                       +  <--  0.0701 L2
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000 ARP=BAM
+
+   <--                   0.3396                  -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier

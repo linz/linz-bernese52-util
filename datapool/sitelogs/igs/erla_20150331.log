@@ -1,0 +1,366 @@
+     ERLA Site Information Form
+     NCAD Continuously Operating Reference Station
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : cors-adm
+     Date Prepared            : 2015-03-31
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : erla_20150324.log
+      Modified/Added Sections : 8
+
+
+1.   Site Identification of the GNSS Monument
+     Site Name                : Erlanger
+     Four Character ID        : ERLA
+     Monument Inscription     :
+     IERS DOMES Number        : 49859S001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : (m)
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1996-09-14T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : Generally not fractured
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Bedrock is horizontally bedding, relatively
+                              : unfractured and unjointed and stable.
+                              : [Geological characterization and details
+                              : provided by a locally-based professional
+                              : geologist, Covington, KY. 07-Dec-2000]
+                              : The ERLA site located at 463 Erlanger Road,
+                              : Erlanger, KY is situated on a geologically
+                              : stable area locally known as the "Cincinnati
+                              : Arch" which is a very broad and northeast
+                              : trending, slightly plunging anticline.  The
+                              : Erlanger area is located at the top of the
+                              : "arch" where the bedding is nearly horizontal.
+                              : Long term erosion has exposed the Ordovician-
+                              : aged shale and thinly bedded limestone bedrock.
+                              : The bedrock is generally overlain by shallow
+                              : glacial and residual soil deposits that are
+                              : stiff to very stiff in consistency and
+                              : approximately 5 to 10 feet thick over the
+                              : bedrock.  The underlying bedrock formations
+                              : from the surface to approximately 500 feet
+                              : below the site are known as: (1) Bullfork
+                              : Formation, (2) Bellevue Tongue of the Grant
+                              : Lake Limestone, (3) the Fairview Formation,
+                              : and (4) the Kope Formation; all which are com-
+                              : posed of interbedded shale and crystalline to
+                              : fossiliferous limestone of varyiying perc.
+                              : The bedrock is generally characterized according
+                              : to the degree of weathering.  The uppermost zone
+                              : directly below the soil is known as the brown
+                              : highly weathered shale and thinly bedded lime-
+                              : stone where the shale component has nearly
+                              : weathered into a soil, yet still retains
+                              : distinct bedding planes.  This highly weathered
+                              : zone overlies the less weatered olive brown
+                              : weathered shale and thinly bedded limestone.
+                              : Both the highly weathered and weathered zones
+                              : originated from the parent bedrock, the
+                              : unweathered gray shale and thinly bedded
+                              : limestone bedrock.  The tri-state region
+                              : (Northern KY, SouthEastern IN, and SouthWestern
+                              : OH) is also known for relatively low seismicity
+                              : as recorded within historic time.
+                              : DOMES number added
+
+
+2.   Site Location Information
+
+     City or Town             : Erlanger
+     State or Province        : Kentucky
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 466446.895
+       Y coordinate (m)       : -4939929.955
+       Z coordinate (m)       : 3994478.612
+       Latitude (N is +)      : +390123.54
+       Longitude (E is +)     : -0843621.27
+       Elevation (m,ellips.)  : 253.9
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              :  1631.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02299
+     Firmware Version         : IE86-D01
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1996-09-14
+     Date Removed             : 1997-04-09
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : remove date same as next install date GS
+
+3.2  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02299
+     Firmware Version         : IE95-1D01
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1997-04-09
+     Date Removed             : 1999-05-15
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : remove date same as next install date GS
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP02299
+     Firmware Version         : CC00-1D02
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-05-15
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Firmware update
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936C_M    SNOW
+     Serial Number            : 11480
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : SNOW
+     Antenna Radome Type      :
+     Radome Serial Number     : (A4 from rcvr_ant.tab; see instructions)
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1996-09-14
+     Date Removed             : 2003-08-21T22:00Z
+     Additional Information   : added radome confirmed photo 2013aug05 GS
+
+4.2  Antenna Type             : SPP571212238+GP
+     Serial Number            : 31410509
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      :
+     Radome Serial Number     : (A4 from rcvr_ant.tab; see instructions)
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2003-08-21T22:00Z
+     Date Removed             : 2003-09-12T03:00Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : ASH700936D_M    SCIS
+     Serial Number            : 11480
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    :
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : (A4 from rcvr_ant.tab; see instructions)
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2003-09-12T04:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Antenna type corrected from C_M to
+                              : D_M on 2006-May-03.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 1996-09-14/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x Radio Interference      : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NCAD Corporation
+     Preferred Abbreviation   : NCAD
+     Mailing Address          : 463 Erlanger Road
+                              : Erlanger, KY  41018-1427
+     Primary Contact
+       Contact Name           : John Randall Schmidt, President
+       Telephone (primary)    : 859-727-9999
+       Telephone (secondary)  : 513-532-6223 (Cell)
+       Fax                    : 859-727-6789
+       E-mail                 : john@ncad.net
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     ftp://igscb.jpl.nasa.gov/pub/station/general/antenna.gra

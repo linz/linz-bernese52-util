@@ -1,0 +1,512 @@
+
+     RECF Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Sonia Maria Alves Costa
+     Date Prepared            : 2015-03-26
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : recf_20150317.log
+      Modified/Added Sections : 4.4, 4.5
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : RECIFE
+     Four Character ID        : RECF
+     Monument Inscription     : 
+     IERS DOMES Number        : 41617M001
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.37 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : Chilselled cross
+     Date Installed           : 1999-07-06T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Recife
+     State or Province        : Pernambuco
+     Country                  : Brazil
+     Tectonic Plate           : SOUTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 5176588.61
+       Y coordinate (m)       : -3618162.16
+       Z coordinate (m)       : -887363.77
+       Latitude (N is +)      : -080303.4697
+       Longitude (E is +)     : -0345705.4591
+       Elevation (m,ellips.)  : 20.2
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 16740
+     Firmware Version         : 7.22
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1999-07-06T00:00Z
+     Date Removed             : 2004-09-04T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 16740
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-09-04T00:00Z
+     Date Removed             : 2006-12-04T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3633A16744
+     Firmware Version         : 7.01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-12-05T00:00Z
+     Date Removed             : 2007-05-07T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4651K03572
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-05-08T00:00Z
+     Date Removed             : 2009-10-19T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4651K03572
+     Firmware Version         : 3.84
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-10-20T00:00Z
+     Date Removed             : 2012-08-28T17:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35519
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-08-28T17:22Z
+     Date Removed             : 2012-11-22T16:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35519
+     Firmware Version         : 4.41
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-11-22T16:00Z
+     Date Removed             : 2013-03-14T17:55Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35519
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-03-14T18:00Z
+     Date Removed             : 2014-09-19T11:50Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35519
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-09-19T12:00Z
+     Date Removed             : 2015-02-03T16:50Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR8
+     Satellite System         : GPS+GLO
+     Serial Number            : 4923K35519
+     Firmware Version         : 4.87
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-02-03T17:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 70175
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1290
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1999-07-06T00:00Z
+     Date Removed             : 2004-09-04T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 70175
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0700
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2004-09-04T00:00Z
+     Date Removed             : 2007-05-07T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30337723
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-05-08T00:00Z
+     Date Removed             : 2012-08-28T17:20Z
+     Additional Information   : 
+
+4.4  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 4951353655
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0710
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2012-08-28T17:22Z
+     Date Removed             : 2015-03-20T14:36Z
+     Additional Information   : 
+
+4.5  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 4951353656
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.071
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2015-03-20T14:47Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1999-07-06/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : PTU303
+       Manufacturer           : Vaisala
+       Serial Number          : F2910047
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : 1
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 2013-11-01
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU303
+       Manufacturer           : Vaisala
+       Serial Number          : F2910047
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.3 hPa
+       Height Diff to Ant     : 
+       Calibration date       : 2013-11-01
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : PTU303
+       Manufacturer           : Vaisala
+       Serial Number          : F2910047
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 2013-11-01
+       Effective Dates        : 
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Brasileiro de Geografia e Estatística
+     Preferred Abbreviation   : IBGE
+     Mailing Address          : Av. Brasil, 15671 - Parada de Lucas - Rio de
+                              : Janeiro - Brasil - CEP: 21241-051
+     Primary Contact
+       Contact Name           : Sonia Costa
+       Telephone (primary)    : (55)(21) 21424935
+       Telephone (secondary)  : (55)(21) 21424929
+       Fax                    : 
+       E-mail                 : sonia.alves@ibge.gov.br
+     Secondary Contact
+       Contact Name           : Rodrigo Quirino
+       Telephone (primary)    : (55)(21) 21424935
+       Telephone (secondary)  : (55)(21) 21424929
+       Fax                    : 
+       E-mail                 : rodrigo.quirino@ibge.gov.br
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Brazilian Institute of Geography and Statistics
+     Preferred Abbreviation   : IBGE
+     Mailing Address          : Av. Brasil, 15671, parada de Lucas
+                              : Rio de Janeiro
+                              : Brazil
+     Primary Contact
+       Contact Name           : Sonia Costa
+       Telephone (primary)    : 55 21 21424929
+       Telephone (secondary)  : 55 21 21424935
+       Fax                    : 
+       E-mail                 : smcosta_2000@yahoo.com
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : JPL
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+     (insert text graphic from file antenna.gra)
+
+TRM29659.00
+TRM59800.00
+TRM59800.80
+TRM59900.00
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+
+
+
+TRM55971.00
+TRM57971.00
+RNG80971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----+-----/                        <--  0.0000  BAM=ARP
+
+  <--                    0.3396                   -->                  Notches
+
+
+TRM29659.00
+TRM59800.00
+TRM59800.80
+TRM59900.00
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+<--                      0.3810                     -->
+

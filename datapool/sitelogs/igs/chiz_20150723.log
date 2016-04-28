@@ -1,0 +1,328 @@
+     CHIZ Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Etienne POIRIER
+     Date Prepared            : 2015-07-23
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : chiz_20030326.log
+      Modified/Added Sections : 0, 3.1, 3.2, 11, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : CHIZE
+     Four Character ID        : CHIZ
+     Monument Inscription     : None
+     IERS DOMES Number        : 10020M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : 1 m
+       Monument Foundation    : CONCRETE ROOF, BUNKER WORLD WAR II
+       Foundation Depth       : (m)
+     Marker Description       : BRASS NAIL
+     Date Installed           : 2000-10-19T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 11-50 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Chize
+     State or Province        : Deux-Sevres
+     Country                  : France
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4427603.3211
+       Y coordinate (m)       : -31506.1354
+       Z coordinate (m)       : 4575621.7422
+       Latitude (N is +)      : +460800.46
+       Longitude (E is +)     : -0002427.73
+       Elevation (m,ellips.)  :   113.2
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP019992811
+     Firmware Version         : CC00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2000-10-19
+     Date Removed             : 2015-04-23T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : LEICA GR25
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 1831235
+     Firmware Version         : 3.11.1639
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-04-30T11:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945B_M    NONE
+     Serial Number            : CR519993102
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   1.0640
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2000-10-19T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2000-10-19/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SEISMOMETER STS-2
+       Status                 : PERMANENT
+       Effective Dates        : 2000-10-19/CCYY-MM-DD
+       Notes                  : Station integrated in the French RENASS
+                              : monitoring network.
+                              : http://renass.u-strasbg.fr/
+
+7.2  Instrumentation Type     : GRAVIMETER
+       Status                 : MOBILE
+       Effective Dates        : 2000-10-19/CCYY-MM-DD
+       Notes                  : Relative gravimeter Scintrex CG3-M
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Centre Littoral de Geophysique
+                              : Universite de la Rochelle
+     Preferred Abbreviation   : CLDG
+     Mailing Address          : Avenue Michel Crepeau
+                              : 17042 La Rochelle, Cedex 1 (FRANCE)
+     Primary Contact
+       Contact Name           : Guy WOPPELMANN
+       Telephone (primary)    : (33) 5 46 45 86 13
+       Telephone (secondary)  : (33) 5 46 45 82 74
+       Fax                    : (33) 5 46 45 82 49
+       E-mail                 : gwoppelm@univ-lr.fr
+     Secondary Contact
+       Contact Name           : Etienne POIRIER
+       Telephone (primary)    : (33) 5 46 45 83 94
+       Telephone (secondary)  : (33) 5 46 45 82 74
+       Fax                    : (33) 5 46 45 82 49
+       E-mail                 : etienne.poirier@univ-lr.fr
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : IGNE
+     Secondary Data Center    : BKGE
+     URL for More Information : http://lareg.ensg.ign.fr/RGP/
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+---
+L2 Phase Center =>         /    +    \                     <--- 0.1280 L2
+L1 Phase Center =>        |     +     |                    <--- 0.1100 L1
+         +----------------------------------------------+  <--- 0.1006 TCR
+         |                                              |
+         |                                              |
+         |                                              |
+         |                                              |
+       +--------------------------------------------------+ <-- 0.0376
+       +------------------+-----------+-------------------+ <-- 0.0346 BCR
+                          |           |
+                          |    +-+    |
+         +----------------+====| |====+-----------------+  <--- 0.0 BPA=ARP
+         |     aluminium       | |     plate            |
+         +-------| |-----------| |---------------| |----+
+                 | |           +-+               | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+                 | |                             | |
+     ------------| |------------+----------------| |-----  <--  -1.064
+                roof                      hemisheric bronze bolt
+
+BPA: Bottom of Preamplifier
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering

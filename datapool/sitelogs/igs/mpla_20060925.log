@@ -1,0 +1,249 @@
+
+     MPLA Site Information Form
+     International GPS Service for Geodynamics
+
+0.   Form
+
+     Prepared by (full name)  : Mariano Muller
+     Date Prepared            : 2006-09-25
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : mpla_20021029.log
+      Modified/Added Sections : 3.1,10.
+     
+1.   Site Identification of the GPS Monument
+
+     Site Name                : Mar del Plata
+     Four Character ID        : MPLA
+     Monument Inscription     :
+     IERS DOMES Number        : 41521M001
+     CDP Number               :
+     Date Installed           : 2002-06-12      
+     Geologic Characteristic  :             
+       Bedrock Type           :              
+       Bedrock Condition      :
+       Fracture Spacing       :
+       Notes                  :
+     Additional Information   : The point stands on the quay of the local
+                              : port near tide gauge mark (about 5m). The
+                              : Antenna is fixed on a metal tower of 2 m
+                              : of height in respect to the harbour ground.                                  
+
+2.   Site Location Information
+
+     City or Town             : Mar del Plata
+     State or Province        : Buenos Aires
+     Country                  : Argentina
+     Tectonic Plate           : South America
+     Approximate Position
+       X coordinate (m)       :  2700316.8323
+       Y coordinate (m)       : -4243736.7234
+       Z coordinate (m)       : -3908569.7329
+       Latitude (deg)         : -38.0356
+       Longitude (deg)        : -57.5311
+       Elevation (m)          :  20  m
+     Additional Information   :
+
+3.   GPS Receiver Information
+
+3.1  Receiver Type            : LEICA MC1000
+     Serial Number            : 10330ASY-03
+     Firmware Version         :    
+     Date Installed           : 2002-06-12     
+     Date Removed             :
+     Additional Information   :
+
+3.x  Receiver Type            : 
+     Serial Number            : 
+     Firmware Version         :
+     Date Installed           :
+     Date Removed             :
+     Additional Information   :
+
+4.   GPS Antenna Information
+
+4.1  Antenna Type             : LEIAT504 
+     Serial Number            : 10839ASY
+     Antenna Height (m)       : 0.000 m
+     Antenna Reference Point  : ARP
+     Degree Offset from North : 0
+     Antenna Radome Type      : LEIS
+     Date Installed           : 2002-06-12    
+     Date Removed             :
+     Additional Information   :
+
+4.x  Antenna Type             : 
+     Serial Number            : 
+     Antenna Height (m)       : 
+     Antenna Reference Point  : 
+     Degree Offset from North : 
+     Antenna Radome Type      : 
+     Date Installed           : 
+     Date Removed             :
+     Additional Information   :
+
+5.   Local Site Ties
+
+5.x  Monument Name            :                     
+     Site Ref CDP Number      :
+     Site Ref Domes Number    :
+     Differential Components from GPS Mark to Site Reference (ITRS)
+       dx (m)                 :  
+       dy (m)                 :  
+       dz (m)                 :  
+     Accuracy (mm)            :
+     Date Measured            :     
+     Additional Information   :                                        
+
+6.   Frequency Standard
+
+6.1  Standard Type            :          
+       Frequency              :
+       Effective Dates        :
+       Notes                  :
+
+6.x  Standard Type            :
+       Frequency              :
+       Effective Dates        :
+       Notes                  :
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     :      
+       Status                 :            
+       Effective Dates        :               
+       Notes                  :
+
+7.x  Instrumentation Type     : 
+       Status                 : 
+       Effective Dates        : 
+       Notes                  :
+
+8.   Meteorological Instrumentation
+
+8.1  Humidity Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (% rel h)     :
+       Effective Dates        :
+       Notes                  :
+
+8.2  Pressure Sensor Model    :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (mbar)        :
+       Height Diff to GPS (m) :
+       Effective Dates        :
+       Notes                  :
+
+8.3  Temperature Sensor Model :
+       Manufacturer           :
+       Data Frequency         :
+       Accuracy (deg C)       :
+       Effective Dates        :
+       Notes                  :
+
+8.4  Water Vapor Radiometer   :
+       Manufacturer           :
+       Distance to GPS (m)    :
+       Elev Diff to GPS (m)   :
+       Effective Dates        :
+       Notes                  :
+
+8.5  Other Instrumentation    :                                       
+
+9.   On-Site, Point of Contact Agency Information
+
+     Agency                   : INIDEP
+
+     Mailing Address         : Mar del Plata
+                               Prov. de Buenos Aires    
+                               Republica Argentina
+
+     Primary Contact Name     : Cabo Gustavo Cano
+       Telephone (primary)    : +54-223-486-2586 int. 302           
+       Telephone (secondary)  :                     
+       Fax                    :    
+       E-mail                 : shn@inidep.edu.ar
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    :     
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 :       
+     Additional Information   :
+
+10.  Responsible Agency (if different from 9.)
+
+     Agency                   : Facultad de Ciencias Astronomicas y Geofisicas
+     Mailing Address          : Observatorio La Plata, Paseo del Bosque S/N
+                              : c/o Universidad Nacional La Plata (UNLP)
+			      : (1900) La Plata / Argentina
+
+     Primary Contact
+       Contact Name           : María Paula Natali
+       Telephone (primary)    : +54-221-423-6593/94 int 154 
+       Telephone (secondary)  :
+       Fax                    : +54-221-423-6591
+       E-mail                 : paula@fcaglp.unlp.edu.ar
+     Secondary Contact
+       Contact Name           : Mariano Muller
+       Telephone (primary)    : +54-221-423-6593/94 int 154
+       Telephone (secondary)  :
+       Fax                    : +54-221-423-6591
+       E-mail                 : mmuller@fcaglp.unlp.edu.ar
+     Additional Information   : MPLA station was installed and mainteined in operation
+                              : in cooperation with DGFI
+
+11.  More Information
+
+     URL for More Information :
+     Hardcopy on File
+       Site Diagram           : (Y)
+	 Site Map               : (Y)       
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+     (insert text graphic)
+
+
+
+
+
+                        ANTENNA DIMENSIONS
+                        ------------------
+
+
+
+          		 LEICA AT - 504 (LEIAT504)
+
+                         -----
+                     /     +     \                        <-- 0.1282m  L2
+                    |      +      |                       <-- 0.1093m  L1
+  +-----------------+-------------+------------------+
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+
++-------------------+-------------+--------------------+                    
+                    |             |
+		    |             |
+		    |-------------| -------------------+  <-- BCR=ARP
+		    |             |
+
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+
+

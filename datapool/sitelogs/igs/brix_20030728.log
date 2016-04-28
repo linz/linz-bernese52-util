@@ -1,0 +1,368 @@
+     BRIX Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : ing. Massimo Gelmini
+     Date Prepared            : 2003-07-28
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : brix_20021201.log
+      Modified/Added Sections : 4.1,11.,13.
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : BRESCIA
+     Four Character ID        : BRIX
+     Monument Inscription     : Marker "1"
+     IERS DOMES Number        : 12762M001
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : 1.2
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : CHISELLED CROSS
+     Date Installed           : 2002-08-01 
+     Geologic Characteristic  : GRAVEL/SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Stable pillar on the roof
+                                of the Civil Engineering
+                                Department building
+
+2.   Site Location Information
+
+     City or Town             : BRESCIA
+     State or Province        : LOMBARDIA
+     Country                  : ITALY
+     Tectonic Plate           : EURASIAN PLATE
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4401985.608
+       Y coordinate (m)       : 0794627.414
+       Z coordinate (m)       : 4531684.946    
+       Latitude (N is +)      : +453353.81
+       Longitude (E is +)     : +0101357.32
+       Elevation (m,ellips.)  : 00223.1
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 32078
+     Firmware Version         : 7.32 / 3.08
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2002-08-08
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS/GLONASS/GPS+GLONASS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : Ni0002
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1010
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG213/U
+     Antenna Cable Length     : 30
+     Date Installed           : 2002-08-08
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : TRIMBLE L1/L2 DORNE MARGOLIN ELEMENT
+                                WITH CHOKERINGS (MODEL 29659.00)
+                                
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2002-08-08
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : HMP45D
+       Manufacturer           : VAISALA
+       Serial Number          : X0840052
+       Data Sampling Interval : 900
+       Accuracy (% rel h)     : +/-3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.8
+       Calibration date       : 2002-02-22
+       Effective Dates        : 2002-11-15/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : PTU200 Class A
+       Manufacturer           : VAISALA
+       Serial Number          : X0920004
+       Data Sampling Interval : 900
+       Accuracy               : +/-0.10
+       Height Diff to Ant     : -1.0
+       Calibration date       : 2002-02-27
+       Effective Dates        : 2002-11-15/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : HMP45D
+       Manufacturer           : VAISALA
+       Serial Number          : X0840052
+       Data Sampling Interval : 900
+       Accuracy               : +/-0.2
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -0.8
+       Calibration date       : 2002-02-22
+       Effective Dates        : 2002-11-15/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : ROOF
+       Effective Dates        : 2002-11-15/CCYY-MM-DD
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : University of Brescia
+                                Civil Engineering Department
+     Preferred Abbreviation   : UNIBS
+     Mailing Address          : Via Branze, 38 - 25123 BRESCIA
+     Primary Contact
+       Contact Name           : ing. Massimo Gelmini
+       Telephone (primary)    : ++39.030.3715411
+       Telephone (secondary)  : ++39.030.3715516
+       Fax                    : ++39.030.3715503
+       E-mail                 : gelmini@rilevamento.it
+     Secondary Contact
+       Contact Name           : prof. Giorgio Vassena
+       Telephone (primary)    : ++39.030.3715516
+       Telephone (secondary)  : 
+       Fax                    : ++39.030.3715503
+       E-mail                 : giorgio.vassena@unibs.it
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : Brescia GPS CORS
+     Secondary Data Center    : ASI
+     URL for More Information : http://www.rilevamento.it
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : http://www.rilevamento.it
+       Site Pictures          : http://www.rilevamento.it
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+TRM29659.00
+Trimble L1/L2 Dorne Margolin element with chokerings 
+Model 29659.00
+
+
+<--                      0.3810                      -->
+
+                       +-------+
+                     /     +     \                        <--  0.1280 L2
+                    |      +      |                       <--  0.1100 L1
+  +--------------------------------------------------+    <--  0.1020 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.0380
++-------------------+-------------+--------------------+  <--  0.0350 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000 BPA=ARP
+                           |
+                           |
+                           | 
+                           |   Antenna Height = 0.101
+                           |
+                           |
+                           |                       
+ --------------------------x-------------------------
+                         marker
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   BPA: Bottom of Preamplifier

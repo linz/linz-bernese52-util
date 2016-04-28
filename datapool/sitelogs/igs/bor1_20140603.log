@@ -1,0 +1,475 @@
+     BOR1 Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Marek Lehmann & Leszek Jaworski
+     Date Prepared            : 2014-06-03
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : bor1_20080310.log
+      Modified/Added Sections : 6.2
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : BOROWIEC
+     Four Character ID        : BOR1
+     Monument Inscription     : stable geodynamical pillar on the roof
+     IERS DOMES Number        : 12205M002
+     CDP Number               : (A4)
+     Monument Description     : PILLAR
+       Height of the Monument : (m)
+       Monument Foundation    : ROOF
+       Foundation Depth       : (m)
+     Marker Description       : BRASS SCREW
+     Date Installed           : 1994-01-01
+     Geologic Characteristic  : CLAY
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : Teisseyre
+         Distance/activity    : (multiple lines)
+     Additional Information   : point of POLREF, EPOCH-92, CERGOP, point
+                              : of geodyn. network SAGET & EXTENDED SAGET
+
+
+2.   Site Location Information
+
+     City or Town             : Borowiec
+     State or Province        : Wielkopolska
+     Country                  : Poland
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3738359
+       Y coordinate (m)       : 1148174
+       Z coordinate (m)       : 5021816
+       Latitude (N is +)      : +520600.72
+       Longitude (E is +)     : +0170400.48
+       Elevation (m,ellips.)  :   124.0
+     Additional Information   : Near KORNIK & POZNAN
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : 00196
+     Firmware Version         : 2.8
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 1994-01-10
+     Date Removed             : 1999-08-22T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- 4
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T196
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-08-27T18:00Z
+     Date Removed             : 2002-03-05T23:24Z
+     Temperature Stabiliz.    : (deg C) +/- 4
+     Additional Information   : correction of the Receiver Number Style
+                              : from S/N 196 to T-196 was made on
+                              : 31 May 2001
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T196
+     Firmware Version         : 3.2.32.11
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2002-03-06T00:00Z
+     Date Removed             : 2007-07-07T23:59Z
+     Temperature Stabiliz.    : (deg C) +/- 4
+     Additional Information   : firmware upgrade
+
+3.4  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4623116529
+     Firmware Version         : 1.1-3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2007-07-08T00:00Z
+     Date Removed             : 2008-03-06T13:00Z
+     Temperature Stabiliz.    : (deg C) +/- 2
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4623116529
+     Firmware Version         : 1.2-0  Apr 26 2007
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2008-03-06T13:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- 2
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 00271
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0621
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : AOA 7490045
+     Antenna Cable Length     : 10 m
+     Date Installed           : 1994-01-10
+     Date Removed             : 1999-05-31T18:10Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 418
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.0624
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : AOA 7490045
+     Antenna Cable Length     : 10 m
+     Date Installed           : 1999-05-31T18:40Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Model 7490582-2
+                              : correction of the Antenna Number Style
+                              : from S/N 418 to 418 was made on
+                              : 31 May 2001
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : EUREF 216
+     Tied Marker Usage        : LOCAL CONTROL, SPECIAL CAMPAIGNS
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : 12205M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 38.388
+       dy (m)                 : 112.238
+       dz (m)                 : -63.394
+     Accuracy (mm)            : 3
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1994-01-10
+     Additional Information   : campaigns
+                              : EUREF-POL'92, BSL-93, POLREF.
+
+5.2  Tied Marker Name         : BORL
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7811
+     Tied Marker DOMES Number : 12205S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -25.767
+       dy (m)                 : 72.908
+       dz (m)                 : 0.324
+     Accuracy (mm)            : 3
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1994-01-10
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1994-01-10/2001-11-28
+       Notes                  : Oscilloquartz EUDICS 302
+
+6.2  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2001-11-29/2001-12-02
+       Notes                  : (multiple lines)
+
+6.3  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2001-12-03/2007-07-07
+       Notes                  : AGILENT TECHNOLOGIES 5071 A opt 001
+
+6.4  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 2007-07-08/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HPTL.3A
+       Manufacturer           : NAVI Ltd.,Sporna 11, PL 61-709 POZNAN
+       Serial Number          : 
+       Data Sampling Interval : 1/2 hour s
+       Accuracy (% rel h)     : 3
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : -4 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-01-01/2002-12-31
+       Notes                  : (multiple lines)
+
+8.1.2  Humidity Sensor Model  : HPTL.3A
+       Manufacturer           : NAVI Ltd.,Promienista 5/1, PL 60-288 POZNAN
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy (% rel h)     : 3
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2007-07-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : HPTL.3A
+       Manufacturer           : NAVI Ltd.,Sporna 11, PL 61-709 POZNAN
+       Serial Number          : 
+       Data Sampling Interval : 1/2 hour s
+       Accuracy               : 0.25 hPa
+       Height Diff to Ant     : -4 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-01-01/2002-12-31
+       Notes                  : (multiple lines)
+
+8.2.2  Pressure Sensor Model  : SKPS 800/I
+       Manufacturer           : Skye Instruments Ltd.
+       Serial Number          : 31052
+       Data Sampling Interval : 600 s
+       Accuracy               : 0.25 hPa
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2007-07-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HPTL.3A
+       Manufacturer           : NAVI Ltd.,Sporna 11, PL 61-709 POZNAN
+       Serial Number          : 
+       Data Sampling Interval : 1/2 hour s
+       Accuracy               : 5% in full temperature range deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : -4 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-01-01/2002-12-31
+       Notes                  : (multiple lines)
+
+8.3.2  Temp. Sensor Model     : HPTL.3A
+       Manufacturer           : NAVI Ltd.,Promienista 5/1, PL 60-288 POZNAN
+       Serial Number          : 
+       Data Sampling Interval : 600 s
+       Accuracy               : 5% in full temperature range deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2007-07-01/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : Raingauge
+                              : ARG 10/STD
+                              : Manufacturer -> Skye Instruments Ltd
+                              : Serial Number -> 61834
+                              : Distance to Antenna -> 12
+                              : Height Diff to Ant -> 7
+                              : Effective Dates -> 2007-07-01/CCYY-MM-DD
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1  Radio Interferences    : CELL PHONE RELAY, RADAR
+       Observed Degradations  : SN RATIO/DATA GAPS
+       Effective Dates        : 1998-02-01/1999-05-31
+       Additional Information : more details: Fraczyk P. et al. in
+                              : Artificial Satellites, Vol.33, No2 1998,
+                              : pp.109-115.
+                              : reduced by the new antenna replacing
+                              : (see 4.2)
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Space Research Centre of the PAS
+     Preferred Abbreviation   : SRC PAS
+     Mailing Address          : Astrogeodynamical Observatory
+                              : Poland, PL 62-035 Kornik, Borowiec
+     Primary Contact
+       Contact Name           : Dr. Marek Lehmann
+       Telephone (primary)    : (+48 61) 8170187
+       Telephone (secondary)  : 
+       Fax                    : (+48 61) 8170219
+       E-mail                 : m.lehmann@cbk.poznan.pl
+     Secondary Contact
+       Contact Name           : M.Sc. Leszek Jaworski
+       Telephone (primary)    : (+48 22) 8403766 ext. 419
+       Telephone (secondary)  : 
+       Fax                    : (+48 22) 8403131
+       E-mail                 : leszek@cbk.waw.pl
+     Additional Information   : Mailing address of secondary contact
+                              : Department of Planetary Geodesy
+                              : ul. Bartycka 18A, PL 00-716 Warszawa
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : OLG
+     Secondary Data Center    : BKGI
+     URL for More Information : http://www.cbk.poznan.pl/~bor1
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : X
+       Monument Description   : X
+       Site Pictures          : X
+     Additional Information   : X
+     Antenna Graphics with Dimensions
+
+DORNE MARGOLIN T
+
+                         -----
+                     /     +     \                        <-- 0.128 L2
+                    |      +      |                       <-- 0.110 L1
+  +--------------------------------------------------+    <-- 0.102 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035 BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <-- 0.000 ARP
+
+<--                      0.381                       -->
+
+ARP: Antenna Reference Point

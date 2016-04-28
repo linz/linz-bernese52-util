@@ -1,0 +1,444 @@
+     CONT Site Information Form (site log)
+     International GPS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Armin Boer
+                              : Rudi Stoeger
+     Date Prepared            : 2010-02-15
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : cont_20060627.log
+      Modified/Added Sections : 7.5, 7.6, 7.7, 7.8, 11, 12
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Concepcion - TIGO
+     Four Character ID        : CONT
+     Monument Inscription     : 
+     IERS DOMES Number        : 41719M004
+     CDP Number               :
+     Monument Description     : CONCRETE PILLAR
+       Height of the Monument : 4.2
+       Monument Foundation    : CONCRETE BLOCK
+
+       Foundation Depth       : 3.0
+     Marker Description       : 5/8" THREAD
+     Date Installed           : 2005-08-16T13:00Z
+     Geologic Characteristic  : CLAY
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : This site is located in about 
+                              : 20km distance to the pacific ocean 
+                              : and about 150km to the nearest 
+                              : vulcanoes of the Andes.
+
+
+2.   Site Location Information
+
+     City or Town             : Concepcion
+     State or Province        : VIII Region
+     Country                  : Chile
+     Tectonic Plate           : South-American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1492070.5609
+       Y coordinate (m)       : -4887972.6300
+       Z coordinate (m)       : -3803568.6023
+       Latitude (N is +)      : -365034.18
+       Longitude (E is +)     : -0730130.03
+       Elevation (m,ellips.)  : 00200.027
+     Additional Information   : The site is at the TIGO observatory at the
+                              : campus of the Universidad de Concepcion.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : SEPT POLARX2
+     Satellite System         : GPS
+     Serial Number            : 1377
+     Firmware Version         : 2.6.0
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2005-08-17T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : The receiver is installed in a 40ft 
+                              : container with air condition.
+                              : The receiver is feeded by an external
+                              : 10 MHz frequency reference from 
+                              : H-maser
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936E      SNOW
+     Serial Number            : CR16008
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0000.0311
+     Marker->ARP North Ecc(m) : 0000.0000
+     Marker->ARP East Ecc(m)  : 0000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     :
+     Antenna Cable Type       : RG-8
+     Antenna Cable Length     : 20.5
+     Date Installed           : 2005-08-16T15:30Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : T100
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7640
+     Tied Marker DOMES Number : 41719S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.2  Tied Marker Name         : T200
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7405
+     Tied Marker DOMES Number : 41719M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   :
+
+5.3  Tied Marker Name         : TPS E_GGD = CONZ
+     Tied Marker Usage        : GPS+GLONASS
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number : 41719M002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   :
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2005-08-17/CCYY-MM-DD
+       Notes                  :
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 2002-04-23/CCYY-MM-DD
+       Notes                  :
+
+7.2  Instrumentation Type     : SLR
+       Status                 : MOBILE
+       Effective Dates        : 2002-05-01/CCYY-MM-DD
+       Notes                  :
+
+7.3  Instrumentation Type     : PRARE
+       Status                 : PERMANENT
+       Effective Dates        : 2002-06-15/CCYY-MM-DD
+       Notes                  :
+
+7.4  Instrumentation Type     : JPS LEGACY GPS+GLONASS CONZ
+       Status                 : PERMANENT
+       Effective Dates        : 2002-05-16/2006-06-22
+       Notes                  : Four character ID CONZ
+
+7.5  Instrumentation Type     : TPS E_GGD GPS+GLONASS CONZ
+       Status                 : PERMANENT
+       Effective Dates        : 2006-06-22/2009-04-30
+       Notes                  : Four character ID CONZ
+
+7.6  Instrumentation Type     : LEICA GRX1200GGPRO GPS+GLONASS CONZ
+       Status                 : PERMANENT
+       Effective Dates        : 2009-04-30/CCYY-MM-DD
+       Notes                  : Four character ID CONZ
+
+7.7  Instrumentation Type     : Supra Conducting Gravitymeter
+       Status                 : PERMANENT
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  :
+
+7.8  Instrumentation Type     : Broadband Seismometer
+       Status                 : PERMANENT
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  :
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1 Humidity Sensor Model   : 809
+       Manufacturer           : Lamprecht
+       Serial Number          : 
+       Data Sampling Interval : 60)
+       Accuracy (% rel h)     : 2.5
+       Aspiration             : PERNIX
+       Height Diff to Ant     : - 0.7
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-04-01/CCYY-MM-DD
+       Notes                  : The humidity sensor is 0.7 m
+                              : above the antenna.
+                              : The horizontal distance to 
+                              : the antenna is 7 m.
+
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 740-16B DIGIQUARTZ
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          :
+       Data Sampling Interval : 60
+       Accuracy               : 0.1
+       Height Diff to Ant     : 3.5
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-04-01/CCYY-MM-DD
+       Notes                  : The pressure sensor is 3.5 m
+                              : below the antenna.
+                              : The horizontal distance to
+                              : the antenna is 2.5 m.
+
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 809
+       Manufacturer           : Lamprecht
+       Serial Number          :
+       Data Sampling Interval : 60 (sec)
+       Accuracy               : 0.3 (deg C)
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : - 0.7
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2002-04-01/CCYY-MM-DD
+       Notes                  : The temperature sensor is
+                              : 0.7 m above the antenna.
+                              : The horizontal distance to
+                              : the antenna is 7 m.
+
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : Passive Microwave Radiometer
+       Manufacturer           : CAPTEC GmbH Zurich
+       Serial Number          : CTWT129703
+       Distance to Antenna    : 4
+       Height Diff to Ant     : 0.3
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-03-01/CCYY-MM-DD
+       Notes                  : The Microwave Radiometer is
+                              : 0.3 m below the antenna.
+
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Universidad de Concepcion
+     Preferred Abbreviation   : UdeC
+     Mailing Address          : Universidad de Concepcion
+                              : Proyecto TIGO
+                              : Casilla 4036, Correo 3
+                              : Concepcion
+                              : Chile
+     Primary Contact
+       Contact Name           : Armin Boer
+       Telephone (primary)    : ++56-41-2207034
+       Telephone (secondary)  : ++56-41-2207053
+       Fax                    : ++56-41-2207031
+       E-mail                 : gps@tigo.cl, armin.boer@tigo.cl
+     Secondary Contact
+       Contact Name           : Hayo Hase
+       Telephone (primary)    : ++56-41-2207032
+       Telephone (secondary)  : ++56-41-2207051
+       Fax                    : ++56-41-2207031
+       E-mail                 : hayo.hase@tigo.cl
+     Additional Information   :
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Bundesamt fuer Kartographie und Geodaesie
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie und Geodaesie
+                              : Geodetical Observatory Wettzell
+                              : Sackenrieder Strasse 25
+                              : D-93444 Bad Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Reiner Dassing
+       Telephone (primary)    : ++49-9941-603112
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : reiner.dassing@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Additional Information   :
+
+
+13.  More Information
+
+     Primary Data Center      : BKGI
+     Secondary Data Center    : TIGO
+     URL for More Information : www.bkg.bund.de, www.tigo.cl
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH700936E
+
+
+                        +---------+
+                       /     +     \                        <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1008 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0378
+  +-------------------+-------------+--------------------+  <--  0.0348 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 BPA=ARP
+
+  <--                      0.3794                      -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+All dimensions are in meters.

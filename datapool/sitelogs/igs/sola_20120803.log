@@ -1,0 +1,343 @@
+     SOLA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : David Maggert
+     Date Prepared            : 2012-08-03
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : sola_20110826.log
+      Modified/Added Sections : 3.2, 3.2
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Solar Village
+     Four Character ID        : SOLA
+     Monument Inscription     : 
+     IERS DOMES Number        : 20101M001
+     CDP Number               : 
+     Monument Description     : CONCRETE PILLAR
+       Height of the Monument : 4
+       Monument Foundation    : sandstone bedrock
+       Foundation Depth       : 4
+     Marker Description       : SCIGN MOUNT
+     Date Installed           : 2004-02-24T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Solar Village
+     State or Province        : 
+     Country                  : Saudi Arabia
+     Tectonic Plate           : ARABIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3992082.0138
+       Y coordinate (m)       : 4192182.2188
+       Z coordinate (m)       : 2670423.8358
+       Latitude (N is +)      : +245438.4344
+       Longitude (E is +)     : +0462402.0425
+       Elevation (m,ellips.)  : 760.1393
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC120031621
+     Firmware Version         : CN04
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2004-02-24T00:00Z
+     Date Removed             : 2010-02-21T09:55Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4646125533
+     Firmware Version         : 1.1-3
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2010-02-21T09:55Z
+     Date Removed             : 2012-08-02T00:39Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4646125533
+     Firmware Version         : 1.3-1
+     Elevation Cutoff Setting : 0
+     Date Installed           : 2012-08-02T00:39Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945E_M    NONE
+     Serial Number            : CR620024212
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Times Microwave LMR-400
+     Antenna Cable Length     : 35
+     Date Installed           : 2004-02-24T00:00Z
+     Date Removed             : 2004-05-18T12:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : ASH701945E_M    SCIS
+     Serial Number            : CR620024212
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0083
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : Times Microwave LMR-400
+     Antenna Cable Length     : 35
+     Date Installed           : 2004-05-18T12:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : New antenna section entry reflects the
+                              : addition of a SCIGN short antenna dome.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2004-02-24/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 2004-02-24/CCYY-MM-DD
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD) 
+       Additional Information : (multiple lines)
+
+9.2.1  Multipath Sources      : METAL ROOF
+       Effective Dates        : 2004-02-24/CCYY-MM-DD 
+     Additional Information   : Metal trailer, 13 m to West.
+
+9.2.2  Multipath Sources      : SLR DOME
+       Effective Dates        : 2004-02-24/CCYY-MM-DD 
+     Additional Information   : SLR dome, 25 m to SW.
+
+9.2.3  Multipath Sources      : Cinderblock building
+       Effective Dates        : 2004-02-24/CCYY-MM-DD 
+     Additional Information   : 13 m to South.
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : King Abdullah City for Science and Technology
+     Preferred Abbreviation   : KACST
+     Mailing Address          : Astronomy & Geophysics Research Institute
+                              : Building 17, Laboratory
+                              : Riyadh
+                              : Saudi Arabia
+     Primary Contact
+       Contact Name           : Dr. Abdullah Arrajehi
+       Telephone (primary)    : 966-5-410-1998
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : arrajehi@hotmail.com
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Massachusetts Institute of Tech
+     Preferred Abbreviation   : MIT
+     Mailing Address          : ERL/MIT E34-406
+                              : 42 Carleton St.
+                              : Cambridge, MA 02142-1324
+     Primary Contact
+       Contact Name           : Robert Reilinger
+       Telephone (primary)    : (617) 253-7860
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : reilinge@erl.mit.edu
+     Secondary Contact
+       Contact Name           : UNAVCO
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 303-381-7451
+       E-mail                 : archive@unavco.org
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : UNAVCO
+     Secondary Data Center    : CDDIS (GDC-Global Data Center)
+     URL for More Information : http://www.unavco.org
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+ASH701945E_M
+
+                         +-------+
+                       /     +     \                        <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                    <-- 0.0000 BPA=ARP
+
+  <--                      0.3794                      -->
+
+
+

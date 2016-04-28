@@ -1,0 +1,370 @@
+     RAYL Site Information Form
+     French GPS permanent network (RGP)
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Equipe RGP
+     Date Prepared            : 2015-06-26
+     Report Type              : UPDATED
+     If Update:
+      Previous Site Log       : rayl_20131108.log
+      Modified/Added Sections : 3.7
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Rayol-Canadel-sur-Mer
+     Four Character ID        : RAYL
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 19827M001
+     CDP Number               : NONE
+     Monument Description     : INOX TRIANGULAR PLATE ON TOP OF AN INOX MAST
+       Height of the Monument : 
+       Monument Foundation    : CONCRETE WALL
+       Foundation Depth       : 
+     Marker Description       : TOP AND CENTRE OF THE INOX TRIANGULAR PLATE
+     Date Installed           : 2008-07-09T00:00Z
+     Geologic Characteristic  :
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : (multiple lines)
+
+2.   Site Location Information
+
+     City or Town             : Cavalaire
+     State or Province        : Var (83)
+     Country                  : France
+     Tectonic Plate           : Eurasia
+     Approximate Position (ITRF)
+       X coordinate (m)       :  4630120
+       Y coordinate (m)       :   527034
+       Z coordinate (m)       :  4340756
+       Latitude (N is +)      :  +430937.85
+       Longitude (E is +)     : +0062937.94
+       Elevation (m,ellips.)  :      336
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR2200539029
+     Firmware Version         : CN00-1A01
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2008-07-09T00:00Z
+     Date Removed             : 2009-08-12T12:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 401-02097
+     Firmware Version         : 3.3
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2009-08-12T12:00Z
+     Date Removed             : 2011-10-27T10:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-00715
+     Firmware Version         : 3.5
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2011-10-27T12:00Z
+     Date Removed             : 2011-12-15T15:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-00722
+     Firmware Version         : 3.4
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2011-12-15T16:00Z
+     Date Removed             : 2013-03-29T15:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.5  Receiver Type            : TPS NETG3
+     Satellite System         : GPS+GLO
+     Serial Number            : 618-00420
+     Firmware Version         : 4.0
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2013-03-29T15:00Z
+     Date Removed             : 2013-11-08T08:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : ASHTECH PF800
+     Satellite System         : GPS+GLO
+     Serial Number            : 201221049
+     Firmware Version         : S759Kx24
+     Elevation Cutoff Setting : 5.0
+     Date Installed           : 2013-11-08T10:00Z
+     Date Removed             : 2015-06-22T10:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : Trimble NetR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5223K85837
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 5.0
+     Date Installed           : 2015-06-22T10:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : NONE
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945E_M    SNOW
+     Serial Number            : CR5200530044
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2008-07-09T00:00Z
+     Date Removed             : 2009-08-12T12:00Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : TPSCR.G3        TPSH
+     Serial Number            : 383-0715
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : TOPCON
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2009-08-12T12:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)	 
+	 
+4.x  Antenna Type             : (A20 from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : (if external)
+       Effective Dates        : 2004-08-27T00:00Z
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x Other Instrumentation   : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDING/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DDThh:mmZ)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Exagone
+     Preferred Abbreviation   : Exagone
+     Mailing Address          : 5, Bd du Marechal Joffre
+                              : 
+                              : 92340 Bourg-la-Reine - FRANCE
+     Primary Contact
+       Contact Name           : Paul Chambon
+       Telephone (primary)    : 00 33 (0)1 71 16 21 71
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 71 16 21 74 
+       E-mail                 : paul.chambon@reseau-teria.com
+     Secondary Contact
+       Contact Name           : Service technique
+       Telephone (primary)    : 00 33 (0)1 71 16 21 70
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 71 16 21 74 
+       E-mail                 : contact@reseau-teria.com
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Institut Geographique National
+     Preferred Abbreviation   : IGN-SGN
+     Mailing Address          : 2 Avenue Pasteur
+                              : 94165 Saint-Mandé CEDEX France
+     Primary Contact
+       Contact Name           : RGP Team
+       Telephone (primary)    : 00 33 (0)1 43 98 83 39
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 43 98 84 50
+       E-mail                 : rgpadmin@ign.fr
+     Secondary Contact
+       Contact Name           : Jean-Yves Leblain
+       Telephone (primary)    : 00 33 (0)1 43 98 80 00 p7519
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 43 98 84 50
+       E-mail                 : jean-yves.leblain@ign.fr
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : IGN / Saint-Mandé
+     Secondary Data Center    : IGN / Marne la Vallée
+     URL for More Information : http://rgp.ign.fr/
+     Hardcopy on File
+       Site Map               : http://rgp.ign.fr
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+TPSCR.G3        TPSH
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1015  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+
+
+   ARP: Antenna Reference Point           BA : Bottom of Antenna
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+

@@ -1,0 +1,145 @@
+**********************************
+     SITE INFORMATION FORM
+**********************************
+
+
+ 0. Form
+
+         Prepared by            : C.Garcia
+         Date                   : 02/06/93
+         Report type            : NEW
+           (NEW or UPDATE)
+
+ 1. Site Identification of the GPS monument
+
+         Site Name              : Maspalomas
+         4 char ID              : MASP
+         Monument Inscription   : None
+         IERS DOMES Number      : 31303M001
+         CDP Number             : None
+         Date                   : 22/06/92
+         Additional information : Mark at the center of a horizontal
+                                  metal plate embedded on the concrete
+                                  monument.
+
+ 2. Site Location
+
+         City                   : Maspalomas
+         Country                : Spain
+         Tectonic Plate         : North African
+         Additional information : None
+
+ 3. GPS Receiver
+
+         Type                   : ROGUE SNR-8C
+         Serial Number          : 303
+         Firmware Version       : MEENIX 7.3 / RUSE 4.2
+         Date                   : 22/06/92
+
+ 4. GPS Antenna
+
+         Type                   : DORNE MARGOLIN B
+         Serial Number          : 124
+         Date                   : 22/06/92
+
+         Vertical Antenna Height: 0.122
+         Antenna Reference Point: BCR
+         Date                   : 22/06/92
+
+    The antenna height is measured from the GPS monument to the antenna
+    reference point (ARP) as it has been defined in the graphics (item 10).
+
+ 5. Local Site Ties
+
+Monument             CDP    DOMES              Components        Accuracy  Date
+Inscription          Number Number       dX        dY        dZ     mm yy-mm-dd
+
+.................... ....  ......... ......... ......... .........  .. ........
+.................... ....  ......... ......... ......... .........  .. ........
+
+    Differential coordinates from the GPS monument to the reference and other
+    monuments. The components are parallel to the XYZ-axes of the global
+    geocentric reference system ITRF (WGS-84).
+
+    "Accuracy" is estimated accuracy of local survey (millimeters).
+
+ 6. Frequency standard
+
+         H-maser /   /   Cesium / X /    Quartz /   /     Internal /   /
+         Other (specify)        : None
+         Date                   : 22/06/92
+
+         (Mark with 'X')
+
+ 7. Collocation
+
+         SLR    /   /    VLBI  /   /     DORIS  /   /     PRARE    /   /
+
+         Other GEOPHYSICAL Instrumentation (specify)        : None
+
+         Other (specify)        : None
+
+         (Mark with 'P' for permanent, 'M' for mobile collocation)
+
+ 8. On-site Agency Information
+
+         Agency                 : INTA / Estacion Espacial de Maspalomas
+         Contact                : At ESOC
+         Address                : Estacion Espacial de Maspalomas
+                                  PO Box no.29
+                                  35100 Maspalomas
+                                  Gran Canaria
+                                  Spain
+         Telephone              : 34-28-72-7141
+                                        76-6190
+         E-mail                 :
+         Fax                    : 34-28-72-7124
+
+ 9. Responsible Operations Agency
+    (if different from item 8)
+
+         Agency                 : ESA / ESOC
+         Contact                : J.Dow
+         Address                : Robert-Bosch-Strasse 5
+                                  D-6100
+                                  Darmstadt
+                                  Germany
+         Telephone              : 49-6151-902272
+         E-mail                 : JDOW@ESOC.BITNET
+         Fax                    : 49-6151-90495
+
+ 10. Please insert here the character graphics corresponding to the antenna
+     type. Check, complete or change if necessary the antenna dimensions.
+
+     Rogue:  DORNE MARGOLIN B  (Allen Osborne Design)
+
+                          -----
+                      /     +     \                        <--  0.096  L2
+                     |      +      |                       <--  0.078  L1
+   +-----------------+-------------+------------------+    <--  0.070  TCR
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   +-----------------+------x------+------------------+    <--  0.000  ARP
+                     |             |
+                     +-------------+                       <-- -0.011
+                           ||  ||
+
+   <--                    0.351                     -->
+
+
+
+ 11. Hard copy information
+
+     The next items should be compiled and sent to the Central Bureau (see
+     original IGS Station Information Report).
+
+     Please mark 'X' if on file or date expected to be available.
+
+         Site Map               : X
+         Site Diagram           : X
+         Horizon Mask           : X
+         Monument description   : X
+         Site pictures          : X

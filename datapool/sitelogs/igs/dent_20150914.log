@@ -1,0 +1,488 @@
+     DENT Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : Carine Bruyninx
+     Date Prepared            : 2015-09-14
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : dent_20140821.log
+      Modified/Added Sections : 0, 3.10, 3.11, 4.4, 4.5, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Dentergem
+     Four Character ID        : DENT
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 13112M001
+     CDP Number               : (A4)
+     Monument Description     : STEEL MAST
+       Height of the Monument : 6 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 2 m
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1994-01-06
+     Geologic Characteristic  : SAND
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 0 cm
+       Fault zones nearby     : NO
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+
+
+2.   Site Location Information
+
+     City or Town             : Dentergem
+     State or Province        : West-Vlaanderen
+     Country                  : Belgium
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4020711.60
+       Y coordinate (m)       : 238850.99
+       Z coordinate (m)       : 4928949.57
+       Latitude (N is +)      : +505601.32
+       Longitude (E is +)     : +0032358.92
+       Elevation (m,ellips.)  :    63.9
+     Additional Information   : (multiple lines)
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T-238
+     Firmware Version         : 2.8
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1994-01-06
+     Date Removed             : 1996-05-31
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T-237
+     Firmware Version         : 3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1996-06-01
+     Date Removed             : 1999-07-07
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T-237
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-07-07
+     Date Removed             : 2002-03-07T11:30Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UX219994206
+     Firmware Version         : UG00-OA13
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-03-07T12:30Z
+     Date Removed             : 2003-09-05T08:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : 2003-03-18T08:11Z Deactivation of smoothing
+                              : in conversion from raw data to RINEX
+                              : (XYZAshRx program) on request of IGS CB
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UX219992013
+     Firmware Version         : ZC00-OA12
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-09-05T09:00Z
+     Date Removed             : 2008-03-06T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR220013841
+     Firmware Version         : CQ00-1A01
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-03-06T11:00Z
+     Date Removed             : 2008-10-16T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.7  Receiver Type            : SEPT POLARX2E
+     Satellite System         : GPS
+     Serial Number            : 3482
+     Firmware Version         : 3.2.0-patch1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-10-16T11:00Z
+     Date Removed             : 2009-02-05
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.8  Receiver Type            : SEPT POLARX2E
+     Satellite System         : GPS
+     Serial Number            : 3482
+     Firmware Version         : 3.2.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-02-05
+     Date Removed             : 2009-03-11T07:10Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.9  Receiver Type            : SEPT POLARX2E
+     Satellite System         : GPS
+     Serial Number            : 3482
+     Firmware Version         : 3.2-devtst
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-03-11T07:10Z
+     Date Removed             : 2014-08-20T09:00Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.10 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 3001332
+     Firmware Version         : 2.5-tst140430r40977
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-08-20T10:00Z
+     Date Removed             : 2015-09-11T12:25Z
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.11 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 3001332
+     Firmware Version         : 2.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-11T12:25Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- (deg C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 292
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.7540
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RGB233
+     Antenna Cable Length     : 23 m
+     Date Installed           : 1994-01-06
+     Date Removed             : 2000-01-25T14:30Z
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 327
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.7540
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RGB233
+     Antenna Cable Length     : 23 m
+     Date Installed           : 2000-01-25T14:31Z
+     Date Removed             : 2002-03-07T11:30Z
+     Additional Information   : (multiple lines)
+
+4.3  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR620015110
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.7540
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RGB233
+     Antenna Cable Length     : 23 m
+     Date Installed           : 2002-03-07T12:30Z
+     Date Removed             : 2012-01-24T11:30Z
+     Additional Information   : (multiple lines)
+
+4.4  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR620015110
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.7540
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 20 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RGB233
+     Antenna Cable Length     : 26 m
+     Date Installed           : 2012-01-24T11:30Z
+     Date Removed             : 2015-09-11T11:50Z
+     Additional Information   : (multiple lines)
+
+4.5  Antenna Type             : TRM59800.00     NONE
+     Serial Number            : 5131354230
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  :   0.7650
+     Marker->ARP North Ecc(m) :   0.0000
+     Marker->ARP East Ecc(m)  :   0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RGB233
+     Antenna Cable Length     : 26 m
+     Date Installed           : 2015-09-11T11:50Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : (multiple lines)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : ECCENTRIC POINT
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : 13112M002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -1.973
+       dy (m)                 : -4.167
+       dz (m)                 : -1.979
+     Accuracy (mm)            : 01
+     Survey method            : Unknown
+     Date Measured            : 1995-02-01
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : (if external)
+       Effective Dates        : 1994-01-06/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x  Date                    : (CCYY-MM-DD/CCYY-MM-DD)
+      Event                   : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Royal Observatory of Belgium
+     Preferred Abbreviation   : ROB
+     Mailing Address          : Av. Circulaire No 3
+                              : B-1180 Brussels
+     Primary Contact
+       Contact Name           : Carine Bruyninx
+       Telephone (primary)    : 32-2-373-02-92
+       Telephone (secondary)  : 32-2-373-02-11
+       Fax                    : 32-2-374-98-22
+       E-mail                 : c.bruyninx@oma.be
+     Secondary Contact
+       Contact Name           : Dominique Mesmaker
+       Telephone (primary)    : 32-2-373-02-45
+       Telephone (secondary)  : 32-2-373-02-11
+       Fax                    : 32-2-374-98-22
+       E-mail                 : d.mesmaker@oma.be
+     Additional Information   : (multiple lines)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : (multiple lines)
+
+
+13.  More Information
+
+     Primary Data Center      : ROB
+     Secondary Data Center    : BKGE
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+ASH701945C_M
+Dorne Margolin with chokerings, Model 701945-01 REV B
+milled chokerings, watertight design
+(replaces recalled SCIGN ASH700936E_C antenna)
+                       +-------+
+                     /     +     \                        <--  0.1280 L2
+                    |      +      |                       <--  0.1100 L1
+  +-----------------+-------------+------------------+    <--  0.1006 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.0376
++-------------------+-------------+--------------------+  <--  0.0346 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0 BPA=ARP
+
+<--                      0.3890                      -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+BPA: Bottom of Preamplifier
+
+
+
+TRM59800.00
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0381
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                                       RXC=NRP
+<--                      0.3810                     -->

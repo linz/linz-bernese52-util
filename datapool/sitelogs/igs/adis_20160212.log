@@ -1,0 +1,323 @@
+
+     ADIS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Elias Lewi Teklemariam, Stefan Leinen
+     Date Prepared            : 2016-02-12
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : adis_20091202.log
+      Modified/Added Sections : 3.2
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Addis Ababa University
+     Four Character ID        : ADIS
+     Monument Inscription     : 
+     IERS DOMES Number        : 31502M001
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 2.0363 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1.98 m
+     Marker Description       : (?)
+     Date Installed           : 2007-06-30T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS (MASSIVE BASALT)
+       Bedrock Condition      : FRESH(PARTIALLY FRACTURED)
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Addis Ababa
+     State or Province        : Addis Ababa
+     Country                  : Ethiopia
+     Tectonic Plate           : AFRICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4913652.948
+       Y coordinate (m)       : 3945922.493
+       Z coordinate (m)       : 995383.145
+       Latitude (N is +)      : +090206.48241
+       Longitude (E is +)     : +0384558.68596
+       Elevation (m,ellips.)  : 2439.154
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 3247A01971
+     Firmware Version         : 7.29
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-06-29T00:00Z
+     Date Removed             : 2008-03-11T07:00Z
+     Temperature Stabiliz.    : (none)
+     Additional Information   : 
+
+3.2  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : MT300102915
+     Firmware Version         : 2.6.1 JAN,10,2008
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-03-11T07:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : Additional Number
+                              : LE2810 on the
+                              : type level
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220173805
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0010
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : +0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TRIMBLE 14551-00 REV A, DCA 9707
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-06-29T00:00Z
+     Date Removed             : 2008-03-11T07:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220173805
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0010
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : +0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG 214/U
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2008-03-11T07:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna Cable Type:  MANHATTAN ELECTRIC CABLE,
+                              : M4221,  RG 214/U, E9663241, AWM STYLE 1354
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geophysical Observatory,
+                              : Addis Ababa University, Ethiopia
+     Preferred Abbreviation   : GOAAU
+     Mailing Address          : Geophysical Observatory, Science Faculty,
+                              : Addis Ababa University, P.O.Box 1176,
+                              : Addis Ababa, ETHIOPIA
+     Primary Contact
+       Contact Name           : Elias Lewi
+       Telephone (primary)    : ++251-11-1223934
+       Telephone (secondary)  : ++251-91-1110744
+       Fax                    : 
+       E-mail                 : elias_lewi@yahoo.com
+     Secondary Contact
+       Contact Name           : Atalay Ayele
+       Telephone (primary)    : ++251-11-1223934
+       Telephone (secondary)  : ++251-91-1401332
+       Fax                    : 
+       E-mail                 : atalay@geobs.aau.edu.et
+     Additional Information   : The GPS site is run as a joint project of 
+                              : Addis Ababa University, Bundesamt fuer 
+                              : Kartographie und Geodaesie and Technische
+                              : Universitaet Darmstadt.
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : a) Bundesamt fuer Kartographie und Geodaesie,
+                              : Frankfurt am Main, Germany (BKG)
+                              : b) Institute of Physical Geodesy, Technische
+                              : Universitaet Darmstadt, Germany (IPGD)
+     Preferred Abbreviation   : BKG
+     Mailing Address          : a) Richard-Strauss-Allee 11, 60598 Frankfurt
+                              : am Main
+                              : b) Petersenstr. 13, 64287 Darmstadt
+     Primary Contact
+       Contact Name           : Georg Weber (BKG)
+       Telephone (primary)    : +49-69-6333391
+       Telephone (secondary)  : 
+       Fax                    : +49-69-6333425
+       E-mail                 : georg.weber@bkg.bund.de
+     Secondary Contact
+       Contact Name           : Matthias Becker (IPGD)
+       Telephone (primary)    : +49-6151-163109
+       Telephone (secondary)  : 
+       Fax                    : +49-6151-164512
+       E-mail                 : becker@ipg.tu-darmstadt.de
+     Additional Information   : Site is run as joint project of AAU, BKG, IPGD
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : CDDIS
+     URL for More Information : www.ipg.tu-darmstadt.de/projekte
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TRM29659.00
+
+                         -----
+                     /     +     \                        
+                    |      +      |                       
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+
+
+
