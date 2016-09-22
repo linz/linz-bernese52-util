@@ -1,0 +1,3 @@
+VAR, PTH_DTPOOL, "${D}"
+MSG, MSG_PTH_DTPOOL, "Datapool directory"
+PAN, "#   Datapool path                         > %%%%%%%%% <                        # PTH_DTPOOL"
