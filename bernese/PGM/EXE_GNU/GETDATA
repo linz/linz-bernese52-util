@@ -700,6 +700,8 @@ if( $env->param("DNLDRS_A") )
     print " Update coordinate file            : $updcrd\n";
     print " Flag for ref station coordinates  : $updflag\n";
     print " Reference station list file       : ".bernfile($refstnfile)."\n\n";
+    print "\n Refence files from ".LINZ::GNSS::RefStation::RefStationFile('CODE')."\n";
+
 
     $stnlist ||= LINZ::GNSS::DataCenter::AvailableStations();
     my %available=();
