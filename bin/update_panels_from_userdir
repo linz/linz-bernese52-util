@@ -1,0 +1,536 @@
+#!/usr/bin/perl
+#
+#  Script to copy ../OPT/xxxx/*.INP in the specified directory from the 
+#  corresponding files in the user directory, resetting parameter values 
+#  to remove runtime values.
+#
+
+use strict;
+use Getopt::Std;
+use File::Find;
+use LINZ::BERN::BernUtil;
+
+my $syntax=<<EOD;
+
+update_panels_from_userdir
+
+   Script to update panels under the specified directory with
+   corresponding values from the users OPT directory, resetting the
+   runtime values of parameters.
+
+Syntax: copy_reset_panels [-p prefix] [directory]
+
+EOD
+
+my %opts;
+getopts('hp:',\%opts);
+
+
+die $syntax if $opts{h};
+
+my $prefix=$opts{p};
+my $dir=$ARGV[0] || '.';
+
+LINZ::BERN::BernUtil::SetBerneseEnv();
+my $optdir=$ENV{U}.'/OPT';
+die "Cannot find user bernese OPT directory $optdir \n" if ! -d $optdir;
+print "Updating PANEL files from $optdir\n";
+
+
+my @panelfiles=();
+find( 
+    sub { push(@panelfiles,$File::Find::name ) 
+          if -f && 
+             /\.INP$/ && 
+             substr($_,0,length($prefix)) eq $prefix },
+          $dir );
+
+foreach my $pf (@panelfiles)
+{
+    print "Processing $pf\n";
+    my @parts=split(/[\\\/]/,$pf);
+    if( $parts[-3] ne 'OPT' )
+    {
+        print "$pf not in ../OPT/xxx/ directory\n";
+        print "Not updating\n\n";
+        next;
+    }
+    my $userpan=$optdir.'/'.$parts[-2].'/'.$parts[-1];
+    if( ! -f $userpan )
+    {
+        print "User panel file $userpan not found\n";
+        print "Not updating\n\n";
+        next;
+    }
+    open(my $usf, "<", $userpan) || die "Cannot open $userpan - quitting\n";
+    my @pandata=<$usf>;
+    close($usf);
+    my @newdata=();
+    my $i=0;
+    while( $i <= $#pandata )
+    {
+       my $l=$pandata[$i];
+       $i++;
+        
+       if($l !~ /^\s*(\w+)\s+(\d+)(?:\s+\"([^\"]*)\")?\s*$/)
+       {
+           push(@newdata,$l);
+           next;
+       }
+
+       my ($param,$count,$value)=($1,$2,$3);
+       if( $param eq 'ENVIRONMENT' )
+       {
+           $i += $count if $count > 1;
+           push(@newdata,"ENVIRONMENT     1 \"\" \"\"\n");
+           next;
+       }
+       my $ni=$i;
+       $ni += $count if $count > 1;
+       my $idef=$ni;
+       $ni++ while $pandata[$ni] =~ /^\s+\#\#/;
+       if($pandata[$ni] =~ /^\s+\#\s/ )
+       {
+           push(@newdata,"$param 0\n");
+           $i=$idef;
+       }
+       else
+       {
+           push(@newdata,$l);
+       }
+    }
+    open(my $outf,'>',$pf) || die "Cannot write to $pf - quitting\n";
+    print $outf @newdata;
+    close($outf);
+    print "$pf updated\n\n";
+}
+
+
+__END__
+
+
+
+my $params=$scandir ? scanDirectoryPanelFiles($pcf,$listmenus) : scanPcfPanelFiles($pcf);
+if( $checkpan )
+{
+    my $csvf=$ARGV[1] || $scandir ? 'param_errors.csv' : $pcf.'_errors.csv';
+    checkPanelParams( $params,compare_description=>$compdesc );
+    writeErrorsCsv($csvf,$params,compare_description=>$compdesc);
+}
+else
+{
+    my $csvf=$ARGV[1] || $scandir ? 'params.csv' : $pcf.'.csv';
+    writeParamsCsv($csvf,$params,$activeonly);
+}
+
+
+# Process the PCF file to find the list of scripts and options it uses...
+
+sub scanPcfPanelFiles
+{
+    my( $pcf ) = @_;
+
+    $pcf .= '.PCF' if $pcf !~ /\.PCF$/i;
+    $pcf = "PCF/$pcf";
+
+    $ENV{U}=$ENV{U} || '.';
+
+    my $userdir=$ENV{U};
+
+    -d "$userdir/PCF" || die "PCF directory not found, are you in a GPSUSER directory?\n";
+    -d "$userdir/SCRIPT" || die "SCRIPT directory not found, are you in a GPSUSER directory?\n";
+    -d "$userdir/OPT" || die "OPT directory not found, are you in a GPSUSER directory?\n";
+
+    my $pcff=LINZ::BERN::PcfFile->open($pcf);
+
+    my $scripts=[];
+    foreach my $pid ($pcff->pids())
+    {
+        foreach my $pgm (@{$pid->{programs}})
+        {
+            push(@$scripts,{script=>$pid->{script},opt=>$pid->{optdir},program=>$pgm});
+        }
+    }
+
+    my @params=();
+    my %pans=();
+
+    foreach my $script (@$scripts)
+    {
+        my $opt=$script->{opt};
+        my $pgm=$script->{program};
+        my $script=$script->{script};
+        my $panfile="OPT/$opt/$pgm.INP";
+        next if $pans{$panfile};
+        $pans{$panfile}=1;
+        push(@params,scanBernesePanelFile( $panfile ));
+        return @params;
+    }
+    return wantarray ? @params : \@params;
+}
+
+sub scanDirectoryPanelFiles
+{
+    my( $dir, $listmenus ) = @_;
+    $dir ||= '.';
+    my @panelfiles=();
+    find( 
+        sub { push(@panelfiles,$File::Find::name ) 
+            if -f && /\.INP$/ && ($listmenus || ! /^MENU_...\.INP$/) },
+        $dir );
+    my @param=();
+    foreach my $panfile (@panelfiles)
+    {
+        push(@param,scanBernesePanelFile($panfile));
+    }
+    return wantarray ? @param : \@param;
+}
+
+sub scanBernesePanelFile
+{
+    my ($panfile) = @_;
+    my @parts=split(/[\\\/]/,$panfile);
+    my $opt= $parts[-3] eq 'OPT' ? $parts[-2] : '';
+    my $pgm=$parts[-1];
+    $pgm=~s/\.INP$//i;
+
+    my $inpf;
+    if( ! open($inpf,"<$panfile") )
+    {
+        print "Cannot open $panfile\n";
+        next;
+    }
+    my $line='';
+    my @fparams=();
+    my %fdescr=();
+    my %prmval=();
+    my %panprm=();
+    while(1) 
+    {
+        $line = <$inpf> if ! $line;
+        last if ! $line;
+        my $l=$line;
+        $line='';
+
+        if( $l =~ /^\#+\s+BEGIN_PANEL\s+([^\#]*)\#+\s*$/ )
+        {
+            my $pcond=$1 || '1';
+            while( $l = <$inpf> )
+            {
+                last if $l =~ /^\#+\s+END_PANEL\s+\#*$/;
+                next if $l !~ /\#\s+(\w[\w\s]*)$/;
+                my $params=$1;
+                foreach my $prm (split(' ',$params))
+                {
+                    $panprm{$prm}=[] if ! exists $panprm{$prm};
+                    push(@{$panprm{$prm}},$pcond);
+                }
+            }
+            next;
+        }
+        next if $l =~ /^\s*(\#|\!|$)/;
+        next if $l =~ /^\s*DESCR_/;
+        if($l =~ /^\s*MSG_(\w+)\s+1\s+(\S.*?)\s*$/)
+        {
+            my $param=$1;
+            my $descr=$2;
+            $descr =~ s/\"//g;
+            $fdescr{$param}=$descr;
+            next;
+        };
+        if($l =~ /^\s*ENVIRONMENT\s+(\d+)\s*$/)
+        {
+            my $nenv=$1;
+            while($nenv--)
+            {
+                my $nextline=<$inpf>;
+            }
+            next;
+        }
+        next if $l !~ /^\s*(\w+)\s+(\d+)(?:\s+\"([^\"]*)\")?\s*$/;
+        my ($param,$count,$value)=($1,$2,$3);
+        if( $count > 1 )
+        {
+            $value=[];
+            while($count--)
+            {
+                $l = <$inpf>;
+                push(@$value,$1) if $l =~ /^\s*\"([^\"]*)\"\s*$/;
+            }
+            $value=join("\n",@$value);
+        }
+        $value =~ s/\"/\"\"/g;
+        my $cond='1';
+        my @prmdef=();
+        while( $line = <$inpf> )
+        {
+            if( $line =~ /^\s+\#\#/ )
+            {
+                my $defs=$';
+                foreach my $pd (split(/\;/, $defs))
+                {
+                    $pd =~ s/^\s*//;
+                    $pd =~ s/\s*$//;
+                    push(@prmdef,$pd);
+                    $cond=$1 if $pd =~ /activeif\s+\=\s+(.*)/;
+                }
+                next;
+            }
+            last if $line !~ /^\s+\#\s+(.*?)\s$/;
+            $value=$1;
+            $line='';
+            last;
+        }
+        my $prmdef=join('; ',sort(@prmdef));
+        push(@fparams,{opt=>$opt,pgm=>$pgm,param=>$param,prmdef=>$prmdef,cond=>$cond,value=>$value,file=>$panfile});
+        $prmval{$param}=$value;
+    }
+    foreach my $fp (@fparams)
+    {
+        my $param=$fp->{param};
+        $fp->{desc}=$fdescr{$param};
+        my $active=0;
+        if( exists $panprm{$param} )
+        {
+            foreach my $cond (@{$panprm{$param}})
+            {
+                $active=evalcond($cond,\%prmval);
+                last if $active;
+            }
+        }
+        $active = evalcond($fp->{cond},\%prmval) if $active;
+        $active = 0 if ! $active;
+        $fp->{active}=$active;
+
+    }
+    return wantarray ? @fparams : \@fparams;
+}
+
+sub writeParamsCsv
+{
+    my( $csvfile, $params, $activeonly ) = @_;
+
+    open(my $csv,">$csvfile") || die "Cannot create $csvfile\n";
+    print $csv "OPT,PGM,PARAM,ACTIVE,PRMDEF,VALUE,DESCRIPTION\n";
+    foreach my $fp (@$params)
+    {
+        next if $activeonly && ! $fp->{active};
+        printf $csv "%s,%s,%s,%s,\"%s\",\"%s\",\"%s\"\n",
+                $fp->{opt}, $fp->{pgm}, $fp->{param},
+                $fp->{active},
+                $fp->{prmdef},
+                $fp->{value},
+                $fp->{desc};
+    }
+    close($csv);
+    print "$pcf options written to $csvfile\n";
+}
+
+# Check that panel parameter definitions match those in the default files
+# in ../GPS/INP
+
+sub splitPrmDef
+{
+    my ($prmdef) = @_;
+    my $defs={};
+    foreach my $d (split(/\s*\;\s*/,$prmdef))
+    {
+        if( $d =~ /^\s*(\w+)\s*\=\s*(.*?)\s*$/ )
+        {
+            $defs->{$1} = $2;
+        }
+        else
+        {
+            $defs->{$d}=1;
+        }
+    }
+    return $defs;
+}
+
+sub comparePrmDef
+{
+    my ($prmdef1,$prmdef2) = @_;
+    my $defs1=splitPrmDef($prmdef1);
+    my $defs2=splitPrmDef($prmdef2);
+    foreach my $k ( keys %$defs2 )
+    {
+        $defs1->{$k} = '' if ! exists $defs1->{$k};
+    }
+    my @differences=();
+    foreach my $k (sort keys %$defs1)
+    {
+        push(@differences,$k) if $defs1->{$k} ne $defs2->{$k};
+    }
+    return wantarray ? @differences : \@differences;
+}
+
+sub checkPanelParams
+{
+    my ($params,%opts)=@_;
+    my $compdesc=$opts{compare_description};
+    my $pgms={};
+    my $pandir=$ENV{X}.'/PAN';
+    -d $pandir || die "Bernese \$X/PAN is not defined or not a directory\n";
+    foreach my $fp (@$params)
+    {
+        my $pgm=$fp->{pgm};
+        my $opt=$fp->{opt};
+        push(@{$pgms->{$pgm}->{$opt}},$fp);
+        #$pgms->{$pgm} ||= {};
+        #$pgms->{$pgm}->{opt} ||=;
+    }
+
+    foreach my $pgm (keys %$pgms)
+    {
+        my $refpan=$pandir."/$pgm.INP";
+        my $refprm={};
+        if( -e $refpan )
+        {
+            foreach my $fp (scanBernesePanelFile($refpan))
+            {
+                $refprm->{$fp->{param}}=$fp;
+            }
+        }
+        foreach my $opt (keys(%{$pgms->{$pgm}}))
+        {
+            my %gotprm=();
+            foreach my $fp (@{$pgms->{$pgm}->{$opt}})
+            {
+                my $param=$fp->{param};
+                $gotprm{$param}=1;
+                if( ! %$refprm )
+                {
+                    $fp->{error}="Reference file $refpan not defined\n";
+                }
+                elsif( ! exists $refprm->{$param} )
+                {
+                    $fp->{error}="Invalid parameter $param";
+                }
+                else
+                {
+                    my $rp=$refprm->{$param};
+                    $fp->{ref_prmdef}=$rp->{prmdef};
+                    my @unmatched=comparePrmDef($fp->{prmdef},$rp->{prmdef});
+                    $fp->{ref_desc}=$rp->{desc};
+                    if( $compdesc && ($fp->{desc} ne $rp->{desc}) )
+                    {
+                        push(@unmatched,'description');
+                    }
+                    if( @unmatched )
+                    {
+                        $fp->{error}=join(' ',@unmatched).' differ from reference';
+                    }
+                }
+            }
+            foreach my $param (keys %$refprm)
+            {
+                next if exists $gotprm{$param};
+                my $rp=$refprm->{$param};
+                push(@$params,{
+                    pgm=>$pgm,
+                    opt=>$opt,
+                    param=>$param,
+                    ref_prmdef=>$rp->{prmdef},
+                    ref_desc=>$rp->{desc},
+                    error=>"Parameter $param not defined",
+
+                });
+            }
+        }
+    }
+} 
+
+sub evalcond
+{
+    my ($cond,$prmval)=@_;
+    $cond =~ s/\s*$//;
+    $cond =~ s/^\s*//;
+    return 1 if $cond eq '1';
+    return 1 if $cond eq 'NO_CONDITION';
+    return 0 if $cond eq '';
+    my $status=0;
+    my @checks=split(' ',$cond);
+    unshift(@checks,'OR');
+    while( scalar(@checks) >= 4 )
+    {
+        my ($op,$var,$cmp,$val) = splice(@checks,0,4);
+        $op = uc($op);
+
+        if( $op eq 'AND' )
+        {
+            return $status if ! $status;
+        }
+        elsif( $op eq 'OR' )
+        {
+            return $status if $status;
+        }
+        else
+        {
+            print "Unknown logical op $op ($cond)\n";
+        }
+
+        $var=$prmval->{$var};
+        $val='' if $val eq '_';
+
+        if( $cmp eq '=' || $cmp eq '==')
+        {
+            $status = 1 if $var eq $val;
+        }
+        elsif( $cmp eq '/' || $cmp eq '/=')
+        {
+            $status = 1 if $var ne $val;
+        }
+        elsif( $cmp eq '>' )
+        {
+            $status = 1 if $var > $val;
+        }
+        elsif( $cmp eq '<' )
+        {
+            $status = 1 if $var < $val;
+        }
+        else
+        {
+            print "Unknown comparison $cmp ($cond)\n";
+        }
+    }
+    return $status;
+}
+
+sub writeErrorsCsv
+{
+    my( $csvfile, $params, %opts ) = @_;
+    my $compdesc=$opts{compare_description};
+    my $desc=$compdesc ? ',DESCRIPTION' : '';
+    my $refdesc=$compdesc ? ',REF_DESCRIPTION' : '';
+
+    open(my $csv,">$csvfile") || die "Cannot create $csvfile\n";
+    print $csv "OPT,PGM,PARAM,PRMDEF$desc,REF_PRMDEF$refdesc,ERROR\n";
+    my $nerror=0;
+    foreach my $fp (@$params)
+    {
+        next if ! $fp->{error};
+        if( $compdesc )
+        {
+            printf $csv "%s,%s,%s,\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n",
+                $fp->{opt}, $fp->{pgm}, $fp->{param},
+                $fp->{prmdef},
+                $fp->{desc},
+                $fp->{ref_prmdef},
+                $fp->{ref_desc},
+                $fp->{error},
+            ;
+        }
+        else
+        {
+            printf $csv "%s,%s,%s,\"%s\",\"%s\",\"%s\"\n",
+                $fp->{opt}, $fp->{pgm}, $fp->{param},
+                $fp->{prmdef},
+                $fp->{ref_prmdef},
+                $fp->{error},
+            ;
+        }
+        $nerror++;
+    }
+    close($csv);
+    print "$nerror errors written to $csvfile\n";
+}

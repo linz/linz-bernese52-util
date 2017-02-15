@@ -1,50 +1,41 @@
 #!/usr/bin/perl
 #
-#  Script to support the PNZATX Bernese user script. Processes all input panels used by a PCF to move the 
-#  PHASECC file (eg PCV_COD.I08) from DIR_GEN to DIR_STA.  This is to allow the PCF to use a version updated
-#  by ATX2PCV, which adds data for missing antenna/radome combinations.
+#  Script to support the PNZATX Bernese user script. Processes all input panels used 
+#  by a PCF to move the PHASECC file (eg PCV_COD.I08) from DIR_GEN to DIR_STA.  
+#  This is to allow the PCF to use a version updated by ATX2PCV, which adds 
+#  data for missing antenna/radome combinations.
 
 use strict;
+use Getopt::Std;
 use LINZ::BERN::PcfFile;
+
+my %opts;
+getopts('d:',\%opts);
 
 @ARGV==1 || die <<EOD;
 
-move_pcf_phasecc
+move_pcf_phasecc [-d dir] PNZDAILY
 
 Moves PHASECC file from DIR_GEN to DIR_STA in all panels used by a PCF to 
 support the PNZATX script.  
 
 Requires the name of a PCF as input.
 
+Operates on the user directory unless the dir is specified on the command 
+line, in which case it expects the directory to include PCF, OPT, and 
+SCRIPT or USERSCPT directories.
+
 EOD
 
 # Find the user directory
 
-my $U=$ENV{U};
+my $U=$opts{d} || $ENV{U} || $ENV{HOME}.'/BERN52/GPSUSER';
 
-if( ! $U || ! -d $U)
-{
-    if( -d 'PCF' && (-d 'SCRIPT' || -d 'USERSCPT') && -d 'OPT' )
-    {
-        print "Using current directory as GPSUSER\n";
-        $U=".";
-    }
-    else
-    {
-        my $userdir=$ENV{HOME}.'/BERN52/GPSUSER';
-        if( -d  $userdir )
-        {
-            print "Using $userdir as GPSUSER\n";
-            $U=$userdir;
-        }
-    }
-    if( ! -d $U )
-    {
-        print "Cannot find Bernese user directory\n";
-        exit();
-    }
-    $ENV{U} = $U;
-}
+die "Cannot find PCF directory in $U\n" if ! -d "$U/PCF";
+die "Cannot find OPT directory in $U/OPT\n" if ! -d "$U/OPT";
+die "Cannot find SCRIPT or USERSCPT directory in $U\n" 
+   if ! (-d "$U/SCRIPT" || -d "$U/USERSCPT");
+$ENV{U}=$U;
 
 my $refscriptdir=$ENV{X} ? "$ENV{X}/USERSCPT" : "";
 
