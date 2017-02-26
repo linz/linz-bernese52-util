@@ -1,0 +1,34 @@
+#!/usr/bin/perl
+
+my $type;
+my $types;
+my $freq;
+open(my $f,'/opt/bernese52/GPS/GEN/I08.ATX') || die "Cannot open I08.ATX\n";
+
+foreach my $l (<$f>)
+{
+   if( $l =~ /TYPE \/ SERIAL/ )
+   {
+       $type=substr($l,0,20);
+       $type=~ s/\s*$//;
+       $types->{$type}={};
+   }
+   elsif( $l =~ /START OF FREQ/ )
+   {
+       $freq=substr($l,3,3);
+   }
+   elsif( $l =~ /NORTH \/ EAST/ )
+   {
+       my $arp=(split(' ',$l))[2];
+       $types->{$type}->{$freq}=$arp;
+   }
+}
+close($f);
+
+print "ANTENNA,GPS_L1,GPS_L2,GLONASS_L1,GLONASS_L2\n";
+foreach my $ant (sort keys %$types)
+{
+    my $t=$types->{$ant};
+    print join(',',$ant,$t->{G01},$t->{G02},$t->{R01},$t->{R02});
+    print "\n";
+}
