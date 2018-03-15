@@ -76,14 +76,14 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : 30318077
-     Serial Number            : (A*, but note the first A5 is used in SINEX)
+4.1  Antenna Type             : TRM55971.00
+     Serial Number            : 30318077
      Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
      Marker->ARP Up Ecc. (m)  : (F8.4)
      Marker->ARP North Ecc(m) : (F8.4)
      Marker->ARP East Ecc(m)  : (F8.4)
      Alignment from True N    : (deg; + is clockwise/east)
-     Antenna Radome Type      : TRM55971.00
+     Antenna Radome Type      : NONE
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)

@@ -83,7 +83,7 @@
      Marker->ARP North Ecc(m) : (F8.4)
      Marker->ARP East Ecc(m)  : (F8.4)
      Alignment from True N    : (deg; + is clockwise/east)
-     Antenna Radome Type      : ANT
+     Antenna Radome Type      : NONE
      Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
