@@ -1,3 +1,20 @@
+linz-bernese52-util (1.29.0-1) xenial; urgency=medium
+
+  [ Dionne Hansen ]
+  * added a new folder for new geonet sites that are in log file text form rather than xml formatted
+  * add geosystems sitelogs
+  * added additional global survey log files
+
+  [ Chris Crook ]
+  * Adding tool to list antenna model heights in I08.ATX
+
+  [ dnhansen50 ]
+  * corrected sites
+
+  [ Chris Crook ]
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Thu, 19 Apr 2018 09:26:08 +1200
+
 linz-bernese52-util (1.28.0-1) xenial; urgency=medium
 
   * Avoid checking site logs more than once a day
