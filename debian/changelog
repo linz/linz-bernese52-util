@@ -1,3 +1,12 @@
+linz-bernese52-util (1.31.0-1) trusty; urgency=medium
+
+  [ dnhansen50 ]
+  * added list of geonet codes to do a daily mirror of site logs. DOES NOT INCLUDE: NIUM or TEST
+
+  [ Dionne Hansen ]
+
+ -- Dionne Hansen <dhansen@linz.govt.nz>  Thu, 28 Jun 2018 13:43:28 +1200
+
 linz-bernese52-util (1.30.0-1) trusty; urgency=medium
 
   [ dnhansen50 ]
