@@ -12,7 +12,7 @@ basedir={ENV:D}/sitelogs/{orgdir}
 
 # RemoteUri is the the base of the remote directory
 
-RemoteUri=ftp://garner.ucsd.edu/pub/docs
+RemoteUri=ftp://www.igs.org/pub/station
 
 RemoteUser=anonymous
 
@@ -66,7 +66,7 @@ MinTimeSinceLastRun 20h 4h
 # of days before the current date to process.  Can also include ? for any
 # character, and * for any set of characters.
 
-RemoteDir=station_logs
+RemoteDir=log
 
 # RemoteFileRe.  Remote file names are matched against this regular expression.
 # Files that match are candidates for downloading.  
