@@ -5,11 +5,8 @@ use FindBin;
 use Data::Dumper;
 use Carp;
 use LINZ::BERN::Environment;
-use LINZ::BERN::CrdFile;
 use File::Which;
 use LINZ::GNSS::Time qw/seconds_datetime seconds_yearday/;
-use LINZ::Geodetic::CoordSys;
-use LINZ::GDB;
 
 my $env = new LINZ::BERN::Environment;
 
@@ -42,6 +39,8 @@ my $year=$env->param('YR4_INFO');
 my $user=$env->param('USER');
 my $title=$env->param('TITLE');
 
+my $gdb2bernprog='gdb2berncrd';
+
 $crdout=$crdin if $crdout eq '';
 
 print " ===============================================================================\n";
@@ -56,7 +55,7 @@ print " ========================================================================
 print " \n";
 print " $title\n\n";
 
-my $gdb2crd=which('gdb2berncrd');
+my $gdb2crd=which($gdb2bernprog);
 if( ! $gdb2crd )
 {
     # $env->fail("Cannot find gdb2berncrd program");
@@ -131,11 +130,11 @@ print "\n Proxy settings:\n$proxy\n" if $proxy;
 system(@command); 
 if( $? == -1 )
 {
-    $env->fail("Failed to run sinex2crd: $!");
+    $env->fail("Failed to run $gdb2bernprog: $!");
 }
 if( $? & 127 )
 {
-    $env->warn("Error encountered running sinex2crd");
+    $env->warn("Error encountered running $gdb2bernprog");
 }
 if( ! -f $crdout || -M $crdout > 0 )
 {
