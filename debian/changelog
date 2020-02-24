@@ -1,3 +1,10 @@
+linz-bernese52-util (1.32.1-1) bionic; urgency=medium
+
+    [Chris Crook]
+    Fixing name of gdb2berncrd program
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 25 Feb 2020 11:12:14 +1300
+
 linz-bernese52-util (1.32.0-1) trusty; urgency=medium
 
   [ dnhansen50 ]
