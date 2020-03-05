@@ -1,7 +1,14 @@
+linz-bernese52-util (1.32.2-1) bionic; urgency=medium
+
+    [Chris Crook]
+    * Copying files to EXE_GNUc to support debug mode
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Fri, 6 Mar 2020 08:00:00 +1300
+
 linz-bernese52-util (1.32.1-1) bionic; urgency=medium
 
     [Chris Crook]
-    Fixing name of gdb2berncrd program
+    * Fixing name of gdb2berncrd program
 
  -- Chris Crook <ccrook@linz.govt.nz>  Tue, 25 Feb 2020 11:12:14 +1300
 

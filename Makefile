@@ -12,6 +12,8 @@ all:
 install: all
 	mkdir -p ${DESTDIR}/opt/bernese52
 	cp -r -p bernese/* ${DESTDIR}/opt/bernese52/
+	mkdir -p ${DESTDIR}/opt/bernese52/PGM/EXE_GNUc
+	cp -r -p bernese/PGM/EXE_GNU/* ${DESTDIR}/opt/bernese52/PGM/EXE_GNUc/
 	mkdir -p ${DESTDIR}/etc/bernese52
 	cp -r -p etc/* ${DESTDIR}/etc/bernese52/
 	mkdir -p ${DESTDIR}/usr/bin
