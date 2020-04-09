@@ -1,3 +1,11 @@
+linz-bernese52-util (1.33.1-1) bionic; urgency=medium
+
+    [Chris Crook]
+    * Modifying maintenance scripts to use BERNESE_GENDIR and BERNESE_DATAPOOL
+      (LINZ environment variables for docker implementation)
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Thu, 9 Apr 2020 13:00:00 +1300
+
 linz-bernese52-util (1.32.2-1) bionic; urgency=medium
 
     [Chris Crook]

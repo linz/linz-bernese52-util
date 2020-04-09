@@ -8,7 +8,7 @@
 # Organisation directory for sitelogs
 
 orgdir=igs
-basedir={ENV:D}/sitelogs/{orgdir}
+basedir={ENV:BERNESE_DATAPOOL}/sitelogs/{orgdir}
 
 # RemoteUri is the the base of the remote directory
 
