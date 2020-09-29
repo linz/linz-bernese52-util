@@ -1,0 +1,168 @@
+
+! Environment Variables
+! ---------------------
+ENVIRONMENT 1 "" ""
+  ## widget = initmenu; pointer = ENVIR_LIST
+
+! SOME KEYWORDS FOR AUTOMATIC OUTPUT
+! ----------------------------------
+CAMPAIGN 1  "${P}/PNZPP1"
+  ## widget = initmenu; pointer = ACTIVE_CAMPAIGN
+
+SESSION_TABLE 1  "${P}/PNZPP1/STA/SESSIONS.SES"
+  ## widget = initmenu; pointer = SESSION_TABLE
+
+DESCR_SESSION_TABLE 1  "Session table"
+
+YR4_INFO 1  "$Y+0"
+  ## widget = comment
+
+SES_INFO 1  "302Y"
+  ## widget = comment
+  # $S+0
+
+USR_INFO 1  "${USER}"
+  ## widget = comment
+
+
+! Title line
+! ----------
+
+TITLE 1  "Update/create station information file from site logs"
+  ## widget = lineedit
+
+MSG_TITLE 1  "Title line"
+
+! Input Station Information file
+! ----------
+
+STAIN 1 ""
+  ## widget = selwin; path = DIR_STA; ext = EXT_STA; emptyallowed = true
+
+DESCR_STAIN 1  "Input station information file"
+
+! Input Station Information file
+! ----------
+
+STAOUT 1 ""
+  ## widget = lineedit; path = DIR_STA; ext = EXT_STA; 
+
+DESCR_STAOUT 1  "Output station information file"
+
+! Bernese name option from sitelog
+
+NAMEN 1 "0" 
+  ## widget = radiobutton; group = NAMETYPE
+
+NAMEN_DESCR 1 "Use name from IGS site log"
+
+NAMEC 1 "0" 
+  ## widget = radiobutton; group = NAMETYPE
+
+NAMEC_DESCR 1 "Use code from IGS site log as name"
+
+NAMECD 1 "1" 
+  ## widget = radiobutton; group = NAMETYPE
+
+NAMECD_DESCR 1 "Use code + DOMES id from IGS site log as name"
+
+CRDTOL 1 "1000.000"
+  ## widget = lineedit; check.type = real
+
+CRDTOL_DESCR 1 "Coordinate check tolerance when comparing IGS log with coord file coordinate"
+
+! Input coordinate file
+! --------------------
+
+CRDIN 1  ""
+  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1; emptyallowed = true
+
+DESCR_CRDIN 1  "Coordinate file"
+
+! IGS log directory 
+
+IGSDIR1 1 ""
+  ## widget = lineedit
+
+DESCR_IGSDIR1 1  "Directory to search for site logs"
+
+IGSDIR2 1  ""
+  ## widget = lineedit
+
+DESCR_IGSDIR2 1  "Directory to search for site logs"
+
+
+IGSDIR3 1  ""
+  ## widget = lineedit
+
+DESCR_IGSDIR3 1  "Directory to search for site logs"
+
+IGSDIR4 1  ""
+  ## widget = lineedit
+
+DESCR_IGSDIR4 1  "Directory to search for site logs"
+
+
+IGSDIR5 1  ""
+  ## widget = lineedit
+
+DESCR_IGSDIR5 1  "Directory to search for site logs"
+
+! Program Output File
+! -------------------
+SYSODEF 1  "1"
+  ## widget = checkbox
+
+MSG_SYSODEF 1  "Program output"
+
+SYSOUT 1  ""
+  ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
+  ## activeif = SYSODEF == 0; emptyallowed = false
+  # IGS2STA
+
+DESCR_SYSOUT 1  "Program output"
+
+! Error Message File
+! ------------------
+ERRMRG 1  "0"
+  ## widget = checkbox
+
+MSG_ERRMRG 1  "Error message"
+
+SYSERR 1  ""
+  ## widget = lineedit; path = PTH_ERR; ext = EXT_ERR
+  ## activeif = ERRMRG == 0; emptyallowed = false
+  # ERROR
+
+DESCR_SYSERR 1  "Error message"
+
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# IGS2STA: UPDATE OR CREATE STA FILE FROM IGS SITE LOGS                        #
+#                                                                              #
+# TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
+#                                                                              #
+# Enter a station information file to update an existing file                  #
+# Enter a coordinate file to update/add stations from that file                #
+#                                                                              #
+# Input station information file               > %%%%%%%%%%%% <  (optional)    # STAIN
+# Input coordinate file                        > %%%%%%%%%%%% <  (optional)    # CRDIN
+#                                                                              #
+# Name from IGS site log: > % < Name  > % < Code  > % < Code + DOMES id        # NAMEN NAMEC NAMECD
+# Coordinate match tolerance                   > #########.### <               # CRDTOL
+#                                                                              #
+# IGS log directories (${D} = datapool)                                        #
+#  Dir 1: > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% < # IGSDIR1
+#  Dir 2: > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% < # IGSDIR2
+#  Dir 3: > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% < # IGSDIR3
+#  Dir 4: > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% < # IGSDIR4
+#  Dir 5: > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% < # IGSDIR5
+#                                                                              #
+# Output station information file             > %%%%%%%%%%%% <                 # STAOUT
+#                                                                              #
+# OUTPUT FILES                                                                 #
+#                                                                              #
+#   Program output          > % < use SNX2CRD.Lnn           or    > %%%%%%%% < # SYSODEF SYSOUT
+#   Error messages          > % < merged to program output  or    > %%%%%%%% < # ERRMRG SYSERR
+#                                                                              #
+# END_PANEL ####################################################################

@@ -1,3 +1,10 @@
+linz-bernese52-util (1.34.1-1) bionic; urgency=medium
+
+    [Chris Crook]
+    * Adding IGS2STA utility
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 4 Aug 2020 09:00:00 +1300
+
 linz-bernese52-util (1.33.1-1) bionic; urgency=medium
 
     [Chris Crook]

@@ -1,0 +1,119 @@
+#!/usr/bin/perl
+
+use strict;
+use FindBin;
+use Data::Dumper;
+use Carp;
+use LINZ::BERN::Environment;
+use LINZ::BERN::CrdFile;
+use File::Which;
+use LINZ::GNSS::Time qw/seconds_datetime/;
+
+my $env = new LINZ::BERN::Environment;
+my $defaultlogdir=$ENV{D}.'/sitelogs';
+
+# Script to run the sinex2crd program installed with the LINZ::BERN perl package
+
+if(0)
+{
+    print "Environment:\n";
+    print Dumper(\%ENV);
+}
+if(0)
+{
+    print "\n\nMenu parameters\n";
+    print Dumper($env->params);
+}
+
+my $stain=$env->param('STAIN',1);
+my $crdin=$env->param('CRDIN',1);
+my $staout=$env->param('STAOUT',1);
+my $crdtol=$env->param('CRDTOL',1) + 0.0;
+
+my $namen=$env->param('NAMEN',1);
+my $namec=$env->param('NAMEC',1);
+my $namecd=$env->param('NAMECD',1);
+my $date=seconds_datetime(time(),1);
+my $user=$env->param('USER');
+my $title=$env->param('TITLE');
+
+print " ===============================================================================\n";
+print " LINZ Bernese Version 5.2 Utilities\n";
+print " -------------------------------------------------------------------------------\n";
+print " Program        : IGS2STA\n";
+print " Purpose        : Extract station information from site logs\n";
+print " Date           : $date\n";
+print " User name      : $user\n";
+print " ===============================================================================\n";
+print " \n";
+print " $title\n\n";
+
+my $program='igslog_to_sta';
+my $igs2sta=which($program);
+if( ! $igs2sta )
+{
+    $env->fail("Cannot find igslog_to_sta program");
+}
+
+if( $stain ne '' && ! -f $stain )
+{
+    $env->fail("Cannot find input STA file $stain");
+}
+
+if( $crdin ne '' && ! -f $crdin )
+{
+    $env->fail("Cannot find input .CRD file $crdin");
+}
+
+if( $stain eq '' && $crdin eq '' )
+{
+    $env->fail("An input station information file or coordinate file is required")
+}
+
+if( $staout eq '' )
+{
+    $env->fail("Output station information file not defined");
+}
+
+my @dirs=();
+foreach my $i (1 .. 5 )
+{
+    my $dir=$env->param('IGSDIR'.$i,1);
+    next if ! $dir;
+    $dir =~ s/\{\w+\}/$ENV{$1}/ge;
+    $env->fail("Invalid site log directory $dir") if ! -d $dir;
+    push(@dirs,$dir);
+}
+@dirs=($defaultlogdir) if ! @dirs &&  -d $defaultlogdir;
+$env->fail("No valid site log directory defined") if ! @dirs;
+
+my $igsdirs=join(':',@dirs);
+my $nameparam=$namen ? '-n' : $namec ? '' : '-d';
+my $crdprm=$stain ? '-c' : '-C';
+
+my @command=($igs2sta,'-v');
+push( @command, '-Pm');
+push( @command, $nameparam ) if $nameparam;
+push( @command, $crdprm,$crdin) if $crdin;
+push( @command, '-a' ) if $crdin;
+push( @command, '-t', $crdtol ) if $crdtol > 0.0;
+push( @command, $igsdirs ); 
+push( @command, $stain ) if $stain;
+push( @command, $staout );
+
+# print " Running command ",join(' ',@command),"\n";
+system(@command); 
+if( $? == -1 )
+{
+    $env->fail("Failed to run $program: $!");
+}
+if( $? & 127 )
+{
+    $env->warn("Error encountered running $program");
+}
+if( ! -f $staout || -M $staout > 0 )
+{
+    $env->fail("Failed to update output .STA file $staout");
+}
+print " Station information file updated\n";
+

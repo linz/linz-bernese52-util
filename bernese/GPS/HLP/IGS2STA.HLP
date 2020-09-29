@@ -1,0 +1,105 @@
+<html>
+
+<body>
+    <center>
+        <b>CREATE OR UPDATE A STATION INFORMATION FILE FROM IGS LOG FILES</b>
+        <p>Program: IGS2STA</p>
+    </center>
+
+    <hr width="100%">
+    <p><b>GENERAL DESCRIPTION</b></p>
+    <p>
+        The IGS2SA program extracts coordinates from a SINEX file to update an
+        existing .CRD file, or create a new one. New stations and updated stations
+        can be flagged. The program can skip stations where the coordinate difference
+        between the existing and new coordinate is greater than a tolerance.
+    </p>
+
+    <p><b>SNX2CRD: UPDATE OR CREATE STATION INFORMATION FILE FROM SINEX COORDINATES</b></p>
+
+    <a name="TITLE" default="Test"></a>
+    <p><b>Title</b>
+        The title to be used on program output.
+    </p>
+
+    <a name="STAIN" default=""></a>
+    <p><b>Input station information file</b>
+        The name of the input station information file to be updated. If this is not defined
+        then an input coordinate file must be specified and a new station information file
+        will be created.
+    </p>
+
+    <a name="CRDIN" default=""></a>
+    <p><b>Input coordinate file</b>
+        The name of the coordinate file containing the stations to include in the updated file.
+        These stations will be added to what is already in the file.
+    </p>
+
+    <a name="NAMEN" default="0"></a>
+    <a name="NAMEC" default="0"></a>
+    <a name="NAMECD" default="0"></a>
+    <p><b>Name from IGS site log</b>
+        Defines how the bernese station name is derived from the IGS site log. It can be
+        taken from the IGS site log name, the IGS site log code, or the IGS site log code with
+        the DOMES id appended if one is defined.
+    </p>
+
+    <a name="CRDTOL" default="1000.000"></a>
+    <p><b>Coordinate match tolerance</b>
+        If a coordinate file is defined then the program will check that the coordinates from
+        the site log approximately match those from the bernese coordinate file. This setting
+        defines the tolerance with which these coordinates must match for the site log to be
+        used.
+    </p>
+
+    <a name="IGSDIR1" default=""></a>
+    <a name="IGSDIR2" default=""></a>
+    <a name="IGSDIR3" default=""></a>
+    <a name="IGSDIR4" default=""></a>
+    <a name="IGSDIR5" default=""></a>
+    <p><b>IGS log directories</b>
+        Lists up to 5 directories which will be searched for matching site log files. Site logs
+        files must be named &lt;code&gt;_&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log (IGS format ASCII
+        logs)
+        or &lt;code&gt;_&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.xml (XML format logs).
+    </p>
+
+    <a name="STAOUT" default=""></a>
+    <p><b>Output station information file</b>
+        Specifies the name of the output station information file that will be created. This can
+        be the
+        same as the input file.
+    </p>
+
+
+    <a name="SYSODEF" default="1"></a>
+    <a name="SYSOUT" default="IGS2STA"></a>
+    <p><b>GENERAL OUTPUT FILES</b></p>
+    <p><b>Program output:</b>
+        You can choose to have the program output written to a separate file for each
+        program run (checkbox marked), or specify a common name for all program runs.
+        <br>
+        If you mark the checkbox, the filename will correspond to the program name
+        with an extension containing a counter (Lnn), which is automatically
+        incremented for each program run. If the counter reaches the maximum value, it
+        is automatically reset, and existing files will be overwritten.
+        The maximum value can be set in
+        <b>Menu &gt; Configure &gt; Program Names</b>, option "Maximum program output
+        file number".
+        <br>
+        If the checkbox is unmarked, you have to specify a name for the program
+        output file. This allows to characterize the program run, e.g., by using the
+        day and year (<tt>$YD+0</tt>) in the filename.
+    </p>
+
+    <a name="ERRMRG" default="0"></a>
+    <a name="SYSERR" default="ERROR"></a>
+    <p><b>Error messages:</b>
+        You can choose to have error messages written into the program's output
+        file (see above), or specify a separate file to which error messages are
+        written.
+    </p>
+
+</body>
+
+</html>

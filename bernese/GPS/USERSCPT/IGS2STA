@@ -1,0 +1,27 @@
+package IGS2STA;
+@ISA = ("RUNBPE");
+# ============================================================================
+#
+# Name    :  IGS2STA
+#
+# Purpose :  Execute IGS2STA
+#
+# PARAMs  :
+#
+# Author  :  Chris Crook
+# Created :  3 August 2020
+#
+# Changes :
+#
+# ============================================================================
+use strict;
+
+sub run {
+  my $bpe = shift;
+
+# Run program
+# -----------
+  my $PGMNAM = "IGS2STA";
+  $bpe->RUN_PGMS($PGMNAM);
+
+}
