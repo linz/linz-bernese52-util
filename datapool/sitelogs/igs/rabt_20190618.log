@@ -1,0 +1,349 @@
+
+     RABT00MAR Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Sarah Doelger
+     Date Prepared            : 2019-06-18
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : rabt_20150921.log
+      Modified/Added Sections : 3.3,3.4,12
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Rabat, EMI
+     Four Character ID        : RABT
+     Monument Inscription     : 
+     IERS DOMES Number        : 35001M002
+     CDP Number               : 
+     Monument Description     : Stainless steel pin
+       Height of the Monument : 
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : Stainless steel pin
+     Date Installed           : 2000-05-07T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Rabat
+     State or Province        : 
+     Country                  : Morocco
+     Tectonic Plate           : AFRICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 5255617.6800
+       Y coordinate (m)       : -631745.6220
+       Z coordinate (m)       : 3546322.6100
+       Latitude (N is +)      : +335953.17
+       Longitude (E is +)     : -0065115.44
+       Elevation (m,ellips.)  : 90.1
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T200
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2000-05-07T00:00Z
+     Date Removed             : 2004-04-13T19:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T200
+     Firmware Version         : 3.2.32.11
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2004-04-13T19:45Z
+     Date Removed             : 2009-02-04T08:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware upgrade
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200436008
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2009-02-06T00:00Z
+     Date Removed             : 2019-06-18T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : JAVAD TRE_3 DELTA
+     Satellite System         : GPS+GLO+GAL+BDS+IRNSS
+     Serial Number            : 02334
+     Firmware Version         : 3.7.6
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-06-18T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     SCIS
+     Serial Number            : 0220148021
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0800
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 00140
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 18 m
+     Date Installed           : 2000-05-17T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : IAVH
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : NONE
+     Tied Marker DOMES Number : 35001M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -1210.393
+       dy (m)                 : 1308.357
+       dz (m)                 : 1997.926
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 2002-05-08T00:00Z
+     Additional Information   : Formerly the station IAVH.
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2000-05-07/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2012-02-03/2012-02-03
+     Event                    : Transitioned from .soc to .ash data types.  For
+                              : soc data typed used soc2rnx to do the
+                              : conversion to RINEX data.  For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA 91109
+                              : USA
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : Dr. Robert Reilinger (MIT)
+       Telephone (primary)    : 617-253-7860
+       Telephone (secondary)  : 
+       Fax                    : 617-253-6385
+       E-mail                 : reilinger@erl.mit.edu
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : UNAVCO
+     Preferred Abbreviation   : UNAVCO
+     Mailing Address          : 6350 Nautilus Drive
+                              : Boulder, CO 80301
+                              : USA
+     Primary Contact
+       Contact Name           : UNAVCO Network Engineer
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 303-381-7451
+       E-mail                 : ggn-ops@postal.unavco.org
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+TRM29659.00
+Trimble L1/L2 Dorne Margolin element with chokerings
+Model 29659.00
+
+                       +-------+
+                     /     +     \                        <--  0.1280 L2
+                    |      +      |                       <--  0.1100 L1
+   +--------------------------------------------------+    <--  0.1020 TCR
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
++-+--------------------------------------------------+-+  <--  0.0380
++-------------------+-------------+--------------------+  <--  0.0350 BCR
+                    |             |
+                    |             |
+                    +------x------+                   <--  0.0000 BPA=ARP
+
+<--                      0.3810                      -->
+
+
+    ARP: Antenna Reference Point
+    L1 : L1 Phase Center                   L2 : L2 Phase Center
+    TCR: Top of Chokering                  BCR: Bottom of Chokering
+    BPA: Bottom of Preamplifier
+
+

@@ -1,0 +1,359 @@
+
+     NAIN Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mike Craymer
+     Date Prepared            : 2017-11-10
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nain_20120626.log
+      Modified/Added Sections : 1, 3.5, 3.6, 4.1, 11, 13.0, 13.1
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Nain
+     Four Character ID        : NAIN
+     Monument Inscription     : 96G7000
+     IERS DOMES Number        : 40164M001
+     CDP Number               : none
+     Monument Description     : Concrete pillar
+       Height of the Monument : 1.5 m
+       Monument Foundation    : Steel rods
+       Foundation Depth       : 1.5 m
+     Marker Description       : Steel bolt
+     Date Installed           : 1996-08-01T00:00Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : none
+       Fault zones nearby     : No
+         Distance/activity    : 
+     Additional Information   : The GPS reference mark consist of a stainless
+                              : steel plate with forced centering stainless
+                              : steel bolt embedded on the top of a 1.5 m
+                              : high, 46 cm diameter concrete pillar, anchored
+                              : to a large rock outcrop to a depth of 1.52m by
+                              : steel reinforcing rods.
+                              : (exact install date in Aug not known)
+
+
+2.   Site Location Information
+
+     City or Town             : Nain
+     State or Province        : Newfoundland
+     Country                  : Canada
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1671837.36
+       Y coordinate (m)       : -3103474.60
+       Z coordinate (m)       : 5297671.08
+       Latitude (N is +)      : +563213.07
+       Longitude (E is +)     : -0614119.38
+       Elevation (m,ellips.)  : 33.48
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020406
+     Firmware Version         : CJ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-12-18T14:11Z
+     Date Removed             : 2004-03-23T21:20Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020406
+     Firmware Version         : CJ50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-03-23T21:47Z
+     Date Removed             : 2004-09-21T17:20Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020402
+     Firmware Version         : CJ50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-09-21T17:23Z
+     Date Removed             : 2005-05-10T00:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520020402
+     Firmware Version         : CK00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2005-05-10T16:15Z
+     Date Removed             : 2005-09-29T13:34Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200439003
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2005-09-29T13:34Z
+     Date Removed             : 2017-11-10T15:00Z
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 2017-09-13: Receiver does not power on.
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200450006
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-11-10T15:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : NONE
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945D_M    NONE
+     Serial Number            : CR520020901
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Alliance Cables LDF4-50A Helix Cable
+     Antenna Cable Length     : 135 m
+     Date Installed           : 2002-12-18T14:11Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Two male connectors L4PNM at ends.
+                              : 2012-06-26 - Corrected antenna type from
+                              : ASH701945C_M to ASH701945D_M. In error since
+                              : start of operation.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2002-12-18/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : Tide gauge
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Natural Resources Canada
+     Preferred Abbreviation   : NRCan/CGS
+     Mailing Address          : 588 Booth Street
+                              : Ottawa, ON, K1A 0Y7, Canada
+     Primary Contact
+       Contact Name           : Michael Craymer
+       Telephone (primary)    : 613-791-0157
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : michael.craymer@canada.ca
+     Secondary Contact
+       Contact Name           : Mike Piraszewski
+       Telephone (primary)    : 343-292-6759
+       Telephone (secondary)  : 
+       Fax                    : 613-995-3215
+       E-mail                 : mike.piraszewski@canada.ca
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : NRCan/CGS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+ASH701945D_M
+
+                       +-------+
+                     /     +     \                        <--  0.2280 L2
+                    |      +      |                       <--  0.2100 L1
+  +-----------------+-------------+-----------------+     <--  0.2006 TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.1376
++-------------------+-------------+-------------------+   <--  0.1346 BCR
+<--                 |    0.3794   |                 -->
+                    |     +-+     |
+                    +=====| |=====+                       <--  0.1000 BPA=ARP
+                    |             |
+                    |  Aluminium  |
+                    |    Mount    |
+                    |             |
+                    |     +-+     |
++-------------------+=====| |=====+-------------------+   <--  0.0000 MRP
+|                                                     |
+|                   Concrete pillar                   |
+|                                                     |
+
+ARP: Antenna Reference Point           MRP: Monument Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+BPA: Bottom of Preamplifier
+

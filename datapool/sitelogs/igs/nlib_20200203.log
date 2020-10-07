@@ -1,0 +1,551 @@
+
+     NLIB00USA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Tatevik Shakhbandaryan
+     Date Prepared            : 2020-02-03
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nlib_20191230.log
+      Modified/Added Sections : 3.10,3.11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : North Liberty VLBA site
+     Four Character ID        : NLIB
+     Monument Inscription     : 4007-S North Liberty-VLBA GPS Station Mark-JPL
+     IERS DOMES Number        : 40465M001
+     CDP Number               : 
+     Monument Description     : Concrete pillar
+       Height of the Monument : 0.465 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : Stainless steel plate
+     Date Installed           : 1993-03-05T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : (multiple lines)
+                              : Type of Monument: 0.455 m diameter stainless
+                              : steel plate set flush in the center of a 0.610
+                              : meter diameter concrete monolith that projects
+                              : 0.465 meters above the ground.
+                              : Monument information from "NASA Space Geodesy
+                              : Program: Catalogue of Site Information",
+                              : Technical Memorandum 4482, March 1993, p385.
+
+
+2.   Site Location Information
+
+     City or Town             : North Liberty
+     State or Province        : Iowa
+     Country                  : United States
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -130934.4493
+       Y coordinate (m)       : -4762291.7386
+       Z coordinate (m)       : 4226854.6638
+       Latitude (N is +)      : +414617.73
+       Longitude (E is +)     : -0913429.61
+       Elevation (m,ellips.)  : 207.0648
+     Additional Information   : Latitude, Longitude and Elevation derived from
+                              : "IERS Technical Note 20, Results and Analysis
+                              : of the ITRF94" March 1996; Table 6 "ITRF94
+                              : Class B Station Coordinates at Epoch 1993.0",
+                              : pT67.
+                              : NRAO VLBA station is located in east central
+                              : Iowa approximately 3 miles north of the town of
+                              : North Liberty, and 20 miles south of Cedar
+                              : Rapids. To reach the station from the North
+                              : Liberty Post Office,located at the intersection
+                              : of North Front Street and Dubuque Street,
+                              : proceed north on North Front Street 0.20 miles
+                              : to the "T" intersection on the left (west) with
+                              : Penn Street. Continue straight onto State Route
+                              : F-28 and proceed 2.0 miles to the "T"
+                              : intersection on the left (west) with County Rd
+                              : 47, a dirt road and a locked gate (obtain prior
+                              : approval from NRAO). Turn left (west) onto
+                              : County Road 47, passing through the gate and
+                              : proceed 0.2 miles to the NRAO site gate and
+                              : station. The site is enclosed by an 8 foot
+                              : chain link fence.
+                              : Site information from "NASA Space Geodesy
+                              : Program: Catalogue of Site Information",
+                              : Technical Memorandum 4482, March 1993, p383.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T102
+     Firmware Version         : 2.6-93/01/08
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1993-03-05T00:00Z
+     Date Removed             : 1993-06-15T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T102
+     Firmware Version         : 2.8-93/06/08
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1993-06-15T00:00Z
+     Date Removed             : 1994-10-24T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T102
+     Firmware Version         : 94/10/10-17:01:54
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1994-10-24T00:00Z
+     Date Removed             : 1999-07-09T15:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T102
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-07-09T15:00Z
+     Date Removed             : 1999-08-31T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware upgrade
+
+3.5  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T102
+     Firmware Version         : 0.5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-08-31T00:00Z
+     Date Removed             : 2005-03-27T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.6  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : R253-U
+     Firmware Version         : 3.3.32.5
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2005-04-15T00:00Z
+     Date Removed             : 2009-09-21T17:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR2200716008
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2009-09-22T00:00Z
+     Date Removed             : 2018-06-14T14:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : SEPT POLARX5TR
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 3013995
+     Firmware Version         : 5.2.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-06-14T15:00Z
+     Date Removed             : 2019-09-11T18:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : System is receiving 1pps and 10Mhz signal inputs
+
+3.9  Receiver Type            : SEPT POLARX5TR
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 3013995
+     Firmware Version         : 0.0.0-181002
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-09-11T18:20Z
+     Date Removed             : 2019-12-27T05:33Z
+     Temperature Stabiliz.    : 
+     Additional Information   : System is receiving 1pps and 10Mhz signal inputs
+
+3.10 Receiver Type            : SEPT POLARX5TR
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 3013995
+     Firmware Version         : 5.3.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-12-27T05:33Z
+     Date Removed             : 2020-01-31T00:27Z
+     Temperature Stabiliz.    : 
+     Additional Information   : System is receiving 1pps and 10Mhz signal inputs
+
+3.11 Receiver Type            : SEPT POLARX5TR
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 3013995
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-01-31T00:27Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : System is receiving 1pps and 10Mhz signal inputs
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 102
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1993-03-05T00:00Z
+     Date Removed             : 2009-11-16T15:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TPSCR.G3        SCIS
+     Serial Number            : 383-0154
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.2698
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 1135
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 122 m
+     Date Installed           : 2009-11-19T00:00Z
+     Date Removed             : 2010-12-14T22:00Z
+     Additional Information   : New antenna mounting hardware was added
+                              : to the monument that included a stainless 
+                              : steel plate set in place of the old antenna. 
+                              : A steel pipe was welded vertically
+                              : to the plate and centered over the mark.
+                              : A SCIGN antenna adapter was attached to the
+                              : pipe.
+                              : New mount installed in order to accommodate
+                              : calibrated antenna/dome combination
+                              : Horizontal offset is 2 mm due South of mark.    
+
+4.3  Antenna Type             : TPSCR.G3        NONE
+     Serial Number            : 383-0154
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.6127
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 70 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : N/A
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 122 m
+     Date Installed           : 2010-12-15T03:45Z
+     Date Removed             : 2010-12-15T17:51Z
+     Additional Information   : A new set of antenna mounting hardware was 
+                              : installed over the mark to eliminate any
+                              : horizontal
+                              : offset.  The design includes an aluminum plate
+                              : set
+                              : in place of the old antenna, a steel pipe
+                              : secured 
+                              : precisely and vertically in the center of the
+                              : plate,
+                              : and a SCIGN antenna adapter threaded on to the
+                              : top of
+                              : the pipe. 
+
+4.4  Antenna Type             : TPSCR.G3        SCIS
+     Serial Number            : 383-0154
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.6127
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 70 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 1135
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 122 m
+     Date Installed           : 2010-12-15T17:52Z
+     Date Removed             : 2010-12-15T19:14Z
+     Additional Information   : Dome installed
+
+4.5  Antenna Type             : TPSCR.G3        SCIS
+     Serial Number            : 383-0154
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.6127
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 1135
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 122 m
+     Date Installed           : 2010-12-15T19:15Z
+     Date Removed             : 2018-06-14T14:00Z
+     Additional Information   : Antenna oriented North 19:15 UTC.
+
+4.6  Antenna Type             : JAVRINGANT_DM   SCIS
+     Serial Number            : 00841
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.6127
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 0874
+     Antenna Cable Type       : LMR 600
+     Antenna Cable Length     : 122 m
+     Date Installed           : 2018-06-14T15:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : New calibrated antenna installed
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : NLIB 7612
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 7612
+     Tied Marker DOMES Number : 40465S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 62.2278
+       dy (m)                 : -25.3872
+       dz (m)                 : -3.6259
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : VLBA reference point
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1993-03-05/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2007-05-29/2007-05-30
+     Event                    : Local RFI experiments performed at site
+                              : between ~16-18 UTC on the two days above
+                              : causing loss of satellite lock.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : National Radio Astronomy Observatory
+     Preferred Abbreviation   : NRAO
+     Mailing Address          : North Liberty Iowa VLBA Station
+                              : P.O. Box 622
+                              : North Liberty, IA  52317
+     Primary Contact
+       Contact Name           : Mike Burgert
+       Telephone (primary)    : 319-626-6878
+       Telephone (secondary)  : 319-626-6650
+       Fax                    : 319-626-3520
+       E-mail                 : mburgert@aoc.nrao.edu
+     Secondary Contact
+       Contact Name           : DJ Beard
+       Telephone (primary)    : 319-626-6878
+       Telephone (secondary)  : 
+       Fax                    : 319-626-3520
+       E-mail                 : dbeard@arana.aoc.nrao.edu
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA
+                              : USA  91109
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : UNAVCO Network Engineer
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 303-381-7451
+       E-mail                 : ggn-ops@ls.unavco.org
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 12/94
+       Horizon Mask           : 12/94
+       Monument Description   : 12/94
+       Site Pictures          : 12/94
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+TPSCR.G3
+
+                       +-------+
+                     /           \
+                    |             |
+  +-----------------+-------------+-----------------+     <--  0.1015  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+
++-------------------+-------------+-------------------+   <--  0.0345  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+                    <--  0.2380 -->
+<--                      0.3800                     -->
+
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                        
+
+All dimensions are in meters.
+

@@ -4,11 +4,25 @@
 # Note all configuration item values can contain references to other configuration
 # item values as {xxxxx}, where xxx is the other item.  But note special values
 # for date components and file names that should not be used.
+#
+# {xxxx} strings that are not matched can be replaced by environment variables if
+# they exist, except for the code and time patterns listed below, which are 
+# replaced with components of the file path.
+#
+# {ENV:xxx} can be used to explicitly replace environment variables.
+# 
+# {ConfigDir} and {ConfigFile} refer to the directory of this configuration
+# file and the full path of the configuration file.
+#
+# Configuration items can be included from another file using:
+#
+# include filename
+#
+# Filenames are relative to this configuration file.
 
 # Organisation directory for sitelogs
 
 orgdir=geonet
-basedir={ENV:BERNESE_DATAPOOL}/sitelogs/{orgdir}
 
 # RemoteUri is the the base of the remote directory
 
@@ -18,7 +32,7 @@ RemoteUser=anonymous
 
 RemotePassword=positionz@linz.govt.nz
 
-TimeOut 30
+TimeOut 60
 
 # Delay in seconds added after each successful download to be polite to server
 
@@ -49,10 +63,10 @@ MaxRunTime 120
 # If the script is run sooner than the minimum time then it will stop 
 # immediately.
 
-StatusFile {basedir}/.mirror_status
+StatusFile {orgdir}/.mirror_status
 MinTimeSinceLastRun 20h 4h
 
-# RemotePath is the path to the files to download.
+# RemoteDir is the path to the files to download.
 #
 # Can include {yyyy},{yy},{mmmm}, {mmm},{mm},{ddd},{dd} which will map to 
 # the corresponding date strings (mmm is 3 letter month name, mmmm is the 
@@ -67,7 +81,7 @@ MinTimeSinceLastRun 20h 4h
 # of days before the current date to process.  Can also include ? for any
 # character, and * for any set of characters.
 
-RemoteDir=/sitelogs/xml
+RemoteDir=/sitelogs/logs
 
 # RemoteFileRe.  Remote file names are matched against this regular expression.
 # Files that match are candidates for downloading.  
@@ -75,13 +89,33 @@ RemoteDir=/sitelogs/xml
 # can include regular expression # capture groups (?<xxx>...) to capture 
 # fields that can be used in the target path.  
 
-RemoteFileRe={code}*.xml
+RemoteFileRe={code}*.log
 
-# Target directory.  This can be based absolute, or relative to the location
-# of the configuration file (defined as ~).  Can include time components
-# as for RemovePath.  Can also include {filename} to use the source filename.
+# Local base directory.  All files downloaded or created by subsequent scripts
+# should be subdirectories of this directory. Use ~ for the directory in which
+# the configuration script is located.  This is not used if the target is an S3
+# bucket.  However the script will create a temporary local directory for retrieving
+# and processing files prior to uploading to S3. 
+#
+# All local filenames below are relative to this (or on S3, relative to the S3 prefix)
+# Post download script are run from this directory unless PostDownloadCommandChDir 
+# is true.
 
-TargetPath={basedir}/{filename}
+LocalBaseDirectory {ENV:BERNESE_DATAPOOL}/sitelogs/
+
+# If an S3 bucket is defined then files are installed into the bucket using the 
+# file structure relative to the LocalBaseDirectory.  The file names can be prefixed
+# with a common prefix to generate the corresponding S3 bucket key.  S3 settings
+# are as used by the LINZ::GNSS::AwsS3Bucket module.  
+
+# s3_bucket my_bucket
+# s3_prefix ${subdir}${subdir?/}
+
+# Target directory relative to the local base directory.
+# Can include time components
+# as for RemotePath.  Can also include {filename} to use the source filename.
+
+TargetPath={orgdir}/{filename}
 
 # Marker file.  By default the script checks for the existence of the target 
 # file.  If it exists and is of the correct size it is downloaded again.  The 
@@ -104,29 +138,7 @@ PostDownloadCommandChDir 1
 # Codes to download.  Use Codes * (or omit codes altogether), to download
 # all available codes.
 
-Codes 2406 AHTI AKTO ANAU ARTA ATIA AUCK AUKT AVLN BHST
-Codes BIRF BLUF BM8A BNET BTHL CAST CHAT CHTI CKID CLIM 
-Codes CLRR CLS3 CLS4 CLS5 CLS6 CLSG CLSK CMBL CNCL CNST 
-Codes CORM DNVK DUND DUNT DURV FALE FRTN GDS1 GEON GISB 
-Codes GLDB GLOK GNBK GRAC GRNG GUNR HAAS HAMT HANA HANM 
-Codes HAST HIKB HOKI HOLD HORN KAHU KAIK KAPT KARA KAWK 
-Codes KERE KOKO KORO KTIA KUTA LDRZ LEVN LEXA LEYL LKTA 
-Codes LOK1 LOOK LRR1 LYTT MAHA MAHI MAHO MAKO MANG MAST 
-Codes MATW MAVL MCNL METH MING MKNO MNHR MQZG MRBL MTBL 
-Codes MTJO MTPR MTQN MUL1 NETT NIUC NLS1 NLS2 NLSN 
-Codes NMAI NPLY NRRD NRSW OHIN OKOH OPTK OROA OTAK OUSD 
-Codes PAEK PAKI PALI PARI PARW PAWA PGKH PGNE PILK PKNO 
-Codes PNUI PORA PRTU PTOI PUKE PYGR QUAR RAHI RAKW RAUL 
-Codes RAUM RAWI RDLV RGAR RGAW RGCR RGHD RGHL RGHR RGKA 
-Codes RGKW RGLI RGMK RGMT RGON RGOP RGRE RGRR RGTA RGUT 
-Codes RGWC RGWI RGWV RIPA SCTB SEDD SNST SUTT TAKL TAKP 
-Codes TAUP TAUW TEMA TEN2 TENN TGHO TGHR TGOH TGRA TGRI 
-Codes TGTK TGWH THAP TINT TKAR TKHL TORY TRAV TRNG TRWH 
-Codes TURI UTK1 UTK2 UTK3 UTK4 UTKU V27B V47B VAVS VEXA 
-Codes VGDR VGET VGFW VGKR VGMO VGMT VGNG VGNT VGOB VGOT 
-Codes VGPK VGT2 VGT8 VGTM VGTR VGTS VGWH VGWN VGWT WAHU 
-Codes WAIM WAKA WANG WARK WEST WGTN WGTT WHKT WHNG WHVR 
-Codes WITH WMAT WPAW WPUK WRA1 WRAU WRPA YALD
+Codes *
 
 # Number of days before current date to start and end download
 # Set the same if the download is insensitive to date...

@@ -120,7 +120,7 @@
      Additional Information   : 
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
-     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
      Serial Number            : (A5)
      Firmware Version         : (A11)
      Elevation Cutoff Setting : (deg)
@@ -261,7 +261,7 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 

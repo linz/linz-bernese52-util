@@ -1,0 +1,399 @@
+
+     CHTI00NZL Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Elisabetta D'Anastasio
+     Date Prepared            : 2019-11-03
+     Report Type              : Update
+     If Update:
+      Previous Site Log       : chti_20171219.log
+      Modified/Added Sections : 3.8,3.9,4.1,4.2,13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Chatham Island
+     Four Character ID        : CHTI
+     Monument Inscription     : none
+     IERS DOMES Number        : 50242M001
+     CDP Number               : none
+     Monument Description     : SHORT-BRACED
+       Height of the Monument : 1.2 m
+       Monument Foundation    : Five stainless steel legs, each epoxied into
+       Foundation Depth       : Nearly 3 m for vertical leg; approx 2 m for m
+     Marker Description       : TOP OF MONUMENT
+     Date Installed           : 2007-12-10T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Wharekauri
+     State or Province        : Chatham Island
+     Country                  : New Zealand
+     Tectonic Plate           : PACIFIC
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4607855.9
+       Y coordinate (m)       : -272375.8
+       Z coordinate (m)       : -4386954.5
+       Latitude (N is +)      : -434407.71
+       Longitude (E is +)     : -1763701.61
+       Elevation (m,ellips.)  : 75.7
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4445240414
+     Firmware Version         : 1.20
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2007-12-10T00:00Z
+     Date Removed             : 2011-04-04T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72269
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-04-05T01:24Z
+     Date Removed             : 2014-04-04T00:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72269
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-04-04T00:46Z
+     Date Removed             : 2015-09-09T17:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware upgrade
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72269
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-09T17:25Z
+     Date Removed             : 2016-06-27T17:53Z
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware upgrade
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72269
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-06-27T17:53Z
+     Date Removed             : 2016-09-19T08:55Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Galileo, BeiDou and QZSS enabled with this
+                              : firmware upgrade
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72269
+     Firmware Version         : 5.14
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-09-19T08:55Z
+     Date Removed             : 2016-12-20T07:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware upgrade
+
+3.7  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72269
+     Firmware Version         : 5.15
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-12-20T07:45Z
+     Date Removed             : 2017-12-19T20:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware upgrade
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5049K72269
+     Firmware Version         : 5.22
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-12-19T20:45Z
+     Date Removed             : 2019-10-31T00:35Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE ALLOY
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5921R40133
+     Firmware Version         : 5.42
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-10-31T00:35Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30260402
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0020
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2007-12-10T00:00Z
+     Date Removed             : 2019-10-31T00:35Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM115000.00    NONE
+     Serial Number            : 1441052895
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0020
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2019-10-31T00:35Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2007-12-10/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : GNS Science
+     Preferred Abbreviation   : GNS
+     Mailing Address          : GNS Science
+                              : 1 Fairway Drive, Avalon
+                              : PO Box 30368, Lower Hutt
+                              : New Zealand
+     Primary Contact
+       Contact Name           : GeoNet Reception
+       Telephone (primary)    : +64 4 570 1444
+       Telephone (secondary)  : 
+       Fax                    : +64 4 570 4676
+       E-mail                 : info@geonet.org.nz
+     Secondary Contact
+       Contact Name           : Paula Gentle
+       Telephone (primary)    : +64 4 460 2757
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : pgentle@linz.govt.nz
+     Additional Information   : P.Gentle, Land Information of
+                              : New Zealand (LINZ), 
+                              : 155 The Terrace, Wellington
+                              : New Zealand
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : www.geonet.org.nz
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : From www.geonet.org.nz, navigate
+                              : Resources -> Network -> DELTA
+                              : for site information.
+     Antenna Graphics with Dimensions
+
+
+TRM55971.00
+TRM115000.00
+
+    / ----------------------+--------------------- \
+   +                        +                       +
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=BAM
+
+   <--                   0.3396                  -->
+
+
+

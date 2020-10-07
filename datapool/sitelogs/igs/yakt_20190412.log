@@ -1,0 +1,360 @@
+
+     YAKT00RUS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Grigory Steblov
+     Date Prepared            : 2019-04-12
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : yakt_20130131.log
+      Modified/Added Sections : 3.1, 3.2, 11, 12, 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Seismic Station Yakutsk
+     Four Character ID        : YAKT
+     Monument Inscription     : 
+     IERS DOMES Number        : 12353M002
+     CDP Number               : 
+     Monument Description     : 
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 2000-04-24T00:00Z
+     Geologic Characteristic  : Eastern margin of Siberian platform.
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : NA
+       Fracture Spacing       : na
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Permafrost
+                              : This station is part of NEDA
+                              : Deformation Array. NEDA operational control
+                              : is provided by RDAAC
+                              : Acquisition/Analysis Center (Moscow, Russia).
+                              : RDAAC is also IGS Operational Center for NEDA.
+                              : *******************************************
+                              : The GPS reference mark consists of
+                              : 5/8-11" diameter, vertical stainless steel rod.
+                              : It is glued into the concrete parapet at
+                              : the southwestern corner of the roof of
+                              : Seismic Station Yakutsk. This is 2-story
+                              : building made from prefabricated concrete.
+                              : The rod is driven into the parapet to a depth
+                              : of 100 mm; its top end is 100 mm above
+                              : the surface of the parapet.
+                              : Vertical datum
+                              : of the rod. Antenna is attached to the rod
+                              : with the UNAVCO compact leveling mount.
+                              : The antenna and choke ring assembly are
+                              : protected with the SCIGN hemispherical dome.
+                              : Mark YAKT is located 37 m to the west of
+                              : IGS mark YAKZ (IERS DOMES No. 12353M001).
+                              : YAKT was reoccupied several times
+                              : since 1996 and showed much smaller seasonal
+                              : horizontal fluctuations compared with YAKZ.
+
+
+2.   Site Location Information
+
+     City or Town             : Yakutsk
+     State or Province        : Yakutia Sakha Republic
+     Country                  : Russian Federation
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1914998.836
+       Y coordinate (m)       : 2308241.520
+       Z coordinate (m)       : 5610225.578
+       Latitude (N is +)      : +620151.46
+       Longitude (E is +)     : +1294049.08
+       Elevation (m,ellips.)  : 103.370
+     Additional Information   : Cartesian and geodetic coordinates (ITRF96)
+                              : from GAMIT/GLOBK solution in ITRF96 based on
+                              : 10 days 2000/4/25 to 2000/5/4. Epoch 2000.33060
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP01567
+     Firmware Version         : NAV CC00  CH 1D02
+     Elevation Cutoff Setting : 
+     Date Installed           : 2000-04-24T00:00Z
+     Date Removed             : 2019-04-09T06:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Model 700845-10D (Z-12 CGRS).
+
+3.2  Receiver Type            : JAVAD TRE_3N DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 02641
+     Firmware Version         : 3.6.12 Oct,12,2017
+     Elevation Cutoff Setting : 
+     Date Installed           : 2019-04-09T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701933B_M    SCIS
+     Serial Number            : CRN1999100160
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0810
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SCIS
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2000-04-24T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : YAKZ
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 12353M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -24.464
+       dy (m)                 : -28.318
+       dz (m)                 : -0.611
+     Accuracy (mm)            : +-0.3 mm per component mm
+     Survey method            : 
+     Date Measured            : 2000-06-28T00:00Z
+     Additional Information   : YAKT is the GPS Mark YAK of RUSEG 1996 campaign.
+                              : YAKT was reoccupied in 1997 and in 1999.
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2000-04-24/2001-01-23
+       Notes                  : Clock Steering ON
+
+6.2  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2001-01-23/CCYY-MM-DD
+       Notes                  : Clock Steering OFF (See IGSMAIL-30710)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2012-02-10/2012-02-10
+     Event                    : Transitioned from .soc to .ash data types.  For
+                              : soc data typed used soc2rnx to do the
+                              : conversion to RINEX data.  For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Seismic Station Yakutsk
+     Preferred Abbreviation   : 
+     Mailing Address          : 21 Beketova Street
+                              : 677008 Yakutsk RUSSIA
+     Primary Contact
+       Contact Name           : Sergei Shibaev
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : shibaev@emsd.ysn.ru
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : RDAAC/JPL/IRIS
+     Preferred Abbreviation   : 
+     Mailing Address          : 6-3 Universitetskiy Prospect
+                              : 117333 Moscow, RUSSIA
+     Primary Contact
+       Contact Name           : Grigory Steblov
+       Telephone (primary)    : +7 903 1529610
+       Telephone (secondary)  : +7 484 3920181
+       Fax                    : 
+       E-mail                 : steblov@gps.gsras.ru
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : SIO
+     URL for More Information : http://www.gps.gsras.ru
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : Hardcopy Information available from www.site
+                              : or from Responsible Agency
+     Antenna Graphics with Dimensions
+
+
+
+
+             Ashtech: ASH701933B_M
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  ARP
+
+<--                      0.381                       -->
+
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                    L2 : L2 Phase Center
+TCR: Top of Choke ring                  BCR: Bottom of Choke ring
+
+

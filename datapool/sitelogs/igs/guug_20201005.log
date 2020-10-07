@@ -1,0 +1,442 @@
+
+     GUUG00GUM Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Don Haw
+     Date Prepared            : 2020-10-05
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : guug_20200130.log
+      Modified/Added Sections : 4.4 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : U of Guam
+     Four Character ID        : GUUG
+     Monument Inscription     : 
+     IERS DOMES Number        : 82301M001
+     CDP Number               : 
+     Monument Description     : Atop 0.3-meter-thick concrete roof parapet.
+       Height of the Monument : 
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 2003-08-27T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : The concrete building was constructed in
+                              : 2000/2001 to withstand 180 mph typhoons.
+                              : The antenna is mounted with a tribrach adaptor
+                              : embeded in the concrete parapet.
+
+
+2.   Site Location Information
+
+     City or Town             : Mangilao
+     State or Province        : Guam
+     Country                  : United States
+     Tectonic Plate           : MARIANA
+     Approximate Position (ITRF)
+       X coordinate (m)       : -5070465.249
+       Y coordinate (m)       : 3576460.234
+       Z coordinate (m)       : 1472093.785
+       Latitude (N is +)      : +132559.55
+       Longitude (E is +)     : +1444809.77
+       Elevation (m,ellips.)  : 134.7
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Published by the IGS in Nov 2010.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 0220227031
+     Firmware Version         : 1.30
+     Elevation Cutoff Setting : 
+     Date Installed           : 2003-08-27T00:00Z
+     Date Removed             : 2006-08-01T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4700
+     Satellite System         : GPS
+     Serial Number            : 0220227031
+     Firmware Version         : 1.30
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-08-01T00:00Z
+     Date Removed             : 2008-02-07T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS
+     Serial Number            : 4730K06582
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-02-07T00:00Z
+     Date Removed             : 2009-06-19T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Receiver type correction.
+                              : Changed from GPS+GLONASS to GPS on 2008-mar-17
+
+3.4  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4730K06582
+     Firmware Version         : 3.50
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-06-19T00:00Z
+     Date Removed             : 2009-08-27T14:09Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Switched on GLONASS tracking
+                              : Switched off Everest Multipath
+
+3.5  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4730K06582
+     Firmware Version         : 4.03
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-08-27T14:09Z
+     Date Removed             : 2010-09-14T14:41Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4730K06582
+     Firmware Version         : 4.15
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-09-14T14:41Z
+     Date Removed             : 2011-01-10T16:33Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4730K06582
+     Firmware Version         : 4.19
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-01-10T16:33Z
+     Date Removed             : 2012-10-16T19:42Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4730K06582
+     Firmware Version         : 4.48
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-10-16T19:42Z
+     Date Removed             : 2013-04-19T15:02Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4730K06582
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-04-19T15:02Z
+     Date Removed             : 2014-10-22T11:05Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4730K06582
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-10-22T11:05Z
+     Date Removed             : 2019-04-10T00:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : LEICA GR50
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 1870480
+     Firmware Version         : 4.11/7.102
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-04-10T00:30Z
+     Date Removed             : 2019-04-12T14:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : new receiver installed by Ed C.
+                              : Firmware update 
+
+3.12 Receiver Type            : LEICA GR50
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 1870480
+     Firmware Version         : 4.30/7.402
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-04-12T14:24Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945E_M    UNAV
+     Serial Number            : CR520022606
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : UNAV
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2003-08-27T00:00Z
+     Date Removed             : 2008-02-07T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : ASH701945E_M    NONE
+     Serial Number            : CR520022606
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2008-02-07T00:00Z
+     Date Removed             : 2011-06-26T00:00Z
+     Additional Information   : Radome removed and antenna cable was replaced
+
+4.3  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30517538
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2011-06-26T00:00Z
+     Date Removed             : 2019-06-10T00:00Z
+     Additional Information   : Antenna Change 
+
+4.4  Antenna Type             : SEPCHOKE_B3E6   SPKE
+     Serial Number            : 5451
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0032
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SPKE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2019-06-10T01:07Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 2019-JUN-13  FSC fix ARP UP value, was
+                              :   0.0063 (2 washers) changed to 0.0032
+                              :   one washer at 1/8 inch thicknes, was
+                              :   0.0063 (2 washers) changed to 0.0032
+                              :   one washer at 1/8 inch thickness
+                              : Corrected antenna type 2020-01-30
+                              : SEPCHOKE_MC was in error
+                              : Changed ARP from BAM to BPA - 2020Oct05
+                              : Effective date is still 2019-06-10
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-08-27/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : University of Guam
+     Preferred Abbreviation   : UOG
+     Mailing Address          : Water and Environmental Research Inst.
+                              : UOG Station
+                              : Mangilao, Guam  96923
+     Primary Contact
+       Contact Name           : Thomas J. Torres
+       Telephone (primary)    : 671-649-5263 ext. 261
+       Telephone (secondary)  : 
+       Fax                    : 671-649-5383
+       E-mail                 : thomas.torres@dlm.guam.gov
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : Temporary contact.
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : NOAA-National Geodetic Survey
+     Preferred Abbreviation   : NOAA-NGS
+     Mailing Address          : NOAA, N/NGS6, SSMC3-9111
+                              : 1315 East-West Hwy.
+                              : Silver Spring, MD 20910, USA
+     Primary Contact
+       Contact Name           : Francine Coloma
+       Telephone (primary)    : 303-497-3692
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : ngs.corscollector@noaa.gov
+     Secondary Contact
+       Contact Name           : Don Haw
+       Telephone (primary)    : 240-533-9676
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : ngs.corscollector@noaa.gov
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+      ftp://www.igs.org/pub/station/general/antenna.gra
+

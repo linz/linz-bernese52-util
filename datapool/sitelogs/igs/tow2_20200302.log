@@ -1,0 +1,636 @@
+
+     TOW200AUS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : mohammad.choudhury@ga.gov.au
+     Date Prepared            : 2020-03-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : (ssss_ccyymmdd.log)
+      Modified/Added Sections : (n.n,n.n,...)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Townsville AU028
+     Four Character ID        : TOW2
+     Monument Inscription     : National Geodetic Fiducial Ntwk (AUSLIG) AU028
+     IERS DOMES Number        : 50140M001
+     CDP Number               : NONE
+     Monument Description     : STEEL PLATE
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1995-01-17T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Monument is a 500mm Stainless Steel Plate fixed
+                              : to a large rock outcrop
+
+
+2.   Site Location Information
+
+     City or Town             : Cape Ferguson
+     State or Province        : Queensland
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -5054582.68
+       Y coordinate (m)       : 3275504.572
+       Z coordinate (m)       : -2091539.886
+       Latitude (N is +)      : -191609.43
+       Longitude (E is +)     : +1470320.47
+       Elevation (m,ellips.)  : 88.2
+     Additional Information   : ARGN (Australian Regional GPS Network) -
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : C102
+     Firmware Version         : 3.0.33.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1995-01-17T00:00Z
+     Date Removed             : 1999-08-11T06:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : C102
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-08-11T06:30Z
+     Date Removed             : 1999-11-26T06:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : An additional GPS receiver has been
+
+3.3  Receiver Type            : AOA ICS-4000Z ACT
+     Satellite System         : GPS
+     Serial Number            : C120U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-11-27T00:00Z
+     Date Removed             : 2002-09-30T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : An additional GPS receiver has been
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520021006
+     Firmware Version         : ZC00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-10-01T04:05Z
+     Date Removed             : 2006-02-14T00:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200524003
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-02-14T01:00Z
+     Date Removed             : 2008-09-28T23:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351926
+     Firmware Version         : 6.00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-09-29T00:00Z
+     Date Removed             : 2009-06-19T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351926
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-06-19T01:00Z
+     Date Removed             : 2010-05-05T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : The tracking was changed from C2 or P2, to P2
+                              : onlt at 2009-07-30T00:00Z Tracking changed to
+                              : all in view at 2009-09-09T02:00Z
+
+3.8  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351926
+     Firmware Version         : 7.50/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-05-05T00:00Z
+     Date Removed             : 2010-11-12T00:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : ME upgrade due to GLONASS tracking problem.
+
+3.9  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351926
+     Firmware Version         : 8.01/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-11-12T00:30Z
+     Date Removed             : 2011-06-14T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware upgrade to fix RT problem. Firmware was
+                              : updated from 8.00/3.019 to 8.01/3.019 at un-
+                              : noted time between 2010-05-05T00:00Z and
+                              : 2010-11-12T00:30Z before this current firmware
+                              : update.
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351926
+     Firmware Version         : 8.20/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2011-06-14T00:00Z
+     Date Removed             : 2013-07-17T22:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 351926
+     Firmware Version         : 8.71/3.822
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-07-17T22:15Z
+     Date Removed             : 2015-08-24T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.12 Receiver Type            : SEPT POLARXS
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3003828
+     Firmware Version         : 2.9.0Patch1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-08-24T00:00Z
+     Date Removed             : 2015-11-20T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.13 Receiver Type            : SEPT POLARXS
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3003828
+     Firmware Version         : 2.9.1-patch1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-11-20T00:00Z
+     Date Removed             : 2016-05-24T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update only
+
+3.14 Receiver Type            : SEPT POLARXS
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3003828
+     Firmware Version         : 2.9.1-patch2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-05-24T00:00Z
+     Date Removed             : 2017-01-05T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update only
+
+3.15 Receiver Type            : SEPT POLARXS
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3003828
+     Firmware Version         : 2.9.6
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-01-05T00:00Z
+     Date Removed             : 2019-09-18T02:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update only
+
+3.16 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3048330
+     Firmware Version         : 5.2.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-09-18T02:30Z
+     Date Removed             : 2020-03-02T00:04Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.17 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+QZSS+GLO+GAL+BDS
+     Serial Number            : 3048330
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-03-02T00:04Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        AUST
+     Serial Number            : 326
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0035
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : AUST
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 80.0 m
+     Date Installed           : 1995-01-17T00:00Z
+     Date Removed             : 2011-09-23T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAR25.R3      NONE
+     Serial Number            : 09310016
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0033
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR600
+     Antenna Cable Length     : 175.0 m
+     Date Installed           : 2011-09-23T00:00Z
+     Date Removed             : 2012-12-10T00:00Z
+     Additional Information   : Cable destroyed due to bushfire. Lightning
+                              : protection removed.
+
+4.3  Antenna Type             : LEIAR25.R3      NONE
+     Serial Number            : 09310016
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0033
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : LMR600
+     Antenna Cable Length     : 190.0 m
+     Date Installed           : 2013-01-22T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : no lightning protection
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : RM1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -11.718
+       dy (m)                 : -30.625
+       dz (m)                 : 8.529
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1995-01-01T00:00Z
+     Additional Information   : 
+
+5.2  Tied Marker Name         : RM2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -3.603
+       dy (m)                 : -14.161
+       dz (m)                 : -5.062
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1995-01-01T00:00Z
+     Additional Information   : 
+
+5.3  Tied Marker Name         : RM3
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 30.066
+       dy (m)                 : 45.958
+       dz (m)                 : 17.795
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 1995-01-01T00:00Z
+     Additional Information   : 
+
+5.4  Tied Marker Name         : RM1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -11.7166
+       dy (m)                 : -30.625
+       dz (m)                 : 8.5243
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-10-01T00:00Z
+     Additional Information   : 
+
+5.5  Tied Marker Name         : RM2
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 8.3317
+       dy (m)                 : -0.8448
+       dz (m)                 : -12.9992
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-10-01T00:00Z
+     Additional Information   : 
+
+5.6  Tied Marker Name         : RM3
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : N/A
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 30.0657
+       dy (m)                 : 45.9582
+       dz (m)                 : 17.7953
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-10-01T00:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1995-01-17/2002-09-30
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2002-10-01/2003-06-26
+       Notes                  : 
+
+6.3  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2003-06-26/2003-07-03
+       Notes                  : Switched to internal due to power problems with
+                              : rubidium
+
+6.4  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2003-07-03/2008-09-29
+       Notes                  : S/N 13018837
+
+6.5  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2008-09-29/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : PAROSCIENTIFIC MET3
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : 101697
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : 2.00
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 7.0 m
+       Calibration date       : 2002-09-18
+       Effective Dates        : 2002-10-01/2008-10-03
+       Notes                  : 
+
+8.1.2  Humidity Sensor Model  : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ110409
+       Data Sampling Interval : 30 sec
+       Accuracy (% rel h)     : 2.00
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 7.0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2011-09-28/2013-06-19
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PAROSCIENTIFIC MET3
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : 101697
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.10 hPa
+       Height Diff to Ant     : 7.0 m
+       Calibration date       : 2002-09-18
+       Effective Dates        : 2002-10-01/2008-10-03
+       Notes                  : 
+
+8.2.2  Pressure Sensor Model  : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ110409
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.08 hPa
+       Height Diff to Ant     : 7.0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2011-09-28/2013-06-19
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : PAROSCIENTIFIC MET3
+       Manufacturer           : PAROSCIENTIFIC
+       Serial Number          : 101697
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.50 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 7.0 m
+       Calibration date       : 2002-09-18
+       Effective Dates        : 2002-10-01/2008-10-03
+       Notes                  : 
+
+8.3.2  Temp. Sensor Model     : PAROSCIENTIFIC MET4
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ110409
+       Data Sampling Interval : 30 sec
+       Accuracy               : 0.50 deg C
+       Aspiration             : UNASPIRATED
+       Height Diff to Ant     : 7.0 m
+       Calibration date       : 
+       Effective Dates        : 2011-09-28/2013-06-19
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : 
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : Nicholas Brown
+       Telephone (primary)    : +61 2 6249 9831
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : 
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : CDDIS
+     URL for More Information : http://www.ga.gov.au
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+     (insert text graphic from file antenna.gra)
+
+
+

@@ -1,0 +1,395 @@
+     International GPS Service
+     NRIL Site Information Form
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Grigory M. Steblov
+     Date Prepared            : 2009-10-30
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nril_20051113.log
+      Modified/Added Sections : 3.2 3.3 11 12
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : Complex Magnetic-Ionospheric Station (CMIS)
+     Four Character ID        : NRIL
+     Monument Inscription     :
+     IERS DOMES Number        : 12364M001
+     CDP Number               : (A4)
+     Monument Description     : Roof of Seismology Building
+       Height of the Monument : 2.6 m
+       Monument Foundation    : STAINLESS STEEL ROD
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 2000-09-17
+     Geologic Characteristic  : Northern margin of Siberian platform.
+       Bedrock Type           : Flood basalts
+       Bedrock Condition      : NA
+       Fracture Spacing       : NA
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : Basement outcrop
+                              :
+                              : This station is part of NEDA
+                              : Deformation Array. NEDA operational control
+                              : is provided by RDAAC
+                              : Acquisition/Analysis Center (Moscow, Russia).
+                              : RDAAC is also IGS Operational Center for NEDA.
+                              : *******************************************
+                              : The GPS reference mark consists of
+                              : 5/8-11" diameter, vertical stainless steel rod.
+                              : It is glued into the concrete parapet
+                              : at the roof of Seismology Building
+                              : at the campus of Complex Magnetic-Ionospheri
+                              : Station (CMIS).
+                              : This is a single-storey brick building 8x4 m
+                              : in the map view, 2.6 meters high.
+                              : The basement of the building is made up of
+                              : reinforced concrete pylons. The walls are
+                              : 0.5 meter thick. The roof is the prefabricated
+                              : reinforced concrete slab.
+                              : The rod is driven into the parapet to a depth
+                              : of 165 mm; its top end is 38 mm above
+                              : the surface of the parapet.
+                              : Vertical datum
+                              : of the rod. Antenna is attached to the rod
+                              : with the UNAVCO compact leveling mount.
+                              : The antenna and choke ring assembly are
+                              : protected with the SCIGN hemispherical dome.
+
+2.   Site Location Information
+
+     City or Town             : Norilsk
+     State or Province        : Krasnoyarsk Region
+     Country                  : Russian Federation
+     Tectonic Plate           : Eurasian
+     Approximate Position (ITRF)
+       X coordinate (m)       : 64537.2912
+       Y coordinate (m)       : 2253782.8543
+       Z coordinate (m)       : 5946363.4808
+       Latitude (N is +)      : +692142.60
+       Longitude (E is +)     : +0882135.20
+       Elevation (m,ellips.)  : 47.8937
+     Additional Information   : Cartesian and geodetic coordinates (ITRF96)
+                              : from GAMIT/GLOBK solution in ITRF96 based on
+                              : 6 days
+
+3.  GNSS Receiver Information
+
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP020002502
+     Firmware Version         : NAV CD00  CH 1D02
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-09-17T00:00Z
+     Date Removed             : 2005-11-10T07:20Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : Model 700845-10G (Z-12 CGRS).
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC120031614
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2005-11-10T07:21Z
+     Date Removed             : 2009-10-29T12:20Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : P/N 800960-32A (MicroZ)
+
+3.3  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC120031611
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2009-10-29T12:20Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A5)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+4.  GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945B_M    SCIT
+     Serial Number            : CR620002607
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0795
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : 0
+     Antenna Radome Type      : SCIT
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 2000-09-17T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Hemispherical dome
+                              : Type DSP-001
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.  Surveyed Local Ties
+
+
+5.1  Tied Marker Name         : AGP0
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   :
+     Tied Marker DOMES Number :
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : +10342.9142
+       dy (m)                 : -628.3138
+       dz (m)                 : +121.8358
+     Accuracy (mm)            : dx:+-0.8 mm; dy
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : 2000-06-17
+     Additional Information   :
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+6.   Frequency Standard
+
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        :
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+7.   Collocation Information
+
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.   Meteorological Instrumentation
+
+
+8.1.1  Humidity Sensor Model  : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          :
+       Data Sampling Interval : 5 min.
+       Accuracy (% rel h)     : +-2% rel h
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          :
+       Data Sampling Interval : 5 min.
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 0.0
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MET3
+       Manufacturer           : Paroscientific
+       Serial Number          :
+       Data Sampling Interval : 5 min.
+       Accuracy               : +-0.5 deg C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : (multiple lines)
+
+8.5.x  Other Instrumentation  :
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : Complex Magnetic-Ionospheric Station
+     Preferred Abbreviation   : CMIS
+     Mailing Address          : (multiple lines)
+     Primary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Secondary Contact
+       Contact Name           :
+       Telephone (primary)    :
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 :
+     Additional Information   : (multiple lines)
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : RDAAC,GS RAS,JPL,IRIS
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : 189 Lenina Street
+                              : Obninsk 249030, Kaluga Region, RUSSIA
+     Primary Contact
+       Contact Name           : Grigory Steblov
+       Telephone (primary)    : +7-903-152-9610
+       Telephone (secondary)  : +7-48439-20181
+       Fax                    :
+       E-mail                 : steblov@gps.gsras.ru
+     Secondary Contact
+       Contact Name           : David A. Stowers/JPL
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  :
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Additional Information   : JPL, 4800 Oak Grove Drive
+                              : Pasadena, CA 91109 USA
+
+13.  More Information
+
+     URL for More Information : http://wgps.gsras.ru
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : Hardcopy Information available from www.site
+                              : or from Responsible Agency
+     Antenna Graphics with Dimensions
+
+
+
+
+             Ashtech: ASH701945B_M
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  ARP
+
+<--                      0.381                       -->
+
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                    L2 : L2 Phase Center
+TCR: Top of Choke ring                  BCR: Bottom of Choke ring
+

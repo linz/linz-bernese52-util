@@ -1,0 +1,524 @@
+
+     WARK00NZL Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Elisabetta D'Anastasio
+     Date Prepared            : 2019-10-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : wark_20190926.log
+      Modified/Added Sections : 4.2 updated
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Warkworth GPS
+     Four Character ID        : WARK
+     Monument Inscription     : none
+     IERS DOMES Number        : 50243M001
+     CDP Number               : none
+     Monument Description     : DEEP-BRACED (UNAVCO STYLE)
+       Height of the Monument : 1.5 m
+       Monument Foundation    : FIVE STAINLESS STEEL RODS
+       Foundation Depth       : 1.8 m
+     Marker Description       : TOP CENTRE OF STAINLESS BLOCK
+     Date Installed           : 2009-01-01T00:00Z
+     Geologic Characteristic  : Sandstone/siltstone
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : The site is underlain by thin-bedded, volcanic-
+                              : rich, graded sandstone and siltstone of the 
+                              : Pakiri Formation (Waitemata group) of early
+                              : Miocene age. Weathering to a soft silty clay
+                              : with low plasticity and relatively high shear
+                              : strength is common in the top ~10 metres.
+                              : Clay to at least 10.5 m depth was found during 
+                              : monument installation. 
+                              : Marker is top centre of stainless block that
+                              : forms the top of the monument
+
+
+2.   Site Location Information
+
+     City or Town             : Warkworth
+     State or Province        : North Auckland
+     Country                  : New Zealand
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -5115333.2299
+       Y coordinate (m)       : 477886.9079
+       Z coordinate (m)       : -3767147.4730
+       Latitude (N is +)      : -362603.88
+       Longitude (E is +)     : +1743946.01
+       Elevation (m,ellips.)  : 111.3
+     Additional Information   : Located close to the Warkworth VLBI antenna.
+                              : The antenna causes a sky-visibility obstruction
+                              : to the southeast (see Section 9.3.1).
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4706128321
+     Firmware Version         : 1.20
+     Elevation Cutoff Setting : 
+     Date Installed           : 2009-01-23T00:00Z
+     Date Removed             : 2009-09-11T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4752143428
+     Firmware Version         : 1.25
+     Elevation Cutoff Setting : 
+     Date Installed           : 2009-09-11T00:00Z
+     Date Removed             : 2011-01-10T00:23Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5034K69668
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 
+     Date Installed           : 2011-01-10T00:23Z
+     Date Removed             : 2011-11-11T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5034K69668
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 
+     Date Installed           : 2011-11-11T00:00Z
+     Date Removed             : 2012-06-15T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5034K69668
+     Firmware Version         : 4.46
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-06-15T00:00Z
+     Date Removed             : 2013-03-20T23:12Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+BDS+QZSS
+     Serial Number            : 5034K69668
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-03-20T23:13Z
+     Date Removed             : 2013-05-02T00:11Z
+     Temperature Stabiliz.    : 
+     Additional Information   : tracking enabled for GPS ((L1-CA,L2-Legacy)
+                              : Glonass (L1-C/A,L1/P,L2-P),Compass/BeiDou
+                              : (B1) and QZSS (L1-C,L2-C) signals
+
+3.7  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5034K69668
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-05-02T00:11Z
+     Date Removed             : 2014-09-30T21:39Z
+     Temperature Stabiliz.    : 
+     Additional Information   : added the capability to track GPS (L5 I+Q),
+                              : Galileo (E1,E5-A,E5-B,E5-AltBOC),BeiDou
+                              : (B2,B3) and QZSS (L1-CA,L1-SAIF,L1-C,
+                              : L2-C,L5,LEX)
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5034K69668
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-09-30T21:40Z
+     Date Removed             : 2015-09-20T17:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware upgrade
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5034K69668
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-20T17:25Z
+     Date Removed             : 2016-04-19T22:49Z
+     Temperature Stabiliz.    : 
+     Additional Information   : firmware upgrade
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5522R50052
+     Firmware Version         : 5.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-04-19T22:49Z
+     Date Removed             : 2016-09-19T09:19Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5522R50052
+     Firmware Version         : 5.14
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-09-19T09:19Z
+     Date Removed             : 2016-12-20T08:28Z
+     Temperature Stabiliz.    : none
+     Additional Information   : firmware upgrade
+
+3.12 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5522R50052
+     Firmware Version         : 5.15
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-12-20T08:28Z
+     Date Removed             : 2018-01-10T09:32Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.13 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5522R50052
+     Firmware Version         : 5.22
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-01-10T09:32Z
+     Date Removed             : 2019-09-26T01:03Z
+     Temperature Stabiliz.    : none
+     Additional Information   : enabled GPS-L5 observable
+
+3.14 Receiver Type            : TRIMBLE ALLOY
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 5921R40150
+     Firmware Version         : 5.42
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-09-26T01:03Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30477149
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0020
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2009-01-23T00:00Z
+     Date Removed             : 2019-09-26T01:03Z
+     Additional Information   : Antenna temporarily removed for maintenance on
+                              : 2015-09-21 between 00:32 - 01:22 UTC
+
+4.2  Antenna Type             : TRM115000.00    NONE
+     Serial Number            : 1551016808
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.002
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2019-09-26T01:03Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : individual antenna calibration performed by
+                              : Geoscience Australia
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Warkworth radio telescope axis intersection
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 5.99
+       dy (m)                 : -42.89
+       dz (m)                 : -48.56
+     Accuracy (mm)            : 100 mm
+     Survey method            : TOTAL STATION
+     Date Measured            : 2010-03-10T00:00Z
+     Additional Information   : This was a preliminary determination of the 
+                              : tie between the GNSS monument and the radio
+                              : telescope axis intersection, using reflectors
+                              : on the rim of the antenna and taking 
+                              : measurements with the telescope in a variety 
+                              : of orientations. 
+
+5.2  Tied Marker Name         : Warkworth Radio Telescope Axis IVP
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7277
+     Tied Marker DOMES Number : 50243S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS CAMPAIGN/LEVELLING/TRIANGULATION
+     Date Measured            : 2012-12-07T00:00Z
+     Additional Information   : Local survey by LINZ. Contact Paula Gentle
+                              : at pgentle@linz.govt.nz for more 
+                              : information.
+                              : resulting cartesian coordinates are (ITRF2008)
+                              : WARK -5115333.3149 477886.8944 -3767147.3447
+                              : IVP  -5115324.4218 477843.2955 -3767192.8254
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2009-01-23/2012-03-22
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2012-03-23/2012-07-11
+       Notes                  : on EXTERNAL H-MASER timing, using a feed from
+                              : the H-MASER at the radio telescope.
+                              : Data logging failure due to H-Maser issue
+                              : from 2012-07-04 to 2012-07-08.
+
+6.3  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2012-07-12/2013-03-04
+       Notes                  : 
+
+6.4  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2013-03-05/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 2009-01-23/CCYY-MM-DD
+       Notes                  : Warkworth radio telescope operated by Auckland
+                              : University of Technology.  Contact: Sergei
+                              : Gulyaev (sergei.gulyaev@aut.ac.nz).
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : VLBI ANTENNA
+       Effective Dates        : 2009-01-23/CCYY-MM-DD
+       Additional Information : The radio telescope is on a small hill about 
+                              : 60 m southeast of the GNSS antenna. The axis
+                              : intersection of the telescope is about 20 m
+                              : above the GNSS antenna. The sky obstruction 
+                              : is therefore about 30 degrees in the SE 
+                              : direction, and varies slightly with the 
+                              : orientation of the telescope. See Section 13
+                              : for web site with photos. 
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : GNS Science
+     Preferred Abbreviation   : GNS
+     Mailing Address          : 1 Fairway Drive, Avalon 5010,
+                              : PO Box 30-368, Lower Hutt
+                              : New Zealand
+     Primary Contact
+       Contact Name           : GeoNet reception
+       Telephone (primary)    : +64 4 570 1444
+       Telephone (secondary)  : 
+       Fax                    : +64 4 570 4676
+       E-mail                 : info@geonet.org.nz
+     Secondary Contact
+       Contact Name           : Elisabetta D'Anastasio
+       Telephone (primary)    : +64 4 570 4744
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : e.danastasio@gns.cri.nz
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Land Information New Zealand
+     Preferred Abbreviation   : LINZ
+     Mailing Address          : 155 The Terrace, PO Box 5501, Wellington 6145
+     Primary Contact
+       Contact Name           : LINZ Reception
+       Telephone (primary)    : +64 4 460 0110
+       Telephone (secondary)  : 
+       Fax                    : +64 4 472 2244
+       E-mail                 : positionz@linz.govt.nz
+     Secondary Contact
+       Contact Name           : Paula Gentle
+       Telephone (primary)    : +64 4 460 2757
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : pgentle@linz.govt.nz
+     Additional Information   : CGPS site is part of the LINZ PositioNZ Network
+                              : http://www.linz.govt.nz/positionz
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : www.geonet.org.nz
+     Hardcopy on File
+       Site Map               : See LINZ web site referenced below in
+       Site Diagram           : Additional Information.
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : Additional Information.
+                              : Additional Information.
+                              : Additional Information.
+                              : http://magma.geonet.org.nz/delta/app 
+                              : (then search for CGPS mark WARK)
+     Antenna Graphics with Dimensions
+
+TRM55971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----+-----/                        <--  0.0000  BAM=ARP
+
+  <--                    0.3396                   -->                  Notches
+
+
+
+
+

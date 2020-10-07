@@ -1,0 +1,540 @@
+
+     VILL00ESP Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mark van Kints
+     Date Prepared            : 2020-10-02
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : vill_20200406.log
+      Modified/Added Sections : 4.6
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Villafranca
+     Four Character ID        : VILL
+     Monument Inscription     : None
+     IERS DOMES Number        : 13406M001
+     CDP Number               : None
+     Monument Description     : PILLAR
+       Height of the Monument : 1 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1 m
+     Marker Description       : 
+     Date Installed           : 1994-11-12T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Villafranca
+     State or Province        : Madrid
+     Country                  : Spain
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4849833.874
+       Y coordinate (m)       : -335049.255
+       Z coordinate (m)       : 4116014.809
+       Latitude (N is +)      : +402636.93
+       Longitude (E is +)     : -0035707.13
+       Elevation (m,ellips.)  : 647.4
+     Additional Information   : At the ESA Villafranca Ground Station.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 109
+     Firmware Version         : 2.8
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1994-11-12T00:00Z
+     Date Removed             : 1996-07-03T23:59Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 109
+     Firmware Version         : 3.2.32.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1996-07-04T00:00Z
+     Date Removed             : 1999-07-29T13:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 109
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-07-29T13:00Z
+     Date Removed             : 2000-07-18T11:30Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.4  Receiver Type            : AOA SNR-8100 ACT
+     Satellite System         : GPS
+     Serial Number            : 107U
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2000-07-18T11:30Z
+     Date Removed             : 2001-04-23T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP020004504
+     Firmware Version         : NAV CD00,CHN 1D02*21
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2001-05-29T00:00Z
+     Date Removed             : 2004-12-03T08:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : 200347003
+     Firmware Version         : CJ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-12-03T08:00Z
+     Date Removed             : 2005-01-18T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.7  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP020004504
+     Firmware Version         : NAV CD00,CHN 1D02*21
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2005-01-18T10:00Z
+     Date Removed             : 2008-09-25T11:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.8  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC1200347003
+     Firmware Version         : NAV CD00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-09-25T12:00Z
+     Date Removed             : 2012-12-27T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.9  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001316
+     Firmware Version         : 2.3.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-12-27T10:15Z
+     Date Removed             : 2013-08-14T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.10 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001316
+     Firmware Version         : 2.5.1p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-08-14T10:05Z
+     Date Removed             : 2014-12-10T09:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.11 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001316
+     Firmware Version         : 2.5.2-esa3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-12-10T09:01Z
+     Date Removed             : 2015-08-27T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.12 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001316
+     Firmware Version         : 2.9.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-08-27T12:05Z
+     Date Removed             : 2016-10-21T14:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.13 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001316
+     Firmware Version         : 2.9.5-extref1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-10-21T14:01Z
+     Date Removed             : 2020-01-07T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.14 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 4503035
+     Firmware Version         : 5.3.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-01-07T12:30Z
+     Date Removed             : 2020-04-06T14:40Z
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.15 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 4503035
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-04-06T14:45Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- 1.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 200
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0437
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1994-11-12T00:00Z
+     Date Removed             : 2004-09-28T10:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 152
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0437
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2004-09-28T12:00Z
+     Date Removed             : 2006-11-29T09:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : CR620045041
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0437
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 150 m
+     Date Installed           : 2006-11-29T10:00Z
+     Date Removed             : 2007-04-18T08:00Z
+     Additional Information   : 
+
+4.4  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : CR620045041
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0437
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 129 m
+     Date Installed           : 2007-04-19T07:00Z
+     Date Removed             : 2012-12-27T10:00Z
+     Additional Information   : 
+
+4.5  Antenna Type             : SEPCHOKE_MC     NONE
+     Serial Number            : 5166
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0937
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew LDF2-50
+     Antenna Cable Length     : 100 m
+     Date Installed           : 2012-12-27T10:15Z
+     Date Removed             : 2020-01-07T12:00Z
+     Additional Information   : 
+
+4.6  Antenna Type             : SEPCHOKE_B3E6   NONE
+     Serial Number            : 5674
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0937
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew LDF2-50
+     Antenna Cable Length     : 100 m
+     Date Installed           : 2020-01-07T12:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1994-11-12/2012-12-27
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2012-12-27/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HUMICAP180
+       Manufacturer           : VAISALA (PTU-200)
+       Serial Number          : W5040016
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : 0 m
+       Calibration date       : 2001-12-17
+       Effective Dates        : 2002-07-04/2005-05-12
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : BAROCAP
+       Manufacturer           : VAISALA (PTU-200)
+       Serial Number          : W5040016
+       Data Sampling Interval : 
+       Accuracy               : 0.15 hPa
+       Height Diff to Ant     : 0.3 m
+       Calibration date       : 2001-12-17
+       Effective Dates        : 2002-07-04/2005-05-12
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : VAISALA (PTU-200)
+       Serial Number          : W5040016
+       Data Sampling Interval : 
+       Accuracy               : 0.3 deg C
+       Aspiration             : 
+       Height Diff to Ant     : 0.3 m
+       Calibration date       : 2001-12-17
+       Effective Dates        : 2002-07-04/2005-05-12
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : European Space Agency
+                              : European Space Operations Centre
+     Preferred Abbreviation   : ESOC
+     Mailing Address          : Robert-Bosch Str 5
+                              : 64293 Darmstadt
+                              : Germany
+     Primary Contact
+       Contact Name           : Mark van Kints
+       Telephone (primary)    : +49 6151 904069
+       Telephone (secondary)  : 
+       Fax                    : +49 6151 902271
+       E-mail                 : mark.van.kints@esa.int
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : X
+       Horizon Mask           : 
+       Monument Description   : X
+       Site Pictures          : X
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+SEPCHOKE_MC
+
+                     -------------                        <--  0.1060
+                    /             \
+                   |               |
+-------------------------------------------------------   <--  0.0620  TCR
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |
++------------------------+---+------------------------+   <--  0.0010  BCR
+                         +---+                            <--  0.0000  BAM=ARP
+
+<--                      0.3764                     -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+

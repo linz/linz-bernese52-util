@@ -1,9 +1,11 @@
+
      TCMS Site Information Form (site log)
      International GNSS Service
      See Instructions at:
-       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
+
      Prepared by (full name)  : Miao-Hsiang Peng
      Date Prepared            : 2012-01-31
      Report Type              : UPDATE
@@ -11,12 +13,14 @@
       Previous Site Log       : tcms_20050513.log
       Modified/Added Sections : 11
 
+
 1.   Site Identification of the GNSS Monument
+
      Site Name                : Hsinchu
      Four Character ID        : TCMS
      Monument Inscription     : NML2
      IERS DOMES Number        : 23604S002
-     CDP Number               : (A4)
+     CDP Number               : 
      Monument Description     : STEEL
        Height of the Monument : 1.87 m
        Monument Foundation    : ROOF
@@ -26,16 +30,18 @@
      Geologic Characteristic  : CLAY
        Bedrock Type           : SEDIMENTARY
        Bedrock Condition      : FRESH
-       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
-       Fault zones nearby     : (YES/NO/Name of the zone)
-         Distance/activity    : (multiple lines)
-     Additional Information   : (multiple lines)
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
 
 2.   Site Location Information
+
      City or Town             : Hsinchu
      State or Province        : Taiwan
-     Country                  : Republic of China
-     Tectonic Plate           : Eurasia plate
+     Country                  : Taiwan
+     Tectonic Plate           : EURASIAN
      Approximate Position (ITRF)
        X coordinate (m)       : -2982782.8539
        Y coordinate (m)       : 4966660.1585
@@ -43,7 +49,8 @@
        Latitude (N is +)      : +244752.7499
        Longitude (E is +)     : +1205914.6008
        Elevation (m,ellips.)  : 77.2607
-     Additional Information   : (multiple lines)
+     Additional Information   : 
+
 
 3.   GNSS Receiver Information
 
@@ -53,9 +60,9 @@
      Firmware Version         : 3.00
      Elevation Cutoff Setting : 4 deg
      Date Installed           : 2001-06-12T00:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Temperature Stabiliz.    : 19 to 21 deg C
-     Additional Information   : (multiple lines)
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 19 to 21 C
+     Additional Information   : 
 
 3.2  Receiver Type            : LEICA RS500
      Satellite System         : GPS
@@ -63,13 +70,13 @@
      Firmware Version         : 4.00
      Elevation Cutoff Setting : 4 deg
      Date Installed           : 2002-08-22T01:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Temperature Stabiliz.    : 19 to 21 deg C
-     Additional Information   : (multiple lines)
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 19 to 21 C
+     Additional Information   : 
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
-     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
-     Serial Number            : (A5)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
      Firmware Version         : (A11)
      Elevation Cutoff Setting : (deg)
      Date Installed           : (CCYY-MM-DDThh:mmZ)
@@ -77,14 +84,15 @@
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
 
+
 4.   GNSS Antenna Information
 
 4.1  Antenna Type             : LEIAT504        SCIS
      Serial Number            : 720
      Antenna Reference Point  : BPA
      Marker->ARP Up Ecc. (m)  : 0.0000
-     Marker->ARP North Ecc(m) : (F8.4)
-     Marker->ARP East Ecc(m)  : (F8.4)
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
      Alignment from True N    : +0 deg
      Antenna Radome Type      : SCIS
      Radome Serial Number     : 
@@ -92,22 +100,22 @@
      Antenna Cable Length     : 60 m
      Date Installed           : 2001-06-12T00:00Z
      Date Removed             : 2002-08-22T01:00Z
-     Additional Information   : (multiple lines)
+     Additional Information   : 
 
 4.2  Antenna Type             : LEIAT504        NONE
      Serial Number            : 720
      Antenna Reference Point  : BPA
      Marker->ARP Up Ecc. (m)  : 0.0000
-     Marker->ARP North Ecc(m) : (F8.4)
-     Marker->ARP East Ecc(m)  : (F8.4)
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
      Alignment from True N    : +0 deg
      Antenna Radome Type      : NONE
      Radome Serial Number     : 
      Antenna Cable Type       : LMR400
      Antenna Cable Length     : 60 m
      Date Installed           : 2002-08-22T01:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Additional Information   : (multiple lines)
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)
@@ -124,6 +132,7 @@
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 
+
 5.   Surveyed Local Ties
 
 5.x  Tied Marker Name         : 
@@ -139,44 +148,42 @@
      Date Measured            : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 
+
 6.   Frequency Standard
 
 6.1  Standard Type            : INTERNAL
-       Input Frequency        : (if external)
+       Input Frequency        : 
        Effective Dates        : 2001-06-12/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Notes                  : 
 
 6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
        Input Frequency        : (if external)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-7.   Collocation Information
 
-7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
-       Status                 : (PERMANENT/MOBILE)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
+7.   Collocation Information
 
 7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
        Status                 : (PERMANENT/MOBILE)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
+
 8.   Meteorological Instrumentation
 
-8.1.1 Humidity Sensor Model   : MET3A
+8.1.1  Humidity Sensor Model  : MET3A
        Manufacturer           : Paroscientific, Inc.
        Serial Number          : 81394
        Data Sampling Interval : 15 sec
-       Accuracy (% rel h)     : < 2 % rel h
+       Accuracy (% rel h)     : < 2
        Aspiration             : FAN
        Height Diff to Ant     : 0.43 m
-       Calibration date       : (CCYY-MM-DD)
+       Calibration date       : 2016-11-28T10:16Z
        Effective Dates        : 2001-11-28/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.1.x Humidity Sensor Model   : 
+8.1.x  Humidity Sensor Model  : 
        Manufacturer           : 
        Serial Number          : 
        Data Sampling Interval : (sec)
@@ -187,7 +194,7 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.2.1 Pressure Sensor Model   : MET3A
+8.2.1  Pressure Sensor Model  : MET3A
        Manufacturer           : Paroscientific, Inc.
        Serial Number          : 81394
        Data Sampling Interval : 15 sec
@@ -195,9 +202,9 @@
        Height Diff to Ant     : 0.11 m
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : 2001-11-28/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.2.x Pressure Sensor Model   : 
+8.2.x  Pressure Sensor Model  : 
        Manufacturer           : 
        Serial Number          : 
        Data Sampling Interval : (sec)
@@ -207,18 +214,18 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.3.1 Temp. Sensor Model      : MET3A
+8.3.1  Temp. Sensor Model     : MET3A
        Manufacturer           : Paroscientific, Inc.
        Serial Number          : 81394
        Data Sampling Interval : 15 sec
        Accuracy               : < 0.1 deg C
        Aspiration             : FAN
        Height Diff to Ant     : 0.43 m
-       Calibration date       : (CCYY-MM-DD)
+       Calibration date       : 
        Effective Dates        : 2001-11-28/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.3.x Temp. Sensor Model      : 
+8.3.x  Temp. Sensor Model     : 
        Manufacturer           : 
        Serial Number          : 
        Data Sampling Interval : (sec)
@@ -229,7 +236,7 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.4.1 Water Vapor Radiometer  : 
+8.4.x  Water Vapor Radiometer : 
        Manufacturer           : 
        Serial Number          : 
        Distance to Antenna    : (m)
@@ -238,51 +245,26 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.4.x Water Vapor Radiometer  : 
-       Manufacturer           : 
-       Serial Number          : 
-       Distance to Antenna    : (m)
-       Height Diff to Ant     : (m)
-       Calibration date       : (CCYY-MM-DD)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
+8.5.x  Other Instrumentation  : (multiple lines)
 
-8.5.1 Other Instrumentation   : (multiple lines)
 
-8.5.x Other Instrumentation   : (multiple lines)
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
 
-9.  Local Ongoing Conditions Possibly Affecting Computed Position
-
-9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
        Observed Degradations  : (SN RATIO/DATA GAPS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
-       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
-
-9.3.1 Signal Obstructions     : (TREES/BUILDLINGS/etc)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
-
-9.3.x Signal Obstructions     : (TREES/BUILDLINGS/etc)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
 
 10.  Local Episodic Effects Possibly Affecting Data Quality
-
-10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
-     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
 
 10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
      Event                    : (TREE CLEARING/CONSTRUCTION/etc)
@@ -307,12 +289,14 @@
        Telephone (secondary)  : 
        Fax                    : 886 3 572-6445
        E-mail                 : JohnLee@itri.org.tw
-     Additional Information   : (multiple lines)
+     Additional Information   : 
+
 
 12.  Responsible Agency (if different from 11.)
-     Agency                   : (multiple lines)
-     Preferred Abbreviation   : (A10)
-     Mailing Address          : (multiple lines)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
      Primary Contact
        Contact Name           : 
        Telephone (primary)    : 
@@ -325,20 +309,20 @@
        Telephone (secondary)  : 
        Fax                    : 
        E-mail                 : 
-     Additional Information   : (multiple lines)
+     Additional Information   : 
 
 13.  More Information
-     Primary Data Center      : SIO (Scripps Institution of Oceanography, USA)
-     Secondary Data Center    : JPL (Jet Propulsion Laboratory, USA)
+
+     Primary Data Center      : SIO
+     Secondary Data Center    : JPL
      URL for More Information : http://140.96.176.15/
      Hardcopy on File
-       Site Map               : (Y or URL)
-       Site Diagram           : (Y or URL)
-       Horizon Mask           : (Y or URL)
-       Monument Description   : (Y or URL)
-       Site Pictures          : (Y or URL)
-     Additional Information   : (multiple lines)
-
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
      Antenna Graphics with Dimensions
 
 LEIAT504
@@ -356,3 +340,4 @@ LEIAT504
                       |             |
                       +------x------+                       <-- 0.000  BPA=ARP
   <--                      0.3794                      -->
+

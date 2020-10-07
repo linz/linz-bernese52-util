@@ -1,0 +1,411 @@
+
+     FAA100PYF Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : M. van Kints
+     Date Prepared            : 2020-04-06
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : faa1_20191023.log
+      Modified/Added Sections : 3.10, 3.11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Tahiti-Faaa
+     Four Character ID        : FAA1
+     Monument Inscription     : 
+     IERS DOMES Number        : 92201M012
+     CDP Number               : None
+     Monument Description     : PILLAR
+       Height of the Monument : 1 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1 m
+     Marker Description       : 
+     Date Installed           : 2005-02-18T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : CORALLINE
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Mark at the center of a horizontal
+                              : metal plate embedded on the concrete
+                              : monument.
+
+
+2.   Site Location Information
+
+     City or Town             : Faaa
+     State or Province        : 
+     Country                  : French Polynesia
+     Tectonic Plate           : PACIFIC
+     Approximate Position (ITRF)
+       X coordinate (m)       : -5247393.111
+       Y coordinate (m)       : -3076867.223
+       Z coordinate (m)       : -1911521.528
+       Latitude (N is +)      : -173319.13
+       Longitude (E is +)     : -1493651.48
+       Elevation (m,ellips.)  : 12.35
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 340-0877
+     Firmware Version         : 2.5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-10-12T00:00Z
+     Date Removed             : 2008-02-20T00:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.2  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : LE5519
+     Firmware Version         : 3.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-02-20T00:00Z
+     Date Removed             : 2008-06-17T17:30Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.3  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : LE5519
+     Firmware Version         : 3.3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-06-17T17:40Z
+     Date Removed             : 2012-12-04T00:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.4  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001320
+     Firmware Version         : 2.3.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-12-05T00:00Z
+     Date Removed             : 2013-08-14T10:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.5  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001320
+     Firmware Version         : 2.5.1p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-08-14T10:05Z
+     Date Removed             : 2013-10-07T20:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.6  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001347
+     Firmware Version         : 2.5.1p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-10-07T20:05Z
+     Date Removed             : 2013-10-24T12:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.7  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001347
+     Firmware Version         : 2.5.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-10-24T12:05Z
+     Date Removed             : 2016-10-18T09:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.8  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001347
+     Firmware Version         : 2.9.5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-10-18T09:01Z
+     Date Removed             : 2018-07-09T13:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.9  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001293
+     Firmware Version         : 2.9.6
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-08-03T12:00Z
+     Date Removed             : 2019-10-22T19:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.10 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 4503018
+     Firmware Version         : 5.3.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-10-22T19:15Z
+     Date Removed             : 2020-04-06T14:40Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.11 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 4503018
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-04-06T14:45Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945B_M    NONE
+     Serial Number            : CR620045045
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1262
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew LDF2-50
+     Antenna Cable Length     : 65 m
+     Date Installed           : 2005-02-18T00:00Z
+     Date Removed             : 2012-12-04T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAR25.R4      NONE
+     Serial Number            : 725235
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.1262
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew LDF2-50
+     Antenna Cable Length     : 65 m
+     Date Installed           : 2012-12-05T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : 
+       Effective Dates        : 2012-12-05/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Meteo France
+     Preferred Abbreviation   : MeteoFrance
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : Mark van Kints
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : mark.van.kints@esa.int
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : ESA / ESOC
+     Preferred Abbreviation   : ESOC
+     Mailing Address          : Robert-Bosch-Strasse 5
+                              : D-64293
+                              : Darmstadt
+                              : Germany
+     Primary Contact
+       Contact Name           : W.Enderle
+       Telephone (primary)    : 49-6151-902272
+       Telephone (secondary)  : 
+       Fax                    : 49-6151-902271
+       E-mail                 : Werner.Enderle@esa.int
+     Secondary Contact
+       Contact Name           : M.van Kints
+       Telephone (primary)    : 49-6151-904069
+       Telephone (secondary)  : 
+       Fax                    : 49-6151-902271
+       E-mail                 : mark.van.kints@esa.int
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : http://nng.esoc.esa.de/gps/tahiti-faaa.html
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAR25.R4
+
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+(5/8" thread might differ from BPA!)                                                          
+  <--                    0.3802                   -->
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+

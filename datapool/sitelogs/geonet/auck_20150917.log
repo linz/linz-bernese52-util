@@ -1,0 +1,654 @@
+
+     AUCK Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Paula Gentle
+     Date Prepared            : 2015-09-17
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : auck_20150910.log
+      Modified/Added Sections : 3.12, 3.13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Whangaparaoa No 3
+     Four Character ID        : AUCK
+     Monument Inscription     : none
+     IERS DOMES Number        : 50209M001
+     CDP Number               : none
+     Monument Description     : CONCRETE PILLAR
+       Height of the Monument : 1.3 m
+       Monument Foundation    : REINFORCED CONCRETE BLOCK
+       Foundation Depth       : 1.2 m
+     Marker Description       : STAINLESS STEEL PLATE
+     Date Installed           : 1995-09-18T00:00Z
+     Geologic Characteristic  : Sandstone/mudstone
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : unknown
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : The site is in an area of early Miocene
+                              : (Waitemata group) sandstone and mudstone strata
+                              : with occasional volcaniclastic debris flows
+                              : (Parnell grit).  The strata are superficially
+                              : folded.  Basement is Jurassic greywacke at
+                              : about 200-300 m depth. 
+                              : Monument construction.  A hole was augered
+                              : through clayey soil to refusal at about 1.2 m
+                              : depth in compact sediments, and was widened at
+                              : the bottom by spade.  A small amount of
+                              : concrete was placed at the bottom, then a 2.4 m
+                              : long by 30 cm O.D. concrete tube was placed
+                              : vertically in the hole.  Three or four lengths
+                              : of reinforcing bar bent  over at their bottom
+                              : end were placed inside the yube.  Concrete was
+                              : poured to fill the hole external to the tube,
+                              : and the inside of the tube.  A 15 cm diameter
+                              : stainless plate with protruding 5/8"-11 screw
+                              : was set exactly horizontal in the top of the
+                              : concrete.  Height of pillar above pad is 1.27 m
+                              : to top corner of pillar, 1.28 m to the level of
+                              : the stainless plate.  The top concrete surface
+                              : of the pillar was deliberately made uneven to
+                              : reduce resonance effects between the top of the
+                              : pillar and the antenna. The surface of the
+                              : stainless plate serves as the height reference
+                              : point.
+
+
+2.   Site Location Information
+
+     City or Town             : Whangaparaoa Peninsula
+     State or Province        : Auckland
+     Country                  : New Zealand
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -5105681.0
+       Y coordinate (m)       : 461564.0
+       Z coordinate (m)       : -3782181.7
+       Latitude (N is +)      : -363610.08
+       Longitude (E is +)     : +1745003.84
+       Elevation (m,ellips.)  : 132.711
+     Additional Information   : Located at the NZ MetService automatic weather
+                              : station in the grounds of the Whangaparaoa Army/
+                              : Navy Camp.  Approx 1 hr drive north of Auckland.
+                              : Communication is by phone.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T132
+     Firmware Version         : 3.2, field config. 8, 95/02/28
+     Elevation Cutoff Setting : 
+     Date Installed           : 1995-09-18T00:00Z
+     Date Removed             : 1999-08-12T23:10Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T132
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 
+     Date Installed           : 1999-08-12T23:10Z
+     Date Removed             : 2001-10-27T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP419994102
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 
+     Date Installed           : 2001-10-28T02:17Z
+     Date Removed             : 2002-12-01T23:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : A receiver with choke-ring antenna was run at a
+                              : temporary site a few metres from AUCK for two
+                              : days before and after the exchange of the AUCK
+                              : receiver and antenna.  The data will be used to
+                              : determine whether there is any apparent position
+                              : offset associated with the exchange.
+
+3.4  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR220021105
+     Firmware Version         : ZC00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-12-02T00:00Z
+     Date Removed             : 2003-01-09T02:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Hardware failure on previous receiver.
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP419994102
+     Firmware Version         : CD00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2003-01-09T02:25Z
+     Date Removed             : 2005-11-03T02:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Replaced repaired receiver from item 3.3.
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4445240415
+     Firmware Version         : 1.03
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2005-11-03T04:09Z
+     Date Removed             : 2006-02-26T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Upgraded to Trimble NetRS
+
+3.7  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4435237653
+     Firmware Version         : 1.03
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2006-02-26T00:00Z
+     Date Removed             : 2006-03-11T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4435237653
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2006-03-11T00:00Z
+     Date Removed             : 2007-07-19T01:27Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4445240299
+     Firmware Version         : 1.15
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2007-07-19T01:27Z
+     Date Removed             : 2011-02-28T22:48Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5035K69859
+     Firmware Version         : 4.17
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-03-01T00:00Z
+     Date Removed             : 2012-06-14T05:32Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Upgraded to GNSS receiver
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5035K69859
+     Firmware Version         : 4.46
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-06-14T05:32Z
+     Date Removed             : 2015-09-09T16:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.12 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5035K69859
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-09T16:25Z
+     Date Removed             : 2015-09-17T16:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.13 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5035K69859
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-17T16:25Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 132
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0018
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1995-09-18T00:00Z
+     Date Removed             : 2001-10-27T23:59Z
+     Additional Information   : 
+
+4.2  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : 19993904
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0016
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2001-10-28T02:17Z
+     Date Removed             : 2005-11-03T02:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 00000000
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0550
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2005-11-03T04:09Z
+     Date Removed             : 2011-02-28T22:48Z
+     Additional Information   : Nearby station 5515 was occupied for several
+                              : days before and after the receiver/antenna
+                              : exchange, in order to calibrate any apparent
+                              : offset.
+
+4.4  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 1441047132
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0550
+     Marker->ARP North Ecc(m) : 0.0
+     Marker->ARP East Ecc(m)  : 0.0
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2011-02-28T23:59Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : A very nearby station was occupied for several
+                              : days before and after the receiver/antenna
+                              : swap, in order to calibrate any apparent offset.
+                              : Contact info@geonet.org.nz for the data.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 1334
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -161.445
+       dy (m)                 : 224.249
+       dz (m)                 : 228.493
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1995-06-01T00:00Z
+     Additional Information   : "1334" is the Geodetic Code of this monument in
+                              : the Land Information NZ Geodetic Database.
+
+5.2  Tied Marker Name         : 5515
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -131.026
+       dy (m)                 : 281.946
+       dz (m)                 : 209.539
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1995-06-01T00:00Z
+     Additional Information   : "5515" is the Geodetic Code of this monument in
+                              : the Land Information NZ Geodetic Database.
+
+5.3  Tied Marker Name         : 5515
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -131.018
+       dy (m)                 : 281.945
+       dz (m)                 : 209.546
+     Accuracy (mm)            : 2 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1996-12-30T00:00Z
+     Additional Information   : The difference between the 1995 and 1996
+                              : differential components is almost purely in
+                              : height, and is possibly a processing artifact.
+                              : Additional ties were done in 2000, and all sets
+                              : of ties will be reprocessed in ITRF2000 in the
+                              : near future.
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1995-09-18/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MP300
+       Manufacturer           : Rotronic
+       Serial Number          : unknown
+       Data Sampling Interval : 3600 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : -8 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-01-01/2013-11-25
+       Notes                  : The height difference to antenna accuracy is +-
+                              : 2 m.
+                              : Met sensors are at the NZ MetService automatic
+                              : weather station, and predate the installation of
+                              : the GPS receiver. The sensors are calibrated
+                              : annually by NZ MetService.
+                              : Start and end date don't reflect the effective
+                              : one, which are unknown. For any further
+                              : required info please contact NZ MetService.
+
+8.1.2  Humidity Sensor Model  : HMP45A
+       Manufacturer           : VAISALA
+       Serial Number          : Y2110032
+       Data Sampling Interval : 60 sec
+       Accuracy (% rel h)     : ±2 0-90% range & ±3 from 90-100% range
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -30 m
+       Calibration date       : 2013-05-05T00:00Z
+       Effective Dates        : 2013-11-26/CCYY-MM-DD
+       Notes                  : Met sensors are runned by NZ MetService.
+                              : Sensors are co-located to the site, but not
+                              : connected to the GNSS receiver. 
+                              : Combined Humidity and Air Temperature sensor.
+                              : Antenna to height difference accuracy is +- 2 m.
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : ACT 30B/TX410
+       Manufacturer           : KDG Instruments
+       Serial Number          : unknown
+       Data Sampling Interval : 3600 sec
+       Accuracy               : 0.3 hPa
+       Height Diff to Ant     : -8 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-01-01/2013-11-25
+       Notes                  : The height difference to antenna accuracy is +-
+                              : 2 m.
+                              : Met sensors are at the NZ MetService automatic
+                              : weather station, and predate the installation of
+                              : the GPS receiver. The sensors are calibrated
+                              : annually by NZ MetService.
+                              : Start and end date don't reflect the effective
+                              : one, which are unknown. For any further
+                              : required info please contact NZ MetService.
+
+8.2.2  Pressure Sensor Model  : PTB220
+       Manufacturer           : VAISALA
+       Serial Number          : D0840009-1
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.15 hPa
+       Height Diff to Ant     : -30 m
+       Calibration date       : 2013-09-23T00:00Z
+       Effective Dates        : 2013-11-26/CCYY-MM-DD
+       Notes                  : Met sensors are runned by NZ MetService.
+                              : Sensors are co-located to the site, but not
+                              : connected to the GNSS receiver.
+                              : Combined Humidity and Air Temperature sensor.
+                              : Antenna to height difference accuracy is +- 2 m.
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : YSI 703 series
+       Manufacturer           : Yellow Springs Instruments
+       Serial Number          : unknown
+       Data Sampling Interval : 3600 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : 
+       Height Diff to Ant     : -8 m
+       Calibration date       : 
+       Effective Dates        : 1995-01-01/2013-11-25
+       Notes                  : Temperatures are reported to the nearest degree.
+                              : The height difference to antenna accuracy is +-
+                              : 2 m.
+                              : Met sensors are at the NZ MetService automatic
+                              : weather station, and predate the installation of
+                              : the GPS receiver. The sensors are calibrated
+                              : annually by NZ MetService.
+                              : Start and end date don't reflect the effective
+                              : one, which are unknown. For any further
+                              : required info please contact NZ MetService.
+
+8.3.2  Temp. Sensor Model     : HMP45A
+       Manufacturer           : VAISALA
+       Serial Number          : Y2110032
+       Data Sampling Interval : 60 sec
+       Accuracy               : 0.2 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : -30 m
+       Calibration date       : 2013-05-02T00:00Z
+       Effective Dates        : 2013-11-26/CCYY-MM-DD
+       Notes                  : Met sensors are runned by NZ MetService.
+                              : Sensors are co-located to the site, but not
+                              : connected to the GNSS receiver. 
+                              : Accuracy measured at 20 dec C.
+                              : Combined Humidity and Air Temperature sensor.
+                              : Antenna to height difference accuracy is +- 2 m.
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : GNS Science
+     Preferred Abbreviation   : GNS
+     Mailing Address          : GNS Science
+                              : 1 Fairway Drive, Avalon
+                              : PO Box 30368, Lower Hutt
+                              : New Zealand
+     Primary Contact
+       Contact Name           : GeoNet Reception
+       Telephone (primary)    : +64 4 570 1444
+       Telephone (secondary)  : 
+       Fax                    : +64 4 570 4676
+       E-mail                 : info@geonet.org.nz
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Land Information New Zealand and GNS Science
+     Preferred Abbreviation   : LINZ
+     Mailing Address          : 155 The Terrace, PO Box 5501, Wellington 6145,
+                              : New Zealand
+     Primary Contact
+       Contact Name           : Paula Gentle
+       Telephone (primary)    : +64 4 460 0110
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : positionz@linz.govt.nz
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : The site has been established by GNS Science 
+                              : and is now part of the LINZ PositioNZ Network
+                              : (http://www.linz.govt.nz/positionz)
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : www.geonet.org.nz
+     Hardcopy on File
+       Site Map               : GNS file 45/1/4-AUCK
+       Site Diagram           : GNS file 45/1/4-AUCK
+       Horizon Mask           : No obstructions.
+       Monument Description   : GNS file 45/1/4-AUCK
+       Site Pictures          : GNS file 45/1/4-AUCK
+     Additional Information   : GNS file 45/1/4-AUCK
+                              : Additional Information could be found at 
+                              : http://magma.geonet.org.nz/delta/app 
+                              : (then search for CGPS mark AUCK)
+     Antenna Graphics with Dimensions
+
+
+
+TRM41249.00
+
+    / ----------------------+--------------------- \   <--  0.0714  L1
+   +                        +                       +  <--  0.0682  L2
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=BAM
+
+   <--                   0.3396                  -->
+
+TRM55971.00
+
+   / --------------------------------------------- \
+  +                                                 +
+   \ --------------------------------------------- /
+                   \               /
+                    \             /
+                     \-----+-----/                        <--  0.0000  BAM=ARP
+
+  <--                    0.3396                   -->                  Notches
+
+

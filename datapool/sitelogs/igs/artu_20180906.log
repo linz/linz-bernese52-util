@@ -1,0 +1,357 @@
+
+     ARTU00RUS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Grigory Steblov
+     Date Prepared            : 2018-09-06
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : artu_20130131.log
+      Modified/Added Sections : 3.1, 3.2, 11, 12
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Arti
+     Four Character ID        : ARTU
+     Monument Inscription     : (none)
+     IERS DOMES Number        : 12362M001
+     CDP Number               : 
+     Monument Description     : 
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 1999-08-06T00:00Z
+     Geologic Characteristic  : Pre-Uralian foredeep
+       Bedrock Type           : ACCRETIONARY COMPLEX
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : over 200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Arti is located about 150 km to the west of
+                              : the Main Uralian fault dividing Europe and
+                              : Asia.
+                              : This station is part of NEDA
+                              : Deformation Array created and run by
+                              : RUSEG
+                              : by GPS Technology. NEDA operational control
+                              : is provided by RDAAC
+                              : Acquisition/Analysis Center (Moscow). RDAAC
+                              : is also IGS Operational Center for NEDA.
+                              : RUSEG is a collaborative project of Lamont-
+                              : Doherty Earth Observatory and Russian Academy
+                              : of Sciences supported through the IRIS
+                              : Consortium and JPL.
+                              : The GPS reference mark consists of
+                              : 5/8-11" diameter, vertical rod of the
+                              : stainless steel.
+                              : The rod is glued into the flat roof of
+                              : Geophysical Observatory Arti. The Observatory
+                              : belongs to Institute of Geophysics,
+                              : the Urals Division of Russian Academy of Sci.
+                              : The roof is made of the reinforced concrete.
+                              : The 1-floor building is made of bricks.
+                              : Vertical datum
+                              : of the rod.
+                              : The antenna is attached to the rod with
+                              : UNAVCO compact leveling mount. The antenna
+                              : and the choke-ring assembly are protected
+                              : with the JPL hemispherical radome.
+
+
+2.   Site Location Information
+
+     City or Town             : Arti
+     State or Province        : Ekaterinburg region
+     Country                  : Russian Federation
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1843956.968
+       Y coordinate (m)       : 3016202.970
+       Z coordinate (m)       : 5291261.660
+       Latitude (N is +)      : +562547.36
+       Longitude (E is +)     : +0583337.63
+       Elevation (m,ellips.)  : 247.511
+     Additional Information   : GAMIT Solution ITRF94. Epoch 1996.5845
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP03316
+     Firmware Version         : NAV CC00 CH 1D02
+     Elevation Cutoff Setting : 
+     Date Installed           : 1999-08-05T00:00Z
+     Date Removed             : 2018-09-06T05:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Model 700845-10F (Z-12 CGRS)
+
+3.2  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 02668
+     Firmware Version         : 3.6.9 Nov,28,2016
+     Elevation Cutoff Setting : 
+     Date Installed           : 2018-09-06T09:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936D_M    DOME
+     Serial Number            : CR13077
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0796
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1999-08-06T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna Diagram below
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : ARTB
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -72.608
+       dy (m)                 : -4.469
+       dz (m)                 : 26.138
+     Accuracy (mm)            : 1 mm
+     Survey method            : 
+     Date Measured            : 1999-10-01T00:00Z
+     Additional Information   : GAMIT solution of simultaneous GPS
+                              : observations (baseline mode in sestbl.).
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1999-08-06/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2012-02-07/2012-02-07
+     Event                    : Transition from .soc to .ash data types.
+                              : For soc data types used soc2rnx to do the
+                              : conversion to RINEX data. For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX data.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geophysical Observatory Arti
+     Preferred Abbreviation   : GOA
+     Mailing Address          : 2A Geofizicheskaya ul.
+                              : 623350 Arti
+                              : Ekaterinburg Region, RUSSIA
+     Primary Contact
+       Contact Name           : Oleg Kusonskiy
+       Telephone (primary)    : +7 343-952-1638 work
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : zavlab@aru.gssc.rssi.ru
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : RDAAC/JPL/IRIS
+     Preferred Abbreviation   : 
+     Mailing Address          : 6-3 Universitetskiy Prospect
+                              : 117333 Moscow, RUSSIA
+     Primary Contact
+       Contact Name           : Grigory Steblov
+       Telephone (primary)    : +7 903 1529610
+       Telephone (secondary)  : +7 484 3920181
+       Fax                    : 
+       E-mail                 : steblov@gps.gsras.ru
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : SIO
+     URL for More Information : http://gps.gsras.ru
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : (Y)
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : Hardcopy Information available from
+                              : Responsible Agency
+     Antenna Graphics with Dimensions
+
+
+
+                 Ashtech: DORNE MARGOLIN
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  ARP
+
+<--                      0.381                       -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+

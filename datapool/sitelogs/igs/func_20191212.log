@@ -1,0 +1,457 @@
+
+     FUNC00PRT Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Ana Carla Bernardes
+     Date Prepared            : 2019-12-12
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : func_20170420.log
+      Modified/Added Sections : 3.11, 3.12, 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Funchal
+     Four Character ID        : FUNC
+     Monument Inscription     : None
+     IERS DOMES Number        : 13911S001
+     CDP Number               : 
+     Monument Description     : STEEL MAST
+       Height of the Monument : 8 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 2006-07-21T00:00Z
+     Geologic Characteristic  : BASALT LAVA
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : Portuguese Permanent GNSS Network (ReNEP)
+                              : The GPS station is located on the terrace of
+                              : an old building, supported by a metal structure
+                              : The substract is composed by basalt lava flows
+                              : inclined to south.The flow belongs to the more
+                              : recent unit vulcano-stratigraphic from Madeira
+                              : Island
+                              : (between 1 to 1.5 million years until now)
+
+
+2.   Site Location Information
+
+     City or Town             : Funchal
+     State or Province        : Madeira Island-Madeira
+     Country                  : Portugal
+     Tectonic Plate           : AFRICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 5143339.430
+       Y coordinate (m)       : -1563412.870
+       Z coordinate (m)       : 3421191.440
+       Latitude (N is +)      : +323852.61
+       Longitude (E is +)     : -0165427.42
+       Elevation (m,ellips.)  : 78.5
+     Additional Information   : ITRF93
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : LEICA RS500
+     Satellite System         : GPS
+     Serial Number            : 80278
+     Firmware Version         : 4.20/1.39
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2006-07-21T00:00Z
+     Date Removed             : 2007-10-12T14:00Z
+     Temperature Stabiliz.    : 22.5 +/- 2.5
+     Additional Information   : 
+
+3.2  Receiver Type            : LEICA SR520
+     Satellite System         : GPS
+     Serial Number            : 20329
+     Firmware Version         : 5.00/1.33
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2007-10-12T14:00Z
+     Date Removed             : 2008-04-02T13:00Z
+     Temperature Stabiliz.    : 22.5 +/- 2.5
+     Additional Information   : 
+
+3.3  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 5.62/3.014
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-04-04T12:00Z
+     Date Removed             : 2008-08-18T11:30Z
+     Temperature Stabiliz.    : 22.5 +/- 2.5
+     Additional Information   : 
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 6.00/3.015
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-08-18T11:30Z
+     Date Removed             : 2009-04-02T10:35Z
+     Temperature Stabiliz.    : 22.5 +/- 2.5
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 7.02/3.016
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-04-02T10:35Z
+     Date Removed             : 2009-04-22T15:45Z
+     Temperature Stabiliz.    : 22.5 +/- 2.5
+     Additional Information   : 
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 7.02/3.017
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-04-22T15:45Z
+     Date Removed             : 2010-10-06T08:15Z
+     Temperature Stabiliz.    : 22.5 +/- 2.5
+     Additional Information   : 
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 7.02/3.019
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-10-06T17:30Z
+     Date Removed             : 2013-01-24T11:42Z
+     Temperature Stabiliz.    : 22.5 +/- 2.5
+     Additional Information   : 
+
+3.8  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 8.51/3.019
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2013-01-24T11:58Z
+     Date Removed             : 2014-06-18T14:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 8.51/3.054
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2014-06-18T14:47Z
+     Date Removed             : 2016-12-29T12:32Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.10 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 8.51/3.055
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2016-12-29T12:46Z
+     Date Removed             : 2017-04-20T11:31Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 355290
+     Firmware Version         : 9.20/3.823
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2017-04-20T11:52Z
+     Date Removed             : 2019-12-12T16:50Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.12 Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 355290
+     Firmware Version         : 9.20/3.823
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-12-12T16:50Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0220223328
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2006-07-21T00:00Z
+     Date Removed             : 2008-04-02T13:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAT504GG      NONE
+     Serial Number            : 200455
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2008-04-04T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2006-07-21/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : Met3
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ80812
+       Data Sampling Interval : 900 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : -0.2 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2006-07-21/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Met3
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ80812
+       Data Sampling Interval : 900 sec
+       Accuracy               : 1 hPa
+       Height Diff to Ant     : -0.2 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2006-07-21/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : Met3
+       Manufacturer           : Paroscientific
+       Serial Number          : DQ80812
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.5 deg C
+       Aspiration             : 
+       Height Diff to Ant     : -0.2 m
+       Calibration date       : 
+       Effective Dates        : 2006-07-21/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Direcao-Geral do Territorio
+     Preferred Abbreviation   : DGT
+     Mailing Address          : Rua Artilharia Um 107
+                              : 1099-052 Lisboa
+                              : Portugal
+     Primary Contact
+       Contact Name           : Helena Ribeiro
+       Telephone (primary)    : +351 21 381 9600 ext. 251
+       Telephone (secondary)  : 
+       Fax                    : +351 21 381 9699
+       E-mail                 : hribeiro@dgterritorio.pt
+     Secondary Contact
+       Contact Name           : Ana Carla Bernardes
+       Telephone (primary)    : +351 21 381 9600 ext. 220
+       Telephone (secondary)  : 
+       Fax                    : +351 21 381 9699
+       E-mail                 : abernardes@dgterritorio.pt
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : 
+     URL for More Information : http://www.dgterritorio.pt
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAT504GG
+L1/L2 Dorne Margolin antenna with chokerings
+(designed after DORNE MARGOLIN T)
+                       +-------+                          <-- 0.1393
+                     /     +                             <-- 0.1159 L2
+                    |      +      |                       <-- 0.0854 L1
+  +-----------------+-------------+------------------+    <-- 0.1012 TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+
++-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                    |             |
+                    |             |
+                    +------x------+                       <-- 0.0 BPA=ARP
+
+<--                      0.3794                      -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+TCR: Top of Chokering                  BCR: Bottom of Chokering
+BPA: Bottom of Preamplifier
+

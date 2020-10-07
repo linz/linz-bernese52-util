@@ -1,0 +1,512 @@
+
+     REUN00REU Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : RGP Team
+     Date Prepared            : 2020-02-13
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : reun00fra_20190319.log
+      Modified/Added Sections : 3.16, 3.17
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : La Reunion - Observatoire Volcanologique
+     Four Character ID        : REUN
+     Monument Inscription     : NONE
+     IERS DOMES Number        : 97401M003
+     CDP Number               : NONE
+     Monument Description     : CONCRETE PILLAR WITH BRASS MARK ON TOP
+       Height of the Monument : 1.2 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 0.8 m
+     Marker Description       : HEMISPHERIC BRASS MARKER
+     Date Installed           : 1998-12-16T10:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : IGNEOUS
+       Bedrock Condition      : FRESH
+       Fracture Spacing       : 11-50 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
+
+
+2.   Site Location Information
+
+     City or Town             : Le Tampon
+     State or Province        : La Reunion (974)
+     Country                  : France
+     Tectonic Plate           : AFRICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3364099.1673
+       Y coordinate (m)       : 4907944.4587
+       Z coordinate (m)       : -2293466.8970
+       Latitude (N is +)      : -211230.00
+       Longitude (E is +)     : +0553418.00
+       Elevation (m,ellips.)  : 1558.4
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX00124
+     Firmware Version         : ZT12-0057
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 1998-12-15T00:00Z
+     Date Removed             : 2003-11-17T20:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH Z18
+     Satellite System         : GPS+GLO
+     Serial Number            : ZX00105
+     Firmware Version         : ZT17-0065
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2003-11-19T12:00Z
+     Date Removed             : 2008-05-19T10:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z-X
+     Satellite System         : GPS
+     Serial Number            : ZE1200350005
+     Firmware Version         : ZB00
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-05-20T00:00Z
+     Date Removed             : 2008-12-03T05:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4825K56763
+     Firmware Version         : 3.60
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2008-12-03T12:00Z
+     Date Removed             : 2009-08-11T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4917K61722
+     Firmware Version         : 4.03
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2009-08-12T05:00Z
+     Date Removed             : 2011-03-24T06:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4917K61722
+     Firmware Version         : 4.22
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-03-24T06:00Z
+     Date Removed             : 2011-06-17T12:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.22
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-06-17T13:00Z
+     Date Removed             : 2011-08-29T06:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2011-08-29T06:00Z
+     Date Removed             : 2012-03-02T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.42
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-03-02T00:00Z
+     Date Removed             : 2012-05-31T07:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.60
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2012-05-31T07:00Z
+     Date Removed             : 2013-02-11T07:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.11 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.70
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-02-11T07:00Z
+     Date Removed             : 2013-10-17T14:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.12 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.81
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2013-10-17T14:00Z
+     Date Removed             : 2014-03-26T14:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.13 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 3 deg
+     Date Installed           : 2014-03-26T14:00Z
+     Date Removed             : 2015-09-30T09:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.14 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 4.85
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-30T09:00Z
+     Date Removed             : 2018-08-27T13:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.15 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 5.33
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-08-27T13:00Z
+     Date Removed             : 2019-03-13T14:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.16 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 5049K72288
+     Firmware Version         : 5.37
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-03-13T14:30Z
+     Date Removed             : 2020-02-13T10:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.17 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3015948
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-02-13T10:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701073.3     NONE
+     Serial Number            : CRG1998380107
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0610
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1998-12-15T00:00Z
+     Date Removed             : 2003-04-04T10:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : ASH701073.3     NONE
+     Serial Number            : CRG1998380106
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0610
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : ASHTECH
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2003-04-04T10:00Z
+     Date Removed             : 2008-12-03T05:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30976568
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 000.0610
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : HUBER+SUHNER
+     Antenna Cable Length     : 60 m
+     Date Installed           : 2008-12-03T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Use of GPS amplifier(GPSNetworking - LA20 type)
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : REUA
+     Tied Marker Usage        : DORIS
+     Tied Marker CDP Number   : none
+     Tied Marker DOMES Number : 97401S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -5.3753
+       dy (m)                 : -1.0432
+       dz (m)                 : -15.3940
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS SURVEY/LEVELLING
+     Date Measured            : 1998-12-17T10:00Z
+     Additional Information   : Reference point for DORIS antenna is ARP
+
+5.2  Tied Marker Name         : REUB
+     Tied Marker Usage        : DORIS
+     Tied Marker CDP Number   : none
+     Tied Marker DOMES Number : 97401S002
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -5.8223
+       dy (m)                 : -1.6882
+       dz (m)                 : -15.1210
+     Accuracy (mm)            : 1 mm
+     Survey method            : GPS SURVEY/LEVELLING
+     Date Measured            : 1998-12-17T10:00Z
+     Additional Information   : Reference point for DORIS antenna is ARP
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1997-10-14/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1987-01-01/1998-12-10
+       Notes                  : REUA station
+
+7.2  Instrumentation Type     : DORIS
+       Status                 : PERMANENT
+       Effective Dates        : 1998-12-16/CCYY-MM-DD
+       Notes                  : REUB station
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2011-07-07/CCYY-MM-DD
+     Event                    : TREE CLEARING
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : IPG - Observatoire volcanologique du Piton
+                              : de la Fournaise
+     Preferred Abbreviation   : IPG
+     Mailing Address          : 14 RN3 - Bourg Murat
+                              : 97418 La Plaine des Cafres
+                              : La Reunion France
+     Primary Contact
+       Contact Name           : Ph. KOWALSKI
+       Telephone (primary)    : 00 33 (0)2 62 27 52 92
+       Telephone (secondary)  : 00 33 (0)6 92 87 73 05
+       Fax                    : 00 33 (0)2 62 59 12 04
+       E-mail                 : philippe.kowalski@univ-reunion.fr
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Institut Geographique National
+     Preferred Abbreviation   : IGN-SGN
+     Mailing Address          : 73 avenue de Paris
+                              : 94160 Saint-Mandé FRANCE
+     Primary Contact
+       Contact Name           : RGP Team
+       Telephone (primary)    : 00 33 (0)1 43 98 83 39
+       Telephone (secondary)  : 
+       Fax                    : 00 33 (0)1 43 98 84 50
+       E-mail                 : rgpadmin@ign.fr
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : IGN / Saint-Mandé
+     Secondary Data Center    : CDDIS
+     URL for More Information : http://rgp.ign.fr/
+     Hardcopy on File
+       Site Map               : http://rgp.ign.fr/
+       Site Diagram           : (Y)
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : (Y)
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TRM55971.00
+
+    / ----------------------+--------------------- \   
+   +                        +                       +  
+    \ -------------------------------------------- /   
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=BAM
+
+   <--                   0.3396                  -->
+
+

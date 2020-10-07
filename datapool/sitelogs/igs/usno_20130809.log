@@ -1,0 +1,587 @@
+     USNO Site Information Form
+     International GNSS Service 
+     See Instructions at:
+       ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
+
+
+0.   Form
+
+     Prepared by (full name)  : cors-adm
+     Date Prepared            : 2013-08-09
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : usno_20100325.log
+      Modified/Added Sections : 2 4.1 4.2
+
+
+1.  Site Identification of the GNSS Monument
+
+     Site Name                : U.S. Naval Observ
+     Four Character ID        : USNO
+     Monument Inscription     : no monument, ARP
+     IERS DOMES Number        : 40451S003
+     CDP Number               : NONE
+     Monument Description     : Rod in a mortar rooftop parapet
+       Height of the Monument : (m)
+       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
+       Foundation Depth       : (m)
+     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     Date Installed           : 1997-04-24
+     Geologic Characteristic  : on edge of roof of 3-story building
+       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
+       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
+       Fault zones nearby     : (YES/NO/Name of the zone)
+         Distance/activity    : (multiple lines)
+     Additional Information   : (multiple lines)
+                              : The antenna is mounted near the edge of the
+                              : roof (flat) of Building 52 (3 stories) at
+                              : the U.S. Naval Observatory inside Washington,
+                              : DC.  There are no nearby geodetic markers or
+                              : control points.
+
+
+2.   Site Location Information
+
+     City or Town             : Washington
+     State or Province        : District of Columbia
+     Country                  : United States
+     Tectonic Plate           : North American
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1112189.773
+       Y coordinate (m)       : -4842955.026
+       Z coordinate (m)       : 3985352.266
+       Latitude (N is +)      : +385508.27
+       Longitude (E is +)     : -0770358.41
+       Elevation (m,ellips.)  : 48.9
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Published by the IGS in Nov 2010.
+
+
+3.  GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : T246
+     Firmware Version         : 3.2.32.4
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1997-04-24
+     Date Removed             : 1999-08-13T14:46Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : 24-APR-1997 to 12-AUG-1998
+                              : the clock vault of Bldg 52A.  The space is
+                              : environmental controlled but not stringently.
+                              : 12-AUG-1998 to present
+                              : environmentally controlled chamber within the
+                              : clock vault (Bldg 52A); specs are +/- 0.15 C
+                              : for temp. and +/- 1% for rel. humidity.
+
+3.2  Receiver Type            : ROGUE SNR-12 RM
+     Satellite System         : GPS
+     Serial Number            : T246
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-08-13T14:46Z
+     Date Removed             : 1999-10-26T19:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : firmware update only; no other change
+
+3.3  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : 245-U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-10-26T20:15Z
+     Date Removed             : 1999-11-29T15:50Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : continues to be located in environmentally
+                              : controlled chamber
+
+3.4  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : 246-U
+     Firmware Version         : 3.3.32.3
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 1999-11-29T16:10Z
+     Date Removed             : 2000-06-29T15:15Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : continues to be located in environmentally
+                              : controlled chamber
+
+3.5  Receiver Type            : AOA SNR-12 ACT
+     Satellite System         : GPS
+     Serial Number            : 246-U
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2000-06-29T15:15Z
+     Date Removed             : 2002-03-12T15:15Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : firmware update only; no other change
+
+3.6  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT919994503
+     Firmware Version         : 1L01-1D04
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : 2002-03-12T15:35Z
+     Date Removed             : 2008-08-19T16:07Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : no other changes (environmentally controlled
+                              : chamber still in use)
+
+3.7  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT920013104
+     Firmware Version         : 1L01-1D04 Beta
+     Elevation Cutoff Setting : 5
+     Date Installed           : 2008-08-19T16:07Z
+     Date Removed             : 2009-09-18T00:00Z
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : no other changes (environmentally controlled
+                              : chamber still in use)
+
+3.8  Receiver Type            : ASHTECH Z-XII3T
+     Satellite System         : GPS
+     Serial Number            : RT919994503
+     Firmware Version         : 1L01-1D04
+     Elevation Cutoff Setting : 10
+     Date Installed           : 2009-09-19T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (environmentally controlled chamber still
+                                in use)
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.  GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 309
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000 
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : oriented North but not measured
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1997-04-24
+     Date Removed             : 1998-11-12
+     Additional Information   : (multiple lines)
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 309
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000 
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : oriented North but not measured
+     Antenna Radome Type      : NONE
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : 1998-11-12
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : Antenna removed at ~13:45 UTC to repair the
+                              : parapet coping (painted metal) on the roof
+                              : edge immediately below the antenna.  The
+                              : same antenna was reinstalled in the same
+                              : location about 30 minutes later.
+                              : Antenna cable changed on 14-OCT-1999.  The
+                              : cable type (Andrew FSJ1-50A) and specs
+                              : remain unchanged.  
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     :
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.  Surveyed Local Ties
+
+5.1  Tied Marker Name         : none
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : none
+     Tied Marker DOMES Number :
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+5.x  Tied Marker Name         :
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 :
+       dy (m)                 :
+       dz (m)                 :
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : steered H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1997-04-24/CCYY-MM-DD
+       Notes                  : reference signal from an H-maser (MC3) located
+                              : in Bldg 52 which is steered to the USNO Master
+                              : Clock (MC2), the realization of UTC(USNO);
+                              : calibration data for MC3-MC2 are available;
+                              : calibration of clock offset between MC3 and
+                              : GPS receiver being investigated. Cable for 5MHz
+                              : signal is RG-223 with thermal coeff. of 3000
+                              : PPM over (+10 to 30 C range) or 150 PPM/C. The
+                              : 1 PPS output signal is monitored and compared
+                              : with reference to determine clock offsets when
+                              : receiver resets.
+                              : On 12-NOV-1988 the trigger level for the 1 PPS
+                              : monitoring was changed from 1 V to 0.5 V.
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : none
+       Status                 :
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  :
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : Lithium chloride dew point units
+       Manufacturer           : Honeywell probes/General Eastern units;
+       Serial Number          :
+       Data Sampling Interval : 10 sec
+       Accuracy (% rel h)     : dew point to 5 deg F
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (1997-04-24/2001-06-13)
+       Notes                  : probes are treated with lithium chloride
+                              : activated solution and dried
+
+8.1.2  Humidity Sensor Model  : Thin film capacitor
+       Manufacturer           : RainWise Remote Weather Data Logger
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy (% rel h)     : 2% at 25 C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (2001-06-15/2001-07-25)
+       Notes                  :
+
+8.1.3  Humidity Sensor Model  : Weather Report Logger (WRL-25)
+       Manufacturer           : Texas Weather Instruments
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy (% rel h)     : 2%
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (2001-07-25/2001-08-21)
+       Notes                  :
+
+8.1.4  Humidity Sensor Model  : HUMICA H-sensor (pn 16663)
+       Manufacturer           : Vaisala
+       Serial Number          :
+       Data Sampling Interval : 15 seconds
+       Accuracy (% rel h)     : +/-1%(0...90%RH)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-21/CCYY-MM-DD
+       Notes                  : NOAA GSOS # 062
+
+8.1.x  Humidity Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : Digital barometer (model 361)
+       Manufacturer           : Setra
+       Serial Number          :
+       Data Sampling Interval : 10 sec
+       Accuracy               : 0.1 mm mercury
+       Height Diff to Ant     : unknown
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (1997-04-24/2001-06-13)
+       Notes                  : all met sensors are located at USNO in
+                              : Building 7 (the Transit House for 6-inch
+                              : transit circle); air temp, air pressure, and
+                              : dew point read every 10 seconds; contact for
+                              : met data is Theodore J. Rafferty, Astrometry
+                              : Dept., USNO (TJR@sicon.usno.navy.mil)
+
+8.2.2  Pressure Sensor Model  : Digital barometer
+       Manufacturer           : RainWise Remote Weather Data Logger
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy               : 0.1 mbar
+       Height Diff to Ant     : unknown
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (2001-06-15/2001-07-25)
+       Notes                  : met sensors are located at USNO on rooftop
+                              : of Building 78 (Time Service)
+
+8.2.3  Pressure Sensor Model  : Weather Report Logger (WRL-25)
+       Manufacturer           : Texas Weather Instruments
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy               : 10 mbar
+       Height Diff to Ant     : unknown
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (2001-07-25/2001-08-21)
+       Notes                  : met sensors are located at USNO on rooftop
+                              : of Building 78 (Time Service)
+
+8.2.4  Pressure Sensor Model  : PTB220
+       Manufacturer           : Vaisala
+       Serial Number          :
+       Data Sampling Interval : 15 seconds
+       Accuracy               : +/-0.1 mbar
+       Height Diff to Ant     : -0.724 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-21/CCYY-MM-DD
+       Notes                  : met sensors are located at USNO on rooftop
+                              : of Building 52A (opposite end from GPS ant)
+                              : NOAA GSOS # 062
+
+8.2.x  Pressure Sensor Model  :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : Platium Res Probes (model CT-807-A)
+       Manufacturer           : Hy-cal
+       Serial Number          :
+       Data Sampling Interval : 10 sec
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (1997-04-24/2001-06-13)
+       Notes                  : (multiple lines)
+
+8.3.2  Temp. Sensor Model     : temperature sensor
+       Manufacturer           : RainWise Remote Weather Data Logger
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy               : 0.3 C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (2001-06-15/2001-07-25)
+       Notes                  : (multiple lines)
+
+8.3.3  Temp. Sensor Model     : Weather Report Logger (WRL-25)
+       Manufacturer           : Texas Weather Instruments
+       Serial Number          :
+       Data Sampling Interval : 5 min
+       Accuracy               : 0.4 C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (2001-07-25/2001-08-21)
+       Notes                  : (multiple lines)
+
+8.3.4  Temp. Sensor Model     : PT100 RTD 1/s DIN 43760B
+       Manufacturer           : Vaisala
+       Serial Number          :
+       Data Sampling Interval : 15 seconds
+       Accuracy               : +/-0.1 @ 20.0C
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2001-08-21/CCYY-MM-DD
+       Notes                  : NOAA GSOS # 062
+
+8.3.x  Temp. Sensor Model     :
+       Manufacturer           :
+       Serial Number          :
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1  Water Vapor Radiometer : none
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : CCYY-MM-DD/CCYY-MM-DD
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer :
+       Manufacturer           :
+       Serial Number          :
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1  Other Instrumentation  : The USNO backup Master Clock is located in the
+
+8.5.x  Other Instrumentation  :
+
+
+9.  Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degredations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.   Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+
+11.   On-Site, Point of Contact Agency Information
+
+     Agency                   : U.S. Naval Observatory
+     Preferred Abbreviation   : USNO
+     Mailing Address          : TS Dept.
+                              : 3450 Massachusetts Ave., NW
+                              : Washington, DC  20392-5420
+     Primary Contact
+       Contact Name           : Edward Powers (USNO)
+       Telephone (primary)    : 202-762-1451
+       Telephone (secondary)  :
+       Fax                    : 202-762-1511
+       E-mail                 : edward.powers@usno.navy.mil
+     Secondary Contact
+       Contact Name           : Blair Fonville
+       Telephone (primary)    : 202-762-1450
+       Telephone (secondary)  :
+       Fax                    :
+       E-mail                 : blair.fonville@usno.navy.mil
+     Additional Information   : (Additional Information)
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : U.S. Naval Observatory
+     Preferred Abbreviation   : USNO
+     Mailing Address          : TS Dept.
+                              : 3450 Massachusetts Ave., NW
+                              : Washington, DC  20392-5420
+     Primary Contact
+       Contact Name           : Giovanni Sella NOAA-NGS
+       Telephone (primary)    : 301-713-3198x126
+       Telephone (secondary)  : 301-713-2845
+       Fax                    : 301-713-4475
+       E-mail                 : ngs.corscollector@noaa.gov
+     Secondary Contact
+       Contact Name           : Edward Powers USNO
+       Telephone (primary)    : 202-762-1451
+       Telephone (secondary)  :
+       Fax                    : 202-762-1511
+       E-mail                 : edward.powers@usno.navy.mil
+     Additional Information   : NOAA-NGS only facilitates data flow
+
+
+13.  More Information
+
+     Primary Data Center      : NGS-East
+     Secondary Data Center    : CDDIS
+     URL for More Information : http://tycho.usno.navy.mil/gpscp.html
+       Hardcopy on File
+       Site Map               : (Y or URL)
+       Site Diagram           : N
+       Horizon Mask           : N
+       Monument Description   : no monument
+       Site Pictures          : N
+     Additional Information   : (multiple lines)
+     Antenna Graphics with Dimensions
+
+
+
+
+             TurboRogue: DORNE MARGOLIN T (AOAD/M_T)
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  ARP
+
+<--                      0.381                       -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+

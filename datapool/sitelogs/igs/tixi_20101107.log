@@ -88,7 +88,7 @@
 
 
 3.1  Receiver Type            : ROGUE SNR-8000
-     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Satellite System         : GPS
      Serial Number            : T123
      Firmware Version         : 3.2 95/03/08
      Elevation Cutoff Setting : (deg)
@@ -98,7 +98,7 @@
      Additional Information   : (multiple lines)
 
 3.2  Receiver Type            : ASHTECH Z-XII3
-     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Satellite System         : GPS
      Serial Number            : LP01745
      Firmware Version         : NAV CC00 CH 1D02
      Elevation Cutoff Setting : (deg)
@@ -108,7 +108,7 @@
      Additional Information   : Model 700845-10D (Z-12 CGRS).
      
 3.3  Receiver Type            : ASHTECH Z-XII3
-     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Satellite System         : GPS
      Serial Number            : LP020003240
      Firmware Version         : NAV CD00 CH 1D02
      Elevation Cutoff Setting : (deg)
@@ -128,7 +128,7 @@
      Additional Information   : (multiple lines) 
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
-     Satellite System         : (GPS+GLO+GAL+CMP+QZSS+SBAS)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
      Serial Number            : (A5)
      Firmware Version         : (A11)
      Elevation Cutoff Setting : (deg)
@@ -152,11 +152,11 @@
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
      Date Installed           : 1998-10-08
-     Date Removed             : 2002-03-14
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : Antenna Diagram below
                               : clear spherical radome
 
-4.2  Antenna Type             : ASH700936D_M    NONE
+4.2  Antenna Type             : ASH700936D_M
      Serial Number            : 13083
      Antenna Reference Point  : BPA
      Marker->ARP Up Ecc. (m)  : 0.0792
@@ -168,7 +168,7 @@
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
      Date Installed           : 2002-03-14
-     Date Removed             : 2002-10-14
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : Unauthorized radome removal was discovered
                               : about 14-MAR-2002. Precise date is unknown.
 
@@ -364,7 +364,7 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.3.x  Signal Obstructions    : (TREES/BUILDLINGS/etc)
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 

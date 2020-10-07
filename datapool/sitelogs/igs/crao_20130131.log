@@ -1,15 +1,15 @@
      CRAO Site Information Form (site log)
-     International GPS Service
+     International GNSS Service
      See Instructions at:
        ftp://igscb.jpl.nasa.gov/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : David Maggert 
+     Prepared by (full name)  : David Maggert
      Date Prepared            : 2013-01-31
-     Report Type              : UPDATE 
+     Report Type              : UPDATE
      If Update:
-      Previous Site Log       : crao_20090415.log 
+      Previous Site Log       : crao_20090415.log
       Modified/Added Sections : 10.1, 12
 
 
@@ -19,16 +19,16 @@
      Four Character ID        : CRAO
      Monument Inscription     : 
      IERS DOMES Number        : 12337M002
-     CDP Number               :
+     CDP Number               : 
      Monument Description     : IRON PIPE filled with concrete
        Height of the Monument : 4.5 m
        Monument Foundation    : CONCRETE BLOCK
-       Foundation Depth       : 1.5 m
+       Foundation Depth       : 1.5 m 
      Marker Description       : DIVOT in STAINLESS STEEL PIN in concrete
      Date Installed           : 2000-04-27
      Geologic Characteristic  : BEDROCK
        Bedrock Type           : SEDIMENTARY
-       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
+       Bedrock Condition      : 
        Fracture Spacing       : 51-200 cm
        Fault zones nearby     : YES
          Distance/activity    : 30 km/underwater.
@@ -37,12 +37,13 @@
                               : concrete pad set in bedrock. The iron
                               : pipe monument extends 4.5 m above the pad.
 
+
 2.   Site Location Information
 
      City or Town             : Simeiz
      State or Province        : 
      Country                  : Ukraine
-     Tectonic Plate           : Eurasia
+     Tectonic Plate           : EURASIAN
      Approximate Position (ITRF)
        X coordinate (m)       : 3783897.0146
        Y coordinate (m)       : 2551404.4833
@@ -51,6 +52,7 @@
        Longitude (E is +)     : +0335927.54
        Elevation (m,ellips.)  : 365.8
      Additional Information   : 
+
 
 3.   GNSS Receiver Information
 
@@ -62,7 +64,7 @@
      Date Installed           : 2000-04-27T00:00Z
      Date Removed             : 2004-08-02T00:00Z
      Temperature Stabiliz.    : none
-     Additional Information   : (multiple lines)
+     Additional Information   : 
 
 3.2  Receiver Type            : ROGUE SNR-8000
      Satellite System         : GPS
@@ -72,27 +74,28 @@
      Date Installed           : 2004-08-02T00:00Z
      Date Removed             : 2008-05-26T23:59Z
      Temperature Stabiliz.    : none
-     Additional Information   : (multiple lines)
+     Additional Information   : 
 
 3.3  Receiver Type            : ASHTECH UZ-12
      Satellite System         : GPS
      Serial Number            : UC120031621
-     Firmware Version         : CQ00 
+     Firmware Version         : CQ00
      Elevation Cutoff Setting : 4 deg
      Date Installed           : 2009-03-04T00:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : CCYY-MM-DDThh:mmZ
      Temperature Stabiliz.    : none
-     Additional Information   : (multiple lines)
+     Additional Information   : 
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
-     Serial Number            : (A5)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
      Firmware Version         : (A11)
      Elevation Cutoff Setting : (deg)
      Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : (none or tolerance in degrees C)
      Additional Information   : (multiple lines)
+
 
 4.   GNSS Antenna Information
 
@@ -109,7 +112,7 @@
      Antenna Cable Length     : 10 m
      Date Installed           : 2000-04-27T00:00Z
      Date Removed             : 2008-05-26T23:59Z
-     Additional Information   : (multiple lines)
+     Additional Information   : 
 
 4.2  Antenna Type             : ASH701945C_M    SCIS
      Serial Number            : CR520003501
@@ -117,14 +120,14 @@
      Marker->ARP Up Ecc. (m)  : 0.080
      Marker->ARP North Ecc(m) : 0.000
      Marker->ARP East Ecc(m)  : 0.000
-     Alignment from True N    : 0 
+     Alignment from True N    : 0
      Antenna Radome Type      : SCIS
      Radome Serial Number     : 139
      Antenna Cable Type       : LMR 400
-     Antenna Cable Length     : 10 m
+     Antenna Cable Length     : 10 m 
      Date Installed           : 2009-03-04T00:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Additional Information   : (multiple lines)
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)
@@ -134,55 +137,56 @@
      Marker->ARP East Ecc(m)  : (F8.4)
      Alignment from True N    : (deg; + is clockwise/east)
      Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
-     Radome Serial Number     :
+     Radome Serial Number     : 
      Antenna Cable Type       : (vendor & type number)
      Antenna Cable Length     : (m)
      Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 
+
 5.   Surveyed Local Ties
 
-5.1   Tied Marker Name         : SIML
-      Tied Marker Usage        : SLR 
-      Tied Marker CDP Number   : 1873
-      Tied Marker DOMES Number : 12337S003
-      Differential Components from GNSS Marker to the tied monument (ITRS)
-        dx (m)                 : 5.034
-        dy (m)                 : 0.555
-        dz (m)                 : -6.895
-      Accuracy (mm)            : (mm)
-      Survey method            : TRIANGULATION 
-      Date Measured            : 2003-08-01T00:00Z
-      Additional Information   : (multiple lines)
+5.1  Tied Marker Name         : SIML
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 1873
+     Tied Marker DOMES Number : 12337S003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 5.034
+       dy (m)                 : 0.555
+       dz (m)                 : -6.895
+     Accuracy (mm)            : 
+     Survey method            : TRIANGULATION
+     Date Measured            : 2003-08-01T00:00Z
+     Additional Information   : 
 
- 5.2  Tied Marker Name         : SIML
-      Tied Marker Usage        : SLR 
-      Tied Marker CDP Number   : 1873
-      Tied Marker DOMES Number : 12337S003
-      Differential Components from GNSS Marker to the tied monument (ITRS)
-        dx (m)                 : 5.032
-        dy (m)                 : 0.547
-        dz (m)                 : -6.895
-      Accuracy (mm)            : (mm)
-      Survey method            : TRIANGULATION 
-      Date Measured            : 2000-08-01T00:00Z
-      Additional Information   : (multiple lines)
+5.2  Tied Marker Name         : SIML
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 1873
+     Tied Marker DOMES Number : 12337S003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 5.032
+       dy (m)                 : 0.547
+       dz (m)                 : -6.895
+     Accuracy (mm)            : 
+     Survey method            : TRIANGULATION
+     Date Measured            : 2000-08-01T00:00Z
+     Additional Information   : 
 
- 5.3  Tied Marker Name         : SIMI-GPS-1
-      Tied Marker Usage        : LOCAL CONTROL 
-      Tied Marker CDP Number   : (A4)
-      Tied Marker DOMES Number : (A9)
-      Differential Components from GNSS Marker to the tied monument (ITRS)
-        dx (m)                 : -9.853
-        dy (m)                 : -0.926
-        dz (m)                 : -2.436
-      Accuracy (mm)            : 2
-      Survey method            : TRIANGULATION 
-      Date Measured            : 2003-08-01T00:00Z
-      Additional Information   : (multiple lines)
+5.3  Tied Marker Name         : SIMI-GPS-1
+     Tied Marker Usage        : LOCAL CONTROL
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -9.853
+       dy (m)                 : -0.926
+       dz (m)                 : -2.436
+     Accuracy (mm)            : 2
+     Survey method            : TRIANGULATION
+     Date Measured            : 2003-08-01T00:00Z
+     Additional Information   : 
 
-5.x  Tied Marker Name         :
+5.x  Tied Marker Name         : 
      Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
      Tied Marker CDP Number   : (A4)
      Tied Marker DOMES Number : (A9)
@@ -195,67 +199,70 @@
      Date Measured            : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 
+
 6.   Frequency Standard
 
 6.1  Standard Type            : INTERNAL
-       Input Frequency        :
+       Input Frequency        : 
        Effective Dates        : 2000-04-27/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Notes                  : 
 
 6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
        Input Frequency        : (if external)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
+
 7.   Collocation Information
 
-7.1  Instrumentation Type      : SLR  
-        Status                 : PERMANENT
-        Effective Dates        : 1988-05-01/CCYY-MM-DD
-        Notes                  : SIML, 1873
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1988-05-01/CCYY-MM-DD
+       Notes                  : SIML, 1873
 
-7.2  Instrumentation Type      : SLR  
-        Status                 : PERMANENT
-        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-        Notes                  : Katzively 1893
+7.2  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : Katzively 1893
 
-7.3  Instrumentation Type      : VLBI  
-        Status                 : PERMANENT
-        Effective Dates        : 1969-01-01/CCYY-MM-DD
-        Notes                  : RT22 7332
+7.3  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1969-01-01/CCYY-MM-DD
+       Notes                  : RT22 7332
 
 7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
        Status                 : (PERMANENT/MOBILE)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
+
 8.   Meteorological Instrumentation
 
-8.1.1 Humidity Sensor Model   : THGR918N
+8.1.1  Humidity Sensor Model  : THGR918N
        Manufacturer           : Oregon Scientific
-       Serial Number          :
-       Data Sampling Interval : 30 sec
+       Serial Number          : 
+       Data Sampling Interval : 30 sec 
        Accuracy (% rel h)     : 1
-       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
-       Height Diff to Ant     : 0 m
+       Aspiration             : 
+       Height Diff to Ant     : 0 m 
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : 2004-01-10/2008-05-26
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.1.2 Humidity Sensor Model   : Capacitance Probe
+8.1.2  Humidity Sensor Model  : Capacitance Probe
        Manufacturer           : Paroscientific
        Serial Number          : 73589
-       Data Sampling Interval : 1 minute 
-       Accuracy (% rel h)     : +/- 2 
+       Data Sampling Interval : 1 minute
+       Accuracy (% rel h)     : 2
        Aspiration             : NATURAL
-       Height Diff to Ant     : 0 m
+       Height Diff to Ant     : 0 m 
        Calibration date       : (CCYY-MM-DD)
-       Effective Dates        : 2009-03-04/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Effective Dates        : 2009-03-04/(CCYY-MM-DD)
+       Notes                  : 
 
-8.1.x Humidity Sensor Model   : 
+8.1.x  Humidity Sensor Model  : 
        Manufacturer           : 
-       Serial Number          :
+       Serial Number          : 
        Data Sampling Interval : (sec)
        Accuracy (% rel h)     : (% rel h)
        Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
@@ -264,29 +271,29 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.2.1 Pressure Sensor Model   : BTHR918N
+8.2.1  Pressure Sensor Model  : BTHR918N
        Manufacturer           : Oregon Scientific
-       Serial Number          :
+       Serial Number          : 
        Data Sampling Interval : 30 sec
-       Accuracy               : 1 mbar
-       Height Diff to Ant     : 0 m
+       Accuracy               : 1 mbar 
+       Height Diff to Ant     : 0 m 
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : 2004-01-10/2008-05-26
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.2.2 Pressure Sensor Model   : Digiquartz Barometric Standard
+8.2.2  Pressure Sensor Model  : Digiquartz Barometric Standard
        Manufacturer           : Paroscientific
        Serial Number          : 73589
        Data Sampling Interval : 1 minute
        Accuracy               : 0.010%
-       Height Diff to Ant     : 0 m
+       Height Diff to Ant     : 0 m 
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : 2009-03-04/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.2.x Pressure Sensor Model   : 
+8.2.x  Pressure Sensor Model  : 
        Manufacturer           : 
-       Serial Number          :
+       Serial Number          : 
        Data Sampling Interval : (sec)
        Accuracy               : (hPa)
        Height Diff to Ant     : (m)
@@ -294,31 +301,31 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.3.1 Temp. Sensor Model      : THGR918N
+8.3.1  Temp. Sensor Model     : THGR918N
        Manufacturer           : Oregon Scientific
-       Serial Number          :
-       Data Sampling Interval : 30 sec
-       Accuracy               : 1 deg C
-       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
-       Height Diff to Ant     : 0 m
-       Calibration date       : (CCYY-MM-DD)
+       Serial Number          : 
+       Data Sampling Interval : 30  sec
+       Accuracy               : 1 dec C 
+       Aspiration             : 
+       Height Diff to Ant     : 0 m 
+       Calibration date       : 
        Effective Dates        : 2004-01-10/2008-05-26
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.3.2 Temp. Sensor Model      : Platinum Resistance Temperature Probe
+8.3.2  Temp. Sensor Model     : Platinum Resistance Temperature Probe
        Manufacturer           : Paroscientific
        Serial Number          : 73589
        Data Sampling Interval : 1 minute
-       Accuracy               : 0.5 deg C
+       Accuracy               : 0.5  deg C
        Aspiration             : NATURAL
-       Height Diff to Ant     : 0 m
-       Calibration date       : (CCYY-MM-DD)
+       Height Diff to Ant     : 0 m 
+       Calibration date       : 
        Effective Dates        : 2009-03-04/CCYY-MM-DD
-       Notes                  : (multiple lines)
+       Notes                  : 
 
-8.3.x Temp. Sensor Model      : 
+8.3.x  Temp. Sensor Model     : 
        Manufacturer           : 
-       Serial Number          :
+       Serial Number          : 
        Data Sampling Interval : (sec)
        Accuracy               : (deg C)
        Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
@@ -327,44 +334,46 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.4.x Water Vapor Radiometer  : 
+8.4.x  Water Vapor Radiometer : 
        Manufacturer           : 
-       Serial Number          :
+       Serial Number          : 
        Distance to Antenna    : (m)
        Height Diff to Ant     : (m)
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.5.x Other Instrumentation   : (multiple lines)
+8.5.x  Other Instrumentation  : (multiple lines)
 
-9.  Local Ongoing Conditions Possibly Affecting Computed Position
 
-9.1.1 Radio Interferences     : CELL PHONE ANTENNA     
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.1  Radio Interferences    : CELL PHONE ANTENNA
+       Observed Degradations  : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : 
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
        Observed Degradations  : (SN RATIO/DATA GAPS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
-       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+9.2.1  Multipath Sources      : METAL ROOF
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : 
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.2.1 Multipath Sources       : METAL ROOF 
+9.3.1  Signal Obstructions    : TREES/BUILDINGS
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)  
+       Additional Information : 
 
-9.2.x Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.3.1 Signal Obstructions     : TREES/BUILDINGS
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
-
-9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
 
 10.  Local Episodic Effects Possibly Affecting Data Quality
 
@@ -378,25 +387,26 @@
 10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
      Event                    : (TREE CLEARING/CONSTRUCTION/etc)
 
-11.   On-Site, Point of Contact Agency Information
+11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : Crimean Astrophysical Observatory 
+     Agency                   : Crimean Astrophysical Observatory
      Preferred Abbreviation   : CRAO
      Mailing Address          : Nauchny, Crimea
                               : 334413, Ukraine
      Primary Contact
        Contact Name           : Dmytrotsa Andrew
        Telephone (primary)    : +38-0654-240-370
-       Telephone (secondary)  :
+       Telephone (secondary)  : 
        Fax                    : 
        E-mail                 : dmytrotsa@gmail.com
      Secondary Contact
        Contact Name           : Robert Reilinger
        Telephone (primary)    : 617-253-7860
-       Telephone (secondary)  :
+       Telephone (secondary)  : 
        Fax                    : 617-253-6385
        E-mail                 : reilinge@erl.mit.edu
-     Additional Information   : (multiple lines)
+     Additional Information   : 
+
 
 12.  Responsible Agency (if different from 11.)
 
@@ -411,25 +421,25 @@
        Fax                    : 303-381-7451
        E-mail                 : ggn-ops@ls.unavco.org
      Secondary Contact
-       Contact Name           :
-       Telephone (primary)    :
-       Telephone (secondary)  :
-       Fax                    :
-       E-mail                 :
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
      Additional Information   : 
 
 13.  More Information
 
      Primary Data Center      : JPL (ODC-Operational Data Center)
      Secondary Data Center    : CDDIS (GDC-Global Data Center)
-     URL for More Information :
+     URL for More Information : 
      Hardcopy on File
        Site Map               : Y
        Site Diagram           : Y
        Horizon Mask           : Y
        Monument Description   : Y
        Site Pictures          : Y
-     Additional Information   : (multiple lines)
+     Additional Information   : 
      Antenna Graphics with Dimensions
 
 ASH701945C_M
@@ -455,3 +465,4 @@ ASH701945C_M
    L1 : L1 Phase Center                   L2 : L2 Phase Center
    TCR: Top of Chokering                  BCR: Bottom of Chokering
    BPA: Bottom of Preamplifier
+

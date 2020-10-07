@@ -4,11 +4,25 @@
 # Note all configuration item values can contain references to other configuration
 # item values as {xxxxx}, where xxx is the other item.  But note special values
 # for date components and file names that should not be used.
+#
+# {xxxx} strings that are not matched can be replaced by environment variables if
+# they exist, except for the code and time patterns listed below, which are 
+# replaced with components of the file path.
+#
+# {ENV:xxx} can be used to explicitly replace environment variables.
+# 
+# {ConfigDir} and {ConfigFile} refer to the directory of this configuration
+# file and the full path of the configuration file.
+#
+# Configuration items can be included from another file using:
+#
+# include filename
+#
+# Filenames are relative to this configuration file.
 
 # Organisation directory for sitelogs
 
 orgdir=igs
-basedir={ENV:BERNESE_DATAPOOL}/sitelogs/{orgdir}
 
 # RemoteUri is the the base of the remote directory
 
@@ -49,9 +63,10 @@ MaxRunTime 120
 # If the script is run sooner than the minimum time then it will stop 
 # immediately.
 
-StatusFile {basedir}/.mirror_status
+StatusFile {orgdir}/.mirror_status
 MinTimeSinceLastRun 20h 4h
-# RemotePath is the path to the files to download.
+
+# RemoteDir is the path to the files to download.
 #
 # Can include {yyyy},{yy},{mmmm}, {mmm},{mm},{ddd},{dd} which will map to 
 # the corresponding date strings (mmm is 3 letter month name, mmmm is the 
@@ -76,11 +91,31 @@ RemoteDir=log
 
 RemoteFileRe={code}*.log
 
-# Target directory.  This can be based absolute, or relative to the location
-# of the configuration file (defined as ~).  Can include time components
-# as for RemovePath.  Can also include {filename} to use the source filename.
+# Local base directory.  All files downloaded or created by subsequent scripts
+# should be subdirectories of this directory. Use ~ for the directory in which
+# the configuration script is located.  This is not used if the target is an S3
+# bucket.  However the script will create a temporary local directory for retrieving
+# and processing files prior to uploading to S3. 
+#
+# All local filenames below are relative to this (or on S3, relative to the S3 prefix)
+# Post download script are run from this directory unless PostDownloadCommandChDir 
+# is true.
 
-TargetPath={basedir}/{filename}
+LocalBaseDirectory {ENV:BERNESE_DATAPOOL}/sitelogs
+
+# If an S3 bucket is defined then files are installed into the bucket using the 
+# file structure relative to the LocalBaseDirectory.  The file names can be prefixed
+# with a common prefix to generate the corresponding S3 bucket key.  S3 settings
+# are as used by the LINZ::GNSS::AwsS3Bucket module.  
+
+# s3_bucket my_bucket
+# s3_prefix ${subdir}${subdir?/}
+
+# Target directory relative to the local base directory.
+# Can include time components
+# as for RemotePath.  Can also include {filename} to use the source filename.
+
+TargetPath={orgdir}/{filename}
 
 # Marker file.  By default the script checks for the existence of the target 
 # file.  If it exists and is of the correct size it is downloaded again.  The 
