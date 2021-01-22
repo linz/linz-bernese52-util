@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     GSRO Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : pgentle
+     Date Prepared            : 2018-10-08
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,17 +15,17 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
-     Monument Inscription     : 
+     Site Name                : Rotorua Haupapa
+     Four Character ID        : GSRO
+     Monument Inscription     : Braced Mast with 5/8 thread
      IERS DOMES Number        : 
      CDP Number               : 
-     Monument Description     : 
-       Height of the Monument : 
-       Monument Foundation    : 
+     Monument Description     : MAST
+       Height of the Monument : 1.2 m
+       Monument Foundation    : ROOF
        Foundation Depth       : 
-     Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Marker Description       : None
+     Date Installed           : 2015-12-16T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -37,28 +37,28 @@
 
 2.   Site Location Information
 
-     City or Town             : 
-     State or Province        : 
+     City or Town             : Rotorua
+     State or Province        : Bay of Plenty
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
+       X coordinate (m)       : -5012677.7
+       Y coordinate (m)       : 328149.2
+       Z coordinate (m)       : -3917450.2
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
-     Additional Information   : 
+     Additional Information   : Roof SHMPAS
 
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
-     Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+3.1  Receiver Type            : LEICA GMX902GG
+     Satellite System         : GPS+GLO
+     Serial Number            : 0538
+     Firmware Version         : 
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-12-16T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,9 +76,9 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : TRM55971.00
-     Serial Number            : 
-     Antenna Reference Point  : 
+4.1  Antenna Type             : LEIAS10
+     Serial Number            : 16201003
+     Antenna Reference Point  : BAM
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000
@@ -86,8 +86,8 @@
      Antenna Radome Type      : NONE
      Radome Serial Number     : 
      Antenna Cable Type       : 
-     Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Antenna Cable Length     : 15.0 m
+     Date Installed           : 2016-04-14T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
@@ -209,7 +209,7 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Rotorua City Council
      Preferred Abbreviation   : 
      Mailing Address          : 
      Primary Contact
@@ -229,15 +229,15 @@
 
 12.  Responsible Agency (if different from 11.)
 
-     Agency                   : 
+     Agency                   : Global Survey Limited
      Preferred Abbreviation   : 
      Mailing Address          : 
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : Bruce Robinson
+       Telephone (primary)    : +64272299330
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : bruce@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 
@@ -251,13 +251,13 @@
 
      Primary Data Center      : 
      Secondary Data Center    : 
-     URL for More Information : 
+     URL for More Information : www.smartfix.co.nz/SBC
      Hardcopy on File
        Site Map               : 
        Site Diagram           : 
        Horizon Mask           : 
        Monument Description   : 
-       Site Pictures          : 
+       Site Pictures          : Y
      Additional Information   : 
      Antenna Graphics with Dimensions
 

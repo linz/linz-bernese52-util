@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     GSAM Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : mdrabble
+     Date Prepared            : 2018-11-27
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,36 +15,37 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Amberley
+     Four Character ID        : GSAM
      Monument Inscription     : 
      IERS DOMES Number        : 
-     CDP Number               : 
+     CDP Number               : 0632
      Monument Description     : 
        Height of the Monument : 
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2012-04-01T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
        Fracture Spacing       : 
        Fault zones nearby     : 
          Distance/activity    : 
-     Additional Information   : 
+     Additional Information   : Provided by LEICA / Global Survey Hurunui
+                                District Council Property 66 Carters Road
 
 
 2.   Site Location Information
 
-     City or Town             : 
-     State or Province        : 
-     Country                  : New Zealand
+     City or Town             : North Shore
+     State or Province        : Auckland
+     Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
+       X coordinate (m)       : -4623009.6922
+       Y coordinate (m)       : 589828.3758
+       Z coordinate (m)       : -4339865.5022
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -53,12 +54,12 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
-     Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+3.1  Receiver Type            : LEICA GR10
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 1700566
+     Firmware Version         : 4.11
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2012-04-01T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,7 +77,7 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : TRM55971.00
+4.1  Antenna Type             : LEIAS10
      Serial Number            : 
      Antenna Reference Point  : 
      Marker->ARP Up Ecc. (m)  : 000.0000
@@ -87,9 +88,9 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2012-04-01T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Additional Information   : 
+     Additional Information   : Hurunui District Council Main Building
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)
@@ -209,15 +210,19 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Global Survey
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 19F Triton Drive
+                                Rosedale
+                                North Shore
+                                0632
+                                New Zealand
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : MartinDrabble
+       Telephone (primary)    : +6494782032
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : martin@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 
@@ -229,15 +234,19 @@
 
 12.  Responsible Agency (if different from 11.)
 
-     Agency                   : 
+     Agency                   : Global Survey
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 19F Triton Drive
+                                Rosedale
+                                North Shore
+                                0632
+                                New Zealand
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : Martin Drabble
+       Telephone (primary)    : +6494782032
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : martin@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 

@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     SYOI Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : pgentle
+     Date Prepared            : 2019-07-22
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Otaki Addington
+     Four Character ID        : SYOI
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-10-13T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -42,23 +42,33 @@
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
-       Latitude (N is +)      : 
-       Longitude (E is +)     : 
-       Elevation (m,ellips.)  : 
-     Additional Information   : 
+       X coordinate (m)       : -4819442.5923
+       Y coordinate (m)       : 409861.9917
+       Z coordinate (m)       : -4143717.5634
+       Latitude (N is +)      : +1750820.64
+       Longitude (E is +)     : -0404636.80
+       Elevation (m,ellips.)  : 38.9
+     Additional Information   : ITRF2008 @epoch 2019.52
 
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+3.1  Receiver Type            : TPS NET-G5
+     Satellite System         : GPS+GLO+GAL+QZSS
+     Serial Number            : W1H8J2NJTAW
+     Firmware Version         : 5.1 Sep,07,2016
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-10-13T00:00Z
+     Date Removed             : 2019-07-05T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : TPS NET-G5
+     Satellite System         : GPS+GLO+GAL+QZSS
+     Serial Number            : W1H8J2NJTAW
+     Firmware Version         : 5.2.2 Dec,06,2018
+     Elevation Cutoff Setting : 
+     Date Installed           : 2019-07-05T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,9 +86,9 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : TRM55971.00
+4.1  Antenna Type             : TPSPG_A1+GP
      Serial Number            : 
-     Antenna Reference Point  : 
+     Antenna Reference Point  : BOM
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000
@@ -87,7 +97,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-10-13T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 

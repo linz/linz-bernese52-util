@@ -18,21 +18,21 @@
      Site Name                : 
      Four Character ID        : VROT
      Monument Inscription     : 
-     IERS DOMES Number        : (A9)
-     CDP Number               : (A4)
-     Monument Description     : (PILLAR/BRASS PLATE/STEEL MAST/etc)
-       Height of the Monument : (m)
-       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
-       Foundation Depth       : (m)
-     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : 
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
      Date Installed           : (CCYY-MM-DDThh:mmZ)
-     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
-       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
-       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
-       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
-       Fault zones nearby     : (YES/NO/Name of the zone)
-         Distance/activity    : (multiple lines)
-     Additional Information   : (multiple lines)
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : 
 
 
 2.   Site Location Information
@@ -45,10 +45,10 @@
        X coordinate (m)       : -5012556.2435
        Y coordinate (m)       : 328089.4833
        Z coordinate (m)       : -3917647.8295
-       Latitude (N is +)      : (+/-DDMMSS.SS)
-       Longitude (E is +)     : (+/-DDDMMSS.SS)
-       Elevation (m,ellips.)  : (F7.1)
-     Additional Information   : (multiple lines)
+       Latitude (N is +)      : 
+       Longitude (E is +)     : 
+       Elevation (m,ellips.)  : 
+     Additional Information   : 
 
 
 3.   GNSS Receiver Information
@@ -57,11 +57,11 @@
      Satellite System         : GPS+GLO+SBAS
      Serial Number            : 4619K01255
      Firmware Version         : Nav 4.01 / Boot 3.56
-     Elevation Cutoff Setting : (deg)
+     Elevation Cutoff Setting : 
      Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Temperature Stabiliz.    : (none or tolerance in degrees C)
-     Additional Information   : (multiple lines)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
@@ -77,19 +77,19 @@
 4.   GNSS Antenna Information
 
 4.1  Antenna Type             : TRM55971.00
-     Serial Number            : (A*, but note the first A5 is used in SINEX)
-     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
-     Marker->ARP Up Ecc. (m)  : (F8.4)
-     Marker->ARP North Ecc(m) : (F8.4)
-     Marker->ARP East Ecc(m)  : (F8.4)
-     Alignment from True N    : (deg; + is clockwise/east)
+     Serial Number            : 
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
      Antenna Radome Type      : NONE
      Radome Serial Number     : 
-     Antenna Cable Type       : (vendor & type number)
-     Antenna Cable Length     : (m)
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
      Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Additional Information   : (multiple lines)
+     Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)
@@ -106,9 +106,10 @@
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 
+
 5.   Surveyed Local Ties
 
-5.x  Tied Marker Name         : 
+5.x  Tied Marker Name         :
      Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
      Tied Marker CDP Number   : (A4)
      Tied Marker DOMES Number : (A9)
@@ -124,11 +125,6 @@
 
 6.   Frequency Standard
 
-6.1  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
-       Input Frequency        : (if external)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
-
 6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
        Input Frequency        : (if external)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
@@ -136,11 +132,6 @@
 
 
 7.   Collocation Information
-
-7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
-       Status                 : (PERMANENT/MOBILE)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
 
 7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
        Status                 : (PERMANENT/MOBILE)
@@ -150,9 +141,9 @@
 
 8.   Meteorological Instrumentation
 
-8.1.1 Humidity Sensor Model   : 
-       Manufacturer           : 
-       Serial Number          : 
+8.1.x Humidity Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
        Data Sampling Interval : (sec)
        Accuracy (% rel h)     : (% rel h)
        Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
@@ -161,20 +152,9 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.1.x Humidity Sensor Model   : 
-       Manufacturer           : 
-       Serial Number          : 
-       Data Sampling Interval : (sec)
-       Accuracy (% rel h)     : (% rel h)
-       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
-       Height Diff to Ant     : (m)
-       Calibration date       : (CCYY-MM-DD)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
-
-8.2.1 Pressure Sensor Model   : 
-       Manufacturer           : 
-       Serial Number          : 
+8.2.x Pressure Sensor Model   :
+       Manufacturer           :
+       Serial Number          :
        Data Sampling Interval : (sec)
        Accuracy               : (hPa)
        Height Diff to Ant     : (m)
@@ -182,19 +162,9 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.2.x Pressure Sensor Model   : 
-       Manufacturer           : 
-       Serial Number          : 
-       Data Sampling Interval : (sec)
-       Accuracy               : (hPa)
-       Height Diff to Ant     : (m)
-       Calibration date       : (CCYY-MM-DD)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
-
-8.3.1 Temp. Sensor Model      : 
-       Manufacturer           : 
-       Serial Number          : 
+8.3.x Temp. Sensor Model      :
+       Manufacturer           :
+       Serial Number          :
        Data Sampling Interval : (sec)
        Accuracy               : (deg C)
        Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
@@ -203,53 +173,22 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.3.x Temp. Sensor Model      : 
-       Manufacturer           : 
-       Serial Number          : 
-       Data Sampling Interval : (sec)
-       Accuracy               : (deg C)
-       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
-       Height Diff to Ant     : (m)
-       Calibration date       : (CCYY-MM-DD)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
-
-8.4.1 Water Vapor Radiometer  : 
-       Manufacturer           : 
-       Serial Number          : 
+8.4.x Water Vapor Radiometer  :
+       Manufacturer           :
+       Serial Number          :
        Distance to Antenna    : (m)
        Height Diff to Ant     : (m)
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
-
-8.4.x Water Vapor Radiometer  : 
-       Manufacturer           : 
-       Serial Number          : 
-       Distance to Antenna    : (m)
-       Height Diff to Ant     : (m)
-       Calibration date       : (CCYY-MM-DD)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Notes                  : (multiple lines)
-
-8.5.1 Other Instrumentation   : (multiple lines)
 
 8.5.x Other Instrumentation   : (multiple lines)
 
 
 9.  Local Ongoing Conditions Possibly Affecting Computed Position
 
-9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
-       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
-
 9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
        Observed Degradations  : (SN RATIO/DATA GAPS/etc)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
-
-9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
@@ -257,30 +196,25 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-9.3.1 Signal Obstructions     : (TREES/BUILDINGS/etc)
-       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
-       Additional Information : (multiple lines)
-
 9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-10.  Local Episodic Effects Possibly Affecting Data Quality
 
-10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
-     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+10.  Local Episodic Effects Possibly Affecting Data Quality
 
 10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
      Event                    : (TREE CLEARING/CONSTRUCTION/etc)
 
-11.   On-Site, Point of Contact Agency Information
 
-     Agency                   : (multiple lines)
-     Preferred Abbreviation   : (A10)
-     Mailing Address          : (multiple lines)
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
      Primary Contact
        Contact Name           : 
-       Telephone (primary)    :
+       Telephone (primary)    : 
        Telephone (secondary)  : 
        Fax                    : 
        E-mail                 : 
@@ -295,9 +229,9 @@
 
 12.  Responsible Agency (if different from 11.)
 
-     Agency                   : (multiple lines)
-     Preferred Abbreviation   : (A10)
-     Mailing Address          : (multiple lines)
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
      Primary Contact
        Contact Name           : 
        Telephone (primary)    : 
@@ -315,16 +249,16 @@
 
 13.  More Information
 
-     Primary Data Center      :
-     Secondary Data Center    :
+     Primary Data Center      : 
+     Secondary Data Center    : 
      URL for More Information : 
      Hardcopy on File
-       Site Map               : (Y or URL)
-       Site Diagram           : (Y or URL)
-       Horizon Mask           : (Y or URL)
-       Monument Description   : (Y or URL)
-       Site Pictures          : (Y or URL)
-     Additional Information   : (multiple lines)
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
      Antenna Graphics with Dimensions
 
      (insert text graphic from file antenna.gra)

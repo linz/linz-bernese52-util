@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     GSTI Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : brobinson
+     Date Prepared            : 2018-11-20
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,17 +15,17 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : SmartFix Timaru
+     Four Character ID        : GSTI
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
-     Monument Description     : 
+     Monument Description     : Roof mounted mast.
        Height of the Monument : 
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2011-08-17T12:07Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -37,28 +37,38 @@
 
 2.   Site Location Information
 
-     City or Town             : 
+     City or Town             : Timaru
      State or Province        : 
-     Country                  : New Zealand
+     Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
-       Latitude (N is +)      : 
-       Longitude (E is +)     : 
-       Elevation (m,ellips.)  : 
+       X coordinate (m)       : 
+       Y coordinate (m)       : 
+       Z coordinate (m)       : 
+       Latitude (N is +)      : -442352.01
+       Longitude (E is +)     : +1751511.02
+       Elevation (m,ellips.)  : 31.6
      Additional Information   : 
 
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+3.1  Receiver Type            : LEICA GR30
+     Satellite System         : GPS+GLO
+     Serial Number            : 
+     Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-11-13T00:00Z
+     Date Removed             : 2018-11-20T23:34Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : Leica GR30
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 1705738
+     Firmware Version         : 
+     Elevation Cutoff Setting : 
+     Date Installed           : 2018-11-20T23:34Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,7 +86,7 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : TRM55971.00
+4.1  Antenna Type             : LEIAX1202GG
      Serial Number            : 
      Antenna Reference Point  : 
      Marker->ARP Up Ecc. (m)  : 000.0000
@@ -87,7 +97,22 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-11-13T00:00Z
+     Date Removed             : 2018-11-20T23:34Z
+     Additional Information   : 
+
+4.2  Antenna Type             : Leica AS10
+     Serial Number            : 
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : 
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2018-11-20T23:34Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
@@ -108,6 +133,19 @@
 
 
 5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 2018-11-20T23:36Z
+     Additional Information   : 
 
 5.x  Tied Marker Name         :
      Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
@@ -209,15 +247,18 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Global Survey
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 19f Triton drive
+                                Albany
+                                0632
+                                New Zealand
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : Bruce Robinson
+       Telephone (primary)    : 0947820132
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : info@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 

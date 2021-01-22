@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     ESBR Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : ljagvik
+     Date Prepared            : 2018-08-09
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Bromley Wickham
+     Four Character ID        : ESBR
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2013-12-10T00:29Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -42,9 +42,9 @@
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
+       X coordinate (m)       : -4593459.9951
+       Y coordinate (m)       : 588296.0472
+       Z coordinate (m)       : -4371063.1609
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -55,8 +55,8 @@
 
 3.1  Receiver Type            : TRIMBLE NETR5
      Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+     Serial Number            : 4651K03541
+     Firmware Version         : Nav 4.7 / Boot 4.18
      Elevation Cutoff Setting : 
      Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
@@ -209,15 +209,18 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Eliot Sinclair and Partners Ltd
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 20 Troup Drive
+                                Addington
+                                8149
+                                New Zealand
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : Liam Jagvik
+       Telephone (primary)    : 0276990592
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : ljj@eliotsinclair.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 

@@ -1,4 +1,4 @@
-     VHVN Site Information Form (site log)
+     VLEE Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
@@ -6,7 +6,7 @@
 0.   Form
 
      Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
+     Date Prepared            : 2019-08-12
      Report Type              : NEW
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Leeston High
+     Four Character ID        : VLEE
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2019-06-14T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -42,23 +42,23 @@
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
-       Latitude (N is +)      : 
-       Longitude (E is +)     : 
-       Elevation (m,ellips.)  : 
-     Additional Information   : 
+       X coordinate (m)       : -4571985.9745
+       Y coordinate (m)       : 618764.3007
+       Z coordinate (m)       : -4389234.1375
+       Latitude (N is +)      : +1721733.08
+       Longitude (E is +)     : -0434551.07
+       Elevation (m,ellips.)  : 39.8
+     Additional Information   : ITRF2008 @epoch 2019.52
 
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+3.1  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+QZSS
+     Serial Number            : 
+     Firmware Version         : Nav 5.30 / Boot 5.30
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2019-06-14T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,9 +76,9 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : TRM55971.00
+4.1  Antenna Type             : TRM57971.00
      Serial Number            : 
-     Antenna Reference Point  : 
+     Antenna Reference Point  : BOM
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000
@@ -87,7 +87,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2019-06-14T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 

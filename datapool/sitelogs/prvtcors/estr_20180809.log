@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     ESTR Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : ljagvik
+     Date Prepared            : 2018-08-09
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Addington Troup
+     Four Character ID        : ESTR
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2013-03-17T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -39,12 +39,12 @@
 
      City or Town             : 
      State or Province        : 
-     Country                  : New Zealand
+     Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
+       X coordinate (m)       : 
+       Y coordinate (m)       : 
+       Z coordinate (m)       : 
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -54,11 +54,11 @@
 3.   GNSS Receiver Information
 
 3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+     Satellite System         : GPS
+     Serial Number            : 
+     Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2017-07-12T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -87,7 +87,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2017-07-12T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
@@ -209,15 +209,17 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Eliot Sinclair and Partners
      Preferred Abbreviation   : 
      Mailing Address          : 
+                                Christchurch
+                                New Zealand
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : Liam Jagvik
+       Telephone (primary)    : 0276990592
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : ljj@eliotsinclair.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 

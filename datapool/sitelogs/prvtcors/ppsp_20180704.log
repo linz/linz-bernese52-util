@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     PPSP Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : dhansen
+     Date Prepared            : 2018-07-04
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -16,7 +16,7 @@
 1.   Site Identification of the GNSS Monument
 
      Site Name                : 
-     Four Character ID        : VHVN
+     Four Character ID        : PPSP
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -37,14 +37,14 @@
 
 2.   Site Location Information
 
-     City or Town             : 
+     City or Town             : Speargrass Flat
      State or Province        : 
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
+       X coordinate (m)       : -4433171.5393
+       Y coordinate (m)       : 880650.4744
+       Z coordinate (m)       : -4485674.8061
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -53,12 +53,12 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+3.1  Receiver Type            : TRIMBLE SPS850
+     Satellite System         : GPS+GLO
+     Serial Number            : 4635K02319
+     Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-01-01T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -87,7 +87,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-01-01T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 

@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     ESRN Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : ljagvik
+     Date Prepared            : 2020-08-30
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Rolleston Manor
+     Four Character ID        : ESRN
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2014-06-26T00:15Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -37,14 +37,14 @@
 
 2.   Site Location Information
 
-     City or Town             : 
-     State or Province        : 
+     City or Town             : Rolleston
+     State or Province        : Canterbury
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
+       X coordinate (m)       : -4584753.1492
+       Y coordinate (m)       : 613237.342
+       Z coordinate (m)       : -4376791.5542
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -54,11 +54,31 @@
 3.   GNSS Receiver Information
 
 3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+     Satellite System         : GPS+GLO
+     Serial Number            : 4619K01290
+     Firmware Version         : Nav 4.87 / Boot 4.18
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-06-06T05:12Z
+     Date Removed             : 2020-08-17T02:24Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : Trimble NetR9
+     Satellite System         : GPS+QZSS+GLO+GAL+BDS
+     Serial Number            : 5034K69694
+     Firmware Version         : 
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2020-08-11T19:55Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : 
+     Serial Number            : 5034K69694
+     Firmware Version         : Nav 5.22 / Boot 5.22
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2020-08-17T02:24Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,9 +96,9 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : TRM55971.00
+4.1  Antenna Type             : TRM55971.00 
      Serial Number            : 
-     Antenna Reference Point  : 
+     Antenna Reference Point  : ARP
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000
@@ -87,7 +107,37 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-06-06T05:13Z
+     Date Removed             : 2020-08-19T01:50Z
+     Additional Information   : 
+
+4.2  Antenna Type             : 1
+     Serial Number            : 2
+     Antenna Reference Point  : 3
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2020-08-19T01:50Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
+4.3  Antenna Type             : 1
+     Serial Number            : 23
+     Antenna Reference Point  : 4
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2020-08-19T01:52Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
@@ -209,15 +259,15 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Eliot Sinclair and Partners Ltd
      Preferred Abbreviation   : 
      Mailing Address          : 
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : Darren Hocken
+       Telephone (primary)    : 0275197428
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : djh@eliotsinclair.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 

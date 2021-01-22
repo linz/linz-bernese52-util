@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     GSPN Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : brobinson
+     Date Prepared            : 2018-11-27
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,12 +15,12 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Smartfix - Palmerston North Massey University
+     Four Character ID        : GSPN
      Monument Inscription     : 
      IERS DOMES Number        : 
-     CDP Number               : 
-     Monument Description     : 
+     CDP Number               : 0632
+     Monument Description     : Roof Mount
        Height of the Monument : 
        Monument Foundation    : 
        Foundation Depth       : 
@@ -37,28 +37,38 @@
 
 2.   Site Location Information
 
-     City or Town             : 
-     State or Province        : 
-     Country                  : New Zealand
+     City or Town             : Palmerston North
+     State or Province        : Manawatu
+     Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
-       Latitude (N is +)      : 
-       Longitude (E is +)     : 
-       Elevation (m,ellips.)  : 
+       X coordinate (m)       : -4850741.314
+       Y coordinate (m)       : 371653.4636
+       Z coordinate (m)       : -4110943.553
+       Latitude (N is +)      : -402316.86
+       Longitude (E is +)     : +1753707.26
+       Elevation (m,ellips.)  : 73.6
      Additional Information   : 
 
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+3.1  Receiver Type            : LEICA GR30
+     Satellite System         : GLO+GPS
+     Serial Number            : 
+     Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-09-13T00:00Z
+     Date Removed             : 2018-11-27T01:20Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : Lecia GR30
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 1705507
+     Firmware Version         : 
+     Elevation Cutoff Setting : 
+     Date Installed           : 2018-11-27T01:20Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,18 +86,33 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : TRM55971.00
+4.1  Antenna Type             : LEIAS10
      Serial Number            : 
-     Antenna Reference Point  : 
+     Antenna Reference Point  : ARP
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000
      Alignment from True N    : 
-     Antenna Radome Type      : NONE
+     Antenna Radome Type      : None
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-09-13T00:00Z
+     Date Removed             : 2018-11-27T01:21Z
+     Additional Information   : 
+
+4.2  Antenna Type             : Leica AR10
+     Serial Number            : 19228044
+     Antenna Reference Point  : BOM
+     Marker->ARP Up Ecc. (m)  : 
+     Marker->ARP North Ecc(m) : 
+     Marker->ARP East Ecc(m)  : 
+     Alignment from True N    : 
+     Antenna Radome Type      : 
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2018-11-27T01:21Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
@@ -209,15 +234,18 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Global Survey
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 19f Triton drive
+                                Auckalnd
+                                0632
+                                New Zealand
      Primary Contact
-       Contact Name           : 
+       Contact Name           : Bruce Robinson
        Telephone (primary)    : 
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : info@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 

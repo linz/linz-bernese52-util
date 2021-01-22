@@ -1,13 +1,13 @@
-     VHVN Site Information Form (site log)
+     VWIG Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2017-02-13
-     Report Type              : NEW
+     Prepared by (full name)  : superuser
+     Date Prepared            : 2018-07-20
+     Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : VHVN
+     Site Name                : Wigram Corsair
+     Four Character ID        : VWIG
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -42,9 +42,9 @@
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4908980.4792
-       Y coordinate (m)       : 268386.9755
-       Z coordinate (m)       : -4049747.3957
+       X coordinate (m)       : -4591012.0318
+       Y coordinate (m)       : 600486.4588
+       Z coordinate (m)       : -4372011.3931
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -53,10 +53,10 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
+3.1  Receiver Type            : TRIMBLE NETR9
      Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4734K06780
-     Firmware Version         : Nav 4.03 / Boot 3.56
+     Serial Number            : 5008K65733
+     Firmware Version         : Nav 4.15 / Boot 4.18
      Elevation Cutoff Setting : 
      Date Installed           : (CCYY-MM-DDThh:mmZ)
      Date Removed             : (CCYY-MM-DDThh:mmZ)
