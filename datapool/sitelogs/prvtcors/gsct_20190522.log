@@ -53,7 +53,7 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : LEICA GMX902GG
+3.1  Receiver Type            : LEICA GRX1200+GNSS
      Satellite System         : GPS+GLO+GAL+BDS
      Serial Number            : 
      Firmware Version         : 
@@ -78,7 +78,7 @@
 
 4.1  Antenna Type             : LEIAS10
      Serial Number            : 18171022
-     Antenna Reference Point  : ARP
+     Antenna Reference Point  : BAM
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000

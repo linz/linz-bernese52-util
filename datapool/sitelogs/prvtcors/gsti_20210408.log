@@ -1,12 +1,12 @@
-     GSDR Site Information Form (site log)
+     GSTI Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : pgentle
-     Date Prepared            : 2018-10-08
+     Prepared by (full name)  : dhansen
+     Date Prepared            : 2021-04-08
      Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
@@ -15,17 +15,17 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : Dargaville Jervois
-     Four Character ID        : GSDR
+     Site Name                : SmartFix Timaru
+     Four Character ID        : GSTI
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
-     Monument Description     : 
+     Monument Description     : Roof mounted mast.
        Height of the Monument : 
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : 2018-09-13T00:00Z
+     Date Installed           : 2011-08-17T12:07Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -37,17 +37,17 @@
 
 2.   Site Location Information
 
-     City or Town             : Dargaville
+     City or Town             : Timaru
      State or Province        : 
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -5140858.546
-       Y coordinate (m)       : 551089.1846
-       Z coordinate (m)       : -3722331.506
-       Latitude (N is +)      : -355603.95
-       Longitude (E is +)     : +1735252.96
-       Elevation (m,ellips.)  : 12.9
+       X coordinate (m)       : -4511606.1581
+       Y coordinate (m)       : 694150.3916
+       Z coordinate (m)       : -4439791.9980
+       Latitude (N is +)      : -442352.01
+       Longitude (E is +)     : +1751511.02
+       Elevation (m,ellips.)  : 31.6
      Additional Information   : 
 
 
@@ -58,7 +58,17 @@
      Serial Number            : 
      Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : 2018-09-13T00:00Z
+     Date Installed           : 2018-11-13T00:00Z
+     Date Removed             : 2018-11-20T23:34Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : LEICA GR30
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 1705738
+     Firmware Version         : 
+     Elevation Cutoff Setting : 
+     Date Installed           : 2018-11-20T23:34Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -76,7 +86,22 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : LEIAS10
+4.1  Antenna Type             : LEIAX1202GG
+     Serial Number            : 
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2018-11-13T00:00Z
+     Date Removed             : 2018-11-20T23:34Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAS10
      Serial Number            : 
      Antenna Reference Point  : BAM
      Marker->ARP Up Ecc. (m)  : 000.0000
@@ -87,7 +112,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : 2018-09-13T00:00Z
+     Date Installed           : 2018-11-20T23:34Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
@@ -108,6 +133,19 @@
 
 
 5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : 
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 
+       dy (m)                 : 
+       dz (m)                 : 
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 2018-11-20T23:36Z
+     Additional Information   : 
 
 5.x  Tied Marker Name         :
      Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
@@ -209,15 +247,18 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Global Survey
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 19f Triton drive
+                                Albany
+                                0632
+                                New Zealand
      Primary Contact
-       Contact Name           : 
-       Telephone (primary)    : 
+       Contact Name           : Bruce Robinson
+       Telephone (primary)    : 0947820132
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : info@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 

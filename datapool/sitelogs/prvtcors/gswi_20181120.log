@@ -42,9 +42,9 @@
      Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : 
-       Y coordinate (m)       : 
-       Z coordinate (m)       : 
+       X coordinate (m)       : -4511606.1581
+       Y coordinate (m)       : 694150.3916
+       Z coordinate (m)       : -4439791.9980
        Latitude (N is +)      : -371505.00
        Longitude (E is +)     : +1744345.01
        Elevation (m,ellips.)  : 50.1
@@ -63,7 +63,7 @@
      Temperature Stabiliz.    : none
      Additional Information   : 
 
-3.2  Receiver Type            : Leica GRX1200
+3.2  Receiver Type            : LEICA GRX1200
      Satellite System         : GPS+GAL+GLO+BDS
      Serial Number            : 458644
      Firmware Version         : 
@@ -101,7 +101,7 @@
      Date Removed             : 2018-11-19T02:33Z
      Additional Information   : 
 
-4.2  Antenna Type             : Leica AS10
+4.2  Antenna Type             : LEIAS10
      Serial Number            : 13161016
      Antenna Reference Point  : 
      Marker->ARP Up Ecc. (m)  : 000.0000

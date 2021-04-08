@@ -32,7 +32,7 @@
        Fracture Spacing       : 
        Fault zones nearby     : 
          Distance/activity    : 
-     Additional Information   : 
+     Additional Information   : Decommissioned
 
 
 2.   Site Location Information
@@ -42,9 +42,9 @@
      Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : 
-       Y coordinate (m)       : 
-       Z coordinate (m)       : 
+       X coordinate (m)       : -4653954.7747
+       Y coordinate (m)       : 548431.0247
+       Z coordinate (m)       : -4312345.5979
        Latitude (N is +)      : -424847.99
        Longitude (E is +)     : +1731645.01
        Elevation (m,ellips.)  : 85.7
@@ -59,7 +59,7 @@
      Firmware Version         : 
      Elevation Cutoff Setting : 
      Date Installed           : 2017-02-04T00:00Z
-     Date Removed             : 2018-09-16T12:26Z
+     Date Removed             : 2018-10-07T00:00Z
      Temperature Stabiliz.    : none
      Additional Information   : 
 
@@ -88,7 +88,7 @@
      Antenna Cable Type       : 
      Antenna Cable Length     : 
      Date Installed           : 2017-02-04T00:00Z
-     Date Removed             : 2018-09-16T12:26Z
+     Date Removed             : 2018-10-07T00:00Z
      Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)

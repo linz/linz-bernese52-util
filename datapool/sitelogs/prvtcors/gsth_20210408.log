@@ -1,13 +1,13 @@
-     GSDR Site Information Form (site log)
+     GSTH Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : pgentle
-     Date Prepared            : 2018-10-08
-     Report Type              : UPDATE
+     Prepared by (full name)  : dhansen
+     Date Prepared            : 2021-04-08
+     Report Type              : NEW
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
       Modified/Added Sections : (n.n,n.n,...)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : Dargaville Jervois
-     Four Character ID        : GSDR
+     Site Name                : THAMES
+     Four Character ID        : GSTH
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : 2018-09-13T00:00Z
+     Date Installed           : 2019-10-21T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -37,28 +37,28 @@
 
 2.   Site Location Information
 
-     City or Town             : Dargaville
+     City or Town             : Thames
      State or Province        : 
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -5140858.546
-       Y coordinate (m)       : 551089.1846
-       Z coordinate (m)       : -3722331.506
-       Latitude (N is +)      : -355603.95
-       Longitude (E is +)     : +1735252.96
-       Elevation (m,ellips.)  : 12.9
+       X coordinate (m)       : -5075361.0163
+       Y coordinate (m)       : 395530.7720
+       Z coordinate (m)       : -3829700.4130
+       Latitude (N is +)      : 
+       Longitude (E is +)     : 
+       Elevation (m,ellips.)  : 
      Additional Information   : 
 
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : LEICA GR30
+3.1  Receiver Type            : LEICA GMX902GG
      Satellite System         : GPS+GLO
      Serial Number            : 
      Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : 2018-09-13T00:00Z
+     Date Installed           : 2019-10-21T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -79,17 +79,18 @@
 4.1  Antenna Type             : LEIAS10
      Serial Number            : 
      Antenna Reference Point  : BAM
-     Marker->ARP Up Ecc. (m)  : 000.0000
-     Marker->ARP North Ecc(m) : 000.0000
-     Marker->ARP East Ecc(m)  : 000.0000
+     Marker->ARP Up Ecc. (m)  : 0.000000
+     Marker->ARP North Ecc(m) : 0.000000
+     Marker->ARP East Ecc(m)  : 0.000000
      Alignment from True N    : 
      Antenna Radome Type      : NONE
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : 2018-09-13T00:00Z
+     Date Installed           : 2019-10-21T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
+
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)
@@ -209,15 +210,18 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Global Survey
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 19f Triton Drive
+                                Auckland
+                                0632
+                                New Zealand
      Primary Contact
-       Contact Name           : 
+       Contact Name           : Bruce Robinson
        Telephone (primary)    : 
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : info@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 
