@@ -18,26 +18,26 @@
      Site Name                : 
      Four Character ID        : VDUN
      Monument Inscription     : 
-     IERS DOMES Number        : (A9)
-     CDP Number               : (A4)
-     Monument Description     : (PILLAR/BRASS PLATE/STEEL MAST/etc)
-       Height of the Monument : (m)
-       Monument Foundation    : (STEEL RODS, CONCRETE BLOCK, ROOF, etc)
-       Foundation Depth       : (m)
-     Marker Description       : (CHISELLED CROSS/DIVOT/BRASS NAIL/etc)
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
-     Geologic Characteristic  : (BEDROCK/CLAY/CONGLOMERATE/GRAVEL/SAND/etc)
-       Bedrock Type           : (IGNEOUS/METAMORPHIC/SEDIMENTARY)
-       Bedrock Condition      : (FRESH/JOINTED/WEATHERED)
-       Fracture Spacing       : (1-10 cm/11-50 cm/51-200 cm/over 200 cm)
-       Fault zones nearby     : (YES/NO/Name of the zone)
-         Distance/activity    : (multiple lines)
-     Additional Information   : (multiple lines)
+     IERS DOMES Number        : 
+     CDP Number               : 
+     Monument Description     : 
+       Height of the Monument : 
+       Monument Foundation    : 
+       Foundation Depth       : 
+     Marker Description       : 
+     Date Installed           : 2016-08-21T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    :
+     Additional Information   : Decommissioned
 
 
 2.   Site Location Information
 
-     City or Town             : 
+     City or Town             : Dunedin
      State or Province        : 
      Country                  : New Zealand
      Tectonic Plate           : 
@@ -45,10 +45,10 @@
        X coordinate (m)       : -4387888.8561
        Y coordinate (m)       : 733421.6205
        Z coordinate (m)       : -4555178.1117
-       Latitude (N is +)      : (+/-DDMMSS.SS)
-       Longitude (E is +)     : (+/-DDDMMSS.SS)
-       Elevation (m,ellips.)  : (F7.1)
-     Additional Information   : (multiple lines)
+       Latitude (N is +)      : 
+       Longitude (E is +)     : 
+       Elevation (m,ellips.)  : 
+     Additional Information   : 
 
 
 3.   GNSS Receiver Information
@@ -57,11 +57,11 @@
      Satellite System         : GPS+GLO+SBAS
      Serial Number            : 4737K07041
      Firmware Version         : Nav 4.01 / Boot 3.56
-     Elevation Cutoff Setting : (deg)
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Temperature Stabiliz.    : (none or tolerance in degrees C)
-     Additional Information   : (multiple lines)
+     Elevation Cutoff Setting : 
+     Date Installed           : 2016-08-21T00:00Z
+     Date Removed             : 2019-05-13T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
@@ -78,18 +78,18 @@
 
 4.1  Antenna Type             : TRM55971.00
      Serial Number            : 30318077
-     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
-     Marker->ARP Up Ecc. (m)  : (F8.4)
-     Marker->ARP North Ecc(m) : (F8.4)
-     Marker->ARP East Ecc(m)  : (F8.4)
-     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.000000
+     Marker->ARP North Ecc(m) : 0.000000
+     Marker->ARP East Ecc(m)  : 0.000000
+     Alignment from True N    : 
      Antenna Radome Type      : NONE
      Radome Serial Number     : 
-     Antenna Cable Type       : (vendor & type number)
-     Antenna Cable Length     : (m)
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Additional Information   : (multiple lines)
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2016-08-21T00:00Z
+     Date Removed             : 2019-05-13T00:00Z
+     Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)

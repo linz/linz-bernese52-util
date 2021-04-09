@@ -1,12 +1,12 @@
-     VASH Site Information Form (site log)
+     VWKN Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : superuser
-     Date Prepared            : 2018-07-19
+     Prepared by (full name)  : Dionne Hansen
+     Date Prepared            : 2021-04-09
      Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : Ashburton South
-     Four Character ID        : VASH
+     Site Name                : Waikanae Anne
+     Four Character ID        : VWKN
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -32,19 +32,19 @@
        Fracture Spacing       : 
        Fault zones nearby     : 
          Distance/activity    : 
-     Additional Information   : 
+     Additional Information   : decommissioned
 
 
 2.   Site Location Information
 
-     City or Town             : Ashburton
+     City or Town             : 
      State or Province        : 
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4554797.626
-       Y coordinate (m)       : 660876.8888
-       Z coordinate (m)       : -4400973.9026
+       X coordinate (m)       : -4811537.2952
+       Y coordinate (m)       : 415326.3768
+       Z coordinate (m)       : -4152305.7371
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -53,15 +53,26 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
+3.1  Receiver Type            : TRIMBLE NETR8
      Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 
-     Firmware Version         : 
+     Serial Number            : 4843K33409
+     Firmware Version         : Nav 4.14 / Boot 3.6
      Elevation Cutoff Setting : 
      Date Installed           : 2014-06-01T00:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : 2018-07-24T00:00Z
      Temperature Stabiliz.    : none
      Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 4619K01255
+     Firmware Version         : Nav 48.01 / Boot 48.
+     Elevation Cutoff Setting : 
+     Date Installed           : 2018-07-24T00:00Z
+     Date Removed             : 2019-03-21T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
@@ -88,7 +99,7 @@
      Antenna Cable Type       : 
      Antenna Cable Length     : 
      Date Installed           : 2014-06-01T00:00Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : 2019-03-21T00:00Z
      Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)

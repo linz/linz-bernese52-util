@@ -1,22 +1,22 @@
-     VASH Site Information Form (site log)
+     VWPK Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : superuser
-     Date Prepared            : 2018-07-19
+     Prepared by (full name)  : Dionne Hansen
+     Date Prepared            : 2021-04-09
      Report Type              : UPDATE
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
-      Modified/Added Sections : (n.n,n.n,...)
+      Modified/Added Sections : 3.2
 
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : Ashburton South
-     Four Character ID        : VASH
+     Site Name                : Waipukurau Lindsay
+     Four Character ID        : VWPK
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -37,14 +37,14 @@
 
 2.   Site Location Information
 
-     City or Town             : Ashburton
+     City or Town             : 
      State or Province        : 
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4554797.626
-       Y coordinate (m)       : 660876.8888
-       Z coordinate (m)       : -4400973.9026
+       X coordinate (m)       : -4884899.4758
+       Y coordinate (m)       : 293894.513
+       Z coordinate (m)       : -4077004.942
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -55,10 +55,20 @@
 
 3.1  Receiver Type            : TRIMBLE NETR5
      Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 
-     Firmware Version         : 
+     Serial Number            : 4743K53139
+     Firmware Version         : Nav 4.48 / Boot 4.18
      Elevation Cutoff Setting : 
      Date Installed           : 2014-06-01T00:00Z
+     Date Removed             : 2020-08-24T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE ALLOY
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 
+     Firmware Version         : Nav 5.43 / Boot 5.43
+     Elevation Cutoff Setting : 
+     Date Installed           : 2020-08-25T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 

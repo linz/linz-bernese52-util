@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2016-08-24T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -42,9 +42,9 @@
      Country                  : New Zealand
      Tectonic Plate           : Pacific
      Approximate Position (ITRF)
-       X coordinate (m)       : 
-       Y coordinate (m)       : 
-       Z coordinate (m)       : 
+       X coordinate (m)       : -4575804.0210
+       Y coordinate (m)       : 564529.9312
+       Z coordinate (m)       : -4392524.3989
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -58,7 +58,7 @@
      Serial Number            : 5134K78089
      Firmware Version         : Nav 5.01 / Boot 5.01
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2016-08-24T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -87,7 +87,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2016-08-24T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 

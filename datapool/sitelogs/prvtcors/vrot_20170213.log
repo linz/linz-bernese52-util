@@ -25,14 +25,14 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2014-06-01T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
        Fracture Spacing       : 
        Fault zones nearby     : 
          Distance/activity    : 
-     Additional Information   : 
+     Additional Information   : Decommissioned
 
 
 2.   Site Location Information
@@ -58,8 +58,8 @@
      Serial Number            : 4619K01255
      Firmware Version         : Nav 4.01 / Boot 3.56
      Elevation Cutoff Setting : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2014-06-01T00:00Z
+     Date Removed             : 2017-02-07T00:00Z
      Temperature Stabiliz.    : none
      Additional Information   : 
 
@@ -87,8 +87,8 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2014-06-01T00:00Z
+     Date Removed             : 2017-02-07T00:00Z
      Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)

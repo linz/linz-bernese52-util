@@ -1,22 +1,22 @@
-     VASH Site Information Form (site log)
+     VBRM Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : superuser
-     Date Prepared            : 2018-07-19
-     Report Type              : UPDATE
+     Prepared by (full name)  : Dionne Hansen
+     Date Prepared            : 2021-04-08
+     Report Type              : Update
      If Update:
-      Previous Site Log       : (ssss_ccyymmdd.log)
-      Modified/Added Sections : (n.n,n.n,...)
+      Previous Site Log       : vbrm_20170213.log
+      Modified/Added Sections : 3.2
 
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : Ashburton South
-     Four Character ID        : VASH
+     Site Name                : 
+     Four Character ID        : VBRM
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -37,14 +37,14 @@
 
 2.   Site Location Information
 
-     City or Town             : Ashburton
+     City or Town             : Bromley
      State or Province        : 
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4554797.626
-       Y coordinate (m)       : 660876.8888
-       Z coordinate (m)       : -4400973.9026
+       X coordinate (m)       : -4593460.0155      
+       Y coordinate (m)       : 588296.1250
+       Z coordinate (m)       : -4371063.1089
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -55,10 +55,20 @@
 
 3.1  Receiver Type            : TRIMBLE NETR5
      Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 
-     Firmware Version         : 
+     Serial Number            : 4651K03541
+     Firmware Version         : Nav 4.7 / Boot 4.18
      Elevation Cutoff Setting : 
      Date Installed           : 2014-06-01T00:00Z
+     Date Removed             : 2020-08-10T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+SBAS
+     Serial Number            : 
+     Firmware Version         : Nav 5.44 / Boot 5.44
+     Elevation Cutoff Setting : 
+     Date Installed           : 2020-08-12T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
@@ -78,10 +88,10 @@
 
 4.1  Antenna Type             : TRM55971.00
      Serial Number            : 
-     Antenna Reference Point  : 
-     Marker->ARP Up Ecc. (m)  : 000.0000
-     Marker->ARP North Ecc(m) : 000.0000
-     Marker->ARP East Ecc(m)  : 000.0000
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.000000
+     Marker->ARP North Ecc(m) : 0.000000
+     Marker->ARP East Ecc(m)  : 0.000000
      Alignment from True N    : 
      Antenna Radome Type      : NONE
      Radome Serial Number     : 
@@ -106,10 +116,9 @@
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : (multiple lines)
 
-
 5.   Surveyed Local Ties
 
-5.x  Tied Marker Name         :
+5.x  Tied Marker Name         : 
      Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
      Tied Marker CDP Number   : (A4)
      Tied Marker DOMES Number : (A9)
@@ -125,6 +134,11 @@
 
 6.   Frequency Standard
 
+6.1  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
 6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
        Input Frequency        : (if external)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
@@ -132,6 +146,11 @@
 
 
 7.   Collocation Information
+
+7.1  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
 
 7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
        Status                 : (PERMANENT/MOBILE)
@@ -141,9 +160,9 @@
 
 8.   Meteorological Instrumentation
 
-8.1.x Humidity Sensor Model   :
-       Manufacturer           :
-       Serial Number          :
+8.1.1 Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
        Data Sampling Interval : (sec)
        Accuracy (% rel h)     : (% rel h)
        Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
@@ -152,9 +171,20 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.2.x Pressure Sensor Model   :
-       Manufacturer           :
-       Serial Number          :
+8.1.x Humidity Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1 Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
        Data Sampling Interval : (sec)
        Accuracy               : (hPa)
        Height Diff to Ant     : (m)
@@ -162,9 +192,19 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.3.x Temp. Sensor Model      :
-       Manufacturer           :
-       Serial Number          :
+8.2.x Pressure Sensor Model   : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1 Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
        Data Sampling Interval : (sec)
        Accuracy               : (deg C)
        Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
@@ -173,22 +213,53 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
-8.4.x Water Vapor Radiometer  :
-       Manufacturer           :
-       Serial Number          :
+8.3.x Temp. Sensor Model      : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.1 Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
        Distance to Antenna    : (m)
        Height Diff to Ant     : (m)
        Calibration date       : (CCYY-MM-DD)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Notes                  : (multiple lines)
 
+8.4.x Water Vapor Radiometer  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.1 Other Instrumentation   : (multiple lines)
+
 8.5.x Other Instrumentation   : (multiple lines)
 
 
 9.  Local Ongoing Conditions Possibly Affecting Computed Position
 
+9.1.1 Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
 9.1.x Radio Interferences     : (TV/CELL PHONE ANTENNA/RADAR/etc)
        Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.1 Multipath Sources       : (METAL ROOF/DOME/VLBI ANTENNA/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
@@ -196,25 +267,30 @@
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
+9.3.1 Signal Obstructions     : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
 9.3.x Signal Obstructions     : (TREES/BUILDINGS/etc)
        Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
        Additional Information : (multiple lines)
 
-
 10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
 
 10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
      Event                    : (TREE CLEARING/CONSTRUCTION/etc)
 
+11.   On-Site, Point of Contact Agency Information
 
-11.  On-Site, Point of Contact Agency Information
-
-     Agency                   : 
-     Preferred Abbreviation   : 
-     Mailing Address          : 
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
      Primary Contact
        Contact Name           : 
-       Telephone (primary)    : 
+       Telephone (primary)    :
        Telephone (secondary)  : 
        Fax                    : 
        E-mail                 : 
@@ -229,9 +305,9 @@
 
 12.  Responsible Agency (if different from 11.)
 
-     Agency                   : 
-     Preferred Abbreviation   : 
-     Mailing Address          : 
+     Agency                   : (multiple lines)
+     Preferred Abbreviation   : (A10)
+     Mailing Address          : (multiple lines)
      Primary Contact
        Contact Name           : 
        Telephone (primary)    : 
@@ -249,16 +325,16 @@
 
 13.  More Information
 
-     Primary Data Center      : 
-     Secondary Data Center    : 
+     Primary Data Center      :
+     Secondary Data Center    :
      URL for More Information : 
      Hardcopy on File
-       Site Map               : 
-       Site Diagram           : 
-       Horizon Mask           : 
-       Monument Description   : 
-       Site Pictures          : 
-     Additional Information   : 
+       Site Map               : (Y or URL)
+       Site Diagram           : (Y or URL)
+       Horizon Mask           : (Y or URL)
+       Monument Description   : (Y or URL)
+       Site Pictures          : (Y or URL)
+     Additional Information   : (multiple lines)
      Antenna Graphics with Dimensions
 
      (insert text graphic from file antenna.gra)
