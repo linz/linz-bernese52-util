@@ -1,22 +1,22 @@
-     PPWH Site Information Form (site log)
+     VWM2 Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : dhansen
-     Date Prepared            : 2018-07-04
+     Prepared by (full name)  : Dionne Hansen
+     Date Prepared            : 2021-04-13
      Report Type              : UPDATE
      If Update:
-      Previous Site Log       : (ssss_ccyymmdd.log)
-      Modified/Added Sections : (n.n,n.n,...)
+      Previous Site Log       : vwm2_20181107.log
+      Modified/Added Sections : 4.2
 
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : PPWH
+     Site Name                : Waimairi Beach No 2
+     Four Character ID        : VWM2
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,26 +25,27 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : 2018-02-18T23:16Z
+     Date Installed           : 2018-08-14T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
        Fracture Spacing       : 
        Fault zones nearby     : 
          Distance/activity    : 
-     Additional Information   : Decommissioned
+     Additional Information   : New position of VWMR which was likely disturbed
+                                by roofing contractors.
 
 
 2.   Site Location Information
 
-     City or Town             : Whitford
+     City or Town             : 
      State or Province        : 
-     Country                  : New Zealand
+     Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : 
-       Y coordinate (m)       : 
-       Z coordinate (m)       : 
+       X coordinate (m)       : -4597668.9795
+       Y coordinate (m)       : 587019.6971
+       Z coordinate (m)       : -4366839.5250
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -53,13 +54,13 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE SPS852
-     Satellite System         : 
-     Serial Number            : 5204K81660
-     Firmware Version         : 4.82
+3.1  Receiver Type            : TRIMBLE NETR9       
+     Satellite System         : GPS+GLO
+     Serial Number            : 5016K66901
+     Firmware Version         : Nav 5.03 / Boot 5.03
      Elevation Cutoff Setting : 
-     Date Installed           : 2018-02-18T23:16Z
-     Date Removed             : 2018-03-05T00:17Z
+     Date Installed           : 2018-08-14T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
 
@@ -76,20 +77,36 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : Zephyr Rugged
+4.1  Antenna Type             : TRM55971.00 
      Serial Number            : 
-     Antenna Reference Point  : 
+     Antenna Reference Point  : BOM
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000
      Alignment from True N    : 
-     Antenna Radome Type      : 
+     Antenna Radome Type      : NONE
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : 2018-02-18T23:16Z
-     Date Removed             : 2018-03-05T00:17Z
+     Date Installed           : 2018-08-14T00:00Z
+     Date Removed             : 2018-12-20T23:59Z
      Additional Information   : 
+
+4.2  Antenna Type             : TRM57971.00
+     Serial Number            : 
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2018-12-21T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : 
+
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
      Serial Number            : (A*, but note the first A5 is used in SINEX)

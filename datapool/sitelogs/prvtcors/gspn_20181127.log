@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Installed           : 2018-09-13T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -39,7 +39,7 @@
 
      City or Town             : Palmerston North
      State or Province        : Manawatu
-     Country                  : 
+     Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
        X coordinate (m)       : -4850741.314
@@ -63,7 +63,7 @@
      Temperature Stabiliz.    : none
      Additional Information   : 
 
-3.2  Receiver Type            : Lecia GR30
+3.2  Receiver Type            : LEICA GR30
      Satellite System         : GPS+GLO+GAL+BDS
      Serial Number            : 1705507
      Firmware Version         : 
@@ -101,12 +101,12 @@
      Date Removed             : 2018-11-27T01:21Z
      Additional Information   : 
 
-4.2  Antenna Type             : Leica AR10
+4.2  Antenna Type             : LEIAR10
      Serial Number            : 19228044
      Antenna Reference Point  : BOM
-     Marker->ARP Up Ecc. (m)  : 
-     Marker->ARP North Ecc(m) : 
-     Marker->ARP East Ecc(m)  : 
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
      Alignment from True N    : 
      Antenna Radome Type      : 
      Radome Serial Number     : 

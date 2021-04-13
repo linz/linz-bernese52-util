@@ -1,65 +1,65 @@
-     PPWH Site Information Form (site log)
+     GSHW Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
 
 0.   Form
 
-     Prepared by (full name)  : dhansen
-     Date Prepared            : 2018-07-04
+     Prepared by (full name)  : Dionne Hansen
+     Date Prepared            : 2021-04-13
      Report Type              : UPDATE
      If Update:
-      Previous Site Log       : (ssss_ccyymmdd.log)
-      Modified/Added Sections : (n.n,n.n,...)
+      Previous Site Log       : gshw_20181121.log
+      Modified/Added Sections : 4.2, 4.3
 
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : 
-     Four Character ID        : PPWH
+     Site Name                : SmartFix - Hawera
+     Four Character ID        : GSHW
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
-     Monument Description     : 
+     Monument Description     : Roof Mast
        Height of the Monument : 
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : 2018-02-18T23:16Z
+     Date Installed           : 2015-06-01T12:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
        Fracture Spacing       : 
        Fault zones nearby     : 
          Distance/activity    : 
-     Additional Information   : Decommissioned
+     Additional Information   : 
 
 
 2.   Site Location Information
 
-     City or Town             : Whitford
-     State or Province        : 
-     Country                  : New Zealand
+     City or Town             : Hawera
+     State or Province        : Taranaki
+     Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : 
-       Y coordinate (m)       : 
-       Z coordinate (m)       : 
-       Latitude (N is +)      : 
-       Longitude (E is +)     : 
-       Elevation (m,ellips.)  : 
+       X coordinate (m)       : -4898107.1007
+       Y coordinate (m)       : 490532.7533
+       Z coordinate (m)       : -4042282.3890
+       Latitude (N is +)      : -393450.02
+       Longitude (E is +)     : +1741652.00
+       Elevation (m,ellips.)  : 126.4
      Additional Information   : 
 
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE SPS852
-     Satellite System         : 
-     Serial Number            : 5204K81660
-     Firmware Version         : 4.82
+3.1  Receiver Type            : LEICA GMX902GG
+     Satellite System         : GLO+GPS
+     Serial Number            : MJ 126
+     Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : 2018-02-18T23:16Z
-     Date Removed             : 2018-03-05T00:17Z
+     Date Installed           : 2018-11-13T00:00Z
+     Date Removed             : 2020-04-16T00:00Z
      Temperature Stabiliz.    : none
      Additional Information   : 
 
@@ -76,19 +76,49 @@
 
 4.   GNSS Antenna Information
 
-4.1  Antenna Type             : Zephyr Rugged
+4.1  Antenna Type             : LEIAX1202GG
      Serial Number            : 
      Antenna Reference Point  : 
      Marker->ARP Up Ecc. (m)  : 000.0000
      Marker->ARP North Ecc(m) : 000.0000
      Marker->ARP East Ecc(m)  : 000.0000
      Alignment from True N    : 
-     Antenna Radome Type      : 
+     Antenna Radome Type      : NONE
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : 2018-02-18T23:16Z
-     Date Removed             : 2018-03-05T00:17Z
+     Date Installed           : 2018-11-13T00:00Z
+     Date Removed             : 2020-04-16T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : LEIAS10
+     Serial Number            : 
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2020-04-17T07:03Z
+     Date Removed             : 2020-12-17T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : LEIAX1202GG
+     Serial Number            : 
+     Antenna Reference Point  : 
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2020-12-18T00:00Z
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
 4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
@@ -209,15 +239,18 @@
 
 11.  On-Site, Point of Contact Agency Information
 
-     Agency                   : 
+     Agency                   : Global Survey
      Preferred Abbreviation   : 
-     Mailing Address          : 
+     Mailing Address          : 19f Triton Drive
+                                Auckland
+                                0632
+                                New Zealand
      Primary Contact
-       Contact Name           : 
+       Contact Name           : Bruce Robinson
        Telephone (primary)    : 
        Telephone (secondary)  : 
        Fax                    : 
-       E-mail                 : 
+       E-mail                 : info@globalsurvey.co.nz
      Secondary Contact
        Contact Name           : 
        Telephone (primary)    : 
