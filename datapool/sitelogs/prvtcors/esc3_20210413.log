@@ -1,4 +1,4 @@
-     ESC1 Site Information Form (site log)
+     ESC3 Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
@@ -6,7 +6,7 @@
 0.   Form
 
      Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2021-02-16
+     Date Prepared            : 2021-04-13
      Report Type              : NEW
      If Update:
       Previous Site Log       : (ssss_ccyymmdd.log)
@@ -15,8 +15,8 @@
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : ESCORS1
-     Four Character ID        : ESC1
+     Site Name                : ESCORS3
+     Four Character ID        : ESC3
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : 2020-09-24T21:17Z
+     Date Installed           : 2021-03-17T22:09Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -42,9 +42,9 @@
      Country                  : 
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -4589006.3711
-       Y coordinate (m)       : 631431.0418
-       Z coordinate (m)       : -4369953.2821
+       X coordinate (m)       : -4600086.2909
+       Y coordinate (m)       : 651005.6753
+       Z coordinate (m)       : -4355801.0348
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -53,12 +53,12 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR5
+3.1  Receiver Type            : TRIMBLE NETR9
      Satellite System         : 
      Serial Number            : 
-     Firmware Version         : Nav 4.82 / Boot 4.82
+     Firmware Version         : Nav 5.44 / Boot 5.44
      Elevation Cutoff Setting : 
-     Date Installed           : 2020-09-24T21:17Z
+     Date Installed           : 2021-03-17T22:09Z
      Date Removed             : 
      Temperature Stabiliz.    : 
      Additional Information   : 
@@ -78,7 +78,7 @@
 4.   GNSS Antenna Information
 
 4.1  Antenna Type             : TRM57971.00
-     Serial Number            : 3121170448
+     Serial Number            : 7000110402
      Antenna Reference Point  : 
      Marker->ARP Up Ecc. (m)  : 
      Marker->ARP North Ecc(m) : 
@@ -88,7 +88,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : 2020-09-24T21:17Z
+     Date Installed           : 2021-03-17T22:09Z
      Date Removed             : 
      Additional Information   : 
 
