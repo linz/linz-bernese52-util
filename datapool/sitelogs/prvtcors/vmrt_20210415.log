@@ -1,4 +1,4 @@
-     VTOK Site Information Form (site log)
+     VMRT Site Information Form (site log)
      International GNSS Service
      See Instructions at:
        ftp://igs.org/pub/station/general/sitelog_instr.txt
@@ -6,17 +6,17 @@
 0.   Form
 
      Prepared by (full name)  : Dionne Hansen
-     Date Prepared            : 2021-04-12
-     Report Type              : UPDATE
+     Date Prepared            : 2021-04-15
+     Report Type              : NEW
      If Update:
-      Previous Site Log       : vtok_20180719.log
-      Modified/Added Sections : 3.2, 3.3
+      Previous Site Log       : 
+      Modified/Added Sections : 
 
 
 1.   Site Identification of the GNSS Monument
 
-     Site Name                : Tokoroa Main
-     Four Character ID        : VTOK
+     Site Name                : 
+     Four Character ID        : VMRT
      Monument Inscription     : 
      IERS DOMES Number        : 
      CDP Number               : 
@@ -25,7 +25,7 @@
        Monument Foundation    : 
        Foundation Depth       : 
      Marker Description       : 
-     Date Installed           : 2014-06-01T00:00Z
+     Date Installed           : 2020-05-22T00:00Z
      Geologic Characteristic  : 
        Bedrock Type           : 
        Bedrock Condition      : 
@@ -42,9 +42,9 @@
      Country                  : New Zealand
      Tectonic Plate           : 
      Approximate Position (ITRF)
-       X coordinate (m)       : -5005627.6757
-       Y coordinate (m)       : 361500.7082
-       Z coordinate (m)       : -3923603.0395
+       X coordinate (m)       : -4875665.7439
+       Y coordinate (m)       : 392036.8277
+       Z coordinate (m)       : -4079891.9152
        Latitude (N is +)      : 
        Longitude (E is +)     : 
        Elevation (m,ellips.)  : 
@@ -53,36 +53,16 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : TRIMBLE NETR3
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4814K55106
-     Firmware Version         : Nav 4.17 / Boot 4.18
-     Elevation Cutoff Setting : 
-     Date Installed           : 2014-06-01T00:00Z
-     Date Removed             : 2014-08-28T00:00Z
-     Temperature Stabiliz.    : none
-     Additional Information   : 
-
-3.2  Receiver Type            : TRIMBLE NETR5
-     Satellite System         : GPS+GLO+SBAS
-     Serial Number            : 4619K01285
-     Firmware Version         : Nav 4.87 / Boot 4.87
-     Elevation Cutoff Setting : 
-     Date Installed           : 2016-08-22T00:00Z
-     Date Removed             : 2021-03-08T23:59Z
-     Temperature Stabiliz.    : none
-     Additional Information   : 
-
-
-3.3  Receiver Type            : TRIMBLE ALLOY
+3.1  Receiver Type            : TRIMBLE ALLOY
      Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
-     Serial Number            : 
-     Firmware Version         : Nav 5.43 / Boot 5.43
+     Serial Number            : Nav 5.42 / Boot 5.42
+     Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : 2021-03-09T00:00Z
+     Date Installed           : 2020-05-22T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Temperature Stabiliz.    : none
      Additional Information   : 
+
 
 3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
      Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
@@ -108,7 +88,7 @@
      Radome Serial Number     : 
      Antenna Cable Type       : 
      Antenna Cable Length     : 
-     Date Installed           : 2014-06-01T00:00Z
+     Date Installed           : 2020-05-22T00:00Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
