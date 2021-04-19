@@ -63,7 +63,7 @@
      Temperature Stabiliz.    : none
      Additional Information   : 
 
-3.2  Receiver Type            : Trimble NetR9
+3.2  Receiver Type            : TRIMBLE NETR9
      Satellite System         : GPS+QZSS+GLO+GAL+BDS
      Serial Number            : 5034K69694
      Firmware Version         : 
@@ -108,36 +108,6 @@
      Antenna Cable Type       : 
      Antenna Cable Length     : 
      Date Installed           : 2018-06-06T05:13Z
-     Date Removed             : 2020-08-19T01:50Z
-     Additional Information   : 
-
-4.2  Antenna Type             : 1
-     Serial Number            : 2
-     Antenna Reference Point  : 3
-     Marker->ARP Up Ecc. (m)  : 000.0000
-     Marker->ARP North Ecc(m) : 000.0000
-     Marker->ARP East Ecc(m)  : 000.0000
-     Alignment from True N    : 
-     Antenna Radome Type      : 
-     Radome Serial Number     : 
-     Antenna Cable Type       : 
-     Antenna Cable Length     : 
-     Date Installed           : 2020-08-19T01:50Z
-     Date Removed             : (CCYY-MM-DDThh:mmZ)
-     Additional Information   : 
-
-4.3  Antenna Type             : 1
-     Serial Number            : 23
-     Antenna Reference Point  : 4
-     Marker->ARP Up Ecc. (m)  : 000.0000
-     Marker->ARP North Ecc(m) : 000.0000
-     Marker->ARP East Ecc(m)  : 000.0000
-     Alignment from True N    : 
-     Antenna Radome Type      : 
-     Radome Serial Number     : 
-     Antenna Cable Type       : 
-     Antenna Cable Length     : 
-     Date Installed           : 2020-08-19T01:52Z
      Date Removed             : (CCYY-MM-DDThh:mmZ)
      Additional Information   : 
 
