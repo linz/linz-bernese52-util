@@ -53,12 +53,22 @@
 
 3.   GNSS Receiver Information
 
-3.1  Receiver Type            : LEICA GMX902GG
+3.1  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GLO+GPS
+     Serial Number            : 
+     Firmware Version         : 
+     Elevation Cutoff Setting : 
+     Date Installed           : 2018-11-13T00:00Z
+     Date Removed             : 2019-12-01T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : LEICA GMX902GG
      Satellite System         : GLO+GPS
      Serial Number            : MJ 126
      Firmware Version         : 
      Elevation Cutoff Setting : 
-     Date Installed           : 2018-11-13T00:00Z
+     Date Installed           : 2019-12-16T00:00Z
      Date Removed             : 2020-04-16T00:00Z
      Temperature Stabiliz.    : none
      Additional Information   : 
