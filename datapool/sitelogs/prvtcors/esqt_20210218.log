@@ -80,9 +80,9 @@
 4.1  Antenna Type             : TRM57971.00
      Serial Number            :1441031341
      Antenna Reference Point  : 
-     Marker->ARP Up Ecc. (m)  : 
-     Marker->ARP North Ecc(m) : 
-     Marker->ARP East Ecc(m)  : 
+     Marker->ARP Up Ecc. (m)  : 0.0010
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
      Alignment from True N    : 
      Antenna Radome Type      : NONE
      Radome Serial Number     : 
