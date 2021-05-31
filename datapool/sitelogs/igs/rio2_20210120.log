@@ -1,0 +1,597 @@
+     RIO200ARG Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : markus.bradke@gfz-potsdam.de
+     Date Prepared            : 2021-01-20
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : rio2_20201104.log
+      Modified/Added Sections : 0, 3.12, 3.13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Rio Grande
+     Four Character ID        : RIO2
+     Monument Inscription     : 
+     IERS DOMES Number        : 41507M006
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.30 m
+       Monument Foundation    : CONCRETE BLOCK plus STEEL ROD
+       Foundation Depth       : 8.00 m
+     Marker Description       : BRASS NAIL on a triangular plate
+     Date Installed           : 2007-04-28T00:00Z
+     Geologic Characteristic  : GRAVEL
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : replaces station RIOG after monumentation repair
+
+
+2.   Site Location Information
+
+     City or Town             : Rio Grande
+     State or Province        : Tierra del Fuego
+     Country                  : Argentina
+     Tectonic Plate           : SOUTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1429907.7834
+       Y coordinate (m)       : -3495354.8119
+       Z coordinate (m)       : -5122698.6553
+       Latitude (N is +)      : -534707.70
+       Longitude (E is +)     : -0674504.03
+       Elevation (m,ellips.)  : 32.0
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP00785
+     Firmware Version         : 1D02-CC00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-04-28T00:00Z
+     Date Removed             : 2012-10-09T12:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : The receiver is located inside the observatory;
+                              : Original elevation cutoff setting is 0.5
+
+3.2  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.4.4b0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-10-09T21:30Z
+     Date Removed             : 2013-01-08T12:25Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.4.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-01-08T12:26Z
+     Date Removed             : 2015-09-15T14:36Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.5.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-09-15T14:36Z
+     Date Removed             : 2016-10-25T09:44Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.6.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-10-25T09:45Z
+     Date Removed             : 2016-11-09T09:16Z
+     Temperature Stabiliz.    : none
+     Additional Information   : enables tracking of E01/E02
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.6.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-11-09T09:16Z
+     Date Removed             : 2018-07-09T14:01Z
+     Temperature Stabiliz.    : none
+     Additional Information   : QZSS option activated
+
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.7.3P1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-07-09T14:02Z
+     Date Removed             : 2019-02-22T15:18Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Board revision TRE_G3TH_5
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.7.5p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-02-22T15:19Z
+     Date Removed             : 2020-02-19T10:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Board revision TRE_G3TH_5
+
+3.9  Receiver Type            : SEPT ASTERX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3046694
+     Firmware Version         : 4.4.3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-02-20T15:00Z
+     Date Removed             : 2020-02-21T15:29Z
+     Temperature Stabiliz.    : none
+     Additional Information   : tinyPC4  S/N 012
+                              : tinyUPS  S/N 008
+                              : tinyView S/N 012
+
+3.10 Receiver Type            : JAVAD TRE_G3TH
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 207
+     Firmware Version         : 3.7.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-02-21T15:30Z
+     Date Removed             : 2020-06-30T14:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : tinyPC4  S/N 012
+
+3.11 Receiver Type            : SEPT ASTERX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3046694
+     Firmware Version         : 4.4.3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-06-30T15:00Z
+     Date Removed             : 2020-11-04T13:32Z
+     Temperature Stabiliz.    : none
+     Additional Information   : tinyPC4  S/N 012
+
+3.12 Receiver Type            : SEPT ASTERX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3046694
+     Firmware Version         : 4.8.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-11-04T13:33Z
+     Date Removed             : 2021-01-20T11:37Z
+     Temperature Stabiliz.    : none
+     Additional Information   : tinyPC4  S/N 012
+
+3.13 Receiver Type            : SEPT ASTERX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3046694
+     Firmware Version         : 4.8.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-01-20T11:38Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : tinyPC4  S/N 012
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH700936C_M    SNOW
+     Serial Number            : 12129
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0350
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2007-04-28T00:00Z
+     Date Removed             : 2012-10-09T12:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : JAV_RINGANT_G3T NONE
+     Serial Number            : 336
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0850
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-10-09T21:30Z
+     Date Removed             : 2020-02-19T10:59Z
+     Additional Information   : 
+
+4.3  Antenna Type             : SEPCHOKE_B3E6   NONE
+     Serial Number            : 5482
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0690
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Cellflex LCF 1/2"
+     Antenna Cable Length     : 75.00 m
+     Date Installed           : 2020-02-20T15:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2007-04-28/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HMP45A-P
+       Manufacturer           : VAISALA
+       Serial Number          : x3710006
+       Data Sampling Interval : 600 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 3.20 m
+       Calibration date       : 2002-09-11
+       Effective Dates        : 2007-04-28/2012-10-08
+       Notes                  : The humidity sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.1.2  Humidity Sensor Model  : PTU303
+       Manufacturer           : VAISALA
+       Serial Number          : E5330015
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 3.20 m
+       Calibration date       : 2009-12-30
+       Effective Dates        : 2012-10-09/2020-02-19
+       Notes                  : The humidity sensor is part of a Vaisala
+                              : PTU300 meteo station
+
+8.1.3  Humidity Sensor Model  : WXT536
+       Manufacturer           : VAISALA
+       Serial Number          : R1540044
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 3
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 3.20 m
+       Calibration date       : 2019-06-04
+       Effective Dates        : 2020-02-20/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTU200
+       Manufacturer           : VAISALA
+       Serial Number          : x3710006
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 1.10 m
+       Calibration date       : 2002-09-11
+       Effective Dates        : 2007-04-28/2012-10-08
+       Notes                  : The pressure sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.2.2  Pressure Sensor Model  : PTU300 Class A
+       Manufacturer           : VAISALA
+       Serial Number          : E5330015
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 1.10 m
+       Calibration date       : 2009-12-30
+       Effective Dates        : 2012-10-09/2020-02-19
+       Notes                  : The pressure sensor is part of a Vaisala
+                              : PTU300 meteo station
+
+8.2.3  Pressure Sensor Model  : WXT536
+       Manufacturer           : VAISALA
+       Serial Number          : R1540044
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : 3.20 m
+       Calibration date       : 2019-06-04
+       Effective Dates        : 2020-02-20/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : HMP45A-P
+       Manufacturer           : VAISALA
+       Serial Number          : x3710006
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 3.20 m
+       Calibration date       : 2002-09-12
+       Effective Dates        : 2007-04-28/2012-10-08
+       Notes                  : The temperatur sensor is part of a Vaisala
+                              : PTU200 meteo station
+
+8.3.2  Temp. Sensor Model     : PTU303
+       Manufacturer           : VAISALA
+       Serial Number          : E5330015
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 3.20 m
+       Calibration date       : 2009-12-30
+       Effective Dates        : 2012-10-09/2020-02-19
+       Notes                  : The temperature sensor is part of a Vaisala
+                              : PTU300 meteo station
+
+8.3.3  Temp. Sensor Model     : WXT536
+       Manufacturer           : VAISALA
+       Serial Number          : R1540044
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.3 deg C
+       Aspiration             : NATURAL
+       Height Diff to Ant     : 3.20 m
+       Calibration date       : 2019-06-04
+       Effective Dates        : 2020-02-20/CCYY-MM-DD
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Estacion Astronomica Rio Grande
+     Preferred Abbreviation   : EARG
+     Mailing Address          : CC160
+                              : 9420 Rio Grande - Tierra del Fuego
+                              : Argentina
+     Primary Contact
+       Contact Name           : Prof. Dr. Raul Perdomo
+       Telephone (primary)    : (+54)221 421 7308
+       Telephone (secondary)  : (+54)221 483 8810
+       Fax                    : (+54)221 421 1761
+       E-mail                 : perdomo@fcaglp.fcaglp.unlp.edu.ar
+     Secondary Contact
+       Contact Name           : Jose Luis Hormaechea
+       Telephone (primary)    : (+54)2964 430 123
+       Telephone (secondary)  : (+54)2964 433 930
+       Fax                    : (+54)2964 430 123
+       E-mail                 : jlhor@earg.gov.ar
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Helmholtz-Zentrum Potsdam
+                              : Deutsches GeoForschungsZentrum GFZ
+     Preferred Abbreviation   : GFZ
+     Mailing Address          : Telegrafenberg A17
+                              : 14473 Potsdam / Germany
+     Primary Contact
+       Contact Name           : Dr. Markus Ramatschi
+       Telephone (primary)    : (+49)-331-2881746
+       Telephone (secondary)  : (+49)-331-2881110
+       Fax                    : (+49)-331-2881759
+       E-mail                 : gnss@gfz-potsdam.de
+     Secondary Contact
+       Contact Name           : Markus Bradke
+       Telephone (primary)    : (+49)-331-2881182
+       Telephone (secondary)  : (+49)-331-2881110
+       Fax                    : (+49)-331-2881759
+       E-mail                 : bradke@gfz-potsdam.de
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+SEPCHOKE_B3E6
+
+                    ---------------                       <--  0.1550
+                  /                 \
+                 |                   |
++-----------------------------------------------------+   <--  0.1080  TCR
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |
++-----------------+-----------------+-----------------+   <--  0.0480  BCR
+                  |                 |
+                  |                 |
+                  |                 |
+                  +--------x--------+                     <--  0.0000  BPA=ARP
+                                                              (5/8" thread might
+                                                               differ from BPA!)
+                                                                       NOM=NRP
+                  <--    0.1210   -->
+<--                      0.3630                     -->
+
+Changes: 16-Sep-2020: ARP changed from BAM to BPA
+
+SEPCHOKE_MC
+
+                     -------------                        <--  0.1060
+                    /             \
+                   |               |
+-------------------------------------------------------   <--  0.0620  TCR
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |
++------------------------+---+------------------------+   <--  0.0010  BCR
+                         +-x-+                            <--  0.0000  BAM=ARP
+                                                                       NOM=NRP
+<--                      0.3764                     -->
+
+JAV_RINGANT_G3T
+
+                       ---------                          <--  0.0614
+                     /           \
+                   /               \
+  +-------------------------------------------------+     <--  0.0410  TCR
+  |                                                 |
+  |              +-------------------+              |
+  |              |   \           /   |              |
+  |              |    \         /    |              |
+  |              |      +--x--+      |              |     <--  0.0000  BAM=ARP
+  +--------------+-------------------+--------------+     <-- -0.0260  BCR
+                                                                       RXC=NRP
+  <--                    0.3260                   -->
+
+ASH700936C_M
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0380
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                                       NOM=NRP
+<--                      0.3810                     -->
+
+

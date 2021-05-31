@@ -1,0 +1,521 @@
+     YEBE00ESP Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Daniel  Galan Sebastian
+     Date Prepared            : 2021-04-13
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : yebe_20210325.log
+      Modified/Added Sections : 13
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Yebes
+     Four Character ID        : YEBE
+     Monument Inscription     : None
+     IERS DOMES Number        : 13420M001
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.2 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 2 m
+     Marker Description       : BRASS PLATE
+     Date Installed           : 1992-11-30T00:00Z
+     Geologic Characteristic  : CLAY/LIMESTONE/CLAY
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 
+       Fault zones nearby     : NO
+         Distance/activity    : 
+     Additional Information   : CLAY 2 m LIMESTONE 18 m CLAY.
+                              : YEBE is a reference point of the National
+                              : Reference Stations Network raised by the In
+                              : Geografico Nacional. The monument is a
+                              : Reinforced concrete pillar on the top of the
+                              : terrace of the Centro Astronomico de Yebe
+                              : 100 m from the 14m VLBI antenna
+
+
+2.   Site Location Information
+
+     City or Town             : Yebes
+     State or Province        : Guadalajara
+     Country                  : Spain
+     Tectonic Plate           : EURASIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4848724.950
+       Y coordinate (m)       : -261632.509
+       Z coordinate (m)       : 4123093.952
+       Latitude (N is +)      : +403129.63
+       Longitude (E is +)     : -0030519.07
+       Elevation (m,ellips.)  : 972.8
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 03995
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-05-19T12:00Z
+     Date Removed             : 1999-10-14T11:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 10001
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-10-14T12:00Z
+     Date Removed             : 1999-11-18T10:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 26994
+     Firmware Version         : 7.29 / 3.07
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-11-18T18:00Z
+     Date Removed             : 2000-04-19T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 26994
+     Firmware Version         : 7.19 / 3.04
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2000-04-19T00:00Z
+     Date Removed             : 2001-09-26T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE 4000SSI
+     Satellite System         : GPS
+     Serial Number            : 00026994
+     Firmware Version         : NP 7.19 / SP 3.04
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2001-09-26T00:00Z
+     Date Removed             : 2007-07-26T23:59Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4644124596
+     Firmware Version         : NP 1.15 / SP 0.00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-07-27T00:00Z
+     Date Removed             : 2008-03-05T12:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4644124596
+     Firmware Version         : NP 1.20 / SP 0.00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-03-05T12:01Z
+     Date Removed             : 2009-01-17T18:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4644124596
+     Firmware Version         : 1.2-5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-01-19T09:00Z
+     Date Removed             : 2010-07-21T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4644124596
+     Firmware Version         : 1.2-5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-07-21T09:00Z
+     Date Removed             : 2018-05-16T12:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Set tracking of unhealthy satellites
+
+3.10 Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO
+     Serial Number            : 5536R50061
+     Firmware Version         : 5.22
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-05-16T13:00Z
+     Date Removed             : 2021-03-24T12:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.11 Receiver Type            : LEICA GR50
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 1871475
+     Firmware Version         : 4.31/7.403
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-03-24T14:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 00337
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1999-05-19T12:00Z
+     Date Removed             : 1999-10-14T11:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM22020.00+GP  NONE
+     Serial Number            : 0030048860
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1999-10-14T12:00Z
+     Date Removed             : 1999-11-18T10:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 80418
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 1999-11-18T12:00Z
+     Date Removed             : 2001-09-26T12:00Z
+     Additional Information   : 
+
+4.4  Antenna Type             : TRM29659.00     NONE
+     Serial Number            : 0180418
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2001-09-26T12:00Z
+     Date Removed             : 2021-03-24T12:00Z
+     Additional Information   : 
+
+4.5  Antenna Type             : LEIAR20         LEIM
+     Serial Number            : 23349016
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 150 deg
+     Antenna Radome Type      : LEIM
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2021-03-24T14:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : YEBES VLBI ARP
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 7333
+     Tied Marker DOMES Number : 13420S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 55.522
+       dy (m)                 : -69.713
+       dz (m)                 : -58.299
+     Accuracy (mm)            : 7 mm
+     Survey method            : GPS CAMPAIGN
+     Date Measured            : 1999-11-18T00:00Z
+     Additional Information   : 
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1999-05-19/2000-06-22
+       Notes                  : Disabled
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2000-06-22/2007-04-02
+       Notes                  : KVARZ (manufacturer), CH1-75 (model)
+
+6.3  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2007-04-03/2008-09-16
+       Notes                  : Disabled
+
+6.4  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2008-09-17/CCYY-MM-DD
+       Notes                  : Disabled
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1995-01-01/CCYY-MM-DD
+       Notes                  : 14m dish antenna equipped with S/X
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : 507-246
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : 
+       Height Diff to Ant     : -1.84 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1996-06-01/CCYY-MM-DD
+       Notes                  : 
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : 507-266
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : -1.843 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1996-06-01/CCYY-MM-DD
+       Notes                  : 
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : 507-245
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 
+       Accuracy               : 0.2 deg C
+       Aspiration             : 
+       Height Diff to Ant     : -1.84 m
+       Calibration date       : 
+       Effective Dates        : 1996-06-01/1996-06-01
+       Notes                  : 
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Geografico Nacional de Espana
+     Preferred Abbreviation   : IGE
+     Mailing Address          : General Ibanez de Ibero 3
+                              : 28003 Madrid
+                              : Spain
+     Primary Contact
+       Contact Name           : Mr. Sergio Calvo Ferruelo
+       Telephone (primary)    : +34 915 97 94 30
+       Telephone (secondary)  : 
+       Fax                    : +34 915 97 96 16
+       E-mail                 : scalvo@fomento.es
+     Secondary Contact
+       Contact Name           : Jose Antonio Sanchez Sobrino
+       Telephone (primary)    : +34 915 97 94 28
+       Telephone (secondary)  : 
+       Fax                    : +34 915 97 96 16
+       E-mail                 : jassobrino@fomento.es
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : 
+     URL for More Information : http://www.oan.es/cay/gps/
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : (Y)
+       Monument Description   : (Y)
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+LEIAR20
+
+                        +-----+                           <--  0.1613
+                      /         \
+                     |           |
+    +----------------+-----------+----------------+       <--  0.1113  TCR
+    |                                             |
+    |                                             |
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +------------------+-----------+------------------+     <--  0.0323  BCR
+                     |           |
+                     |           |
+                     +----+ +----+                        <--  0.0013  BPA
+                          +x+                             <--  0.0000  BAM=ARP
+                                                                       NOM=NRP
+  <--                    0.3200                   -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+

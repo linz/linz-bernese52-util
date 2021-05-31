@@ -1,0 +1,482 @@
+     MOBS00AUS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : brandon.owen@ga.gov.au
+     Date Prepared            : 2021-04-21
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : (ssss_ccyymmdd.log)
+      Modified/Added Sections : (n.n,n.n,...)
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Melbourne Observatory
+     Four Character ID        : MOBS
+     Monument Inscription     : 
+     IERS DOMES Number        : 50182M001
+     CDP Number               : NONE
+     Monument Description     : Centre of base of 5/8" spigot on GPS
+       Height of the Monument : 1.5 m
+       Monument Foundation    : Concrete cast in situ, set in Bedrock
+       Foundation Depth       : 4.9 m
+     Marker Description       : Stainless Steel Plate
+     Date Installed           : 2002-09-15T00:00Z
+     Geologic Characteristic  : Thin Bedrock of between 5-20m of
+       Bedrock Type           : SANDSTONE
+       Bedrock Condition      : FIRM, VARIABLY OXIDISED, VARIABLY CEMENTED
+       Fracture Spacing       : none
+       Fault zones nearby     : Non documented
+         Distance/activity    : 
+     Additional Information   : The GPS antenna is located on top of a stainless
+                              : steel pillar, which has been secured into the
+                              : top of a bluestone pillar set in bedrock
+
+
+2.   Site Location Information
+
+     City or Town             : Melbourne
+     State or Province        : Victoria
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -4130636.589
+       Y coordinate (m)       : 2894953.121
+       Z coordinate (m)       : -3890530.442
+       Latitude (N is +)      : -374945.86
+       Longitude (E is +)     : +1445831.22
+       Elevation (m,ellips.)  : 40.6
+     Additional Information   : The GPS is located at the old Melbourne
+                              : Observatory, located in the Royal Melbourne
+                              : Botanical Gardens
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR520021114
+     Firmware Version         : ZC00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-10-29T00:00Z
+     Date Removed             : 2006-01-23T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR220012001
+     Firmware Version         : CK00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-01-24T00:00Z
+     Date Removed             : 2007-06-20T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : LEICA GRX1200PRO
+     Satellite System         : GPS
+     Serial Number            : 462891
+     Firmware Version         : 3.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-06-21T00:00Z
+     Date Removed             : 2008-11-16T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356538
+     Firmware Version         : 6.02
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-11-17T00:00Z
+     Date Removed             : 2009-07-23T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356538
+     Firmware Version         : 7.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-07-24T00:00Z
+     Date Removed             : 2010-05-03T04:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : The tracking was changed from C2 or P2, to P2
+                              : only at 2009-07-30T00:00Z Tracking changed to
+                              : all in view at 2009-09-09T01:50Z
+
+3.6  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356538
+     Firmware Version         : 7.50/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-05-03T04:30Z
+     Date Removed             : 2010-08-05T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : ME upgrade due to GLONASS tracking problem.
+
+3.7  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356538
+     Firmware Version         : 8.00/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-08-05T00:00Z
+     Date Removed             : 2010-10-08T03:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356538
+     Firmware Version         : 8.01/3.019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-10-08T03:15Z
+     Date Removed             : 2013-06-24T02:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : FW update for BKG RTK caster issue
+
+3.9  Receiver Type            : LEICA GRX1200GGPRO
+     Satellite System         : GPS+GLO
+     Serial Number            : 356538
+     Firmware Version         : 8.71/3.822
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-06-24T02:00Z
+     Date Removed             : 2016-01-07T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.10 Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3007645
+     Firmware Version         : 2.9.0-Patch1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-01-07T00:00Z
+     Date Removed             : 2016-01-21T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.11 Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3007645
+     Firmware Version         : 2.9.1-patch1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-01-21T00:00Z
+     Date Removed             : 2016-05-26T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.12 Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3007645
+     Firmware Version         : 2.9.3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-05-26T00:00Z
+     Date Removed             : 2016-06-14T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware upgrade only
+
+3.13 Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3007645
+     Firmware Version         : 2.9.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-06-14T00:00Z
+     Date Removed             : 2016-10-06T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware upgrade only
+
+3.14 Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3007645
+     Firmware Version         : 2.9.5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-10-06T00:00Z
+     Date Removed             : 2017-01-05T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.15 Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 3007645
+     Firmware Version         : 2.9.6
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-01-05T00:00Z
+     Date Removed             : 2021-04-21T01:29Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.16 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+QZSS+GLO+GAL+IRNSS+BDS
+     Serial Number            : 3062371
+     Firmware Version         : 5.4.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-04-21T01:29Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 0.0
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR20020709
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0000
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 12.0 m
+     Date Installed           : 2002-10-21T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : Melbourne South PM 436
+     Tied Marker Usage        : Local Height Control,
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 60.9038
+       dy (m)                 : 23.0815
+       dz (m)                 : -30.4277
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : Total Station
+     Date Measured            : 2012-06-07T00:00Z
+     Additional Information   : Deep driven copper clad rod - 2.8m long
+
+5.2  Tied Marker Name         : Melbourne South PM 520
+     Tied Marker Usage        : Local Height Control,
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 31.8727
+       dy (m)                 : 15.4048
+       dz (m)                 : -7.1087
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : Total Station
+     Date Measured            : 2012-06-07T00:00Z
+     Additional Information   : Deep driven copper clad rod - 2.8m long
+
+5.3  Tied Marker Name         : Melbourne South PM 520/1
+     Tied Marker Usage        : Local Horizontal Reference Control
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 10.8675
+       dy (m)                 : -58.0712
+       dz (m)                 : -41.0895
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : Total Station
+     Date Measured            : 2012-06-07T00:00Z
+     Additional Information   : Rivet in concrete kerb
+
+5.4  Tied Marker Name         : Melbourne South PM 436/1
+     Tied Marker Usage        : Local Horizontal Reference Control
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 28.5638
+       dy (m)                 : -28.7831
+       dz (m)                 : -37.5713
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : Total Station
+     Date Measured            : 2012-06-07T00:00Z
+     Additional Information   : Rivet in concrete pit surround
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2002-10-29/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : 
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : Nicholas Brown
+       Telephone (primary)    : +61 2 6249 9831
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Geoscience Australia
+     Preferred Abbreviation   : 
+     Mailing Address          : GPO Box 378
+                              : Canberra  ACT  2601
+                              : AUSTRALIA
+     Primary Contact
+       Contact Name           : Ryan Ruddick
+       Telephone (primary)    : +61 2 6249 9426
+       Telephone (secondary)  : +61 2 6249 9111
+       Fax                    : 
+       E-mail                 : geodesy@ga.gov.au
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : GA
+     Secondary Data Center    : CDDIS
+     URL for More Information : http://www.ga.gov.au
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+     (insert text graphic from file antenna.gra)
+
+
+

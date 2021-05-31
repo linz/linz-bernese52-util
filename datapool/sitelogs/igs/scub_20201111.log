@@ -1,0 +1,612 @@
+
+     SCUB00CUB Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : markus.bradke@gfz-potsdam.de
+     Date Prepared            : 2020-11-11
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : scub_20200326.log
+      Modified/Added Sections : 0, 3.9, 3.10
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : CENAIS, Santiago de Cuba
+     Four Character ID        : SCUB
+     Monument Inscription     : 
+     IERS DOMES Number        : 40701M001
+     CDP Number               : 
+     Monument Description     : Pillar on the roof of the Observatory
+       Height of the Monument : 1.20 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : BRASS NAIL
+     Date Installed           : 1995-05-31T00:00Z
+     Geologic Characteristic  : CLAY
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED
+       Fracture Spacing       : 11-50 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : height of antenna over ground: 5.7m
+
+
+2.   Site Location Information
+
+     City or Town             : Santiago de Cuba
+     State or Province        : Santiago
+     Country                  : Cuba
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1474538.1759
+       Y coordinate (m)       : -5811243.3797
+       Z coordinate (m)       : 2168958.8133
+       Latitude (N is +)      : +200043.44
+       Longitude (E is +)     : -0754544.33
+       Elevation (m,ellips.)  : 21.9
+     Additional Information   : The Observatory is situated some Kilometers
+                              : north of the Cayman Trough which forms the
+                              : boundary
+                              : between the North American and Caribbean plate.
+                              : The area has a moderate seismicity.
+                              : The Central Station of the National
+                              : Seismological
+                              : Service (SSSN) is based on the main building.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 3349A04624
+     Firmware Version         : Nav 6.68
+     Elevation Cutoff Setting : 
+     Date Installed           : 1995-05-31T00:00Z
+     Date Removed             : 1996-06-21T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE 4000SSE
+     Satellite System         : GPS
+     Serial Number            : 3249A02044
+     Firmware Version         : Nav 6.68
+     Elevation Cutoff Setting : 
+     Date Installed           : 1996-10-25T00:00Z
+     Date Removed             : 1998-01-26T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP00786
+     Firmware Version         : 1E76-1D01
+     Elevation Cutoff Setting : 
+     Date Installed           : 1998-04-01T00:00Z
+     Date Removed             : 2000-12-07T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP00791
+     Firmware Version         : 1D02-CD00
+     Elevation Cutoff Setting : 
+     Date Installed           : 2000-12-07T00:00Z
+     Date Removed             : 2014-12-18T09:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 204
+     Firmware Version         : 3.5.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-12-18T09:00Z
+     Date Removed             : 2016-11-22T09:34Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 204
+     Firmware Version         : 3.6.7
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-11-22T09:34Z
+     Date Removed             : 2018-10-29T08:05Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 204
+     Firmware Version         : 3.7.4b0-193-7438
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-10-29T08:05Z
+     Date Removed             : 2020-03-20T07:01Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 204
+     Firmware Version         : 3.7.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-03-20T07:02Z
+     Date Removed             : 2020-03-26T06:23Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.9  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 204
+     Firmware Version         : 3.7.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-03-26T06:24Z
+     Date Removed             : 2020-11-11T18:36Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Activation of independent tracking
+
+3.10 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL
+     Serial Number            : 204
+     Firmware Version         : 3.7.10
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-11-11T18:37Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM22020.00+GP  NONE
+     Serial Number            : 80068885
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0460
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1995-05-31T00:00Z
+     Date Removed             : 1996-06-21T00:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM14532.00     NONE
+     Serial Number            : 327A66305
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0460
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1996-10-25T00:00Z
+     Date Removed             : 1998-01-26T00:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : ASH700936C_M    SNOW
+     Serial Number            : 12116
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0460
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1998-04-01T00:00Z
+     Date Removed             : 2000-12-07T00:00Z
+     Additional Information   : 
+
+4.4  Antenna Type             : ASH700936C_M    SNOW
+     Serial Number            : 11976
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0460
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : SNOW
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2000-12-07T00:00Z
+     Date Removed             : 2014-12-18T09:00Z
+     Additional Information   : 
+
+4.5  Antenna Type             : JAV_RINGANT_G3T NONE
+     Serial Number            : 341
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0460
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 25.00 m
+     Date Installed           : 2014-12-18T09:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : SBG
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 2001
+     Tied Marker DOMES Number : 40701S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 10.16
+       dy (m)                 : 0.96
+       dz (m)                 : -13.76
+     Accuracy (mm)            : 10 mm
+     Survey method            : 
+     Date Measured            : 1994-04-15T00:00Z
+     Additional Information   : This is the reference point of the SLR
+                              : 1953/2001 (ITRF 92 coordinates) Values
+                              : given are SBG-SCUB in geocentrical coordinates
+
+5.2  Tied Marker Name         : Doppler
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -4.43
+       dy (m)                 : -5.04
+       dz (m)                 : -5.3
+     Accuracy (mm)            : 10 mm
+     Survey method            : 
+     Date Measured            : 1994-04-15T00:00Z
+     Additional Information   : This is the reference point of the Doppler
+                              : antenna base used on the 1989 IKDOK campaign
+                              : (ITRF 92 coordinates).
+                              : Values given are Doppler-SCUB in geocentrical
+                              : coordinates.
+                              : The reference point on the SCUB pillar used is
+                              : the tip of baseplate screw on the pillar at
+                              : 21.4 mm. over the baseplate metallic surface
+                              : The measurements were carried out using
+                              : classical geodetic methods
+                              : (theodolite and invar tape)
+                              : There is a reference local network (7 points)
+                              : on the Observatory area for the monitoring of
+                              : the setting of the SLR Telescope base
+                              : There are 4 survey points of the National
+                              : Geodetic Network in a 21 km Radius
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1995-05-31/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : SLR
+       Status                 : PERMANENT
+       Effective Dates        : 1985-12-15/CCYY-MM-DD
+       Notes                  : The CDP code  is1953/2001 (DOMES 40701S001)
+                              : In 1993 was upgraded from a 1/6 Hz Ruby laser
+                              : to a 10 Hz Nd-YAG laser at 512 nm.
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : HC 500
+       Manufacturer           : TimeTech/Gresinger
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy (% rel h)     : 1
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1998-04-01/2014-12-18
+       Notes                  : The humidity sensor is part of the
+                              : TM200 meteo station
+
+8.1.2  Humidity Sensor Model  : PTU300
+       Manufacturer           : Vaisala
+       Serial Number          : E5330014
+       Data Sampling Interval : 300 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : 
+       Height Diff to Ant     : -0.20 m
+       Calibration date       : 2009-12-30
+       Effective Dates        : 2014-12-18/CCYY-MM-DD
+       Notes                  : The humidity sensor is part of the
+                              : PTU300 meteo station
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : PTB1OOB
+       Manufacturer           : Vaisala
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy               : 0.5 hPa
+       Height Diff to Ant     : -5.50 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1998-04-01/2014-12-18
+       Notes                  : The pressure sensor is part of the
+                              : TM200 meteo station
+
+8.2.2  Pressure Sensor Model  : PTU300
+       Manufacturer           : Vaisala
+       Serial Number          : E5330014
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : -4.20 m
+       Calibration date       : 2009-12-30
+       Effective Dates        : 2014-12-18/CCYY-MM-DD
+       Notes                  : The pressure sensor is part of the
+                              : PTU300 meteo station
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : TM 200
+       Manufacturer           : TimeTech
+       Serial Number          : 
+       Data Sampling Interval : 600 sec
+       Accuracy               : 
+       Aspiration             : 
+       Height Diff to Ant     : 
+       Calibration date       : 
+       Effective Dates        : 1998-04-01/2014-12-18
+       Notes                  : The temperature sensor is part of the
+                              : TM200 meteo station
+
+8.3.2  Temp. Sensor Model     : PTU300
+       Manufacturer           : Vaisala
+       Serial Number          : E5330014
+       Data Sampling Interval : 300 sec
+       Accuracy               : 0.1 deg C
+       Aspiration             : 
+       Height Diff to Ant     : -0.20 m
+       Calibration date       : 2009-12-30
+       Effective Dates        : 2014-12-18/CCYY-MM-DD
+       Notes                  : The temperature sensor is part of the
+                              : PTU300 meteo station
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Centro Nacional de Investigaciones Sismologicas
+     Preferred Abbreviation   : CENAIS
+     Mailing Address          : Calle 17 #61
+                              : Vista Alegre, Santiago de Cuba 90400
+                              : Cuba
+     Primary Contact
+       Contact Name           : Bladimir Moreno Toiran
+       Telephone (primary)    : +53 22 641112
+       Telephone (secondary)  : +53 22 52631754
+       Fax                    : 
+       E-mail                 : bladimir@cenais.cu
+     Secondary Contact
+       Contact Name           : Manuel Cutie Mustelier
+       Telephone (primary)    : +53 22 653949
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : mcutie@cenais.cu
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Helmholtz-Zentrum Potsdam
+                              : Deutsches GeoForschungsZentrum GFZ
+     Preferred Abbreviation   : GFZ
+     Mailing Address          : Telegrafenberg A17
+                              : 14473 Potsdam / Germany
+     Primary Contact
+       Contact Name           : Dr. Markus Ramatschi
+       Telephone (primary)    : (+49)331-288-1746
+       Telephone (secondary)  : 
+       Fax                    : (+49)331-288-1759
+       E-mail                 : gnss@gfz-potsdam.de
+     Secondary Contact
+       Contact Name           : Markus Bradke
+       Telephone (primary)    : (+49)331-288-1182
+       Telephone (secondary)  : 
+       Fax                    : (+49)331-288-1759
+       E-mail                 : bradke@gfz-potsdam.de
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : IGN
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+JAV_RINGANT_G3T
+
+                       ---------                          <--  0.0614
+                     /           \
+                   /               \
+  +-------------------------------------------------+     <--  0.0410  TCR
+  |                                                 |
+  |              +-------------------+              |
+  |              |   \           /   |              |
+  |              |    \         /    |              |
+  |              |      +--x--+      |              |     <--  0.0000  BAM=ARP
+  +--------------+-------------------+--------------+     <-- -0.0260  BCR
+                                                                       RXC=NRP
+  <--                    0.3260                   -->
+
+ASH700936C_M
+
+                         -----
+                     /           \
+                    |             |
+  +-------------------------------------------------+     <--  0.1020  TCR
+  |                                                 |
+  |                                                 |
+  |                                                 |
+  |                                                 |
++-+-------------------------------------------------+-+   <--  0.0380
++-------------------+-------------+-------------------+   <--  0.0350  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                                       NOM=NRP
+<--                      0.3810                     -->
+
+TRM14532.00
+
+                       ----^----
+                    /             \
+++----------------+-----------------+----------------++   <--  0.0629  TGP
+++---------------+-------------------+---------------++   <--  0.0597  BGP
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                                       NOM=NRP
+                    <--  0.1400 -->                                    BPA
+                 <--     0.1550    -->                                 TPA
+ <--                     0.4668                    -->                 Notches
+<--                      0.4826                     -->                Edge
+
+TRM22020.00+GP
+
+                       ----^----
+                    /             \
+++----------------+-----------------+----------------++   <--  0.0591  TGP
+++---------------+-------------------+---------------++   <--  0.0556  BGP
+                 |                   |
+                  |                 |
+                   |               |
+                    +------x------+                       <--  0.0000  BPA=ARP
+                                                                       NOM=NRP
+ <--                     0.4668                    -->                 Notches
+<--                      0.4826                     -->                Edge
+
+

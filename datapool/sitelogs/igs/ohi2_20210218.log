@@ -1,0 +1,955 @@
+     OHI200ATA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Uwe Hessels
+     Date Prepared            : 2021-02-18
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : ohi2_20200423.log
+      Modified/Added Sections : 0, 3.11, 3.12
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : O'Higgins / Antarctica
+     Four Character ID        : OHI2
+     Monument Inscription     : Pillar K6
+     IERS DOMES Number        : 66008M005
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1.4 m
+       Monument Foundation    : CONCRETE PILLAR BOLTED ON BEDROCK
+       Foundation Depth       : 0.5 m
+     Marker Description       : SURVEY MARKER WITH THREAD
+     Date Installed           : 2002-02-14T18:30Z
+     Geologic Characteristic  : Bedrock
+       Bedrock Type           : METAMORPHIC
+       Bedrock Condition      : WEATHERED
+       Fracture Spacing       : 51-200 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Predominant rocks at the station
+                              : O'Higgins are quartz-bearing black,
+                              : grey and reddish brown
+                              : low-metamorphic clay slates and
+                              : phylitte slates of the Trinity
+                              : Peninsula Formation. They are very
+                              : brittle, fine-laminated in the mm-
+                              : and cm-range and incline with about
+                              : 60 to 80 degrees to NW.
+                              : Because of these characteristics
+                              : and the high clay mineral content
+                              : and the expansive force resulting
+                              : from this the slates are highly
+                              : susceptible to weathering and mostly
+                              : covered by detrital layers. Only
+                              : tectonicly less stressed parts and
+                              : parts resistant to weathering stick
+                              : out from these detrital masses. These
+                              : have a linear geometry and show strong
+                              : cleavings. The instrusions of 0.5m to
+                              : 1.5m thick vein rocks, which pass
+                              : through the slates, are significantly
+                              : younger. The pillar with the antenna
+                              : is bolted into one of these veins,
+                              : which are very resistant to weathering.
+                              : A ROGUE SNR-8000 / ACT SNR-8000 ACT
+                              : operated from 1995-02-14 until
+                              : 2002-02-20 at the German Antarctic
+                              : Receiving Station GARS
+                              : in Higgins / Antarctica with the
+                              : four character ID OHIG, on pillar K5,
+                              : DOMES Number 66008M001.
+                              : Because of the expansion and of
+                              : construction works in the Chilenean
+                              : Antarctic Base the antenna for the
+                              : GPS Permanent Tracking Station OHIG
+                              : was moved to another pillar K6, DOMES
+                              : Number 66008M005, 2002-02-14,
+                              : new four charcater ID OHI2.
+                              : For collocation we observed from
+                              : 2002-02-14 until 2002-02-20 with two
+                              : AOA SNR-8000 ACT at OHIG and OHI2,
+                              : and also with the Ashtech Z-18 OHIZ.
+                              : 2002-02-14 OHI2 installed.
+                              : 2002-02-16 DOME removed in OHIG.
+                              : 2002-02-19 DOME installed in OHI2.
+                              : 2002-02-20 OHIG removed.
+                              : In addition and parallel also an
+                              : ASHTECH Z18 GPS+GLONASS System,
+                              : was operating in O'Higgins.
+                              : From 2001-02-09 until 2003-01-27 with
+                              : four character ID OHIZ, DOMES Number
+                              : 66008M004. Because of the
+                              : expansion and of construction works in
+                              : the Chilenean Antarctic Base the antenna
+                              : for the GPS+GLONASS Permanent Tracking
+                              : Station OHIZ was moved to another
+                              : pillar K3, DOMES Number 66008M006, 
+                              : 2003-02-06, new four charcater ID OHI3.
+                              : A re-examination and survey in O'Higgins
+                              : February 2003 reported necessary
+                              : corrections.
+                              : The correct antenna-height = Marker Up
+                              : Ecc for OHIG from 1995-02-14
+                              : until 2002-02-20 was 0.0030 m,
+                              : instead of 0.0010 m.
+                              : The correct antenna-height = Marker Up
+                              : Ecc for OHI2 since 2002-02-14 was
+                              : -0.0080 m, instead of 0.0008 m.
+                              : In addition a LEICA GR25
+                              : GPS+GLO+GAL+SBAS system is operating on
+                              : pillar K3, DOMES Number 66008M006, 
+                              : four character ID OHI3.
+
+
+2.   Site Location Information
+
+     City or Town             : O'Higgins
+     State or Province        : 
+     Country                  : Antarctica
+     Tectonic Plate           : ANTARCTIC
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1525811.80
+       Y coordinate (m)       : -2432479.10
+       Z coordinate (m)       : -5676166.00
+       Latitude (N is +)      : -631915.96
+       Longitude (E is +)     : -0575404.68
+       Elevation (m,ellips.)  : 00033.1
+     Additional Information   : 
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : T-394U
+     Firmware Version         : 3.3.32.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-02-14T18:30Z
+     Date Removed             : 2007-11-12T08:29Z
+     Temperature Stabiliz.    : none
+     Additional Information   : New OHI2 at pillar K6
+                              : replaced OHIG at
+                              : pillar K5, which operated
+                              : since 1995-02-14T00:00Z
+
+3.2  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AECFDJ1KK5C
+     Firmware Version         : 2.6.0 Apr,18,2007
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-11-12T08:30Z
+     Date Removed             : 2008-01-17T16:14Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Additional number
+                              : LGGD SN 0243 on the
+                              : type level.
+                              : /par/lock/notvis switched
+                              : to "on".
+
+3.3  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AECFDJ1KK5C
+     Firmware Version         : 2.6.1 JAN,10,2008
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-01-17T16:15Z
+     Date Removed             : 2010-03-26T13:34Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Additional number
+                              : LGGD SN 0243 on the
+                              : type level.
+                              : /par/lock/notvis switched
+                              : to "on".
+
+3.4  Receiver Type            : JPS E_GGD
+     Satellite System         : GPS+GLO
+     Serial Number            : AECFDJ1KK5C
+     Firmware Version         : 3.4 DEC,12,2009 P2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2010-03-26T13:35Z
+     Date Removed             : 2014-03-02T15:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Additional number
+                              : LGGD SN 0243 on the
+                              : type level.
+                              : /par/lock/notvis switched
+                              : to "on".
+
+3.5  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 3.5.3 SEP,19,2013
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-03-02T16:00Z
+     Date Removed             : 2015-01-27T09:09Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178
+                              : on the type level.
+
+3.6  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 3.6.1 DEC,30,2014
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-01-27T09:10Z
+     Date Removed             : 2016-02-29T09:44Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178
+                              : on the type level.
+
+3.7  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 3.6.4 JAN,12,2016
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-02-29T09:45Z
+     Date Removed             : 2017-01-24T19:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178
+                              : on the type level.
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 3.6.9 NOV,28,2016
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-01-24T20:00Z
+     Date Removed             : 2017-12-06T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178
+                              : on the type level.
+
+3.9  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 3.7.2 AUG,31,2017
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-12-07T11:00Z
+     Date Removed             : 2019-04-10T15:55Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178
+                              : on the type level.
+
+3.10 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 3.7.6 APR,08,2019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-04-10T16:00Z
+     Date Removed             : 2020-03-02T10:05Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178 on the type level.
+
+3.11 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 3.7.9 DEC,30,2019
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-03-02T10:15Z
+     Date Removed             : 2021-02-18T11:55Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178 on the type level
+
+3.12 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+SBAS
+     Serial Number            : 3VOLU2Z8ZA2O83VVUCMB
+     Firmware Version         : 4.0.02-210208
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-02-18T12:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : Serial Number d 00178 on the type level
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 414U
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0008
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2002-02-14T18:30Z
+     Date Removed             : 2002-02-19T20:00Z
+     Additional Information   : Antenna height was incorrectly
+                              : reported as 0.0008 m,
+                              : instead of correct -0.0080 m.
+
+4.2  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 414U
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0008
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2002-02-19T20:00Z
+     Date Removed             : 2003-02-23T00:00Z
+     Additional Information   : Modfied Radome as used for
+                              : Inmarsat A equipments.
+                              : Used also for former
+                              : OHIG.
+                              : Antenna height was incorrectly
+                              : reported as 0.0008 m,
+                              : instead of correct -0.0080 m
+                              : until 2003-02-23.
+
+4.3  Antenna Type             : AOAD/M_T        DOME
+     Serial Number            : 414U
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : -00.0080
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : DOME
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2003-02-23T00:00Z
+     Date Removed             : 2009-01-30T17:30Z
+     Additional Information   : Modfied Radome as used for
+                              : Inmarsat A equipments.
+                              : Used also for former
+                              : OHIG.
+                              : Correctly antenna-height -0.0080 m
+                              : in the RINEX-Headers since 2003-02-23.
+
+4.4  Antenna Type             : TPSCR.G3        TPSH
+     Serial Number            : 383-0203
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0375
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2009-01-30T17:45Z
+     Date Removed             : 2013-02-07T20:59Z
+     Additional Information   : P/N 01-044301-01
+                              : Antenna calibrated absolute
+                              : by GEO++ GmbH Garbsen, 11-November-2007.
+
+4.5  Antenna Type             : TPSCR.G3        TPSH
+     Serial Number            : 383-0203
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0244
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : TPSH
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2013-02-07T21:00Z
+     Date Removed             : 2014-03-02T15:59Z
+     Additional Information   : P/N 01-044301-01
+                              : Antenna calibrated absolute
+                              : by GEO++ GmbH Garbsen, 11-November-2007.
+
+4.6  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 725307
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0245
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2014-03-02T16:00Z
+     Date Removed             : 2016-02-26T09:27Z
+     Additional Information   : Antenna with Radome calibrated
+                              : by GEO++ GmbH Garbsen, 29-November-2011.
+                              : And Antenna with Radome calibrated 
+                              : by University Bonn, 02-March-2012
+
+4.7  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 725307
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0230
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2016-02-27T16:30Z
+     Date Removed             : 2017-02-27T11:35Z
+     Additional Information   : Antenna with Radome calibrated
+                              : by GEO++ GmbH Garbsen, 29-November-2011.
+                              : And Antenna with Radome calibrated 
+                              : by University Bonn, 02-March-2012
+
+4.8  Antenna Type             : LEIAR25.R4      LEIT
+     Serial Number            : 725307
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 000.0728
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : LEIT
+     Radome Serial Number     : 
+     Antenna Cable Type       : RG214
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2017-02-27T11:40Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna with Radome calibrated
+                              : by GEO++ GmbH Garbsen, 29-November-2011.
+                              : And Antenna with Radome calibrated 
+                              : by University Bonn, 02-March-2012
+                              : The antenna mount was fixed with a new, more
+                              : stable construction. The reference point of the
+                              : pillar is preserved.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : VLBI Radiotelescope
+     Tied Marker Usage        : VLBI
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -21.2938
+       dy (m)                 : -14.5501
+       dz (m)                 : 8.9064
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-02-12T00:00Z
+     Additional Information   : Differential Components from the Marker
+                              : Pillar K6 OHI2 to the Point of
+                              : Axis-Intersection in the VLBI
+                              : Radiotelescope.
+                              : dx, dy, dz = Marker Pillar K6 OHI2 minus
+                              : Axis-Intersection VLBI.
+
+5.2  Tied Marker Name         : Pillar K5 = OHIG
+     Tied Marker Usage        : GPS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 66008M001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -60.7440
+       dy (m)                 : 3.0891
+       dz (m)                 : -19.5299
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-02-12T00:00Z
+     Additional Information   : GPS Permanent Tracking Station OHIG
+                              : at Pillar K5 from 1995-02-14 until
+                              : 2002-02-20.
+                              : Differential Components from the Marker
+                              : Pillar K6 OHI2 to the Marker Pillar K5
+                              : OHIG.
+                              : dx, dy, dz = Marker Pillar K6 OHI2 minus
+                              : Marker Pillar K5 OHIG.
+
+5.3  Tied Marker Name         : OHIZ
+     Tied Marker Usage        : GPS+GLONASS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 66008M004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -56.7760
+       dy (m)                 : -20.5760
+       dz (m)                 : -5.5370
+     Accuracy (mm)            : 1.5 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-02-12T00:00Z
+     Additional Information   : GPS+GLONASS Permanent Tracking Station
+                              : OHIZ from 2001-02-09 until 2003-01-27.
+                              : Differential Components from the Marker
+                              : Pillar K6 OHI2 to the ARP of the OHIZ
+                              : antenna, not to the OHIZ Marker. The
+                              : ARP of the OHIZ antenna was 0.1215 m
+                              : above the OHIZ Marker.
+                              : dx, dy, dz = Marker Pillar K6 OHI2 minus
+                              : ARP OHIZ antenna.
+
+5.4  Tied Marker Name         : Pillar K3 = OHI3
+     Tied Marker Usage        : GPS+GLONASS
+     Tied Marker CDP Number   : 
+     Tied Marker DOMES Number : 66008M006
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : 2.8291
+       dy (m)                 : 0.5150
+       dz (m)                 : 0.6918
+     Accuracy (mm)            : 1.0 mm
+     Survey method            : TRIANGULATION
+     Date Measured            : 2002-02-12T00:00Z
+     Additional Information   : GPS+GLONASS Permanent Tracking Station
+                              : OHI3 at pillar K3 since 2003-02-06.
+                              : Differentiel Components from the Marker
+                              : Pillar K6 OHI2 to the Marker Pillar K3
+                              : OHI3.
+                              : dx, dy, dz = Marker Pillar K6 OHI2 minus
+                              : Marker Pillar K3 OHI3.
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL 
+       Input Frequency        : 
+       Effective Dates        : 2002-02-14/2016-05-09
+       Notes                  : 
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2016-05-09/2020-03-08
+       Notes                  : External input reference oscillator. 
+                              : H-Maser EFOS 50.
+
+6.3  Standard Type            : INTERNAL 
+       Input Frequency        : 
+       Effective Dates        : 2020-03-08/2020-04-23
+       Notes                  : 
+
+6.4  Standard Type            : EXTERNAL H-Maser
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2020-04-23/CCYY-MM-DD
+       Notes                  : EFOS11
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : PERMANENT
+       Effective Dates        : 1995-01-01/CCYY-MM-DD
+       Notes                  : 2 VLBI-measurements in campaigns
+                              : each year
+
+7.2  Instrumentation Type     : GPS ROGUE SNR-8000 / AOA SNR-8000 ACT
+       Status                 : PERMANENT
+       Effective Dates        : 1995-02-14/2002-02-20
+       Notes                  : Four Character ID OHIG
+
+7.3  Instrumentation Type     : GPS+GLONASS ASHTECH Z18
+       Status                 : PERMANENT
+       Effective Dates        : 2001-02-09/2003-01-27
+       Notes                  : Four Character ID OHIZ
+
+7.4  Instrumentation Type     : GPS+GLONASS ASHTECH Z18
+       Status                 : PERMANENT
+       Effective Dates        : 2003-02-06/2004-03-15
+       Notes                  : Four Character ID OHI3
+
+7.5  Instrumentation Type     : GPS+GLONASS JPS E_GGD
+       Status                 : PERMANENT
+       Effective Dates        : 2004-03-16/2006-01-18
+       Notes                  : Four Character ID OHI3
+
+7.6  Instrumentation Type     : GPS+GLONASS TPS E_GGD
+       Status                 : PERMANENT
+       Effective Dates        : 2006-01-18/2009-11-23
+       Notes                  : Four Character ID OHI3
+
+7.7  Instrumentation Type     : GPS+GLONASS LEICA GRX1200GGPRO
+       Status                 : PERMANENT
+       Effective Dates        : 2009-11-23/2012-02-09
+       Notes                  : Four Character ID OHI3
+
+7.8  Instrumentation Type     : GPS+GLONASS LEICA GRX1200+GNSS
+       Status                 : PERMANENT
+       Effective Dates        : 2012-02-09/2014-03-01
+       Notes                  : Four Character ID OHI3
+
+7.9  Instrumentation Type     : GPS+GLONASS LEICA GR25
+       Status                 : PERMANENT
+       Effective Dates        : 2014-03-01/CCYY-MM-DD
+       Notes                  : Four Character ID OHI3
+
+7.10 Instrumentation Type     : GPS+GLONASS LEICA GRX1200+GNSS
+       Status                 : PERMANENT
+       Effective Dates        : 2009-11-25/2014-03-01
+       Notes                  : Four Character ID OHIX
+
+7.11 Instrumentation Type     : GPS+GLONASS LEICA GR25
+       Status                 : PERMANENT
+       Effective Dates        : 2014-03-01/CCYY-MM-DD
+       Notes                  : Four Character ID OHIX
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.1  Humidity Sensor Model  : MP408A
+       Manufacturer           : ROTRONIC
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : -1.1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-02-14/2003-02-25
+       Notes                  : The Humidity Sensor was
+                              : 1.1 m above the antenna.
+
+8.1.2  Humidity Sensor Model  : HUGER-WS
+       Manufacturer           : HUGER
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy (% rel h)     : 2
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : -1.1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-02-25/2003-11-03
+       Notes                  : The Humidity Sensor was
+                              : 1.1 m above the antenna.
+                              : Temporary replacement of
+                              : damaged MP408A Sensor.
+
+8.1.3  Humidity Sensor Model  : MP408A
+       Manufacturer           : ROTRONIC
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy (% rel h)     : 1.5
+       Aspiration             : CAPACITANCE PROBE
+       Height Diff to Ant     : -1.1 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-11-03/CCYY-MM-DD
+       Notes                  : The Humidity Sensor is
+                              : 1.1 m above the antenna.
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.1  Pressure Sensor Model  : APS
+       Manufacturer           : ROESSLER + CIE
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 1.0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 1995-02-14/2003-02-25
+       Notes                  : The Pressure Sensor was
+                              : 1.0 m below the antenna.
+
+8.2.2  Pressure Sensor Model  : HUGER-WS
+       Manufacturer           : HUGER
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy               : 1 hPa
+       Height Diff to Ant     : 0.5 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-02-25/2003-11-03
+       Notes                  : The Pressure Sensor was
+                              : 0.5 m below the antenna.
+                              : Temporary replacement of
+                              : damaged APS Sensor.
+
+8.2.3  Pressure Sensor Model  : APS 9215
+       Manufacturer           : L-TEC Leibenguth
+       Serial Number          : 0538 3401A
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.1 hPa
+       Height Diff to Ant     : 1.0 m
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : 2003-11-03/CCYY-MM-DD
+       Notes                  : The Pressure Sensor is
+                              : 1.0 m below the antenna.
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.1  Temp. Sensor Model     : MP408A
+       Manufacturer           : ROTRONIC
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.3 deg C
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : -1.1 m
+       Calibration date       : 
+       Effective Dates        : 1995-02-14/2003-02-25
+       Notes                  : The Temperature Sensor was
+                              : 1.1 m above the antenna.
+
+8.3.2  Temp. Sensor Model     : HUGER-WS
+       Manufacturer           : HUGER
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.5 deg C
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : -1.1 m
+       Calibration date       : 
+       Effective Dates        : 2003-02-25/2003-11-03
+       Notes                  : The Temperature Sensor was
+                              : 1.1 m above the antenna.
+                              : Temporary replacement for a
+                              : damaged MP408A Sensor.
+
+8.3.3  Temp. Sensor Model     : MP408A
+       Manufacturer           : ROTRONIC
+       Serial Number          : 
+       Data Sampling Interval : 900 sec
+       Accuracy               : 0.3 deg C
+       Aspiration             : PLATINUM PROBE
+       Height Diff to Ant     : -1.1 m
+       Calibration date       : 
+       Effective Dates        : 2003-11-03/CCYY-MM-DD
+       Notes                  : The Temperature Sensor is
+                              : 1.1 m above the antenna.
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Bundesamt fuer Kartographie
+                              : und Geodaesie
+                              : Geodetical Observatory Wettzell
+                              : Sackenrieder Strasse 25
+                              : D-93444 Bad Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Federal Agency for Cartography and Geodesy 
+                              : Geodetic Observatory Wettzell
+     Preferred Abbreviation   : BKG
+     Mailing Address          : Federal Agency for Cartography and Geodesy 
+                              : Geodetic Observatory Wettzell
+                              : Sackenrieder Strasse 25
+                              : D-93444 Bad Koetzting
+                              : Germany
+     Primary Contact
+       Contact Name           : Uwe Hessels
+       Telephone (primary)    : ++49-9941-603208
+       Telephone (secondary)  : ++49-9941-6030
+       Fax                    : ++49-9941-603222
+       E-mail                 : uwe.hessels@bkg.bund.de
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : BKG
+     Secondary Data Center    : IGN
+     URL for More Information : www.bkg.bund.de, www.fs.wettzell.de
+     Hardcopy on File
+       Site Map               : Y
+       Site Diagram           : Y
+       Horizon Mask           : Y
+       Monument Description   : Y
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+AOAD/M_T
+from 2002-02-14
+until 2009-01-30
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+
+TPSCR.G3
+from 2009-01-30
+until 2014-03-02
+
+                         +-------+
+                       /     +     \
+                      |      +      |
+    +-----------------+-------------+------------------+    <-- 0.1015 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+
+  +-------------------+-------------+--------------------+  <-- 0.0345 BCR
+                      |             |
+                      |             |
+                      +------x------+                       <-- 0.000  BPA=ARP
+
+                      <--  0.238  -->
+  <--                      0.380                      -->
+
+
+LEIAR25.R4
+from 2014-03-02
+
+                       +-------+                          <--  0.1995
+                      /         \
+                +---+-------------+---+                   <--  0.1606  TCR
+                |                     |
+             |---------------------------|
+          |---------------------------------|
+       |---------------------------------------|
+    +---------------------------------------------+
+    |                                             |
+    |                                             |
+  +-+---------------------------------------------+-+
+  +-----------------+-------------+-----------------+     <--  0.0320  BCR
+                    |             |
+                    |             |
+                    +------x------+                       <--  0.0000  BPA=ARP
+
+  <--                    0.3802                   -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole
+
+All dimensions are in meters.
+
+
+
+

@@ -1,0 +1,644 @@
+     PIE100USA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Sarah Doelger
+     Date Prepared            : 2021-05-05
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : pie1_20210329.log
+      Modified/Added Sections : 12
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Pietown VLBA Site
+     Four Character ID        : PIE1
+     Monument Inscription     : 4009-S
+     IERS DOMES Number        : 40456M001
+     CDP Number               : none
+     Monument Description     : STAINLESS STEEL PLATE
+       Height of the Monument : 0.5 m
+       Monument Foundation    : CONCRETE
+       Foundation Depth       : 3 m
+     Marker Description       : DIVOT
+     Date Installed           : 1992-12-01T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Concrete GPS pier.
+                              : exact date in Dec 1992 not known
+
+
+2.   Site Location Information
+
+     City or Town             : Pie Town
+     State or Province        : New Mexico
+     Country                  : United States of America
+     Tectonic Plate           : NORTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -1640916.9280
+       Y coordinate (m)       : -5014781.1870
+       Z coordinate (m)       : 3575447.0770
+       Latitude (N is +)      : +341805.4209
+       Longitude (E is +)     : -1080708.1385
+       Elevation (m,ellips.)  : 2347.7109
+     Additional Information   : Station is located at the NRAO
+                              : VLBA facility near Pietown.
+                              : Site is 21mi north of Datil, NM
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T112
+     Firmware Version         : 2.5 10/23/92
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1992-12-29T00:00Z
+     Date Removed             : 1993-02-03T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T112
+     Firmware Version         : 2.6 1/12/1993
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1993-02-03T00:00Z
+     Date Removed             : 1993-07-01T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T112
+     Firmware Version         : 2.8 6/8/1993
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1993-07-01T00:00Z
+     Date Removed             : 1994-10-26T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.4  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T112
+     Firmware Version         : 3.0 10/10/1994 17:01:54
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1994-10-26T00:00Z
+     Date Removed             : 1995-06-26T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.5  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T112
+     Firmware Version         : 3.2 LINK 3/9/1995
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1995-06-26T16:15Z
+     Date Removed             : 1999-06-21T22:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.6  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T112
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-06-21T22:30Z
+     Date Removed             : 2002-10-29T20:30Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.7  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T112
+     Firmware Version         : 3.2.32.11
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2002-10-29T20:30Z
+     Date Removed             : 2004-08-05T14:26Z
+     Temperature Stabiliz.    : none
+     Additional Information   : Firmware update
+
+3.8  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC1200343001
+     Firmware Version         : CN00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-08-05T14:26Z
+     Date Removed             : 2005-06-23T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.9  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC1200343002
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2005-07-15T00:00Z
+     Date Removed             : 2012-02-07T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.10 Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC2200524006
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2012-02-07T00:00Z
+     Date Removed             : 2012-09-21T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : the computer and UPS were replaced.
+
+3.11 Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : UC1200343002
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2012-09-21T00:00Z
+     Date Removed             : 2013-10-24T16:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.12 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01523
+     Firmware Version         : 3.5.3
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2013-10-24T17:00Z
+     Date Removed             : 2014-10-27T17:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.13 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01523
+     Firmware Version         : 3.5.7b0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-10-27T17:15Z
+     Date Removed             : 2015-01-21T22:08Z
+     Temperature Stabiliz.    : none
+     Additional Information   : SBAS off
+                              : L1 center frq set to 1573
+
+3.14 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01523
+     Firmware Version         : 3.5.8b0-12-52e9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-01-21T22:09Z
+     Date Removed             : 2016-02-11T18:17Z
+     Temperature Stabiliz.    : none
+     Additional Information   : SBAS off
+                              : L1 center frq set to 1573
+
+3.15 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01523
+     Firmware Version         : 3.6.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-02-11T18:30Z
+     Date Removed             : 2017-06-29T23:59Z
+     Temperature Stabiliz.    : none
+     Additional Information   : SBAS off
+
+3.16 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01523
+     Firmware Version         : 3.6.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-06-30T00:00Z
+     Date Removed             : 2018-10-02T01:07Z
+     Temperature Stabiliz.    : none
+     Additional Information   : SBAS off
+
+3.17 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01523
+     Firmware Version         : 3.7.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-10-02T01:30Z
+     Date Removed             : 2019-05-23T23:53Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.18 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 01523
+     Firmware Version         : 3.7.6
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-05-23T23:53Z
+     Date Removed             : 2020-03-27T17:40Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.19 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01523
+     Firmware Version         : 3.7.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-03-27T17:40Z
+     Date Removed             : 2020-06-12T18:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.20 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 3025537
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-06-12T18:00Z
+     Date Removed             : 2020-11-02T18:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.21 Receiver Type            : JAVAD TRE_3 DELTA
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS
+     Serial Number            : 02701
+     Firmware Version         : 3.7.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-11-02T18:00Z
+     Date Removed             : 2021-03-23T23:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : The Septentrio is not compatible with 5MHz
+                              : timing input available from the H-Maser at this
+                              : site so it was replaced with the Javad which
+                              : can accept it.
+
+3.22 Receiver Type            : JAVAD TRE_3 DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 02701
+     Firmware Version         : 4.0.02
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-03-23T23:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : The Septentrio is not compatible with 5MHz
+                              : timing input available from the H-Maser at this
+                              : site so it was replaced with the Javad which
+                              : can accept it.
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 112
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1992-12-29T00:00Z
+     Date Removed             : 1999-06-01T00:00Z
+     Additional Information   : Radome (only) removed following vandalism.
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 112
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1999-06-01T00:00Z
+     Date Removed             : 2007-01-23T18:00Z
+     Additional Information   : No antenna change, only radome removed.
+
+4.3  Antenna Type             : ASH701945E_M    NONE
+     Serial Number            : CR520022114
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Times Microwave LMR600
+     Antenna Cable Length     : 67 m
+     Date Installed           : 2007-01-23T18:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Antenna powered through powered GPS
+                              : signal splitter. 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : PIE1 7234
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : 7234
+     Tied Marker DOMES Number : 40456S001
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -36.9162
+       dy (m)                 : -34.8267
+       dz (m)                 : -35.2550
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : VLBA antenna reference point
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 1992-12-29/2006-09-12
+       Notes                  : H-Maser replaced with new unit.
+
+6.2  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2006-09-12/2007-02-06
+       Notes                  : H-Maser replaced with new unit.
+
+6.3  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2007-02-06/2013-02-13
+       Notes                  : New H-Maser installed ~18:00 UTC.
+
+6.4  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2013-02-13/2013-03-07
+       Notes                  : 
+
+6.5  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2013-03-07/2020-06-12
+       Notes                  : 
+
+6.6  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2020-06-12/2020-11-02
+       Notes                  : 
+
+6.7  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2020-11-02/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : VLBI
+       Status                 : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.1  Signal Obstructions    : Tree (small) removed
+       Effective Dates        : 2007-01-11/CCYY-MM-DD
+       Additional Information : Small tree removed from side of antenna.
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 2006-09-12/2007-02-06
+     Event                    : H-Maser replaced with new unit.
+
+10.2 Date                     : 2007-02-06/CCYY-MM-DD
+     Event                    : H-Maser replaced with new unit.
+
+10.3 Date                     : 2012-02-07/2012-02-07
+     Event                    : The computer and UPS were replaced.
+                              : When reconnecting the receivers to the sites,
+                              : PIE1 got connected to uZ receiver with
+                              : sn=UC2200524006 instead of to uZ receivr with
+                              : sn=UC1200343002, and PIE2 got connected to
+                              : uZ receiver with sn=UC1200343002 instead of to
+                              : uZ receiver with sn=UC2200524006.
+
+10.4 Date                     : 2012-02-07/2012-02-07
+     Event                    : Transition from .soc to .ash data types.
+                              : For soc data types used soc2rnx to do the
+                              : conversion to RINEX data. For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX data.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : NRAO Pie Town
+     Preferred Abbreviation   : PT VLBA
+     Mailing Address          : PT VLBA
+                              : P.O. Box O
+                              : Socorro, NM
+                              : USA    87801
+     Primary Contact
+       Contact Name           : Nelson Atencio
+       Telephone (primary)    : 505-772-2580
+       Telephone (secondary)  : 505-772-2579
+       Fax                    : 505-772-2615
+       E-mail                 : ptvlba@aoc.nrao.edu
+     Secondary Contact
+       Contact Name           : Lonnie Guin
+       Telephone (primary)    : 505-772-2580
+       Telephone (secondary)  : 505-772-2579
+       Fax                    : 505-772-2615
+       E-mail                 : ptvlba@aoc.nrao.edu
+     Additional Information   : New contact
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA
+                              : USA    91109
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : UNAVCO Network Engineer
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 303-381-7451
+       E-mail                 : ggn-ops@postal.unavco.org
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 2/1994
+       Horizon Mask           : 2/1994
+       Monument Description   : 2/1994
+       Site Pictures          : 1/2007
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+ASH701945E_M
+
+                         +-------+
+                       /     +     \                        <--  0.1280 L2
+                      |      +      |                       <--  0.1100 L1
+    +-----------------+-------------+------------------+    <--  0.1006 TCR
+    |                                                  |
+    |                                                  |
+    |                                                  |
+    |                                                  |
+  +-+--------------------------------------------------+-+  <--  0.0376
+  +-------------------+-------------+--------------------+  <--  0.0346 BCR
+                      |             |
+                      |             |
+                      +------x------+                     <-- 0.0000BPA=ARP
+
+  <--                      0.3794                      -->
+
+
+AOAD/M_T
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                   <--  0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+  ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                        
+
+All dimensions are in meters.
+
+

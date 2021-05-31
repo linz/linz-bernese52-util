@@ -20,3 +20,6 @@ The scripts integrated into the Bernese menu system are:
 
 This repository also contains data to pre-populate the datapool with site log data to reduce the initial download of site log data.
 
+NOTE: the data in datapool/sitelogs will be updated by the daily maintenance scripts.  This is not
+the place for additional site logs that are not maintained by this process.  They should go in the
+linz-bernese-configuration repository.

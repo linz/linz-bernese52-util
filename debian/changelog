@@ -1,3 +1,12 @@
+linz-bernese52-util (1.36.0-1) bionic; urgency=medium
+
+    [Chris Crook]
+    * Removing sitelogs that have been installed into
+      linz-bernese-configuration
+    * Updating IGS sitelog source to use https source
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Tue, 1 Jun 2021 12:00:00 +1300
+
 linz-bernese52-util (1.35.1-1) bionic; urgency=medium
 
     [Chris Crook]

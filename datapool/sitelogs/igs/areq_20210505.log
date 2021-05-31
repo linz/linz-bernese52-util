@@ -1,0 +1,623 @@
+     AREQ00PER Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Sarah Doelger
+     Date Prepared            : 2021-05-05
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : areq_20210303.log
+      Modified/Added Sections : 11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Arequipa Laser Station
+     Four Character ID        : AREQ
+     Monument Inscription     : 4021-S
+     IERS DOMES Number        : 42202M005
+     CDP Number               : 
+     Monument Description     : CONCRETE PILLAR
+       Height of the Monument : 0.7 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 
+     Marker Description       : DIVOT IN STEEL PLATE
+     Date Installed           : 1993-01-01T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Eugeosynclinal belt of Mesozoic Age
+                              : Quaternary alluvium overlying granodioritic
+                              : upper Cretaceous lower Tertiary coastal
+                              : batholith. This batholith contains faulted
+                              : inliers of Precambrian gneiss.
+                              : The monument is  ~50 m north of
+                              : TLRS-3 Laser station
+                              : Geological information from "NASA Space Geodesy
+                              : Program Memorandum 4482" p10.
+
+
+2.   Site Location Information
+
+     City or Town             : Arequipa
+     State or Province        : 
+     Country                  : Peru
+     Tectonic Plate           : SOUTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 1942826.1920
+       Y coordinate (m)       : -5804070.3310
+       Z coordinate (m)       : -1796894.2670
+       Latitude (N is +)      : -162755.8612
+       Longitude (E is +)     : -0712934.0680
+       Elevation (m,ellips.)  : 2488.9226
+     Additional Information   : The site is located in western South America in
+                              : southern Peru at the Smithsonian Astronomical
+                              : Observatory.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T253
+     Firmware Version         : 2.8.32.1x 93/05/25
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1994-02-01T00:00Z
+     Date Removed             : 1995-03-05T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T253
+     Firmware Version         : 3.0
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1995-03-05T00:00Z
+     Date Removed             : 1995-05-12T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T130
+     Firmware Version         : 3.2 link 03/02/95
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1995-05-12T00:00Z
+     Date Removed             : 1999-07-16T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.4  Receiver Type            : ROGUE SNR-8000
+     Satellite System         : GPS
+     Serial Number            : T130
+     Firmware Version         : 3.2.32.8
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 1999-07-16T00:00Z
+     Date Removed             : 2000-01-28T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.5  Receiver Type            : AOA SNR-8000 ACT
+     Satellite System         : GPS
+     Serial Number            : T360U
+     Firmware Version         : 3.3.32.2
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2000-01-28T00:00Z
+     Date Removed             : 2002-08-13T20:45Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR220010203
+     Firmware Version         : CJ10 1s soc2rnx
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2002-08-13T20:45Z
+     Date Removed             : 2006-02-16T17:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.7  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : ZR220010401
+     Firmware Version         : CQ00
+     Elevation Cutoff Setting : 4 deg
+     Date Installed           : 2006-05-21T00:00Z
+     Date Removed             : 2017-09-12T00:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.8  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO
+     Serial Number            : 01712
+     Firmware Version         : 3.6.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2017-09-12T00:00Z
+     Date Removed             : 2018-04-09T22:00Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.9  Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01712
+     Firmware Version         : 3.7.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-04-09T22:00Z
+     Date Removed             : 2019-01-02T18:15Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.10 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01712
+     Firmware Version         : 3.7.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-01-02T18:30Z
+     Date Removed             : 2019-05-23T16:49Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.11 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01712
+     Firmware Version         : 3.7.6
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-05-23T16:49Z
+     Date Removed             : 2020-03-20T17:12Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.12 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01712
+     Firmware Version         : 3.7.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-03-20T17:12Z
+     Date Removed             : 2021-03-02T22:41Z
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.13 Receiver Type            : JAVAD TRE_G3TH DELTA
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 01712
+     Firmware Version         : 4.0.02
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-03-02T22:41Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : none
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 294
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1994-03-29T00:00Z
+     Date Removed             : 2002-03-05T13:00Z
+     Additional Information   : antenna removed and replaced for local
+                              : survey 05-MAR-2002; off mount from
+                              : 13:00-20:45 UT
+
+4.2  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 294
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2002-03-05T20:45Z
+     Date Removed             : 2007-12-04T16:00Z
+     Additional Information   : RF signal split to 2nd receiver running
+                              : as unofficial ARE2.
+                              : Antenna temporarily removed for local
+                              : SLR/DORIS tie survey 2007-05-01T12:41Z
+                              : replaced same day 22:40Z.
+
+4.3  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 294
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : Hutton LMR400
+     Antenna Cable Length     : 45 m
+     Date Installed           : 2007-12-04T18:00Z
+     Date Removed             : 2011-08-19T11:55Z
+     Additional Information   : New antenna cable installed on 
+                              : 2007-12-04T18:00Z. Antenna is now being
+                              : powered through a powered signal splitter.
+                              : A Huber-Shuner lightning protector was 
+                              : added. Antenna setup was not changed.
+
+4.4  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 294
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : TIMES LMR400
+     Antenna Cable Length     : 45 m
+     Date Installed           : 2011-08-19T11:55Z
+     Date Removed             : 2012-02-02T23:39Z
+     Additional Information   : JPLA radome removed
+
+4.5  Antenna Type             : AOAD/M_T        JPLA
+     Serial Number            : 294
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : JPLA
+     Radome Serial Number     : 
+     Antenna Cable Type       : Hutton LMR400
+     Antenna Cable Length     : 45 m
+     Date Installed           : 2012-02-03T00:00Z
+     Date Removed             : 2018-04-06T00:00Z
+     Additional Information   : JPLA radome re-installed 
+
+4.6  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 294
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Hutton LMR400
+     Antenna Cable Length     : 45 m
+     Date Installed           : 2018-04-06T00:00Z
+     Date Removed             : 2018-05-01T01:30Z
+     Additional Information   : JPLA radome removed
+                              : Also removed AOAD/M_T and attempted to install 
+                              : new antenna.  New antenna was too wide at base 
+                              : to fit in ring mount. Re-fitted AOAD/M_T.
+
+4.7  Antenna Type             : JAVRINGANT_DM   NONE
+     Serial Number            : 01548
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.061
+     Marker->ARP North Ecc(m) : 0.000
+     Marker->ARP East Ecc(m)  : 0.000
+     Alignment from True N    : 
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Hutton LMR400
+     Antenna Cable Length     : 45 m
+     Date Installed           : 2018-05-01T01:30Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : Flipped the ring of the mount over and 
+                              : re-installed, to accommodate new antenna.
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.1  Tied Marker Name         : CDP Station-7403
+     Tied Marker Usage        : SLR
+     Tied Marker CDP Number   : 7403
+     Tied Marker DOMES Number : 42202M003
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -18.6152
+       dy (m)                 : 0.5478
+       dz (m)                 : -21.4987
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1994-03-07T00:00Z
+     Additional Information   : Mark SLR
+                              : Site Ref Domes Number and information from
+                              : "IERS Tech Note 20, Results and Analysis of the
+                              : ITRF94" March 1996, Tables T2 pT24 and T4 pT56.
+
+5.2  Tied Marker Name         : EST SATELITE (East Satellite mark Ref. 1)
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : none
+     Tied Marker DOMES Number : 42202M004
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -41.6902
+       dy (m)                 : -11.3518
+       dz (m)                 : -17.0411
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1994-03-07T00:00Z
+     Additional Information   : No CDP number listed in, and Monument Name in
+                              : parentheses from
+                              : and Analysis of the ITRF94" March 1996, Table T2
+                              : pT24.
+
+5.3  Tied Marker Name         : DORIS Ref Pt
+     Tied Marker Usage        : 
+     Tied Marker CDP Number   : none
+     Tied Marker DOMES Number : 42202S005
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : -29.9827
+       dy (m)                 : -07.4719
+       dz (m)                 : -25.1257
+     Accuracy (mm)            : 
+     Survey method            : 
+     Date Measured            : 1994-03-07T00:00Z
+     Additional Information   : No CDP number listed in Table T2 pT24, and Site
+                              : Ref Domes from Tables T2 pT24 and T4 pT56
+                              : Tech Note 20, Results and Analysis of the
+                              : ITRF94" March 1996.
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 1994-03-01/2000-01-28
+       Notes                  : Exact date in Mar 1994 not known
+
+6.2  Standard Type            : EXTERNAL RUBIDIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2000-01-28/2008-12-08
+       Notes                  : 
+
+6.3  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2008-12-09/2009-07-10
+       Notes                  : 
+
+6.4  Standard Type            : EXTERNAL XL-DC 151-358-108-2
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2009-07-10/CCYY-MM-DD
+       Notes                  : same as SLR
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.1  Instrumentation Type     : DORIS/SLR
+       Status                 : 
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : 
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.1 Date                     : 1996-11-12/CCYY-MM-DD
+     Event                    : 7.7 earthquake
+
+10.2 Date                     : 2001-06-23/CCYY-MM-DD
+     Event                    : 8.4 earthquake
+
+10.3 Date                     : 2001-07-07/CCYY-MM-DD
+     Event                    : 7.6 aftershock
+
+10.4 Date                     : 2007-05-01/CCYY-MM-DD
+     Event                    : Antenna temporarily removed for local
+                              : SLR/DORIS tie survey 12:41 UTC
+                              : replaced same day 22:40 UTC.
+
+10.5 Date                     : 2011-08-26/2011-08-26
+     Event                    : Transition from .soc to .ash data types.
+                              : For soc data types used soc2rnx to do the
+                              : conversion to RINEX data. For ash data types
+                              : using teqc directly to do the conversion to
+                              : RINEX data.
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Jet Propulsion Laboratory
+     Preferred Abbreviation   : JPL
+     Mailing Address          : 4800 Oak Grove Drive
+                              : Pasadena, CA
+                              : USA    91109
+     Primary Contact
+       Contact Name           : David A. Stowers
+       Telephone (primary)    : 818-354-7055
+       Telephone (secondary)  : 
+       Fax                    : 818-393-4965
+       E-mail                 : dstowers@jpl.nasa.gov
+     Secondary Contact
+       Contact Name           : UNAVCO Network Engineer
+       Telephone (primary)    : 303-381-7500
+       Telephone (secondary)  : 
+       Fax                    : 303-381-7451
+       E-mail                 : ggn-ops@postal.unavco.org
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : JPL
+     Secondary Data Center    : CDDIS
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : Y
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+AOAD/M_T
+ 
+                         -----
+                     /     +     \                        <-- 0.128  L2
+                    |      +      |                       <-- 0.110  L1
+  +--------------------------------------------------+    <-- 0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <-- 0.038
++-------------------+-------------+--------------------+  <-- 0.035  BCR
+                    |             |
+                    |             |
+                    +------x------+                   <-- 0.000  BPA=ARP
+
+<--                      0.381                       -->
+
+  ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+   TGP: Top of Ground Plane               BGP: Bottom of Ground Plane
+   TPA: Top of Preamplifier               BPA: Bottom of Preamplifier
+   TOP: Top of Pole                        
+
+All dimensions are in meters.
+
+
+
+
+
+

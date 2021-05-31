@@ -1,0 +1,379 @@
+     SAVO00BRA Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Sonia Maria Alves Costa
+     Date Prepared            : 2021-05-21
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : savo_20200526.log
+      Modified/Added Sections : 3.9
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Salvador INCRA
+     Four Character ID        : SAVO
+     Monument Inscription     : 93235
+     IERS DOMES Number        : 41643M001
+     CDP Number               : 
+     Monument Description     : Concrete pillar
+       Height of the Monument : 1.57 m
+       Monument Foundation    : Concrete Block - Roof
+       Foundation Depth       : unknown m
+     Marker Description       : chiselled cross
+     Date Installed           : 2007-04-24T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : unknown
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Station installed in INCRA - Salvador
+                              : Built at a roof of 2 floors building
+                              : with forced centering device on top
+
+
+2.   Site Location Information
+
+     City or Town             : Salvador
+     State or Province        : Bahia
+     Country                  : Brazil
+     Tectonic Plate           : SOUTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 4870283.7503
+       Y coordinate (m)       : -3864605.3094
+       Z coordinate (m)       : -1418872.4823
+       Latitude (N is +)      : -125621.29
+       Longitude (E is +)     : -0382556.11
+       Elevation (m,ellips.)  : 76.3
+     Additional Information   : SIRGAS2000
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4651K03578
+     Firmware Version         : 3.25
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-04-24T00:00Z
+     Date Removed             : 2009-08-10T23:50Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4651K03578
+     Firmware Version         : 3.84
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-08-11T00:00Z
+     Date Removed             : 2018-05-09T13:58Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.3  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5750R51577
+     Firmware Version         : 5.33
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-05-09T14:10Z
+     Date Removed             : 2018-10-24T19:45Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.4  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5750R51577
+     Firmware Version         : 5.37
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-10-24T19:50Z
+     Date Removed             : 2019-08-30T16:35Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5750R51577
+     Firmware Version         : 5.42
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-08-30T16:40Z
+     Date Removed             : 2019-10-24T18:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5750R51577
+     Firmware Version         : 5.43
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-10-24T18:32Z
+     Date Removed             : 2020-02-11T17:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.7  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5750R51577
+     Firmware Version         : 5.44
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-02-11T17:21Z
+     Date Removed             : 2020-05-25T20:30Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.8  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5750R51577
+     Firmware Version         : 5.45
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-05-25T20:34Z
+     Date Removed             : 2021-05-21T17:20Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.9  Receiver Type            : TRIMBLE NETR9
+     Satellite System         : GPS+GLO+GAL+BDS
+     Serial Number            : 5750R51577
+     Firmware Version         : 5.50
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-05-21T17:23Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM55971.00     NONE
+     Serial Number            : 30278553
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 000.0010
+     Marker->ARP North Ecc(m) : 000.0000
+     Marker->ARP East Ecc(m)  : 000.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2007-04-24T00:00Z
+     Date Removed             : 2018-04-19T13:27Z
+     Additional Information   : 
+
+4.2  Antenna Type             : TRM115000.00    NONE
+     Serial Number            : 1551129631
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0010
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2018-04-19T16:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL QUARTZ
+       Input Frequency        : 
+       Effective Dates        : 2007-04-24/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Instituto Brasileiro de Geografia e Estatística
+     Preferred Abbreviation   : IBGE
+     Mailing Address          : Av. Brasil, 15671 - Parada de Lucas - Rio de
+                              : Janeiro - Brasil - CEP: 21241-051
+     Primary Contact
+       Contact Name           : Guiderlan Mantovani
+       Telephone (primary)    : (55)(21) 21424935
+       Telephone (secondary)  : (55)(21) 21424929
+       Fax                    : 
+       E-mail                 : guiderlan.mantovani@ibge.gov.br
+     Secondary Contact
+       Contact Name           : Flavio Scofano
+       Telephone (primary)    : (55)(21) 21424935
+       Telephone (secondary)  : (55)(21) 21424929
+       Fax                    : 
+       E-mail                 : flavio.scofano@ibge.gov.br
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : Brazilian Institute of Geography and Statistics
+     Preferred Abbreviation   : IBGE
+     Mailing Address          : Av. Brasil 15671, Parada de Lucas
+                              : Rio de Janeiro, Brasil
+     Primary Contact
+       Contact Name           : Sonia Costa
+       Telephone (primary)    : 55 21 21424935
+       Telephone (secondary)  : 55 21 21424929
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : SIO
+     URL for More Information : 
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+TRM55971.00
+
+    / ----------------------+--------------------- \
+   +                        +                       +
+    \ -------------------------------------------- /
+                    \               /
+                     \             /
+                      \-----+-----/                    <--  0.0000  ARP=BAM
+
+   <--                   0.3396                  -->
+  ARP: Antenna Reference Point
+  L1 : L1 Phase Center                   L2 : L2 Phase Center
+  TCR: Top of Chokering                  BCR: Bottom of Chokering
+

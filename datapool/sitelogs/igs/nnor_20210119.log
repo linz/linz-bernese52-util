@@ -1,0 +1,480 @@
+     NNOR00AUS Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mark van Kints
+     Date Prepared            : 2021-01-19
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : nnor_20201019.log
+      Modified/Added Sections : 3.10, 3.11
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : New Norcia
+     Four Character ID        : NNOR
+     Monument Inscription     : None
+     IERS DOMES Number        : 50181M001
+     CDP Number               : None
+     Monument Description     : PILLAR
+       Height of the Monument : 1.5 m
+       Monument Foundation    : STEEL RODS
+       Foundation Depth       : 0.5 m
+     Marker Description       : Center of horizontal metal plate
+     Date Installed           : 2002-06-17T00:00Z
+     Geologic Characteristic  : BEDROCK
+       Bedrock Type           : SEDIMENTARY
+       Bedrock Condition      : JOINTED/WEATHERED
+       Fracture Spacing       : 1-10 cm
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : (multiple lines)
+                              : Mark at the center of a horizontal
+                              : metal plate embedded on the concrete
+                              : monument.
+                              : The foundation is made up of 9 steel rods
+                              : embedded 0.5 m in the bedrock and fixed
+                              : with epoxi.
+
+
+2.   Site Location Information
+
+     City or Town             : New Norcia
+     State or Province        : 
+     Country                  : Australia
+     Tectonic Plate           : AUSTRALIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : -2414151.326
+       Y coordinate (m)       : 4907778.436
+       Z coordinate (m)       : -3270645.333
+       Latitude (N is +)      : -310255.46
+       Longitude (E is +)     : +1161133.77
+       Elevation (m,ellips.)  : 234.984
+     Additional Information   : ITRF2000 coordinates for 1998-01-01
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP020014901
+     Firmware Version         : NAV CD00,CHN 1D02*21
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2002-06-17T00:00Z
+     Date Removed             : 2012-10-02T04:20Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.2  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001326
+     Firmware Version         : 2.3.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-10-02T05:05Z
+     Date Removed             : 2013-08-14T10:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.3  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001326
+     Firmware Version         : 2.5.1p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-08-14T10:05Z
+     Date Removed             : 2014-04-07T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.4  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001353
+     Firmware Version         : 2.5.1p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-04-24T00:00Z
+     Date Removed             : 2014-12-17T23:59Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.5  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001353
+     Firmware Version         : 2.5.2-esa3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2014-12-18T00:00Z
+     Date Removed             : 2015-08-27T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.6  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001353
+     Firmware Version         : 2.9.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-08-27T12:05Z
+     Date Removed             : 2016-10-21T14:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.7  Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001353
+     Firmware Version         : 2.9.5-extref1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2016-10-21T14:01Z
+     Date Removed             : 2018-12-06T00:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.8  Receiver Type            : SEPT POLARX4TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3008037
+     Firmware Version         : 2.9.6-extref3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2018-12-06T01:00Z
+     Date Removed             : 2019-10-25T12:00Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.9  Receiver Type            : SEPT POLARX5TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS+IRNSS
+     Serial Number            : 4701267
+     Firmware Version         : 5.3.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-10-25T12:45Z
+     Date Removed             : 2020-04-08T13:10Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.10 Receiver Type            : SEPT POLARX5TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS+IRNSS
+     Serial Number            : 4701267
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-04-08T13:15Z
+     Date Removed             : 2021-01-19T12:59Z
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.11 Receiver Type            : SEPT POLARX5TR
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS+IRNSS
+     Serial Number            : 4701267
+     Firmware Version         : 5.4.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-01-19T13:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : (deg C) +/- 1
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR620021402
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0655
+     Marker->ARP North Ecc(m) : 0
+     Marker->ARP East Ecc(m)  : 0
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew LDF2-50
+     Antenna Cable Length     : 100 m
+     Date Installed           : 2002-06-17T00:00Z
+     Date Removed             : 2012-10-02T04:20Z
+     Additional Information   : 
+
+4.2  Antenna Type             : SEPCHOKE_MC     NONE
+     Serial Number            : 5122
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.1121
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew LDF2-50
+     Antenna Cable Length     : 100 m
+     Date Installed           : 2012-10-02T05:05Z
+     Date Removed             : 2019-10-25T12:00Z
+     Additional Information   : 
+
+4.3  Antenna Type             : SEPCHOKE_B3E6   NONE
+     Serial Number            : 5657
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.1121
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Andrew LDF2-50
+     Antenna Cable Length     : 100 m
+     Date Installed           : 2019-10-25T12:45Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL SLAVED CRYSTAL
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2002-06-17/2003-11-05
+       Notes                  : Clock steering set to NO
+                              : The external signal is from a H-Maser located
+                              : in a separate room
+
+6.2  Standard Type            : INTERNAL
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2003-11-05/2007-04-26
+       Notes                  : 
+
+6.3  Standard Type            : EXTERNAL SLAVED CRYSTAL
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2007-04-26/2009-02-25
+       Notes                  : The external signal is from a H-Maser located
+                              : in a separate room
+
+6.4  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2009-02-25/2009-03-20
+       Notes                  : The external clock was not correctly locked
+                              : into after a station reboot
+
+6.5  Standard Type            : EXTERNAL SLAVED CRYSTAL
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2009-03-20/2012-10-02
+       Notes                  : The external signal is from a H-Maser located
+                              : in a separate room
+
+6.6  Standard Type            : EXTERNAL SLAVED CRYSTAL
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2012-10-02/CCYY-MM-DD
+       Notes                  : The external signal is from a H-Maser located
+                              : in a separate room
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : ESA New Norcia Station
+     Preferred Abbreviation   : ESA-NNO
+     Mailing Address          : ESA Deep Space Station
+                              : Great Northern Highway
+                              : New Norcia
+                              : Australia
+     Primary Contact
+       Contact Name           : Kevin Fairman
+       Telephone (primary)    : +61 8 96544444
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : mark.van.kints@esa.int
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : ESA / ESOC
+     Preferred Abbreviation   : ESOC
+     Mailing Address          : Robert-Bosch-Strasse 5
+                              : D-64293
+                              : Darmstadt
+                              : Germany
+     Primary Contact
+       Contact Name           : W.Enderle
+       Telephone (primary)    : 49-6151-902272
+       Telephone (secondary)  : 
+       Fax                    : 49-6151-902271
+       E-mail                 : werner.enderle@esa.int
+     Secondary Contact
+       Contact Name           : M.van Kints
+       Telephone (primary)    : 49-6151-904069
+       Telephone (secondary)  : 
+       Fax                    : 49-6151-902271
+       E-mail                 : mark.van.kints@esa.int
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : http://nng.esoc.esa.de/gps/newnorcia.html
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : X
+       Horizon Mask           : (Y)
+       Monument Description   : X
+       Site Pictures          : X
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+SEPCHOKE_MC
+
+                     -------------                        <--  0.1060
+                    /             \
+                   |               |
+-------------------------------------------------------   <--  0.0620  TCR
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |
++------------------------+---+------------------------+   <--  0.0010  BCR
+                         +---+                            <--  0.0000  BAM=ARP
+
+<--                      0.3764                     -->
+
+ARP: Antenna Reference Point
+L1 : L1 Phase Center                   L2 : L2 Phase Center
+
+
+SEPCHOKE_B3E6
+
+                    ---------------                       <--  0.1550
+                  /                 \
+                 |                   |
++-----------------------------------------------------+   <--  0.1080  TCR
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |
++-----------------+-----------------+-----------------+   <--  0.0480  BCR
+                  |                 |
+                  |                 |
+                  |                 |
+                  +--------x--------+                     <--  0.0000  BPA=ARP
+                                                              (5/8" thread might
+                                                               differ from BPA!)
+                                                                       NOM=NRP
+                  <--    0.1210   -->
+<--                      0.3630                     -->

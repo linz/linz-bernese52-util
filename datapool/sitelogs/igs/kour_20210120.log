@@ -1,0 +1,779 @@
+     KOUR00GUF Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       https://ftp.igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Mark van Kints
+     Date Prepared            : 2021-01-20
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : kour_20201019.log
+      Modified/Added Sections : 3.20, 3.21
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Kourou
+     Four Character ID        : KOUR
+     Monument Inscription     : 
+     IERS DOMES Number        : 97301M210
+     CDP Number               : 
+     Monument Description     : PILLAR
+       Height of the Monument : 1 m
+       Monument Foundation    : CONCRETE BLOCK
+       Foundation Depth       : 1 m
+     Marker Description       : 
+     Date Installed           : 1992-10-18T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : (multiple lines)
+                              : Mark at the center of a horizontal metal
+                              : plate embedded on the concrete monument.
+
+
+2.   Site Location Information
+
+     City or Town             : Kourou
+     State or Province        : 
+     Country                  : French Guiana
+     Tectonic Plate           : SOUTH AMERICAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3839591.447
+       Y coordinate (m)       : -5059567.538
+       Z coordinate (m)       : 579956.867
+       Latitude (N is +)      : +051507.92
+       Longitude (E is +)     : -0524821.60
+       Elevation (m,ellips.)  : -25.57
+     Additional Information   : extracted from ITRF 94
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : ROGUE SNR-8C
+     Satellite System         : GPS
+     Serial Number            : 307
+     Firmware Version         : MEENIX 7.3 / RUSE 4.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1992-10-18T00:00Z
+     Date Removed             : 1994-10-05T23:59Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.2  Receiver Type            : ROGUE SNR-8C
+     Satellite System         : GPS
+     Serial Number            : 307
+     Firmware Version         : MEENIX 7.8 / RUSE 4.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1994-10-06T00:00Z
+     Date Removed             : 1997-10-01T12:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.3  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 107
+     Firmware Version         : 3.2.32.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1997-10-06T00:00Z
+     Date Removed             : 1999-07-30T13:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.4  Receiver Type            : ROGUE SNR-8100
+     Satellite System         : GPS
+     Serial Number            : 107
+     Firmware Version         : 3.2.32.9
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 1999-07-30T13:00Z
+     Date Removed             : 2000-03-06T00:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.5  Receiver Type            : ASHTECH Z-XII3
+     Satellite System         : GPS
+     Serial Number            : LP019995005
+     Firmware Version         : NAV CD00,CHN 1D02*21
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2000-03-07T00:00Z
+     Date Removed             : 2004-09-30T15:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.6  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR1200240020
+     Firmware Version         : CJ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2004-09-30T16:00Z
+     Date Removed             : 2006-10-12T07:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.7  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : LE5519
+     Firmware Version         : 2.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-10-12T08:30Z
+     Date Removed             : 2006-11-20T12:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.8  Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 340-0863
+     Firmware Version         : 2.5
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2006-11-20T12:30Z
+     Date Removed             : 2007-06-20T12:30Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.9  Receiver Type            : ASHTECH UZ-12
+     Satellite System         : GPS
+     Serial Number            : IR1200240020
+     Firmware Version         : CJ00
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2007-06-20T12:30Z
+     Date Removed             : 2008-01-06T09:30Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.10 Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 340-0863
+     Firmware Version         : 3.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-01-15T14:00Z
+     Date Removed             : 2008-04-08T13:20Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.11 Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 340-0863
+     Firmware Version         : 3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-04-08T13:20Z
+     Date Removed             : 2008-05-13T12:45Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.12 Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 340-0863
+     Firmware Version         : 3.3
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2008-05-13T13:00Z
+     Date Removed             : 2009-06-25T22:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.13 Receiver Type            : JPS LEGACY
+     Satellite System         : GPS+GLO
+     Serial Number            : 340-0863
+     Firmware Version         : 3.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2009-06-26T06:00Z
+     Date Removed             : 2012-11-06T00:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.14 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001301
+     Firmware Version         : 2.3.4
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2012-11-20T13:00Z
+     Date Removed             : 2013-04-11T12:45Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.15 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+QZSS+SBAS
+     Serial Number            : 3001301
+     Firmware Version         : 2.5.1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-04-11T13:00Z
+     Date Removed             : 2013-08-14T10:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.16 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001301
+     Firmware Version         : 2.5.1p1
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2013-08-14T10:05Z
+     Date Removed             : 2015-08-27T12:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.17 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001301
+     Firmware Version         : 2.9.0
+     Elevation Cutoff Setting : 
+     Date Installed           : 2015-08-27T12:05Z
+     Date Removed             : 2016-10-21T14:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.18 Receiver Type            : SEPT POLARX4
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 3001301
+     Firmware Version         : 2.9.5-extref1
+     Elevation Cutoff Setting : 
+     Date Installed           : 2016-10-21T14:01Z
+     Date Removed             : 2019-10-09T00:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.19 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 4503037
+     Firmware Version         : 5.3.0
+     Elevation Cutoff Setting : 
+     Date Installed           : 2019-10-09T20:00Z
+     Date Removed             : 2020-01-24T10:00Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.20 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 4503037
+     Firmware Version         : 5.3.2
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2020-01-24T10:10Z
+     Date Removed             : 2021-01-19T12:59Z
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.21 Receiver Type            : SEPT POLARX5
+     Satellite System         : GPS+GLO+GAL+BDS+SBAS
+     Serial Number            : 4503037
+     Firmware Version         : 5.4.0
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2021-01-19T13:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 1
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : AOAD/M_B        NONE
+     Serial Number            : 122
+     Antenna Reference Point  : BCR
+     Marker->ARP Up Ecc. (m)  : 0.1320
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1992-10-18T00:00Z
+     Date Removed             : 1997-10-01T12:00Z
+     Additional Information   : 
+
+4.2  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 152
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0450
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1997-10-06T00:00Z
+     Date Removed             : 1998-01-05T13:30Z
+     Additional Information   : 
+
+4.3  Antenna Type             : AOAD/M_T        NONE
+     Serial Number            : 270
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0450
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 1998-01-05T13:30Z
+     Date Removed             : 2002-01-30T00:00Z
+     Additional Information   : 
+
+4.4  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR520014804
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0450
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2002-01-30T00:00Z
+     Date Removed             : 2006-10-12T07:00Z
+     Additional Information   : 
+
+4.5  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR620045039
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0450
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2006-10-12T08:30Z
+     Date Removed             : 2007-06-20T12:30Z
+     Additional Information   : 
+
+4.6  Antenna Type             : ASH701945C_M    NONE
+     Serial Number            : CR620023903
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0450
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2007-06-20T12:30Z
+     Date Removed             : 2008-01-06T09:30Z
+     Additional Information   : 
+
+4.7  Antenna Type             : ASH701946.3     NONE
+     Serial Number            : CR420033512
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0450
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2008-01-15T14:00Z
+     Date Removed             : 2012-11-06T00:00Z
+     Additional Information   : 
+
+4.8  Antenna Type             : SEPCHOKE_MC     NONE
+     Serial Number            : 5129
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0950
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2012-11-20T13:00Z
+     Date Removed             : 2019-10-09T00:00Z
+     Additional Information   : Use of 50 mm riser to raise the 
+                              : antenna from the monument to allow cable 
+                              : installation
+
+4.9  Antenna Type             : SEPCHOKE_B3E6   NONE
+     Serial Number            : 5653
+     Antenna Reference Point  : BPA
+     Marker->ARP Up Ecc. (m)  : 0.0950
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : 
+     Antenna Cable Length     : 
+     Date Installed           : 2019-10-09T20:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 
+       Effective Dates        : 1992-10-18/2000-03-07
+       Notes                  : 
+
+6.2  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2000-03-07/2000-10-27
+       Notes                  : 
+
+6.3  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2000-10-27/2001-04-08
+       Notes                  : CLOCK STEERING set NO on 27-OCT-2000
+
+6.4  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2001-04-08/2002-10-19
+       Notes                  : 
+
+6.5  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2002-10-19/2005-04-25
+       Notes                  : 
+
+6.6  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2005-04-25/2006-11-22
+       Notes                  : 
+
+6.7  Standard Type            : EXTERNAL CESIUM
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2006-11-22/2007-06-12
+       Notes                  : 
+
+6.8  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2007-06-12/2008-01-18
+       Notes                  : 
+
+6.9  Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 5 MHz
+       Effective Dates        : 2008-01-18/2012-11-06
+       Notes                  : 
+
+6.10 Standard Type            : EXTERNAL H-MASER
+       Input Frequency        : 10 MHz
+       Effective Dates        : 2012-11-20/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : ESA Station Diane
+     Preferred Abbreviation   : ESA-KOUROU
+     Mailing Address          : ESA Station Diane
+                              : PO Box no.27
+                              : 97311 Kourou Cedex
+                              : French Guyana
+     Primary Contact
+       Contact Name           : Mark van Kints
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : mark.van.kints@esa.int
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : ESA / ESOC
+     Preferred Abbreviation   : ESOC
+     Mailing Address          : Robert-Bosch-Strasse 5
+                              : D-64293
+                              : Darmstadt
+                              : Germany
+     Primary Contact
+       Contact Name           : W.Enderle
+       Telephone (primary)    : 49-6151-902272
+       Telephone (secondary)  : 
+       Fax                    : 49-6151-902271
+       E-mail                 : werner.enderle@esa.int
+     Secondary Contact
+       Contact Name           : M.van Kints
+       Telephone (primary)    : 49-6151-904069
+       Telephone (secondary)  : 
+       Fax                    : 49-6151-902271
+       E-mail                 : mark.van.kints@esa.int
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : CDDIS
+     Secondary Data Center    : IGN
+     URL for More Information : http://nng.esoc.esa.de/gps/kourou.html
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : X
+       Horizon Mask           : X
+       Monument Description   : X
+       Site Pictures          : X
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+
+
+
+
+              Ashtech: DORNE MARGOLIN ASH
+
+                         -----
+                     /     +     \                        <--  0.128  L2
+                    |      +      |                       <--  0.110  L1
+  +--------------------------------------------------+    <--  0.102  TCR
+  |                                                  |
+  |                                                  |
+  |                                                  |
+  |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000 
+ARP=BPA
+
+<--                      0.381                       -->
+
+
+
+            TURBOROGUE: AOAD/M_T
+
+                        -----
+                    /     +     \                        <--  0.128  L2
+                   |      +      |                       <--  0.110  L1
+ +--------------------------------------------------+    <--  0.102  TCR
+ |                                                  |
+ |                                                  |
+ |                                                  |
+ |                                                  |
++-+--------------------------------------------------+-+  <--  0.038
++-------------------+-------------+--------------------+  <--  0.035  BCR
+                    |             |
+                   =|             |
+                    +------x------+                       <--  0.000  ARP
+
+<--                      0.381                       -->
+
+
+  ARP: Antenna Reference Point
+  L1 : L1 Phase Center                   L2 : L2 Phase Center
+  TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+ROGUE:  AOAD/M_B  (Allen Osborne Design)
+
+                          -----
+                      /     +     \                        <--  0.096  L2
+                     |      +      |                       <--  0.078  L1
+   +-----------------+-------------+------------------+    <--  0.070  TCR
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   |                                                  |
+   +-----------------+------x------+------------------+    <--  0.000  ARP
+                     |             |
+                     +-------------+                       <-- -0.011
+                           ||  ||
+
+   <--                    0.351                     -->
+
+
+ASH701946.3
+
+                           +---+                            <--  0.1400
+                         /       \
+                       /     +     \ 
+                      |      +      | 
+    +-------------------------------------------------+     <--  0.1010 
+TCR
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+  +-+-------------------------------------------------+-+   <--  0.0380
+  +-------------------+-------------+-------------------+   <--  0.0350 
+BCR
+                      |             |
+                      |             |
+                      +------x------+                       <--  0.0000 
+BPA=ARP
+
+  <--                      0.380                      -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+SEPCHOKE_MC
+
+                     -------------                        <--  0.1060
+                    /             \
+                   |               |
+-------------------------------------------------------   <--  0.0620  TCR
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |
++------------------------+---+------------------------+   <--  0.0010  BCR
+                         +---+                            <--  0.0000  BAM=ARP
+
+<--                      0.3764                     -->
+
+
+   ARP: Antenna Reference Point
+   L1 : L1 Phase Center                   L2 : L2 Phase Center
+   TCR: Top of Chokering                  BCR: Bottom of Chokering
+
+
+SEPCHOKE_B3E6
+
+                    ---------------                       <--  0.1550
+                  /                 \
+                 |                   |
++-----------------------------------------------------+   <--  0.1080  TCR
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |
++-----------------+-----------------+-----------------+   <--  0.0480  BCR
+                  |                 |
+                  |                 |
+                  |                 |
+                  +--------x--------+                     <--  0.0000  BPA=ARP
+                                                              (5/8" thread might
+                                                               differ from BPA!)
+                                                                       NOM=NRP
+                  <--    0.1210   -->
+<--                      0.3630                     -->
+
