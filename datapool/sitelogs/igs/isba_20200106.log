@@ -1,0 +1,353 @@
+
+     ISBA00IRQ Site Information Form (site log)
+     International GNSS Service
+     See Instructions at:
+       ftp://igs.org/pub/station/general/sitelog_instr.txt
+
+0.   Form
+
+     Prepared by (full name)  : Francine Coloma
+     Date Prepared            : 2020-01-06
+     Report Type              : UPDATE
+     If Update:
+      Previous Site Log       : isba_20150316.log
+      Modified/Added Sections : 3.6,3.7 
+
+
+1.   Site Identification of the GNSS Monument
+
+     Site Name                : Iraq Sury Baghdad
+     Four Character ID        : ISBA
+     Monument Inscription     : 
+     IERS DOMES Number        : 20308M001
+     CDP Number               : 
+     Monument Description     : Tribrach adapter
+       Height of the Monument : 40 m
+       Monument Foundation    : ROOF
+       Foundation Depth       : 
+     Marker Description       : BRASS TRIBRACH ADAPTER
+     Date Installed           : 2008-03-01T00:00Z
+     Geologic Characteristic  : 
+       Bedrock Type           : 
+       Bedrock Condition      : 
+       Fracture Spacing       : 
+       Fault zones nearby     : 
+         Distance/activity    : 
+     Additional Information   : Monument is a tribrach adapter secured and
+                              : leveled using three inch leveling screws,the
+                              : building is about 40m high with 10 stories,
+                              : the building was built between 1984-1988 and
+                              : its reinforced cement
+
+
+2.   Site Location Information
+
+     City or Town             : Palestine Street
+     State or Province        : Baghdad
+     Country                  : Iraq
+     Tectonic Plate           : ARABIAN
+     Approximate Position (ITRF)
+       X coordinate (m)       : 3808364.974
+       Y coordinate (m)       : 3734430.116
+       Z coordinate (m)       : 3485693.390
+       Latitude (N is +)      : +332029.09
+       Longitude (E is +)     : +0442618.25
+       Elevation (m,ellips.)  : 72.4
+     Additional Information   : ARP IGS08 POSITION (EPOCH 2005.00)
+                              : Computed in Aug 2011 using data through gpswk
+                              :  1631.
+
+
+3.   GNSS Receiver Information
+
+3.1  Receiver Type            : TRIMBLE NETRS
+     Satellite System         : GPS
+     Serial Number            : 4630119468
+     Firmware Version         : 1.1-3
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2008-03-01T00:00Z
+     Date Removed             : 2009-08-05T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.2  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53475
+     Firmware Version         : 3.6
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2009-08-05T00:00Z
+     Date Removed             : 2010-10-26T05:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Firmware upgrade.
+
+3.3  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53475
+     Firmware Version         : 4.15
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2010-10-26T05:00Z
+     Date Removed             : 2011-03-12T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Firmware upgraded.
+
+3.4  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53475
+     Firmware Version         : 4.19
+     Elevation Cutoff Setting : 5 deg
+     Date Installed           : 2011-03-12T00:00Z
+     Date Removed             : 2015-01-01T00:00Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.5  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53475
+     Firmware Version         : 4.22
+     Elevation Cutoff Setting : 10 deg
+     Date Installed           : 2015-01-01T00:00Z
+     Date Removed             : 2015-03-16T18:07Z
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.6  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53475
+     Firmware Version         : 4.22
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2015-03-16T18:07Z
+     Date Removed             : 2019-12-31T19:40Z
+     Temperature Stabiliz.    : 
+     Additional Information   : Firmware update
+
+3.7  Receiver Type            : TRIMBLE NETR5
+     Satellite System         : GPS+GLO
+     Serial Number            : 4807K53475
+     Firmware Version         : 4.41
+     Elevation Cutoff Setting : 0 deg
+     Date Installed           : 2019-12-31T19:50Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Temperature Stabiliz.    : 
+     Additional Information   : 
+
+3.x  Receiver Type            : (A20, from rcvr_ant.tab; see instructions)
+     Satellite System         : (GPS+GLO+GAL+BDS+QZSS+SBAS)
+     Serial Number            : (A20, but note the first A5 is used in SINEX)
+     Firmware Version         : (A11)
+     Elevation Cutoff Setting : (deg)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Temperature Stabiliz.    : (none or tolerance in degrees C)
+     Additional Information   : (multiple lines)
+
+
+4.   GNSS Antenna Information
+
+4.1  Antenna Type             : TRM41249.00     NONE
+     Serial Number            : 60154677
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble LMR400 coax cable
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2008-03-01T00:00Z
+     Date Removed             : 2011-10-05T00:00Z
+     Additional Information   : Changed ARP from bpa to bam 2010-oct-05
+
+4.2  Antenna Type             : TRM57971.00     NONE
+     Serial Number            : 30763366
+     Antenna Reference Point  : BAM
+     Marker->ARP Up Ecc. (m)  : 0.0000
+     Marker->ARP North Ecc(m) : 0.0000
+     Marker->ARP East Ecc(m)  : 0.0000
+     Alignment from True N    : 0 deg
+     Antenna Radome Type      : NONE
+     Radome Serial Number     : 
+     Antenna Cable Type       : Trimble LMR400 coax cable
+     Antenna Cable Length     : 30 m
+     Date Installed           : 2011-10-05T00:00Z
+     Date Removed             : CCYY-MM-DDThh:mmZ
+     Additional Information   : 
+
+4.x  Antenna Type             : (A20, from rcvr_ant.tab; see instructions)
+     Serial Number            : (A*, but note the first A5 is used in SINEX)
+     Antenna Reference Point  : (BPA/BCR/XXX from "antenna.gra"; see instr.)
+     Marker->ARP Up Ecc. (m)  : (F8.4)
+     Marker->ARP North Ecc(m) : (F8.4)
+     Marker->ARP East Ecc(m)  : (F8.4)
+     Alignment from True N    : (deg; + is clockwise/east)
+     Antenna Radome Type      : (A4 from rcvr_ant.tab; see instructions)
+     Radome Serial Number     : 
+     Antenna Cable Type       : (vendor & type number)
+     Antenna Cable Length     : (m)
+     Date Installed           : (CCYY-MM-DDThh:mmZ)
+     Date Removed             : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+5.   Surveyed Local Ties
+
+5.x  Tied Marker Name         : 
+     Tied Marker Usage        : (SLR/VLBI/LOCAL CONTROL/FOOTPRINT/etc)
+     Tied Marker CDP Number   : (A4)
+     Tied Marker DOMES Number : (A9)
+     Differential Components from GNSS Marker to the tied monument (ITRS)
+       dx (m)                 : (m)
+       dy (m)                 : (m)
+       dz (m)                 : (m)
+     Accuracy (mm)            : (mm)
+     Survey method            : (GPS CAMPAIGN/TRILATERATION/TRIANGULATION/etc)
+     Date Measured            : (CCYY-MM-DDThh:mmZ)
+     Additional Information   : (multiple lines)
+
+
+6.   Frequency Standard
+
+6.1  Standard Type            : INTERNAL
+       Input Frequency        : 
+       Effective Dates        : 2008-03-01/CCYY-MM-DD
+       Notes                  : 
+
+6.x  Standard Type            : (INTERNAL or EXTERNAL H-MASER/CESIUM/etc)
+       Input Frequency        : (if external)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+7.   Collocation Information
+
+7.x  Instrumentation Type     : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/TIME/etc)
+       Status                 : (PERMANENT/MOBILE)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+
+8.   Meteorological Instrumentation
+
+8.1.x  Humidity Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy (% rel h)     : (% rel h)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.2.x  Pressure Sensor Model  : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (hPa)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.3.x  Temp. Sensor Model     : 
+       Manufacturer           : 
+       Serial Number          : 
+       Data Sampling Interval : (sec)
+       Accuracy               : (deg C)
+       Aspiration             : (UNASPIRATED/NATURAL/FAN/etc)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.4.x  Water Vapor Radiometer : 
+       Manufacturer           : 
+       Serial Number          : 
+       Distance to Antenna    : (m)
+       Height Diff to Ant     : (m)
+       Calibration date       : (CCYY-MM-DD)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Notes                  : (multiple lines)
+
+8.5.x  Other Instrumentation  : (multiple lines)
+
+
+9.   Local Ongoing Conditions Possibly Affecting Computed Position
+
+9.1.x  Radio Interferences    : (TV/CELL PHONE ANTENNA/RADAR/etc)
+       Observed Degradations  : (SN RATIO/DATA GAPS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.2.x  Multipath Sources      : (METAL ROOF/DOME/VLBI ANTENNA/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+9.3.x  Signal Obstructions    : (TREES/BUILDINGS/etc)
+       Effective Dates        : (CCYY-MM-DD/CCYY-MM-DD)
+       Additional Information : (multiple lines)
+
+
+10.  Local Episodic Effects Possibly Affecting Data Quality
+
+10.x Date                     : (CCYY-MM-DD/CCYY-MM-DD)
+     Event                    : (TREE CLEARING/CONSTRUCTION/etc)
+
+11.  On-Site, Point of Contact Agency Information
+
+     Agency                   : Iraq Ministry of Water Resource General
+                              : Directorate for Survey
+     Preferred Abbreviation   : IRAGDS
+     Mailing Address          : Palestine Street,Baghdad,Iraq
+     Primary Contact
+       Contact Name           : ENG.Wisam Abdulkadhum Hussein
+       Telephone (primary)    : (00964) 7702561724
+       Telephone (secondary)  : (00964) 7805407075
+       Fax                    : 
+       E-mail                 : wisamalhassani2000@yahoo.com
+     Secondary Contact
+       Contact Name           : Kasim hamidy Abd
+       Telephone (primary)    : (00964) 7901875740
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : Kasimrs@yahoo.com
+     Additional Information   : 
+
+
+12.  Responsible Agency (if different from 11.)
+
+     Agency                   : 
+     Preferred Abbreviation   : 
+     Mailing Address          : 
+     Primary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Secondary Contact
+       Contact Name           : 
+       Telephone (primary)    : 
+       Telephone (secondary)  : 
+       Fax                    : 
+       E-mail                 : 
+     Additional Information   : 
+
+13.  More Information
+
+     Primary Data Center      : ftp://geodesy.noaa.gov/cors
+     Secondary Data Center    : ftp://alt.ngs.noaa.gov/cors
+     URL for More Information : http://geodesy.noaa.gov/CORS
+     Hardcopy on File
+       Site Map               : 
+       Site Diagram           : 
+       Horizon Mask           : 
+       Monument Description   : 
+       Site Pictures          : 
+     Additional Information   : 
+     Antenna Graphics with Dimensions
+
+     http://geodesy.noaa.gov/ANTCAL
+
+
+
