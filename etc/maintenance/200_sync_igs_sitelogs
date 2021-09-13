@@ -1,4 +1,4 @@
-#!/usr/bin/gns_ftp_mirror -v
+#!/usr/bin/gnss_ftp_mirror -v
 # Example configuration file:
 #
 # Note all configuration item values can contain references to other configuration
