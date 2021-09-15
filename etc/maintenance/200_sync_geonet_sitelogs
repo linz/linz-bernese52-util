@@ -26,34 +26,17 @@ orgdir=geonet
 
 # RemoteUri is the the base of the remote directory
 
-RemoteUri=ftp://ftp.geonet.org.nz/gps
+RemoteUri=https://data.geonet.org.nz/gnss/sitelogs/logs
 
-RemoteUser=anonymous
+DirectoryListUrl=
+DirectoryListRe=
+FileListUrl={curdir}/?list
+FileListRe ^\s*(?<filename>\S+)\s+(?<filedate>\d\d\d\d\-\d\d\-\d\dT\d\d\:\d\dZ)\s+(?<filesize>\d+)\s*$
 
-RemotePassword=positionz@linz.govt.nz
+RemoteUser=
+RemotePassword=
 
 TimeOut 60
-
-# Delay in seconds added after each successful download to be polite to server
-
-DownloadWait 1
-
-# If a download fails the script will try to reconnect to the server
-# The following options control the reconnection 
-
-MaxReconnectionTries 5
-
-# Time delay in seconds between reconnection attempts
-
-ReconnectionWait 5
-
-# Auto reconnect after specified number of downloads
-
-MaxDownloadsPerConnection 100
-
-# Maximum runtime in minutes - once this time has expired the job will finish
-
-MaxRunTime 120
 
 # StatusFile - if this is defined then at the completion of the run there
 # will be a file named either xxx.success or xxx.fail.  The age of this can
@@ -81,7 +64,7 @@ MinTimeSinceLastRun 20h 4h
 # of days before the current date to process.  Can also include ? for any
 # character, and * for any set of characters.
 
-RemoteDir=/sitelogs/logs
+RemoteDir=
 
 # RemoteFileRe.  Remote file names are matched against this regular expression.
 # Files that match are candidates for downloading.  
