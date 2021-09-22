@@ -1,3 +1,13 @@
+linz-bernese52-util (1.37.0-1) bionic; urgency=medium
+
+    [Dionne Hansen]
+    * Switched to mirror GeoNet https endpoint rather than ftp
+    * Typo in reference to gnss_ftp_mirror at the top of 200_sync_igs_sitelogs which stopped this script from running
+    * adding in Unavco sites in antarctica.
+    * added 9 site codes and initial logs to get sites added to IGB14 reference frame
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Wed , 22 Sep 2021 12:00:00 +1300
+
 linz-bernese52-util (1.36.0-1) bionic; urgency=medium
 
     [Chris Crook]
