@@ -31,7 +31,7 @@ RemoteUri=https://data.geonet.org.nz/gnss/sitelogs/logs
 DirectoryListUrl=
 DirectoryListRe=
 FileListUrl={curdir}/?list
-FileListRe ^\s*(?<filename>\S+)\s+(?<filedate>\d\d\d\d\-\d\d\-\d\dT\d\d\:\d\dZ)\s+(?<filesize>\d+)\s*$
+FileListRe ^\s*\<a.*?\>(?<filename>\S+?)\<\/a\>\s+(?<filedate>\d\d\-\w\w\w-\d\d\d\d\s+\d\d\:\d\d)\s+(?<filesize>\d+)\s*$
 
 RemoteUser=
 RemotePassword=

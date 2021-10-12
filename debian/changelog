@@ -1,3 +1,10 @@
+linz-bernese52-util (1.38.0-1) bionic; urgency=medium
+
+    [Chris Crook]
+    * fix gnss site log download configration
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Wed , 13 Oct 2021 09:00:00 +1300
+
 linz-bernese52-util (1.37.0-1) bionic; urgency=medium
 
     [Dionne Hansen]
