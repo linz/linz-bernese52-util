@@ -354,12 +354,15 @@ if( $env->param("LISTCFG") )
 if( $env->param("LISTSTA") )
 {
     $stnlist=LINZ::GNSS::DataCenter::AvailableStations();
-    $refstnlist=LINZ::GNSS::RefStation::GetRefStations();
     my %rscodes=();
-    foreach my $rs (@$refstnlist)
+    eval
     {
-        $rscodes{$rs->code} = 1;
-    }
+        $refstnlist=LINZ::GNSS::RefStation::GetRefStations();
+        foreach my $rs (@$refstnlist)
+        {
+            $rscodes{$rs->code} = 1;
+        }
+    };
     print "\n\n ==================================================\n";
     print "\n REFERENCE STATIONS IN DATA CENTRES\n";
     print "\n Stations marked with '*' have coordinate models defined and\n";

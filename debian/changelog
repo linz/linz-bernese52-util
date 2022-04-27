@@ -1,3 +1,10 @@
+linz-bernese52-util (1.39.0-1) bionic; urgency=medium
+
+    [Chris Crook]
+    * Handling missing reference station dir if not required
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Thu, 28 Apr 2022 09:00:00 +1300
+
 linz-bernese52-util (1.38.1-1) bionic; urgency=medium
 
     [Dionne Hansen]
