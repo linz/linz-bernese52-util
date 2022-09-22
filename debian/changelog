@@ -1,3 +1,10 @@
+linz-bernese52-util (1.39.1-1) bionic; urgency=medium
+
+    [Chris Crook]
+    * Remove unsubstantiated ITRF version from GETDATA output
+
+ -- Chris Crook <ccrook@linz.govt.nz>  Thu, 22 Sep 2022 14:00:00 +1300
+
 linz-bernese52-util (1.39.0-1) bionic; urgency=medium
 
     [Chris Crook]
