@@ -900,29 +900,36 @@ if( $env->param("DNLDRS_A") )
 
 if( @rnxfiles && $env->param("FIXRINEX") )
 {
-    foreach my $filepath (@rnxfiles)
+    if( $ENV{VERSION} ne '52' )
     {
-        next if ! -f $filepath;
-        my $filename=$filepath;
-        $filename =~ s/.*[\\\/]//;
-        eval
+        bernwarn("Fixing RINEX antenna/receivers in GETDATA is not supported in Bernese $ENV{VERSION}.")
+    }
+    else
+    {
+        foreach my $filepath (@rnxfiles)
         {
-            my $edits=LINZ::BERN::BernUtil::FixRinexAntRec($filepath);
-            if( %$edits )
+            next if ! -f $filepath;
+            my $filename=$filepath;
+            $filename =~ s/.*[\\\/]//;
+            eval
             {
-                foreach my $item (sort keys %$edits)
+                my $edits=LINZ::BERN::BernUtil::FixRinexAntRec($filepath);
+                if( %$edits )
                 {
-                    my $from=$edits->{$item}->{from};
-                    my $to=$edits->{$item}->{to};
-                    bernwarn("File $filename: Updated $item, \"$from\"=>\"$to\"\n");
+                    foreach my $item (sort keys %$edits)
+                    {
+                        my $from=$edits->{$item}->{from};
+                        my $to=$edits->{$item}->{to};
+                        bernwarn("File $filename: Updated $item, \"$from\"=>\"$to\"\n");
+                    }
                 }
-            }
-        };
-        if( $@ )
-        {
-            my $errmess=$@;
-            berncroak("Cannot fix $filename receiver/antenna: $errmess\n");
+            };
+            if( $@ )
+            {
+                my $errmess=$@;
+                berncroak("Cannot fix $filename receiver/antenna: $errmess\n");
 
+            }
         }
     }
 }
