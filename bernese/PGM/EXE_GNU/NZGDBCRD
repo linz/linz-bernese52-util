@@ -88,8 +88,10 @@ foreach my $code (split(' ',$addcod))
 
 if( $rxfiles )
 {
+    $rxfiles=[$rxfiles] if ref $rxfiles ne 'ARRAY';
     foreach my $rxfile (@$rxfiles)
     {
+        next if ! -f $rxfiles;
         if( $rxcodsrc eq 'FILE_NAME' )
         {
             push(@codes,uc($1)) if $rxfile =~ /[\/\\](\w{4})[^\/\\]*$/;
