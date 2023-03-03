@@ -262,8 +262,52 @@ If this option is selected then the downloaded VMF files will be combined to a s
 If the VMF files are to be merged then this specifies the name of the file to create.
 </p>
 
-<hr />/p>
-<p><b>GETDATA 4: IGS SINEX solution files</b></p>
+<hr />
+<p><b>GETDATA 4: GFZ Loading files</b></p>
+
+<p>
+Ocean, hydrological, and atmospheric loading models created by GFZ German Research Centre 
+for Geosciences, and distributed by the University of BERN.
+</p>
+
+<a name="DNLDNTOL" default="0"></a>
+<p><b>Download ocean loading models (NTOL)</b>
+If this option is selected then the ocean loading model grids will be downloaded
+</p>
+
+<a name="DNLNTAL" default="0"></a>
+<p><b>Download atmospheric loading models (NTAL)</b>
+If this option is selected then the atmospheric loading model grids will be downloaded
+</p>
+
+<a name="DNLDHYDL" default="0"></a>
+<p><b>Download hydrological loading models (HYDL)</b>
+If this option is selected then the hydrological loading model grids will be downloaded
+</p>
+
+<a name="MERGEGFZ" default="0"></a>
+<p><b>Merge into a single grid</b>
+If this option is selected then the downloaded VMF files will be combined to a single file
+</p>
+
+<a name="NTOLFILE" default=""></a>
+<p><b>Name of merged ocean loading file</b>
+If the model files are to be merged then this specifies the name of the ocean loading file to create.
+</p>
+
+<a name="NTALFILE" default=""></a>
+<p><b>Name of merged atmospheric loading file</b>
+If the model files are to be merged then this specifies the name of the atmospheric loading file to create.
+</p>
+
+<a name="HYDLFILE" default=""></a>
+<p><b>Name of merged hydrological loading file</b>
+If the model files are to be merged then this specifies the name of the hydrological loading file to create.
+</p>
+
+<hr />
+
+<p><b>GETDATA 5: IGS SINEX solution files</b></p>
 
 <p>Downlod the IGS daily or weekly combined solution SINEX files. 
 </p>
@@ -287,8 +331,8 @@ is to use the same name for daily solutions as for weekly when using the DAILY+ 
 This simplifies using the files in PCF files.
 </p>
 
-<hr />/p>
-<p><b>GETDATA 5: Reference Station RINEX files</b></p>
+<hr />
+<p><b>GETDATA 6: Reference Station RINEX files</b></p>
 
 <p>Reference station RINEX data can be downloaded.  There are two &quot;data quality&quot; subtypes,
 DAILY and HOURLY.  DAILY data are preferred by the script.

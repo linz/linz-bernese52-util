@@ -198,6 +198,57 @@ ATMPLUSM 1  "0"
 MSG_ATMPLUSM 1  "Include +/- session range in atmosphere products"
 
 ! -------------------------------------------------------------------------
+! GFZ Loading grids
+! ------------------
+
+DNLDNTOL 1 "0"
+  ## widget = checkbox
+
+MSG_DNLDNTOL 1 "Download ocean loading grids"
+
+DNLDNTAL 1 "0"
+  ## widget = checkbox
+
+MSG_DNLDNTAL 1 "Download atmospheric loading grids"
+
+DNLDHYDL 1 "0"
+  ## widget = checkbox
+
+MSG_DNLDHYDL 1 "Download hydrological loading grids"
+
+MERGEGFZ 1 "0"
+  ## widget = checkbox
+
+MSG_MERGEGFZ 1 "Merge downloaded grids into a single file"
+
+NTOLFILE 0
+  ## widget = lineedit; path = DIR_GRD; ext = EXT_GRD
+  ## activeif = DNLDNTOL = 1 AND MERGEGFZ = 1
+  # NTOL_$Y$S+0
+
+MSG_NTOLFILE 1 "Value for \$"
+
+NTALFILE 0
+  ## widget = lineedit; path = DIR_GRD; ext = EXT_GRD
+  ## activeif = DNLDNTAL = 1 AND MERGEGFZ = 1
+  # NTAL_$Y$S+0
+
+MSG_NTALFILE 1 "Value for \$"
+
+HYDLFILE 0
+  ## widget = lineedit; path = DIR_GRD; ext = EXT_GRD
+  ## activeif = DNLDHYDL = 1 AND MERGEGFZ = 1
+  # HYDL_$Y$S+0
+
+MSG_HYDLFILE 1 "Value for \$"
+
+GFZPLUSM 1 "0"
+  ## widget = checkbox
+
+MSG_GFZPLUSM 1 "Include +/- session range in loading products"
+
+
+! -------------------------------------------------------------------------
 ! Download IGS combined solution SINEX files
 ! ------------------
 
@@ -443,7 +494,24 @@ DESCR_SYSERR 1  "Error message"
 # END_PANEL ####################################################################
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GETDATA 4: IGS SINEX solution files                #
+# DOWNLOAD REFERENCE DATA - GETDATA 4: GFZ loading grids                       #
+#                                                                              #
+#   Download ocean loading models (NTOL)             > % <                     # DNLDNTOL
+#   Download atmospheric loading models (NTAL)       > % <                     # DNLDNTAL
+#   Download hydrondynamic loading models (HYDL)     > % <                     # DNLDHYDL
+#                                                                              #
+#   Merge into a single grid                         > % <                     # MERGEGFZ
+#
+#   Name of ocean loading file             > %%%%%%%%%%% <                     # NTOLFILE
+#   Name of atmospheric loading file       > %%%%%%%%%%% <                     # NTALFILE
+#   Name of hydrological loading file      > %%%%%%%%%%% <                     # HYDLFILE
+#                                                                              #
+#   Include +/- session range in loadng products     > % <                     # GFZPLUSM
+#                                                                              #
+# END_PANEL ####################################################################
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# DOWNLOAD REFERENCE DATA - GETDATA 5: IGS SINEX solution files                #
 #                                                                              #
 #  Download IGS combined solution SINEX file         > % <                     # DNLDIGSC
 #  IGS combined solution type                        > %%%%%%% <               # IGSCTYP
@@ -453,7 +521,7 @@ DESCR_SYSERR 1  "Error message"
 # END_PANEL ####################################################################
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GETDATA 5: Reference station RINEX files           # 
+# DOWNLOAD REFERENCE DATA - GETDATA 6: Reference station RINEX files           # 
 #                                                                              #
 #   > % <   Don't download reference station data                              # DNLDRS_0
 #                                                                              #

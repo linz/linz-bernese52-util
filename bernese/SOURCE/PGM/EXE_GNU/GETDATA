@@ -544,7 +544,89 @@ if( $env->param('DNLDVMF') )
     }
 }
 
-# 
+#
+my $gfzstart=$start;
+my $gfzend=$end;
+
+if( $env->param('GFZPLUSM') )
+{
+    my ($minus,$plus)=getSessionPlusMinus();
+    $gfzstart += $minus*$SECS_PER_DAY;
+    $gfzend += $plus*$SECS_PER_DAY;
+}
+
+
+if( $env->param('DNLDNTOL') )
+{
+    if( $env->param("MERGEGFZ") && ! $env->param('NTOLFILE',1) )
+    {
+        bernwarn("GFZ ocean loading models not downloaded as no merge file name specified");
+    }
+    else
+    {
+        my $type = 'GFZNTOL';
+        my $subtype= 'FINAL';
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$gfzstart,$gfzend);
+        my ($status,$files) = getData("GFZ ocean loading grids models (GFZNTOL)",$request,$target);
+        if($status ne COMPLETED)
+        {
+            $failed = 1 
+        }
+        elsif( $env->param("MERGEGFZ") )
+        {
+            my $ntolfile=$env->param('NTOLFILE',1);
+            mergeFiles($files,$ntolfile,'GRD');
+        }
+    }
+}
+
+if( $env->param('DNLDHYDL') )
+{
+    if( $env->param("MERGEGFZ") && ! $env->param('HYDLFILE',1) )
+    {
+        bernwarn("GFZ ocean loading models not downloaded as no merge file name specified");
+    }
+    else
+    {
+        my $type = 'GFZHYDL';
+        my $subtype= 'FINAL';
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$gfzstart,$gfzend);
+        my ($status,$files) = getData("GFZ ocean loading grids models (GFZHYDL)",$request,$target);
+        if($status ne COMPLETED)
+        {
+            $failed = 1 
+        }
+        elsif( $env->param("MERGEGFZ") )
+        {
+            my $hydlfile=$env->param('HYDLFILE',1);
+            mergeFiles($files,$hydlfile,'GRD');
+        }
+    }
+}
+
+if( $env->param('DNLDNTAL') )
+{
+    if( $env->param("MERGEGFZ") && ! $env->param('NTALFILE',1) )
+    {
+        bernwarn("GFZ ocean atmospheric models not downloaded as no merge file name specified");
+    }
+    else
+    {
+        my $type = 'GFZNTAL';
+        my $subtype= 'FINAL';
+        my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$gfzstart,$gfzend);
+        my ($status,$files) = getData("GFZ atmospheric loading grids models (GFZNTAL)",$request,$target);
+        if($status ne COMPLETED)
+        {
+            $failed = 1 
+        }
+        elsif( $env->param("MERGEGFZ") )
+        {
+            my $ntalfile=$env->param('NTALFILE',1);
+            mergeFiles($files,$ntalfile,'GRD');
+        }
+    }
+}
 
 if( $env->param('DNLDIGSC') )
 {
