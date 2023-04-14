@@ -530,7 +530,7 @@ if( $env->param('DNLDION') )
 if( $env->param('DNLDVMF') )
 {
     my $type = 'VMF';
-    my $subtype = 'VMF';
+    my $subtype = $env->param('VMFTYP');;
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$atmstart,$atmend);
     my ($status,$files) = getData("Vienna mapping functions",$request,$target);
     if($status ne COMPLETED)
