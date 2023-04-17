@@ -145,17 +145,16 @@ MSG_IONNAM 1  "Name for downloaded ionosphere file(s)"
 ! -------------------------------------------------------------------------
 ! Download VMF files
 ! ------------------
-DNLDVMF 1  "1"
-  ## widget = checkbox
-
-MSG_DNLDVMF 1  "Download Vienna mapping functions"
-
 VMFTYP 1  "VMF3"
   ## widget=combobox; editable=false
   ## cards = VMF1 VMF3
 
-MSG_VMFTYP 1  "VMF gridded file type"
+MSG_VMFTYP 1  "Vienna Mapping Function version"
 
+DNLDVMF 1  "1"
+  ## widget = checkbox
+
+MSG_DNLDVMF 1  "Download VMF files"
 
 MERGEVMF 1  "1"
   ## widget = checkbox; activeif = DNLDVMF = 1
@@ -505,8 +504,8 @@ DESCR_SYSERR 1  "Error message"
 #       Merge ION files to a single file             > % <                     # MERGEION
 #       Name of merged ION file                      > %%%%%%%% <              # IONFILE
 #                                                                              #
-#   Vienna Mapping Function version.                 > %%%%%%% <               # VMFTYP
-#   Download Vienna mapping function files           > % <                     # DNLDVMF
+#   Vienna Mapping Function version                  > %%%%%%% <               # VMFTYP
+#   Download VMF files                               > % <                     # DNLDVMF
 #       Merge VMF files to a single file             > % <                     # MERGEVMF
 #       Name of merged VMF file                      > %%%%%%%% <              # VMFFILE
 #                                                                              #
