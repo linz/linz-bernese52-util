@@ -447,25 +447,15 @@ if( $env->param('DNLDCLK') )
     $failed = 1 if $status ne COMPLETED;
 }
 
-# Code DCB products
+# Code OSB products
 
-if( $env->param('DNLDP1C1') )
+if( $env->param('DNLDOSB') )
 {
-    my $type = 'P1C1';
-    my $subtype= $env->param('DCBTYP');
-    my $rename=$env->param('P1C1NAM');
+    my $type = 'BIA';
+    my $subtype= $env->param('OSBTYP');
+    my $rename=$env->param('OSBNAM');
     my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
-    my ($status,$files) = getData("$subtype CODE bernese P1C1 DCB files",$request,$target,$rename);
-    $failed = 1 if $status ne COMPLETED;
-}
-
-if( $env->param('DNLDP1P2') )
-{
-    my $type = 'P1P2';
-    my $subtype= $env->param('DCBTYP');
-    my $rename=$env->param('P1P2NAM');
-    my $request = new LINZ::GNSS::DataRequest($job,$type,$subtype,$orbstart,$orbend);
-    my ($status,$files) = getData("$subtype CODE bernese P1P2 DCB files",$request,$target,$rename);
+    my ($status,$files) = getData("$subtype CODE Observation Specific Bias files",$request,$target,$rename);
     $failed = 1 if $status ne COMPLETED;
 }
 

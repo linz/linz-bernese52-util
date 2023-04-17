@@ -5,7 +5,7 @@
 !*cards IONTYP ION
 !*cards ORBTYP ORB
 !*cards VMFTYP VMF1/VMF3
-!*cards DCBTYP P1C1/P1P2
+!*cards OSBTYP BIA
 !*cards IGSCTYP IGSC
 ! Environment Variables
 ! ---------------------
@@ -169,34 +169,23 @@ VMFFILE 1  "${P}/IGS20_DD/GRD/VMF3_20230030.GRD"
 MSG_VMFFILE 1  "Name of combined VMF files"
 
 ! -------------------------------------------------------------------------
-! Download CODE monthly DCB files
+! Download CODE daily Observation Specific Bias files
 ! ------------------
-DCBTYP 1  "$(DCBTYP)"
+OSBTYP 1  "$(OSBTYP)"
   ## widget=combobox; editable=false; cards = RAPID RAPID+ FINAL
 
-MSG_DCBTYP 1  "DCB product quality, '+' = 'or better'"
+MSG_OSBTYP 1  "OSB product quality, '+' = 'or better'"
 
-DNLDP1C1 1  "1"
+DNLDOSB 1  "1"
   ## widget = checkbox
 
-MSG_DNLDP1C1 1  "Download CODE monthly P1C1 DCB files"
+MSG_DNLDOSB 1  "Download CODE daily OSB files"
 
-P1C1NAM 0
+OSBNAM 0
   ## widget=lineedit; check_strlen=24
   # 
 
-MSG_P1C1NAM 1  "Name for downloaded CODE P1C1 DCB files"
-
-DNLDP1P2 1  "1"
-  ## widget = checkbox
-
-MSG_DNLDP1P2 1  "Download CODE P1P2 DCB files"
-
-P1P2NAM 0
-  ## widget=lineedit; check_strlen=24
-  # 
-
-MSG_P1P2NAM 1  "Name for downloaded CODE P1P2 DCB files"
+MSG_OSBNAM 1  "Name for downloaded CODE OSB files"
 
 ! -------------------------------------------------------------------------
 ! Plus/minus session range in atmosphere products
@@ -469,7 +458,7 @@ DESCR_SYSERR 1  "Error message"
 
 
 # BEGIN_PANEL NO_CONDITION #####################################################
-# DOWNLOAD REFERENCE DATA - GETDATA 2: Orbit/ERP/DCB data                      # 
+# DOWNLOAD REFERENCE DATA - GETDATA 2: Orbit/ERP/OSB data                      # 
 #                                                                              #
 #   Orbit/ERP quality (+ = or better if available)   > %%%%%%% <               # ORBTYP
 #   Download orbits                                  > % <                     # DNLDORB
@@ -477,10 +466,9 @@ DESCR_SYSERR 1  "Error message"
 #   Download satellite 5 minute clock files          > % <                     # DNLDCLK
 #   (clock files only available in RAPID and FINAL)                            #
 #                                                                              #
-#   CODE DCB products                                                          #
-#      DCB product quality                           > %%%%%%% <               # DCBTYP
-#      Download monthly P1-C1 biases                 > % <                     # DNLDP1C1
-#      Download monthly P1-P2 biases                 > % <                     # DNLDP1P2
+#   CODE daily Observation Specific Bias files                                 #
+#      OSB product quality                           > %%%%%%% <               # OSBTYP
+#      Download daily OSB files                      > % <                     # DNLDOSB
 #                                                                              #
 #   Include +/- session range in orbit products      > % <                     # ORBPLUSM
 #                                                                              #
@@ -488,8 +476,7 @@ DESCR_SYSERR 1  "Error message"
 #     Name for orbit files         > %%%%%%%%%%%%%%%%%%%%%%%% <                # ORBNAM
 #     Name for ERP files           > %%%%%%%%%%%%%%%%%%%%%%%% <                # ERPNAM
 #     Name for clock files         > %%%%%%%%%%%%%%%%%%%%%%%% <                # CLKNAM
-#     Name for P1C1 bias files     > %%%%%%%%%%%%%%%%%%%%%%%% <                # P1C1NAM
-#     Name for P1P2 bias files     > %%%%%%%%%%%%%%%%%%%%%%%% <                # P1P2NAM
+#     Name for OSB bias files      > %%%%%%%%%%%%%%%%%%%%%%%% <                # OSBNAM
 #                                                                              #
 # END_PANEL ####################################################################
 
