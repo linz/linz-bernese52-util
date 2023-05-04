@@ -55,7 +55,7 @@ MSG_DNLDORB 1  "Download orbit files"
 
 ORBTYP 1  "$(ORBTYP)"
   ## widget=combobox; editable=false
-  ## cards = BROADCAST ULTRA ULTRA+ RAPID RAPID+ FINAL
+  ## cards = BROADCAST ULTRA ULTRA+ RAPID RAPID+ FINAL COD_FIN COD_RAP CO3 IG3
 
 MSG_ORBTYP 1  "Orbit type, '+' = 'or better'"
 
@@ -121,7 +121,7 @@ MSG_TRPNAM 1  "Name for downloaded troposphere files"
 
 IONTYP 1  "$(IONTYP)"
   ## widget=combobox; editable=false
-  ## cards = PREDICT PREDICT+ RAPID RAPID+ FINAL
+  ## cards = PREDICT PREDICT+ RAPID RAPID+ COD_FIN COD_RAP
 
 MSG_IONTYP 1  "Ionosphere model quality, '+' = 'or better'"
 
@@ -169,23 +169,23 @@ VMFFILE 1  "${P}/IGS20_DD/GRD/VMF3_20230030.GRD"
 MSG_VMFFILE 1  "Name of combined VMF files"
 
 ! -------------------------------------------------------------------------
-! Download CODE daily Observation Specific Bias files
+! Download daily Observation Specific Bias files
 ! ------------------
 OSBTYP 1  "$(OSBTYP)"
-  ## widget=combobox; editable=false; cards = RAPID RAPID+ FINAL
+  ## widget=combobox; editable=false; cards = RAPID RAPID+ COD_FIN COD_RAP CO3 IG3
 
 MSG_OSBTYP 1  "OSB product quality, '+' = 'or better'"
 
 DNLDOSB 1  "1"
   ## widget = checkbox
 
-MSG_DNLDOSB 1  "Download CODE daily OSB files"
+MSG_DNLDOSB 1  "Download daily OSB files"
 
 OSBNAM 0
   ## widget=lineedit; check_strlen=24
   # 
 
-MSG_OSBNAM 1  "Name for downloaded CODE OSB files"
+MSG_OSBNAM 1  "Name for downloaded OSB files"
 
 ! -------------------------------------------------------------------------
 ! Plus/minus session range in atmosphere products
@@ -319,7 +319,7 @@ CRDFILE 0
 MSG_CRDFILE 1  "Name of station file containing a list of stations to load/updated"
 
 MAXMSSTN 1  "0"
-  ## widget = spinbox; range = -100 100 1
+  ## widget = spinbox; range = -210 210 1
   ## activeif = DNLDRS_F = 1 OR DNLDRS_C = 1
 
 MSG_MAXMSSTN 1  "Maximum acceptable number of missing stations (specific station or coordinate file downloads)"
@@ -466,7 +466,7 @@ DESCR_SYSERR 1  "Error message"
 #   Download satellite 5 minute clock files          > % <                     # DNLDCLK
 #   (clock files only available in RAPID and FINAL)                            #
 #                                                                              #
-#   CODE daily Observation Specific Bias files                                 #
+#   Download daily Observation Specific Bias files                             #
 #      OSB product quality                           > %%%%%%% <               # OSBTYP
 #      Download daily OSB files                      > % <                     # DNLDOSB
 #                                                                              #
