@@ -12,10 +12,14 @@ if [ -d BPE ] ; then
         echo "Rerun using the name of an output file as a parameter"
         exit
     fi
-    BPEF=`ls BPE/${BPEF}.OUT`
-    ERRLINE=`grep 'Script finished  ERROR' ${BPEF} | head -1`
-    ERR=`grep 'Script finished  ERROR' ${BPEF} | head -1 | awk '{print ($4)}'`
-    if [ "${ERR}" = "" ] ; then
+    BPEF=$(ls BPE/${BPEF}.OUT)
+    ERRLINE=$(grep 'Script finished  ERROR' ${BPEF} | head -1)
+    ERR=$(grep 'Script finished  ERROR' ${BPEF} | head -1 | awk '{print ($4)}')
+    STARTED=$(grep 'Script started' ${BPEF} | head -1)
+    if  [ -z "$STARTED" ]; then
+        echo "PCF failed to start"
+        more "${BPEF}"
+    elif [ -z "${ERR}" ] ; then
         echo "PCF finished successfully"
     else
         echo "Error: ${ERRLINE}"
