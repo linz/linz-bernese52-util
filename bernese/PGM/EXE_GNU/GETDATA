@@ -304,6 +304,58 @@ sub mergeFiles
         print "   $type files merged to $bfile\n";
     }   
 }
+sub mergeIonFiles
+{
+    # .ION files have entries for model numbers 01 to 25, corresponding to hours 01 to 24 and 01 of the following 
+    # day.  So to merge them they must be sorted by model number and then the last entry of each day must be
+    # removed.
+    my ($files,$mergefile,$type) = @_;
+
+    my $tmpfile=$mergefile.'.tmp';
+    my $bfile=bernfile($mergefile);
+    open(my $vf, ">$tmpfile");
+    if( ! $vf )
+    {
+        berncroak("Cannot create $type file $bfile\n");
+    }
+    else
+    {
+        my @files=sort map {$_->filepath} @$files;
+        my $lastfile=$files[-1];
+        foreach my $f (@files)
+        {
+            my $secheader = '';
+            if( open(my $sf, "<".$f) )
+            {
+                foreach my $line (<$sf>)
+                {
+                    # If the line has letters or --- then it is part of the section header, 
+                    # so save it in section header until the first data line
+                    if( $line=~/[A-Z]|\-\-\-\-/ )
+                    {
+                        $secheader .= $line;
+                        next;
+                    }
+                    elsif( $secheader )
+                    {
+                        last if $f ne $lastfile && $secheader =~ /^MODEL\sNUMBER.*-25\s*$/m;
+                        print $vf $secheader;
+                        $secheader='';
+                    };
+                    print $vf $line;
+                }
+                close($sf);
+            }
+            else
+            {
+                berncroak("Cannot open downloaded $type file ".bernfile($f->filepath)."\n");
+            }
+        }
+        close($vf);
+        rename($tmpfile,$mergefile);
+        print "   $type files merged to $bfile\n";
+    }   
+}
 
 # Get the plus/minus range for the session - currently not handled properly as should
 # retrieve from MENU_VAR.INP
@@ -513,7 +565,7 @@ if( $env->param('DNLDION') )
         elsif( $env->param("MERGEION") )
         {
             my $ionfile=$env->param('IONFILE',1);
-            mergeFiles($files,$ionfile,'ION');
+            mergeIonFiles($files,$ionfile,'ION');
         }
     }
 }
