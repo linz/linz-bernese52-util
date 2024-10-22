@@ -32,6 +32,7 @@ my $addcod=$env->param('ADDCOD');
 my $rxfiles=$env->param('RXOFILE',1);
 my $rxcodsrc=$env->param('RXOCOD');
 my $maxdiff=$env->param('MAXDIFF')+0;
+my $datum = $env->param('REFINF');
 my $crdsys=$env->param('CRDSYS');
 
 my $date=seconds_datetime(time(),1);
@@ -53,8 +54,16 @@ print " Default session: $sessinfo year $year\n";
 print " Date           : $date\n";
 print " User name      : $user\n";
 print " ===============================================================================\n";
-print " \n";
+print "\n";
 print " $title\n\n";
+print " Input coordinate file:           $crdin\n";
+print " Output coordinate file:          $crdout\n";
+print " Output reference frame:          $datum\n";
+print " Output coordinate system:        $crdsys\n";
+print " Update coordinate file:          ".$update ? 'Yes' : 'No',"\n";
+print " Flag for updated coordinates:    $flgupd\n";
+print " Flag for new coordinates:        $flgnew\n";
+print " \n";
 
 my $gdb2crd=which($gdb2bernprog);
 if( ! $gdb2crd )
@@ -117,6 +126,7 @@ push(@command,'-f',$flgupd) if $flgupd ne '';
 push(@command,'-n',$flgnew) if $flgnew ne '';
 push(@command,'-m',$maxdiff) if $maxdiff > 0.0;
 push(@command,'-r',$crdsys) if $crdsys;
+push(@command,'-d',$datum) if $datum;
 push(@command,$crdout);
 push(@command,$yearday);
 push(@command,@codes);

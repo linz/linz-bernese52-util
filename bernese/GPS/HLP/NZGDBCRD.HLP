@@ -70,6 +70,11 @@ If this is not blank then new stations will be given this flag in the output
 CRD file.
 </p>
 
+<a name="REFINF" default="0"></a>
+<p><b>Output reference frame</b>
+Used in output coordinate file header (eg IGS20).
+</p>
+
 <a name="CRDSYS" default="0"></a>
 <p><b>Output coordinate system</b>
 Coordinates from the geodetic database are converted to this coordinate system.
