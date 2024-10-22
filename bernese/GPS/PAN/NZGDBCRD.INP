@@ -84,6 +84,12 @@ FLGNEW 1 ""
 
 DESCR_FLGNEW 1  "Flag given to new stations"
 
+CRDSYS   1 "ITRF2008"
+  ## widget = combobox; editable = false
+  ## cards = ITRF2000 ITRF2005 ITRF2008 ITRF2014 ITRF2020
+
+DESCR_CRDSYS 1 "ITRF coordinate system to convert GDB coords to"
+
 ! Output coordinate file
 ! --------------------
 
@@ -135,6 +141,7 @@ DESCR_SYSERR 1  "Error message"
 # Add codes in RINEX observation files         > %%%%%%%% <                    # RXOFILE
 #   Gather station codes from                  > %%%%%%%%%%%%%% <              # RXOCOD
 #                                                                              #
+# Coordinate system for output coordinates     > %%%%%%%%%%%% <                # CRDSYS
 # Flag for updated stations (blank=unchanged)  > %%%% <                        # FLGUPDT
 # Flag for new stations                        > %%%% <                        # FLGNEW
 #                                                                              #

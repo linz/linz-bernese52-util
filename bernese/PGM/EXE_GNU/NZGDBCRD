@@ -10,7 +10,7 @@ use LINZ::GNSS::Time qw/seconds_datetime seconds_yearday/;
 
 my $env = new LINZ::BERN::Environment;
 
-# Script to run the sinex2crd program installed with the LINZ::BERN perl package
+# Script to run the gdb2berncrd program installed with the LINZ::BERN perl package
 
 if(0)
 {
@@ -32,6 +32,7 @@ my $addcod=$env->param('ADDCOD');
 my $rxfiles=$env->param('RXOFILE',1);
 my $rxcodsrc=$env->param('RXOCOD');
 my $maxdiff=$env->param('MAXDIFF')+0;
+my $crdsys=$env->param('CRDSYS');
 
 my $date=seconds_datetime(time(),1);
 my $sessinfo=$env->param('SES_INFO');
@@ -115,6 +116,7 @@ push(@command,'-u') if $update;
 push(@command,'-f',$flgupd) if $flgupd ne '';
 push(@command,'-n',$flgnew) if $flgnew ne '';
 push(@command,'-m',$maxdiff) if $maxdiff > 0.0;
+push(@command,'-r',$crdsys) if $crdsys;
 push(@command,$crdout);
 push(@command,$yearday);
 push(@command,@codes);

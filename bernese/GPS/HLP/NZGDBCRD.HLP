@@ -70,6 +70,11 @@ If this is not blank then new stations will be given this flag in the output
 CRD file.
 </p>
 
+<a name="CRDSYS" default="0"></a>
+<p><b>Output coordinate system</b>
+Coordinates from the geodetic database are converted to this coordinate system.
+</p>
+
 <a name="CRDOUT" default="0"></a>
 <p><b>Output coordinate file</b>
 Name of the output coordinate file that will be generated.  This can be the same
