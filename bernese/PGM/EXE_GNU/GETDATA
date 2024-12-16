@@ -53,6 +53,7 @@ my $retry=0;
 my $queued = 0;
 my $failed = 0;
 my $unavailable={};
+my @months=qw/JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC/;
 
 #--------------------------------------------
 #  Get general parameters
@@ -906,7 +907,16 @@ if( $env->param("DNLDRS_A") )
 
             if( $updcrd && @downloaded )
             {
-                open(my $rfs,">>$refstnfile") if $refstnfile;
+                open(my $rfs,">$refstnfile") if $refstnfile;
+                if( $rfs )
+                {
+                    my ($d,$m,$y) = (localtime())[3,4,5];
+                    my $date=sprintf("%02d-%s-%04d",$d,$months[$m],$y+1900);
+                    print $rfs "Refence stations                                         $date\n";
+                    print $rfs "--------------------------------------------------------------------------------\n\n";
+                    print $rfs "Station name\n";
+                    print $rfs "****************\n";
+                }
                 foreach my $ds (@downloaded)
                 {
                     my $name=$ds->{name};
