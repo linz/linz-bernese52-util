@@ -1,0 +1,27 @@
+package GNSSCRD;
+@ISA = ("RUNBPE");
+# ============================================================================
+#
+# Name    :  GNSSCRD
+#
+# Purpose :  Execute GNSSCRD
+#
+# PARAMs  :
+#
+# Author  :  Chris Crook
+# Created :  20 March 2014
+#
+# Changes :
+#
+# ============================================================================
+use strict;
+
+sub run {
+  my $bpe = shift;
+
+# Run program
+# -----------
+  my $PGMNAM = "GNSSCRD";
+  $bpe->RUN_PGMS($PGMNAM);
+
+}

@@ -1,0 +1,149 @@
+
+! Environment Variables
+! ---------------------
+ENVIRONMENT 1 "" ""
+  ## widget = initmenu; pointer = ENVIR_LIST
+
+! SOME KEYWORDS FOR AUTOMATIC OUTPUT
+! ----------------------------------
+CAMPAIGN 1  "${P}/PNZPP1"
+  ## widget = initmenu; pointer = ACTIVE_CAMPAIGN
+
+SESSION_TABLE 1  "${P}/PNZPP1/STA/SESSIONS.SES"
+  ## widget = initmenu; pointer = SESSION_TABLE
+
+DESCR_SESSION_TABLE 1  "Session table"
+
+YR4_INFO 1  "$Y+0"
+  ## widget = comment
+
+SES_INFO 1  "302Y"
+  ## widget = comment
+  # $S+0
+
+USR_INFO 1  "${USER}"
+  ## widget = comment
+
+
+! Title line
+! ----------
+
+TITLE 1  "Update coordinates from NZ geodetic database"
+  ## widget = lineedit
+
+MSG_TITLE 1  "Title line"
+
+! Input coordinate file
+! --------------------
+
+CRDIN 1  ""
+  ## widget = selwin; path = DIR_CRD; ext = EXT_CRD; maxfiles = 1; emptyallowed = true
+
+DESCR_CRDIN 1  "Coordinate file"
+
+UPDATE 1  "1"
+  ## widget = checkbox; activeif = CRDIN /= ""
+
+DESCR_UPDATE 1  "Update existing coordinates"
+
+MAXDIFF 1  "0.0"
+  ## widget = lineedit; emptyallowed = true; check_type = real
+  ## check_min = 0.0; activeif = CRDIN /= ""
+
+DESCR_MAXDIFF 1  "Maximum permitted coordinate change or 0 for no limit"
+
+CODES 1  ""
+  ## widget = lineedit
+
+MSG_CODES 1  "List of geodetic codes to update - default is all"
+
+! Flags for stations in .CRD file
+
+FLGUPDT 1 ""
+   ## widget = lineedit; emptyallowed = true; check_strlen = 4; activeif = CRDIN /= ""
+
+DESCR_FLGUPDT 1  "Flag given to updated stations - blank to leave unchanged"
+
+! Specifications for calculating coordinates from processing results
+
+STRATEGY 1  "d20f"
+  ## widget = lineedit
+
+MSG_TITLE 1  "Strategies to search for coordinates - first with coordinates will be used"
+
+NDAYS 1 "30"
+   ## widget = lineedit; emptyallowed = true; check_type = integer
+
+DESCR_NDAYS 1  "Number of days to search for processed coordinates"
+
+MINDAYS   1 "15"
+   ## widget = lineedit; emptyallowed = true; check_type = integer
+
+DESCR_MINDAYS 1 "Minimum number of daily coordinates required to use average"
+
+METHOD   1 "MEAN"
+  ## widget = combobox; editable = false
+  ## cards = MEAN MEDIAN
+
+DESCR_METHOD 1 "Coordinate calculation method"
+
+! Output coordinate file
+! --------------------
+
+CRDOUT 1  ""
+  ## widget = lineedit; path = DIR_CRD; ext = EXT_CRD; 
+
+DESCR_CRDOUT 1  "Output coordinate file"
+
+! Program Output File
+! -------------------
+SYSODEF 1  "1"
+  ## widget = checkbox
+
+MSG_SYSODEF 1  "Program output"
+
+SYSOUT 1  ""
+  ## widget = lineedit; path = DIR_OUT; ext = EXT_OUT
+  ## activeif = SYSODEF == 0; emptyallowed = false
+  # GNSSCRD
+
+DESCR_SYSOUT 1  "Program output"
+
+! Error Message File
+! ------------------
+ERRMRG 1  "0"
+  ## widget = checkbox
+
+MSG_ERRMRG 1  "Error message"
+
+SYSERR 1  ""
+  ## widget = lineedit; path = PTH_ERR; ext = EXT_ERR
+  ## activeif = ERRMRG == 0; emptyallowed = false
+  # ERROR
+
+DESCR_SYSERR 1  "Error message"
+
+
+# BEGIN_PANEL NO_CONDITION #####################################################
+# GNSSCRD: UPDATE COORDINATES FROM GNSS PROCESSING DATABASE                    #
+#                                                                              #
+# TITLE > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # TITLE
+#                                                                              #
+# Input coordinate file                      > %%%%%%%%%%%%%% <  (optional)    # CRDIN
+# Processing strategy                        > %%%%%%%%%%%%%%%%%%%%%%%%%%%%% < # STRATEGY
+# Number of days coordinates to use            > %%%%%%%% <                    # NDAYS
+# Minimum number of sessions to average        > %%%%%%%% <                    # MINDAYS
+# Coordinate calculation method                > %%%%%%%% <                    # METHOD  
+# Maximum coordinate change (0=no limit)       > %%%%%%%% <                    # MAXDIFF
+# Flag for updated stations (blank=unchanged)  > %%%% <                        # FLGUPDT
+#                                                                              #
+# Update codes  > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% <   # CODES
+#                                                                              #
+# Output coordinate file (blank=input file)    > %%%%%%%%%%%% <                # CRDOUT
+#                                                                              #
+# OUTPUT FILES                                                                 #
+#                                                                              #
+#   Program output          > % < use GNSSCRD.Lnn           or    > %%%%%%%% < # SYSODEF SYSOUT
+#   Error messages          > % < merged to program output  or    > %%%%%%%% < # ERRMRG SYSERR
+#                                                                              #
+# END_PANEL ####################################################################
